@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1080" />
+<title>开门的时候 · 猎德研究海报</title>
+<link rel="stylesheet" href="poster.css" />
+<script src="chart.js" defer></script>
+</head>
+<body>
+<article class="poster" id="poster">
+
+  <!-- 1 标题 -->
+  <header class="hero">
+    <img class="hero-img" src="assets/hero.jpg" alt="猎德村祠堂檐下框景，远处为珠江新城超高层" />
+    <div class="hero-top mono">
+      <span>UCUG3801 · 社会不平等与社会流动</span>
+      <span>LIEDE, GUANGZHOU — 2026</span>
+    </div>
+    <div class="hero-title">
+      <p class="kicker">猎德街公共文化设施的时间可及性研究</p>
+      <h1>开门的时候，<br />你在上班吗？</h1>
+    </div>
+    <dl class="meta">
+      <dt>组员</dt><dd>林一然 · 陈思远 · 王可欣 · 赵子航</dd>
+      <dt>实地</dt><dd>2026.11.07（周六）猎德村 — 猎德街</dd>
+      <dt>证据</dt><dd><b>A</b>实地观察与影像 <b>B</b>设施环境审计 <b>C</b>目录与文献</dd>
+    </dl>
+    <p class="hero-credit mono">猎德村祠堂檐下望珠江新城 · 本组摄 2026.11.07</p>
+  </header>
+
+  <!-- 研究问题 -->
+  <section class="question">
+    <p class="label">研究问题</p>
+    <p class="q-text">猎德街公共文化设施的开放时段，如何影响工作与照护日程不同的居民，把“家门口的设施”转化为实际可用的机会？</p>
+  </section>
+
+  <!-- 2 背景 · 3 概念 -->
+  <section class="frame">
+    <div class="col">
+      <p class="label"><i>01</i>社区背景</p>
+      <p>猎德被称为“广州城中村改造第一村”：2007 年拆迁，2010 年村民回迁 [7]。空间已然跃升，但居住改善与社会融入并不同步 [1,6]。</p>
+    </div>
+    <div class="col">
+      <p class="label"><i>02</i>概念 · 时空制约</p>
+      <p>时间地理学认为，人只有在特定时间抵达特定地点，才能获得机会；固定工时与照护责任会压缩个人的“可达”范围 [3]。</p>
+    </div>
+    <div class="col">
+      <p class="label"><i>03</i>概念 · 实质可及性</p>
+      <p>可及性由土地利用、交通、时间与个人四要素共同决定 [4]。设施“存在”只是供给，与个人日程交叠后才成为机会。</p>
+    </div>
+  </section>
+
+  <!-- 4 发现一：时间 -->
+  <section class="finding-time">
+    <div class="sec-head">
+      <div>
+        <p class="label"><i>04</i>发现一 · 时间</p>
+        <h2>八处设施，晚上六点以后全部关门</h2>
+      </div>
+      <div class="legend mono">
+        <span><i class="k-open"></i>登记开放</span>
+        <span><i class="k-free"></i>假设：上班族空闲</span>
+        <span><i class="k-hit"></i>重叠 = 可用</span>
+      </div>
+    </div>
+    <div class="week-charts">
+      <figure class="week" data-kind="community">
+        <figcaption><b>社区综合性文化服务中心</b><span class="mono">× 7 处 · 时段相同</span></figcaption>
+        <svg class="week-svg" aria-label="社区中心一周开放时段"></svg>
+      </figure>
+      <figure class="week" data-kind="station">
+        <figcaption><b>猎德街文化站</b><span class="mono">× 1 处 · 海文路 33 号</span></figcaption>
+        <svg class="week-svg" aria-label="街道文化站一周开放时段"></svg>
+      </figure>
+    </div>
+    <div class="stats">
+      <div><b><span data-stat="after18">0</span><small>h</small></b><p>8 处设施工作日 18 时后的登记开放时长</p></div>
+      <div><b class="red"><span data-stat="overlapCommunity">3</span><small>h</small></b><p>社区中心每周与上班族空闲的重叠，只在周六上午</p></div>
+      <div><b><span data-stat="overlapStation">14</span><small>h</small></b><p>文化站周末可用时间更长，但全街道仅此一处</p></div>
+    </div>
+    <p class="caption">图1　按《天河区公共文化设施目录》2026-05-22 版登记时段绘制 [5]。空闲时段（工作日 19–22 时、周末 9–22 时）为假设情景，非居民调查结果。</p>
+  </section>
+
+  <!-- 5 发现二：两个社区 -->
+  <section class="finding-pair">
+    <div class="pair">
+      <p class="label"><i>05</i>发现二 · 两个社区</p>
+      <h3>时段相同，门槛未必相同</h3>
+      <table class="duel">
+        <thead><tr><th>猎德社区</th><th></th><th>利民社区</th></tr></thead>
+        <tbody>
+          <tr><td>48 h</td><th>每周开放</th><td>48 h</td></tr>
+          <tr><td>3 h</td><th>周末开放</th><td>3 h</td></tr>
+          <tr><td class="bar l"><span style="--w:100%"></span>227 ㎡</td><th>登记面积</th><td class="bar r"><span style="--w:79.3%"></span>180 ㎡</td></tr>
+          <tr class="diff"><td>首层商铺</td><th>所在楼层</th><td>二楼</td></tr>
+        </tbody>
+      </table>
+      <p class="caption">图2　纸面差别只有楼层与面积（楼层据目录地址判断）；入口、电梯与活动公告待现场复核 [5]。</p>
+    </div>
+    <figure class="sculpture">
+      <img src="assets/sculpture.jpg" alt="猎德村雕塑《安居乐业》：读书的孩子、执扇起舞者与拉二胡的老人" />
+      <figcaption>雕塑《安居乐业》中的读书、扇舞与二胡——官方叙事里的社区文化生活；这样的闲暇，恰是上班族在登记时段内最难拥有的。· 本组摄</figcaption>
+    </figure>
+  </section>
+
+  <!-- 6 社会学分析 -->
+  <section class="analysis">
+    <p class="label"><i>06</i>社会学分析 · 从“有设施”到“能使用”</p>
+    <ol class="funnel">
+      <li><span class="mono">供给</span><b>8 处 · 2,632 ㎡</b><p>目录登记的设施与面积</p></li>
+      <li><span class="mono">时间门</span><b>工作日晚间 0 h</b><p>固定工时、轮班与照护者先被筛出</p></li>
+      <li><span class="mono">空间门</span><b>长时段仅 1 处</b><p>面积为 7 处社区中心之和的 1.6 倍</p></li>
+      <li class="end"><span class="mono">使用</span><b>参与 → 社会资本</b><p>预约、信息与容量仍待核验</p></li>
+    </ol>
+    <div class="argument">
+      <p><b>社会分层</b>　时间是分配不均的资源：工作日白天能到场的多是退休者与全职照护者；固定工时的雇员与外来务工者更依赖晚间与周末。</p>
+      <p><b>机会的转写</b>　统一的白天时段，可能把劳动市场位置的差异转写为文化参与的差异，再经由活动中结识的人与信息，影响社会资本的积累 [3,4]。</p>
+    </div>
+  </section>
+
+  <!-- 7 结论 · 局限 -->
+  <section class="closing">
+    <div class="conclusion">
+      <p class="label"><i>07</i>结论</p>
+      <p class="lead">猎德街不缺设施，<br />缺的是与上班族时间的交叠。</p>
+      <p>开放时段本身就可能是一道筛选机制，把谁在工作、何时工作的差异，延伸为谁能参与社区文化生活的差异。</p>
+      <p class="next"><span class="mono">下一步</span>晚间是否有未登记的活动？谁在使用，谁从未走进去？</p>
+    </div>
+    <div class="limits">
+      <p class="label"><i>08</i>局限与反身性</p>
+      <ol>
+        <li><b>只有登记时段。</b>若晚间有临时活动，错位会被高估。</li>
+        <li><b>空闲时段为假设。</b>只说明潜在不匹配，不能断言某一群体被排斥。</li>
+        <li><b>实地仅一天，未入室内。</b>两社区的入口与活动差异尚无法比较。</li>
+      </ol>
+      <p class="reflex">我们在周六到访，社区中心只开上午三小时；我们看到的“社区生活”，本身也经过了时段的筛选。</p>
+    </div>
+  </section>
+
+  <!-- 8 参考文献 -->
+  <footer class="refs">
+    <ol>
+      <li>Yuan, D., Yau, Y., Bao, H., Liu, Y., &amp; Liu, T. (2019). Anatomizing the institutional arrangements of urban village redevelopment. <i>Sustainability, 11</i>(12), 3376.</li>
+      <li>Wong, S. W., Chen, X., Tang, B., &amp; Liu, J. (2024). Neoliberal state intervention and the power of community in urban regeneration. <i>Journal of Planning Education and Research, 44</i>(2), 619–631.</li>
+      <li>Kwan, M.-P. (1999). Gender and individual access to urban opportunities. <i>Professional Geographer, 51</i>(2), 210–227.</li>
+      <li>Geurs, K., &amp; van Wee, B. (2023). Accessibility: Perspectives, measures and applications. In <i>The Transport System and Transport Policy</i> (2nd ed.). Edward Elgar.</li>
+      <li>天河区文化广电旅游体育局. (2026). 天河区公共文化设施目录（2026-05-22 版）.</li>
+      <li>潘卓林, 刘晔, 刘于琪, 李志刚. (2020). 基于场域理论的城中村村民市民化研究. <i>热带地理, 40</i>(6), 981–992.</li>
+      <li>天河区地方志编纂委员会办公室. 天河年鉴（2011 年度）· 猎德街, p. 458.</li>
+    </ol>
+    <p class="colophon mono"><span>图片除注明外为本组实地拍摄，已裁去可识别人物 · 字体 Noto Serif/Sans SC、IBM Plex Mono（SIL OFL）</span><span>LIEDE FIELD STUDY · 9:16</span></p>
+  </footer>
+</article>
+</body>
+</html>

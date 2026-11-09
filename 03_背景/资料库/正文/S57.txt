@@ -1,0 +1,206 @@
+来源编号 S57
+标题 Kwan1999大学机构库书目与摘要
+原始网址 https://experts.illinois.edu/en/publications/gender-and-individual-access-to-urban-opportunities-a-study-using/
+核对日期 2026-11-09T10:10:15.378387+00:00
+
+Gender and individual access to urban opportunities: A study using space–time measures - Illinois Experts
+Skip to main navigation
+Skip to search
+Skip to main content
+Illinois Experts Home
+LOGIN & Help
+!!Link opens in a new tab
+!!Search content at Illinois Experts
+Home
+Profiles
+Research units
+Research & Scholarship
+Datasets
+Honors
+Press/Media
+Activities
+Gender and individual access to urban opportunities: A study using space–time measures
+Mei Po Kwan
+Research output
+:
+Contribution to journal
+›
+Article
+›
+peer-review
+Overview
+Fingerprint
+Abstract
+Conventional accessibility measures based on the notion of locational proximity ignore the role of complex travel behavior and space–time constraints in determining individual accessibility. As these factors are especially significant in women's everyday lives, all conventional accessibility measures suffer from an inherent “gender bias.” This study conceptualizes individual accessibility as space–time feasibility and provides formulations of accessibility measures based on the space–time prism construct. Using a subsample of European Americans from a travel diary data set collected in Franklin County, Ohio, space–time accessibility measures are implemented with a network-based GIS method. Results of the study indicate that women have lower levels of individual access to urban opportunities when compared to men, although there is no difference in the types of opportunities and areas they can reach given their space–time constraints. Further, individual accessibility has no relationship with the length of the commute trip, suggesting that the journey to work may not be an appropriate measure of job access.
+Original language
+English (US)
+Pages (from-to)
+210-227
+Number of pages
+18
+Journal
+Professional Geographer
+Volume
+51
+Issue number
+2
+DOIs
+https://doi.org/10.1111/0033-0124.00158
+State
+Published -
+May 1 1999
+Externally published
+Yes
+Keywords
+Accessibility
+Gender
+Space–time constraints
+Urban opportunities
+ASJC Scopus subject areas
+Geography, Planning and Development
+Earth-Surface Processes
+Online availability
+10.1111/0033-0124.00158
+Library availability
+Discover UIUC Full Text
+Related links
+Link to publication in Scopus
+Link to the citations in Scopus
+Fingerprint
+Dive into the research topics of 'Gender and individual access to urban opportunities: A study using space–time measures'. Together they form a unique fingerprint.
+Urban Opportunities
+Keyphrases
+100%
+Accessibility Evaluation
+Keyphrases
+100%
+Individual Access
+Keyphrases
+100%
+Travel Behavior
+Social Sciences
+100%
+Commuting
+Social Sciences
+100%
+Individual Accessibility
+Keyphrases
+75%
+Space-time Constraints
+Keyphrases
+50%
+European American
+Keyphrases
+25%
+View full fingerprint
+Cite this
+APA
+Standard
+Harvard
+Vancouver
+Author
+BIBTEX
+RIS
+Kwan, M. P. (1999).
+Gender and individual access to urban opportunities: A study using space–time measures
+.
+Professional Geographer
+,
+51
+(2), 210-227.
+https://doi.org/10.1111/0033-0124.00158
+Gender and individual access to urban opportunities: A study using space–time measures.
+/ Kwan, Mei Po.
+In:
+Professional Geographer
+, Vol. 51, No. 2, 01.05.1999, p. 210-227.
+Research output
+:
+Contribution to journal
+›
+Article
+›
+peer-review
+Kwan, MP 1999, '
+Gender and individual access to urban opportunities: A study using space–time measures
+',
+Professional Geographer
+, vol. 51, no. 2, pp. 210-227.
+https://doi.org/10.1111/0033-0124.00158
+Kwan MP.
+Gender and individual access to urban opportunities:
+A study using space–time measures
+.
+Professional Geographer
+. 1999 May 1;51(2):210-227. doi: 10.1111/0033-0124.00158
+Kwan, Mei Po. /
+Gender and individual access to urban opportunities : A study using space–time measures
+. In:
+Professional Geographer
+. 1999 ; Vol. 51, No. 2. pp. 210-227.
+@article{dd9a2c49c9d54b7086e4607b6210600b,
+title = "Gender and individual access to urban opportunities: A study using space{\textendash}time measures",
+abstract = "Conventional accessibility measures based on the notion of locational proximity ignore the role of complex travel behavior and space{\textendash}time constraints in determining individual accessibility. As these factors are especially significant in women's everyday lives, all conventional accessibility measures suffer from an inherent {\textquotedblleft}gender bias.{\textquotedblright} This study conceptualizes individual accessibility as space{\textendash}time feasibility and provides formulations of accessibility measures based on the space{\textendash}time prism construct. Using a subsample of European Americans from a travel diary data set collected in Franklin County, Ohio, space{\textendash}time accessibility measures are implemented with a network-based GIS method. Results of the study indicate that women have lower levels of individual access to urban opportunities when compared to men, although there is no difference in the types of opportunities and areas they can reach given their space{\textendash}time constraints. Further, individual accessibility has no relationship with the length of the commute trip, suggesting that the journey to work may not be an appropriate measure of job access.",
+keywords = "Accessibility, Gender, Space{\textendash}time constraints, Urban opportunities",
+author = "Kwan, \{Mei Po\}",
+note = "* This research was supported by grants from the National Science Foundation (grant \#SBR-9529780) and the Committee on Urban Affairs, Ohio State University. Another NSF grant (\#SBR-9512451) enabled the acquisition of the SGI Power Challenge server used for the computation in this study. I am grateful to Stuart Aitken and the anonymous reviewers for their helpful comments.",
+year = "1999",
+month = may,
+day = "1",
+doi = "10.1111/0033-0124.00158",
+language = "English (US)",
+volume = "51",
+pages = "210--227",
+journal = "Professional Geographer",
+issn = "0033-0124",
+publisher = "Taylor and Francis Ltd.",
+number = "2",
+}
+TY - JOUR
+T1 - Gender and individual access to urban opportunities
+T2 - A study using space–time measures
+AU - Kwan, Mei Po
+N1 - * This research was supported by grants from the National Science Foundation (grant #SBR-9529780) and the Committee on Urban Affairs, Ohio State University. Another NSF grant (#SBR-9512451) enabled the acquisition of the SGI Power Challenge server used for the computation in this study. I am grateful to Stuart Aitken and the anonymous reviewers for their helpful comments.
+PY - 1999/5/1
+Y1 - 1999/5/1
+N2 - Conventional accessibility measures based on the notion of locational proximity ignore the role of complex travel behavior and space–time constraints in determining individual accessibility. As these factors are especially significant in women's everyday lives, all conventional accessibility measures suffer from an inherent “gender bias.” This study conceptualizes individual accessibility as space–time feasibility and provides formulations of accessibility measures based on the space–time prism construct. Using a subsample of European Americans from a travel diary data set collected in Franklin County, Ohio, space–time accessibility measures are implemented with a network-based GIS method. Results of the study indicate that women have lower levels of individual access to urban opportunities when compared to men, although there is no difference in the types of opportunities and areas they can reach given their space–time constraints. Further, individual accessibility has no relationship with the length of the commute trip, suggesting that the journey to work may not be an appropriate measure of job access.
+AB - Conventional accessibility measures based on the notion of locational proximity ignore the role of complex travel behavior and space–time constraints in determining individual accessibility. As these factors are especially significant in women's everyday lives, all conventional accessibility measures suffer from an inherent “gender bias.” This study conceptualizes individual accessibility as space–time feasibility and provides formulations of accessibility measures based on the space–time prism construct. Using a subsample of European Americans from a travel diary data set collected in Franklin County, Ohio, space–time accessibility measures are implemented with a network-based GIS method. Results of the study indicate that women have lower levels of individual access to urban opportunities when compared to men, although there is no difference in the types of opportunities and areas they can reach given their space–time constraints. Further, individual accessibility has no relationship with the length of the commute trip, suggesting that the journey to work may not be an appropriate measure of job access.
+KW - Accessibility
+KW - Gender
+KW - Space–time constraints
+KW - Urban opportunities
+UR - https://www.scopus.com/pages/publications/0002671071
+UR - https://www.scopus.com/pages/publications/0002671071#tab=citedBy
+U2 - 10.1111/0033-0124.00158
+DO - 10.1111/0033-0124.00158
+M3 - Article
+AN - SCOPUS:0002671071
+SN - 0033-0124
+VL - 51
+SP - 210
+EP - 227
+JO - Professional Geographer
+JF - Professional Geographer
+IS - 2
+ER -
+Powered by
+Pure
+!!Link opens in a new tab
+,
+Scopus
+!!Link opens in a new tab
+&
+Elsevier Fingerprint Engine™
+!!Link opens in a new tab
+All content on this site: Copyright © 2026 Illinois Experts, its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply
+We use cookies to help provide and enhance our service and tailor content. By continuing you agree to the
+use of cookies
+Log in to Illinois Experts
+!!Link opens in a new tab
+Illinois Experts data protection policy
+!!Link opens in a new tab
+About web accessibility
+!!Link opens in a new tab
+Report vulnerability
+!!Link opens in a new tab
+Contact us

@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=0">
+		<title>
+              中华人民共和国公共文化服务保障法
+           
+           </title>
+                <link href="//www.gov.cn/govweb/xhtml/favicon.ico" rel="shortcut icon" type="image/x-icon"> 
+                <meta name="SiteName" content="中华人民共和国文化和旅游部">
+<meta name="SiteDomain" content="www.mct.gov.cn">
+<meta name="SiteIDcode" content="bm23000001">
+<meta name="ArticleTitle" content="文化和旅游部政务公开数据">
+<meta name="ColumnName" content="部门规章"  />
+<meta name="ColumnDescription" content="部门规章"  />
+<meta name="ColumnType" content="部门规章"  />
+<meta name="ColumnKeywords" content="部门规章"  />
+<meta name="PubDate" content="2016-12-25 00:00"/>
+<meta name="ContentSource" content=""/>
+		<link rel="stylesheet" type="text/css" href="../../../../images/base.css" />
+		<link rel="stylesheet" type="text/css" href="../../../../images/xxgk_1012.css" />
+		<link rel="stylesheet" type="text/css" href="../../../../images/style_left.css" />
+		<link rel="stylesheet" type="text/css" href="../../../../images/mobile_1012.css" media="screen and (max-width:767px) and (orientation:portrait)" />
+		<!--[if lt IE 9]>
+		<script type="text/javascript" src="../../../../images/respond.min.js"></script>
+		<![endif]-->
+		<script src="../../../../images/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../../../../images/h5.js"></script>
+		<script src="../../../../images/resize.js"></script>
+		<script src="../../../../images/index.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../../../../images/left_menu.js" type="text/javascript" charset="utf-8"></script>
+		<!--<script src="../../../../images/selfDefined.js" type="text/javascript" charset="utf-8"></script>-->
+<script>
+function setFontSize(obj,size){
+document.getElementByIdx_x('newsdetail-content-text').style.fontSize=size+'px';
+}
+</script>
+<style>
+.content_head{border: #999999 1px solid;}
+.xlmainCo dl dt{text-align: justify;color: #135194;}
+.xlmainCo dl dd{padding-left:0;}
+</style>
+	</head>
+
+	<body>
+		<!--<div class="header clearfix">
+			</div>-->
+		<div class="boxcenter">
+			<!--mainbox开始-->
+			<div class="mainbox clearfix">
+				<div class="mainCont clearfix">
+					<div class="mainTop">
+						<!--<div class="lineGreyl fl"></div>-->
+						<style>
+.searchBox{width: 510px;height: 50px;background: url(http://192.168.73.9/preview/xxgk/images/searBg_03.png) no-repeat center center;margin: 0px auto;position: relative;}
+.searchBox .searchInput{width: 440px;
+    height: 46px;
+    margin-top: 2px;
+    margin-left: 5px;font-size: 18px;line-height: 46px;background-color:transparent; border:none; box-shadow: 0px 0px 0px 0px;outline:0;}
+.searchBox .searBtn{background: url(http://192.168.73.9/preview/xxgk/images/xxgk_03.jpg) no-repeat center center;width: 65px;height: 50px;display: inline-block;position: absolute;cursor: pointer;background-color:transparent; border:none;outline:0; box-shadow: 0px 0px 0px 0px;}
+	</style>
+
+
+                    
+                    <form class="sear-down">
+
+                  
+                    
+                        
+                        
+                           
+                           
+                  <div class="searchBox">
+    <input class="searchInput" type="text" id="allSearchWord" name="allSearchWord" autocomplete="off" onFocus="getTip(this)" placeholder="" style="" />
+   <input id="btnSearch" type="button" onclick="searchProcess(&quot;&quot;, 1)" class="searBtn" />
+</div>
+                       
+                    </form>
+                    
+
+      
+
+
+
+
+
+<script type="text/javascript">
+    var ctx = "http://zs.kaipuyun.cn";
+    //var value = "";
+    /*if(stringNotEmpty(value)){
+        value = value.replace("/","");
+        ctx = "/"+ value;
+    }*/
+    $(document).ready(function(){
+        var siteCode = "bm23000001";
+        if(siteCode=="3205000002") {
+            $("#selectHint").css("margin-left",93);
+        }
+    });
+    var webConfig = "热搜词,下拉词联想,缩略图显示带图文章,高级搜索,最新消息,搜索结果含图片搜索,文号搜索,相关推荐（底部）,文号表格,";
+    var keypos = -1;//
+    var left_right_flag =""
+    if ($("#left_right_flag").val()!="" && $("#left_right_flag").val()!=null) {
+        left_right_flag =$("#left_right_flag").val();
+    }
+    var liSum = 0; //li总长度
+    $(function () {
+        $.ajaxSetup({
+            async: false
+        });
+        // 获得标题
+        getTitle();
+
+        /*
+         * 监听input中value变化
+         **/
+        /*
+         * 监听input中value变化
+         **/
+        if (document.all) {
+            input = document.getElementById("allSearchWord");
+        }else{
+            input = document.querySelector("#allSearchWord");
+        }
+        function init() {
+            if ('oninput' in input) {//IE9+
+                input.addEventListener('input', action, false)
+            } else {//ie8-
+                input.attachEvent('onpropertychange', action);
+            }
+        }
+
+        init();
+
+
+    });
+    //跨浏览器事件函数
+    function addEvent(element, type, handler) {
+        if (element.addEventListener) {
+            element.addEventListener(type, handler, false);
+        } else if (element.attachEvent) { //兼容ie
+            element.attachEvent('on' + type, handler);
+        } else {
+            element['on' + type] = handler;
+        }
+    }
+
+    //获取map中返回值
+    function getMapValue(map,target){
+        var returnValue="";
+        if(map != null){
+            $.each(map, function (key, value) {
+                if(target==key){
+                    returnValue = value;
+                    return;
+                }
+            });
+        }
+        return returnValue;
+    }
+    //存储最后搜索的信息
+    var allSearchWordTemp ="";
+    var columnTemp = "";
+    /*
+     * 监听input中value变化
+    **/
+    function action() {
+        //下拉提示是否开启
+        if (webConfig.indexOf("下拉词联想") < 0) {
+            return;
+        }
+        $("#searchStamp").val(0);
+        var search = document.getElementById("selectHint");
+
+        var siteCode =  'bm23000001';//ReplaceUtil.repScriptInject("bm23000001",rule)
+        var allSearchWord = $("#allSearchWord").val().replace(/(^\s*)|(\s*$)/g, "");
+
+
+        /*   //镇江搜索框为空时，没有热搜词提醒
+           if(siteCode=='3211000002' && (allSearchWord == ""||allSearchWord == null)){
+               return ;
+           }*/
+        setTimeout(function(){
+            //等待一小段时间后再次取值,如果两次取值相同则说明输入完毕
+            var allSearchWord2 = $("#allSearchWord").val().replace(/(^\s*)|(\s*$)/g, "");
+
+            /*//镇江搜索框为空时，没有热搜词提醒
+            if(siteCode=='3211000002' && (allSearchWord == ""||allSearchWord == null)){
+                return ;
+            }*/
+
+            if(allSearchWord==allSearchWord2){
+                //每次输入结束后都赋值
+                allSearchWordTemp = allSearchWord;
+                columnTemp = $("#column").val();
+                $.ajax({
+                    type: "POST",
+                    dataType: "json",
+                    url: "https://zs.kaipuyun.cn/tip",
+                    async: true,
+                    data: {searchWord: encodeURIComponent(allSearchWord),
+                        column:$("ol li a.on").text(),
+                        siteCode:siteCode
+                    },
+                    success: function (returnData) {
+                        if (returnData == null) {
+                            search.style.display = 'none';
+                            return;
+                        }
+                        var reSearchWord = getMapValue(returnData,"searchWord");
+                        var reColumn = getMapValue(returnData,"column");
+                        //若本次查询所用搜索词,栏目和最后的输入不一致,则不进行任何处理
+                        if(reSearchWord != allSearchWordTemp ||  (columnTemp!=undefined && reColumn != "" && reColumn != columnTemp)){
+                            //console.log("zhengzheng.log: error data->return:reSearchWord:"+reSearchWord+"---allSearchWordTemp:"+allSearchWordTemp+"---columnTemp:"+columnTemp+"---reColumn:"+reColumn);
+                            return;
+                        }
+                        var data = getMapValue(returnData,"dataList");
+                        if(data == null || data == [] || data.length == 0){
+                            search.style.display = 'none';
+                            return;
+                        }
+
+                        var _tmpUl = document.createDocumentFragment(); //创建文档碎片节点
+                        data=unique(data);
+                        for (var i in data) {
+                            if(i <10){
+                                tds = document.createElement('li');
+                                var text = document.createTextNode(data[i]); //创建包含文本text的文本节点
+                                tds.appendChild(text);
+                                _tmpUl.appendChild(tds);
+                            }
+                        };
+                        $('#selectHint').empty();
+                        search.appendChild(_tmpUl)
+                        search.style.display = 'block';
+                        if(stringNotEmpty(allSearchWord) && allSearchWord != 'l' && allSearchWord != 'i' && allSearchWord != 'li'){
+                            var allHtml = $("#selectHint").html();
+                            allHtml = allHtml.replace(new RegExp("(" + allSearchWord + ")","g"),"<span style='color: #cc0000;'>"+allSearchWord+"</span>");
+                            $("#selectHint").html(allHtml);
+                        }
+                        if(document.all){
+                            if($('#selectHint li').text()==0){
+                                search.style.display = 'none';
+                            }
+                        }
+                        addEvent(search, 'click', function (event) {
+                            var event = event || window.event;
+                            var target = event.target || event.srcElement;
+                            if(target.localName == 'span'){
+                                target = target.parentElement;
+                            }
+                            input.value = target.innerText;
+                            search.style.display = 'none';
+                            searchWord = target.innerText;
+                            searchProcess(searchWord, 1);
+                        });
+                        var ull = document.getElementById('selectHint');
+                        var uli = ull.getElementsByTagName('li');
+                        // 滑过滑过、离开、点击每个选项时
+                        for (var i = 0; i < uli.length; i++) {
+
+                            uli[i].index = i;  //记录下标
+                            uli[i].onmouseover = function () {
+                                keypos = this.index//划过每个下拉内容时获取到下标
+                                for (var i = 0; i < uli.length; i++) {
+                                    uli[i].style.background = "#fff";
+                                }
+                                uli[this.index].style.background = "#f3f3f3";
+                            };
+
+                            uli[i].onmouseout = function () {
+                                this.style.background = "#fff";
+                                uli[keypos].style.background = "#fff";
+                            }
+                        }
+                    }
+                });
+            }
+        }, 350 );
+    }
+    // 搜索框输入内容展示提示信息
+    $("#searchCon").bind("input", function () {
+        var searchCon = $("#searchCon").val();
+        if (searchCon.length >= 2) {
+            $.post("https://zs.kaipuyun.cn/search/tip", {searchCon: searchCon}, function (data) {
+                $("#tipCon").empty();
+                var appToTipCon = "";
+                $(data).each(function () {
+                    $("#searchTip").css("display", "block");
+                    appToTipCon = appToTipCon + "<li onclick='showTip(\"" + this + "\")'>" + this + "</li>";
+                });
+                $("#tipCon").append(appToTipCon);
+            }, "json");
+        }
+    });
+
+    // 点击提示信息
+    function showTip(showCon) {
+        $("#searchCon").val(showCon);
+    }
+    var titleDates=[];
+    var columns = '[{"channel":"信息公开","id":4888,"indexChannel":"信息公开","isDeleted":0,"isOpen":1,"lorder":2,"showLable":1,"siteCode":"bm23000001"}]';
+    titleDates = eval("("+columns+")");
+    // 画面初期获得标题
+    function getTitle() {
+        for (var i = 0; i < $("#title li").length; i++) {
+            liSum = $("#title li")[i].offsetWidth + 21 + liSum;
+        }
+        var screenWidth = $(".titleTarget")[0].offsetWidth; //屏幕的宽度
+        if(liSum >screenWidth){
+            $(".right").show();
+        }
+        // 版权信息
+        if (stringNotEmpty('<div><ul style="margin-bottom: 0px; font-family: 微软雅黑; width: 535px; height: 25px; color: rgb(51, 51, 51); font-size: medium; background-color: rgb(185, 33, 33);"><li style="text-align: justify; line-height: 25px; height: 25px; float: left; color: rgb(255, 255, 255); font-size: 13px;"><a href="https://www.mct.gov.cn/dbdh/gywm/" target="_blank" style="color: rgb(240, 87, 87); transition: all 0.2s ease 0s; outline: 0px;">关于我们</a></li><li class="jg" style="text-align: justify; padding-right: 10px; padding-left: 10px; line-height: 24px; height: 25px; float: left; color: rgb(255, 255, 255); font-size: 13px;">|</li><li style="text-align: justify; line-height: 25px; height: 25px; float: left; color: rgb(255, 255, 255); font-size: 13px;"><a href="https://www.mct.gov.cn/dbdh/wzdt/" target="_blank" style="color: rgb(255, 255, 255); transition: all 0.2s ease-out 0s;">网站地图</a></li><li class="jg" style="text-align: justify; padding-right: 10px; padding-left: 10px; line-height: 24px; height: 25px; float: left; color: rgb(255, 255, 255); font-size: 13px;">|</li><li style="text-align: justify; line-height: 25px; height: 25px; float: left; color: rgb(255, 255, 255); font-size: 13px;"><a href="https://www.mct.gov.cn/dbdh/bqbh/" target="_blank" style="color: rgb(255, 255, 255); transition: all 0.2s ease-out 0s;">版权保护</a></li><li class="jg" style="text-align: justify; padding-right: 10px; padding-left: 10px; line-height: 24px; height: 25px; float: left; color: rgb(255, 255, 255); font-size: 13px;">|</li><li style="text-align: justify; line-height: 25px; height: 25px; float: left; color: rgb(255, 255, 255); font-size: 13px;"><a href="https://www.mct.gov.cn/dbdh/mzsm/" target="_blank" style="color: rgb(255, 255, 255); transition: all 0.2s ease-out 0s;">免责声明</a></li></ul><p style="text-align: justify; margin-bottom: 0px; font-family: 微软雅黑; line-height: 25px; font-size: 13px; color: rgb(204, 204, 204); background-color: rgb(185, 33, 33);">版权所有：中华人民共和国文化和旅游部 地址：东城区朝阳门北大街10号 邮编：100020</p><p style="text-align: justify; margin-bottom: 0px; font-family: 微软雅黑; line-height: 25px; font-size: 13px; color: rgb(204, 204, 204); background-color: rgb(185, 33, 33);">ICP备案：京ICP备18030242号-1 电话：010-59881114</p><div style="font-family: 微软雅黑; color: rgb(51, 51, 51); font-size: medium; background-color: rgb(185, 33, 33); width: 500px;"><p style="text-align: justify; margin-bottom: 0px; line-height: 25px; font-size: 13px; color: rgb(204, 204, 204); float: left;">网站标识码bm23000001</p><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11040202440050" style="padding-left: 15px; color: rgb(51, 51, 51); transition: all 0.2s ease-out 0s; display: inline-block; height: 20px; line-height: 20px;"><img src="https://www.mct.gov.cn/images/dibiao.png" style="text-align: justify; float: left;" /><span style="text-align: justify; margin-left: 5px; float: left; height: 20px; line-height: 20px; color: rgb(204, 204, 204); font-size: 13px;">京公网安备 11040202440050号</span></a></div></div>')) {
+            $("#buttonText").html('<div><ul style="margin-bottom: 0px; font-family: 微软雅黑; width: 535px; height: 25px; color: rgb(51, 51, 51); font-size: medium; background-color: rgb(185, 33, 33);"><li style="text-align: justify; line-height: 25px; height: 25px; float: left; color: rgb(255, 255, 255); font-size: 13px;"><a href="https://www.mct.gov.cn/dbdh/gywm/" target="_blank" style="color: rgb(240, 87, 87); transition: all 0.2s ease 0s; outline: 0px;">关于我们</a></li><li class="jg" style="text-align: justify; padding-right: 10px; padding-left: 10px; line-height: 24px; height: 25px; float: left; color: rgb(255, 255, 255); font-size: 13px;">|</li><li style="text-align: justify; line-height: 25px; height: 25px; float: left; color: rgb(255, 255, 255); font-size: 13px;"><a href="https://www.mct.gov.cn/dbdh/wzdt/" target="_blank" style="color: rgb(255, 255, 255); transition: all 0.2s ease-out 0s;">网站地图</a></li><li class="jg" style="text-align: justify; padding-right: 10px; padding-left: 10px; line-height: 24px; height: 25px; float: left; color: rgb(255, 255, 255); font-size: 13px;">|</li><li style="text-align: justify; line-height: 25px; height: 25px; float: left; color: rgb(255, 255, 255); font-size: 13px;"><a href="https://www.mct.gov.cn/dbdh/bqbh/" target="_blank" style="color: rgb(255, 255, 255); transition: all 0.2s ease-out 0s;">版权保护</a></li><li class="jg" style="text-align: justify; padding-right: 10px; padding-left: 10px; line-height: 24px; height: 25px; float: left; color: rgb(255, 255, 255); font-size: 13px;">|</li><li style="text-align: justify; line-height: 25px; height: 25px; float: left; color: rgb(255, 255, 255); font-size: 13px;"><a href="https://www.mct.gov.cn/dbdh/mzsm/" target="_blank" style="color: rgb(255, 255, 255); transition: all 0.2s ease-out 0s;">免责声明</a></li></ul><p style="text-align: justify; margin-bottom: 0px; font-family: 微软雅黑; line-height: 25px; font-size: 13px; color: rgb(204, 204, 204); background-color: rgb(185, 33, 33);">版权所有：中华人民共和国文化和旅游部 地址：东城区朝阳门北大街10号 邮编：100020</p><p style="text-align: justify; margin-bottom: 0px; font-family: 微软雅黑; line-height: 25px; font-size: 13px; color: rgb(204, 204, 204); background-color: rgb(185, 33, 33);">ICP备案：京ICP备18030242号-1 电话：010-59881114</p><div style="font-family: 微软雅黑; color: rgb(51, 51, 51); font-size: medium; background-color: rgb(185, 33, 33); width: 500px;"><p style="text-align: justify; margin-bottom: 0px; line-height: 25px; font-size: 13px; color: rgb(204, 204, 204); float: left;">网站标识码bm23000001</p><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11040202440050" style="padding-left: 15px; color: rgb(51, 51, 51); transition: all 0.2s ease-out 0s; display: inline-block; height: 20px; line-height: 20px;"><img src="https://www.mct.gov.cn/images/dibiao.png" style="text-align: justify; float: left;" /><span style="text-align: justify; margin-left: 5px; float: left; height: 20px; line-height: 20px; color: rgb(204, 204, 204); font-size: 13px;">京公网安备 11040202440050号</span></a></div></div>');
+        }
+        if(stringNotEmpty('#b92121')){
+            $(".bottom-footer").css("backgroundColor",'#b92121');
+        }
+
+        // 搜索按钮颜色
+        $(".btn_searc .btn").css("background", '#9d1515');
+        // 背景图Url变更
+        $("#pagelink").attr("href", 'https://www.mct.gov.cn/');
+        // 背景图变更
+        $("#bgImg").attr("src",  'http://cloudsearch.oss-cn-hangzhou.aliyuncs.com/logo/png9a115964f81b46328d1912e4ab60781c?Expires=7914334590&amp;OSSAccessKeyId=LTAI22D6wtz3B0AE&amp;Signature=PD2V16c42lCUb6R1vWN6SkBFYck%3D');
+        changeImg( 'http://cloudsearch.oss-cn-hangzhou.aliyuncs.com/logo/png9a115964f81b46328d1912e4ab60781c?Expires=7914334590&amp;OSSAccessKeyId=LTAI22D6wtz3B0AE&amp;Signature=PD2V16c42lCUb6R1vWN6SkBFYck%3D');
+        // 分类背景色
+        $(".con-list-b ol li a").each(function (i, val) {
+
+            if ($(val).hasClass('on')) {
+                $(val).css({"background": '#9d1515'});
+
+            }
+            $(val).on('click', function () {
+                $(".con-list-b ol li a").css({"background": "#fff"});
+                $(".con-list-b ol li a").removeClass('on');
+                $(val).addClass('on')
+                $(this).css("background", '#9d1515')
+            })
+        });
+    }
+    var searchTitle="";
+    // 获得指定标题下的热搜词
+    function getHotWord(_this, title) {
+        $("#hotword").html("");
+        var siteCode = "bm23000001";
+        searchTitle=title;
+        for (var i in titleDates) {
+            if(titleDates[i].id==title){
+                title= titleDates[i].channel
+            }
+        }
+        $.post("https://zs.kaipuyun.cn/main/getHotWords", {typeName: title, siteCode: siteCode}, function (data) {
+            if (data != null) {
+                var hotWords = data.hotWords;
+                if (hotWords.length > 0) {
+                    $("#hotword").html("<li>热搜词:</li>");
+                    // 热搜词
+                    for (var i = 0; i < hotWords.length; i++) {
+                        $("#hotword").append("<li><a href=\"javascript:void(0);\" target=\"_self\" onclick='searchProcess(this.id)' id=" + hotWords[i] + " >" + hotWords[i] + "</a></li>")
+                    }
+                }
+            }
+        });
+    }
+
+    /**
+     * 语音切换事件
+     */
+     var  voiceWord = "";
+     function imgClick() {
+         if($("#allSearchWord").attr('placeholder') == ""){
+             $("#allSearchWord").attr('placeholder','语音输入摸式，点击右侧图标退出')
+             $("#imgVideo").attr('src',"/static/images/video1.png")
+             $("#allSearchWord").focus()
+             $("#imgVideo").attr('class','imgvideo')
+
+             $("#allSearchWord").bind('input propertychange', function () {
+                 voiceWord = $("#allSearchWord").val().replace(/(^\s*)|(\s*$)/g, "").replace("搜索", "").replace("搜", "").replace(/，|。|,|\.|！|？|\?|!/, " ");
+                if(stringNotEmpty(voiceWord)){
+                    searchProcess(voiceWord);
+                }
+             });
+
+         }else{
+             $("#allSearchWord").attr('placeholder','')
+             $("#imgVideo").attr('src',"/static/images/video.png")
+             $("#imgVideo").removeClass('imgvideo')
+         }
+     }
+
+    // 进行搜索
+    function searchProcess(searchWord) {
+        if (searchWord != "" && typeof(searchWord) != "undefined") {
+            searchWord = searchWord.replace(/(^\s*)|(\s*$)/g, "");
+        }
+        // 搜索类别
+        var typeName = titleDates[0].channel;
+        // typeName = $("ol li a.on").text();
+        for (var i in titleDates) {
+            if(searchTitle==titleDates[i].id){
+                typeName= titleDates[i].channel
+            }
+        }
+        var siteCode = "bm23000001";
+        var searchMenuSelect=$("#searchMenuSelect").html();
+        if(siteCode=="3205000002"&&searchMenuSelect=="搜站群"){
+            typeName="站群"
+        }
+        /*for (var i = 0; i < $("ol li a").length; i++) {
+            if ($("ol li a").eq(i).hasClass("on")) {
+                typeName = $("ol li a").eq(i).text();
+            }
+        }*/
+        if (searchWord == "" || typeof(searchWord) == "undefined") {
+            searchWord = $("#allSearchWord").val().replace(/(^\s*)|(\s*$)/g, ""); //.toLowerCase()
+        }
+        // 搜索词非空判断
+        if (searchWord == "") {
+            alert("搜索词不能为空！");
+            return;
+        }
+        if (searchWord.length>100){
+            alert("搜索词长度不能超过100")
+            return
+        }
+        /* if (searchWord.length == 1) {
+         alert("搜索词请输入至少两个字符！")
+         return false
+         }*/
+        if (checkIsHasSpecialStr(searchWord)) {
+            try{
+                event.returnValue = false;
+                location.href = ctx + "/s?siteCode=" + siteCode + "&searchWord=" + encodeURIComponent(encodeURIComponent(searchWord)) + "&column=" + encodeURIComponent(encodeURIComponent(typeName)) + "&checkHandle=" + 1 + "&pageSize=10&left_right_index=" +left_right_index;
+            }catch(ex){
+                //e.preventDefault();
+                setTimeout(function(){
+                    location.href = ctx + "/s?&siteCode=" + siteCode +"&searchWord=" + encodeURIComponent(encodeURIComponent(searchWord)) + "&column=" + encodeURIComponent(encodeURIComponent(typeName)) + 1 + "&checkHandle=" + 1 + "&pageSize=10&left_right_index=" +left_right_index;
+                },500)
+
+            }
+
+        }
+    }
+
+    /**
+     * 判断特殊字符 纯特殊字符不允许搜索
+     * */
+    function checkIsHasSpecialStr(str) {
+        /* var myReg = /[`~!@#$%^&*()_+<>?:"{},.\/;'[\]]/im;
+         for (var i = 0; i < str.length; i++) {
+         var x = str[i];
+         if (!myReg.test(x)) {//只要有汉子就通过
+         return true;
+         }
+         }
+         alert("请不要输入特殊字符！")*/
+        return true;
+    }
+
+    /**
+     * 改变图片大小
+     **/
+    function changeImg(logoImage) {
+        var maxWidth = 300;
+        var maxHeight = 70;
+        var img = new Image();
+        img.src = logoImage;
+        img.onload = function (evt) {
+            if (img.width > maxWidth) {
+                /*  var scaling = 1 - (img.width - maxWidth) / img.width;
+                 //计算缩小比例
+                 imgWidth = img.width * scaling;
+                 img.src.width = img.width * scaling;
+                 imgHeight = img.height * scaling;            //img元素没有设置高度时将自动等比例缩小
+                 img.src.height = img.height * scaling;            //img元素没有设置高度时将自动等比例缩小
+                 $("#bgImg").css({"height": imgHeight, "width": imgWidth});*/
+                $("#bgImg").css({"width": 400});
+
+            }
+            /* if (img.height > maxHeight) {
+                 /!* var scaling = 1 - (img.height - maxHeight) / img.height;
+                  //计算缩小比例
+                  imgHeight = img.height * scaling;            //img元素没有设置高度时将自动等比例缩小
+                  img.src.height = img.height * scaling;            //img元素没有设置高度时将自动等比例缩小
+                  imgWidth = img.width * scaling;
+                  img.src.width = img.width * scaling;
+                  $("#bgImg").css({"height": imgHeight, "width": imgWidth});*!/
+                 $("#bgImg").css({"height": 70});            }
+             $("#bgImg").attr("src", img.src);*/
+
+        };
+
+    }
+
+    var ull = document.getElementById('selectHint');
+    var uli = ull.getElementsByTagName('li');
+    document.onkeydown = function (e) {
+        //e = window.event || e;
+        var event = window.event || e;
+        var e = event ? event : (window.event ? window.event : null);
+        switch (e.keyCode) {
+            case 38://向上键
+                if (keypos <= 0) {
+                    keypos = uli.length;
+                }
+                keypos--;
+                uli[keypos].style.background = "#f3f3f3";
+                input.value = uli[keypos].innerText;
+                if (keypos == uli.length - 1) {
+                    uli[0].style.background = "#fff";
+                } else {
+                    uli[keypos + 1].style.background = "#fff";
+                }
+                break;
+            case 40://向下键
+                keypos++;
+                uli[keypos].style.background = "#f3f3f3";
+                input.value = uli[keypos].innerText;
+                if (keypos == 0) {
+                    uli[uli.length - 1].style.background = "#fff";
+                } else {
+                    uli[keypos - 1].style.background = "#fff";
+
+                }
+
+
+                if (keypos >= uli.length - 1) {
+                    keypos = -1;
+                }
+                break;
+            case 13://回车
+                if (keypos >= 0) {
+                    input.value = uli[keypos].innerText;
+                }
+                keypos = -1;
+                ull.innerText = '';
+                searchProcess("");
+                break;
+            default:
+                break;
+        }
+    }
+
+    //点击图标
+    function Link(flag) {
+        var site_code =  "bm23000001";
+        if(flag==0){
+            //获取该站点需要纠错页面的url地址
+            var url = getCurrUrl();
+            //跳转至纠错系统填写页面
+            window.open("http://121.43.68.40/exposure/jiucuo.html?site_code=" + site_code + "&url=" + encodeURIComponent(url));
+        }else{
+            var id="0895F7C11FF86C12E053012819AC7E96";
+            //跳转至党政机关页面
+            window.open("http://bszs.conac.cn/sitename?method=show&id="+id);
+        }
+    }
+    //获取该站点需要纠错页面的url地址
+    function getCurrUrl() {
+        var url = "";
+        if (parent !== window) {
+            try {
+                url = window.top.location.href;
+            } catch (e) {
+                url = window.top.document.referrer;
+            }
+        }
+        if (url.length == 0)
+            url = document.location.href;
+
+        return url;
+    }
+    $("#allSearchWord").on("click", function (e) {
+        stopPropagation(e);//阻止事件冒泡
+    })
+    document.onclick = function (e) {
+        $('#selectHint').hide();
+        $('.searchinput-wrap .searchDowmMenu ul').slideUp();
+        if($("#searchMenuSelect").html()=="搜本站"){
+            $(".con-list-b").css("visibility","visible");
+        }
+    }
+    function getTip(e) {
+        action();
+    }
+    function stringNotEmpty(str) {
+        if(str != null && str != "" && str != "undefined"){
+            return true;
+        }
+        return false;
+    }
+
+    //去重
+    function unique(arr){
+        for(var i=0; i<arr.length; i++){
+            for(var j=i+1; j<arr.length; j++){
+                if(arr[i]==arr[j]){         //第一个等同于第二个，splice方法删除第二个
+                    arr.splice(j,1);
+                    j--;
+                }
+            }
+        }
+        return arr;
+    }
+    var left_right_index =0;
+    $(function() {
+        var screenWidth = $(".titleTarget")[0].offsetWidth; //屏幕的宽度
+        var index=0;
+        var oneWidth = 0; //移动的宽度
+        var scrollSum = 0; //卷进去的总宽度
+        $(".right").click(function() {
+            var $li = $("#title li");
+            $(".left").show();
+            oneWidth = oneWidth - $li[index].offsetWidth - 20;
+            $('#title').stop().animate({'margin-left':oneWidth},1)
+            scrollSum = scrollSum - $li[index].offsetWidth - 20;
+            index = index + 1;
+            if (liSum - Math.abs(scrollSum) <= screenWidth) {
+                $(".right").hide();
+            }else{
+                $(".right").show();
+            }
+            if (index <= 0) {
+                $(".left").hide();
+            }else {
+                $(".left").show();
+            }
+            left_right_index=index;
+        })
+
+        $(".left").click(function() {
+            var $li = $("#title li");
+            $(".right").show();
+            index = index - 1;
+            oneWidth = oneWidth + $li[index].offsetWidth + 20;
+            $("#title").stop().animate({
+                "margin-left": oneWidth
+            }, 1);
+            scrollSum = scrollSum + $li[index].offsetWidth + 20;
+            if (index <= 0) {
+                $(".left").hide();
+            }else {
+                $(".left").show();
+            }
+            if (liSum - Math.abs(scrollSum) < screenWidth) {
+                $(".right").hide();
+            }else{
+                $(".right").show();
+            }
+            left_right_index=index;
+        })
+    })
+
+    //阻止事件冒泡
+    function stopPropagation(e){
+        e=window.event||e;
+        if(document.all){  //只有ie识别
+            e.cancelBubble=true;
+        }else{
+            e.stopPropagation();
+        }
+    }
+    function jumpPage() {
+        var searchWord = $("#allSearchWord").val().replace(/(^\s*)|(\s*$)/g, "");
+        var url = 'http://www.sczwfw.gov.cn/jsearchfront/search.do?websiteid=511600000000000&pg=10&tpl=1&q='+ searchWord ;
+        window.location.href = url;
+    }
+    //苏州站群切换
+    function siteGroup(e) {
+        stopPropagation(e);
+        var node=$(".searchinput-wrap .searchDowmMenu ul");
+        if(node.is(':visible')&&$("#searchMenuSelect").html()=="搜本站"){
+            $(".con-list-b").css("visibility","visible");
+        }else{
+            $(".con-list-b").css("visibility","hidden");
+        }
+        $(".searchinput-wrap .searchDowmMenu ul").slideToggle();
+
+        $(".searchinput-wrap .searchDowmMenu ul li").click(function () {
+            $("#searchMenuSelect").html($(this).text());
+            $(".searchinput-wrap .searchDowmMenu ul").slideUp();
+            if($(this).text()=="搜本站"){
+                $(".con-list-b").css("visibility","visible");
+            }
+        });
+    }
+</script>
+						<!--<div class="lineGreyr fr"></div>-->
+					</div>
+				</div>
+
+				<div class="mainCont clearfix">
+					<div class="xl_page">
+						<div class="mbx">
+    <a href="./t20201204_905332.html">
+        <a href="../../../../" target="_blank" title="首页" class="CurrChnlCls">首页</a>&nbsp;>&nbsp;<a href="../../../" target="_blank" title="政府信息公开目录" class="CurrChnlCls">政府信息公开目录</a>&nbsp;>&nbsp;<a href="../../" target="_blank" title="政策法规" class="CurrChnlCls">政策法规</a>&nbsp;>&nbsp;<a href="../" target="_blank" title="部门规章" class="CurrChnlCls">部门规章</a>
+    </a>
+    <!-- <a href="#">首页</a> > <a href="#">法定主动公开内容</a> > <a href="#">主题分类</a> > <a href="#">政策法规</a> -->
+</div>
+					</div>
+					<div class="xlmainCo" style="background: #fff;padding: 30px 0;">
+						
+						<div class="content_head mhide">
+                            <div class="bod_head">
+								<dl class="tb3">
+									<dt>标　　  题：</dt>
+									<dd>中华人民共和国公共文化服务保障法</dd>
+								</dl>
+								<div class="clear"></div>
+							</div>
+							<div class="bod_head">
+								<dl class="tb1">
+									<dt>索&nbsp&nbsp引&nbsp&nbsp号：</dt>
+									<dd>000014348/2016-00129</dd>
+                                </dl>
+                                <dl class="tb2">
+									<dt>文　　号：</dt>
+									<dd></dd>
+								</dl>
+								
+								<div class="clear"></div>
+							</div>
+							<div class="bod_head">
+								<dl class="tb1">
+									<dt>发布机构：</dt>
+									<dd>全国人民代表大会常务委员会</dd>
+								</dl>
+								<dl class="tb2">
+									<dt>发布日期：</dt>
+									<dd>2016-12-25</dd>
+								</dl>
+								<div class="clear"></div>
+							</div>
+							<div class="bod_head">
+                                <dl class="tb2">
+									<dt>分　　类：</dt>
+									<dd>
+                                                                           部门规章&nbsp;;&nbsp;
+                                                                           其他
+                                                                           <!-- 
+                                                                          
+                                                                                其他
+                                                                            -->
+                                                                          </dd>
+								</dl>
+								<dl class="tb1">
+									<dt>主&nbsp&nbsp题&nbsp&nbsp词：</dt>
+									<dd>文化 服务 保障</dd>
+								</dl>
+								<div class="clear"></div>
+							</div>
+							<!-- <div class="bod_head">
+								<dl class="tb1">
+									<dt>时间有效性：</dt>
+									<dd></dd>
+								</dl>
+								<div class="clear"></div>
+							</div> -->
+							
+							<div class="clear"></div>
+						</div>
+						 <div class="gsj_htmlcon">
+        <div class="ctitle" id="newsdetail-content-text">
+          <h2 class="xxgk_title">
+           
+              中华人民共和国公共文化服务保障法
+           
+           
+          </h2>
+		  <div style="border-top: #f2f2f2 1px solid;">
+			<div class="subtitle">
+				<p class="pubtime">发布时间：2016年12月25日</p>
+				<p class="fontsize mhide">字体：[<a class="big" href="javascript:;" style="color:#333;">大</a><a class="middle" href="javascript:;" style="color:#333;">中</a><a class="small" href="javascript:;" style="color:#333;">小</a>]</p>
+			</div>
+		</div>
+        </div>
+        <div class="gsj_htmlcon_bot">
+			<p style="text-align: center;" align="center">（2016年12月25日第十二届全国人民代表大会常务委员会第二十五次会议通过）</p>
+<p style="text-align: center;" align="center"><font face="黑体">目 录</font></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;第一章 总 则</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;第二章 公共文化设施建设与管理</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;第三章 公共文化服务提供</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;第四章 保障措施</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;第五章 法律责任</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;第六章 附 则</p>
+<p></p>
+<p></p>
+<p style="text-align: center;" align="center"><font face="黑体">第一章 总 则</font></p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第一条 </strong>为了加强公共文化服务体系建设，丰富人民群众精神文化生活，传承中华优秀传统文化，弘扬社会主义核心价值观，增强文化自信，促进中国特色社会主义文化繁荣发展，提高全民族文明素质，制定本法。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第二条 </strong>本法所称公共文化服务，是指由政府主导、社会力量参与，以满足公民基本文化需求为主要目的而提供的公共文化设施、文化产品、文化活动以及其他相关服务。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第三条 </strong>公共文化服务应当坚持社会主义先进文化前进方向，坚持以人民为中心，坚持以社会主义核心价值观为引领；应当按照“百花齐放、百家争鸣”的方针，支持优秀公共文化产品的创作生产，丰富公共文化服务内容。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第四条 </strong>县级以上人民政府应当将公共文化服务纳入本级国民经济和社会发展规划，按照公益性、基本性、均等性、便利性的要求，加强公共文化设施建设，完善公共文化服务体系，提高公共文化服务效能。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第五条</strong> 国务院根据公民基本文化需求和经济社会发展水平，制定并调整国家基本公共文化服务指导标准。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;省、自治区、直辖市人民政府根据国家基本公共文化服务指导标准，结合当地实际需求、财政能力和文化特色，制定并调整本行政区域的基本公共文化服务实施标准。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第六条</strong> 国务院建立公共文化服务综合协调机制，指导、协调、推动全国公共文化服务工作。国务院文化主管部门承担综合协调具体职责。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;地方各级人民政府应当加强对公共文化服务的统筹协调，推动实现共建共享。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第七条</strong> 国务院文化主管部门、新闻出版广电主管部门依照本法和国务院规定的职责负责全国的公共文化服务工作；国务院其他有关部门在各自职责范围内负责相关公共文化服务工作。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;县级以上地方人民政府文化、新闻出版广电主管部门根据其职责负责本行政区域内的公共文化服务工作；县级以上地方人民政府其他有关部门在各自职责范围内负责相关公共文化服务工作。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第八条</strong> 国家扶助革命老区、民族地区、边疆地区、贫困地区的公共文化服务，促进公共文化服务均衡协调发展。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第九条</strong> 各级人民政府应当根据未成年人、老年人、残疾人和流动人口等群体的特点与需求，提供相应的公共文化服务。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第十条</strong> 国家鼓励和支持公共文化服务与学校教育相结合，充分发挥公共文化服务的社会教育功能，提高青少年思想道德和科学文化素质。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第十一条</strong> 国家鼓励和支持发挥科技在公共文化服务中的作用，推动运用现代信息技术和传播技术，提高公众的科学素养和公共文化服务水平。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第十二条</strong> 国家鼓励和支持在公共文化服务领域开展国际合作与交流。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第十三条</strong> 国家鼓励和支持公民、法人和其他组织参与公共文化服务。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;对在公共文化服务中作出突出贡献的公民、法人和其他组织，依法给予表彰和奖励。</p>
+<p style="text-align: center;" align="center"><font face="黑体">第二章 公共文化设施建设与管理</font></p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第十四条</strong> 本法所称公共文化设施是指用于提供公共文化服务的建筑物、场地和设备，主要包括图书馆、博物馆、文化馆（站）、美术馆、科技馆、纪念馆、体育场馆、工人文化宫、青少年宫、妇女儿童活动中心、老年人活动中心、乡镇（街道）和村（社区）基层综合性文化服务中心、农家（职工）书屋、公共阅报栏（屏）、广播电视播出传输覆盖设施、公共数字文化服务点等。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;县级以上地方人民政府应当将本行政区域内的公共文化设施目录及有关信息予以公布。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第十五条</strong> 县级以上地方人民政府应当将公共文化设施建设纳入本级城乡规划，根据国家基本公共文化服务指导标准、省级基本公共文化服务实施标准，结合当地经济社会发展水平、人口状况、环境条件、文化特色，合理确定公共文化设施的种类、数量、规模以及布局，形成场馆服务、流动服务和数字服务相结合的公共文化设施网络。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;公共文化设施的选址，应当征求公众意见，符合公共文化设施的功能和特点，有利于发挥其作用。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第十六条</strong> 公共文化设施的建设用地，应当符合土地利用总体规划和城乡规划，并依照法定程序审批。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;任何单位和个人不得侵占公共文化设施建设用地或者擅自改变其用途。因特殊情况需要调整公共文化设施建设用地的，应当重新确定建设用地。调整后的公共文化设施建设用地不得少于原有面积。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;新建、改建、扩建居民住宅区，应当按照有关规定、标准，规划和建设配套的公共文化设施。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第十七条</strong> 公共文化设施的设计和建设，应当符合实用、安全、科学、美观、环保、节约的要求和国家规定的标准，并配置无障碍设施设备。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第十八条</strong> 地方各级人民政府可以采取新建、改建、扩建、合建、租赁、利用现有公共设施等多种方式，加强乡镇（街道）、村（社区）基层综合性文化服务中心建设，推动基层有关公共设施的统一管理、综合利用，并保障其正常运行。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第十九条</strong> 任何单位和个人不得擅自拆除公共文化设施，不得擅自改变公共文化设施的功能、用途或者妨碍其正常运行，不得侵占、挪用公共文化设施，不得将公共文化设施用于与公共文化服务无关的商业经营活动。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;因城乡建设确需拆除公共文化设施，或者改变其功能、用途的，应当依照有关法律、行政法规的规定重建、改建，并坚持先建设后拆除或者建设拆除同时进行的原则。重建、改建的公共文化设施的设施配置标准、建筑面积等不得降低。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第二十条</strong> 公共文化设施管理单位应当按照国家规定的标准，配置和更新必需的服务内容和设备，加强公共文化设施经常性维护管理工作，保障公共文化设施的正常使用和运转。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第二十一条</strong> 公共文化设施管理单位应当建立健全管理制度和服务规范，建立公共文化设施资产统计报告制度和公共文化服务开展情况的年报制度。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第二十二条</strong> 公共文化设施管理单位应当建立健全安全管理制度，开展公共文化设施及公众活动的安全评价，依法配备安全保护设备和人员，保障公共文化设施和公众活动安全。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第二十三条</strong> 各级人民政府应当建立有公众参与的公共文化设施使用效能考核评价制度，公共文化设施管理单位应当根据评价结果改进工作，提高服务质量。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第二十四条</strong> 国家推动公共图书馆、博物馆、文化馆等公共文化设施管理单位根据其功能定位建立健全法人治理结构，吸收有关方面代表、专业人士和公众参与管理。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第二十五条</strong> 国家鼓励和支持公民、法人和其他组织兴建、捐建或者与政府部门合作建设公共文化设施，鼓励公民、法人和其他组织依法参与公共文化设施的运营和管理。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第二十六条</strong> 公众在使用公共文化设施时，应当遵守公共秩序，爱护公共设施，不得损坏公共设施设备和物品。</p>
+<p style="text-align: center;" align="center"><font face="黑体">第三章 公共文化服务提供</font></p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第二十七条 </strong>各级人民政府应当充分利用公共文化设施，促进优秀公共文化产品的提供和传播，支持开展全民阅读、全民普法、全民健身、全民科普和艺术普及、优秀传统文化传承活动。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第二十八条 </strong>设区的市级、县级地方人民政府应当根据国家基本公共文化服务指导标准和省、自治区、直辖市基本公共文化服务实施标准，结合当地实际，制定公布本行政区域公共文化服务目录并组织实施。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第二十九条 </strong>公益性文化单位应当完善服务项目、丰富服务内容，创造条件向公众提供免费或者优惠的文艺演出、陈列展览、电影放映、广播电视节目收听收看、阅读服务、艺术培训等，并为公众开展文化活动提供支持和帮助。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;国家鼓励经营性文化单位提供免费或者优惠的公共文化产品和文化活动。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第三十条 </strong>基层综合性文化服务中心应当加强资源整合，建立完善公共文化服务网络，充分发挥统筹服务功能，为公众提供书报阅读、影视观赏、戏曲表演、普法教育、艺术普及、科学普及、广播播送、互联网上网和群众性文化体育活动等公共文化服务，并根据其功能特点，因地制宜提供其他公共服务。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第三十一条 </strong>公共文化设施应当根据其功能、特点，按照国家有关规定，向公众免费或者优惠开放。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;公共文化设施开放收取费用的，应当每月定期向中小学生免费开放。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;公共文化设施开放或者提供培训服务等收取费用的，应当报经县级以上人民政府有关部门批准；收取的费用，应当用于公共文化设施的维护、管理和事业发展，不得挪作他用。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;公共文化设施管理单位应当公示服务项目和开放时间；临时停止开放的，应当及时公告。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第三十二条 </strong>国家鼓励和支持机关、学校、企业事业单位的文化体育设施向公众开放。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第三十三条 </strong>国家统筹规划公共数字文化建设，构建标准统一、互联互通的公共数字文化服务网络，建设公共文化信息资源库，实现基层网络服务共建共享。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;国家支持开发数字文化产品，推动利用宽带互联网、移动互联网、广播电视网和卫星网络提供公共文化服务。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;地方各级人民政府应当加强基层公共文化设施的数字化和网络建设，提高数字化和网络服务能力。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第三十四条 </strong>地方各级人民政府应当采取多种方式，因地制宜提供流动文化服务。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第三十五条 </strong>国家重点增加农村地区图书、报刊、戏曲、电影、广播电视节目、网络信息内容、节庆活动、体育健身活动等公共文化产品供给，促进城乡公共文化服务均等化。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;面向农村提供的图书、报刊、电影等公共文化产品应当符合农村特点和需求，提高针对性和时效性。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第三十六条 </strong>地方各级人民政府应当根据当地实际情况，在人员流动量较大的公共场所、务工人员较为集中的区域以及留守妇女儿童较为集中的农村地区，配备必要的设施，采取多种形式，提供便利可及的公共文化服务。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第三十七条 </strong>国家鼓励公民主动参与公共文化服务，自主开展健康文明的群众性文化体育活动；地方各级人民政府应当给予必要的指导、支持和帮助。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;居民委员会、村民委员会应当根据居民的需求开展群众性文化体育活动，并协助当地人民政府有关部门开展公共文化服务相关工作。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;国家机关、社会组织、企业事业单位应当结合自身特点和需要，组织开展群众性文化体育活动，丰富职工文化生活。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第三十八条 </strong>地方各级人民政府应当加强面向在校学生的公共文化服务，支持学校开展适合在校学生特点的文化体育活动，促进德智体美教育。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第三十九条 </strong>地方各级人民政府应当支持军队基层文化建设，丰富军营文化体育活动，加强军民文化融合。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第四十条 </strong>国家加强民族语言文字文化产品的供给，加强优秀公共文化产品的民族语言文字译制及其在民族地区的传播，鼓励和扶助民族文化产品的创作生产，支持开展具有民族特色的群众性文化体育活动。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第四十一条 </strong>国务院和省、自治区、直辖市人民政府制定政府购买公共文化服务的指导性意见和目录。国务院有关部门和县级以上地方人民政府应当根据指导性意见和目录，结合实际情况，确定购买的具体项目和内容，及时向社会公布。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第四十二条 </strong>国家鼓励和支持公民、法人和其他组织通过兴办实体、资助项目、赞助活动、提供设施、捐赠产品等方式，参与提供公共文化服务。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第四十三条 </strong>国家倡导和鼓励公民、法人和其他组织参与文化志愿服务。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;公共文化设施管理单位应当建立文化志愿服务机制，组织开展文化志愿服务活动。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;县级以上地方人民政府有关部门应当对文化志愿活动给予必要的指导和支持，并建立管理评价、教育培训和激励保障机制。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第四十四条 </strong>任何组织和个人不得利用公共文化设施、文化产品、文化活动以及其他相关服务，从事危害国家安全、损害社会公共利益和其他违反法律法规的活动。</p>
+<p style="text-align: center;" align="center"><font face="黑体">第四章 保障措施</font></p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第四十五条 </strong>国务院和地方各级人民政府应当根据公共文化服务的事权和支出责任，将公共文化服务经费纳入本级预算，安排公共文化服务所需资金。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第四十六条 </strong>国务院和省、自治区、直辖市人民政府应当增加投入，通过转移支付等方式，重点扶助革命老区、民族地区、边疆地区、贫困地区开展公共文化服务。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;国家鼓励和支持经济发达地区对革命老区、民族地区、边疆地区、贫困地区的公共文化服务提供援助。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第四十七条 </strong>免费或者优惠开放的公共文化设施，按照国家规定享受补助。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第四十八条 </strong>国家鼓励社会资本依法投入公共文化服务，拓宽公共文化服务资金来源渠道。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第四十九条 </strong>国家采取政府购买服务等措施，支持公民、法人和其他组织参与提供公共文化服务。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第五十条 </strong>公民、法人和其他组织通过公益性社会团体或者县级以上人民政府及其部门，捐赠财产用于公共文化服务的，依法享受税收优惠。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;国家鼓励通过捐赠等方式设立公共文化服务基金，专门用于公共文化服务。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第五十一条 </strong>地方各级人民政府应当按照公共文化设施的功能、任务和服务人口规模，合理设置公共文化服务岗位，配备相应专业人员。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第五十二条 </strong>国家鼓励和支持文化专业人员、高校毕业生和志愿者到基层从事公共文化服务工作。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第五十三条 </strong>国家鼓励和支持公民、法人和其他组织依法成立公共文化服务领域的社会组织，推动公共文化服务社会化、专业化发展。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第五十四条 </strong>国家支持公共文化服务理论研究，加强多层次专业人才教育和培训。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第五十五条 </strong>县级以上人民政府应当建立健全公共文化服务资金使用的监督和统计公告制度，加强绩效考评，确保资金用于公共文化服务。任何单位和个人不得侵占、挪用公共文化服务资金。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;审计机关应当依法加强对公共文化服务资金的审计监督。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第五十六条 </strong>各级人民政府应当加强对公共文化服务工作的监督检查，建立反映公众文化需求的征询反馈制度和有公众参与的公共文化服务考核评价制度，并将考核评价结果作为确定补贴或者奖励的依据。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第五十七条 </strong>各级人民政府及有关部门应当及时公开公共文化服务信息，主动接受社会监督。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;新闻媒体应当积极开展公共文化服务的宣传报道，并加强舆论监督。</p>
+<p style="text-align: center;" align="center"><font face="黑体">第五章 法律责任</font></p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第五十八条 </strong>违反本法规定，地方各级人民政府和县级以上人民政府有关部门未履行公共文化服务保障职责的，由其上级机关或者监察机关责令限期改正；情节严重的，对直接负责的主管人员和其他直接责任人员依法给予处分。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第五十九条 </strong>违反本法规定，地方各级人民政府和县级以上人民政府有关部门，有下列行为之一的，由其上级机关或者监察机关责令限期改正；情节严重的，对直接负责的主管人员和其他直接责任人员依法给予处分：</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;（一）侵占、挪用公共文化服务资金的；</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;（二）擅自拆除、侵占、挪用公共文化设施，或者改变其功能、用途，或者妨碍其正常运行的；</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;（三）未依照本法规定重建公共文化设施的；</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;（四）滥用职权、玩忽职守、徇私舞弊的。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第六十条 </strong>违反本法规定，侵占公共文化设施的建设用地或者擅自改变其用途的，由县级以上地方人民政府土地主管部门、城乡规划主管部门依据各自职责责令限期改正；逾期不改正的，由作出决定的机关依法强制执行，或者依法申请人民法院强制执行。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第六十一条 </strong>违反本法规定，公共文化设施管理单位有下列情形之一的，由其主管部门责令限期改正；造成严重后果的，对直接负责的主管人员和其他直接责任人员，依法给予处分：</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;（一）未按照规定对公众开放的；</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;（二）未公示服务项目、开放时间等事项的；</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;（三）未建立安全管理制度的；</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;（四）因管理不善造成损失的。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第六十二条 </strong>违反本法规定，公共文化设施管理单位有下列行为之一的，由其主管部门或者价格主管部门责令限期改正，没收违法所得，违法所得五千元以上的，并处违法所得两倍以上五倍以下罚款；没有违法所得或者违法所得五千元以下的，可以处一万元以下的罚款；对直接负责的主管人员和其他直接责任人员，依法给予处分：</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;（一）开展与公共文化设施功能、用途不符的服务活动的；</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;（二）对应当免费开放的公共文化设施收费或者变相收费的；</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;（三）收取费用未用于公共文化设施的维护、管理和事业发展，挪作他用的。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第六十三条 </strong>违反本法规定，损害他人民事权益的，依法承担民事责任；构成违反治安管理行为的，由公安机关依法给予治安管理处罚；构成犯罪的，依法追究刑事责任。</p>
+<p style="text-align: center;" align="center"><font face="黑体">第六章 附 则</font></p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第六十四条 </strong>境外自然人、法人和其他组织在中国境内从事公共文化服务的，应当符合相关法律、行政法规的规定。</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;第六十五条</strong> 本法自2017年3月1日起施行。</p>
+			<br />
+        	<div class="nyb_fj" id="Zoom">
+				<b>附件：</b>
+				
+			</div>
+        </div>
+      </div>
+
+
+					</div>
+
+				</div>
+				<!--mainbox结束-->
+			</div>
+		</div>
+		<!--底部开始-->
+		<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=0">
+		<title></title>
+		
+		<!--<link rel="stylesheet" type="text/css" href="../../../../images/base.css" />
+		<link rel="stylesheet" type="text/css" href="../../../../images/xxgk_1012.css" />
+		<link rel="stylesheet" type="text/css" href="../../../../images/style_left.css" />
+		<link rel="stylesheet" type="text/css" href="../../../../images/mobile_1012.css" media="screen and (max-width:767px) and (orientation:portrait)" />-->
+		<!--[if lt IE 9]>
+		<script type="text/javascript" src="../../../../images/respond.min.js"></script>
+		<![endif]-->
+		<script src="../../../../images/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../../../../images/h5.js"></script>
+		<script src="../../../../images/resize.js"></script>
+		<script src="../../../../images/index.js" type="text/javascript" charset="utf-8"></script>
+		<!--<script src="../../../../images/left_menu.js" type="text/javascript" charset="utf-8"></script>-->
+		<!--<script src="../../../../images/selfDefined.js" type="text/javascript" charset="utf-8"></script>-->
+	
+
+	</head>
+
+	<body>
+
+		<!--底部开始-->
+		<div class="footerBox">
+			<div class="boxcenter footer">
+				<div class="foot">
+					<img class="fl" src="../../../../images/dbimg_03.png" />
+					<font class="fl mhide">
+						<a href="https://www.mct.gov.cn/dbdh/gywm/201902/t20190202_837198.html">关于我们</a> | 
+						<a href="https://www.mct.gov.cn/dbdh/wzdt/">网站地图</a> | 
+						<a href="https://www.mct.gov.cn/dbdh/bqbh/201902/t20190202_837201.html">版权保护</a> | 
+						<a href="https://www.mct.gov.cn/dbdh/mzsm/201902/t20190202_837199.html">免责声明</a> <!--| 
+					    <a href="#">访问分析</a>-->
+                                                <br/>
+					版权所有：中华人民共和国文化和旅游部  地址：东城区朝阳门北大街10号     邮政编码：100020 <br />
+	ICP备案编号：京ICP备05084924号　电话：010-59881114<br/>
+	网站标识码bm23000001  <img src="../../../../images/dbimg_06.jpg" style="margin-right: 0px;" />京公网安备110401300059号
+					</font>
+					<font class="fl pchide">
+						<a href="https://www.mct.gov.cn/dbdh/gywm/201902/t20190202_837198.html">关于我们</a> | 
+						<a href="https://www.mct.gov.cn/dbdh/wzdt/">网站地图</a> | 
+						<a href="https://www.mct.gov.cn/dbdh/bqbh/201902/t20190202_837201.html">版权保护</a> | 
+						<a href="https://www.mct.gov.cn/dbdh/mzsm/201902/t20190202_837199.html">免责声明</a><!-- | 
+					    <a href="#">访问分析</a>-->
+                                                <br/>
+					版权所有：中华人民共和国文化和旅游部<br/>  地址：东城区朝阳门北大街10号<br/>     邮政编码：100020 <br />
+	ICP备案编号：京ICP备05084924号　电话：010-59881114<br/>
+	网站标识码bm23000001<br/>  <img src="../../../../images/dbimg_06.jpg" style="margin-right: 0px;" />京公网安备110401300059号
+					</font>
+				</div>
+			</div>
+		</div>
+		<!--底部结束-->
+		<script type="text/javascript">
+			$(".workDynamic").on("mouseover", ".tabli", function(event){
+		     $(this).addClass("tabOn").siblings().removeClass("tabOn");
+		     $(this).parents(".workDynamic").find(".wdCon .wdListItem").eq($(this).index()/2).show().siblings().hide();
+		    });
+		    
+		    $(function(){
+		    	$(".wdCon .workDynamic:nth-child(2n)").css("margin-right","0px");
+		    })
+			
+		</script>
+
+
+
+<script id="_trs_ta_js" src="//ta.trs.cn/c/js/ta.js?mpid=4418" async="async" defer="defer"></script> 
+	</body>
+<style>
+   .rightBox h1.title{line-height: 38px;}
+</style>
+</html>
+		<!--底部结束-->
+
+<script>
+	var text_fx = $(".youbiaodc_ind01 .cont .gsj_htmlcon_bot,.gsj_htmlcon_bot p,.gsj_htmlcon_bot span, .gsj_htmlcon_bot div,.gsj_htmlcon_bot h1,.gsj_htmlcon_bot h2");
+	var zhenwen_h2 = $(".youbiaodc_ind01 .cont .zhenwen h2");
+	$(".subtitle .fontsize .big").bind("click",function () {
+		text_fx.css("fontSize","22px");
+		zhenwen_h2.css("fontSize","28px");
+	})
+	$(".subtitle .fontsize .middle").bind("click",function () {
+		text_fx.css("fontSize","18px");
+		zhenwen_h2.css("fontSize","24px");
+	})
+	$(".subtitle .fontsize .small").bind("click",function () {
+		text_fx.css("fontSize","14px");
+		zhenwen_h2.css("fontSize","20px");
+	})
+
+</script>
+
+	</body>
+
+</html>

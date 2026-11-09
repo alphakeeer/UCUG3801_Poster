@@ -1,0 +1,543 @@
+[
+  {
+    "source_id": "S01",
+    "title": "天河区2008年政府工作报告",
+    "kind": "官方报告",
+    "direction": "住房更新",
+    "url": "https://www.thnet.gov.cn/gkmlpt/content/4/4074/post_4074822.html",
+    "document_date": "2008-03-11",
+    "scope_note": "历史报告；对未来回迁的表述属于当时预期",
+    "session_cache": "/tmp/poster-research/official-report2008.html"
+  },
+  {
+    "source_id": "S02",
+    "title": "猎德村整体改造酒店建设规划许可",
+    "kind": "行政许可公布",
+    "direction": "住房更新",
+    "url": "https://ghzyj.gz.gov.cn/ywpd/cxgh/ghxkgsgb/phgbnew/ydghxkz/content/post_7677636.html",
+    "document_date": "2007-08-07",
+    "scope_note": "穗规地证〔2007〕1080号；单个酒店地块；许可附图的可下载性另记"
+  },
+  {
+    "source_id": "S03",
+    "title": "天河年鉴猎德街2011年记录",
+    "kind": "官方年鉴",
+    "direction": "住房更新",
+    "url": "https://www.thnet.gov.cn/thxxw/thnjj/201805/3e6d0cd6dd334b43b087e8f56bdec75e/files/23f29aa3fab2420a9003827eb0e57a43.pdf",
+    "document_date": "",
+    "scope_note": "完整年鉴PDF705页；猎德相关记录定位PDF第458页等；内容年度2011"
+  },
+  {
+    "source_id": "S04",
+    "title": "档案馆猎德村变迁图文",
+    "kind": "官方档案图文",
+    "direction": "共同背景",
+    "url": "https://www.gzdaj.gov.cn/gzjy/tsgz/lsyxdrhddf/index.html",
+    "document_date": "2020-06-03",
+    "scope_note": "历史图像年份与指标单位分别保留",
+    "session_cache": "/tmp/poster-research/official-archive.html"
+  },
+  {
+    "source_id": "S05",
+    "title": "广州市城中村改造条例",
+    "kind": "地方性法规",
+    "direction": "住房更新",
+    "url": "https://ghzyj.gz.gov.cn/sjb/zw/zcfg/content/post_9972127.html",
+    "document_date": "2024-03-30",
+    "scope_note": "2024-05-01施行；用于后续制度背景，历史案例逐期解释"
+  },
+  {
+    "source_id": "S06",
+    "title": "城中村改造条例人大公报",
+    "kind": "法规公报PDF",
+    "direction": "住房更新",
+    "url": "https://gzpc.gov.cn/attachment/0/4/4628/255323.pdf",
+    "document_date": "",
+    "scope_note": "同条例的公报载体；按实际PDF页码定位"
+  },
+  {
+    "source_id": "S07",
+    "title": "中华人民共和国农村集体经济组织法",
+    "kind": "法律",
+    "direction": "住房更新",
+    "url": "https://fgs.moa.gov.cn/flfg/202409/t20240911_6462349.htm",
+    "document_date": "2024-06-28",
+    "scope_note": "2025-05-01施行；猎德改制公司的组织形式与适用关系需专项核实"
+  },
+  {
+    "source_id": "S08",
+    "title": "广州市公共租赁住房管理办法2024",
+    "kind": "规范性文件",
+    "direction": "住房更新",
+    "url": "https://zfcj.gz.gov.cn/zwgk/zcfg/flfg/content/mpost_9890544.html",
+    "document_date": "2024-07-26",
+    "scope_note": "穗府办规〔2024〕13号；保障类别与准入条件分别核对"
+  },
+  {
+    "source_id": "S09",
+    "title": "公共租赁住房管理办法2024正式PDF",
+    "kind": "规范性文件PDF",
+    "direction": "住房更新",
+    "url": "https://www.thnet.gov.cn/attachment/7/7645/7645512/9799109.pdf",
+    "document_date": "2024-07-26",
+    "scope_note": "S08同文件的官方PDF"
+  },
+  {
+    "source_id": "S10",
+    "title": "来穗务工人员公租房期满审查及续租方案",
+    "kind": "行政工作方案",
+    "direction": "住房更新",
+    "url": "https://www.gz.gov.cn/attachment/7/7678/7678183/9908686.pdf",
+    "document_date": "",
+    "scope_note": "对象为已获配租且拟续租者；申请新增配租需另核规定"
+  },
+  {
+    "source_id": "S11",
+    "title": "Yuan等2019猎德制度安排研究",
+    "kind": "学术论文",
+    "direction": "住房更新",
+    "url": "https://res.mdpi.com/d_attachment/sustainability/sustainability-11-03376/article_deploy/sustainability-11-03376.pdf",
+    "document_date": "2019-06-18",
+    "scope_note": "DOI 10.3390/su11123376；本地16页出版社版",
+    "existing_file": "03_背景/原始资料/网络资料/Yuan-2019_Institutional-Arrangements.pdf"
+  },
+  {
+    "source_id": "S12",
+    "title": "Wong等2024政府与社区改造研究",
+    "kind": "学术论文",
+    "direction": "住房更新",
+    "url": "https://ira.lib.polyu.edu.hk/bitstream/10397/97590/1/Wong_Neoliberal_State_Intervention.pdf",
+    "document_date": "2024-06",
+    "scope_note": "2021在线首发，2024正式卷期44(2)，619–631",
+    "existing_file": "03_背景/原始资料/网络资料/Wong-2024_State-Community-Regeneration.pdf"
+  },
+  {
+    "source_id": "S13",
+    "title": "潘卓林等2020猎德村民市民化研究",
+    "kind": "学术论文全文HTML",
+    "direction": "住房更新",
+    "url": "https://www.rddl.com.cn/CN/abstract/article/1001-5221/48775",
+    "document_date": "2020-11",
+    "scope_note": "DOI 10.13284/j.cnki.rddl.003287；2013问卷与2011–2018访谈分别标注"
+  },
+  {
+    "source_id": "S14",
+    "title": "潘卓林等2020论文PDF平台版",
+    "kind": "学术论文PDF",
+    "direction": "住房更新",
+    "url": "https://www.sciengine.com/doi/pdf/D9C84AA3EAF749B09D05B32E58B92E7A",
+    "document_date": "2020-11",
+    "scope_note": "S13同论文的PDF渠道；限流时保留失败记录"
+  },
+  {
+    "source_id": "S15",
+    "title": "Ren2020住房政策课程阅读",
+    "kind": "学术论文",
+    "direction": "共同背景",
+    "url": "https://doi.org/10.1525/curh.2020.119.813.15",
+    "document_date": "2020-01",
+    "scope_note": "复用已有课程阅读；广州层面的比较背景",
+    "existing_file": "03_背景/原始资料/W5_Ren-2020_Urban-Villages.pdf"
+  },
+  {
+    "source_id": "S16",
+    "title": "Wu等2013城中村发展与拆除研究",
+    "kind": "学术论文作者稿",
+    "direction": "住房更新",
+    "url": "https://discovery.ucl.ac.uk/1391859/1/Urban_Stud-2013-Wu-1919-34.pdf",
+    "document_date": "2013",
+    "scope_note": "大学机构库版本；具体书目与案例范围从原件核对"
+  },
+  {
+    "source_id": "S17",
+    "title": "猎德街道2025部门预算",
+    "kind": "部门预算",
+    "direction": "共同背景",
+    "url": "https://www.thnet.gov.cn/gzthliedj/attachment/7/7794/7794204/10204885.pdf",
+    "document_date": "2025",
+    "scope_note": "部门汇总口径；项目目标与背景叙述分别编码",
+    "existing_file": "03_背景/原始资料/网络资料/猎德街道_2025部门预算.pdf"
+  },
+  {
+    "source_id": "S18",
+    "title": "猎德街道本级2026部门预算",
+    "kind": "部门预算",
+    "direction": "共同背景",
+    "url": "https://www.thnet.gov.cn/attachment/8/8014/8014635/10787171.pdf",
+    "document_date": "2026",
+    "scope_note": "本级口径；与2025汇总预算的可比性待核"
+  },
+  {
+    "source_id": "S19",
+    "title": "猎德街综合事务中心2026预算",
+    "kind": "事业单位预算",
+    "direction": "公共文化",
+    "url": "https://www.thnet.gov.cn/attachment/8/8014/8014630/10787144.pdf",
+    "document_date": "2026",
+    "scope_note": "综合事务中心口径，与街道本级分别登记"
+  },
+  {
+    "source_id": "S20",
+    "title": "猎德街道2024年度部门决算",
+    "kind": "部门决算",
+    "direction": "共同背景",
+    "url": "https://www.thnet.gov.cn/gzthliedj/attachment/7/7902/7902596/10485022.pdf",
+    "document_date": "2024",
+    "scope_note": "预算年度和决算年度分别登记"
+  },
+  {
+    "source_id": "S21",
+    "title": "猎德人家建设经费项目绩效评价",
+    "kind": "项目绩效评价",
+    "direction": "公共文化",
+    "url": "https://www.thnet.gov.cn/gzthliedj/attachment/7/7907/7907570/10485029.pdf",
+    "document_date": "",
+    "scope_note": "评价含2024年度与2024.6–2025.6合同期；人次与人数分别处理"
+  },
+  {
+    "source_id": "S22",
+    "title": "猎德街道2024整体支出绩效自评",
+    "kind": "部门绩效自评",
+    "direction": "共同背景",
+    "url": "https://www.thnet.gov.cn/gzthliedj/attachment/7/7907/7907569/10485029.pdf",
+    "document_date": "2024",
+    "scope_note": "部门自评材料；需同时核对原始口径及证据"
+  },
+  {
+    "source_id": "S23",
+    "title": "天河公共文化设施目录2026检索版",
+    "kind": "官方设施目录",
+    "direction": "公共文化",
+    "url": "https://www.thnet.gov.cn/zwgk/shgysyjs/ggwhty/content/post_10824014.html",
+    "document_date": "",
+    "scope_note": "以网页元数据记录发布日期；常规公布时段"
+  },
+  {
+    "source_id": "S24",
+    "title": "天河公共文化设施目录2025版本",
+    "kind": "官方设施目录",
+    "direction": "公共文化",
+    "url": "https://www.thnet.gov.cn/zwgk/thqzwgksxbzml/sdlyjczwgk/ggwhfwly/content/post_10531382.html",
+    "document_date": "2025-11-07",
+    "scope_note": "历史目录，用于名称、地址与时段的版本对照"
+  },
+  {
+    "source_id": "S25",
+    "title": "广州市文化馆情况一览表",
+    "kind": "官方设施目录",
+    "direction": "公共文化",
+    "url": "https://wglj.gz.gov.cn/ggfw/whl/whcgylb/content/post_10424870.html",
+    "document_date": "",
+    "scope_note": "交叉核对街道文化站时段与免费开放栏目"
+  },
+  {
+    "source_id": "S26",
+    "title": "中华人民共和国公共文化服务保障法",
+    "kind": "法律",
+    "direction": "公共文化",
+    "url": "https://zwgk.mct.gov.cn/zfxxgkml/zcfg/bmgz/202012/t20201204_905332.html",
+    "document_date": "2016-12-25",
+    "scope_note": "2017-03-01施行；有关服务、公示和开放的条文逐条定位"
+  },
+  {
+    "source_id": "S27",
+    "title": "广州文化馆站室服务规范2020已失效",
+    "kind": "历史规范性文件",
+    "direction": "公共文化",
+    "url": "https://wglj.gz.gov.cn/xxgk/gzdt/tzgsgg/content/post_8019140.html",
+    "document_date": "2020-07-17",
+    "scope_note": "官网标题明确已失效；作为历史制度背景"
+  },
+  {
+    "source_id": "S28",
+    "title": "广州文化馆站室服务规范历史附件",
+    "kind": "历史规范附件PDF",
+    "direction": "公共文化",
+    "url": "https://wglj.gz.gov.cn/attachment/0/71/71040/5732898.pdf",
+    "document_date": "",
+    "scope_note": "历史附件题名为广州市、区文化馆站室服务规范；具体版本与2020正文的对应关系待核，分开归档"
+  },
+  {
+    "source_id": "S29",
+    "title": "广州市公共文化设施收费管理办法2025",
+    "kind": "规范性文件",
+    "direction": "公共文化",
+    "url": "https://fgw.gz.gov.cn/tzgg/content/post_10195894.html",
+    "document_date": "2025-03-28",
+    "scope_note": "穗发改规字〔2025〕1号；基本服务与其他服务分别判断"
+  },
+  {
+    "source_id": "S30",
+    "title": "公共文化收费管理办法政府公报PDF",
+    "kind": "政府公报PDF",
+    "direction": "公共文化",
+    "url": "https://www.gz.gov.cn/attachment/7/7950/7950441/10611778.pdf",
+    "document_date": "2025-04-30",
+    "scope_note": "2025第12期；含多份文件，引用按具体篇目和PDF页码"
+  },
+  {
+    "source_id": "S31",
+    "title": "广州社会力量参与公共文化设施运营办法",
+    "kind": "规范性文件",
+    "direction": "公共文化",
+    "url": "https://wglj.gz.gov.cn/xxgk/bmwj/flfggz/content/post_9764428.html",
+    "document_date": "2024-07-09",
+    "scope_note": "整体运营、购买服务与绩效考核的制度背景"
+  },
+  {
+    "source_id": "S32",
+    "title": "广州公共文化服务2021至2025修订标准",
+    "kind": "阶段性实施标准",
+    "direction": "公共文化",
+    "url": "https://wglj.gz.gov.cn/xxgk/gzdt/tzgsgg/content/post_8963364.html",
+    "document_date": "2023-04-28",
+    "scope_note": "适用规划期2021–2025；研究时点与制度版本分别说明"
+  },
+  {
+    "source_id": "S33",
+    "title": "好驿天河服务中心项目建议书审批前公示",
+    "kind": "项目审批前公示",
+    "direction": "公共文化",
+    "url": "https://www.thnet.gov.cn/zwgk/zdjsxmpzhss/pzjgxx/content/post_9853744.html",
+    "document_date": "2024-09-04",
+    "scope_note": "项目建议书阶段；实际运营另用后续资料"
+  },
+  {
+    "source_id": "S34",
+    "title": "猎德人家揭牌运营报道2020",
+    "kind": "官方转载报道",
+    "direction": "公共文化",
+    "url": "https://www.thnet.gov.cn/thdt/mtjj/content/post_6973291.html",
+    "document_date": "2020-12",
+    "scope_note": "具体日期及机构功能从网页元数据与正文核对"
+  },
+  {
+    "source_id": "S35",
+    "title": "不出猎德体验国际化生活",
+    "kind": "官方服务介绍",
+    "direction": "公共文化",
+    "url": "https://www.thnet.gov.cn/ztzl/bqwgc/content/post_10667164.html",
+    "document_date": "2026-01-23",
+    "scope_note": "服务供给宣传介绍；居民实际使用需现场或访谈",
+    "session_cache": "/tmp/poster-research/official-services2026.html"
+  },
+  {
+    "source_id": "S36",
+    "title": "猎德社区志愿服务及范围介绍",
+    "kind": "官方转载报道",
+    "direction": "共同背景",
+    "url": "https://www.thnet.gov.cn/thdt/mtjj/content/post_10216558.html",
+    "document_date": "2025-04-16",
+    "scope_note": "社区空间口径及服务活动信息，来源南方+"
+  },
+  {
+    "source_id": "S37",
+    "title": "猎德街2023至2024社工服务评估",
+    "kind": "服务评估报告",
+    "direction": "公共文化",
+    "url": "https://www.thnet.gov.cn/attachment/7/7777/7777153/10302274.pdf",
+    "document_date": "2023–2024",
+    "scope_note": "可能为扫描PDF，文字提取情况单独登记"
+  },
+  {
+    "source_id": "S38",
+    "title": "猎德国际街区官方介绍",
+    "kind": "官方刊载介绍",
+    "direction": "共同背景",
+    "url": "https://www.eguangzhou.gov.cn/gzspecialreports/intlblocks/details/liede/content/post_31834.html",
+    "document_date": "2025-04-14",
+    "scope_note": "国际街区口径，内容来源GDToday",
+    "session_cache": "/tmp/poster-research/official-international.html"
+  },
+  {
+    "source_id": "S39",
+    "title": "广州市社科院猎德调研记录",
+    "kind": "官方机构调研简讯",
+    "direction": "公共文化",
+    "url": "https://www.gzass.gd.cn/gzsky/contents/18/68582.html",
+    "document_date": "2025-02-19",
+    "scope_note": "用于交叉核对服务节点及运营目标",
+    "session_cache": "/tmp/poster-research/official-research2025.html"
+  },
+  {
+    "source_id": "S40",
+    "title": "猎德涌生态治理官方介绍",
+    "kind": "官方环境治理介绍",
+    "direction": "共同背景",
+    "url": "https://sthjj.gz.gov.cn/qxxx/thq/content/post_10872660.html",
+    "document_date": "2026-06-25",
+    "scope_note": "全流域口径，地点观察范围分别标注",
+    "session_cache": "/tmp/poster-research/official-water2026.html"
+  },
+  {
+    "source_id": "S41",
+    "title": "Kwan1999时空可及性论文",
+    "kind": "学术论文作者版",
+    "direction": "公共文化",
+    "url": "https://meipokwan.org/Paper/PG_1999.pdf",
+    "document_date": "1999",
+    "scope_note": "美国案例的理论与方法参考；本地效应待检验"
+  },
+  {
+    "source_id": "S42",
+    "title": "Geurs可及性分析机构库章节",
+    "kind": "学术章节",
+    "direction": "公共文化",
+    "url": "https://ris.utwente.nl/ws/portalfiles/portal/331101214/Geurs-accessibility.pdf",
+    "document_date": "",
+    "scope_note": "书目信息从原件核对，与2004期刊文章分别登记"
+  },
+  {
+    "source_id": "S43",
+    "title": "PBL可及性测度研究书目页",
+    "kind": "研究机构报告书目",
+    "direction": "公共文化",
+    "url": "https://www.pbl.nl/en/publications/accessibility-measures-review-and-applications-evaluation-of-accessibility-impacts-of-land-use-transportation",
+    "document_date": "2001-06-09",
+    "scope_note": "Geurs与Ritsema van Eck作者报告"
+  },
+  {
+    "source_id": "S44",
+    "title": "PBL2001可及性测度研究全文",
+    "kind": "研究报告PDF",
+    "direction": "公共文化",
+    "url": "https://www.pbl.nl/downloads/408505006pdf",
+    "document_date": "2001-06-09",
+    "scope_note": "19.7MB官方机构原始PDF；完整PDF已保存，自动正文提取为字体编码乱码，需阅读原PDF"
+  },
+  {
+    "source_id": "S45",
+    "title": "广州公共文化设施管理办法2019",
+    "kind": "规范性文件历史版本",
+    "direction": "公共文化",
+    "url": "https://wglj.gz.gov.cn/gkmlpt/content/5/5494/post_5494462.html",
+    "document_date": "2019-02",
+    "scope_note": "原文第三十二条规定有效期5年；2026使用时列为历史版本，延续或新规需另核"
+  },
+  {
+    "source_id": "S46",
+    "title": "公共租赁住房保障申请审查细则2025",
+    "kind": "规范性文件",
+    "direction": "住房更新",
+    "url": "https://zfcj.gz.gov.cn/zjyw/zfbz/zwxx/zbzc/content/post_10142470.html",
+    "document_date": "2025-02-28",
+    "scope_note": "穗建规字〔2025〕4号；对应本市城镇户籍保障对象"
+  },
+  {
+    "source_id": "S47",
+    "title": "广州人大城中村条例法规库现行状态",
+    "kind": "官方法规数据库",
+    "direction": "住房更新",
+    "url": "https://www.rd.gz.cn/zlk/flfgwjk/gzrdflfg/dfxfg/jk/content/post_251625.html",
+    "document_date": "2024",
+    "scope_note": "页面标注现行有效，实施时间2024-05-01"
+  },
+  {
+    "source_id": "S48",
+    "title": "城中村改造条例天河转载正式PDF",
+    "kind": "地方性法规PDF",
+    "direction": "住房更新",
+    "url": "https://www.thnet.gov.cn/attachment/7/7757/7757620/10104127.pdf",
+    "document_date": "2024",
+    "scope_note": "23页官方转载PDF，可替代受限的人大公报下载渠道"
+  },
+  {
+    "source_id": "S49",
+    "title": "UNHabitat城市法律案例集第7卷",
+    "kind": "国际机构研究报告",
+    "direction": "住房更新",
+    "url": "https://unhabitat.org/sites/default/files/download-manager-files/Urban%20Legal%20Case%20Studies%20Vol%207.pdf",
+    "document_date": "",
+    "scope_note": "检索关联猎德补偿与城市法律个案，具体章节从原件定位"
+  },
+  {
+    "source_id": "S50",
+    "title": "猎德拆迁补偿初步方案2007现场报道",
+    "kind": "媒体历史报道",
+    "direction": "住房更新",
+    "url": "https://news.sina.com.cn/o/2007-06-06/095011968743s.shtml",
+    "document_date": "2007-06-06",
+    "scope_note": "南方日报记者报道的初步方案；审批后的完整正式文本仍需另核"
+  },
+  {
+    "source_id": "S51",
+    "title": "猎德商铺租户2007搬迁诉求报道",
+    "kind": "媒体历史报道",
+    "direction": "住房更新",
+    "url": "https://news.sina.com.cn/c/2007-09-04/011412500895s.shtml",
+    "document_date": "2007-09-04",
+    "scope_note": "新快报记者记录商铺租户的合同及投入争议；对象是商业承租人"
+  },
+  {
+    "source_id": "S52",
+    "title": "天河年鉴猎德改造诉讼2007记录",
+    "kind": "官方年鉴",
+    "direction": "住房更新",
+    "url": "https://www.thnet.gov.cn/thxxw/thnjj/201706/1805bcfddccc427ab079a9a6ca215093/files/28d63b033ec541ef914a554a1b8165b2.pdf",
+    "document_date": "",
+    "scope_note": "内容包含2007宅基地纠纷系列案；司法记述与案卷原件分层使用"
+  },
+  {
+    "source_id": "S53",
+    "title": "吴光荣2011征收制度法律研究",
+    "kind": "学术论文",
+    "direction": "住房更新",
+    "url": "https://faxueyanjiu.ajcass.com/Admin/UploadFile/publish_article/2011/3/20110304.pdf",
+    "document_date": "2011",
+    "scope_note": "法学研究论文含猎德案讨论，法律分析与事实来源分别核对"
+  },
+  {
+    "source_id": "S54",
+    "title": "Kwan1999出版社书目与摘要",
+    "kind": "学术书目和摘要",
+    "direction": "公共文化",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/0033-0124.00158",
+    "document_date": "1999",
+    "scope_note": "作者PDF渠道受TLS错误影响时，可核对正式书目与摘要；正文可得性单独登记"
+  },
+  {
+    "source_id": "S29-A01",
+    "title": "附件1.公共文化设施非学科类培训政府指导价收费标准.doc",
+    "kind": "规范性文件收费附件",
+    "direction": "公共文化",
+    "url": "https://fgw.gz.gov.cn/attachment/7/7789/7789294/10195894.doc",
+    "document_date": "2025-03-28",
+    "scope_note": "S29附件；原始DOC格式，正文可由同一期政府公报交叉核对"
+  },
+  {
+    "source_id": "S29-A02",
+    "title": "附件2.公共文化设施开放及临时活动政府指导价收费标准.doc",
+    "kind": "规范性文件收费附件",
+    "direction": "公共文化",
+    "url": "https://fgw.gz.gov.cn/attachment/7/7789/7789296/10195894.doc",
+    "document_date": "2025-03-28",
+    "scope_note": "S29附件；原始DOC格式，正文可由同一期政府公报交叉核对"
+  },
+  {
+    "source_id": "S55",
+    "title": "UN-Habitat土地重整国际案例第七卷可用版本",
+    "kind": "国际组织案例报告",
+    "direction": "住房更新",
+    "url": "https://unhabitat.org/sites/default/files/documents/2019-05/global_experiences_in_land_readjustment_urban_legal_case_studies_volume_7_1.pdf",
+    "document_date": "",
+    "scope_note": "S49失败地址的替代公开版本；猎德章节与参考文献页码待正文定位"
+  },
+  {
+    "source_id": "S56",
+    "title": "Twente可及性章节书目信息",
+    "kind": "大学机构库元数据",
+    "direction": "公共服务",
+    "url": "https://research.utwente.nl/en/publications/accessibility-perspectives-measures-and-applications-2/",
+    "document_date": "2023-09-14",
+    "scope_note": "2023年第二版章节书目信息；同名2013年章节另有页面，已核对页码178至199"
+  },
+  {
+    "source_id": "S57",
+    "title": "Kwan1999大学机构库书目与摘要",
+    "kind": "大学机构库元数据",
+    "direction": "公共服务",
+    "url": "https://experts.illinois.edu/en/publications/gender-and-individual-access-to-urban-opportunities-a-study-using/",
+    "document_date": "1999-05-01",
+    "scope_note": "仅为书目与摘要页面，论文全文S41与S54仍未取得"
+  }
+]

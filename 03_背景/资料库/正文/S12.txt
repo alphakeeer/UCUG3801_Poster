@@ -1,0 +1,1092 @@
+来源编号 S12
+标题 Wong等2024政府与社区改造研究
+原始网址 https://ira.lib.polyu.edu.hk/bitstream/10397/97590/1/Wong_Neoliberal_State_Intervention.pdf
+核对日期 2026-11-09T09:43:39.570677+00:00
+
+[PDF第1页]
+https://doi.org/10.1177/0739456X21994661
+Journal of Planning Education and Research
+2024, Vol. 44(2) 619 –631
+© The Author(s) 2021
+Article reuse guidelines: 
+sagepub.com/journals-permissions
+DOI: 10.1177/0739456X21994661
+journals.sagepub.com/home/jpe
+Planning Research
+994661 JPEXXX10.1177/0739456X21994661Journal of Planning Education and ResearchWong et al.
+research-article2021
+Initial submission, January 2019; revised submissions, February and August 
+2020; final acceptance, December 2020
+1Hong Kong Polytechnic University, Hong Kong, China
+2The University of Hong Kong, Hong Kong, China
+3Renmin University of China, Beijing, China
+Corresponding Author:
+Siu Wai Wong, Department of Building and Real Estate, The Hong Kong 
+Polytechnic University, Hung Hom, Kowloon, Hong Kong. 
+Email: ivy.sw.wong@polyu.edu.hk
+Neoliberal State Intervention and 
+the Power of Community in Urban 
+Regeneration: An Empirical Study  
+of Three Village Redevelopment  
+Projects in Guangzhou, China
+Siu Wai Wong1 , Xingguang Chen1, Bo-sin Tang2,  
+and Jinlong Liu3
+Abstract
+A key theme in urban governance research is how neoliberalism reshapes the state–society relationship. Our study on 
+Guangzhou, where urban regeneration through massive redevelopment of “villages-in-the-city” uncovered interactions 
+between the state, market, and community in local governance, contributes to this debate. Based on intensive field research 
+to analyze three projects, we find that what really controls neoliberal growth in China is not simply the authoritarian tradition 
+of the socialist state but also the power of the indigenous village communities. Our findings suggest that state intervention 
+for community building is vital for rebalancing power relations between the state, market, and community.
+Keywords
+neoliberalism, rural society, governance, urban regeneration, community building
+Abstract
+Un tema clave en la investigación de la gobernanza urbana es cómo el neoliberalismo reforma la relación Estado-sociedad. 
+Nuestro estudio sobre Guangzhou, donde la regeneración urbana a través del redesarrollo masivo de “pueblos en la ciudad” 
+descubrió interacciones entre el estado, el mercado y la comunidad en la gobernanza local, contribuye a este debate. 
+Basándonos en una intensa investigación de campo para analizar tres proyectos, encontramos que lo que realmente controla 
+el crecimiento neoliberal en China no es simplemente la tradición autoritaria del estado socialista, sino también el poder 
+de las comunidades de pueblos indígenas. Nuestros hallazgos sugieren que la intervención estatal para la construcción 
+comunitaria es vital para reequilibrar las relaciones de poder entre el estado, el mercado y la comunidad.
+Keywords
+neoliberalismo, sociedad rural, gobernabilidad, regeneración urbana, construcción comunitaria
+摘要
+城市治理研究的一个关键主题是新自由主义如何重塑国家与社会的关系。 我们在广州进行的研究表明, 通过”城中村”的
+大规模重建和城市更新, 揭示了地方治理中的国家, 市场和社区之间的相互作用, 这为该论证做出了贡献。 本文通过对这
+三个项目的深入实地研究, 我们发现真正控制中国新自由主义增长的不仅是社会主义国家的专制传统, 而且还包括土著
+村庄社区的力量。 我们的发现表明, 国家对社区建设的干预对于重新平衡国家、市场和社区之间的权力关系至关重要。
+关键词
+关键词, 新自由主义, 农村社会, 治理, 城市更新, 社区建造
+Introduction
+The triumph of neoliberalism has transformed urban gover -
+nance globally, whereby local governments depend more 
+on the market for urban revitalization (Cahill and Konings 
+2017; Hood 1991; Rhodes 1996; Savoie 1994; Stoker 
+2005). Since the 1980s, de-industrialization, economic 
+restructuring, exodus of the middle class, and inflow of 
+rural or overseas migrants caused severe urban decline in 
+
+
+[PDF第2页]
+620 Journal of Planning Education and Research 44(2)
+many Western cities, all of which have eroded the local  
+tax base. To tackle these problems, many city governments 
+adopted a “property-led” urban regeneration strategy, 
+expecting that the redevelopment of old properties and 
+refurbishment of obsolete buildings in inner cities would 
+have positive effects on the local economy and society  
+(I. Kuyucu 1992; T. Kuyucu and Unsal 2010). Two major 
+paradigm shifts are discernible under this strategy: one is a 
+strong faith in private sector efficiency and in a market-led 
+approach to urban regeneration (Lowndes and Sullivan 
+2004; Ruming 2009); another is a shift in the public sector 
+from regulatory to facilitatory and developmental functions 
+(Erie, Kogan, and MacKenzie 2010; Kirkpatrick 2007; 
+Pierre 2000). However, the increasing coalition between 
+political and business elites in urban renewal has often led 
+to gentrification, the disintegration of existing neighbor -
+hoods, and the dislocation of underprivileged households 
+(Freeman and Braconi 2004; Halpern 1995; Molotch 1976; 
+Roy 2005; van Horen 2000).
+Urban regeneration in China has witnessed similar phe-
+nomena. During the 1990s, the progressive fiscal decentral-
+ization promoted by the central Chinese government enticed 
+local governments to pursue wealth accumulation from real 
+estate booms (Leaf 1995; O’Neil 2000; Zhou and Logan 
+1996). Many local state agents, such as state-owned enter -
+prises, have started working closely with developers to turn 
+their land into real estate projects, making use of their special 
+relationships with the government to rapidly acquire land 
+and planning permissions (Fang and Zhang 2003; He and Wu 
+2009; Y . Zhang and Fang 2015; Zhu 1999). Consequently, 
+urban regeneration has led to collusion between local gov-
+ernments and developers, excluding residents from partici-
+pation, thus limiting their rights to adequate compensation 
+and replacement housing (Abramson 2001; He 2007; Siu 
+2009; Yang and Chang 2007; Zhai and Ng 2012).
+Existing scholarship on China’s state–society relationship 
+suggests that this growing coalition between the government 
+and the market does not denote the rise of neoliberalism in 
+urban China. For instance, Harvey (2005, 34) viewed the 
+case of China as a “particular kind of neoliberalism inter -
+digitated with authoritarian centralized control.” Jun Zhang 
+(2013) suggested that China’s market reforms represent a 
+form of “variegated capitalism,” under which marketization 
+was promoted without political liberalization. Kan (2016) 
+and Wu (2018) argued that, despite extensive commodifica-
+tion and marketization over the last four decades of reforms, 
+the state gave the market force limited space to grow because 
+of its continued dominance in development processes. In this 
+study, we provide an alternative perspective by highlighting 
+the inadequacies of the authoritarian tradition of the socialist 
+state to explain China’s urban transformation, as the local 
+state has shifted its responsibilities for planning and imple-
+menting redevelopment projects to developers and local 
+communities.
+Our study draws from the analysis of Guangzhou, where 
+the city government has progressively pursued property-led 
+urban regeneration through massive redevelopment of  
+“villages-in-the-city (VIC).” From the 1980s to the early 
+2000s, rapid urbanization led to the emergence of VICs in 
+many Chinese cities. This was particularly true of Guangzhou, 
+where swift urban expansion swallowed a lot of arable land 
+but left behind the village housing sites. VICs present a “cha-
+otic” and “messy” landscape set against a backdrop of new 
+high-rise buildings in the city centers (Figure 1). Occupying 
+highly accessible land in good locations, they become targets 
+for urban renewal. Since the early 2000s, the city govern-
+ment has sought to cut the costs of urban renewal in part by 
+outsourcing the responsibility of planning and implementing 
+VIC redevelopment to the private sector and villagers. When 
+the local agents of a traditionally authoritarian state have 
+progressively engaged with neoliberal transformation to 
+embrace a market-driven approach in urban renewal, we 
+seek in this study to propose a refocused inquiry into what 
+really holds the reins of the shift of urban China to neoliberal 
+growth. Our findings shed light on the nature of China’s neo-
+liberal urban growth and suggest that state intervention for 
+community building is vital for rebalancing power relations 
+between the state, market, and community.
+Figure 1. A village-in-the-city in Guangzhou.
+
+[PDF第3页]
+Wong et al. 621
+Bringing the Role of Villagers into the 
+Power Analysis
+Urban regeneration in Guangzhou is conventionally state-
+dominated. In the 1990s, property developers were not per -
+mitted to participate in VIC redevelopment. Through a 
+state-dominated approach, the city government took the lead 
+not only in project planning and design but also in compen-
+sation and villager resettlement (Tang et al. 2008). In the 
+early 2000s, VIC redevelopment began involving private 
+developers in dividing their redevelopment sites into three 
+zones: a housing apartment area for rehousing the affected 
+villagers; a consolidated zone for investment properties, such 
+as hotels and offices, to be owned and managed by village 
+organizations (i.e., shareholding cooperatives [SCs]) for gen-
+erating collective income for the villagers; and a private 
+development area for the construction of commercial proper-
+ties by property developers. The Liede, Linhe, and Xian proj-
+ects are good examples.
+The Liede project began in 2007 and was completed in 
+2017. The total site area for redevelopment was 290,000 m2, 
+which was divided into three zones (Figure 2). Zone 1 had a 
+total area of approximately 140,000 m 2. It was developed 
+into more than ten blocks of residential buildings to provide 
+rehousing units for affected villagers, which were completed 
+by 2010. Zone 2, with an area of about 40,000 m 2, was used 
+for the development of the villagers’ collectively owned 
+commercial properties. These collectively owned properties 
+generated recurrent rental income for dividend distribution 
+to villagers. Zone 3, which was completed in 2017, had an 
+area of approximately 110,000 m2 for office, hotel, and shop-
+ping mall development by property developers.
+The Linhe project took 4.5 years to complete, from 2010 to 
+2014. The total site area for redevelopment was 65,000 m 2, 
+which was also divided into three zones (Figure 3). Zone 1 
+contained approximately 6,000 m 2 of rehousing units for 
+affected villagers; Zone 2, approximately 5,000 m 2 in size, 
+was allocated to the villagers’ collectively owned commer -
+cial properties for rental generation; and Zone 3 comprised 
+approximately 60,000 m 2 for office and residential devel-
+opment by property developers. When the redevelopment 
+was complete, the new neighborhood comprised six blocks 
+Figure 2. Liede Village redevelopment project.
+
+[PDF第4页]
+622 Journal of Planning Education and Research 44(2)
+of forty-nine-story residential buildings for rehousing the 
+affected villagers, four blocks of thirty-six-story residential 
+buildings, one twenty-five-story office building owned by 
+the developer, and one commercial building collectively 
+owned by the villagers for rental income generation. In 
+2010, the old village was demolished and handed over to 
+the developer. In 2014, all affected villagers were moved 
+back to the site.
+The Xian project began in July 2009 but remains 
+incomplete. The total site area for redevelopment was 
+185,000 m 2 (including 22,100 m 2 of road), which was 
+divided into three zones (Figure 4). Zone 1 included about 
+75,000 m 2 of rehousing units for affected villagers; Zone 
+2, about 26,000 m 2 in size, was allocated to the villagers’ 
+collectively owned commercial properties for rental gen-
+eration; and Zone 3 comprised approximately 61,400 m 2 
+for development by the private sector. The redevelopment 
+was planned to be completed in 2013 but was suspended 
+in 2011 because of resistance on the part of some villagers 
+who were dissatisfied with the relocation and compensa-
+tion arrangements. The site was therefore left as a ruin for 
+more than four years before the project restarted in 2014. 
+The first two phases of resettlement housing have been 
+completed, but the third phase of 576 units is still under 
+construction.
+The heavy involvement of private developers in financing 
+these three redevelopment projects is often perceived as a 
+monumental break with the past, representing urban China’s 
+embrace of neoliberal growth models. For instance, Yuan 
+et al. (2019) highlighted the “bottom-up” approach initiated 
+by the private developers in the Liede and Linhe projects, 
+while L. H. Li et al. (2014) and Y . L. Lin, Hao, and Stan 
+(2015) suggested that these projects reflect a neoliberal para-
+digm shift from a “state-led” to a “market-led” approach in 
+urban regeneration. Drawing from intensive field research to 
+examine the process and outcome of these projects, our study 
+suggests that it is simplistic to describe them as a neoliberal 
+paradigm shift, even though they all adopted a three-zone 
+redevelopment model to gain the direct involvement of pri-
+vate developers.
+Existing scholarship has mostly addressed the power 
+relationships between the city government and property 
+Figure 3. Linhe Village redevelopment project.
+
+[PDF第5页]
+Wong et al. 623
+developers, paying relatively less attention to the role of 
+villagers in VIC development. Our empirical research 
+examines the interaction of multiple actors, including not 
+only the city government and developers but also village 
+leaders and villagers as collective actors in the redevelop-
+ment processes. Since 2015, we have conducted intensive 
+field research to investigate their interactions in project 
+planning and implementation. We divided our field 
+research into two major stages.
+Between 2015 and 2016, we visited the Policy Research 
+of Guangzhou Municipality and the Three Old Office (now 
+Urban Renewal Authority), interviewing six local officials 
+who were familiar with VIC redevelopment policies. 
+Meanwhile, through personal and professional connections 
+with the private developers involved in VIC redevelopment, 
+we interviewed project managers with experience of project 
+implementation on the ground. Between 2017 and 2019,  
+we conducted more than fifty interviews with villagers to 
+explore how they engaged with their village organizations to 
+respond to redevelopment.1 Seeking an endogenous perspec-
+tive to explore their interactions in project planning and 
+implementation, our research finds that the power relations 
+among the city government, developers, and villagers took 
+very different forms.
+Re-reading a Tale of Three Village 
+Redevelopment Projects
+As shown in Table 1, the three villages adopted different 
+approaches to their redevelopment, with different out-
+comes. In Liede, the city government was heavily involved 
+in the entire redevelopment process. Linhe was a commu-
+nity-led project, in which villagers collectively worked in 
+collaboration with private developers to complete the rede-
+velopment as scheduled. Finally, the Xian redevelopment 
+project, which was market-driven and led by private devel-
+opers, was characterized by tension. The interventions of 
+developers through urban planners and village cadres to 
+deal with resistance from villagers escalated internal con-
+flicts and violent clashes among the villagers. Eventually, 
+the city government intervened in the provision of resettle-
+ment housing for the villagers. The sections below will 
+elaborate on the different interaction and power dynamics 
+between multiple actors in each project.
+Figure 4. Xian Village redevelopment project.
+
+[PDF第6页]
+624 Journal of Planning Education and Research 44(2)
+State-Led Redevelopment
+While the city government made the first attempt to collabo-
+rate with property developers in the Liede project, previous 
+studies have identified it as a market-led model because the 
+developers significantly funded the project (Y . L. Lin, De 
+Meulder, and Wang 2012). Nonetheless, we should not over-
+look the dominant role played by the city government in 
+project planning and implementation. Our investigation sug-
+gests that the project was ultimately state-led for the follow-
+ing two reasons.
+First, the city government was responsible for land requi-
+sition and rehousing. It began acquiring housing land from 
+villagers in the early 2000s. The city government addressed 
+villagers’ resistance to redevelopment by guaranteeing that 
+local rehousing would be provided for all affected villagers. 
+In addition, all households received a rental subsidy (linqian-
+fei) so that they could find temporary accommodation else-
+where during the reconstruction period. The city government 
+raised funds for temporary relocation and construction of 
+resettlement homes by converting a portion of the collective 
+land in Liede into state-owned land and selling it to a devel-
+oper through public auction. The land sale contract required 
+the developer to pay land premiums to the government from 
+the date of auction in 2007, but the site would not be handed 
+over to the bidder for actual development until 2010. Through 
+this special land sale agreement, the government received a 
+total of 4.6 billion yuan to fund its villager relocation and 
+rehousing programs. In April 2007, the old village was 
+demolished, and all villagers were required to move out. 
+Each household received a rental subsidy averaging about 
+3,000 yuan per month, which was enough to rent a two-bed-
+room unit in the nearby districts. In April 2010, the rehousing 
+zone was completed, and the villagers returned to the site and 
+moved into their newly built resettlement housing.
+Second, to ensure successful implementation, the city 
+government directly supported the development of Zone 2, 
+which was given to the village organization to develop its 
+collectively owned properties. According to the planning 
+permission, Zone 2 was to be redeveloped into a hotel, from 
+which rental income would be distributed among the villag-
+ers as dividends. The village organization first collaborated 
+with a developer from Hong Kong. However, the develop-
+ment ran into financial difficulties and was suspended 
+because of the withdrawal of the developer. The city 
+government then intervened and offered interest-free loans 
+to help the village organization overcome its financial dif-
+ficulties. These findings point that the Liede redevelopment 
+project was indeed state-led and heavily engineered by the 
+local government. Despite the participation of the develop-
+ers, the government still played a driving role in project 
+planning and implementation to achieve the project’s suc-
+cessful outcomes.
+In sum, the city government took full responsibility for 
+the entire process of project planning and implementation in 
+the Liede project through direct involvement in land acquisi-
+tion and rehousing. Some villagers and project officers sug-
+gested it was impossible for the redevelopment project to 
+succeed within the set time frame without direct government 
+intervention. The project managers appointed by the devel-
+opers also emphasized the decisive role of the state and sug-
+gested that there were at least two main reasons why the 
+developer accepted such a seemingly unfavorable arrange-
+ment. First, the developer relied on the government to remove 
+some “nail” households (dingzihu) who were refusing to 
+move out, and to handle the permanent relocation of an old 
+school within the village for the visually impaired. Second, 
+the developer wanted to build up the population density in 
+the neighborhood to support its future shopping mall devel-
+opment. Third, the developer received an award granted by 
+the city government to recognize their support for city devel-
+opment. Furthermore, to support the involvement of the 
+developer in the project, the city government approved their 
+development applications. The office towers, hotel, and 
+shopping mall in Zone 3 were completed on schedule by the 
+developer between 2013 and 2016.
+Community-Led Development
+Linhe was a community-led redevelopment project initi-
+ated by the village organization and supported by villagers. 
+Despite the increasing participation of developers in the 
+Liede project, the city government played a dominant role 
+in ensuring successful outcomes through its heavy involve-
+ment in project planning and design as well as in compen-
+sation and villager resettlement. In contrast, the city 
+government’s role in the Linhe project was limited to offer -
+ing policy support and granting planning permission to the 
+developers’ applications for plot ratio relaxation. The strong 
+leadership of the village leader and the unity of the 
+Table 1. State, Developer, and Villagers in Redevelopment.
+Liede Linhe Xian
+Redevelopment approach State-led Community-led Market-led
+Cohesion of community Fragmented United Divided
+The role of city government Project leader Facilitator Facilitator
+The role of developer Implementation agent Collaborator Project leader
+The role of community Implementation agent Project leader Collaborator
+
+[PDF第7页]
+Wong et al. 625
+villagers promoted collaboration between the villagers and 
+private developers, and this was essential to the success of 
+the village-led model. Under the strong leadership of their 
+village leader Liang Yue Quan, the villagers organized 
+themselves to plan the redevelopment project and manage 
+temporary relocation and rehousing.
+The support and respect Liang received from the local 
+population motivated him to fulfill the demands of his fellow 
+villagers through village redevelopment: to improve the liv-
+ing environment of the villagers and to enlarge the village’s 
+future collective income. By the end of the 1990s, nearly all 
+arable land in Linhe had already been acquired by the gov-
+ernment for urban development. During the 1980s and 1990s, 
+the city government offered extremely low compensation for 
+all land acquisitions. The rate of land compensation in Linhe 
+was approximately 80,000 yuan per mu on average, which 
+was substantially lower than the rates of between 150,000 
+and 500,000 yuan per mu the city government subsequently 
+offered in the early 2000s. Therefore, the villagers of Linhe 
+felt aggrieved because their collective wealth was compara-
+tively lower than that of other villagers in the same district.
+As early as 2003, Liang initiated the idea of village rede-
+velopment to improve the economic welfare of his fellow 
+villagers. However, it was difficult for him to identify a col-
+laborative partner, as many private developers shunned VIC 
+redevelopment projects at the time owing to the long devel-
+opment process and increased market uncertainties. In the 
+early 2000s, VIC redevelopment projects were highly risky. 
+This was not only due to real estate market recession during 
+that period but also the fragmented ownership of village land 
+and inefficiencies in land-use planning regulations for the 
+conversion of collective land into state-owned land. From 
+the developers’ perspective, it was more cost-effective to 
+obtain land for property development through public auc-
+tions and tenders than by acquiring village land, which 
+involved complicated bureaucratic procedures.
+Linhe was allowed to implement its village-led redevel-
+opment plan in 2009 when the sanjiugaizao policy was intro-
+duced. As mentioned in the earlier section, the sanjiugaizao 
+policy provided incentives and clear guidelines that facili-
+tated cooperation between villagers and property developers. 
+After the introduction of the sanjiugaizao policy, Liang 
+signed a redevelopment agreement with a property developer 
+from Hong Kong on behalf of the villagers. Under the agree-
+ment, the developer would pay rental subsidies to the villag-
+ers during the temporary relocation period while constructing 
+the resettlement housing. Moreover, the developer invested 
+in the development of villagers’ collective commercial prop-
+erties, contributing about 70 percent of the total investment. 
+The agreement, on the contrary, did not require the villagers 
+to fund the redevelopment project; instead, they were 
+required to vacate the site and hand it over to the developer 
+by a mutually agreed date. In other words, the villagers con-
+tributed part of their village land (Zone 3) in exchange for 
+the developer’s direct investment in the construction of 
+resettlement housing (Zone 1) and in the development of 
+their collectively owned property (Zone 2).
+To facilitate the implementation of the agreements with 
+the developer, the village collectively organized villagers to 
+find community-based solutions to deal with the conflicts 
+arising from redevelopment. Through a community-driven 
+approach, more than 80 percent of the villagers who cast 
+their votes in a meeting of SC supported the proposed rede-
+velopment project. At this stage, most villagers supported the 
+proposed redevelopment project because they expected an 
+improved living environment and higher household incomes. 
+However, when villagers were required to sign a formal 
+agreement to vacate their houses for redevelopment, some 
+changed their minds; the reasons were varied.
+Some villagers fought over the ownership of their  
+“unauthorized structures.” The city government had intro-
+duced a set of standards to govern compensation assessments 
+for unauthorized structures. However, the question of who 
+owned these structures was highly controversial as some 
+villagers had built their houses on courtyards that were con-
+ventionally shared with relatives. For others, the limited 
+relocation fees were inadequate to pay for suitable accom-
+modation for their families during the redevelopment period. 
+Such individuals were also unwilling to move to other dis-
+tricts because their kids were attending school in Tianhe. 
+Other villagers were worried about how they would finance 
+their future rentals. Some villagers generated stable rental 
+income from leasing their houses to migrant workers. For 
+example, a villager with a five-story village house used one 
+story for self-occupation, and leased the other four stories to 
+generate a monthly rental income of approximately 3,500 
+yuan. He expected that it would be very difficult to secure 
+higher rental income when the supply of rental housing in the 
+neighborhood would increase rapidly after redevelopment.
+To address the concern about managing the leasing of 
+their properties after redevelopment, several measures were 
+adopted at community level to pacify disgruntled villagers 
+and secure their cooperation to vacate their village houses for 
+the commencement of the project. The village cadres medi-
+ated in resolving disputes over the ownership of unauthor -
+ized structures and the village collective formed a special 
+task force to help villagers. The task force formed a mutual-
+help program to meet the housing needs of villagers locally. 
+To resolve villagers’ concerns over the leasing of their prop-
+erties after redevelopment, the SC promised to set a center 
+that would centrally manage rent affairs so that villagers 
+would lease their properties through the SC rather than pri-
+vate housing agents on the open market.
+Market-Led Redevelopment
+The bottom-up approach failed in Xian Village because the 
+local village community was extremely divided which made it 
+impossible for villagers to reach a consensus for collective 
+action. This eventually required the local state to intervene and 
+
+[PDF第8页]
+626 Journal of Planning Education and Research 44(2)
+“save” the project. The Xian Village redevelopment began 
+with a market-oriented model led by developers, even though 
+its implementation involved collaboration with corrupt local 
+officials. In 2010, a local developer reached an agreement with 
+the village organization to carry out redevelopment. While 
+some villagers accepted the compensation offered and moved 
+to seek temporary accommodation outside, others refused due 
+to a dispute with the village organization over the amount of 
+compensation. To avoid delays in land acquisition, the devel-
+oper depended on professional planners and village cadres to 
+deal with such villagers’ resistance.
+As a way of enticing villagers, thereby precluding them 
+from impeding the village redevelopment project, planners 
+made impressive presentations that included conceptual 
+drawings of certain aspects of the new plans, artistic rendi-
+tions of new landscape features, and an enormous scale 
+model showing the extent of the proposed redevelopment to 
+give the villagers a concrete sense of the bright future.
+In doing so, the planners assumed that the “best” practices 
+that were successful in metropolitan centers could be trans-
+planted to the rural context. However, this triggered stronger 
+resistance from the villagers who became increasingly aware 
+of the hidden costs of the project such as the risk of cultural 
+dissolution and destruction and the fact that the redevelop-
+ment project would alter the village landscape forever. 
+Furthermore, the developer bribed the village leaders who in 
+return promised to remove the villagers who were holding 
+out. This only worsened the cleavages and conflicts between 
+villagers and their village leaders, and weakened the solidar-
+ity of the village community. As a result, villagers began sus-
+pecting that the village redevelopment project was merely 
+adopted by the village leaders for their own benefit.
+Some villagers reported the case to the local authority, but 
+their grievances were not addressed. With no formal chan-
+nels to appeal to, the villagers resorted to open protests and 
+daily resistance as a strategy to defend their collective inter -
+ests. The key person that villagers wished to reprimand was 
+the Secretary of the Villagers’ Committee, who came from 
+the largest clan with the family name “Lu.” Villagers were 
+angry with Lu because for more than thirty years as Secretary 
+of the Villagers’ Committee, he had consistently favored his 
+relatives and supporters in distributing land income. In this 
+case, redevelopment triggered direct confrontation between 
+village cadres and villagers. Villagers discovered that Lu and 
+his working group conspired with local officials from the 
+municipality to suppress those households that objected to 
+redevelopment. The strong opposition from and disagree-
+ments among villagers resulted in the village redevelopment 
+project in Xian being suspended in 2013.
+Faced with these challenges, the government sought to 
+overcome the stalemate through adopting a market-based 
+approach. It introduced a new developer with more capital 
+and vast experience in redevelopment projects to collaborate 
+with the village organization. However, the villagers found 
+that the village leaders were still receiving kickbacks from 
+the developer to support the coercive eviction of villagers 
+and forceful demolition of their houses. This created more 
+tension between the developer and the villagers. The deep 
+distrust between the villagers and the village leaders weak-
+ened the functioning of the village organization as a mediator 
+in the process of redevelopment. Concerned that the tensions 
+might eventually degenerate into a political crisis, the city 
+government abandoned its market-oriented approach and 
+switched to direct intervention to pacify the villagers.
+The city government dismissed and replaced all corrupt 
+village cadres and imposed penalties on them. It further took 
+charge of the construction of the resettlement areas and guar-
+anteed the provision of adequate local rehousing to all affected 
+villagers after redevelopment. The city government also took 
+over all the road improvement work around the village with 
+the aim of enhancing the accessibility of the village after 
+redevelopment. Finally, after realizing that the success of 
+redevelopment would be impossible if the concerns of the vil-
+lagers were not properly resolved, the city government looked 
+toward the support of villagers’ self-organized groups. 
+Redevelopment caused deep division among the villagers. To 
+mend the broken relationships among villagers, the city gov-
+ernment first identified some villagers to form a “harmonious 
+relocation” working group and offered financial support for 
+them to organize publicity activities through various meetings 
+and home visits to explain to the villagers the rehousing 
+arrangement and the long-term benefits of redevelopment.
+A villager indicated that he joined the working group 
+because he wanted to help his grandparents accomplish their 
+wishes. He moved out of the village with his parents and 
+grandparents in the early 2000s when he was still in second-
+ary school. Like many of his relatives and neighbors, the man 
+and his family were living in rented housing elsewhere for 
+more than ten years and were waiting to move back after 
+redevelopment. However, the project was suspended because 
+of disputes among the private developers and the village col-
+lective. Seeing that the village site was still laid in ruins, his 
+grandparents were depressed as it seemed hopeless to move 
+back and spend the rest of their lives in their homeland. The 
+man shared such views with his peers and invited more and 
+more young villagers to join the working group. Their dedica-
+tion and caring attitudes served to win the hearts of opponents 
+and helped to reduce their hostility toward redevelopment. 
+With the collective effects of the working group, the project 
+was resumed in 2016, and it is now expected that all affected 
+villagers will be able to move back to the new development 
+by the completion of the third phase of resettlement housing.
+Neoliberal State Transformation, but 
+Not Neoliberal Urban Regeneration
+These three projects represent a neoliberal transformation 
+of the local state, but by no means indicate a neoliberal 
+paradigm shift from a “state-led” to a “market-led” 
+approach in urban regeneration. Rather, they are reflective 
+
+[PDF第9页]
+Wong et al. 627
+examples of why decentralization of authority and respon-
+sibility to promote bottom-up redevelopment does not nec-
+essarily lead to the rapid growth of market forces in urban 
+regeneration.
+The city government adopted a state-led approach to the 
+Liede redevelopment, as this project could not afford to fail 
+for two main reasons. First, any delay or failure would affect 
+the completion of Liede Bridge, which was a core piece of 
+infrastructure supporting the city government of Guangzhou 
+to host the 2010 Asian Games. As a new crossing of 4.3 km 
+over the Pearl River, the Liede Bridge was not only a flag-
+ship project but also a major artery connecting Pazhou Island 
+and Tianhe District for local and international visitors. Liede 
+Village was in the way of the construction of the viaduct of 
+the bridge, and the political importance of this piece of infra-
+structure meant that the city government had to remove 
+Liede Village by 2010. Second, the city government hoped to 
+use the success of Liede project as a showcase of the “bright” 
+future for VIC redevelopment.
+However, this state-led approach was not financially via-
+ble in the long term, especially when the city government 
+decided to expand the redevelopment program to cover more 
+than fifty villages. Given that it is increasingly difficult to 
+finance urban regeneration through borrowing or increasing 
+local taxes, the city government progressively utilized pri-
+vate capital to promote urban-property regeneration. 
+Furthermore, the forcible implementation of land acquisi-
+tions resulted in government shouldering the huge political 
+cost of confronting disgruntled villagers directly and, where 
+necessary, using force to break their resistance. Therefore, 
+from 2010, it adopted a bottom-up approach by which it 
+withdrew from direct involvement and encouraged villagers 
+to conduct redevelopment on their own initiatives. In retreat-
+ing, the city government offered two policy incentives to 
+encourage market participation or self-initiated redevelop-
+ment by villagers.
+The first initiative involved compensation for “unauthor -
+ized” buildings and structures. Village redevelopment often 
+triggered strong resistance from villagers because these 
+“unauthorized” structures gave the villagers a handsome 
+rental income. To pacify the affected villagers, the city gov-
+ernment issued a new guideline stipulating that compensa-
+tion would also be offered for “unauthorized” buildings and 
+structures provided that they had been built before the 
+announcement of the redevelopment program. The second 
+incentive encouraged the involvement of private capital in 
+village redevelopment. Under the sanjiu gaizhao (“Three 
+Olds”) policy promoting partnerships between villagers and 
+developers, the city government reduced the land premium 
+for land conversion, allowing developers and villagers to 
+share a greater proportion of the income arising from rede-
+velopment (G. C. S. Lin 2015). Moreover, a special office 
+(sanjiuban) under the direct leadership of the mayor was set 
+up to help developers and villagers in the submission of 
+development applications (Y . Li et al. 2018).
+After instituting these policy changes, the city govern-
+ment withdrew from directly intervening in land acquisition, 
+financing, and rehousing; instead, it maintained a facilitatory 
+role promoting bottom-up redevelopment. Nonetheless, 
+decentralization did not stimulate market forces in urban 
+regeneration. Following a bottom-up approach to promote 
+collaboration between villagers and private developers, 
+Linhe and Xian achieved different outcomes, despite strong 
+policy support and a booming property market creating 
+favorable conditions for their implementation. What really 
+holds the reins of the shift of urban China to neoliberal 
+growth, we shall argue, is not simply the authoritarian tradi-
+tion of the socialist state but also the power of the indigenous 
+village communities.
+The Power of the Village Community
+Unlike the residents of conventional urban neighborhoods, 
+villagers are not individualized actors (Dai 2015; Zhu and 
+Guo 2015). In the late 1980s, these three villages underwent 
+rapid in situ urban transition because of land requisitions  
+by the city government for the construction of the Tianhe 
+Central Business District. Although they lost their arable 
+land to urbanization, villagers were not completely landless; 
+they continued to collectively own a certain amount of com-
+mercial land through their SC for collective income genera-
+tion. SCs were equipped with a company-like structure, 
+under which a Board of Directors was formed to implement 
+the decisions of the shareholders’ meeting according to a set 
+of rules and procedures derived from the so-called Articles of 
+Association. However, it would be wrong to assume that SCs 
+are corporations, as they envisaged their purpose of not only 
+producing dividends but also generating stable income to 
+support village facilities and social welfare services.
+The collective commercial land was returned by the city 
+government as part of land compensation. With the rental 
+income generated from leasing these commercial lands to 
+outside investors, SCs developed welfare systems for their 
+fellow villagers. Many village facilities (such as roads, 
+water supply systems, kindergarten, primary schools, and 
+community centers) and social services (such as old-aged 
+pension and medical insurance) were funded by SCs rather 
+than by the government (Wong 2015). After deducting the 
+costs for the provision of these facilities and services, the 
+remaining collective incomes were equally distributed to 
+individual villagers as dividends. Holding their collective 
+welfare through SCs, villagers also firmly developed a deep 
+sense of belonging to their village community from their 
+traditional lineage networks.
+Like many VICs in southern China, Liede, Linhe, and 
+Xian owe their origin to the colonial era. Liede has a his-
+tory of more than 800 years. During the Song dynasty, sev-
+eral big clans, including Li, Liang, Liu, and Mai, arrived to 
+build their “natural villages.” Located near Liede, Xian 
+also has a long history of nearly 800 years. In terms 
+
+[PDF第10页]
+628 Journal of Planning Education and Research 44(2)
+of village size and demographic features, Xian closely 
+resembles Liede. It has three major clans: Xian, Lu, and 
+Liang. With a shorter history of nearly 450 years, Linhe 
+Village had several clans, including Liang, Guo, Chi, He, 
+and Lin. Community ties in each village were based on 
+kinship and neighborhood, conditioning the behaviors and 
+social interactions of villagers. As kinship networks were 
+organized along ancestral lines and family surnames, being 
+born within an indigenous residence itself constituted eli-
+gibility for participating in and entitlement to the collec-
+tive assets of the village.
+SCs clearly defined the individual shares of villagers to 
+their collective income but were not able to completely sweep 
+away their sense of community grounded in their deep-rooted 
+lineage network. As Wong, Tang, and Liu. (2018, 1067) sug-
+gest, the nature of community in VICs is still “spatially 
+bounded and ethnicity based.” Much of the existing literature 
+on VIC suggested that the operation of most SCs was not 
+entirely independent of the influence of informal village 
+norms and rules, such as their shared assumptions about kin-
+ship relations and gender roles (e.g., Wong, Tang, and Liu 
+2020; Zhao and Webster 2011). Our study also found that vil-
+lagers perceived themselves not only as shareholders but also 
+as members of their village community. In this sense, when 
+they gathered to make decisions on village redevelopment, 
+they fought for both individual and collective interests. The 
+compensation packages for their private housing were their 
+primary concerns. Meanwhile, ensuring the generation of 
+higher collective income after redevelopment to improve 
+their welfare conditions was equally important to villagers. 
+To achieve their individual and collective interests, villagers 
+not only actively participated in the formal elections in the 
+shareholders’ meeting to voice their needs but also engaged 
+with their lineage cadres in the actual project implementation 
+to affect the outcome of the redevelopment.
+The inclusion of lineage leaders had ambivalent effects. 
+In the case of Linhe, the solidarity and cohesion of the  
+villagers under a strong lineage leader enhanced the collec-
+tive strength of the village organization, sped up reaching 
+consensus, and augmented the bargaining power of the vil-
+lagers. On the contrary, divisions among villagers in Xian 
+generated severe conflicts and tensions that developers 
+could not manage despite their strong financial power and 
+vast experience in other property development projects. 
+The diminution of the community eventually forced the 
+developers to retreat and required direct state intervention to 
+respond to the demands of the villagers for fair compensa-
+tion and rehousing. It is worth noting that interventions of 
+the city government in Xian did not simply reproduce the 
+“state-led” approach that it used in Liede. Apart from 
+strengthening direct interventions to ensure compensation 
+and rehousing, it also actively engaged directly with villag-
+ers in their self-organizing activities to form community-
+based solutions. Furthermore, it has shown signs of slowing 
+down VIC redevelopment and a shift toward village 
+upgrading (instead of demolition) as an alternative for 
+improving the living environment of VICs.
+Overall, the contrasting experiences of the three villages 
+highlight the important role of the village community in 
+resisting the imposition of top-down state policies as well as 
+enabling and constraining the participation of market players 
+in project implementation. This also explains why China’s 
+urban growth has not made a neoliberal shift, even though 
+the local state has actively pursued property-led urban 
+regeneration.
+Conclusion
+We conclude our study by drawing some key findings that 
+are relevant to other Chinese cities and beyond. The state, 
+communities, and markets are “complements, not substi-
+tutes” (Bowles and Gintis 2002, F149). Markets are vital in 
+ensuring efficiency in resource allocation, but their power 
+must be restrained by appropriate planning interventions 
+(Friedmann 1992). As a result of neoliberal growth, the state 
+and markets in many cities have expanded their power and 
+reach in tandem (Kjaer 2004). Local communities are there-
+fore increasingly expected to get involved in policy making 
+and implementation as a social counterweight to state author-
+ity and corporate power (Rajan 2019). However, we should 
+not assume that expanding democratic processes such as 
+grassroots elections to encourage community participation 
+would automatically yield consensus.
+Over the past decades, state restructuring under neoliber-
+alism has reshaped not only the power of private capital but 
+also the role of communities in many parts of the world. The 
+ideological triumph of neoliberalism championed the mar -
+ket allocation of spatial, political, and financial resources in 
+ways that would favor economic growth. Meanwhile, neolib-
+eralism led many Western nations to move away from a wel-
+fare state approach by offloading the responsibility for social 
+service support (which was originally offered by the govern-
+ment as part of the social safety net) to communities (Birk 
+2018; Trnka and Trundle 2014). Kelly and Caputo (2011, 2) 
+described this movement, which has made communities 
+identifiable entities for the implementation of social welfare 
+programs, as the “responsibilization” of the community. 
+However, communities vary considerably in terms of their 
+capacities in project planning and implementation. Our 
+research finds that “responsibilization” of the community 
+only succeeded in those with the capacity to effectively form 
+community-based solutions and actions to cope with the con-
+flicts arising from decentralization. In these communities, 
+devolution of power coming along with offloading responsi-
+bility often worsens internal cleavages in a community by 
+shifting unresolved conflicts to the grassroots.
+We suggest that any attempt to offload responsibility 
+needs to be supported by community capacity building. It is 
+vital to empower villagers to take up responsibilities that 
+they are required to perform. This does not eliminate the role 
+
+[PDF第11页]
+Wong et al. 629
+of the state, but it does imply a need for changes in the form 
+of state intervention. Instead of getting heavily involved in 
+the operation of development or redevelopment projects, the 
+state should take sides with communities and stand by for the 
+social needs of their members. The effective participation of 
+market players in urban redevelopment requires both policy 
+support and community cooperation. These state interven-
+tions for community building should not be understood as a 
+resistance to market and private capital. Rather, they repre-
+sent an alternative way to produce a right power balance that 
+can benefit communities and preserve the effective contribu-
+tion of market mechanisms under decentralization.
+Finally, this pragmatic approach of state intervention for 
+community building highlights the roles of planners as not 
+only coordinators but also communicators and learners. In 
+recent years, more and more professional planners have been 
+assigned to coordinate village renewal and redevelopment 
+projects. For professional planners, a key challenge is how to 
+effectively narrate and communicate the needs of villagers to 
+inform decision-making and planning interventions. As 
+Flyvbjerg (2002) suggests, planners should go beyond the 
+conventional ideal for communicative rationality to embrace 
+a more pragmatic approach by injecting themselves into the 
+in-depth analysis of concrete cases to understand the fasci-
+nating complexity of power dynamics on the ground. An 
+understanding of the different values and interests of specific 
+groups in situational practice is essential for all planners to 
+be skilled at community capacity building and identifying 
+the inevitable trade-offs and long-term consequences inher -
+ent in all significant urban regeneration programs.
+Authors’ Note
+All remaining errors are the responsibilities of the authors.
+Acknowledgments
+We are indebted to all the interviewees who generously shared their 
+stories and information with us in this study. We also thank the 
+anonymous reviewers for their useful comments on this article.
+Declaration of Conflicting Interests
+The author(s) declared no potential conflicts of interest with 
+respect to the research, authorship, and/or publication of this 
+article.
+Funding
+The author(s) disclosed receipt of the following financial support 
+for the research, authorship, and/or publication of this article: The 
+work described in this article was supported by a grant from the 
+Research Grants Council of the Hong Kong Special Administrative 
+Region, China (Project No.: PolyU 152193/18E), and an interna-
+tional grant (Grant No. 131778) from the Ford Foundation.
+ORCID iD
+Siu Wai Wong  https://orcid.org/0000-0002-9938-0925
+Note
+1. In practice, it was very difficult to identify villagers for inter -
+views. After redevelopment, Liede and Linhe became gated 
+communities where only residents were permitted to stay. To 
+overcome these difficulties, we conducted multiple visits to the 
+neighborhood open spaces, and waited for villagers to come 
+for chatting. In case of Xian, it was even more difficult to con-
+tact villagers as many of them moved out from villages dur -
+ing redevelopment. We therefore carried out visits during the 
+Chinese traditional festivals, such as Lantern Festival, Dragon 
+Boat Festival, and Mid-Autumn Festival, during which many 
+villagers came back to hold traditional ceremonies in their 
+ancestral halls.
+References
+Abramson, Daniel B. 2001. “Beijing’s Preservation Policy and the 
+Fate of the Siheyuan.” Traditional Dwellings and Settlements 
+Review 13 (1): 7–22.
+Birk, Rasmus Hoffmann. 2018. “Making Responsible Residents: 
+On ‘Responsibilization’ within Local Community Work in 
+Marginalized Residential Areas in Denmark.” The Sociological 
+Review 66 (3): 608–22.
+Bowles, Samuel, and Herbert Gintis. 2002. “Social Capital and 
+Community Governance.” The Economic Journal 112:  
+F419–36.
+Cahill, Damien, and Martijn Konings. 2017. Neoliberalism. 
+Cambridge: Polity Press.
+Dai, Haijing. 2015. “From Personal Ties to Village Welfare: 
+Changing Community Bonding in Post-socialist Rural China.” 
+Community Development Journal 51:517–33.
+Erie, Steven P., Vladimir Kogan, and Scott A. MacKenzie. 2010. 
+“Redevelopment, San Diego Style: The Limits of Public-
+Private Partnerships.” Urban Affairs Review 45 (5): 644–78.
+Fang, Ke, and Yan Zhang. 2003. “Plan and Market Mismatch: Urban 
+Redevelopment in Beijing during a Period of Transition.” Asia 
+Pacific Viewpoint 44 (2): 149–62.
+Flyvbjerg, Bent. 2002. “Bringing Power to Planning Research: One 
+Researcher’s Praxis Story.” Journal of Planning Education & 
+Research 21 (4): 355–68.
+Freeman, Lance, and Frank Braconi. 2004. “Gentrification and 
+Displacement New York City in the 1990s.” Journal of the 
+American Planning Association 70 (1): 39–52.
+Friedmann, John. 1992. Empowerment: The Politics of Alternative 
+Development. Oxford: Blackwell.
+Halpern, Robert. 1995. Rebuilding the Inner City: A History of 
+Neighborhood Initiatives to Address Poverty in the United 
+States. New York: Columbia University Press.
+Harvey, David. 2005. “A Brief History of Neoliberalism.” Oxford: 
+Oxford University Press.
+He, Shenjing. 2007. “State-Sponsored Gentrification under Market 
+Transition.” Urban Affairs Review 43 (2): 171–98.
+He, Shenjing, and Fulong Wu. 2009. “China’s Emerging Neoliberal 
+Urbanism: Perspectives from Urban Redevelopment.” Antipode 
+41 (2): 282–304.
+Hood, Christopher. 1991. “A Public Management for All Reasons?” 
+Public Administration 69:3–19.
+Kan, Karita. 2016. “The Transformation of the Village Collective 
+in Urbanising China: A Historical Institutional Analysis.” 
+Journal of Rural Studies 47:588–600.
+
+[PDF第12页]
+630 Journal of Planning Education and Research 44(2)
+Kelly, Katharine, and Tullio Caputo. 2011. Community: A 
+Contemporary Analysis of Policies, Programs, and Practices. 
+North York: University of Toronto Press.
+Kirkpatrick, Lucas Owen. 2007. “The Two “Logics” of 
+Community Development: Neighbourhoods, Markets, and 
+Community Development Corporations.” Politics & Society  
+35 (2): 329–59.
+Kjaer, Anne Mette. 2004. “Governance.” Cambridge: Polity Press.
+Kuyucu, I. 1992. “Property-Led Urban Regeneration: Panacea or 
+Placebo?” Environment and Planning A 24 (3): 361–79.
+Kuyucu, Tuna, and Özlem Unsal. 2010. “‘Urban Transformation’ 
+as State-Led Property Transfer; An Analysis of Two Cases of 
+Urban Renewal in Istanbul.” Urban Studies 47 (7): 1479–99.
+Leaf, Michael. 1995. “Inner City Redevelopment in China: 
+Implication for the City of Beijing.” Cities 12 (3): 149–62.
+Li, Ling Hin, Jie Lin, Xin Li, and Fan Wu. 2014. “Redevelopment of 
+Urban Village in China—A Sept towards an Effective Policy? 
+A Case of Liede Village in Guangzhou.” Habitat International 
+43:299–308.
+Li, Yong., Xingguang Chen, Bo-Sin Tang, and Siu Wai Wong. 
+2018. “From Project to Policy: Adaptive Reuse and Urban 
+Industrial Land Restructuring in Guangzhou City, China.” 
+Cities 82:68–76.
+Lin, George C. S. 2015. “The Redevelopment of China’s 
+Construction Land: Practising Land Property Rights in Cities 
+through Renewal.” The China Quarterly 224:865–87.
+Lin, Yanliu L., Bruno De Meulder, and Shifu Wang. 2012. “The 
+Interplay of State, Market and Society in the Sociospatial 
+Transformation of “Villages in the City” in Guangzhou.” 
+Environment and Urbanization 24 (1): 325–43.
+Lin, Yanliu L., Pu Hao, and Geertman Stan. 2015. “A Conceptual 
+Framework on Modes of Governance for the Regeneration 
+of Chinese ‘Villages in the City.’” Urban Studies 52 (10): 
+1774–90.
+Lowndes, Vivien, and Helen Sullivan. 2004. “Like a Horse and 
+Carriage or Fish on a Bicycle: How Well do Local Partnership 
+and Public Participation Go Together?” Local Government 
+Studies 30 (3): 51–73.
+Molotch, Harvey. 1976. “The City as a Growth Machine.” American 
+Journal of Sociology 82 (2): 309–32.
+O’Neil, Mark. 2000. “The City that Went under the Hammer.” 
+South China Morning Post, January 1. http://www.scmp.com.
+Pierre, Jon. 2000 . “Understanding Governance.” In Debating 
+Governance: Authenticity, Steering, and Democracy, edited by 
+Jon Pierre, 1–12. Oxford: Oxford University Press.
+Rajan, Raghuram. 2019. The Third Pillar: How Markets and 
+the State Leave the Community behind. New York: Penguin 
+Press.
+Rhodes, R. A. W. 1996. “The New Governance: Governing without 
+Government,‖.” Political Studies 44 (4): 652–67.
+Roy, Ananya. 2005. “Urban Informalities: Toward an Epistemology 
+of Planning.” Journal of the American Planning Association 71 
+(2): 147–58.
+Ruming, Kristan James. 2009. “Development Configurations and 
+Planning Negotiations: A Case of Fringe Development in 
+Sydney, Australia.” Urban Studies 46 (7): 1461–83.
+Savoie, Donald J. 1994. Thatcher, Reagan, Mulroney: In Search 
+of a New Bureaucracy. Pittsburgh: University of Pittsburgh 
+Press.
+Siu, Helen F. 2009. “Grounding Displacement: Uncivil Urban 
+Spaces in Postreform South China.” American Ethnologist 34 
+(2): 329–50.
+Stoker, Gerry. 2005. “What is Local Government For?” London: 
+New Local Government Network.
+Tang, Bo-Sin., Siu Wai Wong, and Chi-hong Lau. 2008. “Social 
+Impact Assessment and Public Participation in China: A Case 
+of Land Requisition in Guangzhou.” Environmental Impact 
+Assessment Review 28 (1): 57–72.
+Trnka, Susanna, and Catherine Trundle. 2014. “Competing Res-
+ponsibilities: Moving beyond Neoliberal Responsibilisation.” 
+Anthropological Forum 24:136–53.
+van Horen, Basil. 2000. “Informal Settlement Upgrading: Bridging 
+the Gap Between the De Facto and the De Jure.” Journal of 
+Planning Education and Research 19: 389–400.
+Wong, Siu Wai. 2015. “Land Requisitions and State-Village 
+Power Restructuring: An Empirical Study of Urbanizing 
+Villages in Guangzhou, China.” The China Quarterly  
+224:888–908.
+Wong, Siu Wai. 2016. “Reconsolidation of State Power into 
+Urbanizing Villages: Shareholding Reforms as a Strategy 
+for Governance in Pearl River Delta Region.” Urban Studies 
+53:689–704.
+Wong, Siu Wai, Bo-sin Tang, and Jinlong Liu. 2018. “Village 
+Redevelopment and Desegregation as a Strategy for 
+Metropolitan Development in Southern China: Some Lessons 
+from Guangzhou City.” International Journal of Urban and 
+Regional Research 42 (6): 1064–79.
+Wong, Siu Wai, Bo-sin Tang, and Jinlong Liu. 2020. “Village 
+Elections, Grassroots Governance and State Power 
+Restructuring: An Empirical Study in Southern Periurban 
+China.” The China Quarterly 241:22–42.
+Wu, Fulong. 2018. “Planning Centrality, Market Instruments: 
+Governing Chinese Urban Transformation under State 
+Entrepreneurialism.” Urban Studies 55 (7): 1383–99.
+Yang, You-Ren, and Chih-hui Chang. 2007. “An Urban 
+Regeneration Regime in China: A Case Study of  
+Urban Redevelopment in Shanghai’s Taipingqiao Area.” 
+Urban Studies 44 (9): 1809–26.
+Yuan, Dinghuan, Yung Yau, Haijun Bao, Yongshen Liu, and Ting 
+Liu. 2019. “Anatomizing the Institutional Arrangements of 
+Urban Village Redevelopment: Case Studies in Guangzhou, 
+China.” Sustainability 11:1–16.
+Zhai, Binqing, and Mee Kam Ng. 2012. “Urban Regeneration and 
+Social Capital in China: A Case Study of the Drum Tower 
+Muslim District in Xi’an.” Cities 35:14–25.
+Zhang, Jun. 2013. “Marketization beyond Neoliberalization: A 
+Neo-Polanyian Perspective on China’s Transition to a Market 
+Economy.” Environment and Planning A 45 (7): 1605–24.
+Zhang, Y., and K. Fang. 2015. “Is History Repeating Itself? 
+From Urban Renewal in the United States to Inner-City 
+Redevelopment in China.” Journal of Planning Education and 
+Research 23:286–98.
+Zhao, Yanjing, and Chris Webster. 2011. “Land Dispossession and 
+Enrichment in China’s Suburban Village.” Urban Studies 48 
+(3): 529–51.
+Zhou, Min, and John R. Logan. 1996. “Market Transition and the 
+Commodification of Housing in Urban China.” International 
+Journal of Urban and Regional Research 20:400–21.
+
+[PDF第13页]
+Wong et al. 631
+Zhu, Jieming. 1999. “Local Growth Coalition: The Context and 
+Implications of China’s Gradualist Urban Land Reforms.” 
+International Journal of Urban and Regional Research 23 (3): 
+534–48.
+Zhu, Jieming, and Yan Guo. 2015. “Rural Development Led 
+by Autonomous Village Land Cooperatives: It Impact on 
+Sustainable China’s Urbanization in High-Density Region.” 
+Urban Studies 52 (8): 1395–1413.
+Author Biographies
+Siu Wai Wong is assistant professor in the Department of Building 
+and Real Estate at the Hong Kong Polytechnic University. Her 
+research interests are related to urbanization in China, urban plan-
+ning, and governance, and she is the founder and convener of the 
+China Innovative Urban–Rural Governance (CIURG) Research 
+Network.
+Xingguang Chen received his PhD degree from the Department of 
+Building and Real Estate at the Hong Kong Polytechnic University. 
+His research interests are on planning and development, and prop-
+erty studies.
+Bo-sin Tang is currently head and professor in the Department of 
+Urban Planning and Design at the University of Hong Kong, and 
+the program director of its MSc Urban Planning program. His 
+research interests cover urban planning, urban studies, and institu-
+tional analysis, and he is the co-founder and convener of the CIURG 
+Research Network.
+Jinlong Liu is professor in the School of Agricultural Economics 
+and Rural Development at Renmin University of China. His 
+research interests cover forestry development, public participation, 
+and community development. He is the co-founder and convener of 
+the CIURG Research Network.

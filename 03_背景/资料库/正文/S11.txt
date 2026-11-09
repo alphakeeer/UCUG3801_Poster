@@ -1,0 +1,734 @@
+来源编号 S11
+标题 Yuan等2019猎德制度安排研究
+原始网址 https://res.mdpi.com/d_attachment/sustainability/sustainability-11-03376/article_deploy/sustainability-11-03376.pdf
+核对日期 2026-11-09T09:43:39.201309+00:00
+
+[PDF第1页]
+sustainability
+Article
+Anatomizing the Institutional Arrangements of Urban
+Village Redevelopment: Case Studies
+in Guangzhou, China
+Dinghuan Yuan 1, Yung Yau 2,*
+ , Haijun Bao 3, Yongshen Liu 4
+ and Ting Liu 5
+1 School of Public Administration and Emergency Management, Jinan University, 601 Huangpu Boulevard,
+Tianhe District, Guangzhou 510632, China; dhyuan2-c@my.cityu.edu.hk
+2 Department of Public Policy, City University of Hong Kong, Tat Chee Avenue, Kowloon Tong, Kowloon,
+Hong Kong 999077, China
+3 School of Public Administration, Zhejiang University of Finance and Economics, 18 Xueyuan Street,
+Xiasha Higher Education Park, Hangzhou 310018, China; baohaijun@zufe.edu.cn
+4 Department of Public Policy, City University of Hong Kong, Tat Chee Avenue, Kowloon Tong, Kowloon,
+Hong Kong 999077, China; yongshliu2-c@my.cityu.edu.hk
+5 College of Public Administration, Huazhong University of Science and Technology, Luoyu Road 1037,
+Wuhan 430074, China; tingliu0727@hust.edu.cn
+* Correspondence: y.yau@cityu.edu.hk
+Received: 25 January 2019; Accepted: 10 June 2019; Published: 18 June 2019
+/gid00030/gid00035/gid00032/gid00030/gid00038/gid00001/gid00033/gid00042/gid00045/gid00001
+/gid00048/gid00043/gid00031/gid00028/gid00047/gid00032/gid00046
+Abstract: Given the increasing scarcity of urban land, the Chinese government has been initiating
+large-scale redevelopment of urban villages that are commonly regarded problematic for their low land
+use eﬃciencies and negative externalities. During this process, the emerging neo-urbanism in China
+demonstrates the heterogeneity of institutional arrangements, with di ﬀerent levels of transaction
+costs incurred. To explore the transaction costs incurred in di ﬀerent institutional arrangements
+of urban village redevelopment projects, this study anatomizes three projects in Guangzhou from
+the perspective of neo-institutional economics. The project duration and level of conﬂict are taken
+as two key variables to evaluate the e ﬃciency and equality of the projects. With this research
+design, this study illustrates that institutional arrangements signiﬁcantly aﬀect the project outcomes.
+The conclusion suggests that the local and central governments alter the existing institutions with
+a view to lowering the transaction costs.
+Keywords: urban villages; urban sprawl; institutional arrangements; transaction costs; social conﬂict;
+urban renewal; empowerment
+1. Introduction
+The rate of urbanization in China jumped from 36.2% to 56.1% during 2000–2015 [1]. Still there
+exist over one million villages within 662 cities in China. These villages are generally clusters of human
+settlements for the rural population. Among these villages, urban villages, also known as the “villages
+in the city,” “villages amid the city,” “villages encircled by the city,” or chengzhongcun in Chinese,
+are a special product generated from the process of urbanization [2–4]. Because of the high demand for
+urban land use, the farmlands of villages located in the vicinity of cities were usually expropriated ﬁrst
+due to relatively low compensation and transaction costs [5,6]. Rural land built up for settlement and
+reserved commercial land was left to the villagers. As a consequence, the remaining land and buildings
+in the villages were surrounded by modern urban skyscrapers. Under the urban–rural land system,
+the informality of urban villages consequently emerged [2,7]. To curb urban sprawl in Chinese cities,
+the local governments promote redevelopment of existing urban villages to optimize land use [4,8–10].
+Sustainability 2019, 11, 3376; doi:10.3390/su11123376 www.mdpi.com /journal/sustainability
+
+[PDF第2页]
+Sustainability 2019, 11, 3376 2 of 16
+The governments’ initiative goes in line with their ideology: “recycling of urban land as a measure to
+curtail urban sprawl” [11] (p. 350).
+Previous research regarding urban villages conceptually pertains largely to the beneﬁcial functions
+that they serve as social communities [ 12,13]. For instance, they provide low-rent living space for
+rural migrants and indirectly facilitate industrial and commercial development [5]. Simultaneously,
+this, in turn, increases the rental income for the indigenous residents whose farmland has been
+expropriated, which serves as a ﬁnancial resource to support their livelihood [4]. Also, urban villages
+emerge as a kind of informal settlement [ 2,7,10,14,15]. To maximize the rental income, almost all
+the indigenous residents have built an additional ﬂoor upon their original houses in an unregulated
+context [5]. Those unapproved additional ﬂoors are regarded as illegal buildings according to the law.
+Without land use planning, the building plot ratios and site coverage are disorganized and disordered.
+The term “handshake buildings” or “kissing buildings” (wen lou) was coined to describe the distances
+of only several centimeters between buildings. The land use eﬃciency and intrinsic land value in the
+village is usually sub-optimal [ 15]. Apart from this, the living environment and social problems,
+such as declining infrastructure, crime, drugs, public health, ﬁre hazards, and prostitution, often occur
+in the mixed societies of urban villages [16]. Despite these issues, the indigenous villagers are reluctant
+to improve the living environment, maintain buildings, or upgrade the surrounding infrastructure
+because of insecure property rights [2].
+Various urban village renewal projects are initiated by local governments with the objective
+of reshaping the physical and social landscapes of the city so as to diminish negative externalities
+and improve land use eﬃciency. Yet, there are issues in the redevelopment of urban villages which
+are generated as well. For instance, conﬂict and resistance occur during assembly of scattered rural
+land for urban redevelopment [17]. Moreover, the redevelopment of urban villages results in social
+exclusion and gentriﬁcation [ 18]. In some cases, the a ﬀected residents are relocated far from their
+original location. The impoverished migrants can scarcely a ﬀord the increased rent to dwell in the
+place where they used to live. The enhanced living environment and infrastructure are seemingly
+enjoyed by only qualiﬁed and wealthy individuals. With increasing attention from social media and
+greater awareness of property rights, the transaction costs will become much higher if the government
+continues to adopt their original strategy.
+Against this background, this study aims to examine if diﬀerent institutional arrangements of
+village renewal projects bring about diﬀerent project outcomes (e.g., longer/shorter project duration
+and higher/lower level of conﬂict). It attempts to utilize neo-institutional economic theory to anatomize
+and compare three cases with diﬀerent approaches to redevelopment of urban village in Guangzhou.
+How institutional arrangements aﬀect the outcomes of urban village renewal projects is the research
+question of this study. Guangzhou was chosen because it is a pilot city where innovative experiments
+are always performed to redevelop urban villages, with the objective of mitigating the transaction costs
+and achieving a new institutional equilibrium. It oﬀers urban village renewal projects with diﬀerent
+institutional settings for a meaningful empirical study. Both primary and secondary data was collected
+to achieve the goal of the research.
+2. Literature Review
+2.1. Formal and Informal Institutions
+The theory of neo-institutional economics (NIE) is a useful explanatory tool for both individual
+and organizational behavior [19]. NIE is generally thought of as an extension to traditional neoclassical
+economics through the incorporation of transaction and information costs into economic analyses,
+and provision of an explanation for the creation of diﬀerent institutional arrangements [19,20]. One of
+the key questions in NIE is which institution or institutional arrangement works best in resource
+allocation. Institutions are described as “the rules of the game in a society or, more formally, the humanly
+devised constraints that shape human interaction” [21] (p. 3). It is generally posited that institutions
+
+[PDF第3页]
+Sustainability 2019, 11, 3376 3 of 16
+consist of both formal rules and informal rules [ 22]. Formal rules normally include political (and
+judicial) rules such as constitutions, regulations and laws, and economic rules and contracts [ 21].
+The hierarchy of such rules deﬁnes constraints that range from general rules to particular speciﬁcations.
+However, informal rules generally comprise conventions, moral rules, and social rules, which originate
+from socially transmitted information and are invariably regarded as part of the cultural system [21].
+Formal rules can complement informal constraints and increase their e ﬃciency, while informal
+constraints can in turn modify, supplement, or extend formal rules [23].
+For land use and development, we have institutional frameworks [24]. The function of the institutional
+framework is to restrict the choice set of actors by structuring human interaction [18]. One major role of
+this is to reduce uncertainty in society by establishing a stable structure. This exerts a great impact on
+the consequences of economic, social, and political performance through the consequences on the costs of
+exchange, transactions, transformation, and production [21,22]. In effect, the market overall is a mixed bag
+of institutions; some increase efficiency while some decrease it [21]. Despite the effective implementation
+of institutions largely contingent on the effectiveness of monitoring and severity of punishment, the latter
+makes them costly to implement [18]. Also, how well institutions solve the issues of coordination and
+production is primarily determined by three factors: (1) the motivation of the players (their utility function);
+(2) the complexity of the environment; and (3) the ability of the players to decipher and order the environment
+(measurement and enforcement) [21].
+The next concept this study will elaborate on is “institutional equilibrium” which is regarded as:
+A situation where given the bargaining strength of the players and the set of contractual bargains
+that made up total economic exchange, none of the players would ﬁnd it advantageous to devote
+resources into restructuring the agreements. Note that such a situation does not imply that everyone is
+happy with the existing rules and contracts, but only that the relative costs and beneﬁts of altering the
+game among the contracting parties do not make it worthwhile to do so [21] (p. 86).
+Therefore, alterations in relative prices, as well as the ideas and ideologies that form people’s perceptions,
+induce institutional change, though such process is incremental [21]. Institutional changes can be a result of
+changes in actors and practices but they can also be an outcome of social construction [25,26].
+Institutions or institutional frameworks do not necessarily fulfil their purposes [24,27]. The experience
+of past failures should be drawn upon so that changes will consist of generating organizational trials and
+eliminating organizational errors [21]. Accordingly , the institutional framework needs to be adjusted,
+including the rules, norms, and enforcement [28]. Also, because different constituent groups have different
+opportunity costs and bargaining power with the government, the representative body that reflects the
+interests of constituent groups emerges to facilitate exchange between parties [21]. When alterations
+in bargaining power take place, the contracts will be restructured as well. In sum, the relative costs alter
+the source of institutional change, and in turn create incentives to establish more efficient institutions [21].
+2.2. Institutional Framework of Rural Land Use System in China
+2.2.1. Evolution of the Rural Land Use System in China
+As urban village redevelopment always involves land transformation from rural collectively
+owned land into state-owned land, it is necessary to elaborate the formal institutions regarding rural
+land use system in China ﬁrst. Since the establishment of the People’s Republic of China (PRC)
+in 1949, land has been redistributed from the feudal landlords to the peasants through “land reform.”
+Property rights and land use rights were clearly possessed by farmers who had the rights to manage,
+sell, and rent their land according to the PRC Land Reform Law in 1950 [29]. Nevertheless, in the course
+of establishing an egalitarian society based on communist principles, China started to deny private
+land ownership [30]. In the 1960s, collective ownership of rural land was introduced when the people’s
+commune activities were initiated [ 31,32]. Article 60 of the People’s Commune further endorses this
+principle by stipulating that the land in the scope of production team is possessed by the production
+
+[PDF第4页]
+Sustainability 2019, 11, 3376 4 of 16
+team, including private plots, private hilly land, rural built-up land (land for house plot), and so forth,
+in which all the land cannot be rented and sold [21,33].
+In that document, nevertheless, it also stipulated that “the members” house above the land
+belongs to the members forever and they have the right to sell and rent it”. The interesting institutional
+arrangement of separation of buildings from rural land has therefore been established in China since
+then. Also, since the collective land cannot be transferred in the market, local governments initiated
+several laws and regulations to restrict and prohibit the sale of rural housing to urban citizens [31].
+In spite of this, the transfer of rural housing has never stopped since the 1960s because of the relatively
+lower price compared to the market [34]. Consequently, the term “small property housing” was coined
+to delineate these illegal transactions. In 1979, the land property rights evolved to the Household
+Contract Responsibility System, under which the land use rights of agricultural land, was allocated to
+the farmers based on family demography, but the land ownership still remains “collective” [35,36].
+Therefore, land use rights are separated from land property rights on the collectively owned land.
+However, the land use rights on collectively owned land diﬀer from the rights for state-owned land,
+generating the institutional discrimination for rural collectively owned land.
+2.2.2. Institutional Discrimination for Rural Land
+Institutional discrimination refers to “the unjust and discriminatory treatment of a group of individuals
+by formal organizations such as governments and corporations, financial institutions, public institutions
+and other societal entities” [37] (p. 140). Since the land reform in 1982, the Chinese government has adopted
+a dual land system [32,38]. The land in urban areas is state-owned whereas land in rural areas and urban
+fringe areas are collectively owned, except for the land designated as state-owned [29,39]. Nevertheless,
+the dual land institutional arrangement generates institutional discrimination that is demonstrated by the
+different land transfer rights. More specifically , the land use rights of state-owned land can be traded
+in the market, whereas the rights for collectively owned land cannot be traded as a commodity . The latter
+can only be sold and traded among villagers within land tenure by exchange of contract rights [40].
+Therefore, the property rights of collectively owned land are incomplete in the urbanization process [41].
+When any enterprise or individual needs land for construction, they must apply to use the state-owned
+land according toArticle 43 of the Land Administration Law. Thus, the only valid way to use rural land for
+an urban purpose is to transform the collectively owned land into state-owned land in the first place [38].
+Nevertheless, local governments retain the right to acquire collectively owned land for public interests [42].
+Due to the ambitious definition of “public interests” in law, some projects for non-public urban usage
+(such as industrial, commercial, and residential projects) have been justified and implemented under the
+banner of urban redevelopment [43–45].
+2.3. Institutional Change: Rural Restructuring in Guangzhou
+Chinese villages have become the basic collective economic organizations for the rural economy
+and rural communities since 1949 [46]. One of the autonomous mass organizations is the “villagers’
+committee” (VC, cunmin weiyuanhui), whose role is to manage and administer the villages. It is a system
+of “democratic supervision,” which primarily amounts to stressing transparency and accountability
+in the political life of the village [47]. After the reform and opening up, the economic development
+in Guangzhou has increased rapidly. The rapid urbanization and economic development have led
+to a great demand for the urban land use [ 48]. The inﬂux of migrants has exacerbated the ﬁerce
+competition for limited land resources. As a result, the majority of farmland in urban villages and
+some peri-urban villages has been expropriated by local governments in Guangzhou since the 1990s.
+Then the governments returned some of the land to village collectives, which was called “reserved
+commercial land” (ziliu jingji yongdi) and could be legally leased for non-farming purposes, such as for
+oﬃces, factories, and storage [49]. Due to higher compensation and transaction costs, the remaining
+built-up rural land for settlement and reserved commercial land, was left to the villagers. To realize
+urbanization as soon as possible, the Guangzhou government has initiated the policy of “institutional
+
+[PDF第5页]
+Sustainability 2019, 11, 3376 5 of 16
+restructuring ﬁrst, renewal follow-up.” Then a series of institutional restructuring occurred in the
+villages. Speciﬁcally, the withdrawal of village restructuring (checun gaizhi) began to be implemented
+in the villages of Guangzhou. The new institution of joint-stock companies (JSCs) was substituted for
+the original collective economic organizations. Only village members can hold shares of JSCs. Shares are
+distributed generally based on villagers’ working experience (laodong gongling). Each individual could
+obtain between 11 and 40 shares. In some cases, when villages constructed buildings to lease with
+insuﬃcient funds, then the shares were based on the contributions that the village members made.
+JSCs are responsible for leasing and managing their collective assets. The rapid development of the
+tertiary sector in Guangzhou oﬀers them a precious opportunity to use the collective land to construct
+hotels, apartments, oﬃce buildings, and industrial buildings to gain rental income. The bonus that is
+distributed to each cooperative member hinges on the number of shares they hold. Another institutional
+change is the transformation of VCs into resident committees (RCs), since the villagers have become
+“registered residents” who can enjoy social security as citizens. Through such institutional change, JSCs
+are regarded as autonomous economic organizations and RCs as autonomous social organizations.
+Villages can be divided into three types: those that are (a) located at the core of a city and have
+lost their farmland completely, (b) located in the suburban area and retain a small amount of farmland,
+and (c) located on the outskirts of a city and still retain a large amount of farmland [50]. Urban villages
+are generally of the ﬁrst type. The deteriorating living environment and social issues occurring in urban
+villages are incompatible with images of an “international city” that the Guangzhou government aims
+to build. Besides, since urban villages are located in the dense population region, the high demand for
+urban land use is in conﬂict with the common ineﬃcient land use in urban villages. To improve land use
+eﬃciency and the living environment, local governments have issued a series of policies to implement
+urban regeneration. One of these is the “three olds redevelopment” (sanjiu gaizao). “Three olds” refers
+to old towns, old industrial buildings, and old villages. This policy aims to regenerate the existing
+dilapidated villages by constructing formal high-rise residential and commercial buildings. The speed
+of the urban village renewal project was further expedited by the Asian Games held in Guangzhou
+in 2010. The Guangdong government held two rounds of public input to achieve public consensus and
+ensure a smooth regeneration process [51]. To mitigate potential conﬂicts during the urban village
+renewal project, the local governments instituted the policy of “one village, one policy” (yicun yice)
+in which diﬀerent institutional arrangements are implemented in diﬀerent villages, to explore suitable
+institutional arrangements that minimize the transaction costs and expedite the progress. Apart from
+this, the “open, fair, and equitable” principles are encouraged during the process as well. In the next
+sections, we will discuss three diﬀerent institutional arrangements for implementing urban village
+renewal projects with three diﬀerent real-life cases in Guangzhou.
+3. Research Design
+The study area is located in Guangzhou which is not only the center of the Pearl River Delta,
+but also the largest metropolis and the economic, political, and cultural center of Guangdong Province
+in southern China [ 52]. The city has a total land area of 7343.4 km 2 [53]. At the end of 2018,
+the city’s population was estimated around 15 million [54]. As a sub-provincial city, Guangzhou has
+direct jurisdiction over eleven districts, including Baiyun District, Conghua District, Haizhu District,
+Huadu District, Huangpu District, Liwan District, Nansha District, Panyu District, Tianhe District,
+Yuexiu District, and Zengcheng District. At the end of 2018, the overall urbanization rate of Guangzhou
+was 79.8% which is higher than most Chinese cities [54]. In the 1990s, the local governments started
+to design plans for the village renewal, but none of them was implemented within the following
+ten years. Beginning in 2006, plans to hold the 2010 Asian Games facilitated the speed of urban
+renewal development in Guangzhou, together with the increasing awareness of the need for heritage
+protection and the improvement of housing conditions [55]. In 2009, the government in Guangdong
+province issued a policy (Ordinance No. 78) as a guideline for the “three olds” redevelopment to
+improve land use eﬃciency. In response to this policy, the urban renewal projects of urban villages
+
+[PDF第6页]
+Sustainability 2019, 11, 3376 6 of 16
+in Guangzhou were to be implemented with an ambitious plan to redevelop 138 urban villages by
+2020 (Cheng 2012). In spite of this ambitious goal, only four urban villages—Liede, Yangji, Pazhou,
+and Linhe— had completed the renewal when the ﬁeldwork was conducted from 1 May to31 May 2017.
+Both primary and secondary data were collected.
+To reiterate, the key research question for the current research is how institutional arrangements
+aﬀect the outcomes of urban village renewal projects (e.g., project duration and conﬂict level). To answer
+this question, both primary and secondary data were collected. Primary data came from site visits
+and in-depth interviews with the a ﬀected villagers while the sources of secondary data included
+relevant oﬃcial policy and planning documents, news reports, and commentaries. In the in-depth
+interviews, the interviewees were asked about the processes of the redevelopment projects in their
+urban villages. Interview questions included: (1) What were the main objectives of the redevelopment
+project? (2) What was the institutional arrangement for the implementation the project? (3) What were
+the funding sources for the project implementation? (4) What roles did the VC and government play
+in the redevelopment process? (5) When did the project initiate? (6) When did all a ﬀected households
+sign the contract? (7) What were the compensation and relocation policies for the project?
+In addition, the interviewees were asked about the conﬂicts or confrontations during the
+implementation process and how these conﬂicts or confrontations were resolved. The questions
+included (1) Has there been any violent conﬂict during the redevelopment process, and if yes, how did
+the conﬂict arise? (2) Do you think what the main challenges were during the implementation of the
+urban village redevelopment? (3) How do the government and VC solve these challenges? At the end
+of interview, questions like “how do you feel about the redevelopment project” and “what were the
+main changes after the redevelopment” were asked. For each case study village, 3–5 interviewees were
+interviewed. As shown in Table 1, the interviewees included original villagers, government oﬃcials
+and non-villager renters. The collection of some information like the project duration necessitates the
+interviewees’ memory recall. Nonetheless, the interviewees’ memory might be vague. To improve the
+information accuracy and consistency, the authors cross-checked the recall answers from an interviewee
+against answers from other interviewees or also against the information publicly available. All the
+collected information is used to measure the key variable in this study and to provide evidence for
+illustrating the impacts of institutions exerting on the project outcome. The collected information was
+incorporated in the narrative describing the urban village redevelopment process in each case study.
+As for the secondary data, the oﬃcial policy and planning documents (e.g., relocation policies and
+project briefs) were accessed in two ways. The ﬁrst way was the retrieval of the materials from the
+websites of the relevant government bureaus. The second way was making formal applications to the
+bureaus concerned for “information disclosure” (xinxi gongkai) for academic research purposes. Besides,
+online data from various social media (e.g., Sina Weibo, Sina News, Xinhua News, Tencent News and
+Beijing Times) was employed to corroborate and supplement the data we collected in ﬁeldwork.
+The locations of the study sites (see Figure 1) are in the Tianhe and Yuexiu districts of Guangzhou,
+next to the new central business district (CBD). “In such dense districts, the push to redevelop
+the surrounding villages is much more urgent than in the other districts. Despite the guideline of
+“one village, one policy”, the institutional arrangement of the renewal projects in the villages of Yangji
+and Pazhou are very similar. We thus chose Yangji as the case study to illustrate the institutional
+arrangement due to the limited space in the article. In this study, the key measure for evaluating
+redevelopment project eﬃciency is the project duration. This variable was measured from the date
+when the local government or VC publicly announced the initiation of the urban village renewal project
+to the date when all aﬀected villagers agreed to sell their property rights to the local government or VC.
+
+[PDF第7页]
+Sustainability 2019, 11, 3376 7 of 16
+Table 1. Basic information of interviewees.
+Interview No. Interviewee Age Gender Role
+LD 01 Mr. Xiao 38 Male Government o ﬃcial
+LD 02 Mr. Li 55 Male Original villager
+LD 03 Mrs. Liang 58 Female Original villager
+LH 01 Mr. Lin 48 Male Original villager
+LH 02 Mrs. Lin 54 Female Original villager
+LH 03 Mr. He 28 Male Original villager
+LH 04 Miss Wu 35 Female Non-villager renter
+YJ 01 Mrs. Li 41 Female Original villager
+YJ 02 Mr. Yao 20 Male Original villager
+YJ 03 Mrs. Zhang 32 Female Original villager
+YJ 04 Mr. Liang 50 Male Original villager
+YJ 05 Mrs. Yao 32 Female Original villager
+Figure 1. Locations of ﬁeld sites.
+4. Findings
+4.1. LEDC-Ledled Institutional Arrangement in Liede Village
+Liede is located in the south of the Tianhe district and has a history of over 900 years. Since 1994,
+all other farmland in this district has been expropriated by the government to build Zhujiang New Town.
+The institutional change in Liede Village began on 26 November 2002, when Liede abandoned the
+village committees and established the Liede Economic Development Company (LEDC). Accordingly,
+the status of the villagers has become “registered residents”. Nevertheless, the dilapidated physical
+structures and lack of amenities in Liede Village are incompatible with the metropolitan image of
+Zhujiang New Town. Together with the need to construct the Liede Bridge that had to divide the
+village into the East and West parts and the need to hold the 2010 Asian Games, the urban village
+renewal project was ultimately initiated by the local government in February 2007.
+To ensure the project was carried out smoothly, the government in the Tianhe district tried to
+explore a neoliberal approach in which market elements were allowed in the renewal process [ 56].
+At the same time, the LEDC was empowered to implement the project [57]. From a decision-making
+perspective, this empowerment is a kind of bottom–up approach that enables villagers to design
+their own compensation and relocation scheme. This approach allows the aﬀected villagers to beneﬁt
+more from urban development projects, compared with a top–down approach [58]. This institutional
+arrangement can also decrease the transaction costs during the renewal process since the LEDC is
+
+[PDF第8页]
+Sustainability 2019, 11, 3376 8 of 16
+similar to the representative body that knows the needs of the represented groups. This mechanism
+can save costs related to information collection. It is also a good approach to substitute for the previous
+method of bargaining with the householders one by one. Contrarily, the LEDC took an active role
+in encouraging the villagers’ participation, pooling the funds for reconstruction, and relocating the
+aﬀected villagers. More speciﬁcally, in March 2007, the LEDC held shareholders’ representative
+meetings and several villagers’ meetings to convey the renewal information and seek suggestions from
+aﬀected villagers about compensation and relocation schemes. The schemes were ﬁnally determined
+by vote in several meetings of the stockholders’ representatives. Finally, the government approved
+the scheme in June after the LEDC submitted it. Monetary compensation for illegal buildings was
+RMB 1000/m2. The in-kind relocation area was based on the original legal property area, namely
+“one-for-one compensation” (chaiyi buyi), meaning the relocated area is equal to the original legal areas.
+In practice, however, the calculation is more favored to the aﬀected villagers so as to encourage their
+participation. The term “progressive re-housing system” (ji¯et¯ı shì ¯anzhì f¯angshì) was used to describe
+the following case: if the legal house is less than i + 1 ﬂoors but more than i ﬂoor, then then i + 1 will be
+used in the calculation, where i ranges from 1 to 3. The villagers could then use the compensation,
+calculated at the rate of RMB 3500 /m2, to buy the relocation plot. The area of the relocation plot is
+the diﬀerence between four ﬂoors of building plot minus the value calculated from the progressive
+re-housing system. From this institutional arrangement, we can see that the LEDC holds the real
+power to renew the dilapidated village with minimal interference from the local government. After the
+announcement of the demolition and relocation schemes for the aﬀected residents, the residents voted
+in August to accept them, with 98.6% in favor, which is above the minimum consent rate of 90% for the
+project to become law. During the following month, 99.9% of the villagers made a contract with the
+LEDC about the uniﬁed compensation and relocation scheme. In the same month, the western part
+of the collectively-owned land, with an area of over 110,000 m2 in the village, was transformed into
+state-owned land with support by the government, and the land use rights were transferred to private
+developers, Fuli and Hejingtaifu, by public auction. With the involvement of market forces, the LEDC
+successfully pooled a total of RMB 4.6 billion to renew the village by themselves. The roles of various
+participating parties in the redevelopment process under the LEDC-led institutional arrangement of
+village renewal in Liede Village are graphically illustrated in Figure 2. Under such an institutional
+arrangement, the LEDC was fully empowered to initiate the redevelopment project. It managed all land
+requisition fees and designed the compensation and relocation policies pursuant to the government
+guidelines. The government served as a mediator in land transaction while the private developer
+gained the land use rights of the land concerned by paying the land transfer fees.
+Figure 2. Institutional arrangement of village renewal in Liede Village.
+According to the interviewees, although several households did not support the uniﬁed
+compensation scheme and were reluctant to move out of their houses with the expectation of
+
+[PDF第9页]
+Sustainability 2019, 11, 3376 9 of 16
+gaining higher compensation, the conﬂicts were ﬁnally settled by court arbitration. Under this
+institutional arrangement, the project has run very smoothly as the vast majority of villagers trust
+the LEDC, which represents the interests of the whole village, compared with the local government
+and a private developer. On 15 October 2007, all the residents had evacuated from their houses with
+temporary compensation of RMB 25/m2 per month for them to rent a home until they move into their
+new relocated apartment. The construction of relocated high-rise buildings began in January 2008.
+After around 33 months, all the residents returned to the 37 relocated buildings in September 2010 by
+means of a public lottery (yaozhu).
+After completion of the project, the greening rate had been increased to 30%, while the building
+density decreased from 60% to 28.1%. The plot ratio is now around 5.3. The public facilities are
+largely improved with additional municipal roads of over 10,000 m 2. In addition, the LEDC also
+constructed several ﬁve-star hotels, occupying a land area of 33,200 m2 as a collective asset to ensure
+the sustainable long-term proﬁt for the villagers. Accordingly, the current rental income (around RMB
+90/m2) of the villagers has been largely increased to about eight times more than before (around RMB
+10–20/m2). The village security is largely improved due to urban gentriﬁcation so that the immigrants
+in the villages are highly qualiﬁed individuals. The renewal process also enforces the principle of
+protection and inheritance of traditional culture. Longmu Temple was built as a copy of the original
+one. Five diﬀerent ancestral halls for diﬀerent tribes, retaining the original building style, were built to
+substitute for the widely dispersed old ones.
+4.2. Outsourced Institutional Arrangement in Yangji Village
+Yangji Village has a history of around 960 years, originally founded in the Bei Song Dynasty.
+It is located in the eastern part of the Yuexiu district in Guangzhou, where around 1479 households
+live. In 1986, Yangji Village started to be transformed into the autonomous mass organizations,
+substituting the resident status and Yangji Economic Association (YJEA) for the villager status and
+village committees, respectively. Thus, the role of the YJEA is responsible for the economic development
+of the village based on the collective assets. The newly established organization of the residents’
+committee is responsible for managing daily aﬀairs. In response to the guidelines for the redevelopment
+of the “three olds” (old urban areas, factories, and villages) initiated by the Guangzhou government
+in 2009 [51], the YJEA organized a mobilization meeting to urge the villagers to participate in the
+renewal project. To pool the funds to renew the village, Yangji Village allowed private developers
+to fund and implement the renewal project by forfeiting one parcel land in the village. Under this
+institutional arrangement, the YJEA was not fully empowered. They just represented all the aﬀected
+villagers, negotiating with the private developer to discuss the relocation and compensation schemes,
+housing type, housing design, and public facilities after collecting suggestions from the villagers.
+On 18 January 2011, the land use rights of an area of land comprising 62,808 m2 were transferred
+to the private developer Fuli, the only competitor, by public auction for RMB 473 million in land
+transfer fees. In addition, village renewal costs amounting RMB 1.88 billion were annexed to the
+contract for transferring state-owned land [59]. Under this institutional arrangement, Fuli took a very
+active role during the village renewal process. The in-kind compensation (exchange) was based on
+the legal property area approved by the government when the villagers applied to build their houses
+before the renewal project was initiated. To proceed with the project, the additional illegal ﬂoors were
+compensated with an amount of around RMB 800–2000/m2, based on the material used in the buildings.
+Moreover, temporary compensation of RMB 30/m2 per month was also provided to enable the aﬀected
+villagers to rent an apartment when evacuated from their houses. In addition, each household could
+get RMB 10,000 as an incentive if they agreed to a contract before 30 May 2010. Yet, the project did not
+run as smoothly as Fuli expected. Despite 99% of the houses being demolished within two months
+of the starting date of 1 July 2010, it took roughly 37 months to demolish the last 1% of the houses.
+Villagers resisted and conﬂicts broke out when the private developer attempted to forcibly demolish
+the last several houses, delaying the demolition. And even though villagers who had already moved
+
+[PDF第10页]
+Sustainability 2019, 11, 3376 10 of 16
+tried to persuade the householders who were hanging on to evacuate their houses in order to expedite
+the project, this also failed, with internal conﬂicts arising. The ﬁnal householders intended to protect
+their property rights, while those who had already moved out wanted to move into their relocated
+high-rise buildings as soon as possible, especially elderly couples who did not want to die outside their
+village. In the end, the YJEA represented the interests of 99% of the householders, so the remaining
+1% of householders were taken to court, which decided that the holdout houses would be forcibly
+demolished. A tragedy occurred, however, when one member of a family killed herself by jumping
+oﬀ of her house. This was because she was o ﬀered little monetary compensation since her house
+was deemed illegal due to the absence of a property certiﬁcate. Several other households that had
+held out ﬁnally agreed to move after Fuli made a compromise with them. In sum, the institutional
+arrangement of the village in Yangji is shown in Figure 3. Under such an institutional arrangement,
+the private developer played a more active role in the redevelopment process. On the other hand,
+the YJEA represented the interests of its constituent villagers to negotiate with the private developer
+in order to achieve a consensus on the redevelopment scheme. Obviously, the YJEA had the power
+to inﬂuence the policy making of compensation and relocation. The government took the same role
+in land transaction as in the Liede Village case.
+Figure 3. Institutional arrangement of village renewal in Yangji Village.
+As claimed by the interviewees, the villagers who had moved out happily were relocated to the
+high-rise buildings after holding a lottery in May 2016. The newly constructed developments included
+15 relocated high-rise buildings from 36 to 42 stories with a construction area of 374,200 m2 in total.
+After the renewal project, the plot ratio became 5.16, and the land use eﬃciency was largely improved.
+The extra land was used to build a kindergarten, primary school, public garden, and ﬁtness centers,
+among other things, in the village. Since Yangji Village has a long history with many historical relics, like
+Yuxugong serving as the municipal cultural relics protection unit in Guangzhou, with a construction
+area of 317 m 2, the renewal project kept it as it was. To improve the land use e ﬃciency, four new
+ancestral halls that retained the original building style, for four diﬀerent tribes (e.g., the Yao’s, Qin’s,
+Li’s, and Liang’s families), were built to substitute for the widely dispersed old ones. They are located
+near the Yuxugong. Since the village renewal project, the living environment is improving, and the
+rental income of the villagers is around 10 times that of before. Though there is no land left in the
+village to develop the collective economy, the innovative design of the bottom three stories of each
+relocated high-rise building were designed for commercial space. Apart from this, there are also three
+levels of underground parking under each building. These two sources of rental income serve as the
+collective assets that can continuously produce proﬁts for all the villagers.
+As for cost recovery, Fuli used the transferred land to build high-rise commercial buildings.
+The total construction area was 273,800 m 2, including four luxurious accommodations from 44 to
+49 stories, one oﬃce building with 50 stories, and one hotel with 38 stories. By selling accommodations
+
+[PDF第11页]
+Sustainability 2019, 11, 3376 11 of 16
+or leasing the oﬃce space or hotel rooms in the market, Fuli can recoup their costs and pursue proﬁt
+in the long run.
+4.3. Partnership Institutional Arrangement in Linhe Village
+Linhe Village has a history of around 450 years, is located in the core of the central business
+district (CBD) in the northern part of the Tianhe district, and has around 700 households. It is
+in a desirable location less than 200 m from the East railway station. In 1998, Linhe Village abandoned
+the village committees and established the Linhe Runyang Economic Development Company (LREDC),
+Guangzhou, China. Later, the LREDC submitted a village renewal plan to the local government for
+approval. In 2002, the LREDC designed a renewal scheme for the old village. It took until 2008 for the
+local government to agree with the feasibility of the renewal project. In November, the compensation
+and relocation schemes of Linhe Village were ﬁrst announced publicly in 2009, in order to solicit
+suggestions from the local villagers. After holding eight meetings with the villagers, 93% of them
+agreed to the renewal scheme. This rate exceeded the minimum threshold of 90% to implement the
+renewal project. After negotiating with several private developers starting in 2004, the LREDC ﬁnally
+chose Sun Hung Kai Properties Limited (SHK) from Hong Kong and contracted with them to cooperate
+on the village renewal project. This was the ﬁrst experimental practice in which the villagers directly
+cooperated with private developers and with minimum interference from the local government.
+The Linhe Village renewal project occupied an area of around 65,000 m2, with a total construction
+area of about 400,000 m2. The northern part of the village’s land was planned as the relocation area,
+including six relocated high-rise buildings with 49 stories and one oﬃce building. During this process,
+all the funds were provided by SHK, including the monetary compensation fees of RMB 1100/m2 for
+illegal houses, temporary relocation fees of RMB 26/m2 per month to rent an apartment when villagers
+evacuated their houses, and construction fees for the relocated high-rise buildings. As for cost recovery,
+the land located in the south of the village was planned for developing commercial buildings to pursue
+long-term proﬁt, including seven high-rise residential buildings and one apartment, with a construction
+area of around 185,000 m 2. SHK owns 70% of the shares of these commercial buildings, while the
+LREDC owns the other 30%. As opposed to the practice of selling the land outright to raise funds
+for the renewal of the village, Linhe Village adopted the method of contracting directly with SHK
+to disperse the venture risk together. The institutional arrangement of the village renewal in Linhe
+Village is shown in Figure 4.
+Figure 4. Institutional arrangement of village renewal in Linhe Village.
+
+[PDF第12页]
+Sustainability 2019, 11, 3376 12 of 16
+4.4. Comparison of the Three Projects
+Table 2 summarizes the key characteristics of the three urban village renewal projects under
+investigation. Among the three projects, Liede Village project had the largest scale in terms of the
+number of households aﬀected. Although a legal entity was formed in all three cases to administrate
+and manage the village renewal project, the decision-makers or controllers are di ﬀerent. Original
+villagers had a say in the renewal project of Liede Village while not possessing fully decision-making
+power in Yangji Village project. In Linhe Village, original villagers partnered with private developers
+in form of a joint venture. Although the villagers held a minority share of the joint venture, their views
+still had some bearings on the project design and delivering.
+Table 2. Key characteristics of the three urban village renewal projects.
+Characteristic Liede Village Yangji Village Linhe Village
+No. of aﬀected households Over 3000 Around 1480 Around 700
+Institutional arrangement Bottom–up approach Developer–led approach Partnership approach
+Source of ﬁnance Private developers
+(via local governments) Private developers Private developers
+5. Discussion
+As far as the decision making mechanism is concerned, all three cases under investigation can
+come under the category of “bottom-up approach”, because the three projects were initiated by the
+respective village committees. However, in each case, the roles played by the village committees,
+private developers and governments in the redevelopment process were di ﬀerent so there were
+three diﬀerent forms of institutional arrangement. From a neo-institutional economics perspective,
+the institutional arrangements have a direct impact on the levels of transaction costs. Yet it is still
+unknown whether it applies to the urban village renewal process. This study tries to address this
+research gap. Transaction costs began to make sense with the existence of the ﬁrm [60]. Ronald Coase
+argues that transaction costs are essential for us to understand the working of the economic system,
+to analyze many of its problems in a useful way, or to have a basis for determining a policy [ 61].
+Despite the voluminous literature that relates to the transaction, theoretical consensus on its deﬁnition
+has still not been reached. For instance, Harold Demsetz holds that transaction costs are the costs of
+exchanging ownership titles [62], while Yoram Barzel argues that they are the costs associated with
+the transfer, capture, and protection of rights [63]. Given the complexity involved in considering all
+the transaction costs occurred in the redevelopment process, this study puts forward an alternative
+method to measure some given outcomes. Phrased diﬀerently, higher transaction costs are normally
+demonstrated by certain project outcomes such as longer project durations and higher levels of conﬂict.
+Generally, it is assumed that the lower the transaction cost, the smoother and more e ﬃcient the
+development process will be. As for the conﬂicts, they can be attributed to transaction costs associated
+with incomplete information, bounded rationality and uncertainties. Thus, in this study, we mainly
+use the length of project duration and levels of conﬂict as the scales to measure the transaction costs
+that occurred in the village renewal process.
+In the three selected cases, three diﬀerent institutional arrangements were utilized with diﬀerent
+time frames for demolition and the total project, as shown in Figure 5. We can see that it took around
+three months to demolish the whole village in both Liede and Linhe, while it took around 37 months
+in Yangji. The length of time for demolition directly reﬂects the degree of consensus between the
+aﬀected villagers and the renewal executor. Since there existed several householders who held out
+in Yangji and did not agree to evacuate their houses, it delayed the duration of the demolition. In terms
+of total project duration, the Liede Village renewal took the shortest time even though demolition took
+the same amount of time as in Linhe Village.
+
+[PDF第13页]
+Sustainability 2019, 11, 3376 13 of 16
+Figure 5. Demolition durations and total project durations of the three urban villages.
+In terms of conflict levels, all three renewal villages experienced holdout problems which seem
+a common phenomenon during the urban redevelopment project. The disparities are reflected by the
+levels of conflict and how each was settled. In Liede Village, the LEDC chose to utilize lawsuits to settle
+the conflict and then forcibly and peacefully demolish the last several houses. In Linhe Village, the LREDC
+chose to negotiate several times with those holding out and compromise with some of the householders’
+requirements. But in Yangji Village, no compromise was reached between the private developers and
+last remaining householders. In that situation, the YJEA also sued these householders in order to get
+their relocated high-rise buildings as soon as possible. As mentioned, one of the remaining householders
+ultimately committed suicide when the YJEA forcibly demolished the villager’s houses.
+With the ﬁndings of this study, we can answer the research question. Institutional arrangements
+signiﬁcantly aﬀect the outcomes of urban village redevelopment projects. From the research ﬁndings,
+some important policy implications can be drawn. It is important for the governments or other actors
+to look for institutional frameworks with lower transaction costs to facilitate redevelopment of urban
+villages. One possible way to engage the stakeholders, particularly the local communities, in a renewal
+project with a lower transaction costs is the application of mobile information and communication
+technologies [64,65]. Moreover, to reduce the levels of conﬂict in the urban renewal process, resort can
+be made to the approach of “planning mediation”. Planning mediation is popular in Scandinavian
+countries and Australia as a conﬂict management technique for sensitive or large-scale projects [ 66,67].
+This approach can reduce the occurrence of conﬂicts, smooth the conﬂict resolution process and allow
+arrival at a decision which is acceptable to most (if not all) interested stakeholders.
+6. Conclusions
+In sum, this study attempts to argue that the institutional arrangement of village renewal projects
+has a direct relationship to the transaction costs in terms of project duration and levels of conﬂict.
+All three urban villages had relatively good locations. Prior to the village renewal project, the number
+of indigenous households in Liede, Yangji, and Linde was 3167, 1479, and 703, respectively. Yet Liede
+took the shortest time to complete the project, indicating the highest degree of time-eﬃciency of the
+redevelopment process. With diﬀerent degrees of participation by private developers, the conﬂicts were
+also diﬀerent. It is hard to deny the impacts that the institutional arrangement exerts on transaction
+costs in terms of project duration and conﬂicts. Under di ﬀerent institutional arrangements, the costs of
+acquiring information are diﬀerent. Although institutions do not solve all problems, if we explore
+some eﬃcient ones, they can help the project run smoothly and reach win–win outcomes. The cases
+delineated above cannot explain all the phenomena, but they can inspire the governments to alter
+the existing institutions when facing increasing transaction costs. Perhaps, local governments or
+developers can explore ways to lower the transaction costs of information sharing and exchange.
+
+[PDF第14页]
+Sustainability 2019, 11, 3376 14 of 16
+Author Contributions: The authors’ individual contributions are outlined as follows: conceptualization, D.Y. and
+Y.Y.; methodology, D.Y. and Y.Y.; investigation, D.Y.; formal analysis, D.Y.; supervision, Y.Y.; manuscript writing,
+D.Y., Y.Y., H.B., Y.L. and T.L.; Final approval of the manuscript, D.Y., Y.Y., H.B., Y.L. and T.L.
+Funding: This research received no external funding.
+Conﬂicts of Interest: The authors declare no conﬂict of interest.
+References
+1. National Bureau of Statistics of China.China County Statistical Y earbook; China Statistics Press: Beijing, China, 2016.
+2. Tian, L.I. The Chengzhongcun land market in China: Boon or bane? A perspective on property rights.
+Int. J. Urban Reg. Res. 2008, 32, 282–304. [CrossRef]
+3. Kochan, D. Placing the urban village: A spatial perspective on the development process of urban villages
+in contemporary China. Int. J. Urban Reg. Res. 2015, 39, 927–947. [CrossRef]
+4. Zhang, L.; Zhao, S.X.; Tian, J.P . Self-help in housing and chengzhongcun in China’s urbanization.
+Int. J. Urban Reg. Res. 2003, 27, 912–937. [CrossRef]
+5. Hao, P .; Sliuzas, R.; Geertman, S. The development and redevelopment of urban villages in Shenzhen.
+Habitat Int. 2011, 35, 214–224. [CrossRef]
+6. Lin, Y.; Hao, P .; Geertman, S. A conceptual framework on modes of governance for the regeneration of
+Chinese ‘villages in the city’.Urban Stud. 2014, 52, 1774–1790. [CrossRef]
+7. Wu, F.; Zhang, F.; Webster, C. Informality and the development and demolition of urban villages in the
+Chinese peri-urban area. Urban Stud. 2013, 50, 1919–1934. [CrossRef]
+8. Ding, C. Policy and praxis of land acquisition in China. Land Use Policy 2007, 24, 1–13. [CrossRef]
+9. Zheng, S.; Long, F.; Fan, C.C.; Gu, Y. Urban villages in China: A 2008 survey of migrant settlements in Beijing.
+Eurasian Geogr. Econ. 2009, 50, 425–446. [CrossRef]
+10. Liu, Y.; He, S.; Wu, F.; Webster, C. Urban villages under China’s rapid urbanization: Unregulated assets and
+transitional neighbourhoods. Habitat Int. 2010, 34, 135–144. [CrossRef]
+11. Bagaeen, S.G. Redeveloping former military sites: Competitiveness, urban sustainability and public
+participation. Cities 2006, 23, 330–352. [CrossRef]
+12. He, S.; Liu, Y.; Wu, F.; Webster, C. Social groups and housing di ﬀerentiation in China’s urban villages:
+An institutional interpretation. Hous. Stud. 2010, 25, 671–691. [CrossRef]
+13. He, X. Maintaining stability by law: Protest-supported housing demolition litigation and social change
+in China. Law Soc. Inq. 2014, 39, 849–873. [CrossRef]
+14. Wang, Y.P .; Wang, Y.; Wu, J. Urbanization and informal development in China: Urban villages in Shenzhen.
+Int. J. Urban Reg. Res. 2009, 33, 957–973. [CrossRef]
+15. Zhu, J. From Land use right to land development right: Institutional change in China’s urban development.
+Urban Stud. 2004, 41, 1249–1267. [CrossRef]
+16. Barnes, K.; Waitt, G.; Gill, N.; Gibson, C. Community and nostalgia in urban revitalisation: A critique of
+urban village and creative class strategies as remedies for social ‘problems’.Aust. Geogr. 2006, 37, 335–354.
+[CrossRef]
+17. Wu, F. How neoliberal is China’s reform? The origins of change during transition. Eurasian Geogr. Econ.
+2010, 51, 619–631. [CrossRef]
+18. Qian, J.; He, S.; Liu, L. Aestheticisation, rent-seeking, and rural gentriﬁcation amidst China’s rapid
+urbanisation: The case of Xiaozhou Village, Guangzhou. J. Rural Stud. 2013, 32, 331–345. [CrossRef]
+19. William, O.E. The new institutional economics: Taking stock, looking ahead. J. Econ. Lit. 2000, 38, 595–613.
+[CrossRef]
+20. Nabi, M.K.; Nugent, J.B. The new institutional economics and its applicability to development. World Dev.
+1989, 17, 1333–1347. [CrossRef]
+21. North, D.C. Institutions, Institutional Change and Economic Performance ; Cambridge University Press:
+New York, NY, USA, 1990.
+22. Searle, J.R. What is an institution? J. Inst. Econ. 2005, 1, 1–22. [CrossRef]
+23. North, D.C. Institutions, ideology, and economic performance. Cato J. 1991, 11, 477–488.
+24. Needham, B. Planning, Law and Economics: The Rules We Make for Using Land; Routledge: London, UK, 2006.
+
+[PDF第15页]
+Sustainability 2019, 11, 3376 15 of 16
+25. Buitelaar, E.; Lagendijk, A.; Jacobs, W. A theory of institutional change: Illustrated by Dutch city-provinces
+and Dutch land policy. Environ. Plan. A 2007, 39, 891–908. [CrossRef]
+26. Galvin, T.L. Examining institutional change: Evidence from the founding dynamics of US health care interest
+associations. Acad. Manag. J. 2002, 45, 673–696.
+27. Caldarice, O.; Cozzolino, S. Institutional contradictions and attempts at innovation: Evidence from the Italian
+urban facility planning. Eur. Plan. Stud. 2019, 27, 68–85. [CrossRef]
+28. Dacin, M.T.; Goodstein, J.; Scott, W.R. Institutional theory and institutional change: Introduction to the
+special research forum. Acad. Manag. J. 2002, 45, 45–56. [CrossRef]
+29. Zhou, Q. Urban–Rural in China: First Volume; China CITIC Press: Beijing, China, 2013.
+30. Ho, P . Who owns China’s land? Policies, property rights and deliberate institutional ambiguity.China Q.
+2001, 166, 394–421. [CrossRef]
+31. Zhou, Q. Urban–Rural in China: Second Volume; China CITIC Press: Beijing, China, 2014.
+32. Liu, R.; Wong, T.; Liu, S. Peasants’ counterplots against the state monopoly of the rural urbanization process:
+Urban villages and ‘small property housing’ in Beijing, China. Environ. Plan. A 2012, 44, 1219–1240.
+[CrossRef]
+33. Chan, E.H.; Kwok, G. Foreign participation in housing development in Mainland China: Legal concerns on
+property ownership. Rev. Urban Reg. Dev. Stud. 1999, 11, 154–167. [CrossRef]
+34. Zhang, L.; Ye, Y.; Chen, J. Urbanization, informality and housing inequality in indigenous villages: A case
+study of Guangzhou. Land Use Policy 2016, 58, 32–42. [CrossRef]
+35. Brandt, L.; Huang, J.; Li, G.; Rozelle, S. Land rights in rural China: Facts, ﬁctions and issues. China J. 2002, 47,
+67–97. [CrossRef]
+36. Wang, H.; Tong, J.; Su, F.; Wei, G.; Tao, R. To reallocate or not: Reconsidering the dilemma in China’s
+agricultural land tenure policy. Land Use Policy 2011, 28, 805–814. [CrossRef]
+37. Zhao, P . An ‘unceasing war’ on land development on the urban fringe of Beijing: A case study of gated
+informal housing communities. Cities 2017, 60, 139–146. [CrossRef]
+38. Xu, Y.; Tang, B.; Chan, E.H.W. State-led land requisition and transformation of rural villages in transitional
+China. Habitat Int. 2011, 35, 57–65. [CrossRef]
+39. Zhang, Q.F.; Donaldson, J.A. China’s agrarian reform and the privatization of land: A contrarian view.
+J. Contemp. China 2013, 22, 255–272. [CrossRef]
+40. Zou, X.; Oskam, A.J. New compensation standard for land expropriation in China. China World Econ. 2017,
+15, 107–120. [CrossRef]
+41. Choy, L.H.T.; Lai, Y.; Lok, W. Economic performance of industrial development on collective land in the
+urbanization process in China: Empirical evidence from Shenzhen. Habitat Int. 2013, 40, 184–193. [CrossRef]
+42. Xie, Q.; Parsa, A.G.; Redding, B. The emergence of the urban land market in China: Evolution, structure,
+constraints and perspectives. Urban Stud. 2002, 39, 1375–1398. [CrossRef]
+43. Zhao, B. Land expropriation, protest, and impunity in rural China. Focaal 2009, 54, 97–105. [CrossRef]
+44. Cao, G.; Feng, C.; Tao, R. Local ‘land ﬁnance’ in China’s urban expansion: Challenges and solutions.
+China World Econ. 2008, 16, 19–30. [CrossRef]
+45. He, S. Two waves of gentriﬁcation and emerging rights issues in Guangzhou, China. Environ. Plan. A 2012,
+44, 2817–2833. [CrossRef]
+46. Zhu, J.; Guo, Y. Fragmented peri-urbanisation led by autonomous village development under informal
+institution in high-density regions: The case of Nanhai, China. Urban Stud. 2013, 51, 1120–1145. [CrossRef]
+47. Elklit, J. The Chinese village committee electoral system. China Inf. 1997, 11, 1–13. [CrossRef]
+48. Bao, H.; Peng, Y. Eﬀect of land expropriation on land-lost farmers’ entrepreneurial action: A case study of
+Zhejiang Province. Habitat Int. 2016, 53, 342–349. [CrossRef]
+49. Wong, S.W. Urbanization as a process of state building: Local governance reforms in China.Int. J. Urban Reg. Res.
+2015, 39, 912–926. [CrossRef]
+50. Li, L.A Study on the Formation and Reform Mechanism of Villages-in-the-City in Guangzhou City; Sun Yat-sen University:
+Guangzhou, China, 2001.
+51. Ye, L. Urban regeneration in China: Policy, development, and issues.Local Econ. 2011, 26, 337–347. [CrossRef]
+52. Gong, J.; Chen, W.; Liu, Y.; Wang, J. The intensity change of urban development land: Implications for the
+city master plan of Guangzhou, China. Land Use Policy 2014, 40, 91–100. [CrossRef]
+
+[PDF第16页]
+Sustainability 2019, 11, 3376 16 of 16
+53. Guangzhou International. Administrative Regions and Population. Available online: http: //english.gz.gov.
+cn/gzgoven/s3616/201508/849fdfb0543b4fc5bbaadb967aa0fa2f.shtml (accessed on 29 April 2019).
+54. Guangzhou Statistics Bureau. 2018 Population Scale and Distribution in Guangzhou. Available online:
+http://www.gzstats.gov.cn/gzstats/tjgb_qtgb/201902/da07f05ce86a41fd97415efec5637085.shtml (accessed on
+29 April 2019).
+55. Lai, S.; Wu, J. Speed and beneﬁt: Guangzhou ‘three old’ redevelopment strategies for new urbanization.
+Planners 2013, 5, 36–41.
+56. Buckingham, W. Uncorking the neoliberal bottle: Neoliberal critique and urban change in China.
+Eurasian Geogr. Econ. 2017, 58, 297–315. [CrossRef]
+57. Li, L.H.; Lin, J.; Li, X.; Wu, F. Redevelopment of urban village in China—A step towards an e ﬀective urban
+policy? A case study of Liede Village in Guangzhou. Habitat Int. 2014, 43, 299–308. [CrossRef]
+58. Cheng, Z. The changing and diﬀerent patterns of urban redevelopment in China: A study of three inner-city
+neighborhoods. Community Dev. 2012, 43, 430–450. [CrossRef]
+59. Wei, J. The law reviews on the listing to sell public land by concluding the base prices of the Yangji Cun
+modifying. Superv. Test Cost Constr. 2011, 4, 78–79.
+60. Coase, R.H. The nature of the ﬁrm. Economica 1937, 4, 386–405. [CrossRef]
+61. Coase, R.H. Blackmail. Va. Law Rev. 1988, 74, 655–676. [CrossRef]
+62. Demsetz, H. The cost of transacting. Q.J. Econ. 1968, 82, 33–53. [CrossRef]
+63. Barzel, Y. Economic Analysis of Property Rights; Cambridge University Press: Cambridge, UK, 1989.
+64. Houghton, K.; Miller, E.; Foth, M. Integrating ICT into the planning process: Impacts, opportunities and
+challenges. Aust. Plan. 2014, 51, 24–33. [CrossRef]
+65. Hobololo, T.S.; Mawela, T. Exploring the use of mobile phones for public participation in the Buﬀalo City
+Metropolitan Municipality. Agris On-Line Papers. Econ. Inform. 2017, 9, 57–68. [CrossRef]
+66. Røsnes, A.E. Regulatory power, network tools and market behaviour: Transforming practices in Norwegian
+urban planning. Plan. Theory Pract. 2005, 6, 35–51. [CrossRef]
+67. Peltonen, L.; Sairinen, R. Integrating impact assessment and conﬂict management in urban planning:
+Experiences from Finland. Environ. Impact Assess. Rev. 2010, 30, 328–337. [CrossRef]
+© 2019 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access
+article distributed under the terms and conditions of the Creative Commons Attribution
+(CC BY) license (http://creativecommons.org/licenses/by/4.0/).

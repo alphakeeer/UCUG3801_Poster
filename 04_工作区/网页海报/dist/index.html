@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#183b34" />
+    <meta
+      name="description"
+      content="猎德公共文化服务的时间可及性研究。基于官方公布的常规开放时段，对照两个社区中心与街道文化站，讨论资源获取的空间与时间条件。"
+    />
+    <title>何时可用 · 猎德公共文化服务研究海报</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#poster">跳转到海报</a>
+    <header class="site-header">
+      <a class="site-brand" href="#poster" aria-label="返回海报"
+        ><span class="brand-mark" aria-hidden="true">时</span
+        ><span
+          >猎德研究<span class="brand-sub">LIEDE FIELD STUDY</span></span
+        ></a
+      >
+      <nav aria-label="页面导航">
+        <a class="active" href="#poster">研究海报</a
+        ><a href="#reading">研究详解</a
+        ><a
+          class="download-link"
+          href="assets/liede-research-poster.pdf"
+          download
+          >下载 PDF <span aria-hidden="true">↗</span></a
+        >
+      </nav>
+    </header>
+
+    <main>
+      <div class="view-intro">
+        <span>URBAN SOCIOLOGY / 2026</span
+        ><span>中文海报 · 公开资料研究版</span>
+      </div>
+      <div class="poster-viewport" id="poster-viewport">
+        <article class="poster" id="poster" aria-labelledby="poster-title">
+          <div class="masthead">
+            <span>UCUG3801 / 社会不平等与社会流动</span
+            ><span>GUANGZHOU · LIEDE <span class="edition">01</span></span>
+          </div>
+
+          <header class="poster-hero">
+            <div>
+              <p class="eyebrow">猎德街道公共文化服务可及性研究</p>
+              <h1 id="poster-title">家门口的服务，<br /><em>何时可用？</em></h1>
+              <p class="hero-sub">开放时间、到达条件与资源获取机会</p>
+            </div>
+            <div class="hero-clock" aria-hidden="true">
+              <svg viewBox="0 0 200 200">
+                <circle cx="100" cy="100" r="87" />
+                <circle cx="100" cy="100" r="74" />
+                <path class="clock-arc" d="M100 13 A87 87 0 1 1 13 100" />
+                <path class="clock-hand" d="M100 40 V100 L141 124" />
+                <circle class="clock-center" cx="100" cy="100" r="5" />
+                <text x="100" y="34">12</text>
+                <text x="166" y="105">3</text>
+                <text x="100" y="178">6</text>
+                <text x="34" y="105">9</text></svg
+              ><span>TIME & ACCESS</span>
+            </div>
+          </header>
+
+          <figure class="city-image">
+            <img
+              src="assets/liede-2020.jpg"
+              alt="广州市档案馆刊载的2020年猎德村城市景观"
+              width="1200"
+              height="600"
+            />
+            <figcaption>
+              <span>LIEDE / 城市更新后的社区空间</span
+              ><span>档案影像 · 2020 · 广州市档案馆 [6]</span>
+            </figcaption>
+          </figure>
+
+          <section class="intro-grid" aria-label="问题与研究方法">
+            <div class="research-question">
+              <p class="section-kicker">研究问题</p>
+              <h2>
+                开放时间与到达条件，如何影响<br />不同居民获得公共文化服务的机会？
+              </h2>
+              <p>
+                猎德的城市更新伴随社区服务建设。以两个社区中心为案头样本，观察资源供给与生活日程之间的关系。[1,4,5]
+              </p>
+            </div>
+            <div class="method-note">
+              <p class="section-kicker">方法 / 资料核对 2026.11.09</p>
+              <p>
+                官方目录编码 → 常规时段求和 →<br />同类设施对照 → 社会学机制分析
+              </p>
+              <div class="research-status">
+                <span class="status-dot"></span>公开资料分析已完成<br /><span
+                  class="status-indent"
+                  >现场观察与环境核验待补</span
+                >
+              </div>
+            </div>
+          </section>
+
+          <section class="schedule-section" aria-labelledby="schedule-title">
+            <div class="section-heading">
+              <div>
+                <p class="section-kicker">01 / 时间供给</p>
+                <h2 id="schedule-title">总时长接近，时间分布各异</h2>
+              </div>
+              <div class="legend">
+                <span><i class="green-key"></i>社区中心</span
+                ><span><i class="gold-key"></i>街道文化站</span>
+              </div>
+            </div>
+            <div class="schedule-grid" id="schedule-grid"></div>
+            <p class="figure-caption">
+              图
+              1　官方公布的常规开放时段。空格为目录未列开放时段，特别活动与临时调整待核实。时长为本研究计算。[1]
+            </p>
+          </section>
+
+          <section
+            class="comparison-section"
+            aria-labelledby="comparison-title"
+          >
+            <div class="section-heading compact">
+              <div>
+                <p class="section-kicker">02 / 社区比较</p>
+                <h2 id="comparison-title">两个社区，一套比较口径</h2>
+              </div>
+              <span class="small-note">候选样本 · 与课程路线待核对</span>
+            </div>
+            <div class="community-comparison">
+              <div>
+                <span class="sample-code">A</span>
+                <h3>猎德社区</h3>
+                <p>海文路16号103铺之一</p>
+                <div class="community-stats">
+                  <span><b data-weekly="liede">48</b> 小时 / 周</span
+                  ><span><b data-weekend="liede">3</b> 小时 / 周末</span>
+                </div>
+              </div>
+              <span class="comparison-axis" aria-hidden="true">↔</span>
+              <div>
+                <span class="sample-code">B</span>
+                <h3>利民社区</h3>
+                <p>兴民路214号二楼</p>
+                <div class="community-stats">
+                  <span><b data-weekly="limin">48</b> 小时 / 周</span
+                  ><span><b data-weekend="limin">3</b> 小时 / 周末</span>
+                </div>
+              </div>
+            </div>
+            <p class="figure-caption">
+              图
+              2　同类社区中心的公布时段相同。入口、公共路线、预约与实际运行情况按同一审计表补充核验。[1]
+            </p>
+          </section>
+
+          <section class="analysis-section" aria-labelledby="analysis-title">
+            <div class="section-heading compact">
+              <div>
+                <p class="section-kicker">03 / 社会学解释</p>
+                <h2 id="analysis-title">开放安排与使用机会</h2>
+              </div>
+            </div>
+            <div class="concept-columns">
+              <div>
+                <h3><span>Ⅰ</span> 空间不平等</h3>
+                <p>
+                  设施位置、行程成本与开放时段共同影响可达性。街道级服务能否补充社区供给，需要结合公共路线核验。[2]
+                </p>
+              </div>
+              <div>
+                <h3><span>Ⅱ</span> 社会分层</h3>
+                <p>
+                  工作、通勤和照护安排可能影响可支配时间。不同日程与统一时段的匹配程度，是待检验的机会差异机制。[3,4]
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section class="conclusion-panel" aria-label="结论与局限">
+            <div>
+              <p class="section-kicker">结论 / 当前证据范围</p>
+              <h2>可用的机会，形成于<br />服务时间与生活时间的交叠。</h2>
+              <p>
+                常规时段以昼间为主，街道文化站提供更长的周末窗口。实际使用机会需结合居民日程与到达条件检验。[1–3]
+              </p>
+            </div>
+            <div class="limitations">
+              <h3>反身性与局限</h3>
+              <p><b>01</b> 公布时段与实际运行待核对</p>
+              <p><b>02</b> 居民日程与使用经历待补</p>
+              <p><b>03</b> 设施功能、覆盖范围与研究时点有差异</p>
+              <span>补证后按实际结果更新解释与结论</span>
+            </div>
+          </section>
+
+          <section class="poster-references" aria-labelledby="reference-title">
+            <p class="section-kicker" id="reference-title">
+              参考文献与图像来源
+            </p>
+            <ol>
+              <li>
+                <a
+                  href="https://www.thnet.gov.cn/zwgk/shgysyjs/ggwhty/content/post_10824014.html"
+                  target="_blank"
+                  rel="noopener"
+                  >天河区文化广电旅游体育局。《天河区公共文化设施目录》，检索于2026-11-09。</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://doi.org/10.1016/j.jtrangeo.2003.10.005"
+                  target="_blank"
+                  rel="noopener"
+                  >Geurs, K. T., & van Wee, B. (2004). Accessibility evaluation
+                  of land-use and transport strategies: Review and research
+                  directions. Journal of Transport Geography, 12(2), 127–140.</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://meipokwan.org/Paper/PG_1999.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  >Kwan, M.-P. (1999). Gender and Individual Access to Urban
+                  Opportunities: A Study Using Space–Time Measures. The
+                  Professional Geographer, 51(2), 210–227.</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://doi.org/10.13284/j.cnki.rddl.003287"
+                  target="_blank"
+                  rel="noopener"
+                  >潘卓林等（2020）。基于场域理论的城中村村民市民化研究——以广州猎德复建房社区为例。《热带地理》，40(6)，981–992。</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.thnet.gov.cn/ztzl/bqwgc/content/post_10667164.html"
+                  target="_blank"
+                  rel="noopener"
+                  >天河发布（2026）。《不出猎德，体验国际化生活》。天河政府网。</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.gzdaj.gov.cn/gzjy/tsgz/lsyxdrhddf/index.html"
+                  target="_blank"
+                  rel="noopener"
+                  >广州市档案馆（2020）。《老城市新活力：广州猎德村的变迁》。图文署名为市国家档案馆声像档案部。</a
+                >
+              </li>
+            </ol>
+          </section>
+          <footer class="poster-footer">
+            <span>四人小组 · 姓名与实地日期待补</span
+            ><span>公开资料研究版 / 9:16</span><span>LIEDE STUDY · 2026</span>
+          </footer>
+        </article>
+      </div>
+
+      <section class="reading" id="reading" aria-labelledby="reading-title">
+        <div class="reading-heading">
+          <p class="eyebrow">RESEARCH NOTES</p>
+          <h2 id="reading-title">读懂时间背后的机会</h2>
+          <p>公开数据、计算方法与待检验的机制，分别呈现。</p>
+        </div>
+        <section
+          class="reading-block scenario"
+          aria-labelledby="scenario-title"
+        >
+          <div class="reading-label">01 / 情景分析</div>
+          <div>
+            <h3 id="scenario-title">每周都有10小时，何时有空很重要。</h3>
+            <p>
+              将可支配时间分别放在工作日白天和晚间，观察它与社区中心公布时段的交叠。两种日程均为假设，用于解释分析框架。
+            </p>
+            <div
+              class="scenario-controls"
+              role="group"
+              aria-label="选择假设日程"
+            >
+              <button
+                type="button"
+                class="selected"
+                data-scenario="day"
+                aria-pressed="true"
+              >
+                白天日程 <span>周一至周五 10–12时</span></button
+              ><button
+                type="button"
+                data-scenario="evening"
+                aria-pressed="false"
+              >
+                晚间日程 <span>周一至周五 19–21时</span>
+              </button>
+            </div>
+            <div class="scenario-result">
+              <div>
+                <span class="scenario-number" id="overlap-hours">10</span
+                ><span class="scenario-unit">小时 / 周</span>
+                <p>与公布开放时段重叠</p>
+              </div>
+              <div
+                class="scenario-bars"
+                id="scenario-bars"
+                aria-live="polite"
+              ></div>
+            </div>
+            <p class="method-caveat">
+              情景设定每周可支配时间均为10小时，暂不计交通、排队和活动时长要求。此演示对应潜在可用窗口，居民实际使用情况需结合真实记录分析。
+            </p>
+          </div>
+        </section>
+        <section class="reading-block">
+          <div class="reading-label">02 / 数据与计算</div>
+          <div>
+            <h3>每一项数字，都能回到公布时段。</h3>
+            <div class="data-table-wrap">
+              <table class="data-table">
+                <caption>
+                  三个设施的公开时段与计算口径
+                </caption>
+                <thead>
+                  <tr>
+                    <th scope="col">设施</th>
+                    <th scope="col">公布常规时段</th>
+                    <th scope="col">每周</th>
+                    <th scope="col">周末</th>
+                  </tr>
+                </thead>
+                <tbody id="data-table-body"></tbody>
+              </table>
+            </div>
+            <p>
+              社区中心按 5×9＋3 计算，街道文化站按
+              7×（3＋4）计算。周末分别按周六3小时，以及周六、周日各7小时计算。所有结果均据公布时段推算。
+            </p>
+            <p>
+              目录中的面积属于设施建筑面积。人口覆盖、实际开放空间、活动内容和到达条件需要分别核实。不同层级的设施作为服务网络的不同节点分析。
+            </p>
+            <a
+              class="text-link"
+              href="https://www.thnet.gov.cn/zwgk/shgysyjs/ggwhty/content/post_10824014.html"
+              target="_blank"
+              rel="noopener"
+              >查看官方目录原文 ↗</a
+            >
+          </div>
+        </section>
+        <section class="reading-block">
+          <div class="reading-label">03 / 证据与方法</div>
+          <div>
+            <h3>让解释与证据的范围相称。</h3>
+            <div class="evidence-lines">
+              <div>
+                <span class="evidence-status complete">已核对</span>
+                <h4>C · 背景研究</h4>
+                <p>官方目录、服务介绍与学术文献，支持时段编码和分析框架。</p>
+              </div>
+              <div>
+                <span class="evidence-status pending">待补充</span>
+                <h4>A · 系统观察</h4>
+                <p>
+                  实际地点、日期、时段、持续时间、活动记录及合适的现场照片。
+                </p>
+              </div>
+              <div>
+                <span class="evidence-status pending">待核验</span>
+                <h4>B · 环境审计</h4>
+                <p>
+                  公共路线、入口、开放标牌、预约、收费、无障碍和实际运行情况。
+                </p>
+              </div>
+            </div>
+            <p>
+              空间位置与时间窗口一起进入分析。涉及阶层、迁移身份及照护经历时，采用可靠资料或当事人自述，并说明样本与研究时点。
+            </p>
+          </div>
+        </section>
+        <section class="reading-block">
+          <div class="reading-label">04 / 成稿核对</div>
+          <div>
+            <h3>小组补证后，更新正式提交版。</h3>
+            <ul class="completion-list">
+              <li>核对猎德、利民是否对应课程实际到访的两个社区。</li>
+              <li>填写四位组员姓名、实际实地日期与方法记录。</li>
+              <li>补入系统观察与环境审计，将结论更新为实际发现。</li>
+              <li>确认 Canvas 9:16 与作业 PDF 16:9 建议之间的版式冲突。</li>
+              <li>完成各成员150–200词贡献声明、组员评价及展示准备。</li>
+            </ul>
+            <div class="download-row">
+              <a
+                class="solid-button"
+                href="assets/liede-research-poster.pdf"
+                download
+                >下载海报 PDF <span aria-hidden="true">↓</span></a
+              ><a
+                class="outline-button"
+                href="assets/liede-research-poster.png"
+                download
+                >下载高清 PNG <span aria-hidden="true">↓</span></a
+              >
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <span>UCUG3801 · LIEDE STUDY</span
+      ><span>资料核对 2026.11.09 · 中文研究海报</span
+      ><a href="#poster">返回海报 ↑</a>
+    </footer>
+  </body>
+</html>

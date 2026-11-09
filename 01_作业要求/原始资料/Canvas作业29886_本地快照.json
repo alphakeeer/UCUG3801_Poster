@@ -1,0 +1,38 @@
+{
+  "verification_date": "2026-11-09",
+  "verification_method": "local_snapshot_only",
+  "source_file": "/Users/sato/Project/选课/tmp/plan-src/raw/4032_assignments.json",
+  "note": "仅保存作业要求和配置字段。核对日期表示本地读取日期，快照抓取时间未知。",
+  "assignment": {
+    "id": 29886,
+    "name": "Field trip Poster - Learning Portfolio",
+    "course_id": 4032,
+    "html_url": "https://hkust-gz.instructure.com/courses/4032/assignments/29886",
+    "description": "<p>Dear all</p>\n<p>As discussed in class, the details of the poster assessment are uploaded here.</p>\n<p><a class=\"instructure_file_link instructure_scribd_file inline_disabled\" title=\"UCUG3801_fieldposter.pdf\" href=\"https://hkust-gz.instructure.com/courses/4032/files/863980?wrap=1\" target=\"_blank\" data-canvas-previewable=\"false\" data-api-endpoint=\"https://hkust-gz.instructure.com/api/v1/courses/4032/files/863980\" data-api-returntype=\"File\">UCUG3801_fieldposter.pdf</a></p>\n<p><span style=\"text-decoration: underline;\"><strong>Poster fitting to a Movable Screen (9:16, recommended 1080*1920 or higher)</strong></span></p>\n<p>You only need to submit the e-form, usually a PDF form. We will print the poster for you before class. Please make sure your poster is print-ready and clearly readable.&nbsp;</p>\n<p>&nbsp;</p>\n<p>Best</p>\n<p>Muzhi</p>",
+    "points_possible": 100.0,
+    "created_at": "2026-10-28T10:32:03Z",
+    "updated_at": "2026-11-03T03:45:02Z",
+    "due_at": "2026-11-17T06:00:00Z",
+    "unlock_at": "2026-10-28T10:00:00Z",
+    "submission_types": [
+      "online_upload"
+    ],
+    "group_category_id": null,
+    "peer_reviews": false
+  },
+  "announcement_source_file": "/Users/sato/Project/选课/tmp/plan-src/raw/4032_announcements.json",
+  "field_trip_announcements": [
+    {
+      "id": 34375,
+      "title": "Reschedule for the course",
+      "posted_at": "2026-10-19T09:36:29Z",
+      "message": "<p data-olk-copy-source=\"MessageBody\">Please be informed that there is a change to the schedule of UCUG3801 (L02). As the class will be going on a field trip, the class time has been adjusted as follows:<br><br></p>\n<p><strong>Original Schedule: 2026/10/22 (But pls remember to submit your group discussion assignment still)</strong></p>\n<p><span><strong>New Schedule: 2026/11/07 (full-day field trip)</strong></span></p>\n<p aria-hidden=\"true\">&nbsp;</p>\n<p>Please take note of the change and plan accordingly. We apologize for any inconvenience this may cause and appreciate your understanding.</p>\n<p>Should you have any questions, please feel free to contact the course instructor and TA.</p>\n<p>Thank you for your attention.<br><br>Best,&nbsp;<br>Yuc</p>"
+    },
+    {
+      "id": 35598,
+      "title": "Filed Trip Reminder",
+      "posted_at": "2026-11-05T01:13:00Z",
+      "message": "<p>Dear all,<br><br>We will have our field trip on November 7th.&nbsp;<br>Please arrive at Campus Gate 3 by 8:20 AM at least. The bus will depart punctually at 8:30 AM.&nbsp;<br>Please make sure to be on time — if you have any special circumstances, please contact me in advance! Thank you!<br><br>Best,<br>TA</p>"
+    }
+  ]
+}

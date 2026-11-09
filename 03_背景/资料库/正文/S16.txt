@@ -1,0 +1,1426 @@
+来源编号 S16
+标题 Wu等2013城中村发展与拆除研究
+原始网址 https://discovery.ucl.ac.uk/1391859/1/Urban_Stud-2013-Wu-1919-34.pdf
+核对日期 2026-11-09T09:43:42.021832+00:00
+
+[PDF第1页]
+ http://usj.sagepub.com/
+Urban Studies
+ http://usj.sagepub.com/content/50/10/1919
+The online version of this article can be found at:
+ 
+DOI: 10.1177/0042098012466600
+ 2013 50: 1919 originally published online 26 November 2012Urban Stud
+Fulong Wu, Fangzhu Zhang and Chris Webster
+Peri-urban Area
+Informality and the Development and Demolition of Urban Villages in the Chinese
+ 
+ 
+Published by:
+ http://www.sagepublications.com
+On behalf of:
+ 
+ Urban Studies Journal Foundation
+ can be found at:Urban StudiesAdditional services and information for 
+ 
+ 
+ 
+Immediate free access via SAGE ChoiceOpen Access: 
+ 
+ 
+ http://usj.sagepub.com/cgi/alertsEmail Alerts: 
+ 
+ http://usj.sagepub.com/subscriptionsSubscriptions:  
+ http://www.sagepub.com/journalsReprints.navReprints: 
+ 
+ http://www.sagepub.com/journalsPermissions.navPermissions: 
+ 
+ What is This?
+ 
+- Nov 26, 2012OnlineFirst Version of Record 
+ 
+- Jul 4, 2013Version of Record >> 
+ at University College London on August 1, 2014usj.sagepub.comDownloaded from  at University College London on August 1, 2014usj.sagepub.comDownloaded from 
+
+[PDF第2页]
+Informality and the Development and
+Demolition of Urban Villages in the
+Chinese Peri-urban Area
+Fulong Wu, Fangzhu Zhang and Chris Webster
+[Paper first received, February 2011; in final form, August 2012]
+Abstract
+The fate of Chinese urban villages ( chengzhongcun) has recently attracted both
+research and policy attention. Two important unaddressed questions are: what are
+the sources of informality in otherwise orderly Chinese cities; and, will village rede-
+velopment policy eliminate informality in the Chinese city? Reflecting on the long-
+established study of informal settlements and recent research on informality, it is
+argued that the informality in China has been created by the dual urban–rural land
+market and land management system and by an underprovision of migrant housing.
+The redevelopment of chengzhongcun is an attempt to eliminate this informality and
+to create more governable spaces through formal land development; but since it fails
+to tackle the root demand for unregulated living and working space, village redeve-
+lopment only leads to the replication of informality in more remote rural villages, in
+other urban neighbourhoods and, to some extent, in the redeveloped
+neighbourhoods.
+1. Introduction
+China has experienced rapid urbanisation in
+the past three decades, its urbanisation level
+increasing from about 19 per cent in 1979 to
+46.6 per cent in 2008 (CNSB, 2009). Rural
+to urban migration is mainly concentrated
+in the eastern coastal area (Fan, 2008),
+especially in the peri-urban areas of large
+metropolises (Wu, 2002; Wang et al., 2010).
+To what extent can the development of
+Chinese cities be understood with reference
+to the global South (Roy and AlSayyad,
+2004), especially the notion of the ‘planet of
+Fulong Wu and Fangzhu Zhang are in the Bartlett School of Planning, University College London,
+22 Gordon Street, London, WC1H 0BQ, UK. E-mail: fulong.wu@ucl.ac.uk and
+fangzhu.zhang@ucl.ac.uk.
+Chris Webster is in the School of City and Regional Planning, University of Cardiff, Glamorgan
+Building, King Edward VII Avenue, Cardiff, CF10 3WA, UK. E-mail: webster@cardiff.ac.uk.
+Urban Studies at 50
+Article
+50(10) 1919–1934, August 2013
+0042-0980 Print/1360-063X Online
+/C2112012 Urban Studies Journal Limited
+DOI: 10.1177/0042098012466600
+ at University College London on August 1, 2014usj.sagepub.comDownloaded from 
+
+[PDF第3页]
+slums’ attributed to a world of globalising
+capitalism (Davis, 2006)?
+Despite extensive studies of China’s rural
+to urban migration, only recently have
+there been substantial published accounts
+of the habitat of migrants (Tian, 2008;
+Wang et al ., 2010; Liu et al ., 2010). Earlier
+studies of migrants largely focused on their
+social structure and their exclusion from
+the labour market (Solinger, 1999; Zhang,
+2001) rather than their living spaces. From
+studies of migrant housing, we know that
+rural migrants tend to live in peri-urban
+locations due to a shortage of private rental
+space inside Chinese cities (Wang et al
+2010; Wu, 2002). In some cities such as
+Shanghai, the distribution of rural migrants
+is more dispersed, including to old munici-
+pal and work-unit housing areas, while in
+others such as Guangzhou and Shenzhen
+they are concentrated in chengzhongcun, the
+so-called villages in the city (Tian, 2008).
+The purpose of this paper is to use the
+perspective of recent informality research
+to trace the source of informality in the
+context of Chinese cities and critically
+examine recent policies of village demoli-
+tion in China. This study aims to compare
+urban informality in different Chinese cities
+as well as with other countries and hence
+challenge the official discourse of informal
+and disorderly villages which it is deemed
+necessary to demolish. The research is
+centred upon the understanding that
+informality is created by the political eco-
+nomic institution that defines the develop-
+ment process and management of informal
+settlements. In the following section, the
+literature of informal settlements and
+informality is reviewed. Section 3 then pro-
+poses a framework for analysing informality
+in human settlements. Section 4 explains
+the persistence of informality after land
+acquisition. Section 5 examines in detail
+three cases of village redevelopment. The
+paper concludes by critically considering
+implications for informality research in
+China and elsewhere.
+2. Property Rights, ‘Informality’ and
+‘Informal Settlements’
+There has been extensive research on infor-
+mal settlements in the field of development
+studies over many years (Gilbert and Ward,
+1985; Gilbert, 2007; Gilbert and Gugler,
+1992; UN-Habitat, 2003; Varley, 2002; van
+Gelder, 2009). There is particularly good
+coverage of Latin American (Gilbert and
+Ward, 1985), South Asian (Nijman, 2010),
+Hong Kong (Smart, 2006) and African cities
+(Huchzermeyer, 2003). At the heart of the
+notion of the ‘informality’ of settlements is
+the issue of property rights over land inhab-
+ited by the poor and low incomed. The liter-
+ature exposes tremendous diversity within
+the category of informal housing (also see
+Payne, 2004 for a comparative discussion).
+While ‘squatter settlements’ usually mean
+that housing development and occupation
+have occurred without the formal consent
+of the landowner, other rights over the
+squatted land or building might be legal. In
+their study of three Latin American cities,
+Gilbert and Ward emphasise the diversity
+across Valencia, Bogota and Mexico City,
+for example. They found that
+the poor acquire land principally through
+illegal processes but the form of this illegality
+varies considerably between settlements and
+between cities (Gilbert and Ward, 1985, p.
+127).
+In Valencia, it has been invasions of public
+and private land that have created informal
+settlements; while in Bogota, informal
+neighbourhoods have been widely built on
+‘pirate sub-divisions’ of legally acquired
+land owned by rural e´lites and let or sold to
+migrants outside the formal development
+1920 FULONG WU ET AL.
+ at University College London on August 1, 2014usj.sagepub.comDownloaded from 
+
+[PDF第4页]
+process. In Mexico City, illegal sub-division
+has been the major form of informal neigh-
+bourhood expansion; but for short periods
+there have been land invasions. The first
+distinction to make, therefore, in under-
+standing the idea of settlement informality,
+is between the legality of land development
+and legality of ownership. This proves to be
+crucial, as we shall show, in understanding
+China’s version of the informal settlement,
+since the extent of self-built multistorey
+‘illegal’ development in the chengzhongcun
+of southern China suggests a high degree of
+contractual security (Zhao and Webster,
+2011). We suggest that it is the relative
+strength of sanctions in different legal
+domains that determines the nature of a
+country’s informal settlements. Weak
+development control laws and strong
+formal or customary laws of contract may
+be consistent with an efficient ‘informal’
+land market.
+The legal domains governing the emer-
+gence of informal settlements go beyond the
+laws governing primary land development
+and exchange of newly built property, how-
+ever. Property rights over land are divisible
+and tend to fragment as land values increase
+(Webster and Lai, 2003). An agricultural
+field under single ownership may be sold
+and sub-divided into multiple house plots
+and any one of these plots sub-divided again
+into a 10-floor building—as is typical in the
+chengzhongcun of Guangdong province, for
+example (Zhao and Webster, 2011). What
+ultimately defines an ‘informal’ settlement
+when property rights are viewed, in this way,
+as separable rights over a property’s multiple
+attributes? The answer is that the definition
+should be purpose-specific. If the issue at
+stake is sub-standard and undersupplied
+infrastructure, then we should be interested
+in settlements built without land develop-
+ment and building control permits. If the
+issue is space and public health of tenants,
+then the interest will be in rental markets
+operating outside public health and rental
+laws. If the problem is lack of capital, the
+focus might be on legal title.
+One of the problems with the studies of
+informal housing in the past has been the
+lack of nuance in this respect and the appli-
+cation of overgeneralised diagnosis and pre-
+scription and confused debate. Kiddle
+(2010) notes two seminal authors (Turner
+and de Soto) who have shaped this debate,
+both of whom make certain assumptions
+about the efficiency of existing property
+rights allocations in informal settlements.
+Based on fieldwork in Peru, Turner (1976)
+argued that squatter settlements provided
+‘self-help housing’ to the poor who cannot
+afford formal housing. Depending upon
+informal labour markets, the poor cannot
+afford to travel long distances and have to
+live near their informal jobs to reduce
+transport costs and time. Turner’s emphasis
+on the positive function of squatter housing
+led to a widespread reversal of earlier poli-
+cies of demolition and slum resettlement,
+which were widely replaced in the 1970s
+and 1980s with in situ squatter upgrading
+(Pugh, 2000).
+Hernando de Soto (2000) argued that
+the poor in the developing world possess
+valuable assets that cannot be transacted
+because of the lack of legal property rights.
+He insisted that an absence of legally pro-
+tected private property hinders capital for-
+mation among the poor because it reduces
+an incentive to save and invest and lowers
+access to borrowing. The policy implication
+of his research is advocacy of the legalisa-
+tion of land titles through land titling
+programmes—an approach supported by
+the World Bank (van Gelder, 2009; Mooya
+and Cloete, 2007).
+De Soto’s analysis and message have been
+criticised on various grounds. In developing
+countries, land sales are common without
+formal title (Gilbert, 2002); and there are
+social practices that recognise de facto
+INFORMALITY AND VILLAGE CHANGE IN CHINA 1921
+ at University College London on August 1, 2014usj.sagepub.comDownloaded from 
+
+[PDF第5页]
+property rights, sometimes rendering ‘infor-
+mal’ agreements stronger than those made
+under formal laws (Varley, 2002; Musembi,
+2007). Gonzalez (2009) criticises de Soto’s
+tenure regularisation as a panacea, noting
+that it has been used by liberal governments
+as a way of avoiding problems that cannot
+be solved by tenure policy. Varley (2002)
+warns that incorporating informal housing
+into the formal market can disrupt commu-
+nity life and lead to forced relocation
+through gentrification.
+Many of the problems addressed in such
+debates are resolved by understanding the
+divisible nature of property rights. As we
+have said, property rights over a resource
+may be divided between multiple owners,
+the fragmentation being limited only by the
+technical and legal possibility of creating
+exclusive ownership and the existence of
+specialists with the appropriate knowledge
+to assume ownership of a specialised right.
+De Soto’s leverage point, at a technical level,
+is incontrovertible: if the tenure system is
+adjusted so that the freehold or leasehold
+right to a poor family’s abode can be tempo-
+rarily separated from the right of abode and
+transferred to a bank or other owner of capi-
+tal, then that family is likely to have greater
+access to capital. This is not necessarily a
+panacea for all ills in informal settlements
+but it may, under certain conditions, con-
+tribute to creating wealth among the poor.
+In other conditions, it may lead to gentrifi-
+cation with or without windfall gains to the
+poor who vacate an attractive location to
+make way for the more wealthy. Windfall
+gains are significant in China, through its
+own version of tenure regularisation which,
+as we explain, involves the acquisition of
+formal property rights through compensa-
+tion apartments after the informal property
+is demolished. However, the gains fall only
+to the informal landlords, not to the dis-
+placed migrant renters—which creates a
+serious problem of shrinkage in the supply
+of low-cost homes.
+Payne (2004) makes the point that leg-
+ally separable rights to collateralised prop-
+erty are neither sufficient nor necessary for
+home investment in poor neighbourhoods:
+perceived tenure security is also an impor-
+tant factor. Van Gelder (2009) finds that
+tenure legality and perceived tenure secu-
+rity are closely related and that both can
+enhance housing improvement, but
+through different mechanisms. One conse-
+quence of recognising the separate effects of
+legal and perceived tenure security in the
+spontaneous upgrading of poor neighbour-
+hoods is to widen the idea of informality.
+Informality is not a binary categorisation
+(formal/informal): there are levels and
+degrees of informality. This is closely linked
+to the law and property rights theorists’
+Alchian and Demsetz’ (1973) seminal idea
+that a property right, in essence, is not a
+binary assignment (right/no right); in prac-
+tice, rights are held in degrees and the level
+of right depends not only (or not at all in
+some cases) on legal writ, but most impor-
+tantly on the power to enforce. If this is
+true, then because property rights are infi-
+nitely divisible and always therefore incom-
+pletely assigned (there is always some other
+attribute of land that can be partitioned
+and transferred to another owner), all land
+everywhere and all structures on it are to
+some degree subject to informal use. Even
+in a city as well established and organised
+as Milan, Italy, neo-classical building
+facxades become the informal canvas for
+graffiti artists. The purchaser of an apart-
+ment located in the catchment area of a
+good state school in a Chinese city may
+well pay a price premium of tens of thou-
+sands of yuan compared with a similar
+apartment outside the catchment. This is
+payment for an informal right to educa-
+tional public goods: informal in the sense
+1922 FULONG WU ET AL.
+ at University College London on August 1, 2014usj.sagepub.comDownloaded from 
+
+[PDF第6页]
+that the right is protected neither by plan-
+ning or educational law nor by the private
+contract law by which rights to the apart-
+ment were acquired. The valuable ‘educa-
+tional-access’ attribute of the property
+could be taken away without compensation
+but the informality of the right does not
+stop the housing market functioning as a
+surrogate education market. This is as true
+in European, American and African cities
+as Chinese cities, demonstrating the generic
+and ubiquitous nature of informality in
+cities of all kinds.
+3. Sources of Informality in China’s
+Urban Villages
+We suggest that there are four important
+sources of property rights ambiguity and
+therefore informality in China’s urban
+villages.
+3.1 Dualistic and Fragmented
+Landownership
+Rural land is collectively owned, while
+urban land is state owned. The land use
+rights of urban land can be leased to develo-
+pers through the competitive land market.
+Urban villages are created by the disjuncture
+of the dual land use system. The municipal-
+ity, as the owner of state land, monopolises
+the supply of leased land in the primary
+land market. During rapid urban expansion,
+former rural villages have been encircled by
+expanding urban built-up areas, becoming
+literally ‘villages in the city’. According to
+the 1988 Land Administration Law, updated
+in 1998, compensation for land acquisition
+consists of compensation for land, reloca-
+tion cost and property compensation. Land
+compensation is calculated as six to ten
+times the average annual output of the
+farmland in the previous three years and
+relocation compensation is based on the
+size of the affected household (Tian, 2008;
+Zhao and Webster, 2011). To save costs in
+land acquisition, the original site of a village
+may not be acquired by state development
+projects and thus remains in collective own-
+ership, while the village agricultural land is
+transferred into state ownership. This pro-
+cess of land acquisition forms the juxta-
+posed dual landownerships in peri-urban
+areas. Rights over village property are
+ambiguous from two points of view. First,
+village land tends to be allocated by a mix-
+ture of administrative fiat (by the village
+committee) and quasi market mechanisms
+(through supplementing administrative
+allocation rules with price for premium
+sites, for example, and then through subse-
+quent trading—for example, one villager
+amassing land by buying up other villagers’
+plots). Secondly, under Chinese land law,
+the land may not legally be freely transacted
+in the land market. Village land is inalien-
+able outside the village, but this has not pre-
+vented a buoyant black market in so-called
+small property rights homes. These are sold
+under the protection of contracts, but they
+are not strictly legal.
+3.2 Lax Land Management and
+Development Control
+The formal management and development
+control required by urban plans only covers
+state-owned land. Rural farming households
+have been able to build and extend their
+houses with minimal formal development
+control. In rural areas, land for housing is
+initially allocated to farming households
+according to family size. On these land plots,
+farmers can build relatively freely within
+space limits. Since 1989, however, many
+places have stopped allocating land for hous-
+ing because of the shortage of land. This
+inevitably led to a densification of the histor-
+ical village housing plots. Villagers’ com-
+mittees in densely populated peri-urban
+areas have therefore allowed farmers to
+INFORMALITY AND VILLAGE CHANGE IN CHINA 1923
+ at University College London on August 1, 2014usj.sagepub.comDownloaded from 
+
+[PDF第7页]
+extend their houses upwards and where pos-
+sible outwards when their children get mar-
+ried and need more space. The bigger driver
+for village densification, however, has been
+building upwards to maximise rental floor
+space. Peri-urban villagers surrounded by
+farmland converted by the state into urban
+uses, find themselves in possession of prime
+land for migrant worker rental and respond
+rationally by maximising the yield of their
+inalienable assets. Self-built high density is
+thus the norm rather than exception in rural
+areas. Village housing redevelopment is not
+illegal if the overall housing space is within
+the specified limit (the normal limit is set as
+the standard farmers’ housing of ‘two floors
+and a half [loft space]’ with a space of 240–
+280 square metres, depending on province).
+However, left outside the regime of formal
+development control, rental housing is con-
+structed by individual landlords at much
+higher densities than this, working as small
+developer-owners without formal residen-
+tial land use plans. Each household tries to
+maximise the use of its assigned housing
+plot, building up to the boundary and leav-
+ing medieval-style narrow gaps between
+buildings. Urban villages are thus charac-
+terised by high building coverage and it is
+this plus the unregulated quality of con-
+struction and lack of public goods that make
+such a stark physical contrast between urban
+villages and the other neighbourhoods in
+Chinese cities.
+3.3 Informal Service Provision and
+Management
+The infrastructure of these villages is very
+underdeveloped. Villagers’ committees may
+provide skeletal basic services such as
+roads, pavements and water supply but, in
+most cases, urban villages are outside the
+formal provision of municipal-govern-
+ment-supplied services. There is an irony in
+this but also a consistent logic. The irony is
+that municipal governments generate their
+working revenue from the land taken from
+farmers but they do not generally reinvest
+any of it (beyond the set compensation
+component) in upgrading village infra-
+structure. The logic of this is that the
+municipal state has no jurisdiction in
+urban villages: it neither owns the land nor
+has a responsibility for territorial govern-
+ance. Village landlords do not pay tax to
+the municipal government and, if they wish
+to avail themselves of organised urban ser-
+vices, they hire the services of property
+management companies. In this sense,
+urban villages are rather like an informal
+and low-income version of the privately
+governed commodity housing estates built
+on the farmers’ former fields. The Chinese
+urban governance and financing model is
+much more in line with the idea of a resi-
+dential club economy rather than the tradi-
+tion municipal public-sector economy
+(Webster and Lai, 2003). The result is an
+underprovision of public goods as urban
+economic theory would predict and a pro-
+liferation of informal arrangements with
+degrees of security of provision.
+3.4 Marginal and Ambiguous Status of
+Village Governance
+This fourth dimension of informality is
+closely related to the third. The emergence
+of informal rental housing in urban villages
+is a result of the constrained housing supply
+facing millions of rural migrants who are
+subject to severe discrimination and disad-
+vantages in obtaining other kinds of hous-
+ing (Song et al ., 2008). This kind of rental
+housing is developed under a marginalised
+development process (Wu, 2004; Liu et al ,
+2010) because municipal governments
+adopt a highly urban-biased development
+approach and, as we have noted, neglect
+investment in ‘leftover’ villages. The gov-
+ernance of these villages has an inferior
+1924 FULONG WU ET AL.
+ at University College London on August 1, 2014usj.sagepub.comDownloaded from 
+
+[PDF第8页]
+status because it is the preserve of villagers’
+committees. In reality, it is the shareholding
+companies formed to control villagers’ col-
+lective assets rather than the village admin-
+istrative government that takes on the
+responsibility for providing basic social ser-
+vices. On the one hand, the ability of village
+government to adapt through incorpora-
+tion is a strength and has undoubtedly con-
+tributed to the dynamic nature of the urban
+village economy. On the other hand, it has
+created even more ambiguities in responsi-
+bilities and a greater discontinuity than
+might otherwise have been the case with
+formal urban governance.
+4. The Persistence of Informality
+after Redevelopment
+The informal urbanisation described, starts
+in peri-urban villages before the acquisition
+of farmland. In villages at distances up to 50
+km or more from large cities, evidence can
+be found of village-initiated urban develop-
+ment on parts of village land (Webster et al,
+2005). An acceleration of the processes is
+triggered by farmland acquisition. The
+informal urban order we have described
+does not disappear through the process of
+village land acquisition, however, and there
+are two important specific ways in which
+informality persists in the life of an urban
+village.
+First, compensation practices contribute
+to the persistence of informality, particularly
+in southern China. To reduce the monetary
+cost of compensation, local governments
+have typically returned a proportion of agri-
+cultural land as in-kind compensation,
+known as ‘economic development land’
+(jingji fazhan yongdi), to villagers (Tian,
+2008), transferred back to them as a collec-
+tive asset to be developed into non-
+agricultural income-earning uses. Property
+rights over land in this part of a village
+redevelopment plan are in collective owner-
+ship. These lands are subject to little formal
+development control. This further expands
+the stock of land outside the state’s formal
+development regime, which strengthens
+rather than reduces informality.
+A second way in which informality per-
+sists is in the internal dynamic established
+by a buoyant rental economy. Over time,
+the growth of the rental economy in urban
+villages has meant that there are hundreds of
+neighbourhoods in any one large city, co-
+owned by a new rentier class of villager who
+has long ago abandoned the hard and dirty
+work of farming in favour of the informal
+urban economy. Informality has repaid
+these families handsomely and villagers have
+a deeply entrenched interest in finding ways
+to maintain and expand their privileged
+informality. One way is to resist any formal
+development control by the municipal gov-
+ernment over the use of their land and in
+some cases to resist urban redevelopment.
+The resistance is even greater from villagers
+who have developed rental factories and
+commercial buildings since their income
+loss is typically greater than owners of resi-
+dential rental property (Tian, 2008; Zhao
+and Webster, 2011; Liu et al., 2010). The size
+of the migrant rental economy in urban vil-
+lages can be said to have helped to sustain
+the informality of these parts of the Chinese
+city—the informal economy providing cru-
+cial income to landless farmers who would
+otherwise suffer from poverty and depriva-
+tion (He et al., 2009) and creating opportu-
+nities for non-agricultural activities such as
+low-level urban services, workshops and vil-
+lage enterprises. Wang et al. (2010) observed
+that, because of the practice of returning
+land to farmers, urban villages have acquired
+an important function in manufacturing.
+Small enterprises and workshops located in
+these villages, usually on collective land,
+provide employment to local villagers as
+well as to migrant workers. Viewed as micro
+INFORMALITY AND VILLAGE CHANGE IN CHINA 1925
+ at University College London on August 1, 2014usj.sagepub.comDownloaded from 
+
+[PDF第9页]
+urban economies, not just migrant dormi-
+tories, it is clear that urban villages in China
+play the familiar role of the informal settle-
+ment in other developing countries: provid-
+ing affordable housing to rural migrants, an
+entry-point for people from the same origin
+and a low-rent enclave within which to try
+and build a productive urban life (Ma and
+Xiang, 1998; Zhang, 2001; Zhang et al .,
+2003; Song et al., 2008; Wang et al., 2010).
+5. Three Chinese Urban Villages
+In this section, we examine three urban vil-
+lages respectively located in Beijing,
+Shanghai and Guangzhou. The dimensions
+of informality are explored, taking a com-
+prehensive narrative.
+5.1 Research Method
+The original research presented in this paper
+was conducted from May to September
+2010 as part of a larger study of peri-urban
+informal settlements in Chinese cities. We
+conducted face-to-face semi-structured
+interviews in three cities (Beijing, Shanghai
+and Guangzhou). In each city, we selected
+four to five villages within which to conduct
+case studies and undertake a survey
+(reported in other papers); we conducted 15
+interviews in each city lasting from 30 min-
+utes to 2 hours and collected other informa-
+tion from key informants. In addition, in
+Shanghai, the investigation was facilitated
+by focus group meetings in local district
+planning offices, in conjunction with sepa-
+rate research organised by the municipal
+planning bureau. For the current paper, we
+choose to focus on three villages; two that
+have received wide media attention
+(Tangjialing in Beijing and Gaojiabang in
+Shanghai) and the other, an archetypical
+project for city-wide policy formulation
+(Liede in Guangzhou). We collected internal
+documents for village planning and
+government policy through our collabora-
+tors, all of whom had expert knowledge
+in their respective villages through inde-
+pendent academic or government-
+commissioned research.
+5.2 Tangjialing in Beijing: Enclave of the
+‘Ant Tribe’
+Tangjialing is located in the town of
+Xibeiwang outside the fifth ring road of
+north-west Beijing. The Zhongguancun
+Science Park extended to this area in 2000
+and the arrival of workers in the IT sector
+stimulated a huge demand for housing. The
+low-income IT workers became known
+locally as the Chinese ‘ant tribe’ ( yizu)
+because they could not afford formal hous-
+ing and lived like ‘ants’. As well as con-
+structing their own rental properties,
+villagers leased land to private developers
+(who ‘informally’ developed residential
+compounds in Beijing) to build large stan-
+dard rental apartments, creating a residen-
+tial compound managed commercially by
+private companies. These apartments
+became known as ‘student apartments’ and,
+later, as ‘white-collar apartments’. This
+illustrates both the persistence of informal-
+ity and its trajectory towards greater form-
+ality as the value of informal collective
+assets rises in the face of demand. The qual-
+ity of these apartments is much better than
+individual self-built blocks, but the rental
+activities are nevertheless still informal in
+the sense that they are not recognised as a
+formal business that should pay urban
+taxes. Instead, apartments built on collec-
+tive land contribute rental income to the
+villagers’ management committees through
+a ‘lease contract of land’. The contract is
+upheld by contract law and formal in that
+sense, but in theory it is illegal in the sense
+that it contravenes the state’s property right
+over the conversion of agricultural land to
+urban uses.
+1926 FULONG WU ET AL.
+ at University College London on August 1, 2014usj.sagepub.comDownloaded from 
+
+[PDF第10页]
+The rent in Tangjialing ranges from 300
+yuan per month for a low-quality room of
+around 10 square metres to 700 yuan per
+month for a relatively better-quality 20
+square metre studio with kitchen and toilet.
+Surprisingly, most rental housing has an
+Internet connection. Because the rental hous-
+ing market is competitive, landlords are quite
+innovative in improving housing conditions.
+For example, in some buildings, the corridors
+of the second floor upwards use transparent
+panels to allow light to pass through to lower
+floors. Seeing this kind of practical innova-
+tion, one planning professional commented,
+‘‘this is really marvellous; we could not do
+this because we simply do not know what the
+tenants need’’ (personal communication,
+July 2010). Another example of market-
+driven innovation is the provision of a small
+shuttle bus by a large landlord to connect res-
+idents with the bus station at the entrance of
+Tangjialing. Shuttle buses are convenient for
+tenants and have become a selling point for
+residential compounds such as the Dongjia
+Compound. Others plan to follow, one land-
+lord telling us of his plan to buy a small van
+(an unregulated transport service) to do the
+same, which was only suspended when he
+heard of the plan for demolition of nearby
+compounds (personal communication, July
+2010). Most tenants in Tangjialing seem sat-
+isfied, as one young couple suggested to us,
+when they were preparing the check-out pro-
+cedure with the landlord and leaving because
+of the forthcoming demolition
+Could you please ask the government not to
+demolish this place? We are quite happy to
+live here, and now we have to find another
+place and don’t know whether we might have
+the same kind of customised buildings to live
+(personal communication, July 2010).
+The management of services, as shown in
+this example, is generally informal, depend-
+ing upon demand and perceived profit
+opportunities. Informality thus makes for
+dynamism and responsiveness to the needs
+of the local market. In March 2010, the
+project to redevelop Tangjialing officially
+started (Figure 1). Instead of using the
+words ‘demolition and relocation’ ( chai
+qian), the phrase now adopted in Beijing
+for redevelopment is ‘vacating’ ( teng tui ),
+implying that for landlords and local villa-
+gers this means temporarily vacating the
+old homes and then returning to the same
+place after the project is completed.
+The case shows that, although informal-
+ity persists with the inbuilt dynamics we
+have suggested, its trajectory, at least here,
+is towards full integration with the formal
+economy. This happens when property
+rights are shared between the municipal
+state (district or municipal level), develo-
+pers and onward purchasers of land leased
+by the state and the residual and formalised
+institutions of village collective organisa-
+tion—namely, the stock companies that
+own ‘compensation land’ ceded back to vil-
+lagers by the state together with other assets
+won by the villagers during the redevelop-
+ment negotiation process. At this point,
+there is little informality left. There may be
+some ambiguity in the rights allocated by
+the village companies and there will almost
+certainly be ambiguities in the relationships
+between the residual village administrative
+Figure 1. The demolition of Tangjialing.
+INFORMALITY AND VILLAGE CHANGE IN CHINA 1927
+ at University College London on August 1, 2014usj.sagepub.comDownloaded from 
+
+[PDF第11页]
+committees and the incorporated equiva-
+lents. Yet since the village committees will
+disappear and be replaced by residents’
+committees under street office governance,
+this is the end of the trajectory. This is a
+very different trajectory from those of infor-
+mal settlements in other countries. The end
+game is redistribution of property rights via
+a mixture of market, government and col-
+lective institutions and the formalisation of
+each of these in different ways.
+5.3 Gaojiabang in Shanghai: A Hidden
+Enclave of Informal Housing
+Gaojiabang is hidden away behind a pros-
+perous street in the district of Xuhui, a well-
+developed central district in Shanghai. The
+entrance to this village is very modest, unex-
+pectedly leading to a high-density, congested
+residential area of low-quality housing with
+bustling narrow streets full of small shops
+and stores. The registered population is 1373
+individuals, but the migrant population
+adds about 3000. About 20 per cent of the
+1373 local residents still live there (interview,
+‘street officer’, June 2010), the others having
+moved out to the suburbs for better housing.
+The area of Gaojiabang is about 60 mu (4
+hectares).
+The modern history of Gaojiabang is
+associated with the rise and fall of
+Shanghai’s colour TV industry. Before the
+1980s, the place was at the edge of the
+built-up area of the city. The village’s agri-
+cultural land was acquired and later used
+by the TV factory, but the factory became
+bankrupt in 2009; the place was then under
+the management of Caohejin ETDZ (nick-
+named, ‘Cao developer’), which has never
+managed to acquire the village site because
+of the Shanghai government’s strict control
+over the land conversion process. In
+Shanghai, the municipality strictly legislates
+against negotiations between developers
+and villages. This has the effect, among
+other things, of weakening the villagers’
+bargaining position and reducing their cut
+of the urban land value created by redeve-
+lopment. Following the normal dynamic of
+urban villages, the area experienced sponta-
+neous densification over the years as land-
+lords responded to a market demand for
+smaller and hence cheaper units. The area
+is central, well developed and very accessi-
+ble for service-sector workers, so as long as
+it remains un-redeveloped this piece of
+residual space has a powerful niche posi-
+tion for low-quality, crowded but cheap
+accommodation, which is very popular
+with tenants (personal communication,
+landlord, August 2010).
+The case suggests that the on-going
+informality in this village results from a
+typically complex structure of ownership
+that includes a more attenuated version of
+village collective right than in Beijing and
+other cities. A fragmentation of administra-
+tion structure at the time of development
+may have exacerbated the uncoordinated
+nature of self-build activities and left allo-
+cation of property rights over buildings and
+shared land unclear and undocumented.
+The initial land transaction when the TV
+factory and worker village was built had
+shades of informality but appears to have
+been endorsed by the state and was not, in
+that sense, illegal. This is quite distinct
+from the first case. There, informality was
+associated with illegality and although
+informality persisted with positive effects, it
+came to an end because property rights
+were not sufficiently ambiguous and/or
+fragmented to prevent comprehensive rede-
+velopment. In Gaojiabang, fragmented and
+ambiguous ownership plus the lack of villa-
+ger rights to negotiate a favourable collec-
+tive deal with potential developers have
+prevented comprehensive redevelopment.
+The irony in this is that the strong state
+control over the right to urban land value
+increase (capping this for villagers at
+1928 FULONG WU ET AL.
+ at University College London on August 1, 2014usj.sagepub.comDownloaded from 
+
+[PDF第12页]
+statutory compensation levels on the
+assumption that villagers do not have any
+right to development value) has the effect
+of protecting the informal settlement from
+redevelopment through stalemate. We
+show in the third case study how the
+Guangzhou government has overcome this.
+5.4 Liede in Guangzhou: A Vertical Village
+through Massive Redevelopment
+Liede is located in the new city centre of
+Guangzhou in Guangdong province. The
+central location means that this village is
+exceptional in terms of accessibility and
+importance to the image of the city, which
+is a strategic priority of the municipal gov-
+ernment. It is inside the new central busi-
+ness district of Guangzhou known as ‘Pearl
+River New Town’. The village is a long-
+established one, with a total population of
+7800 people (about 3000 households) in
+2010 and a migrant population of 8000 in
+2008. The village occupies an area of 33.7
+hectares. The total existing building floor
+space is 653 000 square metres, of which
+595 000 square metres (over 90 per cent)
+have formally approved property certifi-
+cates (internal documents for the draft plan
+of the area, obtained in 2009).
+The cost of redeveloping a single village
+usually amounts to several billion yuan
+(interview, manager of a major development
+corporation in Guangzhou, September
+2010), a figure that has risen consistently
+over time. Faced with rising costs, the
+municipal government made virtually no
+progress in the redevelopment of villages in
+the 1990s. The bargaining power of local vil-
+lagers is strong in southern China because of
+the clan network organisation that overlays
+administrative (villagers’ committee), politi-
+cal (local communist party) and corporate
+(village stock companies) organisations. To
+gain more compensation as well as rental
+income, villagers extended and in some
+cases comprehensively replanned and recon-
+structed the residential buildings con-
+structed on their housing plots. Some village
+buildings are as high as 15 floors, creating
+the most dense chengzhongcun in China. In
+an effort to break negotiation deadlocks
+facing its redevelopment programme in the
+city, the municipal government conceded an
+upper limit for compensated space at 280
+square metres under the conditions of rede-
+velopment (interview, district planner,
+August 2010). In Liede, however, such was
+the power of the villagers in this prominent
+location that this compensation limit
+restriction was relaxed (interview, municipal
+land administration bureau, August 2010).
+The gradual concession of a larger fraction
+of urban development land value to villagers
+giving up their land makes it more likely
+that villagers subsequently facing redevelop-
+ment will use all means at their disposal
+(popular protest, political connections,
+patronage and legal challenge) to hold out
+for a better compensation deal and the pro-
+cess is thus self-reinforcing.
+In the new phase of redevelopment start-
+ing in 2008, there has been no uniform city-
+wide policy. Instead, individual villages
+negotiate with the municipal government
+under the ‘one village, one policy’ ( yi cun y
+ice). What is unique in Liede’s redevelop-
+ment package is that villagers were fully
+compensated according to a 1:1 compensa-
+tion ratio—i.e. compensated space is equiv-
+alent to full-property rights space
+demolished. Even for non-certified floor
+space, however, villagers were given 10 per
+cent of the floor space in compensation.
+This greatly smoothed the redevelopment
+process and meant that some villagers
+acquired as many as seven compensation
+units (interview, district planner, September
+2010). To do this, the municipality had to
+relax its own legal density controls—which
+may be viewed as another kind of informal-
+ity persistence. Because of the excessively
+INFORMALITY AND VILLAGE CHANGE IN CHINA 1929
+ at University College London on August 1, 2014usj.sagepub.comDownloaded from 
+
+[PDF第13页]
+high-density redeveloped collective assets,
+the newly redeveloped village is nicknamed
+the ‘vertical village’ (personal communica-
+tion, university researcher, August 2010).
+The three cases show that sources of
+informality and the approach to redevelop-
+ment vary across different cities. Informality
+means many things and we have technically
+defined it as arising from ambiguities in
+rights over urban resources. The differences
+we have described are reminiscent of the
+diversity of informal settlements in Latin
+America (Gilbert and Ward, 1985). Making
+the comparison between three cities in the
+same country enables us to be quite specific
+about the sources and trajectories of inform-
+ality which, as we suggest in our earlier dis-
+cussion, reflect the relative strength of
+sanctions wielded by the institutions gov-
+erning the contested assets found in urban
+villages.
+6. Conclusion
+This paper is based on an analysis of urban
+villages in Beijing, Shanghai and
+Guangzhou. The villages have all been the
+location of widespread self-built, high-
+density and low-quality housing for rural
+migrants. We have identified the sources of
+informality and explained why govern-
+ments continue to strive to formalise rental
+housing owned by former farmers. The
+informality in these settlements, by which
+we mean property rights ambiguities, was
+sewn into the institutions of urban–rural
+dualism prior to market reform and has
+flourished and diversified since the intro-
+duction of market mechanisms. The own-
+ership and responsibility ambiguities
+resulting from a dual land market, adminis-
+trative land allocation within collectives,
+parallel political and corporate organisa-
+tions representing near-overlapping sets of
+villagers, weak development control
+institutions and from years of unregulated
+entrepreneurialism, mean that informality
+has multiplied along several interlocking
+dimensions under market-led growth.
+Because of the persistence of urban–rural
+dualism, full alienable land title to rural
+land is denied to villagers and farmers
+cannot sell their land to developers. On the
+other hand, the management of rural land
+is more lax, partially because of the lack of
+land management capacity in rural areas
+and partially because of the practice of
+allowing farmers to retain some land as in-
+kind ‘compensation’ to save the cost of land
+requisition. Farmers are allowed to change
+agricultural to non-agricultural uses on this
+land by self-development. Informal devel-
+opment is exacerbated by complex landow-
+nership created during piecemeal land
+requisition and constrained by the exten-
+sion of urban governance to rural areas.
+Through the demolition of urban villages,
+the state hopes to create more ‘governable
+spaces’. This is achieved through a formal
+land development process through which
+village land is acquired by the local state to
+lease to larger developers in the formal land
+market. However, informality is not imme-
+diately eradicated. On the contrary, redeve-
+lopment diminishes informal-sector
+housing because the formally developed
+commodity housing is generally simply too
+expensive for migrant workers and their
+families. The informality thus allows the
+poor to live on lower wages and therefore
+bring down the cost of production—a phe-
+nomenon well identified in the literature of
+development studies. 1 This thus creates a
+demand for alternative informal housing
+elsewhere. When urban villages are demol-
+ished, some migrants are pushed further
+away to other villages in the peri-urban
+area. Others, who can afford to rent the vil-
+lagers’ newly redeveloped properties on the
+site of the former village may stay in situ in
+neighbourhoods that look less like slums
+1930 FULONG WU ET AL.
+ at University College London on August 1, 2014usj.sagepub.comDownloaded from 
+
+[PDF第14页]
+but nevertheless may be informal in the
+sense of being governed by multiparties
+with respective rights not fully delineated
+(village committee, stock company, individ-
+ual villagers and local government). As a
+result, informality is to a degree, sustained
+and transformed.
+These cases also show that the detailed
+processes of creating informality and of for-
+malisation through redevelopment are dif-
+ferent from place to place. This is contingent
+upon different configurations of the relation
+between the state, capital, land and villagers.
+In Shanghai, the governance capacity is
+stronger than in the other two cities and
+hence the regime of formal development
+tends to dominate in the process of village
+redevelopment. However, such a formal
+development approach is not able to ‘con-
+quer’ a place where there is complicated
+landownership and/or unfavourable devel-
+opment conditions such as smaller parcels
+or irregular plot shapes. Informality in
+places such as Gaojiabang thus remains. In
+Guangzhou, self-built and informal land
+markets are more established because tradi-
+tionally the role of villagers’ committees and
+other rural organisations is stronger.
+Recognising the power of villagers, the
+municipality has taken a pragmatic
+approach to compensate villagers more gen-
+erously, leading to the emergence of large
+redeveloped projects in these villages. In
+Beijing, the state, developer and villages
+jointly participate in the process of redeve-
+lopment. While the compensation to villa-
+gers is often better than in Shanghai, the
+redevelopment process requires formalisa-
+tion similar to that of Guangzhou. The
+diversity of these cases shows that there is no
+standard practice of village redevelopment,
+as implied by the title of Guangzhou’s ‘one
+village, one policy’. The difference between
+the villages shows that there is tremendous
+diversity in the sources and practices of
+informality and the formation, destruction
+and evolution of informal settlements in
+China—as is the case in the rest of the world
+(Gilbert and Ward, 1985; Payne, 2004; Roy
+and AlSayyad, 2004). The fact that there is
+such diversity in practices between these
+three Chinese cities indicates the informal
+practices—flexible and ambiguous applica-
+tion of the law with respect to local circum-
+stances. China is a good laboratory for
+studying the nuanced variations of inform-
+ality in cities facing different circumstances
+because it has great local diversity but a
+common set of strong overarching institu-
+tions governing land development. In fact it
+is, ironically, the strength of these institu-
+tions (principal amongst which is the dual
+urban–rural landownership system), that
+has given rise to much of the legal ambiguity
+that we have defined in this paper as
+‘informality’. The reason for this is that the
+dual landownership system at all points
+impedes normal land market practices and
+inhibits and distorts those markets. The
+prize from this state of affairs is shared by all
+stakeholders: the rural–urban migrant
+workers who find cheap housing in the
+urban villages; the enriched rentier class and
+small-developer village landlords; and the
+state, which benefits first, from the eco-
+nomic contribution to the city provided by
+the cheap labour housed in these informal
+spaces and, secondly, by land value uplift
+earned through redevelopment. The domi-
+nance of the beautification and modernisa-
+tion narrative in discussions about urban
+village redevelopment is rarely balanced
+with a discussion of the opportunity cost to
+the local economy of removing the main
+source of low-cost homes. Pragmatically,
+policy-makers probably simply assume and
+accept that their attempt to eradicate infor-
+mal spaces will push the informality further
+out to the urban fringes, to newly engulfed
+urban villages, which can be dealt with later.
+There is a typically Chinese logic to this,
+which may well work. If city-wide
+INFORMALITY AND VILLAGE CHANGE IN CHINA 1931
+ at University College London on August 1, 2014usj.sagepub.comDownloaded from 
+
+[PDF第15页]
+programmes to redevelop urban villages are
+too successful, however, it is likely that the
+first prize will fall to villagers and their
+developer partners (i.e. the owners of land
+and capital). Migrants will lose out by not
+having access to jobs and the urban econ-
+omy will eventually lose out through a
+smaller and poorer-quality low-skilled
+labour force. Of course, some cities might
+try to eradicate informal settlements for
+strategic economic reasons. Shenzhen, for
+example, demolished low-cost homes in
+2005 precisely to drive rural migrant work-
+ers away to help shift the economy towards
+higher value-added manufacturing and ser-
+vices (personal communication, Shenzhen’s
+deputy director of housing bureau, 2005).
+The informality in Chinese cities is thus pur-
+posely permitted as an economic develop-
+ment approach (through the variance and
+flexible execution of formal regulation and
+law) and also constrained for the sake of
+governance (see Roy, 2009, for ‘informality
+as exception’).
+Note
+1. We would like to thank an anonymous
+referee for reminding us of this point.
+Funding Statement
+This research is supported by the UK Economic
+and Social Research Council (ESRC)/
+Department for International Development
+(DFID) project (RES-167-25-0448) and the
+Ministry of Education of PRC project at
+Modern City Research Centre at East China
+Normal University (11JJD840015).
+Acknowledgements
+This research is being undertaken in collabora-
+tion with Chinese partners. The authors would
+like to especially thank Professor Yuemin Ning,
+Dr Mingfeng Wang, Xiujin Bi and Xiaoling Lin
+in Shanghai, Dr Zhigang Li, Dr Shenjing He in
+Guangzhou, and Dr Jian Feng, Dr Yun Qian in
+Beijing for helping with the fieldwork.
+References
+Alchian, A. A. and Demsetz, H. (1973) The prop-
+erty rights paradigm, Journal of Economic His-
+tory, 3(1), pp. 16–27.
+CNSB (China National Statistics Bureau) (2009)
+China Statistical Yearbook 2008 . Beijing:
+China Statistical Press.
+Davis, M. (2006) Planet of Slums. London: Verso.
+Fan, C. C. (2008) China on the Move: Migration,
+the State, and the Household. Abingdon:
+Routledge.
+Gelder, J.-L. van (2009) Legal tenure security,
+perceived tenure security and housing
+improvement in Buenos Aires: an attempt
+towards integration, International Journal of
+Urban and Regional Research , 33(1), pp.
+126–146.
+Gilbert, A. (2002) On the mystery of capital and
+the myths of Hernando de Soto: what differ-
+ence does legal title make?,International Devel-
+opment Planning Review, 24(1), pp. 1–19.
+Gilbert, A. (2007) The return of the slum: does lan-
+guage matter?, International Journal of Urban
+and Regional Research, 31(4), pp. 697–713.
+Gilbert, A. and Gugler, J. (1992) Cities, Poverty
+and Development: Urbanization in the Third
+World. Oxford: Oxford University Press.
+Gilbert, A. and Ward, P. (1985) Housing, the
+State and the Poor . New York: Cambridge
+University Press.
+Gonzalez, C. G. (2009) Squatters, pirates, and
+entrepreneurs: is informality the solution to
+the urban housing crisis?, Inter-American Law
+Review, 40(2), pp. 239–259.
+He, S., Liu, Y., Webster, C. and Wu, F. (2009)
+Property rights redistribution, entitlement
+failure and the impoverishment of landless
+farmers in China, Urban Studies , 46(9), pp.
+1925–1949.
+Hsing, Y.-T. (2006) Land and territorial politics
+in urban China, China Quarterly, 187, pp. 1–18.
+Huchzermeyer, M. (2003) A legacy of control?
+The capital subsidy for housing, and infor-
+mal settlement intervention in South Africa,
+International Journal of Urban and Regional
+Research, 27(3), pp. 591–612.
+1932 FULONG WU ET AL.
+ at University College London on August 1, 2014usj.sagepub.comDownloaded from 
+
+[PDF第16页]
+Irazabal, C. (2009) One size does not fit all: land
+markets and property rights for the construc-
+tion of the just city, International Journal
+of Urban and Regional Research , 33(2),
+pp. 558–563.
+Kiddle, G. L. (2010) Key theory and evolving
+debates in international housing policy: from
+legalisation to perceived security of tenure
+approaches, Geography Compass , 4(7), pp.
+881–892.
+Li, X., Xu, X. and Li, Z. (2010) Land property
+rights and urbanization in China, The China
+Review, 10(1), pp. 11–38.
+Liu, Y. and Wu, F. (2006) Urban poverty neigh-
+bourhoods: typology and spatial concentra-
+tion under China’s market transition, a
+case study of Nanjing, Geoforum, 37(4), pp.
+610–626.
+Liu, Y., He, S., Wu, F. and Webster, C. (2010)
+Urban villages under China’s rapid urbaniza-
+tion: unregulated assets and transitional
+neighbourhoods, Habitat International , 34,
+pp. 135–144.
+Ma, L. J. C. and Xiang, B. (1998) Native place,
+migration and the emergence of peasant
+enclaves in Beijing, The China Quarterly ,
+155, pp. 546–581.
+Mooya, M. M. and Cloete, C. E. (2007) Informal
+urban property markets and poverty allevia-
+tion: a conceptual framework, Urban Studies,
+44(1), pp. 147–165.
+Musembi, C. N. (2007) De Soto and land rela-
+tions in rural Africa: breathing life into dead
+theories about property rights, Third World
+Quarterly, 28(8), pp. 1457–1478.
+Nijman, J. (2010) A study of space in Mumbai’s
+slums, Tijdschrift voor Economische en Sociale
+Geografie, 101(1), pp. 4–17.
+Payne, G. (2004) Land tenure and property
+rights: an introduction, Habitat Interna-
+tional, 28, pp. 167–179.
+Pugh, C. (2000) Squatter settlements: their
+sustainability, architectural contributions,
+and socio-economic roles, Cities , 17(5), pp.
+325–337.
+Roy, A. (2009) The 21st-century metropolis: new
+geographies of theory, Regional Studies, 43(6),
+pp. 819–830.
+Roy, A. and AlSayyad, N. (Eds) (2004) Urban
+Informality: Transnational Perspectives from
+the Middle East, Latin America, and South
+Asia. Oxford: Lexington Books.
+Smart, A. (2006) The Shek Kip Mei Myth: Squat-
+ters, Fires and Colonial Rule in Hong Kong .
+Hong Kong: Hong Kong University Press.
+Solinger, D. J. (1999) Contesting Citizenship in
+Urban China: Peasant Migrants, the State, and
+the Logic of the Market . Berkeley, CA: Univer-
+sity of California Press.
+Song, Y., Zenou, Y. and Ding, C. (2008) Let’s
+not throw the baby out with the bath water:
+the role of urban villages in housing rural
+migrants in China, Urban Studies , 45(2), pp.
+313–330.
+Soto, H. de (2000) The Mystery of Capital: Why
+Capitalism Triumphs in the West and Fails
+Everywhere Else. New York: Basic Books.
+Tao, R., Su, F., Liu, M. and Cao, G. (2011) Land
+leasing and local public finance in China’s
+regional development: evidence from
+prefecture-level cities, Urban Studies , 47(10),
+pp. 2217–2236.
+Tian, L. (2008) The Chengzhongcun land market
+in China: boon or bane? A perspective on
+property rights, International Journal of Urban
+and Regional Research, 32(2), pp. 282–304.
+Turner, J. (1976) Housing by People: Towards
+Autonomy in Building Environments . London:
+Boyars.
+UN-Habitat (2003) The Challenge of Slums:
+Global
+Report on Human Settlements. London:
+Earthscan.
+Varley, A. (2002) Private or public: debating the
+meaning of tenure legalization, International
+Journal of Urban and Regional Research, 26(3),
+pp. 449–461.
+Wang, Y. P., Wang, Y. and Wu, J. (2010) Private
+rental housing in ‘urban villages’ in Shenz-
+hen: problems or solutions?, in: F. Wu and
+C. Webster (Eds) Marginalization in Urban
+China: Comparative Perspectives , pp. 153–
+174. Basingstoke: Palgrave Macmillan.
+Webster, C. J. and Lai, L.V.-C. (2003) Property
+Rights, Planning and Markets: Managing Spon-
+taneous Cities. Cheltenham: Edward Elgar.
+Webster, C. J., Wu, F. and Zhao, Y. (2005)
+China’s modern walled cities, in: G. Glasze,
+C. J. Webster and K. Frantz (Eds) Private
+Cities: Local and Global Perspectives , pp. 153–
+169. London: Routledge.
+Wu, F. (2004) Urban poverty and marginaliza-
+tion under market transition: the case of Chi-
+nese cities, International Journal of Urban and
+Regional Research, 28(2), pp. 401–423.
+INFORMALITY AND VILLAGE CHANGE IN CHINA 1933
+ at University College London on August 1, 2014usj.sagepub.comDownloaded from 
+
+[PDF第17页]
+Wu, F. (2007) The poverty of transition: from
+industrial district to poor neighbourhood in
+the city of Nanjing, China, Urban Studies ,
+44(13), pp. 2673–2694.
+Wu, W. (2002) Migrant housing in urban China:
+choices and constraints, Urban Affairs Review,
+38(1), pp. 90–119.
+Xu, J. and Yeh, A. G.-O. (2009) Decoding urban
+land governance: state reconstruction in con-
+temporary Chinese cities, Urban Studies ,
+46(3), pp. 559–581.
+Zhang, L. (2001) Strangers in the City: Reconfi-
+guration of Space, Power, and Social Networks
+within China’s Floating Population . Stanford,
+CA: Stanford University Press.
+Zhang, L., Zhao, S. X. B. and Tian, J. P. (2003)
+Self-help in housing and Chengzhongcun in
+China’s urbanization, International Journal
+of Urban and Regional Research , 27(4), pp.
+912–937.
+Zhao, Y. and Webster, C. (2011) Land disposses-
+sion and enrichment in China’s suburban vil-
+lages, Urban Studies, 48(3), pp. 529–551.
+Zheng, S., Long, F., Fan, C. C. and Gu, Y. (2009)
+Urban villages in China: a 2008 survey of
+migrant settlements in Beijing, Eurasian Geo-
+graphy and Economics , 50(4), pp. 425–446.
+1934 FULONG WU ET AL.
+ at University College London on August 1, 2014usj.sagepub.comDownloaded from 

@@ -1,0 +1,13 @@
+{
+  "name": "liede-research-poster",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Chinese research poster on public cultural service accessibility in Liede.",
+  "scripts": {
+    "start": "node server.cjs",
+    "export": "node export-poster.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

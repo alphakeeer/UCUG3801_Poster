@@ -1,0 +1,199 @@
+来源编号 S56
+标题 Twente可及性章节书目信息
+原始网址 https://research.utwente.nl/en/publications/accessibility-perspectives-measures-and-applications-2/
+核对日期 2026-11-09T09:57:46.901799+00:00
+
+Accessibility: perspectives, measures and applications - University of Twente Research Information
+Skip to main navigation
+Skip to search
+Skip to main content
+University of Twente Research Information Home
+Search content at University of Twente Research Information
+Home
+Profiles
+Research units
+Projects
+Publications
+Datasets/Software
+Activities
+Prizes
+Press/Media
+Accessibility: perspectives, measures and applications
+Karst Geurs
+, Bert van Wee
+Transport Planning
+Digital Society Institute
+Research output
+:
+Chapter in Book/Report/Conference proceeding
+›
+Chapter
+›
+Professional
+18
+Link opens in a new tab
+Citations (Scopus)
+2940
+Downloads (Pure)
+Overview
+Publications
+(1)
+Original language
+English
+Title of host publication
+The Transport System and Transport Policy
+Subtitle of host publication
+An Introduction
+Editors
+Bert van Wee, Jan Anne Annema, David Bannister, Baiba Pudane
+Place of Publication
+Cheltenham
+Publisher
+Edward Elgar
+Chapter
+9
+Pages
+178-199
+Edition
+2
+ISBN (Electronic)
+978-1-80220-677-7
+ISBN (Print)
+978-1-80220-675-3
+Publication status
+Published -
+14 Sept 2023
+Keywords
+2023 OA procedure
+Access to Document
+Article
+Final published version, 234 KB
+Licence:
+Taverne
+Other files and links
+Book
+Research output
+Research output per year
+2013
+2013
+2013
+18
+Citations
+1
+Chapter
+Research output per year
+Research output per year
+Accessibility: perspectives, measures and applications
+Geurs, K.
+& van Wee, B.,
+2013
+,
+The transport system and transport policy: An introduction.
+van Wee, B., Annema, J. A. & Banister, D. (eds.). Cheltenham, UK:
+Edward Elgar
+,
+p. 207-226
+Research output
+:
+Chapter in Book/Report/Conference proceeding
+›
+Chapter
+›
+Professional
+Open Access
+File
+Cite this
+APA
+Author
+BIBTEX
+Harvard
+Standard
+RIS
+Vancouver
+Geurs, K.
+, & van Wee, B. (2023).
+Accessibility: perspectives, measures and applications
+. In B. van Wee, J. A. Annema, D. Bannister, & B. Pudane (Eds.),
+The Transport System and Transport Policy: An Introduction
+(2 ed., pp. 178-199). Edward Elgar.
+Geurs, Karst
+; van Wee, Bert. /
+Accessibility: perspectives, measures and applications
+. The Transport System and Transport Policy: An Introduction. editor / Bert van Wee ; Jan Anne Annema ; David Bannister ; Baiba Pudane. 2. ed. Cheltenham : Edward Elgar, 2023. pp. 178-199
+@inbook{e41841215e384ba98e4a4bc31c2e7fa0,
+title = "Accessibility: perspectives, measures and applications",
+keywords = "2023 OA procedure",
+author = "Karst Geurs and \{van Wee\}, Bert",
+year = "2023",
+month = sep,
+day = "14",
+language = "English",
+isbn = "978-1-80220-675-3",
+pages = "178--199",
+editor = "\{van Wee\}, Bert and Annema, \{Jan Anne\} and David Bannister and Baiba Pudane",
+booktitle = "The Transport System and Transport Policy",
+publisher = "Edward Elgar",
+address = "United Kingdom",
+edition = "2",
+}
+Geurs, K
+& van Wee, B 2023,
+Accessibility: perspectives, measures and applications
+. in B van Wee, JA Annema, D Bannister & B Pudane (eds),
+The Transport System and Transport Policy: An Introduction.
+2 edn, Edward Elgar, Cheltenham, pp. 178-199.
+Accessibility: perspectives, measures and applications.
+/
+Geurs, Karst
+; van Wee, Bert.
+The Transport System and Transport Policy: An Introduction. ed. / Bert van Wee; Jan Anne Annema; David Bannister; Baiba Pudane. 2. ed. Cheltenham: Edward Elgar, 2023. p. 178-199.
+Research output
+:
+Chapter in Book/Report/Conference proceeding
+›
+Chapter
+›
+Professional
+TY - CHAP
+T1 - Accessibility: perspectives, measures and applications
+AU - Geurs, Karst
+AU - van Wee, Bert
+PY - 2023/9/14
+Y1 - 2023/9/14
+KW - 2023 OA procedure
+UR - https://rstrail.nl/wp-content/uploads/2023/09/Volledige-PDF.pdf
+M3 - Chapter
+SN - 978-1-80220-675-3
+SP - 178
+EP - 199
+BT - The Transport System and Transport Policy
+A2 - van Wee, Bert
+A2 - Annema, Jan Anne
+A2 - Bannister, David
+A2 - Pudane, Baiba
+PB - Edward Elgar
+CY - Cheltenham
+ER -
+Geurs K
+, van Wee B.
+Accessibility: perspectives, measures and applications
+. In van Wee B, Annema JA, Bannister D, Pudane B, editors, The Transport System and Transport Policy: An Introduction. 2 ed. Cheltenham: Edward Elgar. 2023. p. 178-199
+Powered by
+Pure
+Link opens in a new tab
+,
+Scopus
+Link opens in a new tab
+&
+Elsevier Fingerprint Engine™
+Link opens in a new tab
+All content on this site: Copyright © 2026 University of Twente Research Information, its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply
+We use cookies to help provide and enhance our service and tailor content. By continuing you agree to the
+use of cookies
+University of Twente Research Information data protection policy
+Link opens in a new tab
+About web accessibility
+Link opens in a new tab
+Report vulnerability
+Link opens in a new tab
+Contact us

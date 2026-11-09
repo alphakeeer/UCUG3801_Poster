@@ -1,0 +1,1084 @@
+来源编号 S42
+标题 Geurs可及性分析机构库章节
+原始网址 https://ris.utwente.nl/ws/portalfiles/portal/331101214/Geurs-accessibility.pdf
+核对日期 2026-11-09T09:44:19.736378+00:00
+
+[PDF第1页]
+9
+Accessibility: perspectives, 
+measures and applications
+Karst Geurs and Bert van Wee
+9.1 INTRODUCTION
+A principal goal of transport policy is to improve accessibility: the transport system should 
+allow people to travel and participate in activities, and firms to transport goods between loca-
+tions (from mining, via stages of production, to distribution centres and finally to clients, such 
+as shops or other firms).
+The concept of accessibility as a central force in land-use development is traced back by 
+some authors to at least a century ago (e.g. Levine, 2020). Since the first definition of acces-
+sibility as the ‘potential of opportunities for interaction’ (Hansen, 1959: 73) accessibility has 
+taken on a variety of meanings  see for elaborate reviews of the literature Geurs and van Wee 
+(2004), Levine (2020) and Levinson and Wu (2020). Confusion in understanding of accessibil-
+ity, according to Wu and Levinson (2020), often arises from the differences in the intellectual 
+heritage in the various disciplines, the different mathematical formulations employed, the 
+different language and words employed to describe related concepts, and the different aims 
+each access measure hopes to achieve. This is problematic because the choice and operational-
+ization of an accessibility measure may strongly affect the conclusions on accessibility.
+Furthermore, Handy and Niemeier (1997: 1192) have stated that ‘a distinct gap currently 
+exists between the academic literature and the practical application of accessibility measures’. 
+This statement is still valid today. Studies in Europe and North America highlight that although 
+practitioners typically are convinced that comprehensive accessibility measures are useful in 
+the planning practice, many do not use them in their work. A lack of knowledge and data, 
+organizational barriers, and lack of institutionalization of accessibility measures and tools are 
+the main causes of the implementation gap (Silva et al., 2017; Boisjoly and El-Geneidy, 2017).
+In this chapter we describe the different perspectives on accessibility (Section 9.2), the dif-
+ferent components of accessibility (Section 9.3), the different means by which accessibility can 
+be operationalized (Section 9.4) and the different criteria for choosing accessibility measures 
+(Section 9.5). Section 9.6 describes the impact of ICT on accessibility analysis and measures 
+and Section 9.7 addresses linkages between equity and accessibility. Two examples of accessi-
+
+[PDF第2页]
+179ACCESSIBILITY: PERSPECTIVES, MEASURES AND APPLICATIONS
+bility measures are described in Section 9.8, illustrating how the choice and operationalization 
+of accessibility measures can influence the conclusions. Finally, Section 9.9 presents the 
+conclusions.
+9.2 DEFINING ACCESSIBILITY
+The definition of access, and thus its mathematical formulation, varies between studies and 
+across disciplines (Wu and Levinson, 2020). At its core, as shown in Figure 2.1 in Chapter 2, 
+accessibility can be measured as a product of (1) transport resistance, (2) locations, and (3) 
+travel needs and desires. Following this conceptual framework, we can define accessibility 
+from the perspective of persons (Geurs and van Wee, 2004: 128) and the perspective of loca-
+tions of activities as:
+The extent to which land-use and transport systems enable (groups of) individuals to reach 
+activities or destinations by means of a (combination of) transport mode(s) at various times 
+of the day (perspective of persons), and the extent to which land-use and transport systems 
+enable companies, facilities and other activity places to receive people, goods and informa-
+tion at various times of the day (perspective of locations of activities).
+The terms ‘access’ and ‘accessibility’ in the literature are often used indiscriminately. Here, 
+‘access’ is used when talking about a person’s perspective: the area that a person can reach 
+from his or her origin location to participate in one or more activities at destination locations 
+at certain times. This is visualized in Figure 9.1. From the perspective of location, ‘accessibility’ 
+is the catchment area from which people, goods and information from different locations can 
+reach a specific origin location. The size of the area depends, for example, on the time, costs 
+and effort that an individual is willing to accept (the transportation and individual component 
+of accessibility; see Section 9.3). The size of the area varies in time (the temporal component of 
+accessibility; see Section 9.3).
+
+[PDF第3页]
+180 THE TRANSPORT SYSTEM AND TRANSPORT POLICY
+ 
+9.3 COMPONENTS OF ACCESSIBILITY
+Four components of accessibility can be distinguished: a land-use, transportation, temporal 
+and individual component (Geurs and van Wee, 2004):
+1. The land-use component reflects the land-use system, consisting of (1) the amount, 
+quality and spatial distribution opportunities supplied at each destination (jobs, shops, 
+health, social and recreational facilities, etc.), (2) the demand for these opportunities at 
+origin locations (e.g. where inhabitants live), and (3) the confrontation of supply and 
+demand for opportunities, which may result in competition for activities with restricted 
+capacity such as job and school vacancies and hospital beds (see van Wee et al., 2001; see 
+Section 9.8, the Shen (1998) accessibility measure). Find out more about the land-use com-
+ponent in Chapter 5.
+2. The transportation component describes the transport system, expressed as the disutility 
+for an individual to cover the distance between an origin and a destination using a specific 
+transport mode. As with the transport resistance component (Chapter 6), it includes the 
+amount of time (travel, waiting and parking), costs (fixed and variable) and effort (includ-
+ing reliability, level of comfort, accident risk, etc.). This disutility results from the confron-
+tation between supply and demand. The supply of infrastructure includes its location and 
+characteristics (e.g. maximum travel speed, number of lanes, public transport timetables, 
+travel costs). The demand relates to both passenger and freight travel. Find out more about 
+the transportation component (equivalently, the transport resistance) in Chapter 6.
+3. The temporal component reflects the temporal constraints, that is, the availability of 
+opportunities at different times of the day and the time available for individuals to partici-
+pate in certain activities (e.g. work, recreation).
+4. The individual component reflects the activities in which individuals want to par-
+ticipate and the options they have to fulfil those needs. This directly relates to the 
+Needs-Opportunities-Abilities (NOA) model (Figure 3.1 in Chapter 3). The need to 
+participate in activities depends for example on age, income, educational level and house-
+Source: Dijst et al. (2002).
+Figure 9.1 Individual and location perspective on accessibility
+
+[PDF第4页]
+181ACCESSIBILITY: PERSPECTIVES, MEASURES AND APPLICATIONS
+hold situation. Opportunities to travel and participate in activities depend on people’s 
+income and travel budget, educational level, having a driving licence, car ownership, etc. 
+People’s abilities depend on people’s physical and mental capabilities to travel, e.g. being 
+able to drive a car, having digital skills to use a shared bike or car, etc. These character-
+istics may strongly influence the total aggregate accessibility result. Several studies have 
+shown that, in the case of job accessibility, inclusion of occupational matching strongly 
+affects the resulting accessibility indicators. Pan et al. (2020), for example, show that in 
+automobile-oriented city such as Houston in the United States, job seekers in poverty and 
+relying on public transport have very limited access to blue collar job opportunities.
+The four components have a direct influence on accessibility but also an indirect one through 
+interactions between the components. For example, the land-use component (distribution of 
+activities) is an important factor determining travel demand (transport component) and may 
+also introduce time restrictions (temporal component) and influence people’s opportunities 
+(individual component). The individual component interacts with all other components: 
+a person’s needs and abilities that influence the (valuation of) time, cost and effort of move-
+ment, types of relevant activities and the times at which one engages in specific activities.
+The four components explained above have been distinguished to measure physical acces-
+sibility to spatially distributed activities. Section 9.6 discusses how ICT (e.g. having access to 
+online goods and services) influences the four components of accessibility.
+9.4 OPERATIONALIZATION OF ACCESSIBILITY 
+MEASURES
+An accessibility measure should ideally take all components and elements within these 
+components into account. In practice, applied accessibility measures focus on one or more 
+components of accessibility, depending on the perspective taken. There are four main types of 
+accessibility measures:
+1. Infrastructure-based accessibility measures analyze the (observed or simulated) per-
+formance or service level of transport infrastructure, such as the length of infrastructure 
+networks, the density of those networks (e.g. kilometre road length per square kilometre), 
+level of congestion and average travel speed on the road network. This type of accessibility 
+measure is typically used in transport planning (for a discussion see Section 9.5). Some of 
+these measures focus only on the supply of infrastructure, while others also use demand 
+factors.
+2. Location-based accessibility measures analyze accessibility at locations, typically on 
+a macro-level. The measures describe the level of accessibility to spatially distributed activ-
+ities, such as the number of jobs within 30 minutes’ travel time from each origin location. 
+More complex location-based measures explicitly incorporate capacity restrictions of sup-
+plied activity characteristics to include competition effects see Section 9.8 for two examples.
+3. Person-based accessibility measures analyze accessibility at the individual level, such as 
+the activities in which an individual can participate at a given time. This type of measure is 
+founded in time geography (Hägerstrand, 1970) that measures limitations on an individ-
+ual’s freedom of action in their environment. This includes the location and duration of 
+
+[PDF第5页]
+182 THE TRANSPORT SYSTEM AND TRANSPORT POLICY
+mandatory activities, the time budgets for flexible activities and travel speed allowed by the 
+transport system. For a description of time geography see also Chapter 3, Section 3.6.
+4. Utility-based accessibility measures analyze the (economic) benefits that people derive 
+from access to the spatially distributed activities. This type of measure has its origin in 
+economic studies, for details see, for example, de Jong et al. (2007). This type of measure is 
+sometimes used in economic appraisals of transport infrastructure investments (Geurs et 
+al., 2010; Beria et al., 2018).
+Table 9.1 presents an overview of different types of accessibility measures, applications and 
+examples, with brief comments on the advantages and disadvantages of the measures used. 
+The different accessibility measures focus on different components of accessibility, often 
+ignoring other relevant elements of accessibility.
+Table 9.1 Accessibility indicators, applications and examples
+Accessibility type Applications Examples Disadvantages and comments
+Infrastructure-based accessibility measures:
+Supply-oriented 
+measures – network 
+level
+Description and comparison 
+of characteristics of 
+infrastructure supply in 
+a region or country
+Length of 
+motorways, density 
+of rail network
+Partial measure of accessibility; 
+does not include land-use and 
+individual components of 
+accessibility.
+Supply-oriented 
+measures – 
+connectivity 
+of locations to 
+transport networks
+Analysis of how well locations 
+are connected to transport 
+networks
+Distance to nearest 
+railway station, exit 
+point of a motorway
+Partial measure of accessibility; 
+measures are not suited for 
+a comparison of transport modes, 
+taking available opportunities into 
+account.
+Supply-oriented 
+measures
+– network 
+connectivity
+Describing network 
+connectivity, expressing how 
+well each node in a network 
+is connected to each adjacent 
+node
+Connectivity or 
+centrality of a node 
+relative to the rest 
+of the network
+Partial measure of accessibility. 
+It also does not provide plausible 
+results in complex networks with 
+many indirect linkages between 
+nodes.
+Demand- and 
+supply-oriented 
+measures
+Describing actual quality of 
+performance of infrastructure 
+networks
+Actual travel times 
+on the road network
+Partial measure of accessibility; 
+does not include land-use
+and individual components of 
+accessibility.
+Location-based accessibility measures:
+Cumulative 
+opportunities
+Counts the number of 
+opportunities that can be 
+reached from an original 
+location within a given 
+travel time, distance or cost 
+(fixed costs); or (average or 
+total) time or cost required 
+to access a fixed number 
+of opportunities (fixed 
+opportunities)
+Number of jobs 
+within 30 minutes’ 
+travel time by car; 
+average travel time 
+or cost to reach 1 
+million jobs
+These measures are relatively 
+undemanding of data and are easy 
+to interpret for researchers and 
+policy makers, as no assumptions 
+are made on a person’s perception 
+of transport, land-use and their 
+interaction. The measure is 
+sensitive to travel time changes.
+
+[PDF第6页]
+183ACCESSIBILITY: PERSPECTIVES, MEASURES AND APPLICATIONS
+Accessibility type Applications Examples Disadvantages and comments
+Potential
+accessibility
+measure
+Estimates the number of 
+opportunities in destination 
+locations that can be accessed 
+from an original location, 
+weighted by a distance decay 
+function, which describes how 
+more distant opportunities 
+provide diminishing 
+influences
+Index of jobs, 
+population or 
+services which can 
+be accessed from an 
+original location
+The measure evaluates the 
+combined effect of land-use and 
+transport elements incorporates 
+assumptions on a person’s 
+perceptions of transport by 
+using an impedance function. 
+The measure has no meaning in 
+absolute terms (index). The form 
+of the function should be carefully 
+chosen, and the parameters should 
+be estimated using empirical data 
+on travel behaviour in the study 
+area.
+Actual accessibility Estimates total travel 
+distances, times or costs from 
+an original location to all 
+destinations, weighted by the 
+actual number
+of trips on an original 
+destination location
+Analysis of 
+competition 
+between different 
+transport modes
+Detailed information of spatial 
+patterns of travel behaviour is 
+needed.
+Person-based accessibility measures:
+Space–time 
+approach
+The measures analyze 
+accessibility from the 
+viewpoint of individuals, 
+incorporating spatial and 
+temporal constraints
+The number of 
+household activity 
+programmes that 
+can be carried out 
+by individuals, 
+given personal and 
+time constraints
+Founded in time geography. 
+Measure is theoretically advanced 
+but is very data demanding.
+Utility-based accessibility measures:
+Utility of 
+accessibility
+The measures estimate the 
+utility or monetary value 
+(when utility is converted into 
+monetary terms)
+Logsum accessibility 
+describing the 
+utility of having 
+access to spatially 
+distributed activities
+Founded in microeconomic 
+theory. More difficult to 
+communicate to non-experts.
+Table 9.2 presents a matrix of the different accessibility measures and components. 
+Infrastructure-based measures do not include a land-use component; that is, they are not 
+sensitive to changes in the spatial distribution of activities if service levels (e.g. travel speed, 
+times or costs) remain constant. The temporal component is explicitly treated in person-based 
+measures and is generally not considered in the other perspectives, or is treated only implicitly, 
+for example by computing peak- and off-peak-hour accessibility levels. Person-based and 
+utility-based measures typically focus on the individual component, analyzing accessibility on 
+an individual level. Location-based measures typically analyze accessibility on a macro-level 
+but focus more on incorporating spatial constraints in the supply of opportunities, usually 
+excluded in the other approaches (see the dark-shaded cells in Table 9.2 – these emphasize the 
+dominant focus of each category of measures).
+
+[PDF第7页]
+184 THE TRANSPORT SYSTEM AND TRANSPORT POLICY
+Table 9.2 Types of accessibility measures and components
+Measure Component
+Transport Land-use Temporal Individual
+Infrastructure- 
+based measures
+Travelling speed;
+vehicle hours lost 
+in congestion
+  Peak-hour period;
+24-hr period
+Trip-based 
+stratification, e.g. 
+home-to-work, 
+business
+Location-based
+measures
+Travel time and/ 
+or costs between 
+locations of 
+activities 
+Amount and spatial 
+distribution of the 
+demand for and/or 
+supply of opportunities 
+Travel time and 
+costs may differ, e.g. 
+between hours of the 
+day, between days of 
+the week, or seasons
+Stratification of the 
+population (e.g. by 
+income, educational 
+level)
+Person-based
+measures
+Travel time 
+between location 
+of activities 
+Amount and spatial 
+distribution of supplied 
+opportunities 
+Temporal constraints 
+for activities and time 
+available for activities 
+Estimated at the 
+individual level
+Utility-based 
+measures
+Travel costs 
+between locations 
+of activities
+Amount and spatial 
+distribution of supplied 
+opportunities 
+Travel time and 
+costs may differ, e.g. 
+between hours of the 
+day, between days of 
+the week, or seasons
+Utility is derived 
+at the individual 
+or homogeneous 
+population group 
+level 
+Note: Dark grey: primary focus of measures; light grey: non-primary focus.
+Source: Geurs and van Wee (2004)
+To operationalize accessibility measures, the most suitable type of accessibility measure needs 
+to be chosen (the rows in Table 9.2), and then the various elements within the different com-
+ponents need to be determined (the columns in Table 9.2). A few examples can illustrate this 
+process:
+1. In determining travel times between origin and destination locations, one can choose 
+whether or not to weigh the different time components of a trip, such as access and egress 
+times to and from boarding points, in-vehicle travel times, waiting times and so on. 
+Generally speaking, access and egress and waiting time will incur much greater disutility 
+to travellers than in-vehicle time (e.g see Schakenbos et al., 2016; see also Chapter 6 of this 
+book). In particular, a comprehensive approach to measuring public transport accessibility 
+introduces a number of complexities, such as access to and from public transport by differ-
+ent modes. For example, Geurs et al. (2016) examined the impacts of bicycle–train integra-
+tion policies on job accessibility for public transport users, implementing a detailed bicycle 
+network linked to the public transport network, access/egress mode combinations and 
+station specific access and egress penalties by mode and station type derived from a stated 
+choice survey see Chapter 6, Section 6.2 for a description of the travel time components in 
+transport impedance.
+2. In determining the costs of car trips, one can include only fuel costs, but also total variable 
+costs, including for example parking costs and fixed costs (e.g. depreciation of the car). 
+Several cost elements can also be integrated in a generalized cost function. Koopmans 
+et al. (2013), for example, developed a generalized cost measure for car use to measure  
+
+[PDF第8页]
+185ACCESSIBILITY: PERSPECTIVES, MEASURES AND APPLICATIONS
+accessibility changes over time in the Netherlands. Their generalized cost measure included 
+fuel costs, travel time, value of travel time and reliability of travel time.
+3. Perceived accessibility, as the actual determinant of decisions regarding activity behaviour, 
+may differ from accessibility measurements based on actual spatial data. Perceptions of 
+the land-use, transport and temporal components may for example relate to knowledge 
+of available opportunities, perceived travel times or distances or temporal availability of 
+activities (e.g. opening hours). Objective and perceived factors may differ greatly, e.g. 
+car drivers greatly over-estimate travel time with public transport (e.g  see  van Exel and 
+Rietveld, 2009). Perceptions may also change over time see Pot et al. (2021) for a discussion 
+on perceived accessibility.
+4. In determining the land-use component, one needs to consider the spatial unit of anal-
+ysis (e.g. block level, postcode) but also for how many destination opportunities are to 
+be considered, and how these values are to be aggregated. An access measure involving 
+multiple destination types (e.g. jobs, shops, healthcare) can be weighted to produce a single 
+aggregated measure (Levinson and Wu, 2020). Furthermore, one needs to consider if 
+available opportunities have capacity limitations (such as in the case of school locations 
+and healthcare facilities), as a result of which competition exists, and where accessibility 
+measures need to account for differences in the spatial distribution of the demand and 
+supply of these opportunities (see Section 9.8 for a discussion).
+9.5 CHOOSING AND USING ACCESSIBILITY 
+MEASURES
+In defining and operationalizing accessibility, there is no one best approach because different 
+situations and purposes demand different approaches (Handy and Niemeier, 1997). However, 
+several criteria can be derived to evaluate the usefulness and limitations of accessibility meas-
+ures for different study purposes see, amongst others, Geurs and van Wee (2004). We summa-
+rize these criteria here as follows.
+9.5.1 Purpose of the Study
+This is the starting point of the operationalization process. What is the purpose of the study 
+and, following from that, what is the main reason for analyzing accessibility? All other choices 
+essentially follow on from this. The definition and operationalization would, for example, 
+strongly differ when the study purpose is to evaluate accessibility impacts of a transport 
+project, or to analyze social equity effects, or the economic benefits that people derive from 
+having access to opportunities. This means that the analysis of transport policy can be carried 
+out through more aggregate, location-based accessibility measures, whereas the analysis of 
+social equity effects requires a highly spatially differentiated and disaggregated analysis. The 
+analysis of economic benefits would require choosing a utility-based accessibility measure that 
+is directly linked to microeconomic theory.
+In the transport planning practice, there is also a link between the choice of the accessibility 
+measure and policy objectives set in transport policy documents. Since the mid-twentieth 
+century, the fundamental transport policy goal has been to achieve faster vehicle operating 
+
+[PDF第9页]
+186 THE TRANSPORT SYSTEM AND TRANSPORT POLICY
+speeds. To measure the effectiveness of transport policies to meet that goal, accessibility 
+measures such as delay per capita, vehicle hours or money wasted while waiting in traffic and 
+highway level of service have been used (Levine et al., 2012). These accessibility measures are 
+however not simply after-the-fact assessments, but they are also used proactively to guide 
+policy towards car-based transport investments (Levine et al., 2019). Analysis of over 170 
+Dutch municipal transport policy documents shows that car-oriented mobility planning and 
+the use of simple infrastructure-based accessibility indicators still dominates Dutch municipal 
+transport planning. Location-based accessibility measures are mostly found in transport poli-
+cies of a few large cities and highly urban municipalities (Akse et al., 2021).
+9.5.2 Scientific Quality
+An accessibility measure should ideally take all of the components and elements within these 
+components into account (Section 9.2). Thus an accessibility measure should firstly be sen-
+sitive to the changes in the transport and land-use systems and the temporal constraints of 
+opportunities, and it should take individual needs, abilities and opportunities into account. 
+A comprehensive inclusion of all components and their elements implies a level of complexity 
+and detail that can probably never be achieved in practice. However, it is important that the 
+limitations are recognized and described. In the literature, several examples of comparative 
+accessibility studies can be found. Thill and Kim (2010) explored differences between over 
+70 different location-based accessibility measures and operationalizations. Kwan (1998) and 
+Neutens et al. (2010) explored differences between different location- and person-based acces-
+sibility measures. The main conclusion from these studies is that each accessibility measure 
+brings a particular perspective to the measurement of the notion of accessibility that is not 
+fully captured by others. Hence, it is preferable to use multiple accessibility measures and 
+operationalizations in accessibility studies. However, the estimation of multiple accessibility 
+measures requires more effort and it is in conflict with the criterion: operationalization. And 
+it can also be in conflict with the second next criterion, ‘Interpretability and communicability’, 
+because clients of accessibility research might get confused. The solution may be to estimate 
+multiple accessibility measures, and if the results are highly correlated and not very sensitive 
+to the choices made, to communicate the results of only one measure. If the results differ sig-
+nificantly, this may be communicated as an uncertainty.
+9.5.3 Operationalization
+The operationalization of accessibility measures is related to the ease with which the measure 
+can be used in practice, for example in ascertaining availability of data, models and techniques, 
+and time and budget. This criterion will usually be in conflict with one or more of the theoreti-
+cal criteria described above. As noted in Section 9.1, while practitioners typically are convinced 
+that comprehensive accessibility measures are useful in the planning practice, many do not use 
+them in their work. The availability of data, for example, can be an important barrier towards 
+the use of advanced accessibility measures and tools (e.g. software packages) in the planning 
+practice (e.g. Boisjoly and El-Geneidy, 2017). A promising way forward to improve the ease of 
+
+[PDF第10页]
+187ACCESSIBILITY: PERSPECTIVES, MEASURES AND APPLICATIONS
+using accessibility measures is to develop open source, transferable and interactive accessibility 
+tools which have easy-to-use interfaces. The rise of WebGIS-technology allows the develop-
+ment of such tools. Pajares et al. (2021) presents an example of such an attempt, following an 
+iterative software development process in close cooperation with practitioners. The tool was 
+tested and transferred to more than 20 cities in Germany, Colombia and Portugal.
+9.5.4 Interpretability and Communicability
+Measures of accessibility have evolved with advances in GIS technology and data gathering 
+methods including geocoded spatial data and crowd-sourced, GPS-based travel times (Wu 
+and Levinson, 2020). In academic literature, accessibility studies have developed complex and 
+high resolution accessibility measures, partly in response to the recognition that the aggregate 
+measures lack many important details. However, accessibility measures which are used in the 
+planning practice are typically easy to interpret for researchers and policy makers, such as 
+travel speed on the road network or cumulative opportunity measures, but which have strong 
+methodological disadvantages. It is important that comprehensive approaches to measure 
+accessibility are made practical. Researchers, planners and policy makers should be able to 
+understand and interpret the measure, and communicate results to clients, as otherwise it is 
+not likely to be used in evaluation studies of land-use and/or transport developments or poli-
+cies and will thus have no impact on the policy making process.
+The interpretations of comprehensive accessibility measures can for example be improved 
+by comparing accessibility across place or time, or both place and time, rather than focusing 
+on absolute levels of accessibility. To improve interpretation, accessibility estimations can 
+also be indexed. For example, the base year value or a reference scenario can be indexed at the 
+level of 100. The value of the accessibility indicators could then be indexed and compared to 
+this base level value. Furthermore, location-based accessibility measures by definition capture 
+the combined effects of land-use (distribution of opportunities) and transport impedance 
+(time, cost, etc.) factors. This can make interpretation of accessibility changes difficult. What 
+causes a change in accessibility in an area: a change in travel time or a change in land use? To 
+improve interpretation, the influence of each factor on the overall accessibility change can 
+be shown. An example of such an approach is given by Moya-Gómez and Geurs (2018), who 
+examined the spatial and temporal dynamics in job accessibility by car in the Netherlands 
+during the economic crisis and its aftermath (2009–14) and showed the separate influence of 
+land-use changes and road network investments on the development of (job) accessibility for 
+the Netherlands. Computation of the different components of accessibility facilitates both the 
+explanation of overall accessibility changes and the relative position of regions.
+9.6 DIGITAL AND PHYSICAL ACCESSIBILITY
+Information and communications technologies (ICTs) are permeating modern lifestyles, 
+shaping and colouring the undertaking of activities and travel (Lyons, 2014). ICTs include 
+personal computer use at fixed locations, mobile devices, such as laptops and smartphones, 
+
+[PDF第11页]
+188 THE TRANSPORT SYSTEM AND TRANSPORT POLICY
+and infrastructure-related information provision technologies, such as Dynamic Route 
+Information Panels (DRIPS) for roads and public transport travel information. Since the start 
+of the World Wide Web over 30 years ago we have moved into a world where we can search for 
+and engage with almost anything online, whether information, other people, goods or services; 
+and we can do so (if equipped) from (almost) anywhere and anytime – whether at our desks, 
+on the move or in our living rooms (Lyons, 2014). This affects how we travel and access people, 
+goods and services. In contrast to the numerous studies on how various ICTs affect how we 
+travel (e.g see for overviews Aguiléra et al., 2012; Lyons, 2014), there are only a few studies on 
+the impacts on accessibility. ICTs can however impact accessibility in various ways. Van Wee 
+et al. (2013) provide a systematic overview of potential impacts of ICT on accessibility, using 
+the four components of accessibility.
+ICT can have complex impacts on accessibility as it affects all four of its components:
+1. Transport component: ICTs can affect travel resistance in many ways. Firstly, a traveller 
+may access (personalized) travel information before and during the trip via individual 
+ICT devices (e.g. PCs, PDAs, smartphone), and as a result reduce access time, and opti-
+mize route and mode choice. The development of multi-tasking during journeys (e.g. 
+making phone calls, online working) affects travel resistance. For example, ICTs allow 
+public transport users to use part of their travel time in a useful way and not all travel time 
+should be considered unproductive and ‘lost’. Molin et al. (2020) examined the impact of 
+onboard activities on the value of time (VoT) of train users in the Netherlands, and they 
+concluded that VoT due to onboard activities is 30% lower for commuters and almost 50% 
+for leisure travellers. Furthermore, during the COVID-19 pandemic, many governments 
+and companies promoted and facilitated teleworking. In the Netherlands teleworking 
+resulted in significant reductions in car commuting, reducing transport impedance (e.g. 
+lower peak-hour travel times). This might have long-term effects. In the Netherlands, for 
+example, 40% of workers indicated, after one month of teleworking during the lockdown 
+in 2020, that they would like to continue teleworking (one or more days per week) after the 
+pandemic, whereas 23% of workers were teleworking before the pandemic (Olde Kalter et 
+al., 2021).
+2. Land-use component: ICTs influence which persons carry out which activities at which 
+locations, due to changes in activities or activity locations; e.g. a person deciding to work 
+at home using ICT instead of travelling to work. ICT may directly or indirectly impact 
+the distribution of actors (households, shops, companies, etc.) over the given locations 
+of destinations. An example of a direct impact is that the city of Amsterdam has excellent 
+digital infrastructure and hosts large data-transport hubs which has helped to attract 
+many companies in the information industry. An example of an indirect impact is that 
+the rapid increase in online sales that, particularly during the COVID-19 pandemic, pro-
+foundly changes the way consumer goods are bought and sold. Online shopping typically 
+substitutes shopping trips (Le et al., 2021) and changes the spatial distribution of retail 
+businesses. Studies in the UK, for example, show that growth in e-commerce increased 
+the number of vacant shops in particular in (small) town centres and small retail centres. 
+(Dolega and Lord, 2020).
+3. Temporal component: ICTs affect the availability of opportunities at different times of 
+the day, and the time available for individuals to participate in certain activities (e.g. work, 
+recreation). Thanks to ICT a number of activities can be carried out at non-traditional 
+
+[PDF第12页]
+189ACCESSIBILITY: PERSPECTIVES, MEASURES AND APPLICATIONS
+times of day (e.g. working at night or on the weekend instead of during office hours). Also, 
+ICTs can allow the traveller to travel more efficiently (e.g. outside rush hours), save time 
+and spend more time on other activities.
+4. Individual component: ICT can have an impact on the needs (and wants) of people: 
+people might, for example, want to go to a concert they are aware of thanks to ICT. ICT 
+can also have a negative impact on people’s abilities to travel. Durand et al. (2021) state that 
+digital technologies are progressively becoming indispensable. In shared mobility such as 
+ride sourcing, car and bike sharing, not only is digital access to services the default option, 
+but it is also nowadays frequently the only option. This can increase transport disadvan-
+tage for some groups in society. Durand et al. (2021) conclude in a literature review that 
+vulnerability to digitalization in transport services exists along dimensions of age, income, 
+education, ethnicity, gender and geographical region.
+In the literature, some studies developed conceptual frameworks to combine physical and 
+digital accessibility (e.g. Miller, 2005; Lu et al., 2014) but only a few applied these models to real 
+case studies. One example is from Cavallaro and Dianin (2022) who developed a potential job 
+accessibility measure (see also Section 9.8) that combines physical accessibility and telework-
+ing into a single accessibility measure. The study included homeworking costs (such as energy 
+and internet subscriptions) as virtual ‘transport’ impedance. From an application of the model 
+to a rural and mountainous area in north-western Italy it was concluded that teleworking 
+plays a minor role in the overall job accessibility. This is explained by the partial development 
+of digital infrastructures and low level of teleworking opportunities in that region. In regions 
+or countries with high quality digital infrastructure and high teleworking levels, the impact of 
+teleworking on overall job accessibility can be expected to be much higher.
+The overall impact of ICTs on accessibility can be profound. However, there are several gaps 
+in our knowledge on the impacts of ICT on accessibility (see also van Wee et al., 2013). Firstly, 
+it is unknown how the many different interactions between ICT and accessibility components 
+combine overall. For example, research on telecommuting show that telecommuters typically 
+have longer commuting distances due to more remote residential locations (Cerqueira et al., 
+2020). However, telecommuting can also enable people to achieve a desired but more distant 
+residential location (e.g. bigger home and/or lower housing prices), without a net increase in 
+commute travel. So an interaction exists between residential location, job location and ICT 
+use, but we still poorly understand these interactions. Another example is that the ICT can 
+relax temporal constraints, as consumers no longer depend on the opening times of (physical) 
+shops to buy goods. Thus, an interaction exists between ICT access to shops. However, it is 
+unclear if digital access to shops influences the temporal distribution of activities of persons, 
+and maybe even residential location, and such choices influence the level of accessibility.
+Other knowledge gaps relate to, amongst others, the effect of personalized information pro-
+vision using mobile phone technologies on transport impedances (including comfort of travel) 
+and equity implications of the growing importance of digital accessibility. Over 40% of the EU 
+population still lacks at least basic digital skills and even in the Netherlands, one of the three 
+most digitalized countries in the European Union, about 20% of the working population lack 
+basic digital skills, and these people are generally older, lower educated and more often female 
+(Non et al., 2021). Moreover, digital technologies are progressively becoming indispensable for 
+
+[PDF第13页]
+190 THE TRANSPORT SYSTEM AND TRANSPORT POLICY
+physical accessibility. Shared mobility services such as ride sourcing, car and bike sharing can 
+often only be used with digital technologies. But we still poorly understand the importance of 
+such developments for accessibility. This relates to the following discussion about the equity 
+of accessibility.
+9.7 EQUITY OF ACCESSIBILITY
+People, groups of people and regions by definition do not have the same level of access to 
+destinations, such as shops, jobs or medical services. Planners have long been interested in 
+improving the conditions experienced by disadvantaged regions and/or population groups. 
+There is also a large body of research focusing on questions of uneven or inequitable access to 
+places and forms of movement. Early examples use various measures of physical accessibility 
+as a social indicator of the ease with which citizens may reach different employment and 
+services opportunities. Inequalities in accessibility are influenced strongly by the population 
+characteristics of areas as well as by location (Wachs and Kumagai, 1973).
+Equity is an important concept but also very difficult to define (van Wee and Mouter, 2021). 
+Transportation equity typically refers to the distribution of transport-related benefits and costs 
+over members of society. Di Ciommo and Shiftan (2017) argue that transportation equity has 
+three key components:
+1. the benefits and costs that are being distributed;
+2. the population groups over which the benefits and costs are distributed; and
+3. the distributive principle that determines whether a particular distribution is ‘morally 
+proper’ and ‘socially acceptable’.
+Research on the first two components of transport equity have a long history in transport and 
+urban research. Equity of accessibility is the most assessed aspect in transport policy evalu-
+ations (see van Wee and Mouter, 2021, for an overview). There is a large body of literature 
+focusing on questions of uneven or inequitable access to places and forms of movement (e.g. 
+van Wee and Geurs, 2011). Early examples use various measures of physical accessibility as 
+a social indicator of the ease with which citizens can reach different employment and services 
+opportunities (e.g. Wachs and Kumagai, 1973). Equity analysis however is very complex as 
+there are several types of equity (see Thomopoulos et al., 2009, for an overview), various ways 
+to categorize people for equity analysis, numerous impacts to consider and various ways of 
+measuring these impacts (van Wee and Geurs, 2011). In practice, one or more quantitative 
+indicators, such as the Gini index, are often used to express the level of (in)equality of accessi-
+bility see Chapter 15 for more information on equity measures.
+Research on fairness and (distributive) justice (the third component in the list by Di 
+Ciommo and Shiftan, 2017, as presented above) is a fast growing field within transportation 
+research. In particular, recent studies link accessibility approaches to transport justice frame-
+works based on key theories of justice including Rawls’ egalitarianism and the Capability 
+Approaches (CA) (e.g see for literature reviews Pereira et al., 2017, and Vecchio and Martens, 
+2021). Karner et al. (2020) state that transportation justice describes a normative condition in 
+
+[PDF第14页]
+191ACCESSIBILITY: PERSPECTIVES, MEASURES AND APPLICATIONS
+which no person or group is disadvantaged by a lack of access to the opportunities they need 
+to lead a meaningful and dignified life. Several authors have suggested that the Capabilities 
+Approach developed by Amartya Sen and Martha Nussbaum (e.g. Nussbaum and Sen, 1993; 
+Sen, 2009) can provide a conceptual framework to properly appraise the transport system as 
+well as new transport projects. The Capabilities Approach has five key features to understand 
+a person’s level of freedom which can be summarized as follows (e.g. Vecchio and Martens, 
+2021, for more details):
+1. Resources: commodities and intangible goods available to a person, which are considered 
+as means to achievement.
+2. Capabilities are the freedoms available to a person. Each capability is whatever people are 
+able to do and be in a variety of areas of life.
+3. Functionings: what people actually achieve ‘to be’ or ‘to do’. Each person puts into practice 
+(or not) the capabilities available to her. The basic element of an individual’s functioning is 
+travelling.
+4. Conversion factors: personal, social and environmental conditions that form the indi-
+vidual life experience. The factors determine what possibilities the person has to convert 
+resources into freedoms.
+5. Choice refers to the person’s decision in favour of a particular ‘state’ over another, selected 
+from within their capability set.
+There is a growing stream of research arguing that accessibility can be understood as a capa-
+bility within the framework of the Capability Approach. A capability can, as a practical oper-
+ationalization of this approach, be interpreted as a person’s possibility of engaging in a variety 
+of out-of-home activities. Accessibility captures the possibility of each person to actually 
+participate in valued activities. This can involve travel or virtual accessibility (see Section 9.6). 
+This also involves analysis of elements which have not received much attention in the litera-
+ture so far, such as wellbeing. Vecchio and Martens (2021) argue that the higher a person’s 
+accessibility level, the larger the person’s freedom to choose to travel to ‘the best’ opportunities 
+with a substantial positive impact on wellbeing. Even if the person does not always choose that 
+‘best’ option, the freedom embodied in a large choice set is in itself likely to enhance wellbeing. 
+It also creates complexity as perceptions of what are minimum levels of access to opportunities 
+differ across people. Furthermore, it has also been argued that transport policy can be seen as 
+a conversion factor to use the Capability Approach in transport policy evaluations (Randal 
+et al., 2020). Transport policy in this perspective can enhance or limit accessibility but also 
+other capabilities such as health and wellbeing. Nahmias-Biran and Shiftan (2019) developed 
+a conceptual framework using a utility-based accessibility measure to translate capabilities into 
+the (monetary) ‘Value of Capability Gains’ that can be used in cost–benefit analysis. However, 
+the inclusion of capabilities elements in transport policy appraisal tools is quite complex and 
+requires much more exploration.
+Furthermore, there is little attention in the literature for the joint analysis of the distribution 
+of advantages and disadvantages of transport (accessibility, air pollution, etc.), their interac-
+tions and correlations, and their evolution over time, and resulting equity implications (Geurs 
+et al., 2021). These relationships can be quite complex. For example, da Schio et al. (2019) 
+
+[PDF第15页]
+192 THE TRANSPORT SYSTEM AND TRANSPORT POLICY
+found flagrant patterns of inequality in accessibility and air pollution in the Brussels region, 
+but these do not reflect the socio-economic structure of the region.
+Finally, some authors argue that to achieve more fair transport planning it is not sufficient 
+to conduct quantitative equity analysis, but also full and fair participation of affected com-
+munities in the decision making is needed (Karner and Marcantonio, 2018). To learn more 
+about equity considerations and the newest methods that are used to integrate them in policy 
+appraisal, see Chapter 14.
+9.8 APPLICATIONS: TWO EXAMPLES OF 
+ACCESSIBILITY MEASURES
+Table 9.1 presented an overview of different types of accessibility measures, applications and 
+examples. In this section we will give two examples of frequently used accessibility measures 
+in the literature: (1) the potential accessibility measure and (2) the Shen accessibility measure. 
+The Shen index takes into account the spatial distribution in the demand for opportunities 
+(competition effects), whereas the potential accessibility measure does not. The application of 
+the two measures illustrates how the choice and operationalization of an accessibility measure 
+may strongly affect the conclusions on accessibility.
+9.8.1 Potential Accessibility Measures
+Potential accessibility measures (also called gravity-based measures) have been widely used 
+in urban and geographical studies since the late 1940s, including the seminal work of Hansen 
+(1959). The potential accessibility measure estimates the accessibility of opportunities in zone 
+i to all other zones n in which smaller and/or more distant opportunities provide diminish-
+ing influences. The measure has the following form, assuming a negative exponential cost 
+function:
+     A  i    =  ∑ 
+j =1
+  
+n
+       D  j    e   −β c  ij       (9.1)    
+where Ai is a measure of accessibility in zone i to all opportunities D (e.g. jobs, schools, health 
+facilities) in zone j, cij the impedance or costs of travel between i and j, and β the cost sensitivity 
+parameter.
+The impedance (or distance decay) function makes accessibility decrease if costs increase. 
+The function has a significant influence on the results of the accessibility measure. For plausi-
+ble results, the form of the function should be carefully chosen, and the parameters of the func-
+tion should be estimated using recent empirical data of spatial travel behaviour in the study 
+area. Several studies have used different impedance functions, such as negative exponential, 
+power, Gaussian or logistic functions. However, the negative exponential function is the most 
+widely used and the most closely tied to travel behaviour theory.
+The standard potential accessibility index calculates the geographic distribution of accessi-
+bility between areas or zones of analysis. This does not account for the number of people who 
+
+[PDF第16页]
+193ACCESSIBILITY: PERSPECTIVES, MEASURES AND APPLICATIONS
+potentially access the opportunities. This makes it impossible to compare potential accessibil-
+ity measures between different case study areas (cities, countries) with different volumes of 
+opportunities. To account for this, potential accessibility can be weighted by the population in 
+each spatial unit or zone @mto estimate person-average accessibility:
+   A  i person    =   
+ A  i    
+ _  P  i        (9.2)    
+where   A  i person    is the accessibility in zone i per person (by mode);   P  i    is the population in zone  i .
+Potential measures have the practical advantage that they can be easily computed using 
+existing land-use and transport data (and/or models), and they have been traditionally 
+employed as an input for estimating infrastructure-based measures. A potential measure is 
+however not so easy to interpret, as it combines land-use and transport elements and weighs 
+opportunities according to the impedance function. Moreover, in practice potential accessi-
+bility measures (and other location-based measures) are typically measured for a particular 
+place, mode, purpose and time in a particular year. Levinson and Wu (2020) argue that more 
+generalized measures of (potential) accessibility are needed that ideally would be measured for 
+all places, all modes, all purposes, at all times. In case the measure is used in transport project 
+evaluation, it ideally is also measured over the lifecycle of a project.
+9.8.2 Shen Accessibility Measure
+Standard potential accessibility measures ignore the spatial distribution in the demand for 
+opportunities, i.e. the so-called competition effects. For example, the workers compete for jobs; 
+firms compete for workers in the labour force. Ignoring such effects could lead to misleading 
+conclusions. This is illustrated in Figure 9.2. A potential accessibility indicator would estimate 
+(left side) that jobs in location j4 are the most accessible (closest by). However, accounting for 
+Figure 9.2 Visualization of potential accessibility (left) and Shen measure (right)
+
+[PDF第17页]
+194 THE TRANSPORT SYSTEM AND TRANSPORT POLICY
+competition with persons in location k means jobs in location j2 are more accessible, as oppor-
+tunities in locations j3 and j4 are within reach of competitors in location k.
+To incorporate competition effects, several authors have adapted potential accessibility meas-
+ures. A relatively simple approach has been to measure accessibility to certain opportunities 
+(jobs) and to individuals (workers) from a given location and then divide one measure by 
+the other (Levinson, 1998; van Wee et al., 2001). This approach is useful if the travel distance 
+between origins and destinations is relatively small, such as for elementary schools. A more 
+advanced approach developed by Shen (1998) involves incorporating the demand potential 
+(job seekers) to the calculation by dividing the supply (jobs) located in destination zone j by the 
+demand potential within reach of that zone j. This approach is also called the two-step floating 
+catchment area method which is frequently used in studies examining (spatial inequalities in) 
+accessibility of healthcare services (see for an overview see Chen and Jia, 2019). Figure 9.2 vis-
+ualizes the difference between a standard potential accessibility measure and the Shen index. 
+The Shen index (Si) has the following functional form:
+   S  i        =  ∑ 
+j
+       
+ O  j    ∙ f  ( t  ij  )     ∙ 
+ _  D  j      ,    D  j    =  ∑ 
+k
+      P  k   ∙ f  ( t  kj  )     (9.3)    
+where Si is the accessibility in zone  i  (by mode) while considering competition from other 
+zones  k  by users (of a specific mode);   P  k     is the population in location  k ;  f  ( t  kj  )    is the impedance 
+as a function of the travel time   t  kj       between  k  and  j  using a specific mode. Figure 9.2 illustrates 
+the effect of competition. The Shen index (Equation 9.3) accounts for the competition using 
+only the selected mode of travel, e.g. for car only competition between car commuters are 
+included. This is a simplification. Pritchard et al. (2019) developed a multi-modal Shen index 
+(Equation 9.4). The denominator, which accounts for population, uses the fastest travel time 
+alternative   t  kj   m  f    between each origin–destination (O–D) pair (i.e. the greatest possible competi-
+tion from each zone  k  to any zone  j ). This means that if the travel time by car is faster than, for 
+example, public transport from zone  k  to  j  then the travel time by car is selected for this O–D 
+pair. This is a good indicator because like potential accessibility it focuses on the supply side of 
+accessibility and does not assess the modal choice of individual residents; the greatest potential 
+competition from any area  k  is considered.
+   S  i    m  x     =  ∑ 
+j
+       
+ O  j   ∙  f  ( t  ij   m  x   )     ∙ 
+ _  D  j  fastest     ,    D  j  fastest   =  ∑ 
+k
+      P  k   ∙ f  ( t  kj   m  f   )     (9.4)    
+where:   S  i MM   m  x       is the accessibility in zone i by mode x with competition from any mode;  f  ( t  kj   m  f   )    is 
+the impedance as a function of the fastest travel time by any mode between  k  and  j .
+In the literature, more advanced approaches are used to include competition effects. The 
+Shen index simplifies competition effects, which can be illustrated using Figure 9.2. The Shen 
+index does not include job opportunities in location j 5 within reach of workers in location  k  
+but outside reach of workers living in location  i . To allow for these effects, iterative procedures 
+are needed, incorporating the competition on supplied opportunities and the competition on 
+demand (e.g. Geurs and Ritsema van Eck, 2003; El-Geneidy and Levinson, 2011).
+
+[PDF第18页]
+195ACCESSIBILITY: PERSPECTIVES, MEASURES AND APPLICATIONS
+An application of the potential accessibility and Shen accessibility measures is presented 
+by Pritchard et al. (2019). They conducted a comparative accessibility study, and estimated 
+job accessibility for car and public transport in Greater London, São Paulo and the Dutch 
+Randstad region, the most populated area in the west of the Netherlands. Pritchard et al. 
+(2019) estimated two types of potential accessibility measures (zonal and person based; Table 
+9.3) and two types of Shen measures (intra-modal and multi-modal; Table 9.3). The results 
+can be found in Table 9.3. The car provides, on average, higher zonal potential accessibility to 
+the residents of all three city-regions. The standard potential accessibility measure indicates 
+that residents in São Paulo are the best off, having the highest average accessibility by car 
+and transit, and Londoners having the lowest. However, the city-regions have different total 
+volumes of opportunities and working-age population, with São Paulo having the most jobs 
+but also workers (4.7 and 7.8 million, respectively) and the Randstad area having the least jobs 
+and also the smallest working-age population (3.6 and 5.3 million, respectively). This changes 
+the ranking of cities; the car provides access to more jobs per resident in London than São 
+Paulo and the Randstad area. Incorporating job competition has a stronger effect on the con-
+clusion. The mode-specific Shen index shows that workers in the Randstad area are the best off 
+– they have access to 0.8 jobs per worker – whereas in São Paulo this is about 0.6. However, the 
+position of public transport users changes radically if competition with car drivers is included 
+as competitors. Dutch public transport users are worse off – the accessible number of jobs 
+per worker drops from 0.8 to 0.1 jobs per worker. Thus, the choice and operationalization of 
+accessibility measures affect the results and conclusions of accessibility studies.
+Table 9.3 Job accessibility in the Randstad area, Greater London and São Paulo based on 
+different operationalizations of potential and Shen accessibility measures (Pritchard et al., 
+2019)
+      Car Public transport
+São Paulo Potential Accessibility Standard 2,166,153 638,993
+Person-Averaged 409 144
+Shen Accessibility Mode-Specific 0.62 0.58
+Best-Alternative 0.62 0.18
+London Potential Accessibility Standard 786,490 179,334
+Person-Averaged 477 116
+Shen Accessibility Mode-Specific 0.70 0.71
+Best-Alternative 0.70 0.15
+Randstad Potential Accessibility Standard 1,585,952 202,858
+Person-Averaged 355 37
+Shen Accessibility Mode-Specific 0.81 0.76
+Best-Alternative 0.81 0.09
+
+[PDF第19页]
+196 THE TRANSPORT SYSTEM AND TRANSPORT POLICY
+9.9 CONCLUSIONS
+This chapter has provided an overview of different perspectives, components and operation-
+alizations of accessibility, together with applications of accessibility measures. Furthermore, 
+new research areas related to the impact of ICTs on accessibility and measurement of equity in 
+accessibility are described. The main conclusions are as follows.
+It is very important to make careful decisions on the definition and operationalization 
+of accessibility, as the output is dependent on the definition and the choice of accessibility 
+measure. The four criteria on which decisions can be based are (1) purpose of the study, (2) sci-
+entific quality, (3) operationalization (cost, effort) and (4) interpretation and communication.
+In practice, the accessibility measures used are often those that are easy to operationalize 
+and interpret, rather than those that satisfy more stringent theoretical criteria. Applying a full 
+set of scientific quality criteria would imply a level of complexity and detail that is difficult to 
+achieve in practice. This means that different situations and study purposes demand different 
+approaches. However, it is important to recognize the implications of ignoring one or more of 
+these criteria.
+Location- and utility-based accessibility measures can be considered effective measures of 
+accessibility, which can also be used as input for social and economic evaluations. These meas-
+ures overcome the most important shortcomings of infrastructure-based measures and can be 
+computed with state-of-the-practice land-use and transport data and models.
+Equity analysis of accessibility is increasingly becoming important in transport planning. 
+Equity analysis is however not straightforward. There are several types of equity, various ways 
+to categorize people for equity analysis, numerous impacts to consider and various ways of 
+measuring these impacts. Dealing with fairness and justice in transportation requires a more 
+complete understanding of accessibility than traditional approaches have been able to deliver 
+to date.
+ICTs affect how we travel and access people, goods and services. The COVID-19 pandemic 
+has amplified this affect. ICTs affect all four components of accessibility, and their interactions. 
+There is relatively little research combining physical and digital accessibility in accessibility 
+measures. Moreover, there are many gaps in our knowledge on the possible impacts of ICT on 
+the different components of accessibility, and the equity implications of the growing impor-
+tance of digital accessibility for physical accessibility. Shared mobility services for example can 
+often only be accessed using digital technologies.
+REFERENCES
+Aguiléra, A., C. Guillot and A. Rallet (2012), ‘Mobile ICTs and physical mobility: Review and research 
+agenda’, Transportation Research Part A: Policy and Practice, 46, 664–72.
+Akse, R., T. Thomas and K. Geurs (2021), ‘Mobility and accessibility paradigms in Dutch policies: An 
+empirical analysis’, Journal of Transport and Land Use, 14(1), 1317–40.
+Beria, P., A. Bertolin and R. Grimaldi (2018), ‘Integration between Transport Models and Cost-Benefit 
+Analysis to Support Decision-Making Practices: Two Applications in Northern Italy’, Advances in 
+Operations Research, 2018, 1–16.
+
+[PDF第20页]
+197ACCESSIBILITY: PERSPECTIVES, MEASURES AND APPLICATIONS
+Boisjoly, G. and A.M. El-Geneidy (2017), ‘The insider: A planners’ perspective on accessibility’, Journal 
+of Transport Geography, 64, 33–43.
+Cavallaro, F. and A. Dianin (2022), ‘Combining transport and digital accessibilities in the evaluation of 
+regional work opportunities’, Journal of Transport Geography, 98, 1–12.
+Cerqueira, E.D.V., B. Motte-Baumvol, L.B. Chevallier and O. Bonin (2020), ‘Does working from home 
+reduce CO 2 emissions? An analysis of travel patterns as dictated by workplaces’, Transportation 
+Research Part D: Transport and Environment, 83, 1–12.
+Chen, X. and O. Jia (2019), ‘A comparative analysis of accessibility measures by the two-step floating 
+catchment area (2SFCA) method’, International Journal of Geographical Information Science, 33(9), 
+1739–58.
+da Schio, N., K. Boussauw and J. Sansen (2019), ‘Accessibility versus air pollution: A geography of exter-
+nalities in the Brussels agglomeration’, Cities, 84, 178–89.
+de Jong, G., A. Daly, M. Pieters and T. van der Hoorn (2007), ‘The logsum as an evaluation measure: 
+review of the literature and new results’, Transportation Research Part A: Policy and Practice, 41, 
+874–89.
+Di Ciommo, F. and Y. Shiftan (2017), ‘Transport equity analysis’, Transport Reviews, 37(2), 139–51.
+Dijst, M., H. Jayet and I. Thomas (2002), ‘Transportation and urban performance: accessibility, daily 
+mobility and location of households and facilities’, in M. Dijst, W. Schenkel and I. Thomas (eds), 
+Governing Cities on the Move: Functional and Management Perspectives on Transformations of Urban 
+Infrastructures in European Agglomerations, 19–41, Aldershot: Ashgate.
+Dolega, L. and A. Lord (2020), ‘Exploring the geography of retail success and decline: A case study of the 
+Liverpool City Region’, Cities 96, 1–11.
+Durand, A., T. Zijlstra, N. van Oort, S. Hoogendoorn-Lanser and S. Hoogendoorn (2021), ‘Access 
+denied? Digital inequality in transport services’, Transport Reviews, 2021, 1–25.
+El-Geneidy, A. and D. Levinson (2011), ‘Place Rank: Valuing Spatial Interactions’, Networks and Spatial 
+Economics, 2011(11), 643–59.
+Geurs, K.T., La Paix, L. and van Weperen, S. (2016), ‘A multi-modal network approach to model public 
+transport accessibility impacts of bicycle-train integration policies’. European Transport Research 
+Review, 8, 1–15.
+Geurs, K.T., D. Niemeier and M. Giannotti (2021), ‘The uneven geography of the accessibility and 
+environmental quality in the global north and south: Introduction to the special issue’, Journal of 
+Transport Geography, 97, 1–6.
+Geurs, K.T. and J.R. Ritsema van Eck (2003), ‘Accessibility evaluation of land-use scenarios: the impact 
+of job competition, land-use and infrastructure developments for the Netherlands’, Environment and 
+Planning B: Planning and Design, 30, 69–87.
+Geurs, K.T. and B. van Wee (2004), ‘Accessibility evaluation of land-use and transport strategies: review 
+and research directions’, Journal of Transport Geography, 12, 127–40.
+Geurs, K., B. Zondag, G. de Jong and M. de Bok (2010), ‘Accessibility appraisal of integrated land-use/
+transport policy strategies: more than just adding up travel time savings’, Transportation Research Part 
+D, 15, 382–93.
+Hägerstrand, T. (1970), ‘What about people in regional science?’, Papers of the Regional Science 
+Association, 24, 7–21.
+Handy, S.L. and D.A. Niemeier (1997), ‘Measuring accessibility: an exploration of issues and alterna-
+tives’, Environment and Planning A, 29, 1175–94.
+Hansen, W.G. (1959), ‘How accessibility shapes land use’, Journal of the American Institute of Planners, 
+25, 73–76.
+Karner, A., J. London, D. Rowangould and K. Manaugh (2020), ‘From Transportation Equity to 
+Transportation Justice: Within, Through, and Beyond the State’, Journal of Planning Literature, 35(4), 
+440–59.
+Karner, A. and R.A. Marcantonio (2018), ‘Achieving Transportation Equity: Meaningful Public 
+Involvement to Meet the Needs of Underserved Communities’. Public Works Management and Policy, 
+23(2), 105–26.
+Koopmans, C., W. Groot, P. Warffemius, J.A. Annema and S. Hoogendoorn-Lanser (2013), ‘Measuring 
+generalised transport costs as an indicator of accessibility changes over time’, Transport Policy, 29, 
+154–59.
+
+[PDF第21页]
+198 THE TRANSPORT SYSTEM AND TRANSPORT POLICY
+Kwan, M.-P. (1998), ‘Space-time and Integral Measures of Individual Accessibility: A Comparative 
+Analysis Using a Point-based Framework’, Geographical Analysis, 30, 191–216.
+Le, H.T.K., A.L. Carrel and H. Shah (2021), ‘Impacts of online shopping on travel demand: a systematic 
+review’, Transport Reviews, 1–23.
+Levine, J. (2020), ‘A century of evolution of the accessibility concept’. Transportation Research Part D: 
+Transport and Environment, 83, 1–5.
+Levine, J., J. Grengs and L.A. Merlin (2019), From Mobility to Accessibility: Transforming Transportation 
+and Land-Use Planning, Ithaca/London: Cornell University Press.
+Levine, J., J. Grengs, Q. Shen and Q. Shen (2012), ‘Does accessibility require density or speed?’, Journal of 
+the American Planning Association, 78, 157–72.
+Levinson, D.M. (1998), ‘Accessibility and the journey to work’, Journal of Transport Geography, 6(1), 
+1–21.
+Levinson, D.M. and H. Wu (2020), ‘Towards a general theory of access’, Journal of Transport and Land 
+Use, 13, 129–58.
+Lu, R., C.G. Chorus and B. van Wee (2014), ‘The effects of different forms of ICT on accessibility – 
+a behavioural model and numerical examples’, Transportmetrica A: Transport Science, 10(3), 233–54.
+Lyons, G. (2014), ‘Transport’s Digital Age Transition’, Journal of Transport and Land Use, 8(2), 1–19.
+Miller, H.J. (2005), ‘Necessary space–time conditions for human interaction’. Environment and Planning 
+B: Planning and Design, 32(3), 381–401.
+Molin, E., K. Adjenughwure, M. de Bruyn, O. Cats and P. Warffemius (2020), ‘Does conducting activ-
+ities while traveling reduce the value of time? Evidence from a within-subjects choice experiment’, 
+Transportation Research Part A: Policy and Practice, 132, 18–29.
+Moya-Gómez, B. and K.T. Geurs (2018), ‘The spatial–temporal dynamics in job accessibility by car in the 
+Netherlands during the crisis’, Regional Studies, 2018, 1–12.
+Nahmias-Biran, B. and Y. Shiftan (2019), ‘Using activity-based models and the capability approach to 
+evaluate equity considerations in transportation projects’, Transportation, 47(5), 2287–305.
+Neutens, T., T. Schwanen, F. Witlox and P. de Maeyer (2010), ‘Equity of urban service delivery: A com-
+parison of different accessibility measures’, Environment and Planning A, 42(7), 1613–35.
+Non, M., M. Dinkova and B. Dahmen (2021), ‘Skill up or get left behind? Digital skills and labor market 
+outcomes in the Netherlands’. CPB Discussion Paper 419. CPB Netherlands Bureau for Economic 
+Policy Analysis, The Hague.
+Nussbaum, M. C. and A. K. Sen (1993), The Quality of Life. Oxford: Clarendon.
+Olde Kalter, MJ, K.T. Geurs, L. Wismans (2021), ‘Post COVID-19 teleworking and car use intentions. 
+Evidence from large scale GPS-tracking and survey data in the Netherlands’, Transportation Research 
+Interdisciplinary Perspectives, 12, 1–11.
+Pajares, E., B. Büttner, U. Jehle, A. Nichols and G. Wulfhorst, G (2021), ‘Accessibility by proximity: 
+Addressing the lack of interactive accessibility instruments for active mobility’, Journal of Transport 
+Geography, 93, 1–16.
+Pan, Q., Z. Jin and X. Liu (2020), ‘Measuring the effects of job competition and matching on employment 
+accessibility’, Transportation Research Part D: Transport and Environment, 87, 1–16.
+Pereira, R.H.M., T. Schwanen and D. Banister (2017), ’Distributive justice and equity in transportation’, 
+Transport Reviews, 37, 170–91.
+Pot, F.J., B. van Wee and T. Tillema (2021), ‘Perceived accessibility: What it is and why it differs from cal-
+culated accessibility measures based on spatial data’, Journal of Transport Geography, 94, 2021, 1–11.
+Pritchard, J.P., D. Tomasiello, M. Giannotti and K.T. Geurs (2019), ‘An international comparison of tem-
+poral and spatial inequalities in job accessibility – London, São Paulo and the Netherlands Randstad 
+Area’, Transport Findings, 2019, 1–12.
+Randal, E., C. Shaw, A. Woodward, P. Howden-Chapman, A. Macmillan, J. Hosking, R. Chapman, A.M. 
+Waa and M. Keall (2020), ‘Fairness in Transport Policy: A New Approach to Applying Distributive 
+Justice Theories’, Sustainability, 12(23), 10102.
+Schakenbos, R., L. La Paix, S. Nijenstein and K.T. Geurs (2016), ‘Valuation of a transfer in a multimodal 
+public transport trip’, Transport Policy, 46, 72–81.
+Sen, A. (2009), The Idea of Justice. London: Allen Lane.
+Shen, Q. (1998), ‘Location characteristics of inner-city neighborhoods and employment accessibility of 
+low-wage workers’, Environment and Planning B: Planning and Design, 25, 345–65.
+
+[PDF第22页]
+199ACCESSIBILITY: PERSPECTIVES, MEASURES AND APPLICATIONS
+Silva, C., L. Bertolini, M. te Brömmelstroet, D. Milakis and E. Papa (2017), ‘Accessibility instruments in 
+planning practice: Bridging the implementation gap’, Transport Policy, 53, 135–45.
+Thill, J.C. and M. Kim (2005), ‘Trip making, induced travel demand, and accessibility’, Journal of 
+Geographical Systems, 2005(7), 229–48.
+Thomopoulos, N., S. Grant-Muller and M.R. Tight (2009), ‘Incorporating equity considerations in 
+transport infrastructure evaluation: Current practice and a proposed methodology’, Evaluation and 
+Program Planning, 32(4), 351–59.
+Van Exel, N.J.A. and P. Rietveld (2009), ‘Could you also have made this trip by another mode? An inves-
+tigation of perceived travel possibilities of car and train travellers on the main travel corridors to the 
+city of Amsterdam, The Netherlands’, Transportation Research Part A: Policy and Practice, 43, 374–85.
+van Wee, B., C. Chorus and K. Geurs (2013), ‘Information, communication, travel behaviour and acces-
+sibility’, Journal of Transport and Land Use, 6, 1–16.
+van Wee, B. and K.T. Geurs (2011), ‘Discussing equity and social exclusion in accessibility evaluations’, 
+European Journal of Transport and Infrastructure Research, 11(4), 350–67.
+van Wee, G.P., M. Hagoort and J.A. Annema (2001), ‘Accessibility measures with competition’, Journal 
+of Transport Geography, 9, 199–208.
+van Wee, B., and N. Mouter (2021), ‘Evaluating transport equity’, in N. Mouter (ed.), New Methods, 
+Reflections and Application Domains in Transport Appraisal. Elsevier Series Advances in Transport 
+Policy and Planning, Volume 7, 103–126. London: Elsevier.
+Vecchio, G. and K. Martens (2021), ‘Accessibility and the Capabilities Approach: a review of the litera-
+ture and proposal for conceptual advancements’, Transport Reviews, 41, 833–54.
+Wachs, M. and T.G. Kumagai (1973), ‘Physical accessibility as a social indicator’, Socio-Economic 
+Planning Science, 6, 357–79.
+Wu, H. and D. Levinson (2020), ‘Unifying access’, Transportation Research Part D: Transport and 
+Environment, 83. https:// doi .org/ 10 .1016/ j .trd .2020 .102355.
