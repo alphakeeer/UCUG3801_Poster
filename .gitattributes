@@ -10,3 +10,5 @@
 # Archived responses and extracted source text retain their original whitespace.
 03_背景/资料库/原始文件/** -whitespace
 03_背景/资料库/正文/** -whitespace
+03_背景/资料库/补充选题资料/*.html -whitespace
+03_背景/资料库/补充选题资料/*.txt -whitespace

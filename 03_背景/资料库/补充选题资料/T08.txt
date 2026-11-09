@@ -1,0 +1,2585 @@
+OECD Starting unequal
+来源 https://www.oecd.org/content/dam/oecd/en/publications/reports/2022/07/starting-unequal_4edf3b4c/a0ec330c-en.pdf
+
+[PDF第1页]
+ 
+ 
+ 
+STARTING UNEQUAL:  
+HOW’S LIFE FOR 
+DISADVANTAGED 
+CHILDREN? 
+OECD PAPERS ON WELL-BEING AND 
+INEQUALITIES 
+July 2022 N°06 
+ 
+ 
+ 
+CHILD WELL-BEING POLICY PAPER 
+ 
+
+
+[PDF第2页]
+STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? | 1 
+CHILD WELL-BEING POLICY PAPERS 
+  
+OECD Papers on Well-being 
+and Inequalities 
+www.oecd.org/wise/papersandbriefs 
+The OECD Papers on Well-being and Inequalities Series – managed by the OECD Centre on Well-being, 
+Inclusion, Sustainability and Equal Opportunity (WISE) – features working papers on the measurement 
+agenda for well-being, inclusion, sustainability and equal opportunity as well as papers seeking to deepen 
+the understanding of the drivers of these issues, the ways in which they  interact and how they evolve. 
+These papers are prepared by OECD staff, external experts or by outside consultants working on OECD 
+projects.  
+This series is designed to make available to a wider readership selected labour market, social policy and 
+migration studies prepared for use within the OECD. Authorship is usually collective, but principal writers 
+are named. The papers are generally available only in their original language – English or French – with a 
+summary in the other. 
+This paper is published under the responsibility of the Secretary -General of the OECD. The opinions 
+expressed and the arguments employed herein do not necessarily reflect the official views of OECD 
+member countries. 
+This document, as well as any data and map included herein, are without prejudice to the status of or 
+sovereignty over any territory, to the delimitation of international frontiers and boundaries and to the name 
+of any territory, city or area. 
+The statistical data for Israel are supplied by and under the responsibility of the relevant Israeli authorities. 
+The use of such data by the OECD is without prejudice to the status of the Golan Heights, East Jerusalem 
+and Israeli settlements in the West Bank under the terms of international law. 
+The release of this policy paper has been authorised by Romina Boarini, Director of the OECD Centre on 
+Well-being, Inclusion, Sustainability and Equal Opportunity (WISE). 
+Child Well-being Policy Papers 
+This paper charts the well-being of children from socially and economically disadvantaged backgrounds. 
+Built around the Child Well-being Measurement Framework set out in the 2021 report Measuring What 
+Matters for Child Well-being and Policies (OECD[1]), and constructed using key comparative indicators 
+from the forthcoming OECD Child Well -being Dashboard, it examines how the well- being of children 
+from disadvantaged backgrounds compares both across OECD countries and relative to their more 
+advantaged peers. Results highlight how growing up at the bottom end  of the socio economic ladder 
+leads to poorer outcomes in almost all well -being areas, and how these well -being inequalities are 
+rooted in the poorer environments that disadvantaged children face at home, in school, and in the 
+community. 
+
+[PDF第3页]
+2 | STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? 
+CHILD WELL-BEING POLICY PAPERS 
+      
+Acknowledgements 
+This paper was prepared by the OECD Centre on Well -Being, Inclusion, Sustainability and Equal 
+Opportunity (WISE Centre). It was developed under the leadership of Romina Boarini (Director of OECD 
+WISE Centre) and supervision of Olivier Thévenon (Head of the Child Well -Being Unit, OECD WISE 
+Centre). The report was written by Chris Clarke and Olivier Thévenon (OECD WISE Centre). Chris Clarke 
+developed the OECD Child Well- Being Dashboard and Data Portal  from which the data reported in this 
+paper are derived. Anne-Lise Faron, OECD WISE Publications and Event Coordinator, prepared the paper 
+for publication. Anete K õlli, OECD WISE Centre, and Martine Zaïda, OECD WISE Communications, 
+Partnership and Forum Manager, provided support and advice on communication aspects . 
+The authors would like to thank  Willem Adema (OECD Directorate for Employment, Labour and Social 
+Affairs), Lucie Cerna, Francesca Gottschalk, Cecilia Mezzanotte and Samo Varsik (OECD Directorate for 
+Education and Skills), and delegates to the OECD Working Party on Social Policy for comments and 
+feedback on an earlier version of the paper.  
+The OECD gratefully acknowledges the financial support provided by Canada for the preparation of this 
+paper. 
+
+[PDF第4页]
+STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? | 3 
+CHILD WELL-BEING POLICY PAPERS 
+  
+Abstract 
+Childhood is a crucial period in life. The things that we learn, do, and experience in childhood play a critical 
+role in shaping who we are and who we become, and can leave lasting impressions on our lives for years 
+to come. However, not all children have the same opportunities to enjoy good childhoods and to learn and 
+grow in ways that set them up well for adult life. Children from socially and economically disadvantaged 
+backgrounds are at particular risk, as this paper shows. 
+Built using a series of key comparative indicators from the OECD Child Well -being Dashboard, this paper 
+examines how the well-being of children from disadvantaged backgrounds compares both across OECD 
+countries and relative to their more advantaged peers. Results highlight how growing up at the bottom end 
+of the socio- economic ladder  leads to poorer outcomes in almost all well -being areas, and how t hese 
+well-being inequalities are rooted in the poorer environments that disadvantaged children face at home, in 
+school, and in the community.  
+
+[PDF第5页]
+4 | STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? 
+CHILD WELL-BEING POLICY PAPERS 
+      
+Résumé 
+L'enfance est une période cruciale de la vie. Ce que nous apprenons, ce que nous faisons et ce que nous 
+vivons pendant l'enfance joue un rôle essentiel dans la formation de l’être que nous sommes et que nous 
+devenons, et peut laisser des traces durables dans notre vie pendant des années. Cependant, tous les 
+enfants n'ont pas les mêmes chances de profiter d'une bonne enfance,  d'apprendre et de grandir d'une 
+manière qui les prépare bien à la vie adulte. Les enfants issus de milieux socialement et économiquement 
+défavorisés sont particulièrement exposés à ce risque, comme le montre ce document. 
+Construit à partir d'une série d'indicateurs comparatifs clés tirés du tableau de bord de l'OCDE sur le bien-
+être des enfants, ce document examine comment le bien-être des enfants issus de milieux défavorisés se 
+compare à la fois dans les pays de l'OCDE et par rapport à leurs pairs plus favorisés. Les résultats 
+montrent comment le fait de grandir au bas de l'échelle socio- économique entraîne des résultats moins 
+bons dans presque tous les domaines du bien-être, et comment ces inégalités de bien-être sont enracinées 
+dans les environnements moins favorables auxquels les enfants défavorisés sont confrontés à la maison, 
+à l'école et dans leur communauté. 
+
+[PDF第6页]
+STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? | 5 
+CHILD WELL-BEING POLICY PAPERS 
+  
+Table of contents 
+OECD Papers on Well-being and Inequalities 1 
+Acknowledgements 2 
+Abstract 3 
+Résumé 4 
+Table of contents 5 
+Introduction 7 
+1 Children’s well-being outcomes 14 
+Material well-being outcomes 14 
+Physical health outcomes 17 
+Cognitive and educational outcomes 22 
+Social and emotional outcomes 25 
+2 Drivers of children’s well-being outcomes 32 
+Home and family life 32 
+Life at school and in early childhood education and care 35 
+Social life and life in the community 39 
+Life online 44 
+3 Child well-being dashboards can help navigate better futures for disadvantaged 
+children 51 
+References 53 
+ 
+FIGURES 
+Figure 1. The OECD Child Well-being Measurement Framework 13 
+Figure 2. Children experiencing food deprivation 15 
+Figure 3. Children experiencing severe housing deprivation 16 
+Figure 4. Children without an Internet connection at home 17 
+Figure 5. Children reporting fair or poor health 19 
+Figure 6. Children who are overweight or obese 20 
+Figure 7. Children who get the WHO-recommended daily exercise 21 
+Figure 8. Children with health-driven activity limitations 22 
+
+[PDF第7页]
+6 | STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? 
+CHILD WELL-BEING POLICY PAPERS 
+      
+Figure 9. Children around age 10 who are top performers in maths and/or science 23 
+Figure 10. Children age 15 who are top performers in reading, maths and/or science 24 
+Figure 11. Children who expect to complete higher education 25 
+Figure 12. Children reporting strong perceived support from family 27 
+Figure 13. Children expressing self-efficacy 28 
+Figure 14. Children expressing a growth mindset 29 
+Figure 15. Children reporting multiple subjective health complaints 30 
+Figure 16. Children who are unsatisfied with their lives 31 
+Figure 17. Children around age 10 who engaged in regular home learning activities when young 33 
+Figure 18. Children who find it difficult to talk to their parents 34 
+Figure 19. Children firmly reporting that their parents encourage them to be confident 35 
+Figure 20. Children under age three participating in early childhood education and care 36 
+Figure 21. Children reporting a poor relative disciplinary climate in their classroom 37 
+Figure 22. Children reporting being the victim of bullying 38 
+Figure 23. Children who feel like they belong at school 39 
+Figure 24. Children who feel that they have enough friends 40 
+Figure 25. Children reporting strong support from friends 41 
+Figure 26. Children participating in voluntary work 42 
+Figure 27. Children who believe there are enough places to play in their area 43 
+Figure 28. Children in households reporting problems with crime or violence in their area 44 
+Figure 29. Children who report reading news on the Internet every day or almost every day 45 
+Figure 30. Children who firmly believe that the Internet is a great resource for information 47 
+Figure 31. Children who report being taught to detect subjective or biased information 48 
+Figure 32. Children reporting problematic social media use 49 
+Figure 33. Children reporting being the victim of cyberbullying 50 
+ 
+ 
+
+[PDF第8页]
+STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? | 7 
+CHILD WELL-BEING POLICY PAPERS 
+  
+Introduction 
+Childhood is a crucial period in life. The things that we learn, do, and experience in childhood play a critical 
+role in shaping who we are and who we become, and can leave lasting impressions on our lives for years 
+to come. It is during childhood that individuals begin to develop the skills and abilities needed for success 
+in later life, for instance,  including in their  professional life. These include traditional competencies like 
+literacy and numeracy but also, for today’s children, a range of additional reflective and socio- emotional 
+skills needed to thrive in an increasingly inter-connected and digitised world (like self-confidence, critical 
+thinking, problem-solving, and “collaborative and transformative competencies” – that is, competences that 
+are important for contributing to society, such as  empathy, reconciling tensions, and taking responsibility ) 
+(OECD, 2019[2]). Childhood is also a critical period for health and physical development, for social and 
+emotional development, for behaviour formation, and for a range of other factors that help shape our 
+prospects and well-being in later life (OECD, 2021[1]). 
+However, not all children have the same opportunities to enjoy good childhoods and to learn and grow in 
+ways that set them up well for adult life. Child well -being requires sustained support from families and 
+caregivers, from schools, and from the wider community (OECD, 2021[1]) – supports that are not always 
+available to all children. Children from socially and economically disadvantag ed backgrounds (see Box 1) 
+in particular consistently fall behind in many well-being areas. Disadvantaged children frequently do worse 
+in school, for instance, and often leave education with poorer knowledge and skills than their more 
+advantaged peers (OECD, 2019[3]). They also often have poorer physical health, poorer mental health, 
+have less confidence in themselves, and report lower satisfaction with their lives (Inchley et al., 2018[4]; 
+OECD, 2019[5]). 
+The early inequalities experienced by children from disadvantaged families matter for the children 
+themselves, of course. Children growing up in disadvantaged households not only experience poorer 
+well-being now, but also face a lifetime of more limited opportunities, typically for reasons far outside their 
+control. These inequalities also matter for the social and economic prosperity of society as a whole. Many 
+of the well-being outcomes linked to childhood disadvantage –  worse health, poorer knowledge and skills 
+accumulation – strongly affect their chances of later becoming productive members of society and the 
+labour force, and play a key role in the perpetuation of poverty and social exclusion. 
+The sources of childhood disadvantage are multiple. Child income poverty is  an important driver, and is  
+still widespread: on average across OECD countries, 13% of children are living in relative income poverty, 
+rising to more than 20% in countries including Spain, the Republic of Türkiye (hereafter “Türkiye”) and the 
+United States (OECD, 2022[6]). But importantly, and as this paper makes clear, the roots of disadvantage 
+stretch far beyond family income. They stem from differences in the environments children face at home 
+and with family, at school, and in the wider community. Many socially and economically disadvantaged 
+children face poor conditions in several of these areas at once, with effects that interact and compound.  
+Better measuring child well-being and the drivers of child well-being is critical if policy makers are to design 
+policies that help all children flourish, including those from socially and economically disadv antaged 
+backgrounds. Headline child well -being metrics and indicator dashboards can help by providing a 
+comprehensive picture of how children are doing in different areas of life, and can contribute to an improved 
+shared understanding of where key challenges lie and how to address multiple disadvantage through 
+integrated child well-being strategies.  
+
+[PDF第9页]
+8 | STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? 
+CHILD WELL-BEING POLICY PAPERS 
+      
+This paper builds on information from one such indicator dashboard –  the OECD Child Well -being 
+Dashboard ( Box 2) – to chart the well -being of children from socially and economically disadvantaged 
+backgrounds. Constructed primarily using key comparative indicators from the Dashboard, it examines 
+how the well-being of children from disadvantaged backgrounds compares both a cross OECD countries 
+and relative to their more advantaged peers. Results highlight the pervasiveness of childhood 
+disadvantage – how growing up at the bottom end of the socio- economic ladder impacts almost all areas 
+of children’s lives , including areas where social gradients are well documented (e.g. child health, 
+education) but also areas less often highlighted, including the ways in which children perceive themselves 
+and the support they receive at home, at school, and in the community. In doing so, it illustrates the scope 
+and scale of the policy challenge for governments looking to provide all children, including those in the 
+least privileged positions, with the best possible start in life.  
+The paper is organised in line with a simplified version of the OECD Child Well- being Measurement 
+Framework (Box 2). It starts in section 1 with a series of key comparative indicators on children’s well-being 
+outcomes, and how they differ with socio-economic status. Consistent with the Measurement Framework, 
+these outcome indicators are arranged into four broad thematic areas: material well -being outcomes; 
+physical health outcomes; cognitive and educational outcomes; and social and emotional outcomes . 
+Section 2 outlines a series of key indicators on the drivers of children’s well-being outcomes: indicators of 
+the things that children themselves think, do and experience (their attitudes, activities, behaviours, and 
+relationships), as well as of the wider settings and environments in which they grow up (their families, their 
+schools, and the communities and local areas). These indicators are again arranged into four thematic 
+areas: home and family life; life at school and in early childhood education and care; social life and life in 
+the community; and life online.  
+The paper’s final section briefly discusses implications for policy and practice. 
+Key findings 
+1. Children from socially and economically disadvantaged backgrounds fare worse in 
+almost all well-being areas 
+The indicators presented in the first section of this paper show that, across well-being areas, children from 
+socially and economically disadvantaged backgrounds frequently experience poor well -being outcomes, 
+especially when compared against those for  their more advantaged peers. For example, children from 
+disadvantaged backgrounds:  
+• Still too often lack access to basic material necessities, including basic food and nutrition, 
+good-quality housing, and modern necessities like the Internet. For instance,  on average across 
+European OECD countries, more than 10% of low-income children continue to live in very poor 
+quality housing. 
+• Are disproportionately likely to experience poor health outcomes, with children from disadvantaged 
+backgrounds over-represented among overweight and obese children and among those reporting 
+poorer self-rated health. On average across OECD countries,  around 25% of disadvantaged 11- , 
+13- and 15- year-olds are considered overweight or obese based on the World Health 
+Organization’s definition, compared to 16% from the most advantaged households. And more than 
+one in six disadvantaged children in the same age group rate their own health as only “fair” or 
+“poor”, compared to one in ten advantaged children. 
+
+[PDF第10页]
+STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? | 9 
+CHILD WELL-BEING POLICY PAPERS 
+  
+Box 1. How this paper measures social and economic disadvantage 
+Socio-economic status, and childhood socio- economic disadvantage, are broad and multidimensional 
+concepts. Revolving around a child and their family’s position in society relative to others, 
+socio-economic status looks to reflect children’s access to important economic and social resources 
+(e.g. financial capital, social capital, cultural capital) and how this access compares to others around 
+them (OECD, 2019[3]). Social and economic disadvantage in childhood thus refers to a relative lack of 
+access to important resources and a “low” relative family position more generally.  
+There is no strong international agreement on how socio-economic status and disadvantage should be 
+measured, especially with respect to children. Different studies employ different metrics built on different 
+source data. For child- focused data collections, measurement typically involves a combination of one 
+or more measures covering parental education, parental occupational status, and/or household income 
+or household possessions, with some variation in the exact measures used  (Avvisati, 2020[7]; Cowan 
+et al., 2012[8]). Other aspects of children’s background can contribute to childhood social disadvantage 
+– for example, family circumstances, and a racial, ethnic or migration background – but they are not 
+considered in this paper. 
+This paper follows much of the international child literature by measuring socio- economic status and 
+disadvantage primarily in terms of parental education, parental occupation, and household income or 
+family/household possessions, with the exact measures used differing depending on the underlying 
+source data. In all cases, disadvantage is measured as a relative concept with children from 
+disadvantaged backgrounds defined in relation to others in their country or region.  
+For indicators based on the OECD Programme for International Student Assessment (PISA) , 
+socio-economic status is measured using the PISA Index of Economic, Social and Cultural Status – a 
+composite measure derived from a series of variables on parental education, parental occupation, and 
+the availability of a range of material possessions in the child’s home (OECD, 2019 [3]). In line with the 
+PISA results reports (OECD, 2019[3]), children with index values in the bottom 25% for their country or 
+economy are classified as “low socio-economic status” or disadvantaged, and those in the top 25% as 
+high-status or advantaged.  
+A similar approach is used for indicators based on the Progress in International Reading Literacy Study 
+(PIRLS) and the Trends in International Mathematics and Science Study (TIMSS). In these cases, 
+socio-economic status is measured using the PIRLS/TIMSS Home Resources for Learning Scale – a 
+similar composite, constructed using information on parental education, parental occupation, and 
+several learning relevant household assets like Internet access and the number of books in the home 
+(Mullis et al., 2020[9]). Disadvantaged children are again defined as those with values among the bottom 
+25% within their country or region, and advantaged children those in the top 25%. 
+Socio-economic status is measured in a slightly narrower way for indicators based on both the Health 
+Behaviour in School-aged Children Survey (HBSC) and the Children’s Worlds International Survey of 
+Children’s Well -being (ISCWeB). HBSC -based indicators capture socio- economic status using the 
+HBSC Family Affluence Scale (FAS) – a composite based on children’s access to a series of common 
+material assets and activities (Inchley et al., 2018[4]). Consistent with the approach taken in the HBSC 
+international reports (Inchley et al., 2018[4]), children with FAS scores in the bottom 20% for their country 
+or region are classified as disadvantaged, and those with scores in the top 20% as advantaged. 
+Indicators based on the Children’s Worlds survey use a similar approach, albeit with a slightly different 
+list of material assets and activities. 
+Lastly, for indicators based on the European Union Statistics on Income and Living Conditions 
+(EU-SILC) survey, disadvantage is captured through disposable household income, only. "Low income" 
+
+[PDF第11页]
+10 | STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? 
+CHILD WELL-BEING POLICY PAPERS 
+      
+children are those with equivalised disposable household incomes  in the bottom 25% of the national 
+equivalised disposable income distribution, and "high income" children are those with incomes in the 
+top 25% of the national distribution. 
+• Do worse in education. They are far less likely to perform well on international student 
+assessments, such as OECD PISA, for instance: on average across OECD countries, only 6% of 
+disadvantaged 15-year-olds reached “top performer” status on the OECD PISA tests, compared to 
+29% among the most advantaged. They are also  far more likely to report limited ambitions for 
+future education.  
+• More often report poorer social and emotional outcomes, including weaker perceived support from 
+family, lower levels of self -belief, and lower levels of life satisfaction. On average across OECD 
+countries, as many as 19% of disadvantaged 15-year-olds report low satisfaction with their life as 
+a whole, compared to 14% among the most advantaged, with gaps as large as 10 percentage 
+points in some countries. 
+2. These well-being inequalities are rooted in the poorer environments that socially and 
+economically disadvantaged children face at home, in school, and in the community 
+Children’s well-being outcomes do not emerge from nowhere. The things they do and the conditions they 
+face at home, online, in school, and in the community, all help shape their outcomes, for better or worse.  
+By definition, several aspects of home are family life are different for children from socio- economically 
+disadvantaged backgrounds. They may be living on lower incomes, have parents wor king in lower skill 
+occupations, or have parents with lower levels of education – or some combination of all three. However, 
+the challenges faced by children from socio- economically disadvantaged backgrounds stretch far beyond 
+income or parental occupation or education alone. The indicators presented in the second section of this 
+paper illustrate how across OECD countries, socio- economic disadvantage is associated with poorer 
+conditions and environments in virtually all areas of children’s lives, all of whi ch play an important role in 
+driving their well-being outcomes: 
+• At home, children from disadvantaged backgrounds are often more likely to miss out on important 
+family activities and experience poorer quality relationships with parents. For example, on average 
+across OECD countries, 36% of disadvantaged 11- , 13- and 15-year-olds report finding it difficult 
+to talk to their parents, compared to 28% among the most advantaged.  
+• At school, children from disadvantaged backgrounds frequently experience poorer quality learning 
+environments, are more likely to experience bullying, and more often report a lack of 
+connectedness to their school. On average across OECD countries, only two-thirds of 15-year-olds 
+from disadvantaged backgrounds report feeling like they belong at school, compared to 
+three-quarters among the most advantaged.  
+• With peers, children from disadvantaged backgrounds less frequently feel like they have enough 
+friends, and less often report feeling well supported by their  friends. On average across OE CD 
+countries, only just over half (58%) of disadvantaged 11- , 13- and 15-year-olds report feeling high 
+support from their friends, falling to as low as 30% in some countries.  
+• In the community, children from disadvantaged backgrounds more often grow up in p oorer quality 
+local areas, placing limits on their opportunities to socialise and participate in community life. For 
+example, on average across European OECD countries, 11% of low income children live in 
+households that report problems with crime and violence in their area, compared to 7% for high 
+income children.  
+
+[PDF第12页]
+STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? | 11 
+CHILD WELL-BEING POLICY PAPERS 
+  
+• And online, children from disadvantaged backgrounds may be less well positioned to make the 
+most of the digital world. Disadvantaged 15- year-olds are often significantly less likely than 
+advantaged 15-year-olds to report using digital devices for schoolwork, or regularly reading news 
+online. In many countries, they are also far less likely to strongly believe that the Internet is a 
+valuable resource for accessing information. By contrast, there is  little difference in children's risk 
+of experiencing cyberbullying or problematic social media use by socio-economic status. 
+3. Tackling social inequalities in child well-being will require co-ordinated policy action 
+The breadth and depth of social inequalities in child well- being mean that policy efforts are needed on 
+multiple fronts. Moreover, as noted throughout this paper, different areas of child well -being and different 
+aspects of children’s lives are frequently inter-connected, meaning that these policy efforts are likely to be 
+fully effective only when designed and delivered in a co- ordinated and coherent way, with government 
+departments, agencies and other actors from within and outside government working co- operatively 
+around shared objectives. The challenge is to put in place pol icy structures  that account for the 
+multi-dimensional and inter-dependent nature of child well-being, and that ensure the many relevant actors 
+share an understanding of key challenges and work together towards common goals. 
+
+[PDF第13页]
+12 | STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? 
+CHILD WELL-BEING POLICY PAPERS 
+      
+Box 2. The OECD Child Well-being Data Portal and OECD Child Well-being Dashboard 
+Good policies need good data, and good child well-being policies need information on the many areas 
+of children’s lives that matter for their well-being and quality of life. To help countries better understand 
+how they are performing on child well -being, the OECD provides two data- focused resources – the 
+OECD Child Well-being Data Portal, and the OECD Child Well- being Dashboard – offering a range of 
+comparative data on children and their well-being. 
+OECD Child Well-being Data Portal 
+The OECD Child Well- being Data Portal ( https://oe.cd/cwb-data) is the OECD’s hub for comparative 
+data on child well -being. Structured using the OECD Child Well- being Measurement Framework 
+(OECD, 2021 [1]) (see below), the Data Portal contains over 200 comparative measures on child 
+well-being outcomes and the drivers of well-being stemming from children’s environments, available 
+where possible for all OECD Members and Partners, OECD Accession countries, and EU Member 
+states. 
+To help countries monitor well- being inequalities across different groups of children, as well as their 
+performance relative to other OECD countries, data are provided both for all children and disaggregated 
+by key demographic and socio- economic characteristics, including gender, migrant status, and 
+household income or socio-economic status. 
+The Data Portal  is built on the latest available data from OECD databases and a range of leading 
+international child surveys and data collection programmes, including the Health Behaviour in 
+School-aged Children Survey (HBSC) and the OECD Programme for International Student Assessment 
+(PISA). 
+OECD Child Well-being Dashboard 
+Complementing the Data Portal, the OECD Child Well-being Dashboard (https://oe.cd/cwb-dashboard) 
+is a tool for policy makers and the public to monitor countries’ efforts to promote child well-being. Built 
+using a selection of headline indicators from the Data Portal, and again organised in line with the OECD 
+Child Well -being Measurement Framework (OECD, 2021 [1]) (see below), the Dashboard contains  
+20 key internationally comparable indicators on children’s well -being outcomes  stretching across 
+four core child well-being outcome areas: material well-being; physical health; cognitive and educational 
+well-being; and social and emotional well-being. It also contains a range of additional context indicators 
+on important drivers of child well-being and on child-relevant public policies. 
+Indicators for the Dashboard have been selected based on their importance both for children’s 
+well-being now and for their development, skills and well-being outcomes in later life. While the 
+Dashboard looks to cover the well-being of children of all ages, limitations in data availability mean that 
+most indicators focus on those in middle childhood and adolescence. The data are drawn mostly from 
+large international child surveys, which makes it possible to report on d isparities between and within 
+countries across different groups of children; most indicators can be updated at regular intervals to 
+monitor trends over time.  
+The OECD Child Well-being Measurement Framework 
+The OECD Child Well-being Measurement Framework was first introduced in the OECD’s 2021 report 
+Measuring What Matters for Child Well- being and Policies  (OECD, 2021[1]). Grounded in an in- depth 
+review of the child well -being literature, the framework sets out a vision for what aspects of children’s 
+lives need to be measured, and how, in order to best monitor child well-being and its determinants. 
+
+[PDF第14页]
+STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? | 13 
+CHILD WELL-BEING POLICY PAPERS 
+  
+The starting point for the framew ork is a concept ion of child well -being that is multi -dimensional and 
+forward-looking, implying that children should be able to both enjoy a “good” positive childhood in the 
+here and now, and have the opportunity to develop skills and abilities that set them up well for the future. 
+Reflecting increasing recognition in child well-being research of the importance of the environments and 
+settings in which children grow up, the framework adopts a multi-level or “ecological” structure, covering 
+both child well -being outcomes and potential drivers and influences ( Figure 1). Children’s well- being 
+outcomes are at the centre of the framework (Level A), surrounded by a series of drivers and influences. 
+Level B covers child-level influences: the things that children do or are engaged  in that can contribute 
+to their well-being outcomes, including their activities, attitudes, behaviours, and relationships. Level  C 
+covers environment-level influences: aspects of children’s settings and environment s that can impact 
+well-being, either directly or indirectly, for example by shaping opportunities and influencing attitudes 
+and behaviours. This includes children’s family and home environments, the environments they face at 
+school or in childcare, and the ir wider physical and community environments. Level  D covers  
+child-relevant public policies, such as public family and housing policies and public health policies.  
+Figure 1. The OECD Child Well-being Measurement Framework 
+ 
+Source: (OECD, 2021 [1]), Measuring What Matters for Child Well -being and Policies , OECD Publishing, Paris, 
+https://doi.org/10.1787/e82fded1-en. 
+ 
+
+
+[PDF第15页]
+14 | STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? 
+CHILD WELL-BEING POLICY PAPERS 
+      
+Material well-being outcomes 
+Children need access to a range of material goods to develop and to grow up healthy. First and foremost, 
+they need access to food and nutrition, appropriate clothing, and shelter and housing. Just as for adults, 
+these are essential for children’s basic survival. But good child material well -being goes far beyond just 
+ensuring that children’s subsistence needs are met. To flourish and thrive, children need access to things 
+that allow them to learn and play, to engage with peers and adults, and to be connected and accepted 
+within the societies in which they live. For children growing up in OECD countries today, depending on 
+their age, this often means access to things like a computer and the Internet, outdoor leisure activities , 
+holidays, as well as books, toys and other resources important for learning and playing. 
+Not all children are provided with the same material living conditions, however, and material hardship 
+remains an all too common reality for children in OECD countries. Despite many parents prioritising their 
+children’s needs over their own, families with lower incomes in particular are often limited in their ability to 
+provide children with access to the goods and services important for their growth, development, and full 
+participation in society (OECD, 2021[1]). Importantly, though, material deprivation is not an inevitable result 
+of low income or disadvantage: as the data in this section show, some OECD countries do well at providing 
+an environment in which most children have access to material essentials regardless of background, even 
+if many countries still have a way to go. 
+The indicators shown below focus on how disadvantaged children fare on three basic aspects of material 
+well-being: children experiencing food deprivation; children experiencing severe housing deprivation; and 
+children without access to the Internet at home. Data on other key aspects of children’s material well-being 
+are available in the OECD Child Well-Being Data Portal (https://oe.cd/cwb-data). 
+Adequate food and nutrition is a basic material necessity for children, and a central aspect of their material 
+well-being. Proper nutrition is critical for child development, especially (but not only) in the early years, and 
+also plays an important role in children’s learning capabilities and behaviours  (Dani, Burrill and Demmig-
+Adams, 2005[10]; Nyaradi et al., 2013[11]; Kim et al., 2016[12]). In 2014, the most recent year with available 
+data, on average across European OECD countries, 14% of children in low income households were 
+experiencing food deprivation – defined as living in a household where at least one child did not have either 
+fruits and vegetables at least once a day, or a meal with meat, chicken or fish (or vegetarian equivalent) at 
+least once a day (Figure 2). Food deprivation rates for children in low income households ranged from less 
+than 2% in Finland, Iceland and Sweden, to over 30% in Greece and the Slovak Republic, and more than 
+50% in Hungary.  
+1 Children’s well-being outcomes 
+
+[PDF第16页]
+STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? | 15 
+CHILD WELL-BEING POLICY PAPERS 
+  
+Figure 2. Children experiencing food deprivation 
+1- to 15-year-olds experiencing food deprivation, by income level, 2014 
+  
+Note: Data refer to 1- to 15-year-olds that live in households where at least one child (age 1 to 15) does not have either fruits and vegetables at 
+least once a day or one meal with meat, chicken or fish (or vegetarian equivalent) at least once a day because the household cannot afford it. 
+"Low income" children are those with equivalised disposable incomes in the bottom quintile of the national equivalised disposable income 
+distribution. "High income" children are those with equivalised disposable incomes in the top quintile of the national distribution. In countries 
+marked with an *, differences between low and high income are significant at p<0.05. 
+Source: OECD Child Well-being Data Portal (https://oe.cd/cwb-data) indicator MAT_FDEP, based on the European Union Statistics on Income 
+and Living Conditions (EU-SILC) survey. 
+Box 3. A note on the COVID-19 crisis and the data used in this report 
+The COVID-19 crisis has had and will continue to have important effects on children’s lives (OECD, 
+2020[13]; Thorn and Vincent -Lancrin, 2021 [14]). The pandemic and the associated policy responses 
+impacted practically all areas of children’s lives, including their schooling, their lives at home, and their 
+ability to spend time with friends and other people outside the family, all of which could have long- term 
+effects on their well -being, including their psychological well- being (OECD, 2020[13]; OECD, 2021 [15]; 
+UNICEF, 2021[16]). While the full impact of the crisis on children is still to be determined, there is little 
+doubt that the current generation of children have grown up in unique circumstances and faced unique 
+challenges quite unlike those experienced by previous generations. 
+Due to limits on the regularity of international child data collections, much of the data used in this paper 
+refer to years prior to the COVID-19 crisis. Findings can be seen as a baseline picture of child well-being 
+at the start of the crisis. There is, however, little reason to believe that any of the inequalities in child 
+well-being highlighted through the paper have closed in the years since the crisis began. Evidence from 
+several OECD countries suggests that disadvantaged children have faced particular challenges during 
+the pandemic, including in their schooling (Thorn and Vincent-Lancrin, 2021[14]). Disadvantaged children 
+are less likely to have had access to digital learning resources, for instance, or to suitable places to 
+study at home (OECD, 2020 [17]). To a large extent, the pandemic is likely only to have exacerbated 
+existing inequalities and further limited the opportunities of disadvantaged children.  
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+% Low income Middle income High income
+
+[PDF第17页]
+16 | STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? 
+CHILD WELL-BEING POLICY PAPERS 
+      
+Good-quality housing is a similar necessity, with important links to children’s physical health, as well as a 
+range of social and emotional outcomes (OECD, 2021 [1]). Children from disadvantaged backgrounds are 
+often at considerable risk of living in households that are overcrowded (see OECD Child Well- being Data 
+Portal (OECD CWBDP), indicator MAT_OVCR), that have problems with light, damp, leaks or rot (OECD 
+CWBDP, indicator MAT_HCON), and/or that lack basic sanitation facilities (OECD CWBDP, indicator 
+MAT_SANI). Overall, on average across European OECD countries, more than 10% of  children in low 
+income households also live in households experiencing severe housing deprivation – defined in line with 
+Eurostat as households that are both overcrowded and deprived on at least one of a series of housing 
+quality measures – rising to well over 25% in some countries (e.g. Hungary and Latvia) (Figure 3). By way 
+of comparison, in many European OECD countries, less than 1% of high income children live in households 
+experiencing severe housing deprivation.  
+Figure 3. Children experiencing severe housing deprivation 
+0- to 17-year-olds living in households experiencing severe housing deprivation, by income level, 2020 or latest 
+available 
+  
+Note: "Severe housing deprivation" is defined and measured in line with the Eurostat definition. Under the Eurostat definition, a household 
+experiencing "severe housing deprivation" is one that is both overcrowded and experiencing one or more of the following: the dwelling has a 
+leaking roof, damp walls, floors or foundation, or rot in window frames or floor; the dwelling has neither a bath nor a shower; the dwelling has no 
+flushing toilet for exclusive use of the household; the dwelling is considered too dark. "Low income" children are those with equivalised disposable 
+incomes in the bottom quintile of the national equivalised disposable income distribution. "High income" children are those w ith equivalised 
+disposable incomes in the top quintile of the national distribution. Data for Ireland and the United Kingdom should be interpreted with caution 
+due to high missing data rates. Data for Poland and Italy refer to 2019, and for Iceland and the United Kingdom to 2018.  In countries marked 
+with an *, differences between low and high income are significant at p<0.05. 
+Source: OECD Child Well-being Data Portal (https://oe.cd/cwb-data) indicator MAT_HDEP, based on the European Union Statistics on Income 
+and Living Conditions (EU-SILC) survey. 
+Children’s material needs go much further than basic necessities like food and shelter. Today’s children 
+also need access to a range of other goods and activities that allow them to learn and develop and to 
+engage and participate in modern society (OECD, 2021 [1]). Internet access (Figure 4) provides one of the 
+clearest examples: children’s social lives are increasingly lived online, through social networks and video 
+games, and the Internet is playing an increasingly important role in children’s education. In many OECD 
+countries, Internet access is now almost universal for children regardless of background. However, there 
+are exceptions: in several OECD countries (e.g. Greece, Israel, Japan, and the United States) around or 
+more than one in ten 15- year-olds from disadvantaged backgrounds report not having Internet access at 
+0
+10
+20
+30
+40
+50
+60
+% Low income Medium income High income
+
+[PDF第18页]
+STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? | 17 
+CHILD WELL-BEING POLICY PAPERS 
+  
+home, rising to more than one in four in Chile and Costa Rica, and one in two in Türkiye. In Colombia and 
+Mexico, more than two- thirds of all disadvantaged 15- year-olds report not having an Internet connection 
+at home. 
+Figure 4. Children without an Internet connection at home 
+15-year-old students who report not having an Internet connection at home, by socio-economic status, 2018 
+ 
+Note: 15-year-old students were asked "Which of the following are in your home? ... A link to the Internet " and presented with the response 
+options "Yes" and "No". Data refer to the percent responding "No". Socio-economic status is measured using the PISA index of economic, social 
+and cultural status (ESCS). "Low socio- economic status" refers to students with scores on the ESCS index that are among the bottom 25% 
+within their country or economy. "High socio- economic status" refers to students with scores on the ESCS index that are among the top 25% 
+within their country or economy. B-S-J-Z (China) refers to the four PISA-participating provinces/municipalities of the People’s Republic of China: 
+Beijing, Shanghai, Jiangsu and Zhejiang. In countries marked with an *, differences between low and high socio-economic status are significant 
+at p<0.05. 
+Source: OECD Child Well -being Data Portal (https://oe.cd/cwb -data) indicator MAT_INTP, based on the OECD Programme for International 
+Student Assessment (PISA) Database. 
+Physical health outcomes 
+For children, as for adults, health is key component of well-being. Being in good health helps children live 
+the lives they want, and is instrumental for their learning and later life outcomes (OECD, 2021 [1]). Good 
+health plays an important role in children’s educational attainment, for instance (Currie, 2009 [18]; Jackson, 
+2015[19]; Burns and Gottschalk, 2020 [20]). Poor health in childhood, in contrast, can have long- lasting 
+detrimental effects on many aspects of children’s lives, including on their health status and a range of 
+social and employment outcomes later in adulthood  (Currie et  al., 2010[21]; Flores and Kalwij, 2014 [22]; 
+Currie, 2016[23]; OECD, 2021[1]). 
+An appraisal of children's physical health (and the risks to it ) requires a broad set of data on different 
+aspects of health status and physical development  at different stages of childhood (OECD, 2021 [1]). This 
+may include information on birth outcomes (such as low birth weight and preterm birth rates), physical and 
+anthropometric development (e.g. weight, height and head circumference), and body mass index (BMI) 
+and the prevalence of overweight and obesity. It also requires information on the prevalence of certain 
+diseases, injuries and self-reported health status. Information on children’s health-related behaviours (e.g. 
+nutrition and eating, habits, sleep patterns, practices of physical activity), as well as on key environmental 
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+% Low socio-economic status Medium socio-economic status High socio-economic status
+
+[PDF第19页]
+18 | STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? 
+CHILD WELL-BEING POLICY PAPERS 
+      
+risk factors (e.g. exposure to dampness, lead or pollution) is also key for assessing how policies can make 
+a difference. 
+Not all these dimensions are well covered by the data available, however. A relatively wide range of 
+comparative data are available on children’s health outcomes at population level, thanks to a range of 
+administrative health data, as well as modern modelled estimates from sources such as the Global Burden 
+of Disease project (IHME, 2022[24]). However, comparative child health data that can be disaggregated by 
+socio-economic status are more scarce (OECD, 2021 [1]). There is a particular lack of comparable 
+information on birth outcomes and early childhood health for children from disadvantaged backgrounds –  
+an important data gap, given both the importance of and known social gradients in early childhood health 
+(OECD, 2021[1]; Blumenshine et al., 2010[25]; Balaj et al., 2021[26]).  
+Here, the focus is on data providing summary information on children’s self -perceived health status (11- , 
+13- and 15-year-olds reporting “f air” or “poor” health) and on two dimensions seen as markers of poor 
+health: adolescents’ overweight and obesity, and the presence of health-driven activity limitations. While 
+not strictly a health outcome, this sub-section also presents information on 11-, 13- and 15-year-olds who 
+report getting the recommended daily exercise  – an indicator of physical activity, and an important 
+component of good child physical health. 
+Self-rated health ( Figure 5) is a self -reported summary measure that represents how children think and 
+feel about their health as a whole.  Levels of self-rated health differ considerably across OECD countries, 
+possibly reflecting differences in question interpretation as well as differences in actual perceived health 
+(Schnohr et al., 2016[27]). However, comparisons within countries may be less affected by semantic issues, 
+and point to large gaps in self-rated health along socio-economic lines. In almost all OECD countries with 
+available data, disadvantaged 11- , 13-  and 15- year-olds are significantly less likely than the most 
+advantaged to rate their own health as “excellent” (OECD CWBDP, indicator HTH_SRHLA), and 
+significantly more likely to rate their own health as only “fair” or “poor” (Figure 5). On average across OECD 
+countries with available data,  more than one in six 11- , 13- and 15-year-old children from disadvantaged 
+backgrounds self-report “fair” or “poor”, compared to one in ten among the most advantaged. In several 
+OECD countries, including England (United Kingdom), Hungary, and Wales (United Kingdom), rates of 
+“fair” or “poor” self -rated health are more than twice as high among disadvantaged children than among 
+the most advantaged.  
+
+[PDF第20页]
+STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? | 19 
+CHILD WELL-BEING POLICY PAPERS 
+  
+Figure 5. Children reporting fair or poor health 
+11-, 13- and 15-year-old school children who rate their own health as "fair" or "poor", by socio-economic status, 
+2017-18 
+ 
+Note: Data refer to the percent of children who, when asked "Would you say your health is …?" and presented with the response options 
+"Excellent", "Good", "Fair" or "Poor", respond with either "Fair" or "Poor". Data for some countries (Canada and the Slovak Republic) should be 
+interpreted with caution due to high missing data rates. Socio-economic status is measured using the HBSC Family Affluence Scale (FAS). "Low 
+socio-economic status" refers to children with scores on the FAS that are among the bottom 20% within their country or region. "High 
+socio-economic status" refers to children with scores on the FAS that are among the top 20% within their country or region. The OECD average 
+excludes Belgium (both Flemish- and French-speaking regions) and the United Kingdom (England, Scotland and Wales).  In countries marked 
+with an *, differences between low and high socio-economic status are significant at p<0.05. 
+Source: OECD Child Well -being Data Portal (https://oe.cd/cwb -data) indicator HTH_SRHLB, based on the Health Behaviour  in School-aged 
+Children (HBSC) World Health Organization Collaborative Cross-National Survey 2017-18.  
+For children in middle childhood and adolescence, overweight and obesity represents an increasingly 
+important public health concern (OECD, 2019 [28]). Excess weight is associated with a range of health 
+conditions both in childhood and adulthood, as well as several social and emotional outcomes, including 
+self-esteem, and children’s outcomes at school (OECD, 2019 [28]). Overweight and obesity rates have 
+increased generally in many OECD countries in recent decades (OECD, 2019 [29]), but are often much 
+higher among children from disadvantaged backgrounds (Inchley et  al., 2018 [4]). Data from the Health 
+Behaviour in School-aged Children survey show that, on average across 26 OECD countries, just under 
+25% of disadvantaged 11-, 13- and 15-year-old school children are considered overweight or obese based 
+on the World Health Organization’s age- and sex-specific child growth curves (De Onis et  al., 2007[30]), 
+compared to 16% from the most advantaged households (Figure 6).  
+0
+5
+10
+15
+20
+25
+30
+35
+% Low socio-economic status Medium socio-economic status High socio-economic status
+
+[PDF第21页]
+20 | STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? 
+CHILD WELL-BEING POLICY PAPERS 
+      
+Figure 6. Children who are overweight or obese 
+11-, 13- and 15-year-old school children who are classified as ‘overweight’ or ‘obese’ according to the World Health 
+Organization child growth curve, by socio-economic status, 2017-18 
+ 
+Note: Data refer to the percent with a Body Mass Index (BMI) that would be classified as ‘overweight’ or ‘obese’ according to the World Health 
+Organization’s (WHO) age- and sex-specific child growth curves. The WHO child growth curves provide single growth references by age and 
+sex, and are not adjusted for factors such as ethnicity. Data for some countries (Belgium (Flemish), Belgium (French), Estonia, Iceland, 
+Luxembourg, the Netherlands, Norway, the Slovak Republic, Sweden and Romania) should be interpreted with caution due to high missing data 
+rates. Socio-economic status is measured using the HBSC Family Affluence Scale (FAS). "Low socio -economic status" refers to children with 
+scores on the FAS that are among the bottom 20% within their country or region. "High socio-economic status" refers to children with scores on 
+the FAS that are among the top 20% within their country or region. The OECD average excludes Belgium (both Flemish- and French-speaking 
+regions). In countries marked with an *, differences between low and high socio-economic status are significant at p<0.05. 
+Source: OECD Child Well -being Data Portal ( https://oe.cd/cwb-data) indicator HTH_OVWT, based on the Health Behaviour in School -aged 
+Children (HBSC) World Health Organization Collaborative Cross-National Survey 2017-18. 
+Gaps in overweight rates can be linked to differences in patterns of food consumption and regular exercise. 
+In 2017- 18, on average across 26 OECD countries, 11-, 13- and 15-year-old school children from 
+disadvantaged backgrounds were roughly one- third less likely than the most advantaged to report 
+engaging in at least 60 minutes of daily moderate-to-vigorous physical activity (Figure 7) – the WHO 
+recommended daily activity for children in middle childhood and adolescence (WHO, 2020 [31]). In several 
+OECD countries (e.g. Estonia, Iceland, Italy and the Netherlands ), the share of disadvantaged children 
+engaging in at least 60 minutes of daily moderate-to-vigorous activity was around or less than half that of 
+the most advantaged.  
+0
+5
+10
+15
+20
+25
+30
+35
+% Low socio-economic status Medium socio-economic status High socio-economic status
+
+[PDF第22页]
+STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? | 21 
+CHILD WELL-BEING POLICY PAPERS 
+  
+Figure 7. Children who get the WHO-recommended daily exercise 
+11-, 13- and 15-year-old school children who report engaging in at least 60 minutes of moderate-to-vigorous 
+physical activity every day over the past seven days, by socio-economic status, 2017-18 
+ 
+Note: Data refer to the percent of children who, when asked "Over the past 7 days, on how many days were you physically active for a total of 
+at least 60 minutes per day?" and presented with response options ranging from "0 days" to "7 days", respond with "7 days". Socio- economic 
+status is measured using the HBSC Family Affluence Scale (FAS). "Low socio- economic status" refers to children with scores on the FAS that 
+are among the bottom 20% within their country or region. "High socio-economic status" refers to children with scores on the FAS that are among 
+the top 20% within their country or region. The OECD average excludes Belgium (both Flemish- and French-speaking regions) and the United 
+Kingdom (England, Scotland and Wales). Data for some countries (Canada and the Slovak Republic) should be interpreted with caution due to 
+high missing data rates. In countries marked with an *, differences between low and high socio-economic status are significant at p<0.05. 
+Source: OECD Child Well -being Data Portal ( https://oe.cd/cwb-data) indicator HBA_DEXE, based on the Health Behaviour in School -aged 
+Children (HBSC) World Health Organization Collaborative Cross-National Survey 2017-18. 
+Poor health can impact on children’s abilities to live the lives they want. Health- driven activity limitations 
+(Figure 8) provides a headline global measure of the extent to which health disorders and conditions affect 
+children’s usual activities . Data from the European Union Statistics on Income and Living Conditions 
+survey, covering all children up to age 15, suggest gaps in child activity limitations across socio-economic 
+groups are often small. There are exceptions, however, including in Germany, Portugal and Spain, where 
+children from low -income households are significantly more likely than children from high- income 
+households to be living with health-driven activity limitations.   
+0
+5
+10
+15
+20
+25
+30
+35
+40
+% Low socio-economic status Medium socio-economic status High socio-economic status
+
+[PDF第23页]
+22 | STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? 
+CHILD WELL-BEING POLICY PAPERS 
+      
+Figure 8. Children with health-driven activity limitations 
+0- to 15-year-olds who live with limitations in their activities because of health problems, by income level, 2017 
+  
+Note: Data refer to the percent of children (0- to 15-year-olds) who are reported by the household respondent as living with limitations in their 
+usual activities due to an ongoing physical or mental health problem, illness or disability. "Low income" children are those with equivalised 
+disposable incomes in the bottom quintile of the national equivalised disposable income distribution. "High income" children are those with 
+equivalised disposable incomes in the top quintile of the national distribution. Data for the United Kingdom should be interpreted with caution 
+due to high missing data rates. In countries marked with an *, differences between low and high income are significant at p<0.05. 
+Source: OECD Child Well-being Data Portal (https://oe.cd/cwb-data) indicator HTH_LMAH, based on the European Union Statistics on Income 
+and Living Conditions (EU-SILC) survey. 
+Cognitive and educational outcomes 
+Compared to other areas of children’s well-being, a relatively broad range of comparative data are available 
+on children’s cognitive development and educational  outcomes, particularly for children who have 
+completed at least a few years of compulsory school (OECD, 2021 [1]). International student assessment 
+programmes like the Progress in International Reading Literacy Study (PIRLS), the Trends in International 
+Mathematics and Science Study (TIMSS), and  OECD PISA  provide high- quality comparable data on 
+children’s cognitive skills, as well as, increasingly, wider aspects of children’s learning and development, 
+including their metacognitive abilities and their educational aspirations.  
+Here, four key indicators are used to capture children’s education and learning outcomes, and how these 
+outcomes vary with socio- economic position. Two indicators – “fourth grade” children (children around 
+age 10) who are high achievers on at least one of the TIMSS mathematics and science assessments, and 
+15-year-olds who are “top performers” in at least one of the three core PISA subjects  – capture their 
+cognitive skill development. Two  other indicators – 15-year-olds who are high relative achievers in 
+metacognition, and 15- year-olds who expect to complete tertiary education – capture wider aspects of 
+children’s education and learning outcomes. 
+Cognitive skills are a cornerstone of children’s learning (OECD, 2019 [2]), and gaps in cognitive skills 
+emerge early. Large-scale comparative data on early cognitive skill development are scarce, but evidence 
+from the OECD’s International Early Learning and Child Well-being Study – which examines the cognitive 
+and social-emotional skills of 5 -year-olds in three OECD countries: Estonia, England (United Kingdom), 
+and the United States – points to significant differences across socio-economic groups in emergent literacy 
+and numeracy skills even before children start school (OECD, 2020[32]).  
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+% Low income Middle income High income
+
+[PDF第24页]
+STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? | 23 
+CHILD WELL-BEING POLICY PAPERS 
+  
+For children around age 10, the Progress in International Reading Literacy Study (PIRLS) and Trends in 
+International Mathematics and Science Study (TIMSS) provide important comparable information on skills 
+in reading and in mathematics and science, respectively. Results from the latest rounds show that across 
+the three assessments, children  from disadvantaged backgrounds are frequently more likely to perform 
+poorly, and substantially less likely to perform very well, than their more advantaged peers. In 2019, on 
+average across OECD countries with available data, just 5% of children from low socio- economic status 
+households performed at advanced levels in one or both of the TIMSS mathematics and science 
+assessments, falling to less than 1% in France and Chile (Figure 9). For children from the most advantaged 
+households, the average share reaching advanced levels was 32%. Similar gaps are also visible at the 
+bottom end of the performance scale – with less advantaged children consistently more likely to perform 
+at low levels on one or both of the TIMSS assessments (OECD CWBDP, indicator CDE_TMLO) – as well 
+as on the PIRLS reading assessment (OECD CWBDP, indicators CDE_PRTA and CDE_PRLA). 
+Figure 9. Children around age 10 who are top performers in maths and/or science 
+"Fourth grade" students who attained the Advanced International Benchmark in at least one of the two TIMSS 
+assessment subjects (mathematics and science), by socio-economic status, 2019 
+ 
+Note: Data refer to the percent of "fourth grade" students who attained the "Advanced International Benchmark" in at least one of the two TIMSS 
+test subjects (mathematics and science). For more detail on the construction of the TIMSS achievement scales and achievement benchmarks, 
+see the TIMSS 2019 Technical Report ( https://timssandpirls.bc.edu/timss2019/methods/index.html). “Fourth grade students" is used as 
+shorthand for the TIMSS fourth grade target populations, and refers generally to students in their fourth year of formal schooling. Data for 
+Norway, Türkiye, and South Africa refer to children in their fifth year of formal schooling. Socio-economic status is measured using the 
+TIMSS/PIRLS Home Resources for Learning (HRL) scale. "Low socio-economic status" refers to students with scores on the HRL scale that are 
+among the bottom 25% within their country or region. "High socio- economic status" refers to students with scores on the HRL scale that are 
+among the top 25%  within their country or region. Data for Canada cover students from the provinces of Alberta, Manitoba, Newfoundland, 
+Ontario, and Quebec, only. Data for some countries (Canada, Czech  Republic, Denmark, Germany, Lithuania,  Norway, Sweden, the UK (N. 
+Ireland), and South Africa) should be interpreted with caution due to high missing data rates. In countries marked with an *, differences between 
+low or medium and high socio-economic status are significant at p<0.05. 
+Source: OECD Child Well-being Data Portal (https://oe.cd/cwb-data) indicator CDE_TMTO, based on the Trends in International Mathematics 
+and Science Study 2019 (TIMSS 2019). 
+Data from the OECD PISA assessments, which target children age 15, paint a similar picture. In 2018, on 
+average across OECD countries, slightly under 6% of disadvantaged 15- year-olds were “top performers” 
+in at least one of the three core PISA subjects (reading, mathematics, and science) – one fifth the rate for 
+the most advantaged 15- year-olds (29%) (Figure 10). Even in the OECD countries where disadvantaged 
+students do best (Korea, Canada and Estonia), top performer rates for disadvantaged 15- year-olds reach 
+0
+10
+20
+30
+40
+50
+60
+70
+80
+% Low socio-economic status Medium socio-economic status High socio-economic status
+
+[PDF第25页]
+24 | STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? 
+CHILD WELL-BEING POLICY PAPERS 
+      
+only around 12-14%, or three times lower than for their most advantaged peers. At the bottom end of the 
+performance scale, on average, disadvantaged 15- year-olds were approximately three times more likely 
+than the most advantaged to be “low achievers” on at least one of the three core subjects (OECD CWBDP, 
+indicator CDE_PILO). 
+Figure 10. Children age 15 who are top performers in reading, maths and/or science 
+15-year-old students who are "top performers" in at least one of the three core PISA subjects (reading, mathematics 
+and science), by socio-economic status, 2018 
+ 
+Note: Data refer to the percent of 15- year-old students who attained Level 5 or 6 in at least one of the three core  PISA subjects (reading, 
+mathematics and science). For more detail on the construction of the PISA proficiency scales and proficiency levels, see the PISA  2018 
+Technical Report ( https://www.oecd.org/pisa/data/pisa2018technicalreport/). Socio -economic status is measured using the PISA index of 
+economic, social and cultural status (ESCS). "Low socio-economic status" refers to students with scores on the ESCS index that are among the 
+bottom 25% within their country or economy. "High socio- economic status" refers to students with scores on the ESCS index that are among 
+the top 25% within their country or economy. B -S-J-Z (China) refers to the four PISA -participating provinces/municipalities of the People’s 
+Republic of China: Beijing, Shanghai, Jiangsu and Zhejiang. In countries marked with an *, differences between low and high socio- economic 
+status are significant at p<0.05. 
+Source: OECD Child Well -being Data Portal (https://oe.cd/cwb -data) indicator CDE_PITO , based on the OECD Programme for International 
+Student Assessment (PISA) Database. 
+Being good at reading, maths and science is not everything when it comes to children’s learning. While 
+traditional core competencies like literacy and numeracy remain important, there is increasing international 
+recognition that today’s children also need a broader range of skills and abilities in order to thrive (OECD, 
+2021[1]; 2019[2]). One example is metacognitive ski lls, including learning -to-learn skills and the ability to 
+recognise one’s knowledge, skills, attitudes and values. 1 Metacognitive skills help children succeed at 
+school (OECD, 2021[33]), but are also central to capacities for lifelong learning and the ability to accumulate 
+new skills and knowledge throughout life – something that is likely to be vital for today’s children, given the 
+changing world of work and growth in the knowledge economy (OECD, 2019 [2]; 2021 [34]). Here too, 
+however, disadvantaged children frequently fall behind their more advantaged peers. Recent rounds of 
+                                                
+1 Other examples of important competencies outside the traditional core areas of literacy and numeracy include: 
+transversal cognitive competences such as problem solving, critical thinking and creative thinking; social and emotional 
+skills, such as collaboration, open-mindedness, and task performance; a range of digital competences, such as data 
+literacy, media literacy, and digital content creation; and transformative competencies, that is,  competences that are 
+important for contributing to society, such as taking responsibility, reconciling tensions, and creating new value (OECD, 
+2019[2]; 2021[1]). 
+0
+10
+20
+30
+40
+50
+60
+70
+80
+% Low socio-economic status Medium socio-economic status High socio-economic status
+
+[PDF第26页]
+STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? | 25 
+CHILD WELL-BEING POLICY PAPERS 
+  
+OECD PISA have included assessments of metacognitive competences relating to reading, including 
+children’s strategies for understanding and remembering, for assessing credibility, and for summarising 
+information. Children from low socio- economic status households consistently perform worse on all three 
+(OECD CWBDP, indicators CDE_UNREA, CDE_SUMMA and CDE_ASCRA).  
+Differences in educational performance across socio-economic groups are reflected in children’s ambitions 
+for their future education. In 2018, on average across OECD countries, just over 50% of 15-year-olds from 
+low socio-economic status households expected to complete higher education, compared to more than 
+85% from high socio- economic status households ( Figure 11). Lower educational performance among 
+disadvantaged children can only partly explain this gap: evidence from OECD PISA suggests that even 
+among high achievers, disadvantaged children are much less likely than advantaged children to expect to 
+complete higher education (OECD, 2019[3]). Low self-belief as well as the financial and opportunity costs 
+of higher education are factors potentially deterring even the most able disadvantaged children from 
+pursuing higher education (OECD, 2019[3]). 
+Figure 11. Children who expect to complete higher education 
+15-year-old students who report expecting to complete tertiary education, by socio-economic status, 2018 
+ 
+Note: 15-year-old students were asked "Which of the following do you expect to complete?" and presented with the response options "<ISCED 
+level 2>", ""<ISCED level 3B or C>", "<ISCED level 3A>", "<ISCED level 4>", "<ISCED level 5B>" and "<ISCED level 5A or 6>". D ata refer to 
+the percent responding either "<ISCED level 5B>" or "<ISCED level 5A or 6>". Socio- economic status is measured using the PISA index of 
+economic, social and cultural status (ESCS). "Low socio-economic status" refers to students with scores on the ESCS index that are among the 
+bottom 25% within their country or economy. "High socio- economic status" refers to students with scores on the ESCS index that are among 
+the top 25% within their country or economy. B-S-J- Z (China) refers to the four PISA -participating provinces/municipalities of the People’s 
+Republic of China: Beijing, Shanghai, Jiangsu and Zhejiang. Data for Mexico and Peru should be interpreted with caution due to high missing 
+data rates. In countries marked with an *, differences between low and high socio-economic status are significant at p<0.05. 
+Source: OECD Child Well -being Data Portal ( https://oe.cd/cwb-data) indicator LRN_EXTE, based on the OECD Programme for International 
+Student Assessment (PISA) Database. 
+Social and emotional outcomes 
+Social and emotional well-being stands at the heart of what many people would consider “good” well-being 
+generally. Centred on internal processes like children’s emotions, behaviours, and thoughts and feelings 
+towards themselves and others, social and emotional well -being covers aspects like children’s emotional 
+security, their emotional states, their mental health and their life satisfaction, as well as their “social and 
+emotional skills” – skills revolving around how children perceive themselves, manage their emotions and 
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+% Low socio-economic status Medium socio-economic status High socio-economic status
+
+[PDF第27页]
+26 | STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? 
+CHILD WELL-BEING POLICY PAPERS 
+      
+engage with others that are complementary to and interconnected with cognitive skills  (OECD, 2021[35]). 
+These skills are increasingly recognised as central to children’s development, and play an important role 
+in shaping a range of well -being outcomes, including education outcomes, labour market outcomes, and 
+health outcomes, among others (OECD, 2021[1]; OECD, 2021[35]; Kautz et al., 2014[36]). 
+Internationally comparable data on children’s social and emotional well-being is improving, but still limited 
+(OECD, 2021 [1]). Several international child surveys – including the Health Behaviour in School -aged 
+Children survey and OECD PISA – contain information on certain aspects of social and emotional 
+well-being, but coverage in many areas remains patchy. Data for children in early childhood is again 
+lacking. This sub-section concentrates on five main indicators of children’s social and emotional well-being: 
+11-, 13- and 15-year-olds who report high overall support from their family; 15-year-old students who report 
+self-efficacy; 15- year-old students presenting a growth mindset; 11- , 13-  and 15 -year-olds who report 
+multiple subjective health complaints; and 15-year-olds who report low life satisfaction.  
+Children’s sense of safety and of feeling supported and cared for, especially by family, is a fundamental 
+component of social and emotional well -being. These are basic emotional needs that underpin children’s 
+functioning and interactions with the world. For young children, comparable international data on these 
+issues are scarce –  an important evidence gap, given the importance of emotional security in early 
+childhood (OECD, 2021[1]).  
+For older children, data from the Health Behaviour in School -aged Children survey show that 
+disadvantaged children frequently report lower perceived  support from family than children from more 
+advantaged households. In 2017- 18, on average across OECD countries with available data, 67% of 
+disadvantaged 11-, 13- and 15-year-olds reported feeling high overall support from their family, falling to 
+as low as around 55% in England (United Kingdom) and Scotland (United Kingdom),  and 46% in Canada 
+(Figure 12). For their peers in the most advantaged households, the average was 77%.  
+Exactly why perceived family support tends to differ with socio-economic status is not yet fully understood 
+(Duncan et al., 2022[37]). One possible reason is that greater time pressures, combined with weaker options 
+for balancing work and family and higher family stress, mean that parents in disadvantaged families are 
+often more limited in the amount of quality time they can spend with children, even if they enjoy their time 
+with children just as much as more advantaged parents (Guryan, Hurst and Kearney, 2008 [38]; Kalil and 
+Ryan, 2020[39]). Compared to those in more advantaged families, disadvantaged parents may also have 
+less expertise on child -supporting and emotionally nurturing activities , and less capacity to pay for 
+children’s preferred activities, contributing to lower perceived support. And parenting styles may play a role 
+too. There is some evidence to suggest that  parents in disadvantaged families  are more likely to adopt 
+"authoritarian" approaches to parenting, in which they less often engaged in dialogue with children and 
+where punishment tends to be harsh. This is in contrast to “authoritative” parenting, where parents combine 
+high demands on children with high levels of warmth and responsiveness (Doepke and Zilibotti, 2019[40]). 
+
+[PDF第28页]
+STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? | 27 
+CHILD WELL-BEING POLICY PAPERS 
+  
+Figure 12. Children reporting strong perceived support from family 
+11-, 13- and 15-year-old school children who report feeling high overall support from their family, by socio-economic 
+status, 2017-18 
+ 
+Note: Data refer to the percent of children who score 5.5 or more on the HBSC Multidimensional Scale of Perceived Social Support (F amily), 
+categorised as high perceived family support. In countries marked with an *, differences between low and high socio- economic status are 
+significant at p<0.05. Socio-economic status is measured using the HBSC Family Affluence Scale (FAS). "Low socio-economic status" refers to 
+children with scores on the FAS that are among the bottom 20% within their country or region. "High socio- economic status" refers to children 
+with scores on the FAS that are among the top 20% within their country or region. The OECD average excludes Belgium (both Flemish- and 
+French-speaking regions) and the United Kingdom (England, Scotland and Wales). Data for some countries (Canada, Israel, the 
+Slovak Republic, and UK (Wales)) should be interpreted with caution due to high missing data rates. In countries marked with an *, differences 
+between low and high socio-economic status are significant at p<0.05. 
+Source: OECD Child Well -being Data Portal (https://oe.cd/cwb -data) indicator SEC_FSUPA, based on the Health Behaviour in School -aged 
+Children (HBSC) World Health Organization Collaborative Cross-National Survey 2017-18. 
+Self-efficacy is one important skill for socialising and learning. Children who lack confidence in their abilities 
+are less likely to set ambitions goals for themselves, and less likely to persevere when facing challenges 
+(OECD, 2019 [5]). Data from the latest round of OECD PISA point towards lower levels of expressed 
+self-efficacy among disadvantaged 15- year-olds in most OECD countries (OECD, 2019 [5]). For example, 
+in all but five OECD countries with available data, disadvantaged 15-year-olds were significantly less likely 
+than the most advantaged to have confidence in their ability to find their way out of difficult situations 
+(Figure 13). Conversely, in a handful of OECD countries, children from more advantaged backgrounds 
+were more likely to express fears around failing (OECD CWBDP, indicators SEC_FOFWA and 
+SEC_FOFAA) – the other side of the self -efficacy coin (OECD, 2019 [5]), possibly reflecting greater 
+pressures to succeed placed on them.  
+30
+40
+50
+60
+70
+80
+90
+100
+% Low socio-economic status Medium socio-economic status High socio-economic status
+
+[PDF第29页]
+28 | STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? 
+CHILD WELL-BEING POLICY PAPERS 
+      
+Figure 13. Children expressing self-efficacy 
+15-year-old students who agree (or strongly agree) with the statement "When I’m in a difficult situation, I can usually 
+find my way out of it", by socio-economic status, 2018 
+  
+Note: 15-year-old students were asked "How much do you agree with the following statements? When I’m in a difficult situation, I can usuall y 
+find my way out of it" and presented with the response options "Strongly disagree", "Disagree", "Agree" and "Strongly agree". Data refer to the 
+percent responding "Agree" or "Strongly agree". Socio-economic status is measured using the PISA index of economic, social and cultural status 
+(ESCS). "Low socio-economic status" refers to students with scores on the ESCS index that are among the bottom 25% within their country or 
+economy. "High socio-economic status" refers to students with scores on the ESCS index that are among the top 25% within their country or 
+economy. B-S-J-Z (China) refers to the four PISA -participating provinces/municipalities of the People’s Republic of China: Beijing, Shanghai, 
+Jiangsu and Zhejiang. Data for Belgium refer to the Flemish Community of Belgium only. Data for some countries (Germany, Mexico, the 
+Netherlands and Brazil) should be interpreted with caution due to high missing data rates. In countries marked with an *, differences between 
+low and high socio-economic status are significant at p<0.05. 
+Source: OECD Child Well-being Data Portal (https://oe.cd/cwb-data) indicator SEC_RESFA, based on the OECD Programme for International 
+Student Assessment (PISA) Database. 
+Holding a “growth mindset” – the belief that ability and intelligence are not fixed and can be developed 
+through effort, application and support  – is another important social and emotional skill . Growth mindsets 
+promote challenge-seeking, foster resilience, and may help mitigate the psychological impact of negative 
+life events (Dweck and Yeager, 2019[41]; OECD, 2021[42]). Children with growth mindsets have been shown 
+to set themselves more ambitious learning goals, express greater self-belief, and perform better at school 
+(OECD, 2021[42]). Data from OECD PISA point to large socio- economic gaps in the frequency of growth 
+mindsets in most OECD countries: in 2018, across almost all OECD countries with available data, 
+disadvantaged 15-year-olds were significantly less likely than the most advantaged to disagree that their 
+intelligence cannot change very much over time – a response signifying a growth mindset (Figure 14).  
+50
+55
+60
+65
+70
+75
+80
+85
+90
+95
+100
+% Low socio-economic status Medium socio-economic status High socio-economic status
+
+[PDF第30页]
+STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? | 29 
+CHILD WELL-BEING POLICY PAPERS 
+  
+Figure 14. Children expressing a growth mindset 
+15-year-old students who "disagree" (or "strongly disagree") with the statement “Your intelligence is something 
+about you that you can’t change very much”, by socio-economic status, 2018 
+ 
+Note: 15-year-old students were asked "How much do you agree with the following statement? ... Your intelligence is something about you that 
+you can’t change very much" and presented with the response options "Strongly disagree", "Disagree", "Agree" and "Strongly agree". Data refer 
+to the percent responding "Disagree" or "Strongly disagree". Socio-economic status is measured using the PISA index of economic, social and 
+cultural status (ESCS). "Low socio-economic status" refers to students with scores on the ESCS index that are among the bottom 25% within 
+their country or economy. "High socio- economic status" refers to students with scores on the ESCS index that are among the top 25% within 
+their country or economy. B-S-J-Z (China) refers to the four PISA-participating provinces/municipalities of the People’s Republic of China: Beijing, 
+Shanghai, Jiangsu and Zhejiang. Data for Belgium refer to the Flemish Community of Belgium only.  Data for some countries (Mexico,  the 
+Netherlands, Brazil and Peru) should be interpreted with caution due to high missing data rates. In countries marked with an *, differences 
+between low and high socio-economic status are significant at p<0.05. 
+Source: OECD Child Well -being Data Portal (https://oe.cd/cwb-data) indicator SEC_GRMI, based on the OECD Programme for International 
+Student Assessment (PISA) Database. 
+In more acute cases, poor social and emotional well -being can manifest in psychological disorders and 
+mental illness. Comparable cross -national data on diagnosed mental health conditions disaggregated by 
+socio-economic status are not available. At the non-clinical level, however, data from the Health Behaviour 
+in School -aged Children survey sho w that in many OECD countries, children from disadvantaged 
+backgrounds are often at least  slightly more likely than the most advantaged to report multiple subjective 
+health complaints – psychosomatic health complaints that can impair  functioning. In several countries, 
+including Ireland, Germany, Luxembourg, and England, Scotland and Wales (United Kingdom), multiple 
+subjective health complaints are at least one- third more common among children from disadvantaged 
+backgrounds than among their most advantaged peers (Figure 15). 
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+% Low socio-economic status Medium socio-economic status High socio-economic status
+
+[PDF第31页]
+30 | STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? 
+CHILD WELL-BEING POLICY PAPERS 
+      
+Figure 15. Children reporting multiple subjective health complaints 
+11-, 13- and 15-year-old school children who report multiple subjective health complaints, by socio-economic status, 
+2017-18 
+ 
+Note: Data refer to the percent of children who, when asked how often they had experienced a series of symptoms (headache; stomach ache; 
+backache; feeling low; feeling irritable or bad tempered; feeling nervous; difficulties in getting to sleep; and feeling dizzy) in the last six months, 
+and presented with response options for each symptom ranging from "About every day" to "Rarely or never", respond with at least "More than 
+once a week" on two or more symptoms. In countries marked with an *, differences between low and high socio-economic status are significant 
+at p<0.05. Socio-economic status is measured using the HBSC Family Affluence Scale (FAS). "Low socio- economic status" refers to children 
+with scores on the FAS that are among the bottom 20% within their country or region. "High socio-economic status" refers to children with scores 
+on the FAS that are among the top 20% within their country or region. The OECD average excludes Belgium (both Flemish- and French-speaking 
+regions) and the United Kingdom (England, Scotland and Wales). Data for some countries (Canada and the Slovak  Republic) should be 
+interpreted with caution due to high missing data rates. In countries marked with an *, differences between low and high socio-economic status 
+are significant at p<0.05. 
+Source: OECD Child Well -being Data Portal ( https://oe.cd/cwb-data) indicator SEC_MSHC , based on the Health Behaviour in School -aged 
+Children (HBSC) World Health Organization Collaborative Cross-National Survey 2017-18. 
+Life satisfaction is frequently used as a headline indicator of social and emotional well -being. Indeed, for 
+some experts, life satisfaction comes closer than any other measure to providing a global summary 
+measure of well -being as a whol e (Layard, 2016[43]; Frijters et  al., 2020[44]). Data from OECD PISA – as 
+well as from other sources, like HBSC, using slightly different questions – show that across most OECD 
+countries, children from disadvantaged backgrounds report substantially lower life satisfaction than more 
+advantaged children (OECD, 2019[5]; Inchley et al., 2018[4]). In 2018, on average across OECD countries, 
+19% of disadvantaged 15- year-olds reported low satisfaction with their life as a whole, compared to 14% 
+of the most advantaged ( Figure 16). In some countries (Sweden, the United Kingdom and the United 
+States), the gap in the share reporting low satisfaction was as large as 10 percentage points. In several 
+OECD countries, disadvantaged children were also significantly less likely than their advantaged peers to 
+report high levels of life satisfaction (OECD CWBDP, indicator SEC_PLFSA).  
+0
+10
+20
+30
+40
+50
+60
+70
+% Low socio-economic status Medium socio-economic status High socio-economic status
+
+[PDF第32页]
+STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? | 31 
+CHILD WELL-BEING POLICY PAPERS 
+  
+Figure 16. Children who are unsatisfied with their lives 
+15-year-old students who report low satisfaction with their life as a whole, by socio-economic status, 2018 
+  
+Note: Data are based on responses by students to the question “Overall, how satisfied are you with your life as a whole these days?”. Students 
+were asked to record their response on a scale from 0 to 10, with 0 meaning ‘not at all satisfied’ and 10 meaning ‘completely satisfied’. Students 
+recording a 4 or below were classified as reporting ‘low satisfaction’. Socio- economic status is measured using the PISA index of economic, 
+social and cultural status (ESCS). "Low socio- economic status" refers to students with scores on the ESCS index that are among the bottom 
+25% within their country or economy. "High socio- economic status" refers to students with scores on the ESCS index that are among the top 
+25% within their country or economy. B-S-J-Z (China) refers to the four PISA -participating provinces/municipalities of the People’s Republic of 
+China: Beijing, Shanghai, Jiangsu and Zhejiang. Data for some countries (Brazil, Mexico, the Netherlands and Peru) should be interpreted with 
+caution due to high missing data rates. In countries marked with an *, differences between low and high socio- economic status are significant 
+at p<0.05.  
+Source: OECD Child Well-being Data Portal (https://oe.cd/cwb-data) indicator SEC_PLFSB, based on the OECD Programm e for International 
+Student Assessment (PISA) Database. 
+0
+5
+10
+15
+20
+25
+30
+35
+40
+% Low socio-economic status Medium socio-economic status High socio-economic status
+
+[PDF第33页]
+32 | STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? 
+CHILD WELL-BEING POLICY PAPERS 
+      
+Children’s well-being outcomes do not emerge in a vacuum. The things they do and the conditions they 
+face at home, online, in school, and in the community all  help shape their outcomes, for better or worse 
+(OECD, 2021[1]). Supportive environments – for example, a loving and supportive family or a high- quality 
+school – can act as a resource for  well-being, providing children with the materials, support and 
+opportunities they need to thrive. Less supportive environments, on the other hand, can hamper children’s 
+well-being, disrupting development and potentially jeopardising their chances of learning and growing to 
+the best of their abilities.  
+This section uses a series of key comparative indicators to examine the different spheres of children’s lives 
+important for their well-being outcomes – their home and family lives, their lives at school, their social lives 
+and life in the community, and their lives online – and how they differ with socio- economic background. It 
+looks at both children’s own behaviours, activities and attitudes, and broader aspects of the environments 
+and settings in which they live – for example, the quality and climate at their schools, and the characteristics 
+of the communities in which they grow up.  
+Home and family life 
+Home and family life is  central to children’s  well-being. Families provide children with their “base camp”; 
+the foundation from which they explore the world. Families can offer children love, care, attention and 
+support – essentials that allow them to feel secure, protected, and confident – and play a crucial role in 
+their learning and skill development, especially in the early years. Families are also central in the delivery 
+of material goods and in protecting children from hardship. 
+By definition, several aspects of home are family life are different for children from socio- economically 
+disadvantaged backgrounds. They may be living on lower incomes, have parents working in lower skill 
+occupations, or have parents with lower levels of education – or some combination of all three. However, 
+the challenges faced by children from socio- economically disadvantaged backgrounds stretch far beyond 
+income or parental occupation or education alone, including into the things they do at home and the ways 
+they spend their time, as well as their relationships with family and parents – crucial resources that have 
+links with child well-being outcomes in several areas (OECD, 2021[1]; Duncan et al., 2022[37]) 
+This sub-section focuses on three comparative indicators of children’s home and family life. One indicator 
+– “fourth grade” children (around age 10) who “often” engaged in early literacy and numeracy activities 
+before starting primary school – captures an important activity at home with family. The remaining two – 
+11-, 13- and 15-year-olds who report finding it difficult to talk to their parents, and 15-year-olds who strongly 
+agree that their parents encourage them to be confident – reflect aspects of the quality of child- parent 
+relationships. 
+2 Drivers of children’s well-being 
+outcomes 
+
+[PDF第34页]
+STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? | 33 
+CHILD WELL-BEING POLICY PAPERS 
+  
+Early home learning activities like shared reading, counting objects and drawing shapes can contribute to 
+children’s learning and skill development (OECD, 2020[32]; OECD, 2021[1]; OECD, 2021[1]; Duncan et al., 
+2022[37]). Children who are more frequently read to by parents show higher levels of emergent literacy, for 
+example (OECD, 2020[32]). Comparative data on how often current young children engage in early learning 
+activities at home are not available, but the Trends in International Mathematics and Science Study 
+contains retrospective parent -reported information on the frequency with which children who are now in 
+“fourth grade” (around age 10) engaged in home learning activities before starting primary school 
+(Figure 17). The data show that, across all OECD countries with available data, “fourth grade” children 
+from disadvantaged households are significantly less likely than the most advantaged to have regularly 
+engaged in early learning activities with parents or other family members when they were young. In some 
+countries (Canada, Chile, France, Ireland and Türkiye), the gap in the share who regularly engaged in 
+home learning activities is as large as 30 percentage points or more.  
+Figure 17. Children around age 10 who engaged in regular home learning activities when young 
+"Fourth grade" students whose parents report they (or someone else in the household) "often" engaged in early 
+literacy and numeracy activities with the child before they started primary/elementary school, by socio-economic 
+status, 2019 
+ 
+Note: Data refer to the percent of "fourth grade" students classified as having "often" engaged in early learning activities at home before entering 
+primary/elementary school, based on the TIMMS Early Literacy and Numeracy Activities scale. The TIMMS Early Literacy and Numeracy 
+Activities scale is a derived multi-item scale, constructed using IRT (Item Response Theory) scaling and based on students' parents' responses 
+when asked how often they or someone else in the household engaged in a series of eighteen early learning activities with the child before they 
+began primary/elementary school. “Fourth grade students" is used as shorthand for the TIMSS fourth grade target populations, and refers 
+generally to students in their fourth year of formal schooling. Data for Norway, Türkiye , and South Africa refer to children in their fifth year of 
+formal schooling. Socio-economic status is measured using the TIMSS/PIRLS Home Resources for Learning (HRL) scale. "Low socio-economic 
+status" refers to students with scores on the HRL scale that are among the bottom 25% within their country or region. "High s ocio-economic 
+status" refers to students with scores on the HRL scale that are among the top 25% within their country or region. Data for Canada cover 
+students from the provinces of Alberta, Manitoba, Newfoundland, Ontario, and Quebec, only. Data for some countries (Canada, Czech Republic, 
+Denmark, Germany, Lithuania, Norway, Sweden, the UK (N. Ireland), and South Africa) should be interpreted with caution due to high missing 
+data rates. In countries marked with an *, differences between low or medium and high socio-economic status are significant at p<0.05. 
+Source: OECD Child Well-being Data Portal (https://oe.cd/cwb-data) indicator FAM_ELAPA, based on the Trends in International Mathematics 
+and Science Study 2019 (TIMSS 2019). 
+Ease of communication is an important indicator of child-parent relationship quality. Good communication 
+at home reflects healthy family functioning and the extent to which parents are able to act as protective 
+assets when children are facing difficulties (Brooks et al., 2015[45]; Molcho, 2019[46]). The Health Behaviour 
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+% Low socio-economic status Medium socio-economic status High socio-economic status
+
+[PDF第35页]
+34 | STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? 
+CHILD WELL-BEING POLICY PAPERS 
+      
+in School-aged Children survey asks children aged 11, 13 and 15 about the ease with which they feel they 
+can talk to their parents about things that really bother them. Results from 2017- 18 show that in many  
+OECD countries, disadvantaged 11- , 13- and 15- year-olds were significantly more likely than the most 
+advantaged to report finding it difficult to talk to their parents (Figure 18), with gaps visible even in countries 
+where reported parent-child communication difficulties were relatively rare, like the Netherlands, Iceland, 
+Israel, and Sweden.  
+Figure 18. Children who find it difficult to talk to their parents 
+11-, 13- and 15-year-old school children who report finding it difficult (or very difficult) to talk to one or both of their 
+parents, by socio-economic status, 2017-18 
+ 
+Note: Children (11-, 13- and 15-year-olds) were asked the questions "How easy is it for you to talk to the following persons about things that 
+really bother you?" "... Father" and "... Mother", and presented with the response options "Very easy", "Easy", "Difficult" and "Very Difficult". 
+Children could also respond "Don't have or see this person". Data refer to the percent responding "Difficult" or "Very difficult" for either their 
+mother or father. Children who report that they "Don't have or see" both a/their mother and a/their father are excluded. Data for some countries 
+(Canada and the Slovak Republic) should be interpreted with caution due to high missing data rates. Socio-economic status is measured using 
+the HBSC Family Affluence Scale (FAS). "Low socio-economic status" refers to children with scores on the FAS that are among the bottom 20% 
+within their country or region. "High socio- economic status" refers to children with scores on the FAS that are among the top 20% within their 
+country or region. The OECD average excludes Belgium (both Flemish- and French-speaking regions) and the United Kingdom (England, 
+Scotland and Wales). In countries marked with an *, differences between low and high socio-economic status are significant at p<0.05. 
+Source: OECD Child Well -being Data Portal ( https://oe.cd/cwb-data) indicator FAM_TLKPB , based on the Health Behaviour in School -aged 
+Children (HBSC) World Health Organization Collaborative Cross-National Survey 2017-18. 
+Emotional support from parents is similarly important for children. A lack of parental emotional support has 
+been linked to a range of adverse child and adult outcomes, including lower self-efficacy, weaker learning 
+goals, and more socio- emotional problems (OECD, 2021[34]; Chentsova Dutton, Choi and Choi, 2020 [47]; 
+Ulferts, 2020[48]). In its last two  rounds, OECD PISA has asked 15- year-olds a series of questions about 
+the emotional support they receive from parents, particularly with respect to their schooling and education. 
+The data show that across OECD countries, the most disadvantaged 15-year-olds are less likely than most 
+advantaged to report receiving emotional support from parents, with differences often especially large in 
+the share that strongly agree that their parents provide them with emotional support – that is, in those that 
+most clearly or firmly report emotional support (OECD CWBDP, indicators FAM_PSEEA, FAM_PSFDA 
+and FAM_PECFA). Figure 19 shows one example – 15-year-olds who strongly agree that their strongly 
+agree that their parents encourage them to be confident. Differences between disadvantaged and the most 
+advantaged 15-year-olds are significant in all OECD countries with available data, with the average share 
+0
+10
+20
+30
+40
+50
+60
+% Low socio-economic status Medium socio-economic status High socio-economic status
+
+[PDF第36页]
+STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? | 35 
+CHILD WELL-BEING POLICY PAPERS 
+  
+of disadvantaged 15-year-olds who strongly agree that their parents encourage them to be confident (40%) 
+15 percentage points higher than the average share for the most advantaged 15- year-olds (55%). 
+Figure 19. Children firmly reporting that their parents encourage them to be confident 
+15-year-old students who strongly agree with the statement "My parents encourage me to be confident", by 
+socio-economic status, 2018 
+  
+Note: 15-year-old students were asked "Thinking about <this academic year>: to what extent do you agree or disagree with the following 
+statements? My parents encourage me to be confident" and presented with the response options "Strongly disagree", "Disagree",  "Agree" and 
+"Strongly agree". Data refer to the percent responding "Strongly agree". Percent among valid responses only. Socio- economic status is 
+measured using the PISA index of economic, social and cultural status (ESCS). "Low socio-economic status" refers to students with scores on 
+the ESCS index that are among the bottom 25% within their country or economy. "High socio- economic status" refers to students with scores 
+on the ESCS index that are among the top 25% within their country or economy. B-S-J- Z (China) refers to the four PISA -participating 
+provinces/municipalities of the People’s Republic of China: Beijing, Shanghai, Jiangsu and Zhejiang. Data for some countries (A ustria, Chile, 
+Colombia, Germany, Iceland, the Netherlands, the Slovak  Republic, Spain, Switzerland, Brazil, Argentina and Bulgaria) should be interpreted 
+with caution due to high missing data rates. In countries marked with an *, differences between low and high socio-economic status are significant 
+at p<0.05. 
+Source: OECD Child Well-being Data Portal (https://oe.cd/cwb-data) indicator FAM_PECFA, based on the OECD Programme for International 
+Student Assessment (PISA) Database. 
+Life at school and in early childhood education and care 
+Schools (and for younger children, early childhood education and care (ECEC) services) play a key role in 
+children’s lives. It is at school (or in ECEC) that children do much of their learning, of course. But school 
+life also matters for many other aspects of children’s well-being. Classmates play a major role in children’s 
+social lives, for instance, while the wider climate that children face at school (for example, in teacher’s 
+classroom practices and behaviours, or in the relationships between children, teachers, parents and the 
+local community) can affect not just children’s education outcomes, but also a range of wider well -being 
+outcomes (OECD, 2021[1]; 2019[5]). 
+Thanks to the big international student assessment programmes (PIRLS, TIMSS and OECD PISA), a 
+relatively wide range of comparative data are available on children’s lives in primary and secondary 
+schools. Wide scale comparable data on young children’s experiences in ECEC are scarcer. Four main 
+indicators are used here to capture socio-economic differences in children’s life in school and ECEC: 0- to 
+2-year-olds participating in early childhood education and care; 15 -year-olds reporting a poor relative 
+0
+10
+20
+30
+40
+50
+60
+70
+80
+% Low socio-economic status Medium socio-economic status High socio-economic status
+
+[PDF第37页]
+36 | STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? 
+CHILD WELL-BEING POLICY PAPERS 
+      
+disciplinary climates in their classroom; 15- year-olds reporting experiencing bullying at school; and 
+15-year-olds who feel like they belong at school. 
+Early childhood education and care can play an important role in helping disadvantaged children realise 
+their full potential. Evidence from several OECD countries suggests that some ECEC programs can help 
+foster lasting skill development in disadvantaged children, even if the evidence for more advantaged 
+children is mixed (Shuey and Kankaraš, 2018 [49]; Duncan et  al., 2022 [50]). Importantly, however, 
+participation among children from disadvantaged backgrounds remains a challenge in many OECD 
+countries, especially for very young children under age three (OECD, 2020[51]). In 2019, in European OECD 
+countries, 0- to 2-year-olds from low income backgrounds were on average about one-third less likely than 
+0- to 2-year-olds from high income backgrounds to participate in ECEC, with gaps largest in France and 
+Ireland (Figure 20).  
+Figure 20. Children under age three participating in early childhood education and care 
+0- to 2-year-olds participating in early childhood education and care, by income level, 2019 or latest available 
+ 
+Note: Data for Iceland, Lithuania and United Kingdom refer to 2018. Data refer to children using centre -based services (e.g. nurseries or day 
+care centres and pre- schools, both public and private), organised family day care, and care services provided by (paid) professional 
+childminders, regardless of whether or not the service is registered or ISCED -recognised. Income level is based on the child's position in the 
+equivalised disposable income distribution for children aged less than or equal to 12. "Low income" refers to children in the first tertile, "middle 
+income" to those in the middle tertile, and "high income" to those in the top tertile.  In countries marked with an *, differences between low and 
+high income are significant at p<0.05. 
+Source: OECD Family Database, https://www.oecd.org/els/family/database.htm.  
+Participation gaps are somewhat less of an issue once children enter compulsory school, with enrolment 
+in basic education close to universal across OECD countries (OECD, 2021 [52]). However, even when 
+enrolled, children from disadvantaged backgrounds are in many countries more likely than their more 
+advantaged peers to  regularly skip or miss school  (OECD CWBDP, indicator LRN_SKPD). Early school 
+leaving also remains a challenge in many OECD countries, and the likelihood of being “NEET” – not in 
+employment, education or training – as a young person is often higher for those from disadvantage 
+backgrounds, including with less highly educated parents (OECD, 2016[53]). 
+Attending school or ECEC is one thing; attending a high-quality school or ECEC service is another. Across 
+levels of education, “good” schools and services with positive climates can promote children’s learning and 
+wider well -being and may help compensate for disadvantage (OECD, 2019 [3]; 2019 [5]; 2021 [54]). Poor 
+schools and services may do the opposite.  
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+% Low income Middle income High income
+
+[PDF第38页]
+STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? | 37 
+CHILD WELL-BEING POLICY PAPERS 
+  
+Disciplinary climate – the extent to which children are exposed to disruptive behaviour in the classroom – 
+is one important indicator of school quality and climate. D isruptive behaviour in the classroom prevents  
+teachers from teaching and students from learning (Mostafa, Echazarra and Guillou, 2018 [55]), and has 
+been linked consistently with lower educational performance (OECD, 2019[5]). Data from OECD PISA show 
+that in 2018, in slightly over half of OECD countries, disadvantaged 15- year-olds were significantly more 
+likely than the most advantaged to report a poor relative disciplinary climate in their classroom (Figure 21), 
+with gaps in some countries (Australia, the Czech  Republic, France and Slovenia) as large as 
+10 percentage points or more. Data from the Trends in International Mathematics and Science Study point 
+in a similar direction for “fourth grade” children around age 10: in several OECD countries, less advantaged 
+children are more likely to be attending schools experiencing problems with poor discipline (OECD 
+CWBDP, indicator SCH_SDISA).  
+Figure 21. Children reporting a poor relative disciplinary climate in their classroom 
+15-year-old students with low relative values on the PISA Index of Disciplinary Climate, with reference to their 
+language-of-instruction lessons, by socio-economic status, 2018 
+  
+Note: Data refer to the percent of 15 -year-old students with values on the PISA Index of Disciplinary Climate that are among the lowest 25% 
+across all OECD countries with available data. (For students in non-OECD countries, those with values at a level equivalent to the lowest 25% 
+across all OECD countries with available data). The PISA Index of Disciplinary Climate is a derived multi-item scale, constructed using IRT (Item 
+Response Theory) scaling and based on students' responses when asked how often the following happens in their language -of-instruction 
+lessons: ”Students don’t listen to what the teacher says”; “There is noise and disorder”; “The teacher has to wait a long time for students to quiet 
+down”; “Students cannot work well”; and “Students don’t start working for a long time after the lesson begins”. Socio-economic status is measured 
+using the PISA index of economic, social and cultural status (ESCS). "Low socio- economic status" refers to students with scores on the ESCS 
+index that are among the bottom 25% within their country or economy. "High socio-economic status" refers to students with scores on the ESCS 
+index that are among the top 25% within their country or economy. China (B-S-J-Z) refers to the four PISA-participating provinces/municipalities 
+of the People’s Republic of China: Beijing, Shanghai, Jiangsu and Zhejiang. In countries marked with an *, differences between low and high 
+socio-economic status are significant at p<0.05. 
+Source: OECD Child Well-being Data Portal (https://oe.cd/cwb-data) indicator SCH_SDICB, based on the OECD Programme for International 
+Student Assessment (PISA) Database.  
+Several other aspects of school quality and climate and the wider learning environment tend to be worse 
+for children from disadvantaged backgrounds. In a number of OECD countries, disadvantaged 
+15-year-olds are less likely than the most advantaged to report high co- operation among students at their 
+school (OECD CWBDP, indicator SCH_SCOPA), are less likely to report high levels of enthusiasm from 
+their teachers (OECD CWBDP, indicator SCH_TENTA), and are more likely to attend schools experiencing 
+high staffing shortages  (OECD CWBDP, indicator SCH_SSSH ) – a central component of school quality, 
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+% Low socio-economic status Medium socio-economic status High socio-economic status
+
+[PDF第39页]
+38 | STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? 
+CHILD WELL-BEING POLICY PAPERS 
+      
+given the importance of well -qualified teaching and support staff to children’s learning and well- being 
+(OECD, 2020[56]). However, there are some exceptions. Class sizes are often smaller in schools with higher 
+concentrations of disadvantaged children, for example, as are student-teacher ratios (OECD, 2019[3]).  
+How children experience their time at school – for example, how they get along with classmates, and the 
+extent to which they feel connected to their school – can shape both their learning outcomes and a range 
+of other important well-being outcomes. Children who experience adverse relations with schoolmates tend 
+to do worse academically, for instance (Wang et  al., 2014[57]; OECD, 2019[5]). Children who feel like they 
+belong at their school perform better academically, report better high self-esteem and learning motivation, 
+and also report higher happiness and life satisfaction (OECD, 2019[5]; UNICEF Innocenti, 2020[58]; O’Brien 
+and Bowles, 2013[59]). 
+Bullying provides one important indicator of peer relations at school, and has been linked to several 
+important well-being outcomes, including depression, anxiety, and low self -esteem (OECD, 2019[5]). The 
+frequency of being bullied varies considerably across OECD countries (OECD, 2019[5]); in many, however, 
+disadvantaged children are at least slightly more likely to be at risk than their more advantaged peers. Data 
+from OECD PISA show that in 2018, in about half of OECD countries, disadvantaged 15- year-olds were 
+significantly more likely than the most advantaged to report experiencing regular bullying, although the 
+opposite was true in Japan (Figure 22). Data from TIMMS paint a similar picture for “fourth grade” children: 
+in 2019, in more than two -thirds of OECD countries with available data, “fourth grade” children around 
+age 10 from less advantaged backgrounds were significantly more likely to report experiencing bullying at 
+least once a month (OECD CWBDP, indicator LRN_TBULA).  
+Figure 22. Children reporting being the victim of bullying 
+15-year-old students who report experiencing any of a specified list of bullying acts at school at least a few times a 
+month, by socio-economic status, 2018 
+ 
+Note: Data refer to the percent of 15-year-old students who, when asked how often they had experienced six different types of bullying behaviour 
+in school, responded to at least one with the answer “a few times a month” or “once a week or more”. Socio-economic status is measured using 
+the PISA index of economic, social and cultural status (ESCS). "Low socio-economic status" refers to students with scores on the ESCS index 
+that are among the bottom 25% within their country or economy. "High socio-economic status" refers to students with scores on the ESCS index 
+that are among the top 25% within their country or economy. B-S-J-Z (China) refers to the four PISA-participating provinces/municipalities of the 
+People’s Republic of China: Beijing, Shanghai, Jiangsu and Zhejiang. Data for some countries (Austria, Belgium, Chile, Colombia, Denmark, 
+France, Hungary, Iceland, Italy, the Netherlands, the Slovak  Republic, Slovenia, Spain, Switzerland, Brazil, Argentina and Bulgaria) should be 
+interpreted with caution due to high missing data rates. In countries marked with an *, differences between low and high socio-economic status 
+are significant at p<0.05. 
+Source: OECD Child Well -being Data Portal ( https://oe.cd/cwb-data) indicator LRN_PBUL, based on the OECD Programme for International 
+Student Assessment (PISA) Database.  
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+% Low socio-economic status Medium socio-economic status High socio-economic status
+
+[PDF第40页]
+STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? | 39 
+CHILD WELL-BEING POLICY PAPERS 
+  
+Children’s sense of belonging at school is a similarly important indicator of their school experience. Recent 
+rounds of OECD PISA have asked 15-year-olds a series of questions revolving around how accepted they 
+feel at school, including one on whether they “feel like they belong at school” specifically. Results show 
+lower levels of belonging among disadvantaged 15- year-olds in almost all OECD countries (OECD , 
+2019[5]): in 2018, in all but seven OECD countries with available data, disadvantaged 15- year-olds were 
+significantly less likely than the most advantaged to agree that they felt like they belong at school 
+(Figure 23). Similar data are available from TIMSS for “fourth grade” children (children around age 10), 
+and tell a similar story: in about half of OECD countries with available data, children from less advantaged 
+backgrounds are significantly less likely to report feeling like they belong at their school (OECD CWBDP, 
+indicator LRN_TBELA). 
+Figure 23. Children who feel like they belong at school 
+15-year-old students who agree (or strongly agree) with the statement "I feel like I belong at school", by 
+socio-economic status, 2018 
+  
+Note: 15-year-old students were asked "Thinking about your school: to what extent do you agree with the following statements? I feel like I  
+belong at school" and presented with the response options "Strongly disagree", "Disagree", "Agree" and "Strongly agree". Data refer to the 
+percent responding "Agree" or "Strongly agree". Percent among valid responses only. Socio-economic status is measured using the PISA index 
+of economic, social and cultural status (ESCS). "Low socio-economic status" refers to students with scores on the ESCS index that are among 
+the bottom 25% within their country or economy. "High socio-economic status" refers to students with scores on the ESCS index that are among 
+the top 25% within their country or economy. B-S-J-Z (China) refers to the four PISA -participating provinces/municipalities of the People’s 
+Republic of China: Beijing, Shanghai, Jiangsu and Zhejiang. Data for some countries (Chile, Germany, Mexico, the Netherlands,  and Brazil, 
+Argentina and Bulgaria) should be interpreted with caution due to high missing data rates. In countries marked with an *, differences between 
+low and high socio-economic status are significant at p<0.05. 
+Source: OECD Child Well-being Data Portal (https://oe.cd/cwb-data) indicator LRN_PBELA, based on the OECD Programme for International 
+Student Assessment (PISA) Database. 
+Social life and life in the community 
+For children in middle childhood and especially in adolescence, peer relationships, friendships and 
+connections with others in the community represent an increasingly important driver of well -being. 
+Friendships provide an alternative source of support to family and have links with a range of well -being 
+outcomes (Currie et  al., 2012 [60]; Gifford -Smith and Brownell, 2003 [61]; Burns and Gottschalk, 2019 [62]), 
+while connections with the community more widely are important for fostering children’s social capital  
+(OECD, 2021[1]). However, not all children have the same opportunities to make friendships and participate 
+30
+40
+50
+60
+70
+80
+90
+100
+% Low socio-economic status Medium socio-economic status High socio-economic status
+
+[PDF第41页]
+40 | STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? 
+CHILD WELL-BEING POLICY PAPERS 
+      
+in community life. In addition to their schools, the quality of children’s local areas plays an important role 
+in shaping their opportunities to play, socialise, and make connections with others outside the family  
+(OECD, 2021[1]).  
+Five main indicators are used here to reflect children’s social lives and lives in the community, and how 
+these differ with socio-economic status. Two indicators (10- year-olds who feel they have enough friends, 
+and 11-, 13- and 15-year-olds reporting high support from their friends) capture aspects of the quantity and 
+perceived quality of children’s friendships. One (15- year-olds reporting having participated in voluntary 
+work in the past year) reflects one aspect of participation in community life. The final two (10- year-olds 
+who report that there are enough places to play and have a good time in their local area, and 0- to 
+17-year-olds in households that report problems with crime and violence) touch on aspects of children’s 
+local areas that may limit their ability to make meaningful connections with others.  
+While having large numbers of friends does not always guarantee good- quality friendships, children who 
+are unable to make friends may miss out on opportunities to develop important social skills and are at 
+greater risk of internalising problems like loneliness and depression (Schwartz-Mette et al., 2020[63]; Currie 
+et al., 2012[60]). Uniquely for an international child survey, the Children’s Worlds survey asks ch ildren in 
+middle childhood whether they believe they have enough friends (Figure 24). Although available for only a 
+minority of OECD countries, results show frequent differences between the least - and most- advantaged 
+children. In 2016-19, on average across  nine OECD countries, 80% of 10- year-old children from 
+disadvantaged backgrounds strongly agreed that they have enough friends, compared to 88% among the 
+most advantaged.  
+Figure 24. Children who feel that they have enough friends 
+10-year-old school children who strongly agree with the statement "I have enough friends", by socio-economic 
+status, 2016-2019 
+  
+Note: 10-year-olds were asked how much they agree with the statement "I have enough friends". Response options were "I do not agree", "I 
+agree a little", "I agree somewhat", "I agree a lot" and "I totally agree". Data here refer to the percent of children responding "I agree a lot" or "I 
+totally agree". Children responding "Don't know" are excluded. Soc io-economic status is measured using a modified version of the Health 
+Behaviour in School-aged Children (HBSC) survey Family Affluence Scale. "Low socio- economic status" refers to children with scores on the 
+modified FAS that are among the bottom 20% within their country, region, or area. "High socio- economic status" refers to children with scores 
+that are among the top 20% within their country, region, or area. The OECD average excludes the United Kingdom (England and Wales). In 
+countries marked with an *, differences between low and high socio-economic status are significant at p<0.05.  
+Source: OECD Child Well-being Data Portal (https://oe.cd/cwb-data) indicator SOC_FRNEA, based on Children’s Worlds: International Survey 
+of Children’s Well-being (ISCWeB) Wave Three (2016-2019). 
+60
+65
+70
+75
+80
+85
+90
+95
+100
+% Low socio-economic status Medium socio-economic status High socio-economic status
+
+[PDF第42页]
+STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? | 41 
+CHILD WELL-BEING POLICY PAPERS 
+  
+Friendship quality also matters (Schwartz-Mette et  al., 2020 [63]), and also frequently differs with 
+socio-economic status. Data from the Health Behaviour in School -aged Children survey pick -up on one 
+aspect of friendship quality – perceived support from friends – and show that disadvantaged children are 
+consistently less likely to report feeling well supported by their friends than children from more advantaged 
+households ( Figure 25). In 2017- 18, on average across OECD countries with available data, 58% of 
+disadvantaged 11-, 13- and 15-year-olds reported feeling high support from their friends, falling to 30% in 
+Poland. The average for children in the most advantaged households was 67%, with gaps significant in 
+the large majority of OECD countries with available data.  
+Figure 25. Children reporting strong support from friends 
+11-, 13- and 15-year-old school children who report feeling high overall support from their friends, by socio-economic 
+status, 2017-18 
+  
+Note: Data refer to the percent of children who score 5.5 or more on the HBSC Multidimensional Scale of Perceived Social Support (Friends), 
+categorised as high perceived friend  support. Socio- economic status is measured using the HBSC Family Affluence Scale (FAS). "Low 
+socio-economic status" refers to children with scores on the FAS that are among the bottom 20% within their country or region. "High 
+socio-economic status" refers to children with scores on the FAS that are among the top 20% within their country or region. The OECD average 
+excludes Belgium (both Flemish- and French- speaking regions) and the United Kingdom (England, Scotland and Wales). Data for some 
+countries (Canada and the Slovak  Republic) should be interpreted with caution due to high missing data rates. In countries marked with an *, 
+differences between low and high socio-economic status are significant at p<0.05. 
+Source: OECD Child Well -being Data Portal (https://oe.cd/cwb -data) indicator SOC_FRSUA, based on the Health Behaviour in School -aged 
+Children (HBSC) World Health Organization Collaborative Cross-National Survey 2017-18. 
+Participating in voluntary work ( Figure 26) is one way that children and young people can engage in their 
+communities. While available for less than half of OECD countries, data from OECD PISA show that 
+engagement is often less common for children from disadvantaged backgrounds. In 2018, on average 
+across 14 OECD countries, 44% of disadvantaged 15- year-olds reported having participated in voluntary 
+work in the past year, compared to 52% of the most advantaged. Gaps were largest, at around or above 
+20 percentage points, in Canada and the United States – both countries where child participation in 
+voluntary work is very common – as well as, to a slightly lesser extent, Australia.  
+20
+30
+40
+50
+60
+70
+80
+90
+100
+% Low socio-economic status Medium socio-economic status High socio-economic status
+
+[PDF第43页]
+42 | STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? 
+CHILD WELL-BEING POLICY PAPERS 
+      
+Figure 26. Children participating in voluntary work 
+15-year-old students who report having undertaken voluntary work in the last 12 months, by socio-economic status, 
+2018 
+ 
+Note: 15-year-old students were asked "In the last 12 months, have you done the following things? ... Undertook voluntary work" and presented 
+with the response options "Yes" and "No". Data refer to the percent responding "Yes". Socio-economic status is measured using the PISA index 
+of economic, social and cultural status (ESCS). "Low socio-economic status" refers to students with scores on the ESCS index that are among 
+the bottom 25% within their country or economy. "High socio-economic status" refers to students with scores on the ESCS index that are among 
+the top 25% within their country or economy.  Data for some countries (Canada, Chile, Italy, the Netherlands, the Slovak Republic, Spain, Brazil 
+and Bulgaria) should be interpreted with caution due to high missing data rates. In countries marked with an *, differences between low and high 
+socio-economic status are significant at p<0.05. 
+Source: OECD Child Well-being Data Portal (https://oe.cd/cwb-data) indicator SOC_VOLW, based on the OECD Programme for International 
+Student Assessment (PISA) Database. 
+The availability of suitable places to play or spend time with others is one aspect that restricts children’s 
+opportunities to socialise and make connections. While again not available for all OECD countries, the 
+Children’s Worlds international survey asked children in middle childhood whether they agree that there 
+are enough places  to play and have a good time in their local area ( Figure 27). Gaps are not always 
+statistically significant, but in several OECD countries, children age 10 from disadvantaged backgrounds 
+were less likely than their more advantaged peers to strongly agree that their area has enough places to 
+play and have a good time. In England (United Kingdom) and Korea, the gap in the share of 10-year-olds 
+reporting having enough places to play or h ave a good time in their area was 13 -14 percentage points, 
+while in Israel and Wales (United Kingdom) it was 20 percentage points. 
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+% Low socio-economic status Medium socio-economic status High socio-economic status
+
+[PDF第44页]
+STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? | 43 
+CHILD WELL-BEING POLICY PAPERS 
+  
+Figure 27. Children who believe there are enough places to play in their area 
+10-year-old school children who strongly agree with the statement "In my area there are enough places to play and 
+have a good time", by socio-economic status, 2016-2019 
+  
+Note: 10-year-olds were asked how much they agree with the statement "In my area there are enough places to play and have a good time". 
+Response options were "I do not agree", "I agree a little", "I agree somewhat", "I agree a lot" and "I totally agree". Data here refer to the percent 
+of children responding "I agree a lot" or "I totally agree". Children responding "Don't know" are excluded. Socio- economic status is measured 
+using a modified version of the Health Behaviour in School-aged Children (HBSC) survey Family Affluence Scale. "Low socio-economic status" 
+refers to children with scores on the modified FAS that are among the bottom 20% within their country, region, or area. "High socio- economic 
+status" refers to children with scores that are among the top 20% within their country, region, or area. The OECD average excludes the United 
+Kingdom (England and Wales). In countries marked with an *, differences between low and high socio-economic status are significant at p<0.05.  
+Source: OECD Child Well-being Data Portal (https://oe.cd/cwb-data) indicator CPE_EPPOA, based on Children’s Worlds: International Survey 
+of Children’s Well-being (ISCWeB) Wave Three (2016-2019). 
+Crime and violence, or the fear of crime and violence, is another issue that limits children’s abilities to make 
+connections with others (OECD, 2021 [1]). Neighbourhoods that are characterised by crime and violence 
+erode a child’s sense of predictability and trust in their  environment, increasing the risk of misconduct 
+problems (Leventhal and Brooks-Gunn, 2000[64]). By contrast, neighbourhoods with good physical facilities 
+and where children and families feel safe provide children with opportunities to develop relationships 
+outside the family and pursue social activities a nd personal interests  (McKendrick, 2014[65]). In 2020 (or 
+nearest available year), on average across European OECD countries, 11% of children in low income 
+households also lived in households that reported problems with crime and violence in their area, rising to 
+26% in France, and over 30% in the United Kingdom (Figure 28). The average for children in high-income 
+households was 7%, with gaps largest at more than 10 percentage points in Belgium, France and 
+Germany. For several OECD countries, data from Children’s Worlds also point to gaps across 
+socio-economic groups in the share of children who themselves report feeling safe in their local area 
+(OECD CWBDP, indicator CPE_FSLAA). 
+50
+55
+60
+65
+70
+75
+80
+85
+90
+95
+100
+% Low socio-economic status Medium socio-economic status High socio-economic status
+
+[PDF第45页]
+44 | STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? 
+CHILD WELL-BEING POLICY PAPERS 
+      
+Figure 28. Children in households reporting problems with crime or violence in their area 
+0- to 17-year-olds in households that report problems with crime or violence in the area, by income level, 2020 or 
+latest available 
+ 
+Note: Data refer to the percent of children (0- to 17-year-olds) in households that report problems with crime, violence or vandalism in the area 
+in which they live. "Low income" children are those with equivalised disposable incomes in the bottom quintile of the national equivalised 
+disposable income distribution. "Medium income" children are those with equivalised disposable incomes in the middle three quintiles of the 
+national equivalised disposable income distribution. "High income" children are those with equivalised disposable incomes in the top quintile of 
+the national distribution. Data for Iceland and the United Kingdom refer to 2018, and for Germany, Italy and Poland to 2019. Data for the United 
+Kingdom should be interpreted with caution due to high missing data rates.  In countries marked with an *, differences between low and high 
+income are significant at p<0.05. 
+Source: OECD Child Well-being Data Portal (https://oe.cd/cwb-data) indicator CPE_PCRM, based on the European Union Statistics on Income 
+and Living Conditions (EU-SILC) survey. 
+Life online 
+The digital environment poses opportunities and risks for children’s well -being. A healthy and balanced 
+use of digital tools provides children with opportunities for expression, for learning, and for making 
+connections in ways that are not always possible in the offline world. But the digital environment also 
+carries dangers for children – including through abuse and harmful content – and not all children are as 
+well placed as others to make the most of what the digital environment has to offer.    
+International data on children’s lives online are improving but still limited  (OECD, 2021[1]). This data gap 
+makes it difficult to draw clear conclusions on links between children and adolescents ’ use of the Internet 
+and digital tools and their well-being outcomes ( Box 4). Existing evidence suggests, however, that 
+children's online activities and experiences, most of which is gained at home and at school, often varies 
+with socio-economic status (Livingstone and Helsper, 2007[66]; Muschert and Ragnedda, 2015[67]; Muschert 
+and Ragnedda, 2015 [67]). For example, data from OECD PISA suggest that at age 15, in most OECD 
+countries, disadvantaged children are more likely than their advantaged peers to be “heavy” Internet users, 
+defined as reported use of the Internet for at least 40 hours per week outside of school  (OECD CWBDP, 
+indicator DIG_IHVY). The types of things that children do online may also differ with socio- economic 
+background, too. For instance, PISA results suggest that disadvantaged 15-year-olds are often significantly 
+less likely than advantaged 15-year-olds to report regularly reading news online (Figure 29) or using digital 
+devices for schoolwork (OECD CWBDP, indicator DIG_DSCW),  as well as to report regularly participating 
+in social networks (OECD CWBDP, indicator DIG_DSOC). However, in several countries, they are 
+significantly more likely to report regularly playing online games (OECD CWBDP, indicator DIG_DGME ). 
+0
+5
+10
+15
+20
+25
+30
+35
+% Low income Medium income High income
+
+[PDF第46页]
+STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? | 45 
+CHILD WELL-BEING POLICY PAPERS 
+  
+Figure 29. Children who report reading news on the Internet every day or almost every day 
+15-year-old students who report using digital devices to read news on the Internet every day or almost every day, by 
+socio-economic status, 2018 
+ 
+Note: 15-year-old students were asked "How often do you use digital devices for the following activities outside of school? ... Reading news on 
+the Internet (e.g. current affairs)". Response options were "Never or hardly ever", "Once or twice a month", "Once or twice a week", "Almost 
+every day" and "Every day". Data refer to the percent responding "Almost every day" or "Every day". Socio-economic status is measured using 
+the PISA index of economic, social and cultural status (ESCS). "Low socio-economic status" refers to students with scores on the ESCS index 
+that are among the bottom 25% within their country or economy. "High socio-economic status" refers to students with scores on the ESCS index 
+that are among the top 25% within their country or economy. Data for some countries (Belgium, Chile, Denmark, Israel, Mexico, Slovak Republic, 
+the United Kingdom, Brazil, and Bulgaria) should be interpreted with caution due to high missing data rates. In countries marked with an *, 
+differences between low and high socio-economic status are significant at p<0.05. 
+Source: OECD Child Well -being Data Portal ( https://oe.cd/cwb-data) indicator DIG_DNWS, based on the OECD Programme for International 
+Student Assessment (PISA) Database. 
+Box 4. Children digital use and socio-emotional well-being outcomes 
+Concerns over the potential effects of children’s and adolescents’ digital technology use on their 
+well-being have been emerging since the 1990s. Early studies were conducted, however, at a time in 
+which children’s digital and online engagement was generally still marginal and impacts were difficult 
+to discern and biased by sample limitations (Vilhelmson, Elldér and Thulin, 2017 [68]; George et  al., 
+2018[69]). As access to digital technologies has widened dramatically and an ever-increasing majority of 
+children found their way online, new research in this field has appeared, but findings are mixed and 
+often inconclusive (Castellacci and Tveito, 2018[70]; Orben and Przybylski, 2019[71]; 2019[72]; Stiglic and 
+Viner, 2019[73]).  
+Some evidence suggests a negative relationship between digital technology usage and child and 
+adolescent well -being (Fioravanti, Dèttore and Casale, 2012 [74]; Kelly et  al., 2018 [75]; Kross et  al., 
+2013[76]; Parkes et al., 2013[77]; Twenge et al., 2018[78]). These studies indicate that children’s increased 
+usage of digital technologies is associated with increased depressive symptoms and difficulties in 
+psychosocial adjustment, reduced self-esteem/self-concept, and increased social isolation through the 
+displacement of in- person socialising activities.  Other studies, however, find a positive relationship 
+between child well -being and time spent on digital technologies (Berryman, Ferguson and Negy, 
+2018[79]; Davis, 2012 [80]; Gross, 2009 [81]). They find that children’s use of digital technologies helps 
+widen social networks, reduce social anxiety, and reduce social isolation (Best, Manktelow and Taylor, 
+0
+10
+20
+30
+40
+50
+60
+70
+% Low socio-economic status Medium socio-economic status High socio-economic status
+
+[PDF第47页]
+46 | STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? 
+CHILD WELL-BEING POLICY PAPERS 
+      
+2014[82]). Other studies still, find no significant association at all (Babic et al., 2017[83]; Baker and White, 
+2011[84]; Bruggeman et al., 2019[85]; Leung, 2014[86]). 
+Studies increasingly indicate a small (if any) association between children’s time spent on digital 
+technologies and socioemotional well-being. For example, Orben and Przybylski’s (2019[71]) study with 
+three large- scale datasets found statistically significant associations between children’s digital 
+technology use and well-being problems, but effects were smaller than those observed for apparently 
+neutral activities (e.g., regularly eating potatoes) (Orben and Przybylski, 2019[72]).  
+Moreover, the negative association between screen time and socioemotional well -being concerns 
+intensive users of digital tools. Data from OECD PISA points to a U -shaped association between time 
+spent on the Internet and life satisfaction, with extreme Internet users (more than 6 hours a day) 
+showing lower life satisfaction than any other student, and moderate Internet users (1-2 hours a day) 
+having the highest life satisfaction (OECD., 2017[87]).  
+It is not just time but also the type of online activities that might matter. For instance, Bohnert and Gracia 
+(2021[88]; Bohnert and Gracia, 2022[89]) found that children spending 3 hours or more per day on TV or 
+digital screen time experience a higher decline in socioemotional well -being. Notably, though, m ost 
+types of digital activities (i.e. gaming, educational, socializing) had small effects on children’s 
+socioemotional well -being. By contrast, engagement in digital media activities seem to lead to 
+increasing child socioemotional problems. In addition, children from advantaged backgrounds  seem to 
+benefit from more positive effects from their time spent on online learning activities (Bohnert and Gracia, 
+2022[89]).  
+Other evidence also suggests that excessive social media use may be associated with poorer sleeping 
+patterns, body image concerns, and associated disordered eating among young women and men (with 
+the association possibly strengthening over time) (OECD, 2018 [90]). Moreover, recent research on the 
+effects of social media on clinically diagnosed depressed children underlines that social media can 
+exacerbate depressive symptoms for children who are already at high risk (i.e. with already existing 
+socioemotional problems) (Rich, 2019[91]; Royal College of Psychiatrists, 2020[92]; Bohnert and Gracia, 
+2021[88]). Yet, the evidence base is still emerging and it remains difficult to establish clear causal links 
+between different forms of child digital engagement and well -being outcomes, although research 
+suggests that effects differ across risks levels and depending on the well -being indicator that is 
+examined. 
+Children’s options for making the most of what the digital environment has to offer depend in part on their 
+attitudes towards, and knowledge of, what  is possible online. Recent rounds of OECD PISA have asked 
+15-year-olds a series of questions around their attitudes to the digital world and how they feel when online, 
+including one on whether they believe that the Internet is a “great resource for obtaining information” – a 
+question touching on children’s awareness of the resources the Internet has to offer. In 2018, across almost 
+all OECD countries with available data, disadvantaged 15- year-olds were significantly less likely than the 
+most advantaged to report believing that the Internet is a great resource for information, with gaps 
+especially large in the share that strongly  agree – that is, in the share that most clearly believe in the 
+Internet as an information resource ( Figure 30). On average across OECD countries, only 26% of 
+disadvantaged 15-year-olds strongly agreed that the Internet is a great resource for information, compared 
+to 38% of the most advantaged, with rates among disadvantaged children in several countries (e.g. Chile, 
+Mexico, New Zealand, Slovak Republic, Türkiye, and the United States) close to or less than half those 
+among the most advantaged.  
+
+[PDF第48页]
+STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? | 47 
+CHILD WELL-BEING POLICY PAPERS 
+  
+Figure 30. Children who firmly believe that the Internet is a great resource for information 
+15-year-old students who "strongly agree" with the statement “The Internet is a great resource for obtaining 
+information I am interested in (e.g. news, sports, dictionary)", by socio-economic status, 2018 
+ 
+Note: 15-year-old students were asked "Thinking about your experience with digital media and digital devices: to what extent do you disagree 
+or agree with the following statements? The Internet is a great resource for obtaining information I am interested in (e.g. news, sports, dictionary)" 
+and presented with the response options "Strongly disagree", "Disagree", "Agree" and "Strongly agree". Data refer to the percent respon ding 
+"Strongly agree". Socio-economic status is measured using the PISA index of economic, social and cultural status (ESCS). "Low socio-economic 
+status" refers to students with scores on the ESCS index that are among the bottom 25% within their country or economy. "High socio-economic 
+status" refers to students with scores on the ESCS index that are among the top 25% within their country or economy. Data for some countries 
+(Australia, Belgium, Chile, Denmark, France, Iceland, Israel, Italy, Mexico, Slovak  Republic, Spain, Sweden, the United Kingdom, Brazil and 
+Bulgaria) should be interpreted with caution due to high missing data rates. In countries marked with an *, differences between low and high 
+socio-economic status are significant at p<0.05. 
+Source: OECD Child Well -being Data Portal (https://oe.cd/cwb -data) indicator DIG_IGRIA , based on the OE CD Programme for International 
+Student Assessment (PISA) Database. 
+Similarly, children’s abilities to stay safe online rely in part on their knowledge and understanding of online 
+risks. Comparative data on children’s knowledge of online risks themselves are not available. However, 
+the latest round of OECD PISA asked 15- year-olds whether they had been taught at school a series of 
+digital skills relating to online risks, including how to detect subjective or biased information, how to detect 
+phishing emails, how to trust information online, and how to understand the consequences of making 
+information publicly available online. Across all four questions, disadvantaged 15-year-olds were frequently 
+less likely to report having been taught about the respective risk in school (OECD CWBDP, indicators 
+DIG_TTIO, DIG_TCMP, DIG_TISB and DIG_TPSE). Gaps were largest in the share reporting they had 
+been taught how to detect subjective or biased information: on average, 50% of disadvantaged 
+15-year-olds reported having been  taught this any time at school, compared to 58% of the most 
+advantaged (Figure 31). In some countries (Belgium, Denmark, Germany, Luxembourg and Finland), gaps 
+between the least - and most - advantaged 15- year-olds reporting having  been taught how to detect 
+subjective or biased information reach over 15 percentage points.  
+0
+10
+20
+30
+40
+50
+60
+% Low socio-economic status Medium socio-economic status High socio-economic status
+
+[PDF第49页]
+48 | STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? 
+CHILD WELL-BEING POLICY PAPERS 
+      
+Figure 31. Children who report being taught to detect subjective or biased information 
+15-year-old students who report being taught at school "How to detect whether the information is subjective or 
+biased", by socio-economic status, 2018 
+ 
+Note: 15-year-old students were asked "At school, have you ever been taught the following things? How to detect whether the information is 
+subjective or biased" and presented with the response options "Yes" and "No". Data refer to the percent responding "Yes". Socio- economic 
+status is measured using the PISA index of economic, social and cultural status (ESCS). "Low socio-economic status" refers to student s with 
+scores on the ESCS index that are among the bottom 25% within their country or economy. "High socio-economic status" refers to students with 
+scores on the ESCS index that are among the top 25% within their country or economy. B-S-J- Z (China) refers to the four PISA -participating 
+provinces/municipalities of the People’s Republic of China: Beijing, Shanghai, Jiangsu and Zhejiang. Data for some countries (Israel, the 
+Netherlands) should be interpreted with caution due to high missing data rates. In countries marked with an *, differences between low and high 
+socio-economic status are significant at p<0.05. 
+Source: OECD Child Well -being Data Portal ( https://oe.cd/cwb-data) indicator DIG_TISB , based on the OECD Program me for International 
+Student Assessment (PISA) Database. 
+While associations between the quantity of “screen time” and children’s well -being are not always clear 
+(Box 4) (Burns and Gottschalk, 2019 [62]; OECD, 2021 [1]) – and while for many children, the potential 
+“displacement” effects of the use of digital tools on physical activity are likely only to be small (Kardefelt -
+Winther, 2017[93]) – the intense use of digital tools could pose a risk for well-being if it interferes with other 
+areas of children’s lives (including sleep quality (LeBourgeois et  al., 2017[94])). Problematic social media 
+use (Figure 32) is an indicator of the extent to which children report that their use of one specific digital tool 
+– social media – might come at the expense of relationships and other activities, like hobbies (Inchley 
+et al., 2018[4]). The frequency of problematic social media use differs across countries but is generally low, 
+and differences by socio- economic status are mixed and uncommon: while in some OECD countries 
+(Austria, Finland, Hungary, Iceland, Latvia and England (UK)) disadvantaged 11 -, 13- and 15-year-olds 
+are more likely than the most advantaged to report problematic social media use, in others (Spain and 
+Türkiye), the opposite is true. Overall, on average across OECD countries with available data, children 
+from disadvantaged backgrounds were approximately as likely (7.4%) as the most advantaged (7.0%) to 
+report problematic social media use.  
+30
+40
+50
+60
+70
+80
+90
+100
+% Low socio-economic status Medium socio-economic status High socio-economic status
+
+[PDF第50页]
+STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? | 49 
+CHILD WELL-BEING POLICY PAPERS 
+  
+Figure 32. Children reporting problematic social media use 
+11-, 13- and 15-year-old school children who report problematic social media use, by socio-economic status, 
+2017-18 
+ 
+Note: Children were asked a series of nine questions about whether, over the past year, social media use has had a negative impact on various 
+aspects of their lives. "Social media", in this instance, is defined as referring to social network sites and instant messengers. Response options 
+for each question were "No" or "Yes". Data refer to the percent of children who respond "Yes" to at least six of the nine questions. Data for some 
+countries (Canada, France, Germany, Israel, Luxembourg, Norway, Sweden, Wales (United Kingdom) and Croatia) should be interpreted with 
+caution due to high missing data rates. Socio-economic status is measured using the HBSC Family Affluence Scale (FAS). "Low socio-economic 
+status" refers to children with scores on the FAS that are among the bottom 20% within their country or region. "High socio- economic status" 
+refers to children with scores on the FAS that are among the top 20% within their country or region. The OECD average excludes Belgium (both 
+Flemish- and French-speaking regions) and the United Kingdom (England, Scotland and Wales).  In countries marked with an *, differences 
+between low and high socio-economic status are significant at p<0.05. 
+Source: OECD Child Well -being Data Portal (https://oe.cd/cwb -data) indicator DIG_SMPU, based on the Health Behaviour in School -aged 
+Children (HBSC) World Health Organization Collaborative Cross-National Survey 2017-18. 
+Cyberbullying is the aggressive targeting of a victim by peers through digital technologies (Gottschalk, 
+2022[95]). Similar to “traditional” bullying, being the victim of cyberbullying has been linked to a range of 
+well-being outcomes, including depression and anxiety, as well as poorer self -rated health, increased 
+subjective health complaints, and lower life satisfact ion (Gottschalk, 2022[95]). Unlike traditional bullying, 
+however, cyberbullying does not seem to be linked to socio- economic status (Inchley et  al., 2016 [96]; 
+Inchley et  al., 2018 [4]). Data from the Health Behaviour  in School -aged Children survey show that in 
+2017-18, across most OECD with available data, 11- , 13- and 15- year-olds from disadvantaged 
+backgrounds were no more or less likely than the most advantage to report having been the victim of 
+cyberbullying at least once in the past couple of months (Figure 33). On average, 13.1% of disadvantaged 
+11-, 13 - and 15- year-olds reported being the victim of cyberbullying, compared to 12.6% of the most 
+advantaged.  
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+% Low socio-economic status Medium socio-economic status High socio-economic status
+
+[PDF第51页]
+50 | STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? 
+CHILD WELL-BEING POLICY PAPERS 
+      
+Figure 33. Children reporting being the victim of cyberbullying 
+11-, 13- and 15-year-old school children who report having been a victim of cyber-bullying at least once in the 
+previous couple of months, by socio-economic status, 2017-18 
+ 
+Note: Children were asked "In the past couple of months how often have you been cyberbullied (e.g., someone sent mean instant messages, 
+email or text messages; wall postings; created a website making fun of you; posted unflattering or inappropriate pictures of you online without 
+permission or shared them with others)?". Response options ranged from "I have not been cyberbullied in the past couple of months" to "Several 
+times a week". Data refer to the percent of children who respond "Once or twice", "2 or 3 times a month", "About once a week" or "Several times 
+a week". Socio-economic status is measured using the HBSC Family Affluence Scale (FAS). "Low socio-economic status" refers to children with 
+scores on the FAS that are among the bottom 20% within their country or region. "High socio-economic status" refers to children with scores on 
+the FAS that are among the top 20% within their country or region. The OECD average excludes Belgium (both Flemish- and French-speaking 
+regions) and the United Kingdom (England, Scotland and Wales). Data for some countries (Canada and the Slovak  Republic) should be 
+interpreted with caution due to high missing data rates. In countries marked with an *, differences between low and high socio-economic status 
+are significant at p<0.05.  
+Source: OECD Child Well -being Data Portal ( https://oe.cd/cwb-data) indicator DIG_CYBU, based on the Health Behaviour in School -aged 
+Children (HBSC) World Health Organization Collaborative Cross-National Survey 2017-18. 
+0
+5
+10
+15
+20
+25
+30
+% Low socio-economic status Medium socio-economic status High socio-economic status
+
+[PDF第52页]
+STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? | 51 
+CHILD WELL-BEING POLICY PAPERS 
+  
+The indicators presented in this paper illustrate a stark reality for children growing up in socially and 
+economically disadvantaged households. Disadvantaged children in OECD countries frequently 
+experience poorer material well-being, have poorer physical health, do worse at school, and report poorer 
+social and emotional well -being than their more advantaged peers. These outcome gaps stretch across 
+OECD countries and are reflected in, and driven by, the poorer quality of disadvantaged children’s lives at 
+home, in school, with friends and in the community. Some of these social inequalities are well -known; 
+social gradients in child health and education outcomes, for example, will not come as surprise to many. 
+But the indicators presented in this paper show that these inequalities stretch further into other areas less 
+often documented in  the literature, including in children’s self -efficacy and aptitude for facing difficult 
+situations, in how they perceive the support they receive from their families, and in how they see 
+themselves in the future. Children growing up in disadvantaged households are starting life with unequal 
+resources, and this appears to translate into early life inequalities in outcomes and in capabilities to seize 
+opportunities.  
+Improving the well-being of children from disadvantaged backgrounds requires strong policy action. This 
+includes policy action to mitigate the impact of social and economic disadvantage, but also poverty - and 
+disadvantage prevention policies that aim to tackle disadvantage at source (OECD, 2018[97]). Examples of 
+the latter include policies to help parents into work (including skills and training programmes and work 
+incentives policies) and family support policies, like early childhood education and care support, which both 
+help parents to work and can foster children’s early learning and development. Support for parents from 
+the pre- natal period , and for children throughout childhoo d, is crucial for  detecting and responding  to 
+possible unmet needs before problems become more serious and difficult or costly to address  (OECD, 
+2009[98]; Riding et al., 2021[99]). The provision of family and social support services to meet the nutritional, 
+health, housing, educational and social needs of children and parents is also important for  ensuring that 
+disadvantages in different areas do not combine and accumulate (Riding et al., 2021[99]). Schools have a 
+role to play too, including by paying attention to children’s well- being and the specific needs of 
+disadvantaged children, as well as by tackling possible discrimination in children’s and teacher’s 
+behaviours and in school evaluation processes (Cerna et al., 2021[100]). 
+Policy action for disadvantaged children should be co -ordinated and coherent. The breadth and depth of 
+social inequalities in child well-being mean that efforts are needed in multiple policy areas stretching across 
+multiple government departments and agencies, as well as from other actors inside and outside 
+government. What’s more, as noted throughout this paper, different areas of child well-being and different 
+aspects of children’s lives are frequently inter-connected, meaning consistent support is needed across all 
+domains if children are to see real changes in their life experience and outcomes (OECD, 2021[1]). Aspects 
+of material well -being are important for health outcomes, for instance, while several areas of health are 
+3 Child well-being dashboards can 
+help navigate better futures for 
+disadvantaged children 
+
+[PDF第53页]
+52 | STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? 
+CHILD WELL-BEING POLICY PAPERS 
+      
+important for education and learning. These linkages mean that individual policies  targeting specific 
+aspects of childhood disadvantage are unlikely to be fully effective unless accompanied by complementary 
+policies targeting the many other areas of disadvantage. Tackling childhood disadvantage needs not just 
+action on multiple policy fronts, but also action that is comprehensive, co-ordinated and joined-up. Helping 
+disadvantaged children beat the odds requi res actions that both improve the support they receive from 
+their environments and ensure that they develop the skills needed to seize opportunities (OECD, 2019[101]).  
+Forthcoming work by the OECD shows that OECD countries are at different stages in the development of 
+co-ordinated child policy (OECD, Forthcoming [102]). While some countries have developed strategies and 
+frameworks for whole- of-government child policy action, child policy mak ing in others remains largely 
+fragmented. For many OECD countries, putting in place the kinds of policy structures needed to better 
+support children’s well -being will likely require not just a deep redesign of policy content from a 
+multidimensional perspec tive, but also a refocusing of  government attention on agreed priorities and 
+shared outcome-based objectives, and a realignment of action towards the collaborative work needed to 
+best meet these objectives. 
+Child well-being indicator dashboards, such as the one on which this paper is built, are an important tool 
+that can help governments develop more co-ordinated and coherent policy approaches (Durand and Exton, 
+2019[103]). Well-being indicator sets and dashboards help provide policy makers and key stakeholders with 
+a more complete and comprehensive picture of children’s lives, and a shared understanding of issues 
+which can serve as organising frameworks for policy development. By providing a common fram e of 
+reference, indicator dashboards can help governments establish shared goals and policy priorities, in turn 
+supporting strategic alignment and promoting co- operation across departments and agencies (Exton and 
+Shinwell, 2018[104]). They can also be combined with a range of other policy -making tools (e.g. impact 
+assessments, cost -benefit and cost -effectiveness analysis) to promote more holistic and coherent 
+approaches to policy development (Durand and Exton, 2019[103]).  
+Like all empirical activities, well-being indicator sets and dashboards are limited by the available data. The 
+data used in the OECD Child Well-being Dashboard (see Box 2) show that even at the international level, 
+there is already the potential for child well-being indicators to shed light on many important child policy 
+challenges and priorities. T he choice made here has been to focus on a few  overarching indicators in 
+different areas of child well-being, with priority given to outcomes that are important for children's well-being 
+both now and in the future (i.e. their well-becoming). Indicators capture both children’s outcomes and their 
+environments, as well as on their ac tivities and perceptions, both of which are important mediators of the 
+potential effects that environments can have on outcomes.  
+However, as discussed in depth in OECD (2021[1]), there are still many important data gaps when it comes 
+to capturing child well-being. For example, children under school age are often not well covered by existing 
+cross-national data, nor are several aspects of children’s material and social and emotional well -being 
+(OECD, 2021[1]). Children in very vulnerable situations, including indigenous children and children exposed 
+to violence, in alternative care, and with a disability , are also either not easily identified or poorly covered 
+(UNECE, 2022[105]). And there are also often issues with the regularity and timeliness with which key child 
+data series are collected, which makes tracking progress difficult. The overview provided in this paper  
+shows the importance of the inequalities experienced by children in their various environments depending 
+on their family socio-economic status. Improving the availability of data on these aspects shaping children’s 
+opportunities remains a key challenge at both national and international levels. 
+
+[PDF第54页]
+STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? | 53 
+CHILD WELL-BEING POLICY PAPERS 
+  
+References 
+ 
+Avvisati, F. (2020), “The measure of socio-economic status in PISA: a review and some 
+suggested improvements”, Large-Scale Assessments in Education, Vol. 8/1, pp. 1-37, 
+https://doi.org/10.1186/S40536-020-00086-X/TABLES/8. 
+[7] 
+Babic, M. et al. (2017), “Longitudinal associations between changes in screen-time and mental 
+health outcomes in adolescents”, Mental Health and Physical Activity, Vol. 12, pp. 124-131, 
+https://doi.org/10.1016/J.MHPA.2017.04.001. 
+[83] 
+Baker, R. and K. White (2011), “In their own words: why teenagers don’t use social networking 
+sites”, Cyberpsychology, behavior and social networking, Vol. 14/6, pp. 395-398, 
+https://doi.org/10.1089/CYBER.2010.0016. 
+[84] 
+Balaj, M. et al. (2021), “Parental education and inequalities in child mortality: a global systematic 
+review and meta-analysis”, The Lancet, Vol. 398/10300, pp. 608-620, 
+https://doi.org/10.1016/S0140-6736(21)00534-1/ATTACHMENT/B57FF245-3752-42C8-8530-
+4C452E836A71/MMC4.CSV. 
+[26] 
+Berryman, C., C. Ferguson and C. Negy (2018), “Social Media Use and Mental Health among 
+Young Adults.”, The Psychiatric Quarterly, Vol. 89/2, pp. 307-314, 
+https://doi.org/10.1007/S11126-017-9535-6. 
+[79] 
+Best, P., R. Manktelow and B. Taylor (2014), “Online communication, social media and 
+adolescent wellbeing: A systematic narrative review”, Children and Youth Services Review, 
+Vol. 41, pp. 27-36, https://doi.org/10.1016/J.CHILDYOUTH.2014.03.001. 
+[82] 
+Blumenshine, P. et al. (2010), “Socioeconomic Disparities in Adverse Birth Outcomes: A 
+Systematic Review”, American Journal of Preventive Medicine, Vol. 39/3, pp. 263-272, 
+https://doi.org/10.1016/J.AMEPRE.2010.05.012. 
+[25] 
+Bohnert, M. and P. Gracia (2021), “Emerging Digital Generations? Impacts of Child Digital Use 
+on Mental and Socioemotional Well-Being across Two Cohorts in Ireland, 2007–2018”, Child 
+Indicators Research, Vol. 14/2, pp. 629-659, https://doi.org/10.1007/S12187-020-09767-
+Z/FIGURES/4. 
+[88] 
+Bohnert, P. and P. Gracia (2022), Digital Engagement, Social Inequalities and Adolescent Well-
+Being. 
+[89] 
+Brooks, F. et al. (2015), “Trends in adolescents’ perceived parental communication across 32 
+countries in Europe and North America from 2002 to 2010”, European Journal of Public 
+Health, Vol. 25/suppl_2, pp. 46-50, https://doi.org/10.1093/EURPUB/CKV034. 
+[45] 
+
+[PDF第55页]
+54 | STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? 
+CHILD WELL-BEING POLICY PAPERS 
+      
+Bruggeman, H. et al. (2019), “Does the use of digital media affect psychological well-being? An 
+empirical test among children aged 9 to 12”, Computers in Human Behavior, Vol. 101, 
+pp. 104-113, https://doi.org/10.1016/J.CHB.2019.07.015. 
+[85] 
+Burns, T. and F. Gottschalk (eds.) (2020), Education in the Digital Age: Healthy and Happy 
+Children, Educational Research and Innovation, OECD Publishing, https://www.oecd -
+ilibrary.org/education/education-in-the-digital-age_1209166a-en (accessed on 7 May 2021). 
+[20] 
+Burns, T. and F. Gottschalk (eds.) (2019), Educating 21st Century Children: Emotional Well-
+being in the Digital Age, Educational Research and Innovation, OECD Publishing,, 
+https://www.oecd-ilibrary.org/content/publication/b7f33425-en (accessed on 7 May 2021). 
+[62] 
+Castellacci, F. and V. Tveito (2018), “Internet use and well-being: A survey and a theoretical 
+framework”, Research Policy, Vol. 47/1, pp. 308-325, 
+https://doi.org/10.1016/J.RESPOL.2017.11.007. 
+[70] 
+Cerna, L. et al. (2021), “Promoting inclusive education for diverse societies: A conceptual 
+framework”, OECD Education Working Papers, No. 260, OECD Publishing, Paris, 
+https://dx.doi.org/10.1787/94ab68c6-en. 
+[100] 
+Chentsova Dutton, Y., I. Choi and E. Choi (2020), “Perceived Parental Support and Adolescents’ 
+Positive Self-Beliefs and Levels of Distress Across Four Countries”, Frontiers in Psychology , 
+Vol. 11, p. 353, https://doi.org/10.3389/FPSYG.2020.00353/BIBTEX. 
+[47] 
+Cowan, C. et al. (2012), Improving the measurement of socioeconomic status for the National 
+Assessment of Educational Progress: A theoretical foundation, National Center for Education 
+Statistics, 
+https://nces.ed.gov/nationsreportcard/pdf/researchcenter/socioeconomic_factors.pdf  
+(accessed on 22 June 2022). 
+[8] 
+Currie, C. et al. (2012), Social determinants of health and well-being among young people: 
+Health Behaviour in School-aged Children (HBSC) Study: International Report From The 
+2009/2010 Survey, WHO Regional Office for Europe, Copenhagen, 
+https://www.euro.who.int/__data/assets/pdf_file/0003/163857/Social-determinants-of-health-
+and-well-being-among-young-people.pdf (accessed on 28 April 2022). 
+[60] 
+Currie, J. (2016), “The long-term consequences of children’s health and circumstance”, Focus, 
+Vol. 3/1, pp. 11-16, https://www.irp.wisc.edu/wp/wp-content/uploads/2018/11/foc331c.pdf 
+(accessed on 6 April 2022). 
+[23] 
+Currie, J. (2009), “Healthy, Wealthy, and Wise: Socioeconomic Status, Poor Health in Childhood, 
+and Human Capital Development”, Journal of Economic Literature, Vol. 47/1, pp. 87-122, 
+https://doi.org/10.1257/JEL.47.1.87. 
+[18] 
+Currie, J. et al. (2010), “Child Health and Young Adult Outcomes”, The Journal of Human 
+Resources, Vol. 45/3. 
+[21] 
+Dani, J., C. Burrill and B. Demmig-Adams (2005), “The remarkable role of nutrition in learning 
+and behaviour”, Nutrition and Food Science, Vol. 35/4, pp. 258-263, 
+https://doi.org/10.1108/00346650510605658. 
+[10] 
+Davis, K. (2012), “Friendship 2.0: Adolescents’ experiences of belonging and self -disclosure 
+online”, Journal of Adolescence, Vol. 35/6, pp. 1527-1536, 
+https://doi.org/10.1016/j.adolescence.2012.02.013. 
+[80] 
+
+[PDF第56页]
+STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? | 55 
+CHILD WELL-BEING POLICY PAPERS 
+  
+De Onis, M. et al. (2007), “Development of a WHO growth reference for school-aged children 
+and adolescents”, Bulletin of the World Health Organization, Vol. 85/9, p. 660, 
+https://doi.org/10.2471/BLT.07.043497. 
+[30] 
+Doepke, M. and F. Zilibotti (2019), Love, money &amp; parenting : how economics explains the 
+way we raise our kids, https://press.princeton.edu/titles/13326.html (accessed on 
+15 May 2019). 
+[40] 
+Duncan, G. et al. (2022), “Investing in Early Childhood Development in Preschool and at Home”, 
+https://doi.org/10.3386/W29985. 
+[37] 
+Duncan, G. et al. (2022), “Investing in Early Childhood Development in Preschool and at Home” , 
+NBER Working Paper Series, No. 29985, NBER, http://www.nber.org/papers/w29985 
+(accessed on 24 May 2022). 
+[50] 
+Durand, M. and C. Exton (2019), “Adopting a Well-Being Approach in Central Government: 
+Policy Mechanisms and Practical Tools”, in Global Happiness and Wellbeing Policy Report 
+2019, https://s3.amazonaws.com/ghwbpr-2019/UAE/GH19_Ch8.pdf (accessed on 
+17 May 2022). 
+[103] 
+Dweck, C. and D. Yeager (2019), “Mindsets: A View From Two Eras”, Perspectives on 
+Psychological Science, Vol. 14/3, pp. 481-496, https://doi.org/10.1177/1745691618804166. 
+[41] 
+Exton, C. and M. Shinwell (2018), “Policy use of well-being metrics: Describing countries’ 
+experiences”, OECD Statistics Working Papers, No. 2018/07, OECD Publishing, Paris, 
+https://dx.doi.org/10.1787/d98eb8ed-en. 
+[104] 
+Fioravanti, G., D. Dèttore and S. Casale (2012), “Adolescent Internet addiction: testing the 
+association between self-esteem, the perception of Internet attributes, and preference for 
+online social interactions”, Cyberpsychology, behavior and social networking, Vol. 15/6, 
+pp. 318-323, https://doi.org/10.1089/CYBER.2011.0358. 
+[74] 
+Flores, M. and A. Kalwij (2014), “The associations between early life circumstances and later life 
+health and employment in Europe”, Empirical Economics, Vol. 47/4, pp. 1251-1282, 
+https://doi.org/10.1007/S00181-013-0785-3/TABLES/7. 
+[22] 
+Frijters, P. et al. (2020), “A happy choice: wellbeing as the goal of government”, Behavioural 
+Public Policy, Vol. 4/2, pp. 126-165, https://doi.org/10.1017/BPP.2019.39. 
+[44] 
+George, M. et al. (2018), “Concurrent and Subsequent Associations Between Daily Digital 
+Technology Use and High-Risk Adolescents’ Mental Health Symptoms”, Child development, 
+Vol. 89/1, pp. 78-88, https://doi.org/10.1111/CDEV.12819. 
+[69] 
+Gifford-Smith, M. and C. Brownell (2003), “Childhood peer relationships: social acceptance, 
+friendships, and peer networks”, Journal of School Psychology, Vol. 41/4, pp. 235-284, 
+https://doi.org/10.1016/S0022-4405(03)00048-7. 
+[61] 
+Gottschalk, F. (2022), “Cyberbullying : An overview of research and policy in OECD countries”, 
+OECD Education Working Papers, No. 270, OECD Publishing, Paris, https://www.oecd-
+ilibrary.org/education/cyberbullying_f60b492b-en (accessed on 28 April 2022). 
+[95] 
+Gross, E. (2009), “Logging on, Bouncing Back: An Experimental Investigation of Online 
+Communication Following Social Exclusion”, Developmental Psychology, Vol. 45/6, pp. 1787-
+1793, https://doi.org/10.1037/A0016541. 
+[81] 
+
+[PDF第57页]
+56 | STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? 
+CHILD WELL-BEING POLICY PAPERS 
+      
+Guryan, J., E. Hurst and M. Kearney (2008), “Parental Education and Parental Time with 
+Children”, Journal of Economic Perspectives, Vol. 22/3, pp. 23-46, 
+https://doi.org/10.1257/JEP.22.3.23. 
+[38] 
+IHME (2022), Global Burden of Disease (GBD 2019), https://www.healthdata.org/gbd/2019 
+(accessed on 30 April 2022). 
+[24] 
+Inchley, J. et al. (2018), Spotlight on adolescent health and well-being: Findings from the 
+2017/2018 health behaviour in school-aged children (HBSC) survey in Europe and Canada 
+international report, WHO Regional Office for Europe, Copenhagen, 
+http://www.hbsc.org/publications/international/ (accessed on 6 April 2022). 
+[4] 
+Inchley, J. et al. (2016), Growing up unequal: gender and socioeconomic differences in young 
+people’s health and well-being: Health Behaviour in School-aged Children (HBSC) study: 
+international report from the 2013/2014 survey, WHO Regional Office for Europe, 
+Copenhagen, Denmark, http://www.euro.who.int/__data/assets/pdf_file/0003/303438/HSBC -
+No.7-Growing-up-unequal-Full-Report.pdf?ua=1. 
+[96] 
+Jackson, M. (2015), “Cumulative Inequality in Child Health and Academic Achievement”, Journal 
+of Health and Social Behavior, Vol. 56/2, pp. 262-280, 
+https://doi.org/10.1177/0022146515581857. 
+[19] 
+Kalil, A. and R. Ryan (2020), “Parenting practices and socioeconomic gaps in childhood 
+outcomes”, Future of Children, Vol. 30/1, pp. 29-54, https://doi.org/10.1353/FOC.2020.0004. 
+[39] 
+Kardefelt-Winther, D. (2017), “How does the time children spend using digital technology impact 
+their mental well-being, social relationships and physical activity? An evidence-focused 
+literature review.”, Innocenti Discussion Paper, No. 2017-02, UNICEF Office of Research – 
+Innocenti, Florence, http://www.unicef-irc.org (accessed on 24 June 2022). 
+[93] 
+Kautz, T. et al. (2014), “Fostering and Measuring Skills: Improving Cognitive and Non-cognitive 
+Skills to Promote Lifetime Success”, OECD Education Working Papers, No. 110, OECD 
+Publishing, Paris, https://dx.doi.org/10.1787/5jxsr7vr78f7-en. 
+[36] 
+Kelly, Y. et al. (2018), “Social Media Use and Adolescent Mental Health: Findings From the UK 
+Millennium Cohort Study”, eClinicalMedicine, Vol. 6, pp. 59-68, 
+https://doi.org/10.1016/J.ECLINM.2018.12.005. 
+[75] 
+Kim, S. et al. (2016), “Dietary Habits Are Associated With School Performance in Adolescents”, 
+Medicine, Vol. 95/12, https://doi.org/10.1097/MD.0000000000003096. 
+[12] 
+Kross, E. et al. (2013), “Facebook Use Predicts Declines in Subjective Well-Being in Young 
+Adults”, PLOS ONE, Vol. 8/8, p. e69841, https://doi.org/10.1371/JOURNAL.PONE.0069841. 
+[76] 
+Layard, R. (2016), “Measuring wellbeing and cost-effectiveness analysis using subjective 
+wellbeing”, Measuring Wellbeing Series, No. 1, What Works Centre for Wellbeing, 
+https://whatworkswellbeing.org/wp-content/uploads/2020/01/common-currency-measuring-
+wellbeing-series-1-dec-2016v3.pdf (accessed on 25 April 2022). 
+[43] 
+LeBourgeois, M. et al. (2017), “Digital Media and Sleep in Childhood and Adolescence”, 
+Pediatrics, Vol. 140/Supplement_2, pp. S92-S96, https://doi.org/10.1542/PEDS.2016-1758J. 
+[94] 
+
+[PDF第58页]
+STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? | 57 
+CHILD WELL-BEING POLICY PAPERS 
+  
+Leung, L. (2014), “Predicting Internet risks: a longitudinal panel study of gratifications-sought, 
+Internet addiction symptoms, and social media use among children and adolescents”, Health 
+Psychology and Behavioral Medicine, Vol. 2/1, p. 424, 
+https://doi.org/10.1080/21642850.2014.902316. 
+[86] 
+Leventhal, T. and J. Brooks-Gunn (2000), “The Neighborhoods They Live in: The Effects of 
+Neighborhood Residence on Child and Adolescent Outcomes”, Psychological Bulletin , 
+Vol. 126/2, pp. 309-337, https://doi.org/10.1037/0033-2909.126.2.309. 
+[64] 
+Livingstone, S. and E. Helsper (2007), “Gradations in digital inclusion: Children, young people 
+and the digital divide”, New Media and Society, Vol. 9/4, pp. 671-696, 
+https://doi.org/10.1177/1461444807080335. 
+[66] 
+McKendrick, J. (2014), “Geographies of children’s well-being: In, of, and for place”, in Handbook 
+of Child Well-Being: Theories, Methods and Policies in Global Perspective, Springer 
+Netherlands, https://doi.org/10.1007/978-90-481-9063-8_12/COVER/. 
+[65] 
+Molcho, M. (2019), “Children and well-being from an international perspective”, Revue des 
+politiques sociales et familiales, Vol. 131/1, pp. 231-238, 
+https://doi.org/10.3406/CAF.2019.3362. 
+[46] 
+Mostafa, T., A. Echazarra and H. Guillou (2018), “The science of teaching science: An 
+exploration of science teaching practices in PISA 2015”, OECD Education Working Paper, 
+No. 188, OECD Publishing, Paris, https://doi.org/10.1787/f5bd9e57-en. 
+[55] 
+Mullis, I. et al. (2020), TIMSS 2019 International Results in Mathematics and Science, TIMSS & 
+PIRLS International Study Center, Chestnut Hill, https://timss2019.org/reports/ (accessed on 
+22 June 2022). 
+[9] 
+Muschert, G. and M. Ragnedda (2015), The digital divide : the internet and social inequality in 
+international perspective, https://www.routledge.com/The-Digital-Divide-The-Internet-and-
+Social-Inequality-in-International/Ragnedda-Muschert/p/book/9781138960268 (accessed on 
+23 June 2022). 
+[67] 
+Nyaradi, A. et al. (2013), “The role of nutrition in children’s neurocognitive development, from 
+pregnancy through childhood”, Frontiers in Human Neuroscience, Vol. 0/MAR, p. 97, 
+https://doi.org/10.3389/FNHUM.2013.00097/BIBTEX. 
+[11] 
+O’Brien, K. and T. Bowles (2013), “The Importance of Belonging for Adolescents in Secondary 
+School Settings”, The European Journal of Social & Behavioural Sciences, Vol. 5/2, pp. 319-
+332, https://doi.org/10.15405/EJSBS.72. 
+[59] 
+OECD (2022), OECD Income Distribution Database (IDD), http://www.oecd.org/social/income-
+distribution-database.htm (accessed on 20 April 2022). 
+[6] 
+OECD (2021), 21st-Century Readers: Developing Literacy Skills in a Digital World, PISA, OECD 
+Publishing, Paris, https://dx.doi.org/10.1787/a83d84cb-en. 
+[33] 
+OECD (2021), Beyond Academic Learning: First Results from the Survey of Social and 
+Emotional Skills, OECD Publishing, Paris, https://dx.doi.org/10.1787/92a11084-en. 
+[35] 
+OECD (2021), COVID-19 and Well-being: Life in the Pandemic, OECD Publishing, Paris, 
+https://dx.doi.org/10.1787/1e1ecb53-en. 
+[15] 
+
+[PDF第59页]
+58 | STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? 
+CHILD WELL-BEING POLICY PAPERS 
+      
+OECD (2021), Education at a Glance 2021: OECD Indicators, OECD Publishing, Paris, 
+https://dx.doi.org/10.1787/b35a14e5-en. 
+[52] 
+OECD (2021), Measuring What Matters for Child Well-being and Policies, OECD Publishing, 
+Paris, https://dx.doi.org/10.1787/e82fded1-en. 
+[1] 
+OECD (2021), OECD Skills Outlook 2021: Learning for Life, OECD Publishing, Paris, 
+https://dx.doi.org/10.1787/0ae365b4-en. 
+[34] 
+OECD (2021), Sky’s the limit: Growth mindset, students, and schools in PISA, OECD Publishing, 
+Paris, https://www.oecd.org/pisa/growth-mindset.pdf (accessed on 26 April 2022). 
+[42] 
+OECD (2021), Starting Strong VI: Supporting Meaningful Interactions in Early Childhood 
+Education and Care, OECD Publishing, Paris, https://doi.org/10.1787/f47a06ae-en. 
+[54] 
+OECD (2020), “Combatting COVID-19’s effect on children”, OECD Policy Responses to 
+Coronavirus (COVID-19), OECD Publishing, Paris, https://dx.doi.org/10.1787/2e1f3b2f-en. 
+[13] 
+OECD (2020), Early Learning and Child Well-being: A Study of Five-year-Olds in England, 
+Estonia, and the United States, OECD Publishing, Paris, https://dx.doi.org/10.1787/3990407f-
+en. 
+[32] 
+OECD (2020), “Is Childcare Affordable?”, Policy Brief on Employment, Labour and Social Affairs, 
+OECD, Paris, http://oe.cd/childcare-brief-2020 (accessed on 11 July 2020). 
+[51] 
+OECD (2020), PISA 2018 Results (Volume V): Effective Policies, Successful Schools, OECD 
+Publishing, Paris, https://dx.doi.org/10.1787/19963777. 
+[56] 
+OECD (2020), “The impact of COVID-19 on student equity and inclusion: supporting vulnerable 
+students during school closures and school re-openings”, OECD Policy Responses to 
+Coronavirus (COVID-19), OECD Publishing, Paris, https://doi.org/10.1787/d593b5c8-en. 
+[17] 
+OECD (2019), Changing the Odds for Vulnerable Children: Building Opportunities and 
+Resilience, OECD Publishing, Paris, https://dx.doi.org/10.1787/a2e8796c-en. 
+[101] 
+OECD (2019), Health at a Glance 2019: OECD Indicators, OECD Publishing, Paris, 
+https://dx.doi.org/10.1787/4dd50c09-en. 
+[29] 
+OECD (2019), OECD Future of Education and Skills 2030: OECD Learning Compass 2030: A 
+Series of Concept Notes, OECD, Paris. 
+[2] 
+OECD (2019), PISA 2018 Results (Volume II): Where All Students Can Succeed, PISA, OECD 
+Publishing, Paris, https://dx.doi.org/10.1787/b5fd1b8f-en. 
+[3] 
+OECD (2019), PISA 2018 Results (Volume III): What School Life Means for Students’ Lives, 
+PISA, OECD Publishing, Paris, https://dx.doi.org/10.1787/acd78851-en. 
+[5] 
+OECD (2019), The Heavy Burden of Obesity: The Economics of Prevention, OECD Health 
+Policy Studies, OECD Publishing, Paris, https://dx.doi.org/10.1787/67450d67-en. 
+[28] 
+OECD (2018), Children and Young People’s Mental Health in the Digital Age, OECD, Paris, 
+http://www.oecd.org/els/health-systems/Children-and-Young-People-Mental-Health-in-the-
+Digital-Age.pdf. 
+[90] 
+
+[PDF第60页]
+STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? | 59 
+CHILD WELL-BEING POLICY PAPERS 
+  
+OECD (2018), “Poor Children In Rich Countries: Why We Need Policy Action”, OECD Policy 
+Brief on Child Well-Being, https://www.oecd.org/els/family/Poor-children-in-rich-countries-
+Policy-brief-2018.pdf. 
+[97] 
+OECD (2016), Society at a Glance 2016: OECD Social Indicators, OECD Publishing, Paris, 
+https://dx.doi.org/10.1787/9789264261488-en. 
+[53] 
+OECD (2009), Doing Better for Children, OECD, Paris, 
+http://www.oecd.org/els/family/43552898.pdf. 
+[98] 
+OECD (Forthcoming), Building Capacity for Child Well-being Policies, OECD Publishing. [102] 
+OECD. (2017), PISA 2015 Results (Volume III): Students’ Well-Being, PISA, OECD Publishing, 
+https://doi.org/10.1787/9789264273856-en. 
+[87] 
+Orben, A. and A. Przybylski (2019), “Screens, Teens, and Psychological Well-Being: Evidence 
+From Three Time-Use-Diary Studies”, Psychological Science, Vol. 30/5, pp. 682-696, 
+https://doi.org/10.1177/0956797619830329. 
+[71] 
+Orben, A. and A. Przybylski (2019), “The association between adolescent well-being and digital 
+technology use”, Nature human behaviour, Vol. 3/2, pp. 173-182, 
+https://doi.org/10.1038/S41562-018-0506-1. 
+[72] 
+Parkes, A. et al. (2013), “Do television and electronic games predict children’s psychosocial 
+adjustment? Longitudinal research using the UK Millennium Cohort Study”, Archives of 
+disease in childhood, Vol. 98/5, pp. 341-348, https://doi.org/10.1136/ARCHDISCHILD-2011-
+301508. 
+[77] 
+Rich, M. (2019), OECD-University of Zurich Expert Consultation “Protection of Children in a 
+Connected World. 
+[91] 
+Riding, S. et al. (2021), Looking beyond COVID-19: Strengthening family support services 
+across the OECD, Documents de travail de l’OCDE sur les questions sociales, l’emploi et les 
+migrations, n° 260, Éditions OCDE, https://www.oecd.org/fr/emploi/looking-beyond-covid-19-
+86738ab2-en.htm (accessed on 25 June 2021). 
+[99] 
+Royal College of Psychiatrists (2020), Technology use and the mental health of children and 
+young people. 
+[92] 
+Schnohr, C. et al. (2016), “Semantics bias in cross-national comparative analyses: Is it good or 
+bad to have “fair” health?”, Health and Quality of Life Outcomes, Vol. 14/1, pp. 1-4, 
+https://doi.org/10.1186/S12955-016-0469-8/FIGURES/1. 
+[27] 
+Schwartz-Mette, R. et al. (2020), “Relations of friendship experiences with depressive symptoms 
+and loneliness in childhood and adolescence: A meta-analytic review”, Psychological Bulletin, 
+Vol. 146/8, pp. 664-700, https://doi.org/10.1037/BUL0000239. 
+[63] 
+Shuey, E. and M. Kankaraš (2018), “The Power and Promise of Early Learning”, OECD 
+Education Working Papers, No. 186, OECD Publishing, Paris, 
+https://doi.org/10.1787/f9b2e53f-en. 
+[49] 
+Stiglic, N. and R. Viner (2019), “Effects of screentime on the health and well-being of children 
+and adolescents: a systematic review of reviews”, BMJ Open, Vol. 9/1, p. e023191, 
+https://doi.org/10.1136/BMJOPEN-2018-023191. 
+[73] 
+
+[PDF第61页]
+60 | STARTING UNEQUAL: HOW’S LIFE FOR DISADVANTAGED CHILDREN? 
+CHILD WELL-BEING POLICY PAPERS 
+      
+Thorn, W. and S. Vincent-Lancrin (2021), Schooling During a Pandemic: The Experience and 
+Outcomes of Schoolchildren During the First Round of COVID-19 Lockdowns, OECD 
+Publishing, Paris, https://dx.doi.org/10.1787/1c78681e-en. 
+[14] 
+Twenge, J. et al. (2018), “Increases in Depressive Symptoms, Suicide-Related Outcomes, and 
+Suicide Rates Among U.S. Adolescents After 2010 and Links to Increased New Media 
+Screen Time”, Clinical Psychological Science, Vol. 6/1, pp. 3-17, 
+https://doi.org/10.1177/2167702617723376. 
+[78] 
+Ulferts, H. (2020), “Why parenting matters for children in the 21st century: An evidence-based 
+framework for understanding parenting and its impact on child development”, 
+https://www.oecd-ilibrary.org/education/why-parenting-matters-for-children-in-the-21st-
+century_129a1a59-en?mlang=fr (accessed on 10 June 2021). 
+[48] 
+UNECE (2022), Statistics on Children: Spotlight on children exposed to violence, in alternative 
+care, and with a disability, United Nations Economic Commission for Europe - Conference of 
+European Statisticians, Geneva. 
+[105] 
+UNICEF (2021), The State of the World’s Children 2021 - On My Mind: Promoting, protecting 
+and caring for children’s mental health, UNICEF, https://data.unicef.org/resources/sowc -2021/ 
+(accessed on 2 March 2022). 
+[16] 
+UNICEF Innocenti (2020), “Worlds of Influence: Understanding what shapes child w ell-being in 
+rich countries”, Innocenti Report Card, UNICEF Office of Research – Innocenti, Florence, 
+http://www.unicef-irc.org (accessed on 26 April 2022). 
+[58] 
+Vilhelmson, B., E. Elldér and E. Thulin (2017), “What did we do when the Internet wasn’t 
+around? Variation in free-time activities among three young-adult cohorts from 1990/1991, 
+2000/2001, and 2010/2011”, SAGE Journals, Vol. 20/8, pp. 2898-2916, 
+https://doi.org/10.1177/1461444817737296. 
+[68] 
+Wang, W. et al. (2014), “School climate, peer victimization, and academic achievement: Results 
+from a multi-informant study”, School Psychology Quarterly, Vol. 29/3, pp. 360-377, 
+https://doi.org/10.1037/SPQ0000084. 
+[57] 
+WHO (2020), Physical activity, https://www.who.int/news-room/fact-sheets/detail/physical-activity 
+(accessed on 16 May 2022). 
+[31] 
+ 
+ 
+ 
+ 
