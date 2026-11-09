@@ -1,0 +1,12 @@
+# Preserve original documents and media as binary assets.
+*.pdf binary
+*.doc binary
+*.docx binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.woff2 binary
+
+# Archived responses and extracted source text retain their original whitespace.
+03_背景/资料库/原始文件/** -whitespace
+03_背景/资料库/正文/** -whitespace
