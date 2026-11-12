@@ -1,0 +1,20 @@
+{
+  "analysis_timestamp": "2026-11-12T09:37:41.044157+08:00",
+  "original_source_sha256": "3f8d1f296286a395928c3457f21c0d7868526de4b8910a650e11452b8f002c7e",
+  "rows": 17,
+  "group_counts": {
+    "核心复建组": 1,
+    "站区中西组（含站北）": 9,
+    "东侧扩展组（含东北）": 5,
+    "西侧外围单列": 1,
+    "临江商住单列": 1
+  },
+  "mixed_reference_difference_percent": 22.7933736732467,
+  "september_reference_difference_percent": 1.3133617696656996,
+  "limits": [
+    "frozen exploratory data, not new current quotes",
+    "operational street groups, not GIS polygons",
+    "no underlying listing sample counts",
+    "no market-wide or causal inference"
+  ]
+}
