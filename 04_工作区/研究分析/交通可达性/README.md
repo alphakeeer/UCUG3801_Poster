@@ -4,6 +4,14 @@ UCUG3801 · Social Inequality and Social Mobility · 两轮综合 · 2026 年 11
 
 本报告比较猎德花园、中海璟晖华庭和南国花园三个住宅样本到附近小学及幼儿园的路线，并用招生地段、办园类型与收费政策解释可步行到达的设施如何转化为家庭可使用的教育选择。三个样本均可在 9 分钟内步行到至少一个公办样本园区，交通差异主要随目的地改变。本研究的证据范围是地图规划与官方资料。
 
+## 第三轮深化研究
+
+第三轮沿用原有 30 条路线，新增 9 条针对性查询，用于比较招生渠道、接送负担及步行阈值。[深化报告及英文 Poster 分析](round-3/research-report.md)包含证据范围、数据修订与待补的现场记录。
+
+- [招生渠道与步行时间图](round-3/admission-channels-walking-time.png)
+- [家庭情境](round-3/household-scenarios.csv) · [步行阈值](round-3/threshold-sensitivity.csv) · [累计接送负担](round-3/commute-burden-scenarios.csv)
+- [补充路线核查](round-3/supplementary-route-audit.csv) · [高德原始返回](round-3/supplementary-amap.json) · [积分入学学位计划摘录](round-3/primary-migrant-points-plan-2026.csv) · [复现脚本](round-3/reproduce.py)
+
 ## 主要发现
 
 1. **三个样本点附近都有步行可达的幼儿园。** 到六处样本中最近园区的估计用时为 **3.6–6.5 分钟**，到最近公办园区为 **3.6–8.6 分钟**。但跨片区到同一所园可能远得多。例如，中海璟晖华庭到万锦幼儿园是 **269 米／3.6 分钟**，南国花园到同一园是 **2,204 米／29.4 分钟**。

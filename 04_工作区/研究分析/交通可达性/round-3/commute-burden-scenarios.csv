@@ -1,0 +1,13 @@
+﻿origin_id,destination_id,one_way_amap_walk_minutes,days,escort_legs_per_day,weekly_minutes_two_escort_legs_amap,weekly_minutes_four_legs_amap,weekly_minutes_four_legs_mixed_1mps_escort_1_25mps_solo,amap_0720_one_way_transit_minutes,amap_0720_one_adult_boarding_cny,scenario_weekly_fare_10_adult_boardings,scenario_weekly_fare_20_adult_boardings
+D1,S1,5.9,5,2,59.0,118.0,132.9,,,,
+D1,S5,23.55,5,2,235.5,471.0,529.8,,,,
+D1,S4,18.75,5,2,187.5,375.0,421.8,25,2,20,40
+D2,S3,10.083,5,2,100.833,201.667,226.8,,,,
+D2,S5,11.75,5,2,117.5,235.0,264.3,,,,
+D2,S4,26.483,5,2,264.833,529.667,595.8,24,2,20,40
+D3,S4,2.767,5,2,27.667,55.333,62.1,,,,
+D3,S5,28.433,5,2,284.333,568.667,639.6,,,,
+D2,K2,3.583,5,2,35.833,71.667,80.7,,,,
+D2,K5,8.533,5,2,85.333,170.667,192.0,,,,
+D2,K6,28.5,5,2,285.0,570.0,641.4,23,2,20,40
+D2,S2,22.967,5,2,229.667,459.333,516.6,24,2,20,40
