@@ -2,3 +2,6 @@
 ~$*
 *.tmp
 *.part
+
+# The complete atlas is restored locally from the tracked lossless parts.
+/03_背景/教育专题/原始文件/E016-A001_2505发文稿附件_广州市天河区国土空间总体规划_2021_2035年_图集_对外印发_.pdf.pdf

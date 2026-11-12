@@ -12,3 +12,8 @@
 03_背景/资料库/正文/** -whitespace
 03_背景/资料库/补充选题资料/*.html -whitespace
 03_背景/资料库/补充选题资料/*.txt -whitespace
+
+03_背景/教育专题/原始文件/** -whitespace
+03_背景/教育专题/正文/** -whitespace
+03_背景/教育专题/原始文件/E016-A001_分卷/atlas.pdf.* binary
+03_背景/教育专题/**/*.csv whitespace=cr-at-eol

@@ -1,0 +1,340 @@
+<!DOCTYPE html><html><head><title>天地图广州</title><script src=./resource/TDT/dist/static/jquery-3.6.0.min.js></script>
+<style>
+ #loginName{
+  color:#337ab7;
+  cursor:pointer;
+ }
+.footer_left {
+    text-align: right;
+    height: 120px;
+    line-height: 120px;
+}
+#explain{width:12%;border:1px solid white;position:fixed;right:0;top:222px;border-radius:6px;z-index:99999;}
+#explain>#explainClose{position:absolute;bottom:-20px;right:5px;cursor:pointer;}
+#explain>#explainClose:hover{background-color:black;color:white;}
+</style>
+<script>
+ var WF_Appid="YPTGZBTDT",WF_Userid="Anonymous";
+$(function(){
+    //初始化js代码 
+    // if(document.location.protocol=='http:'){
+    //     window.location.href = 'https://'+window.location.host + window.location.pathname
+    // }
+});
+</script>
+</head>
+<body style="margin:0px;"  scroll="auto" >
+<!DOCTYPE html>
+<html lang=en>
+
+    <head>
+        <meta charset=UTF-8>
+        <title>天地图广州</title>
+        <base href="https://guangdong.tianditu.gov.cn/guangzhou/gz/" />
+        <link rel="shortcut icon" href=./resource/TDT/dist/static/favicon.ico type=image/x-icon>
+        <meta name=viewport content="width=device-width,initial-scale=1">
+        <meta http-equiv=X-UA-Compatible content="IE=edge, chrome=1">
+        <meta name=renderer content=webkit>
+        <link href=./resource/TDT/dist/2.css rel=stylesheet>
+        <link href=./resource/TDT/dist/static/css/vendors.f4d2308f.css rel=stylesheet>
+        <link href=./resource/TDT/dist/0.css rel=stylesheet>
+        <link href=./resource/TDT/dist/static/css/main.72af8b07.css rel=stylesheet>
+    </head>
+
+    <body>
+        <!-- 信息发布，登陆注册的头部 -->
+        <header>
+            <div class="container header">
+                <div class=row>
+                    <div class="col-xs-12 col-sm-6">
+                        <div class=tips><img src=./resource/TDT/dist/static/lib/images/trumpet.png> <a href=http://lbs.tianditu.gov.cn/authorization/authorization.html target=_blank>2019年1月1日起天地图API及服务接口调用都需要获得开发授权，请您尽快调整升级!</a></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <div class=user-info>
+                            <ul class="clearfix logined" id=tdt_login>
+                                <li class=home>
+                                    <a href=http://www.tianditu.gov.cn/ title=返回国家级节点><img src=./resource/TDT/dist/static/lib/images/home.png></a>
+                                </li>
+                                <li class=userinfo_box>
+                                    <a href=https://uums.tianditu.gov.cn/personalInfo class=userinfo target=_blank id='userinfo'></a>
+                                </li>
+                                <li><a href="https://guangdong.tianditu.gov.cn/guangzhou/loginOut" class=logout>退出</a></li>
+                            </ul>
+                           
+                            <ul class="clearfix unlogin" id=tdt_not_login>
+                                
+                                <li class=home>
+                                    <a href=http://www.tianditu.gov.cn/ title=返回国家级节点><img src=./resource/TDT/dist/static/lib/images/home.png></a>
+                                </li>
+                                <li><a href="https://guangdong.tianditu.gov.cn/guangzhou/gz/SingleLogin" class=login>登录</a></li>
+                                <li><a href=https://uums.tianditu.gov.cn/register class=reg>注册</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- logo -->
+        <div class=logo_con>
+            <div class="container portal_logo"><img src=./resource/TDT/dist/static/lib/images/logo.png></div>
+        </div>
+        <!-- 导航栏 -->
+        <nav class=navbar>
+            <div class=container>
+                <div class=navbar-header><button type=button class="navbar-toggle collapsed"><span class=icon-bar></span> <span class=icon-bar></span> <span class=icon-bar></span></button></div>
+                <div id=navbar class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href=https://guangdong.tianditu.gov.cn/guangzhou/>首页</a>
+                        </li>
+                        <li class=has-items data-target=mapService><a href="javascript: void(0);">地图服务</a><span class="glyphicon glyphicon-menu-down mobile"></span>
+                            <ul class="leaf mobile">
+                                <li><a href=http://map.tianditu.gov.cn/ target=_blank onclick='saveAction("地图服务-在线地图")'>在线地图</a></li>
+                                <li><a href=https://vgimap.tianditu.gov.cn/ target=_blank onclick='saveAction("地图服务-在线更新")'>在线更新</a></li>
+                                <li><a href=https://guangdong.tianditu.gov.cn/guangzhou/smartgzsky target=_blank onclick='saveAction("地图服务-专题图层")'>专题图层</a></li>
+                                <li><a href=https://guangdong.tianditu.gov.cn/guangzhou/StandardMap/index.html target=_blank onclick='saveAction("地图服务-标准地图")'>标准地图</a></li>
+                            </ul>
+                        </li>
+                        <li class=has-items data-target=resourceOnline><a href="javascript: void(0);">开发资源</a><span class="glyphicon glyphicon-menu-down mobile"></span>
+                            <ul class="leaf mobile">
+                                <li><a href=http://lbs.tianditu.gov.cn/server/MapService.html target=_blank onclick='saveAction("开发资源-地图API")'>地图API</a></li>
+                                <li><a href=http://lbs.tianditu.gov.cn/home.html target=_blank onclick='saveAction("开发资源-网页API")'>网页API</a></li>
+                                <li><a href=http://lbs.tianditu.gov.cn/server/guide.html target=_blank onclick='saveAction("开发资源-WEB服务API")'>WEB服务API</a></li>
+                                <li><a href=http://lbs.tianditu.gov.cn/data/dataapi.html target=_blank onclick='saveAction("开发资源-数据API")'>数据API</a></li>
+                                <li><a href=http://service.tianditu.gov.cn/ target=_blank onclick='saveAction("开发资源-服务资源")'>服务资源</a></li>
+                                <li><a href=http://lbs.tianditu.gov.cn/android/guide.html target=_blank onclick='saveAction("开发资源-移动SDK")'>移动SDK</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                        <a href="https://guangdong.tianditu.gov.cn/guangzhou/bdfw" target="_blank" onclick='saveAction("本地服务")'>本地服务</a>
+                        </li>
+                    </ul>
+                    <div class=hover-menu>
+                        <ul id=mapService class=pc>
+                            <li><a href=http://map.tianditu.gov.cn/ target=_blank onclick='saveAction("在线地图")'>在线地图</a></li>
+                            <li><a href=https://vgimap.tianditu.gov.cn/ target=_blank onclick='saveAction("在线更新")'>在线更新</a></li>
+                            <li><a href=https://guangdong.tianditu.gov.cn/guangzhou/smartgzsky target=_blank onclick='saveAction("专题图层")'>专题图层</a></li>
+                            <li><a href=https://guangdong.tianditu.gov.cn/guangzhou/StandardMap/index.html target=_blank onclick='saveAction("标准地图")'>标准地图</a></li>
+                        </ul>
+                        <ul id=resourceOnline class=pc>
+                            <li><a href=http://lbs.tianditu.gov.cn/server/MapService.html target=_blank onclick='saveAction("地图API")'>地图API</a></li>
+                            <li><a href=http://lbs.tianditu.gov.cn/home.html target=_blank onclick='saveAction("网页API")'>网页API</a></li>
+                            <li><a href=http://lbs.tianditu.gov.cn/server/guide.html target=_blank onclick='saveAction("WEB服务API")'>WEB服务API</a></li>
+                            <li><a href=http://lbs.tianditu.gov.cn/data/dataapi.html target=_blank onclick='saveAction("数据API")'>数据API</a></li>
+                            <li><a href=http://service.tianditu.gov.cn/ target=_blank onclick='saveAction("服务资源")'>服务资源</a></li>
+                            <li><a href=http://lbs.tianditu.gov.cn/android/guide.html target=_blank onclick='saveAction("移动SDK")'>移动SDK</a></li>
+                        </ul>
+                        <div id=provinceCity class="district-info pc"></div>
+                        <div class=city-box>
+                            <div class=up-arrow></div>
+                            <ul class=clearfix></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- 说明 -->
+        <!-- 菜单直通车，地图散点图 -->
+        <div class="menu_map container">
+            <div class="map_box row">
+                <div id=mapDiv class="col-lg-10 col-xm-12 col-lg-push-2">
+                    <div id=map-container style="width:300px; height:300px;overflow: hidden;"></div>
+                </div>
+                <div class="col-lg-2 map_box_nav row col-lg-pull-10">
+                    <div class="col-lg-12 col-md-2 col-sm-2 col-xs-4 detail"><a href=http://map.tianditu.gov.cn/ class="proser proser1" target=_blank onclick='saveAction("在线地图")'>在线地图</a></div>
+                    <div class="col-lg-12 col-md-2 col-sm-2 col-xs-4 detail"><a href=https://guangdong.tianditu.gov.cn/guangzhou/smartgzsky class="proser proser2" target=_blank onclick='saveAction("专题图层")'>专题图层</a></div>
+                    <div class="col-lg-12 col-md-2 col-sm-2 col-xs-4 detail"><a href=http://lbs.tianditu.gov.cn/server/MapService.html class="proser proser4" target=_blank onclick='saveAction("地图API")'>地图API</a></div>
+                    <div class="col-lg-12 col-md-2 col-sm-2 col-xs-4 detail"><a href=https://vgimap.tianditu.gov.cn/ class="proser proser8" target=_blank onclick='saveAction("在线更新")'>在线更新</a></div>
+                    <div class="col-lg-12 col-md-2 col-sm-2 col-xs-4 detail"><a href=https://guangdong.tianditu.gov.cn/guangzhou/StandardMap/index.html class="proser proser6" target=_blank onclick='saveAction("标准地图")'>标准地图</a></div>
+                    <div class="col-lg-12 col-md-2 col-sm-2 col-xs-4 detail"><a href="http://www.webmap.cn/main.do?method=index" class="proser proser9" target=_blank onclick='saveAction("成果目录")'>成果目录</a></div>
+                </div>
+            </div>
+        </div>
+        <!-- 开发资源-->
+        <div class=main>
+            <div class="resource container">
+                <div class=resource>
+                    <div class=resource_tit><span>开发资源</span> <a href=http://service.tianditu.gov.cn/ target=_blank onclick='saveAction("开发资源-广州地图集")'>更多服务</a></div>
+                    <div class=resource_con>
+                        <div class="api_con col-lg-9 col-md-9">
+                            <!-- 平板dom -->
+                            <nav class="navbar navbar-default blocks">
+                                <div class=container-fluid>
+                                    <div class=navbar-header>
+                                        <ul class="nav navbar-nav">
+                                            <li class=dropdown><a href=javascript:void(0) data-target=api-resource class=dropdown-toggle id=actions data-toggle=dropdown role=button aria-haspopup=true aria-expanded=false>地图 API</a></li>
+                                            <li class=dropdown><a href=javascript:void(0) data-target=map-resource class=dropdown-toggle data-toggle=dropdown role=button aria-haspopup=true aria-expanded=false>网页API</a></li>
+                                            <li class=dropdown><a href=javascript:void(0) data-target=update-resource class=dropdown-toggle data-toggle=dropdown role=button aria-haspopup=true aria-expanded=false>WEB服务API</a></li>
+                                            <li class=dropdown><a href=javascript:void(0) data-target=date-api class=dropdown-toggle data-toggle=dropdown role=button aria-haspopup=true aria-expanded=false>数据API</a></li>
+                                            <li class=dropdown><a href=javascript:void(0) data-target=mobile-sdk class=dropdown-toggle data-toggle=dropdown role=button aria-haspopup=true aria-expanded=false>移动SDK</a></li>
+                                        </ul>
+                                    </div>
+                                    <!-- /.navbar-collapse -->
+                                </div>
+                                <!-- /.container-fluid -->
+                            </nav>
+                            <!-- 平板dom -->
+                            <div class=box_detail>
+                                <div class=detail1 id=api-resource>
+                                    <div><a>矢量底图</a></div>
+                                    <div><a>影像底图</a></div>
+                                    <div><a>地形晕渲</a></div>
+                                    <div><a>地名注记</a></div>
+                                    <div><a>全球境界</a></div>
+                                </div>
+                                <div class=detail2 id=map-resource>
+                                    <div><a href=http://lbs.tianditu.gov.cn/api/js3.0/guide.html target=_blank onclick='saveAction("开发资源-Javascript 3.0 API")'>Javascript 3.0 API</a></div>
+                                    <div><a href=http://lbs.tianditu.gov.cn/api/js4.0/guide.html target=_blank onclick='saveAction("开发资源-Javascript 4.0 API")'>Javascript 4.0 API</a></div>
+                                    <div><a href=http://lbs.tianditu.gov.cn/api/js4.0/opensource/source.html target=_blank onclick='saveAction("开发资源-Javascript 4.0 API 开源库")'>Javascript 4.0 API 开源库</a></div>
+                                </div>
+                                <div class=detail3 id=update-resource>
+                                    <div><a href=http://lbs.tianditu.gov.cn/server/search.html target=_blank onclick='saveAction("开发资源-POI搜索")'>POI搜索</a></div>
+                                    <div><a href=http://lbs.tianditu.gov.cn/server/drive.html target=_blank onclick='saveAction("开发资源-驾车规划")'>驾车规划</a></div>
+                                    <div><a href=http://lbs.tianditu.gov.cn/server/bus.html target=_blank onclick='saveAction("开发资源-公交规划")'>公交规划</a></div>
+                                    <div><a href=http://lbs.tianditu.gov.cn/server/geocodinginterface.html target=_blank onclick='saveAction("开发资源-地理编码查询")'>地理编码查询</a></div>
+                                    <div><a href=http://lbs.tianditu.gov.cn/server/geocoding.html target=_blank onclick='saveAction("开发资源-逆地理编码查询")'>逆地理编码查询</a></div>
+                                    <div><a href=http://lbs.tianditu.gov.cn/server/administrative.html target=_blank onclick='saveAction("开发资源-行政区划")'>行政区划</a></div>
+                                    <div><a href=http://lbs.tianditu.gov.cn/staticapi/static.html target=_blank onclick='saveAction("开发资源-静态地图API")'>静态地图API</a></div>
+                                </div>
+                                <div class=detail4 id=date-api>
+                                    <!--<div><a href="http://service.tianditu.gov.cn/pages/info.html?sid=1435&type=info" target=_blank>政区要素</a></div>-->
+                                    <div><a href="http://lbs.tianditu.gov.cn/data/dataapi.html" target=_blank onclick='saveAction("开发资源-交通要素")'>交通要素</a></div>
+                                    <div><a href="http://lbs.tianditu.gov.cn/data/dataapi.html" target=_blank onclick='saveAction("开发资源-水系要素")'>水系要素</a></div>
+                                    <div><a href="http://lbs.tianditu.gov.cn/data/dataapi.html" target=_blank onclick='saveAction("开发资源-居民地要素")'>居民地要素</a></div>
+                                </div>
+                                <div class=detail5 id=mobile-sdk>
+                                    <div><a href=http://lbs.tianditu.gov.cn/android/guide.html target=_blank onclick='saveAction("开发资源-Android地图SDK")'>Android地图SDK</a></div>
+                                </div>
+                            </div>
+                            <!-- 大屏 -->
+                            <ul class="col-lg-12 col-md-12 nones">
+                                <li class="sourceli col-lg-2 col-md-2"><span class=sourcespan><a href=http://lbs.tianditu.gov.cn/server/MapService.html target=_blank onclick='saveAction("开发资源-地图 API")'>地图 API</a><span class=devsour></span></span>
+                                    <div class=detail><a>矢量底图</a> <a>影像底图</a> <a>地形晕渲</a> <a>地名注记</a> <a>全球境界</a></div>
+                                </li>
+                                <li class="sourceli col-lg-3 col-md-3"><span class=sourcespan><a href=http://lbs.tianditu.gov.cn/home.html target=_blank onclick='saveAction("开发资源-网页API")'>网页API</a><span class=devsour></span></span>
+                                    <div class=detail><a href=http://lbs.tianditu.gov.cn/api/js3.0/guide.html target=_blank onclick='saveAction("开发资源-JavaScript 3.0 API")'>JavaScript 3.0 API</a> <a href=http://lbs.tianditu.gov.cn/api/js4.0/guide.html target=_blank onclick='saveAction("开发资源-JavaScript 4.0 API")'>JavaScript 4.0 API</a> <a href=http://lbs.tianditu.gov.cn/api/js4.0/opensource/source.html
+                                            target=_blank onclick='saveAction("JavaScript 4.0 API 开源库")'>JavaScript 4.0 API 开源库</a></div>
+                                </li>
+                                <li class="sourceli col-lg-3 col-md-3"><span class=sourcespan><a href=http://lbs.tianditu.gov.cn/server/guide.html target=_blank onclick='saveAction("开发资源-WEB服务API")'>WEB服务API</a><span class=devsour></span></span>
+                                    <div class=detail><a href=http://lbs.tianditu.gov.cn/server/search.html target=_blank onclick='saveAction("开发资源-POI搜索")'>POI搜索</a> <a href=http://lbs.tianditu.gov.cn/server/drive.html target=_blank onclick='saveAction("开发资源-驾车规划")'>驾车规划</a> <a href=http://lbs.tianditu.gov.cn/server/bus.html target=_blank onclick='saveAction("开发资源-公交规划")'>公交规划</a>                                        <a href=http://lbs.tianditu.gov.cn/server/geocodinginterface.html target=_blank>地理编码查询</a> <a href=http://lbs.tianditu.gov.cn/server/geocoding.html target=_blank>更多</a></div>
+                                </li>
+                                <li class="sourceli col-lg-2 col-md-2"><span class=sourcespan><a href=http://lbs.tianditu.gov.cn/data/dataapi.html target=_blank onclick='saveAction("开发资源-数据API")'>数据API</a><span class=devsour></span></span>
+                                    <div class=detail><a href="http://lbs.tianditu.gov.cn/data/dataapi.html" target=_blank onclick='saveAction("开发资源-交通要素")'>交通要素</a> <a href="http://lbs.tianditu.gov.cn/data/dataapi.html"
+                                            target=_blank onclick='saveAction("开发资源-水系要素")'>水系要素</a> <a href="http://lbs.tianditu.gov.cn/data/dataapi.html" target=_blank onclick='saveAction("开发资源-居民地要素")'>居民地要素</a></div>
+                                </li>
+                                <li class="sourceli col-lg-2 col-md-2"><span class=sourcespan><a href=http://lbs.tianditu.gov.cn/android/guide.html target=_blank onclick='saveAction("开发资源-移动SDK")'>移动SDK</a><span class=devsour></span></span>
+                                    <div class=detail><a href=http://lbs.tianditu.gov.cn/android/guide.html target=_blank onclick='saveAction("开发资源-Android地图SDK")'>Android地图SDK</a></div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="exploit col-lg-3 col-md-3">
+                            <p>为开发者提供应用程序开发接口和在线服务资源，可满足各类基于地理信息的应用开发需求。</p>
+                            <div class=developer><a href=https://console.tianditu.gov.cn target=_blank>成为开发者</a><i></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 专题，典型 -->
+            <div class="app container">
+                <div class=row>
+                    <!-- 专题频道 -->
+                    <div class="special col-xs-12 col-sm-12 col-md-3">
+                        <h4><span>专题频道</span></h4>
+                        <div class="col-xs-12 col-sm-6 col-md-12">
+                            <a href=resource/TDT/datu/GZMCDTBM.html target=_blank onclick='saveAction("专题频道-历史文化名城")'><img class=img-responsive src=./resource/TDT/dist/static/app/lswhmc.png></a>
+                        </div>
+                    </div>
+                    <!-- 典型应用 -->
+                    <div class="application col-xs-12 col-sm-12 col-md-9">
+                        <h4><span>典型应用</span></h4>
+                        <div class="col-xs-12 col-sm-6">
+                            <a href=https://guangdong.tianditu.gov.cn/guangzhou/tsfwshdt target=_blank onclick='saveAction("典型应用-赏花地图")' class='activeEvent'><img src=./resource/TDT/dist/static/app/美丽花城-01.png>
+                                <div class=detail>
+                                    <h4>赏花地图</h4>
+                                    <div class=tip><span>点击查看详情</span><i></i></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                            <a href=https://guangdong.tianditu.gov.cn/guangzhou/smartgzsky/Map/Djcx target=_blank onclick='saveAction("典型应用-地籍查询")'><img src=./resource/TDT/dist/static/app/地籍查询-01-01.png>
+                                <div class=detail>
+                                    <h4>地籍查询</h4>
+                                    <div class=tip><span>点击查看详情</span><i></i></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                            <a href=https://guangdong.tianditu.gov.cn/guangzhou/zstdcs/ target=_blank onclick='saveAction("典型应用-可招商土地库")'><img src=./resource/TDT/dist/static/app/kzstdk.png>
+                                <div class=detail>
+                                    <h4>招商土地超市</h4>
+                                    <div class=tip><span>点击查看详情</span><i></i></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                            <a href=https://guangdong.tianditu.gov.cn/guangzhou/15thNGC/ target=_blank onclick='saveAction("典型应用-十五运会场馆（广州）地图")'><img src=./resource/TDT/dist/static/app/qyh.svg>
+                                <div class=detail>
+                                    <h4>十五运会场馆（广州）地图</h4>
+                                    <div class=tip><span>点击查看详情</span><i></i></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                            <a href=https://guangdong.tianditu.gov.cn/guangzhou/eldermap/index.html target=_blank onclick='saveAction("典型应用-银龄服务")'><img src=./resource/TDT/dist/static/app/ylfw.jpg>
+                                <div class=detail>
+                                    <h4>银龄服务</h4>
+                                    <div class=tip><span>点击查看详情</span><i></i></div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </div> -->
+        <!-- 底部版权 -->
+        <div class="footer_bg container">
+            <div class=footer>
+                <div class="footerBox row">
+                    <div class="row col-md-8 col-md-push-2">
+                        <div class="footer_right col-md-8 col-sm-12 col-xs-12 col-md-push-2">
+                            <div class=copyright><span>广州市规划和自然资源局</span><span>版权所有</span> CopyRight © All Right Reserved. 盗版必究</br><span>备案号：<a href='https://beian.miit.gov.cn/' target='_blank' style='cursor:pointer;'>粤ICP备16007440号-5</a></span></br><span>技术支持：广州市基础地理信息中心</span></br><span>审图号：粤AS（2026）030号</span></div>
+                        </div>
+                        <div class='footer_left col-md-4 col-sm-12 col-xs-12 col-md-pull-10'>
+                            <div style="display: inline;">
+                                <a target="_blank" href="https://zfwzgl.www.gov.cn/exposure/jiucuo.html?site_code=4400000074&url=https%3A%2F%2Fguangdong.tianditu.gov.cn%2F">
+                                    <img src="./resource/TDT/img/jiucuo.png"/>
+                                </a>
+                            </div>
+                            <div style="display: inline;">
+                                <a target="_blank" href="http://bszs.conac.cn/sitename?method=show&id=542D475105E5416DE053022819AC5A96">
+                                    <img src="./resource/TDT/img/dzjg.png"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src=./resource/TDT/dist/static/map/switchLayer.js></script>
+        <script type=text/javascript src=./resource/TDT/dist/static/js/manifest.d72a2260.js></script>
+        <script type=text/javascript src=./resource/TDT/dist/static/js/vendors.90350800.js></script>
+        <script type=text/javascript src=./resource/TDT/dist/static/js/main.f373e244.js></script>
+        <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?ed53da5bdccd8dc3249f0cfad7521d49";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+        
+        var _hmtl = _hmtl || [];
+        (function() {
+          var hml = document.createElement("script");
+          hml.src = "https://hm.baidu.com/hm.js?8815d01815d3aab41021f6085726bd1a";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hml, s);
+        })();
+        </script>
+    </body>
+</html><div id="win"></div></body></html>

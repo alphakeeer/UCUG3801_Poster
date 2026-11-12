@@ -1,0 +1,706 @@
+[
+  {
+    "source_id": "E001",
+    "title": "2026天河区义务教育招生细则通知",
+    "kind": "官方招生通知",
+    "scope": "三学段规则",
+    "url": "https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10791180.html",
+    "document_date": "2026",
+    "scope_note": "附件含学校地段、地址、计划及初中对口"
+  },
+  {
+    "source_id": "E002",
+    "title": "2026义务教育细则与全套附件",
+    "kind": "官方招生附件PDF",
+    "scope": "小学初中",
+    "url": "https://www.thnet.gov.cn/attachment/8/8016/8016210/10791180.pdf",
+    "document_date": "2026",
+    "scope_note": "完整约37MB附件，扫描页需OCR",
+    "large_file": true
+  },
+  {
+    "source_id": "E003",
+    "title": "2026幼儿园招生工作方案",
+    "kind": "官方招生政策",
+    "scope": "幼儿园",
+    "url": "https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10777181.html",
+    "document_date": "2026",
+    "scope_note": "原文可能含扫描附件和图片，按实际内容核验"
+  },
+  {
+    "source_id": "E004",
+    "title": "2026教育部门办幼儿园招生计划",
+    "kind": "官方机构与计划",
+    "scope": "幼儿园",
+    "url": "https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10815546.html",
+    "document_date": "2026-05-18",
+    "scope_note": "园区、地址、计划、业主子女和剩余随机派位分列"
+  },
+  {
+    "source_id": "E005",
+    "title": "2026其他部门办幼儿园信息表",
+    "kind": "官方机构名录",
+    "scope": "幼儿园",
+    "url": "https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10815974.html",
+    "document_date": "2026-05-18",
+    "scope_note": "集体事业单位等主办属性与实际招生规则分别核验"
+  },
+  {
+    "source_id": "E006",
+    "title": "2026民办幼儿园信息表",
+    "kind": "官方机构名录",
+    "scope": "幼儿园",
+    "url": "https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10815624.html",
+    "document_date": "2026-05-18",
+    "scope_note": "2024年检与2026计划分别记录，表中未列当前价格"
+  },
+  {
+    "source_id": "E007",
+    "title": "来穗积分入学实施办法解读2024",
+    "kind": "官方政策解读",
+    "scope": "小学初中",
+    "url": "https://www.thnet.gov.cn/zwgk/zcjd/content/post_9629242.html",
+    "document_date": "2024-04-30",
+    "scope_note": "由解读回溯正式原文及有效期"
+  },
+  {
+    "source_id": "E008",
+    "title": "2026积分入学录取通知规则页",
+    "kind": "官方流程通知",
+    "scope": "小学初中",
+    "url": "https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10885658.html",
+    "document_date": "2026",
+    "scope_note": "只收通知规则，学生个人录取附件不纳入"
+  },
+  {
+    "source_id": "E009",
+    "title": "广州免费学前教育政策问答",
+    "kind": "官方政策问答",
+    "scope": "幼儿园收费",
+    "url": "https://www.zc.gov.cn/fw/ztfw/grfw/jyfw/content/post_10895442.html",
+    "document_date": "2026-07-09",
+    "scope_note": "来源广州招考，保教减免与其他费用分列"
+  },
+  {
+    "source_id": "E010",
+    "title": "完善幼儿园收费政策国家通知",
+    "kind": "官方收费政策",
+    "scope": "幼儿园收费",
+    "url": "https://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=20577",
+    "document_date": "2025-12-15",
+    "scope_note": "2026-01-01施行，与地方标准配套解释"
+  },
+  {
+    "source_id": "E011",
+    "title": "中华人民共和国义务教育法",
+    "kind": "法律",
+    "scope": "义务教育收费",
+    "url": "https://www.moe.gov.cn/jyb_sjzl/sjzl_zcfg/zcfg_jyfl/202110/t20211029_575949.html",
+    "document_date": "2018修正",
+    "scope_note": "依法免费原则与具体服务项目费用分列"
+  },
+  {
+    "source_id": "E012",
+    "title": "广州市标准地图平台",
+    "kind": "官方地图平台",
+    "scope": "地图边界",
+    "url": "https://guangdong.tianditu.gov.cn/guangzhou/StandardMap/index.html",
+    "document_date": "",
+    "scope_note": "图幅、版本、审图号和下载入口"
+  },
+  {
+    "source_id": "E013",
+    "title": "天地图广州主页",
+    "kind": "官方地图平台",
+    "scope": "地图边界",
+    "url": "https://guangdong.tianditu.gov.cn/guangzhou/",
+    "document_date": "",
+    "scope_note": "页面及公开服务说明"
+  },
+  {
+    "source_id": "E014",
+    "title": "广州地理信息服务平台官方介绍",
+    "kind": "官方地图说明",
+    "scope": "地图边界",
+    "url": "https://ghzyj.gz.gov.cn/sjb/fw/cjwt/content/post_8580169.html",
+    "document_date": "2021-11-12",
+    "scope_note": "本地平台组织建设说明"
+  },
+  {
+    "source_id": "E015",
+    "title": "广州市行政区划图2024",
+    "kind": "官方地图PDF",
+    "scope": "地图边界",
+    "url": "https://mzj.gz.gov.cn/attachment/7/7755/7755566/10098921.pdf",
+    "document_date": "2024-06数据",
+    "scope_note": "区级位置参考，不用于精细社区界认定",
+    "large_file": true
+  },
+  {
+    "source_id": "E016",
+    "title": "天河国土空间总体规划2021至2035",
+    "kind": "官方规划",
+    "scope": "规划原因",
+    "url": "https://www.thnet.gov.cn/zwgk/ghjh/content/post_10726854.html",
+    "document_date": "2026-03-13",
+    "scope_note": "规划图及公共服务配置背景"
+  },
+  {
+    "source_id": "E017",
+    "title": "2026教育系统部门预算目录",
+    "kind": "官方预算目录",
+    "scope": "学校机构核验",
+    "url": "https://www.thnet.gov.cn/gzthjy/gkmlpt/content/10/10785/post_10785604.html",
+    "document_date": "2026",
+    "scope_note": "按相关校区选择附件，预算不是学费公示"
+  },
+  {
+    "source_id": "E018",
+    "title": "猎德社区范围官方介绍",
+    "kind": "官方门户报道",
+    "scope": "社区边界",
+    "url": "https://www.thnet.gov.cn/thdt/mtjj/content/post_10216558.html",
+    "document_date": "2025-04-16",
+    "scope_note": "0.55平方公里文本口径，需精细界核验",
+    "existing_file": "03_背景/资料库/原始文件/S36_猎德社区志愿服务及范围介绍.html"
+  },
+  {
+    "source_id": "E019",
+    "title": "猎德国际街区范围介绍",
+    "kind": "官方门户报道",
+    "scope": "街区边界",
+    "url": "https://www.eguangzhou.gov.cn/gzspecialreports/intlblocks/details/liede/content/post_31834.html",
+    "document_date": "2025-04-14",
+    "scope_note": "3.5平方公里国际街区范围单列",
+    "existing_file": "03_背景/资料库/原始文件/S38_猎德国际街区官方介绍.html"
+  },
+  {
+    "source_id": "E020",
+    "title": "2026猎德幼儿园预算",
+    "kind": "官方预算PDF",
+    "scope": "学校机构核验",
+    "url": "https://www.thnet.gov.cn/gzthjy/attachment/8/8012/8012345/10785604.pdf",
+    "document_date": "2026",
+    "scope_note": "生均、收入与收费口径分别解释"
+  },
+  {
+    "source_id": "E021",
+    "title": "2024猎德幼儿园决算",
+    "kind": "官方决算PDF",
+    "scope": "学校机构核验",
+    "url": "https://www.thnet.gov.cn/gzthjy/attachment/7/7914/7914792/10488883.pdf",
+    "document_date": "2024统计期",
+    "scope_note": "用于机构和费用核算背景"
+  },
+  {
+    "source_id": "E022",
+    "title": "2020民办幼儿园历史收费名录",
+    "kind": "官方历史名录",
+    "scope": "幼儿园收费历史",
+    "url": "https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_5838633.html",
+    "document_date": "2020",
+    "scope_note": "历史价格不作为2026现价"
+  },
+  {
+    "source_id": "E023",
+    "title": "2026猎德街面积口径报道",
+    "kind": "区融媒体报道",
+    "scope": "街道边界",
+    "url": "https://huacheng.gz-cmc.com/pages/2026/03/31/94e835eccce5496ab56012709bdb3f01.html",
+    "document_date": "2026-03-31",
+    "scope_note": "3.2平方公里报道，不代替精确街道界"
+  },
+  {
+    "source_id": "E024",
+    "title": "猎德西部首个公办园华文幼儿园开学",
+    "kind": "官方门户报道",
+    "scope": "空间差异与变化",
+    "url": "https://www.thnet.gov.cn/thdt/mtjj/content/post_10439168.html",
+    "document_date": "2025",
+    "scope_note": "利民社区、西部供给变化、承办与规划背景"
+  },
+  {
+    "source_id": "E025",
+    "title": "天河区幼儿园基本情况2022",
+    "kind": "官方历史机构名录",
+    "scope": "机构校区",
+    "url": "https://www.thnet.gov.cn/zwgk/ggqsydwxxgkzl/jyly/yey/content/post_8724008.html",
+    "document_date": "2023-02发布，2022内容",
+    "scope_note": "历史主办和地址，2026需交叉核对"
+  },
+  {
+    "source_id": "E026",
+    "title": "天河区小学基本情况2022",
+    "kind": "官方历史机构名录",
+    "scope": "机构校区",
+    "url": "https://www.thnet.gov.cn/zwgk/ggqsydwxxgkzl/jyly/xx/content/post_8724023.html",
+    "document_date": "2023-02发布，2022内容",
+    "scope_note": "含街道及多个校区，原文错别字保留"
+  },
+  {
+    "source_id": "E027",
+    "title": "天河区九年一贯制学校基本情况2022",
+    "kind": "官方历史机构名录",
+    "scope": "机构校区",
+    "url": "https://www.thnet.gov.cn/zwgk/ggqsydwxxgkzl/jyly/jnygzxx/content/post_8724037.html",
+    "document_date": "2023-02发布，2022内容",
+    "scope_note": "猎德实验、南国等的历史阶段地址"
+  },
+  {
+    "source_id": "E028",
+    "title": "天河区完全中学基本情况2022",
+    "kind": "官方历史机构名录",
+    "scope": "机构校区",
+    "url": "https://www.thnet.gov.cn/zwgk/ggqsydwxxgkzl/jyly/wqzx/content/post_8724046.html",
+    "document_date": "2023-02发布，2022内容",
+    "scope_note": "初高中校区分别核验"
+  },
+  {
+    "source_id": "E029",
+    "title": "天河区初级中学基本情况2022",
+    "kind": "官方历史机构名录",
+    "scope": "机构校区",
+    "url": "https://www.thnet.gov.cn/zwgk/ggqsydwxxgkzl/jyly/cjzx/content/post_8724029.html",
+    "document_date": "2023-02发布，2022内容",
+    "scope_note": "用于周边补漏"
+  },
+  {
+    "source_id": "E030",
+    "title": "2026积分入学学位申请指引",
+    "kind": "官方招生规则与计划",
+    "scope": "小学初中准入",
+    "url": "https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10872346.html",
+    "document_date": "2026-06-25",
+    "scope_note": "含全区计划、填报、民办学位补贴；附件为机构计划"
+  },
+  {
+    "source_id": "E031",
+    "title": "2026港澳居民学位申请指引",
+    "kind": "官方招生规则",
+    "scope": "小学初中准入",
+    "url": "https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10833283.html",
+    "document_date": "2026-05-29",
+    "scope_note": "南国小学初中及陶育计划，按类别适用"
+  },
+  {
+    "source_id": "E032",
+    "title": "2026规范公办小学转学通知",
+    "kind": "官方招生规则",
+    "scope": "小学转学",
+    "url": "https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10825799.html",
+    "document_date": "2026-05-25",
+    "scope_note": "转学与小一入学规则分别处理"
+  },
+  {
+    "source_id": "E033",
+    "title": "2026幼儿园特教班招生计划",
+    "kind": "官方招生计划",
+    "scope": "特殊教育",
+    "url": "https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10815975.html",
+    "document_date": "2026-05-18",
+    "scope_note": "阶段与适用对象单列"
+  },
+  {
+    "source_id": "E034",
+    "title": "广州公办幼儿园收费2024政策解读",
+    "kind": "官方收费解读",
+    "scope": "幼儿园收费",
+    "url": "https://fgw.gz.gov.cn/gkmlpt/content/9/9577/post_9577757.html",
+    "document_date": "2024-04-03",
+    "scope_note": "823与995基准及新生老生需结合2026和减免核验"
+  },
+  {
+    "source_id": "E035",
+    "title": "猎德幼儿园教育局课程介绍2021",
+    "kind": "官方教育机构介绍",
+    "scope": "机构背景",
+    "url": "https://jyj.gz.gov.cn/yw/qjyjdt/thqjyj/content/post_7338083.html",
+    "document_date": "2021",
+    "scope_note": "公办、成立时间及等级为当时信息"
+  },
+  {
+    "source_id": "E036",
+    "title": "2025其他部门办幼儿园信息表",
+    "kind": "官方历史名录",
+    "scope": "机构变化",
+    "url": "https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10258876.html",
+    "document_date": "2025-05",
+    "scope_note": "K2-4地块与华文幼儿园名称对应待核"
+  },
+  {
+    "source_id": "E037",
+    "title": "天河招生考试目录页",
+    "kind": "官方索引",
+    "scope": "附件发现",
+    "url": "https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/index.html",
+    "document_date": "2026检索",
+    "scope_note": "保存链接发现入口"
+  },
+  {
+    "source_id": "E038",
+    "title": "广州中小学教育收费规范2020",
+    "kind": "官方收费制度",
+    "scope": "中小学收费",
+    "url": "https://www.moe.gov.cn/srcsite/A05/s7503/202008/t20200827_480721.html",
+    "document_date": "2020",
+    "scope_note": "费用分类背景与当年具体标准分别处理"
+  },
+  {
+    "source_id": "E016-A001",
+    "title": "2505发文稿附件 广州市天河区国土空间总体规划（2021—2035年）图集（对外印发）.pdf",
+    "kind": "官方附件PDF",
+    "scope": "规划",
+    "url": "https://www.thnet.gov.cn/attachment/7/7795/7795828/10208507.pdf",
+    "document_date": "2021—2035规划期",
+    "scope_note": "由已保存官方网页附件取得，预算金额不作为学费"
+  },
+  {
+    "source_id": "E017-A015",
+    "title": "8.2026年广州市天河中学部门预算.pdf",
+    "kind": "官方附件PDF",
+    "scope": "相关学校2026预算",
+    "url": "https://www.thnet.gov.cn/gzthjy/attachment/8/8012/8012200/10785604.pdf",
+    "document_date": "2026",
+    "scope_note": "由已保存官方网页附件取得，预算金额不作为学费"
+  },
+  {
+    "source_id": "E017-A069",
+    "title": "35.2026年广州市南国学校部门预算.pdf",
+    "kind": "官方附件PDF",
+    "scope": "相关学校2026预算",
+    "url": "https://www.thnet.gov.cn/gzthjy/attachment/8/8012/8012257/10785604.pdf",
+    "document_date": "2026",
+    "scope_note": "由已保存官方网页附件取得，预算金额不作为学费"
+  },
+  {
+    "source_id": "E017-A095",
+    "title": "48.2026年广州市天河中学猎德实验学校部门预算.pdf",
+    "kind": "官方附件PDF",
+    "scope": "相关学校2026预算",
+    "url": "https://www.thnet.gov.cn/gzthjy/attachment/8/8012/8012283/10785604.pdf",
+    "document_date": "2026",
+    "scope_note": "由已保存官方网页附件取得，预算金额不作为学费"
+  },
+  {
+    "source_id": "E017-A143",
+    "title": "72.2026年广州市天河第二实验幼儿园部门预算.pdf",
+    "kind": "官方附件PDF",
+    "scope": "相关学校2026预算",
+    "url": "https://www.thnet.gov.cn/gzthjy/attachment/8/8012/8012331/10785604.pdf",
+    "document_date": "2026",
+    "scope_note": "由已保存官方网页附件取得，预算金额不作为学费"
+  },
+  {
+    "source_id": "E017-A151",
+    "title": "76.2026年广州市天河外国语学校部门预算.pdf",
+    "kind": "官方附件PDF",
+    "scope": "相关学校2026预算",
+    "url": "https://www.thnet.gov.cn/gzthjy/attachment/8/8012/8012339/10785604.pdf",
+    "document_date": "2026",
+    "scope_note": "由已保存官方网页附件取得，预算金额不作为学费"
+  },
+  {
+    "source_id": "E017-A203",
+    "title": "102.2026年广州市天河区金穗幼儿园部门预算.pdf",
+    "kind": "官方附件PDF",
+    "scope": "相关学校2026预算",
+    "url": "https://www.thnet.gov.cn/gzthjy/attachment/8/8012/8012391/10785604.pdf",
+    "document_date": "2026",
+    "scope_note": "由已保存官方网页附件取得，预算金额不作为学费"
+  },
+  {
+    "source_id": "E017-A207",
+    "title": "104.2026年广州市天河区萃禾幼儿园部门预算.pdf",
+    "kind": "官方附件PDF",
+    "scope": "相关学校2026预算",
+    "url": "https://www.thnet.gov.cn/gzthjy/attachment/8/8012/8012395/10785604.pdf",
+    "document_date": "2026",
+    "scope_note": "由已保存官方网页附件取得，预算金额不作为学费"
+  },
+  {
+    "source_id": "E017-A219",
+    "title": "110.2026年广州市天河区体育东路小学兴国学校部门预算.pdf",
+    "kind": "官方附件PDF",
+    "scope": "相关学校2026预算",
+    "url": "https://www.thnet.gov.cn/gzthjy/attachment/8/8012/8012407/10785604.pdf",
+    "document_date": "2026",
+    "scope_note": "由已保存官方网页附件取得，预算金额不作为学费"
+  },
+  {
+    "source_id": "E017-A221",
+    "title": "111.2026年广州市天河区体育东路小学海明学校部门预算.pdf",
+    "kind": "官方附件PDF",
+    "scope": "相关学校2026预算",
+    "url": "https://www.thnet.gov.cn/gzthjy/attachment/8/8012/8012409/10785604.pdf",
+    "document_date": "2026",
+    "scope_note": "由已保存官方网页附件取得，预算金额不作为学费"
+  },
+  {
+    "source_id": "E017-A233",
+    "title": "117.2026年广州市天河第一小学部门预算.pdf",
+    "kind": "官方附件PDF",
+    "scope": "相关学校2026预算",
+    "url": "https://www.thnet.gov.cn/gzthjy/attachment/8/8012/8012421/10785604.pdf",
+    "document_date": "2026",
+    "scope_note": "由已保存官方网页附件取得，预算金额不作为学费"
+  },
+  {
+    "source_id": "E017-A249",
+    "title": "125.2026年广州市天河区童时光幼儿园部门预算.pdf",
+    "kind": "官方附件PDF",
+    "scope": "相关学校2026预算",
+    "url": "https://www.thnet.gov.cn/gzthjy/attachment/8/8012/8012437/10785604.pdf",
+    "document_date": "2026",
+    "scope_note": "由已保存官方网页附件取得，预算金额不作为学费"
+  },
+  {
+    "source_id": "E030-A001",
+    "title": "附件1 2026年公办小学积分入学招生计划表",
+    "kind": "官方积分学位计划表",
+    "scope": "小学初中",
+    "url": "https://www.thnet.gov.cn/attachment/8/8040/8040292/10872346.xls",
+    "document_date": "2026-06-25",
+    "scope_note": "学校计划汇总，无学生个人名单"
+  },
+  {
+    "source_id": "E030-A002",
+    "title": "附件2 2026年天河区公办初中积分入学招生计划",
+    "kind": "官方积分学位计划表",
+    "scope": "小学初中",
+    "url": "https://www.thnet.gov.cn/attachment/8/8040/8040293/10872346.xls",
+    "document_date": "2026-06-25",
+    "scope_note": "学校计划汇总，无学生个人名单"
+  },
+  {
+    "source_id": "E030-A003",
+    "title": "附件3 2026年天河区民办中小学积分入学招生计划",
+    "kind": "官方积分学位计划表",
+    "scope": "小学初中",
+    "url": "https://www.thnet.gov.cn/attachment/8/8040/8040294/10872346.xlsx",
+    "document_date": "2026-06-25",
+    "scope_note": "学校计划汇总，无学生个人名单"
+  },
+  {
+    "source_id": "E039",
+    "title": "广州2024幼儿园收费正式通知",
+    "url": "https://fgw.gz.gov.cn/gkmlpt/content/9/9577/post_9577385.html",
+    "kind": "官方价格文件",
+    "scope": "幼儿园",
+    "document_date": "2024",
+    "scope_note": "与2025免费学前和2026国家收费政策结合使用"
+  },
+  {
+    "source_id": "E040",
+    "title": "广州2026幼儿园招生通知修订",
+    "url": "https://jyj.gz.gov.cn/gkmlpt/content/10/10782/post_10782083.html",
+    "kind": "官方招生政策",
+    "scope": "幼儿园",
+    "document_date": "2026",
+    "scope_note": "与2025免费学前和2026国家收费政策结合使用"
+  },
+  {
+    "source_id": "E041",
+    "title": "猎德街年鉴范围和历史设施",
+    "url": "https://www.thnet.gov.cn/thxxw/thnjj/201805/8cceab99d80d40c59a61ff27dc82154b/files/6632b0ba41a7460aa69b2d000906414d.pdf",
+    "kind": "官方年鉴PDF",
+    "scope": "边界",
+    "document_date": "正文回顾2012年，URL含201805归档路径",
+    "scope_note": "592页年鉴，猎德街条目PDF第443页，历史资料与现行地图交叉使用，路径年份不等于统计年"
+  },
+  {
+    "source_id": "E042",
+    "title": "广州标准地图2022街镇公开目录",
+    "kind": "官方公开地图元数据",
+    "scope": "地图",
+    "url": "https://guangdong.tianditu.gov.cn/guangzhou/map/findAll?area=%E9%95%87%E7%BA%A7%E5%9C%B0%E5%9B%BE&year=2022&mode=%E9%95%87%E7%BA%A7%E5%9C%B0%E5%9B%BE",
+    "format": "json",
+    "document_date": "2022版目录",
+    "scope_note": "平台公开列表，含176图幅，下载时间与地图版本分列",
+    "large_file": true,
+    "existing_file": "03_背景/教育专题/地图/2022广州街镇标准地图公开目录.json"
+  },
+  {
+    "source_id": "E043",
+    "title": "2022猎德街道标准地图公开预览",
+    "kind": "官方地图预览",
+    "scope": "街道地图",
+    "url": "https://guangdong.tianditu.gov.cn/guangzhou/SMData/mapimageYZ/2022/%E7%8C%8E%E5%BE%B7%E8%A1%97%E9%81%93%E5%9C%B0%E5%9B%BE.jpg",
+    "document_date": "2022",
+    "scope_note": "LDJD1-2022，公开浏览预览，保留审图及水印信息",
+    "large_file": true
+  },
+  {
+    "source_id": "E044",
+    "title": "2022冼村街道地图公开预览",
+    "kind": "官方地图预览",
+    "scope": "周边街道地图",
+    "url": "https://guangdong.tianditu.gov.cn/guangzhou/SMData/mapimageYZ/2022/%E5%86%BC%E6%9D%91%E8%A1%97%E9%81%93%E5%9C%B0%E5%9B%BE.jpg",
+    "document_date": "2022",
+    "scope_note": "公开浏览预览，保留平台水印与审图信息",
+    "large_file": true
+  },
+  {
+    "source_id": "E045",
+    "title": "2022员村街道地图公开预览",
+    "kind": "官方地图预览",
+    "scope": "周边街道地图",
+    "url": "https://guangdong.tianditu.gov.cn/guangzhou/SMData/mapimageYZ/2022/%E5%91%98%E6%9D%91%E8%A1%97%E9%81%93%E5%9C%B0%E5%9B%BE.jpg",
+    "document_date": "2022",
+    "scope_note": "公开浏览预览，保留平台水印与审图信息",
+    "large_file": true
+  },
+  {
+    "source_id": "E046",
+    "title": "2022天河南街道地图公开预览",
+    "kind": "官方地图预览",
+    "scope": "周边街道地图",
+    "url": "https://guangdong.tianditu.gov.cn/guangzhou/SMData/mapimageYZ/2022/%E5%A4%A9%E6%B2%B3%E5%8D%97%E8%A1%97%E9%81%93%E5%9C%B0%E5%9B%BE.jpg",
+    "document_date": "2022",
+    "scope_note": "公开浏览预览，保留平台水印与审图信息",
+    "large_file": true
+  },
+  {
+    "source_id": "E047",
+    "title": "学前教育法",
+    "url": "https://www.moe.gov.cn/jyb_sjzl/sjzl_zcfg/zcfg_jyfl/202411/t20241108_1161363.html",
+    "kind": "法律",
+    "scope": "幼儿园",
+    "document_date": "2024-11-08生效2025-06-01",
+    "scope_note": "学前教育收费和财政保障上位依据"
+  },
+  {
+    "source_id": "E048",
+    "title": "国务院免费学前教育意见",
+    "url": "https://www.moe.gov.cn/jyb_xxgk/moe_1777/moe_1778/202508/t20250805_1258143.html",
+    "kind": "国家政策",
+    "scope": "幼儿园",
+    "document_date": "2025-08-05",
+    "scope_note": "学前教育收费和财政保障上位依据"
+  },
+  {
+    "source_id": "E049",
+    "title": "天河2024来穗积分入学实施办法正式原文",
+    "url": "https://www.thnet.gov.cn/gzthjy/gkmlpt/content/9/9627/post_9627891.html",
+    "kind": "官方积分办法",
+    "scope": "小学初中",
+    "document_date": "2024",
+    "scope_note": "适用条件、时效及费用类别逐项保留"
+  },
+  {
+    "source_id": "E050",
+    "title": "广州2025公办中小学收费管理通知",
+    "url": "https://fgw.gz.gov.cn/ztzl/gzsfzggwzdlyxxgkzl/content/post_10506743.html",
+    "kind": "官方收费文件",
+    "scope": "小学初中",
+    "document_date": "2025-09-30，自2025-10-29生效",
+    "scope_note": "适用条件、时效及费用类别逐项保留"
+  },
+  {
+    "source_id": "E051",
+    "title": "广州2024课后服务收费通知",
+    "url": "https://fgw.gz.gov.cn/gkmlpt/content/9/9464/post_9464599.html",
+    "kind": "官方收费文件",
+    "scope": "小学初中课后服务",
+    "document_date": "2024-01-23",
+    "scope_note": "学校提供2元每40分钟，第三方不同规则，困难学生减免"
+  },
+  {
+    "source_id": "E049-A001",
+    "title": "天河2024来穗积分入学指标及分值体系表",
+    "url": "https://www.thnet.gov.cn/gzthjy/attachment/7/7596/7596443/9627891.xls",
+    "kind": "官方积分指标附件",
+    "scope": "小学初中",
+    "document_date": "2024-04-30，办法有效至2028-12-31",
+    "scope_note": "逐项积分规则与2026招生计划联读，无个人资料"
+  },
+  {
+    "source_id": "E052",
+    "title": "新蕾学校小学收费批复2025公布",
+    "url": "https://fgw.gz.gov.cn/tzgg/ywgg/content/post_10414690.html",
+    "kind": "逐校官方收费批复",
+    "scope": "天河区新蕾学校小学",
+    "document_date": "2025-08-19，2025-08-22发布",
+    "scope_note": "8000元每生每学期，2024秋季起四个学年，外围民办候选，实际减免及附加费另核"
+  },
+  {
+    "source_id": "E053",
+    "title": "2024天河民办幼儿园历史名录",
+    "url": "https://www.thnet.gov.cn/attachment/7/7600/7600731/9641180.pdf",
+    "kind": "官方历史幼儿园名录",
+    "scope": "历史名称与变更核验",
+    "document_date": "2024",
+    "scope_note": "含铭初等历史条目，2026未同名检出不能直接判停办"
+  },
+  {
+    "source_id": "E054",
+    "title": "新昌学校小学初中收费批复2024",
+    "url": "https://fgw.gz.gov.cn/gkmlpt/content/9/9758/post_9758311.html",
+    "kind": "逐校官方收费批复",
+    "scope": "小学初中",
+    "document_date": "2024-07-12",
+    "scope_note": "小学8700，初中10600元每学期，2024秋起4学年，新生老生区分"
+  },
+  {
+    "source_id": "E055",
+    "title": "广州2024民办义务教育收费管理通知",
+    "url": "https://fgw.gz.gov.cn/gkmlpt/content/10/10052/post_10052879.html",
+    "kind": "官方民办收费政策",
+    "scope": "小学初中",
+    "document_date": "2024-12-26",
+    "scope_note": "政府指导价可下浮、学费补助扣除、新生老生和收费周期等"
+  },
+  {
+    "source_id": "E056",
+    "title": "2026铭初幼儿园公司清算公告报纸原页",
+    "url": "https://ep.ycwb.com/epaper/gdjs/resfile/2026-02-10/06/gdjsb2026021006.pdf",
+    "kind": "当事人登报公告原件",
+    "scope": "园所历史状态核验",
+    "document_date": "2026-02-10",
+    "scope_note": "企业清算公告，法律主体和实际园区处置分别核查；作为2024园所到2026名单变化线索"
+  },
+  {
+    "source_id": "E057",
+    "title": "2025猎德街联合铭初幼儿园生态研学报道",
+    "url": "https://huacheng.gz-cmc.com/pages/2025/03/18/2fc5ab26a80d45e1a2fd6edf26238eff.html",
+    "kind": "区融媒体报道",
+    "scope": "园所历史状态核验",
+    "document_date": "2025-03-18",
+    "scope_note": "历史活动与2026清算线索分别登记，不列为2026在招园"
+  },
+  {
+    "source_id": "E058",
+    "title": "天河2025年度民办学校年检最终结论2026发布",
+    "url": "https://www.thnet.gov.cn/thdt/tzgg/qtgg/content/post_10887689.html",
+    "kind": "官方年检公示与结论",
+    "scope": "机构状态核验",
+    "document_date": "网页2026-07-03，落款2025-07-03",
+    "scope_note": "发布日期与落款年不一致，保留冲突，附件检查年度2025"
+  },
+  {
+    "source_id": "E059",
+    "title": "天河2024年度民办中小学幼儿园年检初步结论",
+    "url": "https://www.thnet.gov.cn/gzjg/qzf/qjyj/tzgg/content/post_10308800.html",
+    "kind": "官方年检公示与结论",
+    "scope": "机构状态核验",
+    "document_date": "2025-06-13",
+    "scope_note": "仅初步公示，原始年度和公示阶段保留"
+  },
+  {
+    "source_id": "E058-A001",
+    "title": "天河区民办学校（含民办中小学、幼儿园、培训机构）2025年度年检结论",
+    "url": "https://www.thnet.gov.cn/attachment/8/8044/8044452/10887689.xlsx",
+    "kind": "官方年检学校汇总附件",
+    "scope": "幼儿园及中小学机构状态",
+    "document_date": "2025检查年度，2026发布",
+    "scope_note": "只提取学校与幼儿园机构状态，附件原件保留完整来源"
+  },
+  {
+    "source_id": "E059-A001",
+    "title": "附件1：天河区民办中小学、民办幼儿园2024年度年检初步结论",
+    "url": "https://www.thnet.gov.cn/attachment/7/7830/7830366/10308800.xlsx",
+    "kind": "官方年检学校汇总附件",
+    "scope": "幼儿园及中小学机构状态",
+    "document_date": "2024检查年度，2025初步公示",
+    "scope_note": "只提取学校与幼儿园机构状态，附件原件保留完整来源"
+  }
+]

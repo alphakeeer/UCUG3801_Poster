@@ -1,0 +1,1409 @@
+[
+  {
+    "ids": [
+      "E004-013"
+    ],
+    "names": [
+      "广州市天河区华彦幼儿园华穗园区"
+    ],
+    "address": "广州市天河区华穗路穗福街5号",
+    "query": "广州市 华彦幼儿园华穗园区",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E5%8D%8E%E5%BD%A6%E5%B9%BC%E5%84%BF%E5%9B%AD%E5%8D%8E%E7%A9%97%E5%9B%AD%E5%8C%BA&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:20:00.710915+00:00",
+    "results": []
+  },
+  {
+    "ids": [
+      "E004-031"
+    ],
+    "names": [
+      "广州市天河区萃禾幼儿园兴盛园区"
+    ],
+    "address": "广州市天河区珠江新城兴盛路6号之四",
+    "query": "广州市 萃禾幼儿园兴盛园区",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E8%90%83%E7%A6%BE%E5%B9%BC%E5%84%BF%E5%9B%AD%E5%85%B4%E7%9B%9B%E5%9B%AD%E5%8C%BA&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:20:04.837414+00:00",
+    "results": []
+  },
+  {
+    "ids": [
+      "E004-036"
+    ],
+    "names": [
+      "广州市天河第二实验幼儿园珠江新城园区"
+    ],
+    "address": "广州市天河区平月路南国一街9号",
+    "query": "广州市 天河第二实验幼儿园珠江新城园区",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E5%A4%A9%E6%B2%B3%E7%AC%AC%E4%BA%8C%E5%AE%9E%E9%AA%8C%E5%B9%BC%E5%84%BF%E5%9B%AD%E7%8F%A0%E6%B1%9F%E6%96%B0%E5%9F%8E%E5%9B%AD%E5%8C%BA&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:20:07.467346+00:00",
+    "results": []
+  },
+  {
+    "ids": [
+      "E004-041"
+    ],
+    "names": [
+      "广州市天河区童睿幼儿园"
+    ],
+    "address": "广州市天河区员村西街1号大院41号",
+    "query": "广州市 童睿幼儿园",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E7%AB%A5%E7%9D%BF%E5%B9%BC%E5%84%BF%E5%9B%AD&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:20:10.088365+00:00",
+    "results": []
+  },
+  {
+    "ids": [
+      "E004-042"
+    ],
+    "names": [
+      "广州市天河区童睿幼儿园童欣园区"
+    ],
+    "address": "广州市天河区员村东璟街2号",
+    "query": "广州市 童睿幼儿园童欣园区",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E7%AB%A5%E7%9D%BF%E5%B9%BC%E5%84%BF%E5%9B%AD%E7%AB%A5%E6%AC%A3%E5%9B%AD%E5%8C%BA&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:20:13.147252+00:00",
+    "results": []
+  },
+  {
+    "ids": [
+      "E004-043"
+    ],
+    "names": [
+      "广州市天河区昌乐幼儿园"
+    ],
+    "address": "广州市天河区员村二横路昌乐园63号",
+    "query": "广州市 昌乐幼儿园",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E6%98%8C%E4%B9%90%E5%B9%BC%E5%84%BF%E5%9B%AD&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:20:16.060516+00:00",
+    "results": []
+  },
+  {
+    "ids": [
+      "E004-045"
+    ],
+    "names": [
+      "广州市天河区旭日雅苑幼儿园"
+    ],
+    "address": "广州市天河区员村一横路员村西街4号之6",
+    "query": "广州市 旭日雅苑幼儿园",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E6%97%AD%E6%97%A5%E9%9B%85%E8%8B%91%E5%B9%BC%E5%84%BF%E5%9B%AD&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:20:18.946644+00:00",
+    "results": [
+      {
+        "place_id": 237420558,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 11032482824,
+        "lat": "23.1211174",
+        "lon": "113.3518336",
+        "category": "amenity",
+        "type": "kindergarten",
+        "place_rank": 30,
+        "importance": 6.785915922784798e-05,
+        "addresstype": "amenity",
+        "name": "旭日雅苑幼儿园",
+        "display_name": "旭日雅苑幼儿园, 员村南街, 员村街道, 天河区, 广州市, 广东省, 510665, 中国",
+        "address": {
+          "amenity": "旭日雅苑幼儿园",
+          "road": "员村南街",
+          "suburb": "员村街道",
+          "city": "天河区",
+          "state": "广东省",
+          "ISO3166-2-lvl4": "CN-GD",
+          "postcode": "510665",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "23.1210674",
+          "23.1211674",
+          "113.3517836",
+          "113.3518836"
+        ]
+      }
+    ]
+  },
+  {
+    "ids": [
+      "E004-052"
+    ],
+    "names": [
+      "广州市天河区珠江新城猎德幼儿园"
+    ],
+    "address": "广州市天河区海月路33号",
+    "query": "广州市 珠江新城猎德幼儿园",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E7%8F%A0%E6%B1%9F%E6%96%B0%E5%9F%8E%E7%8C%8E%E5%BE%B7%E5%B9%BC%E5%84%BF%E5%9B%AD&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:20:21.692859+00:00",
+    "results": []
+  },
+  {
+    "ids": [
+      "E004-053"
+    ],
+    "names": [
+      "广州市天河区金穗幼儿园"
+    ],
+    "address": "广州市天河区金穗路73号",
+    "query": "广州市 金穗幼儿园",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E9%87%91%E7%A9%97%E5%B9%BC%E5%84%BF%E5%9B%AD&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:20:24.300893+00:00",
+    "results": [
+      {
+        "place_id": 237613933,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 860062302,
+        "lat": "23.1263267",
+        "lon": "113.3293933",
+        "category": "amenity",
+        "type": "kindergarten",
+        "place_rank": 30,
+        "importance": 6.785915922784798e-05,
+        "addresstype": "amenity",
+        "name": "金穗幼儿园",
+        "display_name": "金穗幼儿园, 金穗路, 珠江新城, 冼村街道, 天河区, 广州市, 广东省, 510620, 中国",
+        "address": {
+          "amenity": "金穗幼儿园",
+          "road": "金穗路",
+          "quarter": "珠江新城",
+          "suburb": "冼村街道",
+          "city": "天河区",
+          "state": "广东省",
+          "ISO3166-2-lvl4": "CN-GD",
+          "postcode": "510620",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "23.1259444",
+          "23.1266839",
+          "113.3290809",
+          "113.3296939"
+        ]
+      }
+    ]
+  },
+  {
+    "ids": [
+      "E004-054"
+    ],
+    "names": [
+      "广州市天河区金穗幼儿园花城园区"
+    ],
+    "address": "广州市天河区平江路9号",
+    "query": "广州市 金穗幼儿园花城园区",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E9%87%91%E7%A9%97%E5%B9%BC%E5%84%BF%E5%9B%AD%E8%8A%B1%E5%9F%8E%E5%9B%AD%E5%8C%BA&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:20:26.968267+00:00",
+    "results": [
+      {
+        "place_id": 237480968,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 11032417060,
+        "lat": "23.1185593",
+        "lon": "113.3418866",
+        "category": "amenity",
+        "type": "kindergarten",
+        "place_rank": 30,
+        "importance": 6.785915922784798e-05,
+        "addresstype": "amenity",
+        "name": "金穗幼儿园花城园区",
+        "display_name": "金穗幼儿园花城园区, 平江路, 猎德街道, 天河区, 广州市, 广东省, 510335, 中国",
+        "address": {
+          "amenity": "金穗幼儿园花城园区",
+          "road": "平江路",
+          "suburb": "猎德街道",
+          "city": "天河区",
+          "state": "广东省",
+          "ISO3166-2-lvl4": "CN-GD",
+          "postcode": "510335",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "23.1185093",
+          "23.1186093",
+          "113.3418366",
+          "113.3419366"
+        ]
+      }
+    ]
+  },
+  {
+    "ids": [
+      "E004-057"
+    ],
+    "names": [
+      "广州市天河区体育西幼儿园"
+    ],
+    "address": "广州市天河区体育东路体育西横街221号",
+    "query": "广州市 体育西幼儿园",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E4%BD%93%E8%82%B2%E8%A5%BF%E5%B9%BC%E5%84%BF%E5%9B%AD&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:20:29.455676+00:00",
+    "results": [
+      {
+        "place_id": 237815932,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 10106523898,
+        "lat": "23.1311666",
+        "lon": "113.3196652",
+        "category": "amenity",
+        "type": "kindergarten",
+        "place_rank": 30,
+        "importance": 6.785915922784798e-05,
+        "addresstype": "amenity",
+        "name": "天河区儿童福利会幼儿园",
+        "display_name": "天河区儿童福利会幼儿园, 体育西横街, 天河南街道, 天河区, 广州市, 广东省, 510620, 中国",
+        "address": {
+          "amenity": "天河区儿童福利会幼儿园",
+          "road": "体育西横街",
+          "suburb": "天河南街道",
+          "city": "天河区",
+          "state": "广东省",
+          "ISO3166-2-lvl4": "CN-GD",
+          "postcode": "510620",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "23.1311166",
+          "23.1312166",
+          "113.3196152",
+          "113.3197152"
+        ]
+      }
+    ]
+  },
+  {
+    "ids": [
+      "E005-015"
+    ],
+    "names": [
+      "广州数字科技集团有限公司幼儿园"
+    ],
+    "address": "广州市天河区员村一横路七号大院66号",
+    "query": "广州市 广州数字科技集团有限公司幼儿园",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E5%B9%BF%E5%B7%9E%E6%95%B0%E5%AD%97%E7%A7%91%E6%8A%80%E9%9B%86%E5%9B%A2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%B9%BC%E5%84%BF%E5%9B%AD&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:20:32.185094+00:00",
+    "results": []
+  },
+  {
+    "ids": [
+      "E005-032"
+    ],
+    "names": [
+      "广州市天河区珠江新城华文幼儿园"
+    ],
+    "address": "广州市天河区兴民路227号",
+    "query": "广州市 珠江新城华文幼儿园",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E7%8F%A0%E6%B1%9F%E6%96%B0%E5%9F%8E%E5%8D%8E%E6%96%87%E5%B9%BC%E5%84%BF%E5%9B%AD&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:20:35.289202+00:00",
+    "results": []
+  },
+  {
+    "ids": [
+      "E006-021"
+    ],
+    "names": [
+      "广州市天河区悦教智慧幼儿园"
+    ],
+    "address": "广州市天河区员村西街四号大院25号101房",
+    "query": "广州市 悦教智慧幼儿园",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E6%82%A6%E6%95%99%E6%99%BA%E6%85%A7%E5%B9%BC%E5%84%BF%E5%9B%AD&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:20:38.120037+00:00",
+    "results": [
+      {
+        "place_id": 238274641,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 13608309010,
+        "lat": "23.1203709",
+        "lon": "113.3524692",
+        "category": "amenity",
+        "type": "kindergarten",
+        "place_rank": 30,
+        "importance": 6.785915922784798e-05,
+        "addresstype": "amenity",
+        "name": "悦教智慧幼儿园",
+        "display_name": "悦教智慧幼儿园, 员村南街, 员村街道, 天河区, 广州市, 广东省, 510665, 中国",
+        "address": {
+          "amenity": "悦教智慧幼儿园",
+          "road": "员村南街",
+          "suburb": "员村街道",
+          "city": "天河区",
+          "state": "广东省",
+          "ISO3166-2-lvl4": "CN-GD",
+          "postcode": "510665",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "23.1203209",
+          "23.1204209",
+          "113.3524192",
+          "113.3525192"
+        ]
+      }
+    ]
+  },
+  {
+    "ids": [
+      "E006-024"
+    ],
+    "names": [
+      "广州市天河区楠熙都市兰亭幼儿园"
+    ],
+    "address": "广州市天河区员村二横路兰亭街25号",
+    "query": "广州市 楠熙都市兰亭幼儿园",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E6%A5%A0%E7%86%99%E9%83%BD%E5%B8%82%E5%85%B0%E4%BA%AD%E5%B9%BC%E5%84%BF%E5%9B%AD&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:20:41.148911+00:00",
+    "results": []
+  },
+  {
+    "ids": [
+      "E006-025"
+    ],
+    "names": [
+      "广州市天河区美林海岸幼儿园"
+    ],
+    "address": "广州市天河区科韵路美林海岸花园棕林街46号",
+    "query": "广州市 美林海岸幼儿园",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E7%BE%8E%E6%9E%97%E6%B5%B7%E5%B2%B8%E5%B9%BC%E5%84%BF%E5%9B%AD&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:20:43.976261+00:00",
+    "results": []
+  },
+  {
+    "ids": [
+      "E006-059"
+    ],
+    "names": [
+      "广州市天河区体育东路幼儿园"
+    ],
+    "address": "广州市天河区体育东路六运六街13号",
+    "query": "广州市 体育东路幼儿园",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E4%BD%93%E8%82%B2%E4%B8%9C%E8%B7%AF%E5%B9%BC%E5%84%BF%E5%9B%AD&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:20:46.785889+00:00",
+    "results": [
+      {
+        "place_id": 237593924,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 10106523898,
+        "lat": "23.1311666",
+        "lon": "113.3196652",
+        "category": "amenity",
+        "type": "kindergarten",
+        "place_rank": 30,
+        "importance": 6.785915922784798e-05,
+        "addresstype": "amenity",
+        "name": "天河区儿童福利会幼儿园",
+        "display_name": "天河区儿童福利会幼儿园, 体育西横街, 天河南街道, 天河区, 广州市, 广东省, 510620, 中国",
+        "address": {
+          "amenity": "天河区儿童福利会幼儿园",
+          "road": "体育西横街",
+          "suburb": "天河南街道",
+          "city": "天河区",
+          "state": "广东省",
+          "ISO3166-2-lvl4": "CN-GD",
+          "postcode": "510620",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "23.1311166",
+          "23.1312166",
+          "113.3196152",
+          "113.3197152"
+        ]
+      }
+    ]
+  },
+  {
+    "ids": [
+      "E006-060"
+    ],
+    "names": [
+      "广州市天河区体育东路幼儿园汇豪园区"
+    ],
+    "address": "广州市天河区黄埔大道马场路519号104房",
+    "query": "广州市 体育东路幼儿园汇豪园区",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E4%BD%93%E8%82%B2%E4%B8%9C%E8%B7%AF%E5%B9%BC%E5%84%BF%E5%9B%AD%E6%B1%87%E8%B1%AA%E5%9B%AD%E5%8C%BA&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:20:49.380554+00:00",
+    "results": []
+  },
+  {
+    "ids": [
+      "E006-061"
+    ],
+    "names": [
+      "广州市天河区育星南雅苑幼儿园"
+    ],
+    "address": "广州市天河区体育东横街62号",
+    "query": "广州市 育星南雅苑幼儿园",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E8%82%B2%E6%98%9F%E5%8D%97%E9%9B%85%E8%8B%91%E5%B9%BC%E5%84%BF%E5%9B%AD&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:20:52.020689+00:00",
+    "results": []
+  },
+  {
+    "ids": [
+      "E006-072"
+    ],
+    "names": [
+      "广州市天河区珠江新城海滨幼儿园"
+    ],
+    "address": "广州市天河区珠江新城海月路413号",
+    "query": "广州市 珠江新城海滨幼儿园",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E7%8F%A0%E6%B1%9F%E6%96%B0%E5%9F%8E%E6%B5%B7%E6%BB%A8%E5%B9%BC%E5%84%BF%E5%9B%AD&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:20:54.803507+00:00",
+    "results": []
+  },
+  {
+    "ids": [
+      "E006-073"
+    ],
+    "names": [
+      "广州市天河区合美粤广幼儿园"
+    ],
+    "address": "广州市珠江新城海明路281号",
+    "query": "广州市 合美粤广幼儿园",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E5%90%88%E7%BE%8E%E7%B2%A4%E5%B9%BF%E5%B9%BC%E5%84%BF%E5%9B%AD&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:20:57.629546+00:00",
+    "results": []
+  },
+  {
+    "ids": [
+      "E006-074"
+    ],
+    "names": [
+      "广州市天河区力迅上筑幼儿园"
+    ],
+    "address": "广州市天河区珠江新城上筑街一号",
+    "query": "广州市 力迅上筑幼儿园",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E5%8A%9B%E8%BF%85%E4%B8%8A%E7%AD%91%E5%B9%BC%E5%84%BF%E5%9B%AD&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:21:00.316231+00:00",
+    "results": []
+  },
+  {
+    "ids": [
+      "E006-078"
+    ],
+    "names": [
+      "广州市天河区汇悦天启幼儿园"
+    ],
+    "address": "广州市天河区临江大道431号101房",
+    "query": "广州市 汇悦天启幼儿园",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E6%B1%87%E6%82%A6%E5%A4%A9%E5%90%AF%E5%B9%BC%E5%84%BF%E5%9B%AD&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:21:03.245104+00:00",
+    "results": [
+      {
+        "place_id": 236030548,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 11032417055,
+        "lat": "23.1154558",
+        "lon": "113.3398227",
+        "category": "amenity",
+        "type": "kindergarten",
+        "place_rank": 30,
+        "importance": 6.785915922784798e-05,
+        "addresstype": "amenity",
+        "name": "汇悦天启幼儿园",
+        "display_name": "汇悦天启幼儿园, 平月路, 猎德, 猎德街道, 天河区, 广州市, 广东省, 510335, 中国",
+        "address": {
+          "amenity": "汇悦天启幼儿园",
+          "road": "平月路",
+          "quarter": "猎德",
+          "suburb": "猎德街道",
+          "city": "天河区",
+          "state": "广东省",
+          "ISO3166-2-lvl4": "CN-GD",
+          "postcode": "510335",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "23.1154058",
+          "23.1155058",
+          "113.3397727",
+          "113.3398727"
+        ]
+      }
+    ]
+  },
+  {
+    "ids": [
+      "E006-079"
+    ],
+    "names": [
+      "广州市天河区海月路爱乐幼儿园"
+    ],
+    "address": "广州市天河区海月路400号",
+    "query": "广州市 海月路爱乐幼儿园",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E6%B5%B7%E6%9C%88%E8%B7%AF%E7%88%B1%E4%B9%90%E5%B9%BC%E5%84%BF%E5%9B%AD&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:21:05.946627+00:00",
+    "results": []
+  },
+  {
+    "ids": [
+      "E006-080"
+    ],
+    "names": [
+      "广州市天河区万锦幼儿园"
+    ],
+    "address": "广州市天河区猎德大道31号之六",
+    "query": "广州市 万锦幼儿园",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E4%B8%87%E9%94%A6%E5%B9%BC%E5%84%BF%E5%9B%AD&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:21:09.002792+00:00",
+    "results": []
+  },
+  {
+    "ids": [
+      "E006-087"
+    ],
+    "names": [
+      "广州市天河区佐治亚幼儿园"
+    ],
+    "address": "广州市天河区珠江新城金穗路68号",
+    "query": "广州市 佐治亚幼儿园",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E4%BD%90%E6%B2%BB%E4%BA%9A%E5%B9%BC%E5%84%BF%E5%9B%AD&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:21:12.073228+00:00",
+    "results": []
+  },
+  {
+    "ids": [
+      "E006-095"
+    ],
+    "names": [
+      "广州市天河区莱茵宝贝幼儿园"
+    ],
+    "address": "广州市天河区猎德大道22号",
+    "query": "广州市 莱茵宝贝幼儿园",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E8%8E%B1%E8%8C%B5%E5%AE%9D%E8%B4%9D%E5%B9%BC%E5%84%BF%E5%9B%AD&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:21:14.641211+00:00",
+    "results": []
+  },
+  {
+    "ids": [
+      "E006-105"
+    ],
+    "names": [
+      "广州市天河区启赋幼儿园"
+    ],
+    "address": "广州市天河区珠江新城兴民路219号",
+    "query": "广州市 启赋幼儿园",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E5%90%AF%E8%B5%8B%E5%B9%BC%E5%84%BF%E5%9B%AD&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:21:17.111435+00:00",
+    "results": [
+      {
+        "place_id": 236973732,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 12916526050,
+        "lat": "23.1198088",
+        "lon": "113.3249842",
+        "category": "amenity",
+        "type": "kindergarten",
+        "place_rank": 30,
+        "importance": 6.785915922784798e-05,
+        "addresstype": "amenity",
+        "name": "启赋幼儿园",
+        "display_name": "启赋幼儿园, 兴民路, 猎德, 猎德街道, 天河区, 广州市, 广东省, 510623, 中国",
+        "address": {
+          "amenity": "启赋幼儿园",
+          "road": "兴民路",
+          "quarter": "猎德",
+          "suburb": "猎德街道",
+          "city": "天河区",
+          "state": "广东省",
+          "ISO3166-2-lvl4": "CN-GD",
+          "postcode": "510623",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "23.1197588",
+          "23.1198588",
+          "113.3249342",
+          "113.3250342"
+        ]
+      }
+    ]
+  },
+  {
+    "ids": [
+      "E006-108"
+    ],
+    "names": [
+      "广州市天河区楠熙幼儿园有限公司"
+    ],
+    "address": "广州市天河区海乐路13号",
+    "query": "广州市 楠熙幼儿园有限公司",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E6%A5%A0%E7%86%99%E5%B9%BC%E5%84%BF%E5%9B%AD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:21:21.172781+00:00",
+    "results": []
+  },
+  {
+    "ids": [
+      "E006-114"
+    ],
+    "names": [
+      "广州市天河区塾唐幼儿园有限公司"
+    ],
+    "address": "广州市天河区兴盛路8号三层301号铺",
+    "query": "广州市 塾唐幼儿园有限公司",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E5%A1%BE%E5%94%90%E5%B9%BC%E5%84%BF%E5%9B%AD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:21:24.673266+00:00",
+    "results": []
+  },
+  {
+    "ids": [
+      "P01",
+      "J01"
+    ],
+    "names": [
+      "广州市天河中学猎德实验学校小学部",
+      "广州市天河中学猎德实验学校"
+    ],
+    "address": "海清路海定街1号",
+    "query": "广州市 天河中学猎德实验学校",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E5%A4%A9%E6%B2%B3%E4%B8%AD%E5%AD%A6%E7%8C%8E%E5%BE%B7%E5%AE%9E%E9%AA%8C%E5%AD%A6%E6%A0%A1&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:21:27.261949+00:00",
+    "results": [
+      {
+        "place_id": 237639746,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 585942444,
+        "lat": "23.1183851",
+        "lon": "113.3320229",
+        "category": "amenity",
+        "type": "school",
+        "place_rank": 30,
+        "importance": 6.785915922784798e-05,
+        "addresstype": "amenity",
+        "name": "广州市天河中学猎德实验学校",
+        "display_name": "广州市天河中学猎德实验学校, 海明路, 猎德, 猎德街道, 天河区, 广州市, 广东省, 510623, 中国",
+        "address": {
+          "amenity": "广州市天河中学猎德实验学校",
+          "road": "海明路",
+          "quarter": "猎德",
+          "suburb": "猎德街道",
+          "city": "天河区",
+          "state": "广东省",
+          "ISO3166-2-lvl4": "CN-GD",
+          "postcode": "510623",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "23.1177278",
+          "23.1190185",
+          "113.3311407",
+          "113.3329128"
+        ]
+      }
+    ]
+  },
+  {
+    "ids": [
+      "P02",
+      "J02"
+    ],
+    "names": [
+      "广州市南国学校小学部",
+      "广州市南国学校"
+    ],
+    "address": "平月路202号",
+    "query": "广州市 南国学校",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E5%8D%97%E5%9B%BD%E5%AD%A6%E6%A0%A1&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:21:30.402563+00:00",
+    "results": [
+      {
+        "place_id": 237560639,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 662685558,
+        "lat": "23.1192641",
+        "lon": "113.3401138",
+        "category": "amenity",
+        "type": "school",
+        "place_rank": 30,
+        "importance": 6.785915922784798e-05,
+        "addresstype": "amenity",
+        "name": "广州市南国学校中学部",
+        "display_name": "广州市南国学校中学部, 平月路, 猎德, 猎德街道, 天河区, 广州市, 广东省, 510335, 中国",
+        "address": {
+          "amenity": "广州市南国学校中学部",
+          "road": "平月路",
+          "quarter": "猎德",
+          "suburb": "猎德街道",
+          "city": "天河区",
+          "state": "广东省",
+          "ISO3166-2-lvl4": "CN-GD",
+          "postcode": "510335",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "23.1182263",
+          "23.1197159",
+          "113.3395283",
+          "113.3406700"
+        ]
+      },
+      {
+        "place_id": 237801561,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 662685556,
+        "lat": "23.1188246",
+        "lon": "113.3388111",
+        "category": "amenity",
+        "type": "school",
+        "place_rank": 30,
+        "importance": 6.785915922784798e-05,
+        "addresstype": "amenity",
+        "name": "广州市南国学校小学部",
+        "display_name": "广州市南国学校小学部, 平月路, 猎德, 猎德街道, 天河区, 广州市, 广东省, 510335, 中国",
+        "address": {
+          "amenity": "广州市南国学校小学部",
+          "road": "平月路",
+          "quarter": "猎德",
+          "suburb": "猎德街道",
+          "city": "天河区",
+          "state": "广东省",
+          "ISO3166-2-lvl4": "CN-GD",
+          "postcode": "510335",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "23.1184739",
+          "23.1191891",
+          "113.3381551",
+          "113.3394714"
+        ]
+      }
+    ]
+  },
+  {
+    "ids": [
+      "P03"
+    ],
+    "names": [
+      "广州市天河区体育东路小学海明学校"
+    ],
+    "address": "珠江新城上筑街2号",
+    "query": "广州市 体育东路小学海明学校",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E4%BD%93%E8%82%B2%E4%B8%9C%E8%B7%AF%E5%B0%8F%E5%AD%A6%E6%B5%B7%E6%98%8E%E5%AD%A6%E6%A0%A1&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:21:33.566949+00:00",
+    "results": []
+  },
+  {
+    "ids": [
+      "P04"
+    ],
+    "names": [
+      "广州市天河第一小学"
+    ],
+    "address": "华利路78号",
+    "query": "广州市 天河第一小学 华利路",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E5%A4%A9%E6%B2%B3%E7%AC%AC%E4%B8%80%E5%B0%8F%E5%AD%A6+%E5%8D%8E%E5%88%A9%E8%B7%AF&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:21:37.720305+00:00",
+    "results": []
+  },
+  {
+    "ids": [
+      "P05"
+    ],
+    "names": [
+      "广州市天河第一小学"
+    ],
+    "address": "华穗路273号",
+    "query": "广州市 天河第一小学 华穗路",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E5%A4%A9%E6%B2%B3%E7%AC%AC%E4%B8%80%E5%B0%8F%E5%AD%A6+%E5%8D%8E%E7%A9%97%E8%B7%AF&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:21:41.049439+00:00",
+    "results": []
+  },
+  {
+    "ids": [
+      "P06"
+    ],
+    "names": [
+      "广州市天河区体育东路小学兴国学校"
+    ],
+    "address": "兴国路26号",
+    "query": "广州市 体育东路小学兴国学校",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E4%BD%93%E8%82%B2%E4%B8%9C%E8%B7%AF%E5%B0%8F%E5%AD%A6%E5%85%B4%E5%9B%BD%E5%AD%A6%E6%A0%A1&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:21:43.916863+00:00",
+    "results": [
+      {
+        "place_id": 237455635,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 206226405,
+        "lat": "23.1220817",
+        "lon": "113.3258708",
+        "category": "amenity",
+        "type": "school",
+        "place_rank": 30,
+        "importance": 6.785915922784798e-05,
+        "addresstype": "amenity",
+        "name": "体育东路小学兴国学校",
+        "display_name": "体育东路小学兴国学校, 花城大道, 猎德, 猎德街道, 天河区, 广州市, 广东省, 510623, 中国",
+        "address": {
+          "amenity": "体育东路小学兴国学校",
+          "road": "花城大道",
+          "quarter": "猎德",
+          "suburb": "猎德街道",
+          "city": "天河区",
+          "state": "广东省",
+          "ISO3166-2-lvl4": "CN-GD",
+          "postcode": "510623",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "23.1215416",
+          "23.1225596",
+          "113.3255071",
+          "113.3262239"
+        ]
+      }
+    ]
+  },
+  {
+    "ids": [
+      "P07"
+    ],
+    "names": [
+      "广州市天河区冼村小学"
+    ],
+    "address": "海安路5号",
+    "query": "广州市 冼村小学",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E5%86%BC%E6%9D%91%E5%B0%8F%E5%AD%A6&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:21:46.437446+00:00",
+    "results": [
+      {
+        "place_id": 237741269,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 561739692,
+        "lat": "23.1278411",
+        "lon": "113.3301255",
+        "category": "amenity",
+        "type": "school",
+        "place_rank": 30,
+        "importance": 6.785915922784798e-05,
+        "addresstype": "amenity",
+        "name": "冼村小学",
+        "display_name": "冼村小学, 海安路, 珠江新城, 冼村街道, 天河区, 广州市, 广东省, 510620, 中国",
+        "address": {
+          "amenity": "冼村小学",
+          "road": "海安路",
+          "quarter": "珠江新城",
+          "suburb": "冼村街道",
+          "city": "天河区",
+          "state": "广东省",
+          "ISO3166-2-lvl4": "CN-GD",
+          "postcode": "510620",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "23.1272875",
+          "23.1285023",
+          "113.3297691",
+          "113.3305529"
+        ]
+      }
+    ]
+  },
+  {
+    "ids": [
+      "P08"
+    ],
+    "names": [
+      "广州市天河区第一实验小学"
+    ],
+    "address": "海业路80号",
+    "query": "广州市 第一实验小学",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E7%AC%AC%E4%B8%80%E5%AE%9E%E9%AA%8C%E5%B0%8F%E5%AD%A6&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:21:48.980190+00:00",
+    "results": [
+      {
+        "place_id": 238208486,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1288222584,
+        "lat": "23.1265153",
+        "lon": "113.3363194",
+        "category": "amenity",
+        "type": "school",
+        "place_rank": 30,
+        "importance": 6.785915922784798e-05,
+        "addresstype": "amenity",
+        "name": "广州市天河区第一实验小学",
+        "display_name": "广州市天河区第一实验小学, 海安路, 冼村街道, 天河区, 广州市, 广东省, 510620, 中国",
+        "address": {
+          "amenity": "广州市天河区第一实验小学",
+          "road": "海安路",
+          "suburb": "冼村街道",
+          "city": "天河区",
+          "state": "广东省",
+          "ISO3166-2-lvl4": "CN-GD",
+          "postcode": "510620",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "23.1262192",
+          "23.1268086",
+          "113.3357672",
+          "113.3368702"
+        ]
+      }
+    ]
+  },
+  {
+    "ids": [
+      "P09"
+    ],
+    "names": [
+      "广州市天河区体育东路小学"
+    ],
+    "address": "天河南二路六运六街9号",
+    "query": "广州市 体育东路小学",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E4%BD%93%E8%82%B2%E4%B8%9C%E8%B7%AF%E5%B0%8F%E5%AD%A6&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:21:51.447093+00:00",
+    "results": [
+      {
+        "place_id": 237774999,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 858600100,
+        "lat": "23.1329880",
+        "lon": "113.3259888",
+        "category": "amenity",
+        "type": "school",
+        "place_rank": 30,
+        "importance": 6.785915922784798e-05,
+        "addresstype": "amenity",
+        "name": "体育东路小学 (北校区)",
+        "display_name": "体育东路小学 (北校区), 体育东横街, 天河南街道, 天河区, 广州市, 广东省, 510620, 中国",
+        "address": {
+          "amenity": "体育东路小学 (北校区)",
+          "road": "体育东横街",
+          "suburb": "天河南街道",
+          "city": "天河区",
+          "state": "广东省",
+          "ISO3166-2-lvl4": "CN-GD",
+          "postcode": "510620",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "23.1325134",
+          "23.1332042",
+          "113.3253767",
+          "113.3266940"
+        ]
+      },
+      {
+        "place_id": 236614025,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 731236117,
+        "lat": "23.1178003",
+        "lon": "113.3370908",
+        "category": "amenity",
+        "type": "school",
+        "place_rank": 30,
+        "importance": 6.785915922784798e-05,
+        "addresstype": "amenity",
+        "name": "体育东路小学(东校区)",
+        "display_name": "体育东路小学(东校区), 海明路, 猎德, 猎德街道, 天河区, 广州市, 广东省, 510623, 中国",
+        "address": {
+          "amenity": "体育东路小学(东校区)",
+          "road": "海明路",
+          "quarter": "猎德",
+          "suburb": "猎德街道",
+          "city": "天河区",
+          "state": "广东省",
+          "ISO3166-2-lvl4": "CN-GD",
+          "postcode": "510623",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "23.1173812",
+          "23.1182193",
+          "113.3367809",
+          "113.3374007"
+        ]
+      }
+    ]
+  },
+  {
+    "ids": [
+      "J03"
+    ],
+    "names": [
+      "广州市天河中学"
+    ],
+    "address": "猎德大道27号",
+    "query": "广州市 天河中学 花城校区",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E5%A4%A9%E6%B2%B3%E4%B8%AD%E5%AD%A6+%E8%8A%B1%E5%9F%8E%E6%A0%A1%E5%8C%BA&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:21:54.007145+00:00",
+    "results": [
+      {
+        "place_id": 243225317,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 206226293,
+        "lat": "23.1218738",
+        "lon": "113.3268850",
+        "category": "amenity",
+        "type": "school",
+        "place_rank": 30,
+        "importance": 6.785915922784798e-05,
+        "addresstype": "amenity",
+        "name": "广州市天河中学(花城校区)",
+        "display_name": "广州市天河中学(花城校区), 花城大道, 猎德, 猎德街道, 天河区, 广州市, 广东省, 510623, 中国",
+        "address": {
+          "amenity": "广州市天河中学(花城校区)",
+          "road": "花城大道",
+          "quarter": "猎德",
+          "suburb": "猎德街道",
+          "city": "天河区",
+          "state": "广东省",
+          "ISO3166-2-lvl4": "CN-GD",
+          "postcode": "510623",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "23.1215055",
+          "23.1225128",
+          "113.3262044",
+          "113.3277903"
+        ]
+      }
+    ]
+  },
+  {
+    "ids": [
+      "J04"
+    ],
+    "names": [
+      "广州市天河中学"
+    ],
+    "address": "天河东路44号",
+    "query": "广州市 天河中学 天河东路",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E5%A4%A9%E6%B2%B3%E4%B8%AD%E5%AD%A6+%E5%A4%A9%E6%B2%B3%E4%B8%9C%E8%B7%AF&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:21:57.146432+00:00",
+    "results": [
+      {
+        "place_id": 238488943,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 560851709,
+        "lat": "23.1242765",
+        "lon": "113.3144145",
+        "category": "amenity",
+        "type": "school",
+        "place_rank": 30,
+        "importance": 6.785915922784798e-05,
+        "addresstype": "amenity",
+        "name": "广州市天河中学(珠江新城校区)",
+        "display_name": "广州市天河中学(珠江新城校区), 华成路, 珠江新城, 冼村街道, 天河区, 广州市, 广东省, 510623, 中国",
+        "address": {
+          "amenity": "广州市天河中学(珠江新城校区)",
+          "road": "华成路",
+          "quarter": "珠江新城",
+          "suburb": "冼村街道",
+          "city": "天河区",
+          "state": "广东省",
+          "ISO3166-2-lvl4": "CN-GD",
+          "postcode": "510623",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "23.1236214",
+          "23.1249368",
+          "113.3132997",
+          "113.3155271"
+        ]
+      },
+      {
+        "place_id": 238020930,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 206226293,
+        "lat": "23.1218738",
+        "lon": "113.3268850",
+        "category": "amenity",
+        "type": "school",
+        "place_rank": 30,
+        "importance": 6.785915922784798e-05,
+        "addresstype": "amenity",
+        "name": "广州市天河中学(花城校区)",
+        "display_name": "广州市天河中学(花城校区), 花城大道, 猎德, 猎德街道, 天河区, 广州市, 广东省, 510623, 中国",
+        "address": {
+          "amenity": "广州市天河中学(花城校区)",
+          "road": "花城大道",
+          "quarter": "猎德",
+          "suburb": "猎德街道",
+          "city": "天河区",
+          "state": "广东省",
+          "ISO3166-2-lvl4": "CN-GD",
+          "postcode": "510623",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "23.1215055",
+          "23.1225128",
+          "113.3262044",
+          "113.3277903"
+        ]
+      },
+      {
+        "place_id": 238540687,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 426075307,
+        "lat": "23.1316212",
+        "lon": "113.3298633",
+        "category": "amenity",
+        "type": "school",
+        "place_rank": 30,
+        "importance": 6.785915922784798e-05,
+        "addresstype": "amenity",
+        "name": "广州市天河中学",
+        "display_name": "广州市天河中学, 德埔街, 德埔小区, 天河南街道, 天河区, 广州市, 广东省, 510620, 中国",
+        "address": {
+          "amenity": "广州市天河中学",
+          "road": "德埔街",
+          "residential": "德埔小区",
+          "suburb": "天河南街道",
+          "city": "天河区",
+          "state": "广东省",
+          "ISO3166-2-lvl4": "CN-GD",
+          "postcode": "510620",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "23.1310821",
+          "23.1321597",
+          "113.3292463",
+          "113.3304463"
+        ]
+      }
+    ]
+  },
+  {
+    "ids": [
+      "J05"
+    ],
+    "names": [
+      "广州市天河外国语学校"
+    ],
+    "address": "海乐路9号",
+    "query": "广州市 天河外国语学校",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E5%A4%A9%E6%B2%B3%E5%A4%96%E5%9B%BD%E8%AF%AD%E5%AD%A6%E6%A0%A1&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:21:59.644901+00:00",
+    "results": [
+      {
+        "place_id": 237944662,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 585943745,
+        "lat": "23.1261156",
+        "lon": "113.3319934",
+        "category": "amenity",
+        "type": "school",
+        "place_rank": 30,
+        "importance": 6.785915922784798e-05,
+        "addresstype": "amenity",
+        "name": "天河外国语学校",
+        "display_name": "天河外国语学校, 海乐路, 冼村街道, 天河区, 广州市, 广东省, 510620, 中国",
+        "address": {
+          "amenity": "天河外国语学校",
+          "road": "海乐路",
+          "suburb": "冼村街道",
+          "city": "天河区",
+          "state": "广东省",
+          "ISO3166-2-lvl4": "CN-GD",
+          "postcode": "510620",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "23.1251031",
+          "23.1270944",
+          "113.3313801",
+          "113.3326069"
+        ]
+      }
+    ]
+  },
+  {
+    "ids": [
+      "P10",
+      "J06"
+    ],
+    "names": [
+      "广州市华颖外国语学校小学部",
+      "广州市华颖外国语学校（广州市华颖中学）"
+    ],
+    "address": "员村一横路七号大院83号",
+    "query": "广州市 华颖外国语学校",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E5%8D%8E%E9%A2%96%E5%A4%96%E5%9B%BD%E8%AF%AD%E5%AD%A6%E6%A0%A1&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:22:02.175095+00:00",
+    "results": []
+  },
+  {
+    "ids": [
+      "P11"
+    ],
+    "names": [
+      "广州市天河区昌乐小学"
+    ],
+    "address": "员村西街18号",
+    "query": "广州市 昌乐小学",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E6%98%8C%E4%B9%90%E5%B0%8F%E5%AD%A6&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:22:04.679851+00:00",
+    "results": [
+      {
+        "place_id": 234730721,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 662689775,
+        "lat": "23.1222190",
+        "lon": "113.3542079",
+        "category": "amenity",
+        "type": "school",
+        "place_rank": 30,
+        "importance": 6.785915922784798e-05,
+        "addresstype": "amenity",
+        "name": "昌乐小学",
+        "display_name": "昌乐小学, 员村西街, 员村街道, 天河区, 广州市, 广东省, 510665, 中国",
+        "address": {
+          "amenity": "昌乐小学",
+          "road": "员村西街",
+          "suburb": "员村街道",
+          "city": "天河区",
+          "state": "广东省",
+          "ISO3166-2-lvl4": "CN-GD",
+          "postcode": "510665",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "23.1218304",
+          "23.1227967",
+          "113.3538380",
+          "113.3548485"
+        ]
+      }
+    ]
+  },
+  {
+    "ids": [
+      "P12",
+      "J07"
+    ],
+    "names": [
+      "广州市天河区新昌学校",
+      "广州市天河区新昌学校"
+    ],
+    "address": "员村一横路29号",
+    "query": "广州市 新昌学校",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E6%96%B0%E6%98%8C%E5%AD%A6%E6%A0%A1&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:22:07.182011+00:00",
+    "results": [
+      {
+        "place_id": 238038353,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1313653478,
+        "lat": "23.1146192",
+        "lon": "113.3494275",
+        "category": "amenity",
+        "type": "school",
+        "place_rank": 30,
+        "importance": 6.785915922784798e-05,
+        "addresstype": "amenity",
+        "name": "新昌学校",
+        "display_name": "新昌学校, 员村南街, 员村街道, 天河区, 广州市, 广东省, 510335, 中国",
+        "address": {
+          "amenity": "新昌学校",
+          "road": "员村南街",
+          "suburb": "员村街道",
+          "city": "天河区",
+          "state": "广东省",
+          "ISO3166-2-lvl4": "CN-GD",
+          "postcode": "510335",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "23.1144554",
+          "23.1147828",
+          "113.3491282",
+          "113.3497268"
+        ]
+      }
+    ]
+  },
+  {
+    "ids": [
+      "P13"
+    ],
+    "names": [
+      "广州市天河区新蕾学校"
+    ],
+    "address": "程界珠山街10号101房",
+    "query": "广州市 新蕾学校",
+    "url": "https://nominatim.openstreetmap.org/search?q=%E5%B9%BF%E5%B7%9E%E5%B8%82+%E6%96%B0%E8%95%BE%E5%AD%A6%E6%A0%A1&format=jsonv2&limit=3&viewbox=113.300%2C23.150%2C113.400%2C23.090&bounded=1&addressdetails=1",
+    "checked_at_utc": "2026-11-12T01:22:09.675291+00:00",
+    "results": [
+      {
+        "place_id": 235269601,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1484142606,
+        "lat": "23.1190336",
+        "lon": "113.3579529",
+        "category": "amenity",
+        "type": "school",
+        "place_rank": 30,
+        "importance": 6.785915922784798e-05,
+        "addresstype": "amenity",
+        "name": "员村新蕾学校",
+        "display_name": "员村新蕾学校, 员村二横路, 员村街道, 天河区, 广州市, 广东省, 510665, 中国",
+        "address": {
+          "amenity": "员村新蕾学校",
+          "road": "员村二横路",
+          "suburb": "员村街道",
+          "city": "天河区",
+          "state": "广东省",
+          "ISO3166-2-lvl4": "CN-GD",
+          "postcode": "510665",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "23.1187709",
+          "23.1193037",
+          "113.3575489",
+          "113.3583911"
+        ]
+      }
+    ]
+  }
+]

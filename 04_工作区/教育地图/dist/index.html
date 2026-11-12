@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#f5f4ee" />
+    <meta
+      name="description"
+      content="以地图探索猎德教育机会。查看幼儿园、小学、初中的空间分布、招生路径、费用与升学关系。"
+    />
+    <title>住得近，就能读得上吗？ · 猎德教育机会地图</title>
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#school-search">跳到学校检索</a>
+    <main id="atlas" class="atlas" aria-label="猎德教育机会交互地图">
+      <section
+        id="map-surface"
+        class="map-surface"
+        aria-label="可拖动缩放的学校地图"
+        tabindex="0"
+      >
+        <canvas
+          id="basemap"
+          aria-label="猎德及周边路网、水域、公园与街道参考边界"
+        ></canvas>
+        <svg
+          id="connections"
+          class="connections"
+          aria-label="小学与初中招生关系"
+        ></svg>
+        <div id="map-markers" class="map-markers"></div>
+        <div id="study-area-label" class="study-area-label" hidden>
+          <strong>猎德街道</strong><span>研究主体</span>
+        </div>
+        <div id="map-loading" class="map-loading" role="status">
+          <span class="loading-dot"></span>正在展开猎德地图
+        </div>
+      </section>
+
+      <header class="topbar">
+        <a class="brand" href="#" id="brand-home" aria-label="回到研究区">
+          <span class="brand-symbol" aria-hidden="true"
+            ><i></i><i></i><i></i><i></i
+          ></span>
+          <span
+            ><strong>猎德教育地图</strong
+            ><small>LIEDE · EDUCATION ATLAS</small></span
+          >
+        </a>
+        <nav class="mode-nav" aria-label="探索模式">
+          <button data-mode="distribution" aria-pressed="true">分布</button>
+          <button data-mode="admission" aria-pressed="false">入学</button>
+          <button data-mode="fees" aria-pressed="false">费用</button>
+          <button data-mode="relations" aria-pressed="false">升学</button>
+          <button data-mode="compare" aria-pressed="false">
+            比较<span id="compare-count" hidden>0</span>
+          </button>
+        </nav>
+        <button
+          id="presentation-toggle"
+          class="presentation-toggle"
+          aria-expanded="false"
+        >
+          <span aria-hidden="true">▷</span> 展示导览
+        </button>
+      </header>
+
+      <aside id="sidebar" class="sidebar surface" aria-label="学校筛选与检索">
+        <div class="sidebar-heading">
+          <p class="eyebrow">广州 · 猎德及周边</p>
+          <h1>住得近，<br />就能读得上吗<span>？</span></h1>
+          <button
+            id="sidebar-toggle"
+            class="icon-button sidebar-toggle"
+            aria-label="收起筛选"
+            aria-expanded="true"
+          >
+            −
+          </button>
+        </div>
+        <div class="sidebar-content" id="sidebar-content">
+          <div class="stage-tabs" role="group" aria-label="选择学段">
+            <button data-stage="all" aria-pressed="true">全部</button>
+            <button data-stage="kg" aria-pressed="false">幼儿园</button>
+            <button data-stage="primary" aria-pressed="false">小学</button>
+            <button data-stage="junior" aria-pressed="false">初中</button>
+          </div>
+          <label class="search-box" for="school-search"
+            ><span aria-hidden="true">⌕</span
+            ><input
+              id="school-search"
+              type="search"
+              placeholder="搜索学校、校区或地址"
+              autocomplete="off"
+              aria-label="搜索学校、校区或地址"
+            /><kbd>/</kbd></label
+          >
+          <div class="filter-row">
+            <label for="owner-filter" class="sr-only">办学主体</label>
+            <select id="owner-filter">
+              <option value="all">全部办学主体</option>
+              <option value="public">教育部门 / 公办</option>
+              <option value="other">国有企业办</option>
+              <option value="private">民办</option>
+              <option value="inclusive">普惠性民办园</option>
+            </select>
+            <label class="boundary-switch"
+              ><input id="boundary-toggle" type="checkbox" checked /><span
+                >猎德范围</span
+              ></label
+            >
+          </div>
+          <section
+            id="family-controls"
+            class="family-controls"
+            hidden
+            aria-label="构造家庭条件"
+          >
+            <p class="section-label">构造家庭条件</p>
+            <label
+              >儿童户籍<select id="family-hukou">
+                <option value="tianhe">天河区户籍</option>
+                <option value="guangzhou">广州其他区户籍</option>
+                <option value="migrant">非广州市户籍</option>
+              </select></label
+            >
+            <label
+              >居住方式<select id="family-housing">
+                <option value="owned">自有产权住宅</option>
+                <option value="rented">租住住宅</option>
+                <option value="other">祖辈 / 其他居住</option>
+              </select></label
+            >
+            <label class="check-line"
+              ><input id="family-integral" type="checkbox" />
+              已核定市积分</label
+            >
+            <p class="fine-print">
+              路径依据2026文件，逐校配套范围与证明材料需继续核对。
+            </p>
+          </section>
+          <section id="fee-controls" class="fee-controls" hidden>
+            <label class="section-label" for="fee-item">地图显示项目</label>
+            <select id="fee-item">
+              <option value="tuition">学费 / 保教费</option>
+              <option value="subsidy">民办积分学位补贴</option>
+              <option value="aftercare">学校提供课后服务</option>
+            </select>
+            <label class="check-line"
+              ><input id="senior-kindergarten" type="checkbox" />
+              学前一年适龄大班</label
+            >
+          </section>
+          <div class="list-heading">
+            <p id="result-count" aria-live="polite">正在读取资料</p>
+            <button id="reset-filters" class="text-button">重置</button>
+          </div>
+          <div
+            id="school-list"
+            class="school-list"
+            aria-label="学校资料列表"
+          ></div>
+          <p class="sidebar-footnote">
+            资料截至 2026.11.10 · 校门及路线待实地核验
+          </p>
+        </div>
+      </aside>
+
+      <div class="map-context" id="map-context">
+        <span class="context-dot"></span><span id="context-text">学校分布</span>
+      </div>
+      <div class="map-legend" id="map-legend" aria-label="地图图例">
+        <span><i class="legend-dot public"></i>公办</span
+        ><span><i class="legend-dot other"></i>国企办</span
+        ><span><i class="legend-dot private"></i>民办</span>
+      </div>
+
+      <section class="study-area" id="study-area" aria-label="猎德研究范围说明">
+        <div class="study-area-heading">
+          <i class="area-swatch" aria-hidden="true"></i>
+          <strong>猎德街道</strong>
+          <button id="fit-boundary" title="在地图中查看猎德街道完整参考范围">
+            查看范围 ↗
+          </button>
+        </div>
+        <p id="study-area-description">
+          绿色覆盖为研究主体，周边学校一并展示。
+        </p>
+        <button
+          id="scope-details-toggle"
+          class="scope-details-toggle"
+          aria-expanded="false"
+          aria-controls="scope-details"
+        >
+          范围定义与依据 <span aria-hidden="true">⌄</span>
+        </button>
+        <div id="scope-details" class="scope-details" hidden>
+          <p>
+            本项目采用猎德街道口径。北至花城大道，西至广州大道中，东至华南快速，南侧结合海心沙与珠江区界理解。
+          </p>
+          <p>
+            猎德社区与猎德国际街区各有独立地域口径。学校招生地段需按当年文件另行核对。
+          </p>
+          <p id="study-area-count"></p>
+          <p class="scope-source">
+            覆盖层采用OSM街道参考界，社区细界与现行官方矢量边界仍待核验。
+          </p>
+          <button class="source-link" data-source="E043/E018/E019">
+            官方地图与地域资料 ↗
+          </button>
+          <a
+            id="boundary-source"
+            href="https://www.openstreetmap.org/relation/9524341"
+            target="_blank"
+            rel="noopener noreferrer"
+            >参考边界来源 ↗</a
+          >
+        </div>
+      </section>
+
+      <aside
+        id="detail-panel"
+        class="detail-panel surface"
+        aria-label="学校详情"
+        hidden
+      ></aside>
+
+      <section
+        id="analysis-panel"
+        class="analysis-panel surface"
+        aria-label="当前研究分析"
+      >
+        <button
+          id="analysis-toggle"
+          class="analysis-toggle"
+          aria-expanded="false"
+        >
+          <span
+            ><small id="analysis-kicker">研究视角</small
+            ><strong id="analysis-title"
+              >学校位置如何转化为教育机会？</strong
+            ></span
+          ><span class="analysis-chevron" aria-hidden="true">⌃</span>
+        </button>
+        <div id="analysis-content" class="analysis-content" hidden></div>
+      </section>
+
+      <section
+        id="presentation-panel"
+        class="presentation-panel surface"
+        aria-label="课堂展示导览"
+        hidden
+      >
+        <div class="presentation-head">
+          <span class="eyebrow">课堂展示</span
+          ><button
+            class="icon-button"
+            id="presentation-close"
+            aria-label="关闭导览"
+          >
+            ×
+          </button>
+        </div>
+        <div id="presentation-scenes" class="scene-list"></div>
+        <p class="fine-print">可随时探索地图，再点击场景返回。</p>
+      </section>
+
+      <div class="map-tools" role="group" aria-label="地图操作">
+        <span class="north" aria-label="上方为北">↑<small>N</small></span>
+        <button id="zoom-in" aria-label="放大地图">+</button>
+        <button id="zoom-out" aria-label="缩小地图">−</button>
+        <button id="fit-map" aria-label="回到研究区" title="回到研究区">
+          ⌖
+        </button>
+      </div>
+      <footer class="map-footer">
+        <span id="map-scale" class="map-scale">500 m</span
+        ><span class="attribution"
+          ><a
+            href="https://www.openstreetmap.org/copyright"
+            target="_blank"
+            rel="noopener noreferrer"
+            >© OpenStreetMap contributors · ODbL</a
+          ><button id="methodology-open">资料与方法</button></span
+        >
+      </footer>
+      <div id="toast" class="toast" role="status" hidden></div>
+    </main>
+
+    <dialog id="source-dialog" class="source-dialog">
+      <div id="source-dialog-content"></div>
+    </dialog>
+    <noscript
+      ><p>
+        请启用JavaScript查看地图。研究资料与原文保存在仓库的“教育专题”目录。
+      </p></noscript
+    >
+  </body>
+</html>

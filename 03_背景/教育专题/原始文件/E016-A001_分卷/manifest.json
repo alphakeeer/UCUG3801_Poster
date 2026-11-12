@@ -1,0 +1,24 @@
+{
+  "source_id": "E016-A001",
+  "original_name": "E016-A001_2505发文稿附件_广州市天河区国土空间总体规划_2021_2035年_图集_对外印发_.pdf.pdf",
+  "bytes": 117947103,
+  "sha256": "973519300e686068a0a159f2b341629aa8929116d30e843837f5ebcb5416ffcd",
+  "source_url": "https://www.thnet.gov.cn/attachment/7/7795/7795828/10208507.pdf",
+  "parts": [
+    {
+      "name": "atlas.pdf.001",
+      "bytes": 50331648,
+      "sha256": "b0e2ccead05c6f2d8f07b9522c2e36d2d3546970b8d6f12407b6caff2f610e3c"
+    },
+    {
+      "name": "atlas.pdf.002",
+      "bytes": 50331648,
+      "sha256": "b424677f3f01905de194bdf2a9bbad7b7da69624a89f945cc4ff58cec5ec5e95"
+    },
+    {
+      "name": "atlas.pdf.003",
+      "bytes": 17283807,
+      "sha256": "e66b15007cfe6a6497e54670bc5bd32ad456096a1775c3ca9639877a2e079a17"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "liede-education-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Offline-first interactive research map of education opportunities in Liede.",
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check dist/app.js && node --check dist/map.js && node --check server.mjs"
+  }
+}
