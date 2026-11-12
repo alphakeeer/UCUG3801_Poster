@@ -1,0 +1,4756 @@
+{
+  "query_date_local": "2026-11-12",
+  "coordinate_system": "GCJ-02, longitude then latitude",
+  "method": {
+    "routing": "Amap walking and integrated transit, fixed GCJ-02 POI to POI. One way. Distance is modeled network length and time is map-estimated.",
+    "transit_selection": "Up to three map options retained, sorted by duration and, for new equal-duration results, by the walking portion. Option zero is used in the table. Services within a leg are alternatives.",
+    "requested_arrival_window": "Regular weekday 07:30–08:00 China Standard Time",
+    "actual_arrival_window": "All returned preferred Amap PC routes had a modelled arrival within 07:30–08:00 China Standard Time.",
+    "time_gap": "Amap PC departure set to 2026-11-12 07:20 CST (ordinary Thursday). Arrival is departure plus the displayed whole-minute travel time, not a directly specified arrival time or an observed school trip. Earlier integrated route estimates remain untouched and untimed.",
+    "accessibility": "Named roads and junctions are map-derived checks. Actual pedestrian gates, crossings and route passability have not been field-verified.",
+    "fare": "Amap PC displayed adult single-journey estimates where present. Single-ride Line 5 Liede–Tancun also cross-checked against the operator tariff. Null means unavailable.",
+    "samples": "Three residential POIs and six sampled kindergarten campuses, including two campuses of one operator. Thresholds are inclusive and use seconds before rounding.",
+    "pc_transit_selection": "First valid motorized itinerary in Amap PC recommended order. Alternative cards and the preferred route's visible details are retained. Quotes are modelled."
+  },
+  "sources": {
+    "amap_route_method": "https://lbs.amap.com/api/webservice/guide/api/direction",
+    "metro_standard_fare": "https://www.gz.gov.cn/attachment/7/7792/7792262/10198954.pdf",
+    "bus_fare_policy": "https://fgw.gz.gov.cn/gkmlpt/content/9/9824/post_9824407.html",
+    "bus_stop_renaming": "https://jtj.gz.gov.cn/zwgg/ywgg/ggjt/gjxldzgg/content/post_11079212.html",
+    "metro_accessibility": "https://www.gz.gov.cn/attachment/7/7792/7792275/10648239.pdf",
+    "primary_admissions_2026": "https://www.thnet.gov.cn/attachment/8/8016/8016210/10791180.pdf",
+    "kindergarten_admissions_2026": "https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10777181.html",
+    "amap_public_planner_help": "https://www.amap.com/ssr/doc/route-plan",
+    "bus_777_change": "https://jtj.gz.gov.cn/zwgg/ywgg/ggjt/gjxldzgg/content/post_10396011.html",
+    "bus_changes_index": "https://jtj.gz.gov.cn/zwgg/ywgg/ggjt/gjxldzgg/",
+    "kindergarten_fee_schedule": "https://fgw.gz.gov.cn/gkmlpt/content/9/9577/post_9577385.html",
+    "kindergarten_final_year_waiver": "https://jyj.gz.gov.cn/gk/zfxxgkml/bmwj/qtwj/content/post_10516322.html",
+    "liede_kindergarten_budget_2026": "https://www.thnet.gov.cn/gzthjy/attachment/8/8012/8012345/10785604.pdf",
+    "kindergarten_public_list_2026": "https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10815546.html",
+    "kindergarten_private_list_2026": "https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10815624.html",
+    "primary_admissions_notice": "https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10791180.html",
+    "osm_basemap": "https://www.openstreetmap.org/copyright",
+    "map_coordinate_alignment": "https://github.com/wandergis/coordTransform_py"
+  },
+  "residential_points": [
+    {
+      "id": "D1",
+      "name": "猎德花园",
+      "address": "珠江新城海文路1–53号",
+      "type": "Liede village redevelopment resettlement housing",
+      "longitude": 113.336127,
+      "latitude": 23.113409,
+      "map_url": "https://ditu.amap.com/place/B0FFFQLHZ6",
+      "sources": [
+        "https://renda.thnet.gov.cn/renda/liede/202009/22499b2d8da646d4b1900f789a84b0db.shtml",
+        "https://www.thnet.gov.cn/thdt/mtjj/content/post_10216558.html"
+      ],
+      "note": "Amap pin address 海文路7号",
+      "english_label": "Liede Garden",
+      "point_audit": {
+        "checked_on": "2026-11-12",
+        "poi_coordinates_match_round_1": true,
+        "amap_details": {
+          "id": "D1",
+          "poi_id": "B0FFFQLHZ6",
+          "amap_name": "猎德花园",
+          "location": "113.336127,23.113409",
+          "amap_address": "珠江新城海文路7号",
+          "amap_type": "商务住宅;住宅区;住宅小区"
+        },
+        "gate_clue_zh": "海文路7号小区点，起步路径接入海文路附近支路。小区有多个片区，未确定常用人行门。",
+        "gate_field_verified": false
+      }
+    },
+    {
+      "id": "D2",
+      "name": "中海璟晖华庭",
+      "address": "猎德大道31号",
+      "type": "Market residential development with commercial space",
+      "longitude": 113.332723,
+      "latitude": 23.121608,
+      "map_url": "https://ditu.amap.com/place/B00140TYWA",
+      "sources": [
+        "https://ghzyj.gz.gov.cn/ywpd/cxgh/ghxkgsgb/phgbnew/ghyshgzls/content/post_7699927.html"
+      ],
+      "note": null,
+      "english_label": "Zhonghai Jinghui Huating",
+      "point_audit": {
+        "checked_on": "2026-11-12",
+        "poi_coordinates_match_round_1": true,
+        "amap_details": {
+          "id": "D2",
+          "poi_id": "B00140TYWA",
+          "amap_name": "中海·璟晖华庭",
+          "location": "113.332723,23.121608",
+          "amap_address": "猎德大道31号(猎德地铁站C口步行460米)",
+          "amap_type": "商务住宅;住宅区;住宅小区"
+        },
+        "gate_clue_zh": "猎德大道31号小区点。搜索命中住宅、分期与停车出入口，未获得可独立验证的人行门。",
+        "gate_field_verified": false
+      }
+    },
+    {
+      "id": "D3",
+      "name": "南国花园",
+      "address": "珠江新城平月路",
+      "type": "Market residential development",
+      "longitude": 113.344585,
+      "latitude": 23.114459,
+      "map_url": "https://ditu.amap.com/place/B00140UF9T",
+      "sources": [
+        "https://www.thnet.gov.cn/gzjg/jd/ldj/lxfs/",
+        "https://m.xflapp.com/xiaoqu/gz-6581300095646433539.html"
+      ],
+      "note": null,
+      "english_label": "Nanguo Garden",
+      "point_audit": {
+        "checked_on": "2026-11-12",
+        "poi_coordinates_match_round_1": true,
+        "amap_details": {
+          "id": "D3",
+          "poi_id": "B00140UF9T",
+          "amap_name": "南国花园",
+          "location": "113.344585,23.114459",
+          "amap_address": "珠江新城平月路(潭村地铁站A口步行190米)",
+          "amap_type": "商务住宅;住宅区;住宅小区"
+        },
+        "gate_clue_zh": "平月路小区点。高德的晨光文具（南国店）地址注明北门旁，仅为相邻地标，未确认图钉即为北门。",
+        "gate_field_verified": false
+      }
+    }
+  ],
+  "education_points": [
+    {
+      "id": "S1",
+      "name": "广州市天河中学猎德实验学校小学部",
+      "address": "海清路海定街1号",
+      "type": "Public nine-year school, primary division",
+      "longitude": 113.337457,
+      "latitude": 23.115805,
+      "map_url": "https://ditu.amap.com/place/B0FFF3UT6N",
+      "sources": [
+        "https://www.thnet.gov.cn/attachment/8/8016/8016210/10791180.pdf",
+        "https://www.thnet.gov.cn/zwgk/ggqsydwxxgkzl/jyly/jnygzxx/content/post_8724037.html"
+      ],
+      "note": "Amap campus pin, shared with the secondary division",
+      "english_label": "Liede Experimental School",
+      "point_audit": {
+        "checked_on": "2026-11-12",
+        "poi_coordinates_match_round_1": true,
+        "amap_details": {
+          "id": "S1",
+          "poi_id": "B0FFF3UT6N",
+          "amap_name": "广州市天河中学猎德实验学校",
+          "location": "113.337457,23.115805",
+          "amap_address": "海清路海定街1号",
+          "amap_type": "科教文化服务;学校;中学"
+        },
+        "gate_clue_zh": "海定街1号全校点，高德分类为中学。教育局确认含小学部，实际小学晨间入校门待核。",
+        "gate_field_verified": false
+      }
+    },
+    {
+      "id": "S2",
+      "name": "广州市天河区体育东路小学海明学校",
+      "address": "上筑街2号",
+      "type": "Public primary school",
+      "longitude": 113.342561,
+      "latitude": 23.115197,
+      "map_url": "https://ditu.amap.com/place/B0FFFRHN58",
+      "sources": [
+        "https://www.thnet.gov.cn/attachment/8/8016/8016210/10791180.pdf",
+        "https://www.thnet.gov.cn/zwgk/ggqsydwxxgkzl/jyly/xx/content/post_8724023.html"
+      ],
+      "note": null,
+      "english_label": "Haiming Primary School",
+      "point_audit": {
+        "checked_on": "2026-11-12",
+        "poi_coordinates_match_round_1": true,
+        "amap_details": {
+          "id": "S2",
+          "poi_id": "B0FFFRHN58",
+          "amap_name": "体育东路小学海明学校",
+          "location": "113.342561,23.115197",
+          "amap_address": "上筑街2(潭村地铁站A口步行480米)",
+          "amap_type": "科教文化服务;学校;小学"
+        },
+        "gate_clue_zh": "上筑街2号学校点。学校点与力迅上筑幼儿园相邻，须分别核实入校门。",
+        "gate_field_verified": false
+      }
+    },
+    {
+      "id": "S3",
+      "name": "广州市天河区体育东路小学兴国学校",
+      "address": "兴国路26号",
+      "type": "Public primary school",
+      "longitude": 113.331236,
+      "latitude": 23.119408,
+      "map_url": "https://ditu.amap.com/place/B00140TZ2K",
+      "sources": [
+        "https://www.thnet.gov.cn/attachment/8/8016/8016210/10791180.pdf",
+        "https://www.thnet.gov.cn/zwgk/ggqsydwxxgkzl/jyly/xx/content/post_8724023.html"
+      ],
+      "note": null,
+      "english_label": "Xingguo Primary School",
+      "point_audit": {
+        "checked_on": "2026-11-12",
+        "poi_coordinates_match_round_1": true,
+        "amap_details": {
+          "id": "S3",
+          "poi_id": "B00140TZ2K",
+          "amap_name": "体育东路小学兴国学校",
+          "location": "113.331236,23.119408",
+          "amap_address": "兴国路26号(猎德地铁站D口步行50米)",
+          "amap_type": "科教文化服务;学校;小学"
+        },
+        "gate_clue_zh": "兴国路26号学校点，高德标注靠猎德地铁D口，不能由地铁口定位推知校门。",
+        "gate_field_verified": false
+      }
+    },
+    {
+      "id": "S4",
+      "name": "广州市南国学校小学部",
+      "address": "平月路200号",
+      "type": "Public nine-year school, primary division",
+      "longitude": 113.344261,
+      "latitude": 23.116251,
+      "map_url": "https://ditu.amap.com/place/B00141IKVW",
+      "sources": [
+        "https://www.thnet.gov.cn/attachment/8/8016/8016210/10791180.pdf",
+        "https://www.thnet.gov.cn/zwgk/ggqsydwxxgkzl/jyly/jnygzxx/content/post_8724037.html"
+      ],
+      "note": "Primary division's Amap address. The district directory gives 平月路202号 for the combined school.",
+      "english_label": "Nanguo School",
+      "point_audit": {
+        "checked_on": "2026-11-12",
+        "poi_coordinates_match_round_1": true,
+        "amap_details": {
+          "id": "S4",
+          "poi_id": "B00141IKVW",
+          "amap_name": "南国学校(小学部)",
+          "location": "113.344261,23.116251",
+          "amap_address": "平月路200号(潭村地铁站A口步行170米)",
+          "amap_type": "科教文化服务;学校;小学"
+        },
+        "gate_clue_zh": "高德小学部平月路200号。区目录的202号为全校地址。周边商户标注小学部南门，门位及早晨开放待核。",
+        "gate_field_verified": false
+      }
+    },
+    {
+      "id": "K1",
+      "name": "广州市天河区珠江新城猎德幼儿园",
+      "address": "海月路33号",
+      "type": "Education department-run kindergarten",
+      "longitude": 113.337456,
+      "latitude": 23.114648,
+      "map_url": "https://ditu.amap.com/place/B0FFF3USY7",
+      "sources": [
+        "https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10815546.html"
+      ],
+      "note": null,
+      "english_label": "Liede Kindergarten",
+      "point_audit": {
+        "checked_on": "2026-11-12",
+        "poi_coordinates_match_round_1": true,
+        "amap_details": {
+          "id": "K1",
+          "poi_id": "B0FFF3USY7",
+          "amap_name": "猎德幼儿园",
+          "location": "113.337456,23.114648",
+          "amap_address": "海月路33号",
+          "amap_type": "科教文化服务;学校;幼儿园"
+        },
+        "gate_clue_zh": "海月路33号园区点，常用校门及接送动线待核。",
+        "gate_field_verified": false
+      },
+      "official_operator_category": "Education department-run public kindergarten",
+      "fee_evidence": {
+        "campus_specific_2026_small_or_middle_class_monthly_cny": null,
+        "small_or_middle_class_fee_status": "Unverified campus-specific amount",
+        "food_and_service_fees_status": "Unverified campus-specific amounts",
+        "full_day_city_base_rates_cny_per_month": {
+          "standard": 823,
+          "demonstration": 995
+        },
+        "final_preschool_year_tuition_cny_if_enrolled_and_covered": 0,
+        "sources": [
+          "https://fgw.gz.gov.cn/gkmlpt/content/9/9577/post_9577385.html",
+          "https://jyj.gz.gov.cn/gk/zfxxgkml/bmwj/qtwj/content/post_10516322.html"
+        ]
+      }
+    },
+    {
+      "id": "K2",
+      "name": "广州市天河区万锦幼儿园",
+      "address": "猎德大道31号之六",
+      "type": "Private inclusive kindergarten",
+      "longitude": 113.332259,
+      "latitude": 23.121804,
+      "map_url": "https://ditu.amap.com/place/B0FFGY5J2S",
+      "sources": [
+        "https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10815624.html"
+      ],
+      "note": null,
+      "english_label": "Wanjin Kindergarten",
+      "point_audit": {
+        "checked_on": "2026-11-12",
+        "poi_coordinates_match_round_1": true,
+        "amap_details": {
+          "id": "K2",
+          "poi_id": "B0FFGY5J2S",
+          "amap_name": "万锦幼儿园",
+          "location": "113.332259,23.121804",
+          "amap_address": "猎德大道31号之6中海璟晖华庭",
+          "amap_type": "科教文化服务;学校;幼儿园"
+        },
+        "gate_clue_zh": "猎德大道31号之六，住宅内配建点附近。中海住宅点到园点正反向均绕行269米，须核实内部捷径与行人准入。",
+        "gate_field_verified": false
+      },
+      "official_operator_category": "Inclusive private kindergarten",
+      "fee_evidence": {
+        "campus_specific_2026_small_or_middle_class_monthly_cny": null,
+        "small_or_middle_class_fee_status": "Unverified campus-specific amount",
+        "food_and_service_fees_status": "Unverified campus-specific amounts",
+        "final_year": "Comparable public waiver applies. Residual fee not verified.",
+        "sources": [
+          "https://fgw.gz.gov.cn/gkmlpt/content/9/9577/post_9577385.html",
+          "https://jyj.gz.gov.cn/gk/zfxxgkml/bmwj/qtwj/content/post_10516322.html"
+        ]
+      }
+    },
+    {
+      "id": "K3",
+      "name": "广州市天河区佐治亚幼儿园",
+      "address": "金穗路68号",
+      "type": "Private inclusive kindergarten",
+      "longitude": 113.329152,
+      "latitude": 23.122236,
+      "map_url": "https://ditu.amap.com/place/B0FFG8FWWZ",
+      "sources": [
+        "https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10815624.html"
+      ],
+      "note": null,
+      "english_label": "Zuozhiya Kindergarten",
+      "point_audit": {
+        "checked_on": "2026-11-12",
+        "poi_coordinates_match_round_1": true,
+        "amap_details": {
+          "id": "K3",
+          "poi_id": "B0FFG8FWWZ",
+          "amap_name": "广州佐治亚国际幼儿园(广州珠江新城校区)",
+          "location": "113.329152,23.122236",
+          "amap_address": "珠江新城金穗路68号领峰小区",
+          "amap_type": "科教文化服务;学校;幼儿园"
+        },
+        "gate_clue_zh": "金穗路68号，点位在领峰小区。步行多从兴盛直街接近，须核实接送口与住宅通行条件。",
+        "gate_field_verified": false
+      },
+      "official_operator_category": "Inclusive private kindergarten",
+      "fee_evidence": {
+        "campus_specific_2026_small_or_middle_class_monthly_cny": null,
+        "small_or_middle_class_fee_status": "Unverified campus-specific amount",
+        "food_and_service_fees_status": "Unverified campus-specific amounts",
+        "final_year": "Comparable public waiver applies. Residual fee not verified.",
+        "sources": [
+          "https://fgw.gz.gov.cn/gkmlpt/content/9/9577/post_9577385.html",
+          "https://jyj.gz.gov.cn/gk/zfxxgkml/bmwj/qtwj/content/post_10516322.html"
+        ]
+      }
+    },
+    {
+      "id": "K4",
+      "name": "广州市天河区力迅上筑幼儿园",
+      "address": "上筑街1号",
+      "type": "Private inclusive kindergarten",
+      "longitude": 113.341996,
+      "latitude": 23.115182,
+      "map_url": "https://ditu.amap.com/place/B00140UR2W",
+      "sources": [
+        "https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10815624.html"
+      ],
+      "note": null,
+      "english_label": "Lixun Shangzhu Kindergarten",
+      "point_audit": {
+        "checked_on": "2026-11-12",
+        "poi_coordinates_match_round_1": true,
+        "amap_details": {
+          "id": "K4",
+          "poi_id": "B00140UR2W",
+          "amap_name": "力迅上筑幼儿园",
+          "location": "113.341996,23.115182",
+          "amap_address": "上筑街1(潭村地铁站A口步行480米)",
+          "amap_type": "科教文化服务;学校;幼儿园"
+        },
+        "gate_clue_zh": "上筑街1号园区点。与海明小学地址相邻，接送门待核。",
+        "gate_field_verified": false
+      },
+      "official_operator_category": "Inclusive private kindergarten",
+      "fee_evidence": {
+        "campus_specific_2026_small_or_middle_class_monthly_cny": null,
+        "small_or_middle_class_fee_status": "Unverified campus-specific amount",
+        "food_and_service_fees_status": "Unverified campus-specific amounts",
+        "final_year": "Comparable public waiver applies. Residual fee not verified.",
+        "sources": [
+          "https://fgw.gz.gov.cn/gkmlpt/content/9/9577/post_9577385.html",
+          "https://jyj.gz.gov.cn/gk/zfxxgkml/bmwj/qtwj/content/post_10516322.html"
+        ]
+      }
+    },
+    {
+      "id": "K5",
+      "name": "广州市天河区金穗幼儿园",
+      "address": "金穗路73号",
+      "type": "Education department-run kindergarten",
+      "longitude": 113.334724,
+      "latitude": 23.123746,
+      "map_url": "https://ditu.amap.com/place/B0FFF3V19U",
+      "sources": [
+        "https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10815546.html"
+      ],
+      "note": null,
+      "english_label": "Jinsui Kindergarten",
+      "point_audit": {
+        "checked_on": "2026-11-12",
+        "poi_coordinates_match_round_1": true,
+        "amap_details": {
+          "id": "K5",
+          "poi_id": "B0FFF3V19U",
+          "amap_name": "天河区金穗幼儿园",
+          "location": "113.334724,23.123746",
+          "amap_address": "金穗路73号",
+          "amap_type": "科教文化服务;学校;幼儿园"
+        },
+        "gate_clue_zh": "金穗路73号园区点。高德关键词搜索出现无独立POI编号的西门线索，暂未用其替换园区点。",
+        "gate_field_verified": false
+      },
+      "official_operator_category": "Education department-run public kindergarten",
+      "fee_evidence": {
+        "campus_specific_2026_small_or_middle_class_monthly_cny": null,
+        "small_or_middle_class_fee_status": "Unverified campus-specific amount",
+        "food_and_service_fees_status": "Unverified campus-specific amounts",
+        "full_day_city_base_rates_cny_per_month": {
+          "standard": 823,
+          "demonstration": 995
+        },
+        "final_preschool_year_tuition_cny_if_enrolled_and_covered": 0,
+        "sources": [
+          "https://fgw.gz.gov.cn/gkmlpt/content/9/9577/post_9577385.html",
+          "https://jyj.gz.gov.cn/gk/zfxxgkml/bmwj/qtwj/content/post_10516322.html"
+        ]
+      }
+    },
+    {
+      "id": "K6",
+      "name": "广州市天河区金穗幼儿园花城园区",
+      "address": "平江路9号",
+      "type": "Education department-run kindergarten",
+      "longitude": 113.347319,
+      "latitude": 23.11622,
+      "map_url": "https://ditu.amap.com/place/B0FFL64EY3",
+      "sources": [
+        "https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10815546.html"
+      ],
+      "note": null,
+      "english_label": "Jinsui Kindergarten (Huacheng Campus)",
+      "point_audit": {
+        "checked_on": "2026-11-12",
+        "poi_coordinates_match_round_1": true,
+        "amap_details": {
+          "id": "K6",
+          "poi_id": "B0FFL64EY3",
+          "amap_name": "广州市天河区金穗幼儿园花城园区",
+          "location": "113.347319,23.116220",
+          "amap_address": "平江路9号(潭村地铁站B口步行270米)",
+          "amap_type": "科教文化服务;学校;幼儿园"
+        },
+        "gate_clue_zh": "平江路9号独立园区点，按教育局名录区别于金穗路本园。学校常用入口待核。",
+        "gate_field_verified": false
+      },
+      "official_operator_category": "Education department-run public kindergarten",
+      "fee_evidence": {
+        "campus_specific_2026_small_or_middle_class_monthly_cny": null,
+        "small_or_middle_class_fee_status": "Unverified campus-specific amount",
+        "food_and_service_fees_status": "Unverified campus-specific amounts",
+        "full_day_city_base_rates_cny_per_month": {
+          "standard": 823,
+          "demonstration": 995
+        },
+        "final_preschool_year_tuition_cny_if_enrolled_and_covered": 0,
+        "sources": [
+          "https://fgw.gz.gov.cn/gkmlpt/content/9/9577/post_9577385.html",
+          "https://jyj.gz.gov.cn/gk/zfxxgkml/bmwj/qtwj/content/post_10516322.html"
+        ]
+      }
+    }
+  ],
+  "routes": [
+    {
+      "origin_id": "D1",
+      "destination_id": "K1",
+      "walking_meters": 273,
+      "walking_seconds": 218,
+      "walking_steps": [
+        "向北步行21米右转",
+        "沿海文路向北步行111米右转",
+        "沿海月路向东步行82米左转",
+        "向北步行59米到达目的地"
+      ],
+      "walking_url": "https://uri.amap.com/navigation?from=113.336127,23.113409&to=113.337456,23.114648&mode=walk&src=liede-fieldwork",
+      "transit_url": "https://uri.amap.com/navigation?from=113.336127,23.113409&to=113.337456,23.114648&mode=bus&src=liede-fieldwork",
+      "transit_status": "Amap returned no itinerary",
+      "transit_options": [],
+      "named_roads": [
+        "海文路",
+        "海月路"
+      ],
+      "query_date_local": "2026-11-12",
+      "source_round": 1,
+      "source": "Amap integrated route planner",
+      "transit_school_hour_status": "Untimed model estimate",
+      "crossing_field_verified": false,
+      "walking_audit": {
+        "step_meters_sum": 273,
+        "map_total_matches_steps_with_rounding": true,
+        "potential_detour_flag": false,
+        "flag_basis": "Screening only. Network/direct-distance ratio >= 1.5 and excess >= 100 m. No inference of passability."
+      },
+      "amap_pc_morning_transit": {
+        "origin_id": "D1",
+        "destination_id": "K1",
+        "url": "https://ditu.amap.com/ssr/dir?fname=%E7%8C%8E%E5%BE%B7%E8%8A%B1%E5%9B%AD&flat=23.113409&flon=113.336127&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E7%8F%A0%E6%B1%9F%E6%96%B0%E5%9F%8E%E7%8C%8E%E5%BE%B7%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.114648&dlon=113.337456&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "model_date": "2026-11-12",
+        "departure": "07:20",
+        "observed_route": false,
+        "returned_url": "https://ditu.amap.com/ssr/dir?fname=%E7%8C%8E%E5%BE%B7%E8%8A%B1%E5%9B%AD&flat=23.113409&flon=113.336127&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E7%8F%A0%E6%B1%9F%E6%96%B0%E5%9F%8E%E7%8C%8E%E5%BE%B7%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.114648&dlon=113.337456&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "status": "no_itinerary_returned",
+        "message": "高德地图 — 在线地图查询与路线规划服务\n\n暂无公交路线方案\n广州\n晴\n18/27℃\n2 公里\n反馈\n路况\n测距\n地铁\n分享\n图层\n3D\n全屏"
+      }
+    },
+    {
+      "origin_id": "D1",
+      "destination_id": "K2",
+      "walking_meters": 1517,
+      "walking_seconds": 1214,
+      "walking_steps": [
+        "向北步行21米左转",
+        "向西步行71米向右前方行走",
+        "向北步行66米左转",
+        "沿海月路向西步行167米右转",
+        "沿猎德大道辅路向北步行373米向右前方行走",
+        "沿花城大道步行29米左转",
+        "向西北步行54米左转",
+        "沿花城大道步行40米向右前方行走",
+        "沿花城大道向北步行81米向左前方行走",
+        "沿猎德大道向北步行376米左转",
+        "沿金穗路辅路向西步行143米左转",
+        "向南步行96米到达目的地"
+      ],
+      "walking_url": "https://uri.amap.com/navigation?from=113.336127,23.113409&to=113.332259,23.121804&mode=walk&src=liede-fieldwork",
+      "transit_url": "https://uri.amap.com/navigation?from=113.336127,23.113409&to=113.332259,23.121804&mode=bus&src=liede-fieldwork",
+      "transit_status": "Amap options returned",
+      "transit_options": [
+        {
+          "seconds": 1746,
+          "walk_meters": 829,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "777路",
+                "669路"
+              ],
+              "board": "临江大道",
+              "alight": "猎德",
+              "entrance": null,
+              "exit": null
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        },
+        {
+          "seconds": 1944,
+          "walk_meters": 1265,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "20路"
+              ],
+              "board": "猎德",
+              "alight": "金穗路",
+              "entrance": null,
+              "exit": null
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        },
+        {
+          "seconds": 1982,
+          "walk_meters": 861,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "293路"
+              ],
+              "board": "临江大道",
+              "alight": "冼村路中",
+              "entrance": null,
+              "exit": null
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        }
+      ],
+      "named_roads": [
+        "海月路",
+        "猎德大道辅路",
+        "花城大道",
+        "猎德大道",
+        "金穗路辅路"
+      ],
+      "query_date_local": "2026-11-12",
+      "source_round": 1,
+      "source": "Amap integrated route planner",
+      "transit_school_hour_status": "Untimed model estimate",
+      "crossing_field_verified": false,
+      "walking_audit": {
+        "step_meters_sum": 1517,
+        "map_total_matches_steps_with_rounding": true,
+        "potential_detour_flag": false,
+        "flag_basis": "Screening only. Network/direct-distance ratio >= 1.5 and excess >= 100 m. No inference of passability."
+      },
+      "transit_recheck": {
+        "d": "D1",
+        "s": "K2",
+        "mode": "transit",
+        "first_two": [
+          {
+            "seconds": 1731,
+            "walk_meters": 829,
+            "transfers": 0,
+            "legs": [
+              {
+                "services": [
+                  "777路",
+                  "669路"
+                ],
+                "board": "临江大道",
+                "alight": "猎德",
+                "entrance": null,
+                "exit": null
+              }
+            ]
+          },
+          {
+            "seconds": 1942,
+            "walk_meters": 1265,
+            "transfers": 0,
+            "legs": [
+              {
+                "services": [
+                  "20路"
+                ],
+                "board": "猎德",
+                "alight": "金穗路",
+                "entrance": null,
+                "exit": null
+              }
+            ]
+          }
+        ]
+      },
+      "bus_stop_alias_audit": {
+        "operator_old_name": "猎德站",
+        "operator_new_name": "花城大道（兴国路口）站",
+        "scope": "Only eastbound road bus stop on Huacheng Avenue. Amap legs omit directional stop IDs, so retain provider label.",
+        "phased_from": "2026-11-07",
+        "source": "https://jtj.gz.gov.cn/zwgg/ywgg/ggjt/gjxldzgg/content/post_11079212.html"
+      },
+      "amap_pc_morning_transit": {
+        "origin_id": "D1",
+        "destination_id": "K2",
+        "url": "https://ditu.amap.com/ssr/dir?fname=%E7%8C%8E%E5%BE%B7%E8%8A%B1%E5%9B%AD&flat=23.113409&flon=113.336127&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E4%B8%87%E9%94%A6%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.121804&dlon=113.332259&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "model_date": "2026-11-12",
+        "departure": "07:20",
+        "observed_route": false,
+        "returned_url": "https://ditu.amap.com/ssr/dir?fname=%E7%8C%8E%E5%BE%B7%E8%8A%B1%E5%9B%AD&flat=23.113409&flon=113.336127&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E4%B8%87%E9%94%A6%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.121804&dlon=113.332259&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "options": [
+          {
+            "summary": "26分钟\n步行 829米\n4\n777路\n11\n1站\n•\n2元\n•\n1.9公里\n详情",
+            "time_minutes": 26,
+            "lines": [
+              "777路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0,
+            "fare_source_type": "Amap public planner fare displayed"
+          },
+          {
+            "summary": "31分钟\n步行 861米\n4\n293路\n11\n3站\n•\n2元\n•\n2.5公里",
+            "time_minutes": 31,
+            "lines": [
+              "293路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          },
+          {
+            "summary": "29分钟\n步行 477米\n步行少\n4\n777路\n20路\n5\n3站\n•\n4元\n•\n2.6公里",
+            "time_minutes": 29,
+            "lines": [
+              "777路",
+              "20路"
+            ],
+            "fare_cny": 4,
+            "transfers": 1
+          },
+          {
+            "summary": "30分钟\n步行 1.3公里\n17\n20路\n5\n2站\n•\n2元\n•\n2.3公里",
+            "time_minutes": 30,
+            "lines": [
+              "20路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          }
+        ],
+        "preferred_index": 0,
+        "status": "itinerary_returned",
+        "estimated_arrival": "07:46",
+        "estimated_arrival_in_requested_window": true,
+        "preferred_details": "26分钟\n步行 829米\n4\n777路\n11\n1站\n•\n2元\n•\n1.9公里\n起\n猎德花园\n步行204米(4分钟)\n临江大道\n777路\n珠江新城总站方向\n1站 (12分钟)\n首站发车约15分钟/趟\n猎德\n步行625米(11分钟)\n终\n广州市天河区万锦幼儿园",
+        "boarding_stop_as_displayed": "临江大道",
+        "alighting_stop_as_displayed": "猎德",
+        "preferred_walk_meters_from_displayed_legs": 829
+      }
+    },
+    {
+      "origin_id": "D1",
+      "destination_id": "K3",
+      "walking_meters": 1698,
+      "walking_seconds": 1358,
+      "walking_steps": [
+        "向北步行21米左转",
+        "向西步行71米向右前方行走",
+        "向北步行66米左转",
+        "沿海月路向西步行167米右转",
+        "沿猎德大道辅路向北步行373米向右前方行走",
+        "沿花城大道步行29米左转",
+        "向西北步行54米左转",
+        "沿花城大道步行40米向右前方行走",
+        "沿花城大道向北步行81米向左前方行走",
+        "沿猎德大道辅路向北步行154米左转",
+        "沿兴盛路向西步行410米右转",
+        "沿兴盛直街向北步行170米左转",
+        "向西步行41米左转",
+        "向南步行21米到达目的地"
+      ],
+      "named_roads": [
+        "海月路",
+        "猎德大道辅路",
+        "花城大道",
+        "兴盛路",
+        "兴盛直街"
+      ],
+      "transit_status": "Amap options returned",
+      "transit_options": [
+        {
+          "seconds": 1792,
+          "walk_meters": 659,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "293路"
+              ],
+              "board": "临江大道",
+              "alight": "冼村路中",
+              "entrance": null,
+              "exit": null,
+              "alternatives": [
+                [
+                  "293路(华景新城总站--广卫路总站)",
+                  "临江大道",
+                  "冼村路中",
+                  1655,
+                  1134
+                ]
+              ]
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        },
+        {
+          "seconds": 1792,
+          "walk_meters": 899,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "777路",
+                "669路"
+              ],
+              "board": "临江大道",
+              "alight": "猎德",
+              "entrance": null,
+              "exit": null,
+              "alternatives": [
+                [
+                  "777路(珠江新城总站--珠江新城总站)",
+                  "临江大道",
+                  "猎德",
+                  1111,
+                  895
+                ],
+                [
+                  "669路(金穗路总站(马场路口)--金穗路总站(马场路口))",
+                  "临江大道",
+                  "猎德",
+                  1111,
+                  895
+                ]
+              ]
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        },
+        {
+          "seconds": 1888,
+          "walk_meters": 1211,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "20路"
+              ],
+              "board": "猎德",
+              "alight": "金穗路",
+              "entrance": null,
+              "exit": null,
+              "alternatives": [
+                [
+                  "20路(大塘总站--汇景北路总站)",
+                  "猎德",
+                  "金穗路",
+                  1040,
+                  698
+                ]
+              ]
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        }
+      ],
+      "walking_url": "https://uri.amap.com/navigation?from=113.336127,23.113409&to=113.329152,23.122236&mode=walk&src=liede-fieldwork",
+      "transit_url": "https://uri.amap.com/navigation?from=113.336127,23.113409&to=113.329152,23.122236&mode=bus&src=liede-fieldwork",
+      "query_date_local": "2026-11-12",
+      "source_round": 2,
+      "source": "Amap integrated route planner",
+      "transit_school_hour_status": "Untimed model estimate",
+      "crossing_field_verified": false,
+      "walking_audit": {
+        "step_meters_sum": 1698,
+        "map_total_matches_steps_with_rounding": true,
+        "potential_detour_flag": false,
+        "flag_basis": "Screening only. Network/direct-distance ratio >= 1.5 and excess >= 100 m. No inference of passability."
+      },
+      "bus_stop_alias_audit": {
+        "operator_old_name": "猎德站",
+        "operator_new_name": "花城大道（兴国路口）站",
+        "scope": "Only eastbound road bus stop on Huacheng Avenue. Amap legs omit directional stop IDs, so retain provider label.",
+        "phased_from": "2026-11-07",
+        "source": "https://jtj.gz.gov.cn/zwgg/ywgg/ggjt/gjxldzgg/content/post_11079212.html"
+      },
+      "amap_pc_morning_transit": {
+        "origin_id": "D1",
+        "destination_id": "K3",
+        "url": "https://ditu.amap.com/ssr/dir?fname=%E7%8C%8E%E5%BE%B7%E8%8A%B1%E5%9B%AD&flat=23.113409&flon=113.336127&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E4%BD%90%E6%B2%BB%E4%BA%9A%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.122236&dlon=113.329152&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "model_date": "2026-11-12",
+        "departure": "07:20",
+        "observed_route": false,
+        "returned_url": "https://ditu.amap.com/ssr/dir?fname=%E7%8C%8E%E5%BE%B7%E8%8A%B1%E5%9B%AD&flat=23.113409&flon=113.336127&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E4%BD%90%E6%B2%BB%E4%BA%9A%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.122236&dlon=113.329152&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "options": [
+          {
+            "summary": "28分钟\n步行 659米\n4\n293路\n8\n3站\n•\n2元\n•\n2.3公里\n详情",
+            "time_minutes": 28,
+            "lines": [
+              "293路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0,
+            "fare_source_type": "Amap public planner fare displayed"
+          },
+          {
+            "summary": "27分钟\n步行 899米\n4\n777路\n12\n1站\n•\n2元\n•\n2公里",
+            "time_minutes": 27,
+            "lines": [
+              "777路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          },
+          {
+            "summary": "28分钟\n步行 423米\n步行少\n4\n777路\n20路\n4\n3站\n•\n4元\n•\n2.6公里",
+            "time_minutes": 28,
+            "lines": [
+              "777路",
+              "20路"
+            ],
+            "fare_cny": 4,
+            "transfers": 1
+          },
+          {
+            "summary": "29分钟\n步行 1.2公里\n17\n20路\n4\n2站\n•\n2元\n•\n2.3公里",
+            "time_minutes": 29,
+            "lines": [
+              "20路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          },
+          {
+            "summary": "31分钟\n步行 1.4公里\n17\n11路\n8\n1站\n•\n2元\n•\n2公里",
+            "time_minutes": 31,
+            "lines": [
+              "11路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          }
+        ],
+        "preferred_index": 0,
+        "status": "itinerary_returned",
+        "estimated_arrival": "07:48",
+        "estimated_arrival_in_requested_window": true,
+        "preferred_details": "28分钟\n步行 659米\n4\n293路\n8\n3站\n•\n2元\n•\n2.3公里\n起\n猎德花园\n步行204米(4分钟)\n临江大道\n293路\n广卫路总站方向\n3站 (17分钟)\n首站发车约20分钟/趟\n临江大道中\n冼村路南\n冼村路中\n步行455米(8分钟)\n终\n广州市天河区佐治亚幼儿园",
+        "boarding_stop_as_displayed": "临江大道",
+        "alighting_stop_as_displayed": "冼村路中",
+        "preferred_walk_meters_from_displayed_legs": 659
+      }
+    },
+    {
+      "origin_id": "D1",
+      "destination_id": "K4",
+      "walking_meters": 884,
+      "walking_seconds": 707,
+      "walking_steps": [
+        "向北步行21米右转",
+        "沿海文路向北步行111米右转",
+        "沿海月路向东步行449米左转",
+        "沿海风路向北步行122米右转",
+        "沿海风横街向东步行131米左转",
+        "向北步行50米到达目的地"
+      ],
+      "named_roads": [
+        "海文路",
+        "海月路",
+        "海风路",
+        "海风横街"
+      ],
+      "transit_status": "Amap options returned",
+      "transit_options": [
+        {
+          "seconds": 1236,
+          "walk_meters": 573,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "138路",
+                "777路"
+              ],
+              "board": "临江大道",
+              "alight": "马场路南",
+              "entrance": null,
+              "exit": null,
+              "alternatives": [
+                [
+                  "138路(华成路总站--电子五所社区)",
+                  "临江大道",
+                  "马场路南",
+                  1221,
+                  677
+                ],
+                [
+                  "777路(珠江新城总站--珠江新城总站)",
+                  "临江大道",
+                  "马场路南",
+                  1221,
+                  908
+                ]
+              ]
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        },
+        {
+          "seconds": 1640,
+          "walk_meters": 865,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "40路"
+              ],
+              "board": "珠江公园南门",
+              "alight": "马场路南",
+              "entrance": null,
+              "exit": null,
+              "alternatives": [
+                [
+                  "40路(东山(署前路)总站--广医附属中医院总站)",
+                  "珠江公园南门",
+                  "马场路南",
+                  827,
+                  804
+                ]
+              ]
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        }
+      ],
+      "walking_url": "https://uri.amap.com/navigation?from=113.336127,23.113409&to=113.341996,23.115182&mode=walk&src=liede-fieldwork",
+      "transit_url": "https://uri.amap.com/navigation?from=113.336127,23.113409&to=113.341996,23.115182&mode=bus&src=liede-fieldwork",
+      "query_date_local": "2026-11-12",
+      "source_round": 2,
+      "source": "Amap integrated route planner",
+      "transit_school_hour_status": "Untimed model estimate",
+      "crossing_field_verified": false,
+      "walking_audit": {
+        "step_meters_sum": 884,
+        "map_total_matches_steps_with_rounding": true,
+        "potential_detour_flag": false,
+        "flag_basis": "Screening only. Network/direct-distance ratio >= 1.5 and excess >= 100 m. No inference of passability."
+      },
+      "amap_pc_morning_transit": {
+        "origin_id": "D1",
+        "destination_id": "K4",
+        "url": "https://ditu.amap.com/ssr/dir?fname=%E7%8C%8E%E5%BE%B7%E8%8A%B1%E5%9B%AD&flat=23.113409&flon=113.336127&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E5%8A%9B%E8%BF%85%E4%B8%8A%E7%AD%91%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.115182&dlon=113.341996&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "model_date": "2026-11-12",
+        "departure": "07:20",
+        "observed_route": false,
+        "returned_url": "https://ditu.amap.com/ssr/dir?fname=%E7%8C%8E%E5%BE%B7%E8%8A%B1%E5%9B%AD&flat=23.113409&flon=113.336127&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E5%8A%9B%E8%BF%85%E4%B8%8A%E7%AD%91%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.115182&dlon=113.341996&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "options": [
+          {
+            "summary": "20分钟\n步行 573米\n最快\n5\n138路\n5\n2站\n•\n2元\n•\n1.8公里\n详情",
+            "time_minutes": 20,
+            "lines": [
+              "138路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0,
+            "fare_source_type": "Amap public planner fare displayed"
+          },
+          {
+            "summary": "28分钟\n步行 865米\n11\n40路\n4\n2站\n•\n2元\n•\n1.7公里",
+            "time_minutes": 28,
+            "lines": [
+              "40路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          }
+        ],
+        "preferred_index": 0,
+        "status": "itinerary_returned",
+        "estimated_arrival": "07:40",
+        "estimated_arrival_in_requested_window": true,
+        "preferred_details": "20分钟\n步行 573米\n最快\n5\n138路\n5\n2站\n•\n2元\n•\n1.8公里\n起\n猎德花园\n步行275米(5分钟)\n临江大道\n138路\n电子五所社区方向\n2站 (11分钟)\n首站发车约10分钟/趟\n临江大道东\n马场路南\n步行298米(5分钟)\n终\n广州市天河区力迅上筑幼儿园",
+        "boarding_stop_as_displayed": "临江大道",
+        "alighting_stop_as_displayed": "马场路南",
+        "preferred_walk_meters_from_displayed_legs": 573
+      }
+    },
+    {
+      "origin_id": "D1",
+      "destination_id": "K5",
+      "walking_meters": 1467,
+      "walking_seconds": 1174,
+      "walking_steps": [
+        "向北步行21米左转",
+        "向西步行71米向右前方行走",
+        "向北步行66米左转",
+        "沿海月路向西步行167米右转",
+        "沿猎德大道辅路向北步行373米向右前方行走",
+        "沿花城大道步行29米左转",
+        "向西北步行54米向右前方行走",
+        "沿猎德大道辅路向北步行42米右转",
+        "沿猎德大道辅路向北步行375米向右前方行走",
+        "沿金穗路辅路向东北步行37米左转",
+        "沿金穗路辅路向东北步行131米左转",
+        "沿海御直街向北步行101米到达目的地"
+      ],
+      "named_roads": [
+        "海月路",
+        "猎德大道辅路",
+        "花城大道",
+        "金穗路辅路",
+        "海御直街"
+      ],
+      "transit_status": "Amap options returned",
+      "transit_options": [
+        {
+          "seconds": 1899,
+          "walk_meters": 1299,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "194路"
+              ],
+              "board": "兴盛路口",
+              "alight": "猎德大道北站",
+              "entrance": null,
+              "exit": null,
+              "alternatives": [
+                [
+                  "194路(宝岗大道总站--华景新城总站(翰景路))",
+                  "兴盛路口",
+                  "猎德大道北站",
+                  310,
+                  663
+                ]
+              ]
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        },
+        {
+          "seconds": 1944,
+          "walk_meters": 1395,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "547路",
+                "499路",
+                "517路",
+                "20路"
+              ],
+              "board": "兴盛路口",
+              "alight": "猎德大道北站",
+              "entrance": null,
+              "exit": null,
+              "alternatives": [
+                [
+                  "547路(市儿童公园总站--奥体南路总站)",
+                  "兴盛路口",
+                  "猎德大道北站",
+                  794,
+                  590
+                ],
+                [
+                  "499路(珠江新城总站--珠江新城总站)",
+                  "兴盛路口",
+                  "猎德大道北站",
+                  794,
+                  590
+                ],
+                [
+                  "517路(天河公交场总站--石化路总站)",
+                  "兴盛路口",
+                  "猎德大道北站",
+                  794,
+                  590
+                ],
+                [
+                  "20路(大塘总站--汇景北路总站)",
+                  "兴盛路口",
+                  "猎德大道北站",
+                  786,
+                  590
+                ]
+              ]
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        },
+        {
+          "seconds": 2014,
+          "walk_meters": 1102,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "777路",
+                "669路"
+              ],
+              "board": "临江大道",
+              "alight": "猎德",
+              "entrance": null,
+              "exit": null,
+              "alternatives": [
+                [
+                  "777路(珠江新城总站--珠江新城总站)",
+                  "临江大道",
+                  "猎德",
+                  1111,
+                  895
+                ],
+                [
+                  "669路(金穗路总站(马场路口)--金穗路总站(马场路口))",
+                  "临江大道",
+                  "猎德",
+                  1111,
+                  895
+                ]
+              ]
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        }
+      ],
+      "walking_url": "https://uri.amap.com/navigation?from=113.336127,23.113409&to=113.334724,23.123746&mode=walk&src=liede-fieldwork",
+      "transit_url": "https://uri.amap.com/navigation?from=113.336127,23.113409&to=113.334724,23.123746&mode=bus&src=liede-fieldwork",
+      "query_date_local": "2026-11-12",
+      "source_round": 2,
+      "source": "Amap integrated route planner",
+      "transit_school_hour_status": "Untimed model estimate",
+      "crossing_field_verified": false,
+      "walking_audit": {
+        "step_meters_sum": 1467,
+        "map_total_matches_steps_with_rounding": true,
+        "potential_detour_flag": false,
+        "flag_basis": "Screening only. Network/direct-distance ratio >= 1.5 and excess >= 100 m. No inference of passability.",
+        "same_direction_recheck": {
+          "d": "D1",
+          "s": "K5",
+          "mode": "walk",
+          "meters": 1467,
+          "seconds": 1174,
+          "steps": [
+            "向北步行21米左转",
+            "向西步行71米向右前方行走",
+            "向北步行66米左转",
+            "沿海月路向西步行167米右转",
+            "沿猎德大道辅路向北步行373米向右前方行走",
+            "沿花城大道步行29米左转",
+            "向西北步行54米向右前方行走",
+            "沿猎德大道辅路向北步行42米右转",
+            "沿猎德大道辅路向北步行375米向右前方行走",
+            "沿金穗路辅路向东北步行37米左转",
+            "沿金穗路辅路向东北步行131米左转",
+            "沿海御直街向北步行101米到达目的地"
+          ]
+        },
+        "reverse_direction_recheck": {
+          "d": "K5",
+          "s": "D1",
+          "mode": "walk",
+          "meters": 1467,
+          "seconds": 1174,
+          "steps": [
+            "沿海御直街向南步行101米右转",
+            "沿金穗路辅路步行78米左转",
+            "沿金穗路辅路向南步行90米向左前方行走",
+            "沿猎德大道辅路向南步行375米向左前方行走",
+            "沿猎德大道辅路步行24米右转",
+            "沿猎德大道辅路向南步行42米向左前方行走",
+            "向南步行59米向左前方行走",
+            "沿猎德大道辅路向南步行373米左转",
+            "沿海月路向东步行167米右转",
+            "向南步行66米向左前方行走",
+            "向东步行71米右转",
+            "向南步行21米到达目的地"
+          ]
+        }
+      },
+      "bus_stop_alias_audit": {
+        "operator_old_name": "猎德站",
+        "operator_new_name": "花城大道（兴国路口）站",
+        "scope": "Only eastbound road bus stop on Huacheng Avenue. Amap legs omit directional stop IDs, so retain provider label.",
+        "phased_from": "2026-11-07",
+        "source": "https://jtj.gz.gov.cn/zwgg/ywgg/ggjt/gjxldzgg/content/post_11079212.html"
+      },
+      "amap_pc_morning_transit": {
+        "origin_id": "D1",
+        "destination_id": "K5",
+        "url": "https://ditu.amap.com/ssr/dir?fname=%E7%8C%8E%E5%BE%B7%E8%8A%B1%E5%9B%AD&flat=23.113409&flon=113.336127&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E9%87%91%E7%A9%97%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.123746&dlon=113.334724&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "model_date": "2026-11-12",
+        "departure": "07:20",
+        "observed_route": false,
+        "returned_url": "https://ditu.amap.com/ssr/dir?fname=%E7%8C%8E%E5%BE%B7%E8%8A%B1%E5%9B%AD&flat=23.113409&flon=113.336127&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E9%87%91%E7%A9%97%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.123746&dlon=113.334724&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "options": [
+          {
+            "summary": "31分钟\n步行 1.1公里\n4\n777路\n16\n1站\n•\n2元\n•\n2.2公里\n详情",
+            "time_minutes": 31,
+            "lines": [
+              "777路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0,
+            "fare_source_type": "Amap public planner fare displayed"
+          },
+          {
+            "summary": "33分钟\n步行 450米\n步行少\n4\n777路\n20路\n4\n5站\n•\n4元\n•\n3.9公里",
+            "time_minutes": 33,
+            "lines": [
+              "777路",
+              "20路"
+            ],
+            "fare_cny": 4,
+            "transfers": 1
+          },
+          {
+            "summary": "30分钟\n步行 1.3公里\n17\n194路\n5\n1站\n•\n2元\n•\n1.6公里",
+            "time_minutes": 30,
+            "lines": [
+              "194路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          },
+          {
+            "summary": "32分钟\n步行 1.4公里\n19\n547路\n4\n1站\n•\n3元\n•\n2.2公里",
+            "time_minutes": 32,
+            "lines": [
+              "547路"
+            ],
+            "fare_cny": 3,
+            "transfers": 0
+          },
+          {
+            "summary": "34分钟\n步行 1.2公里\n17\n20路\n4\n4站\n•\n2元\n•\n3.5公里",
+            "time_minutes": 34,
+            "lines": [
+              "20路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          }
+        ],
+        "preferred_index": 0,
+        "status": "itinerary_returned",
+        "estimated_arrival": "07:51",
+        "estimated_arrival_in_requested_window": true,
+        "preferred_details": "31分钟\n步行 1.1公里\n4\n777路\n16\n1站\n•\n2元\n•\n2.2公里\n起\n猎德花园\n步行204米(4分钟)\n临江大道\n777路\n珠江新城总站方向\n1站 (12分钟)\n首站发车约15分钟/趟\n猎德\n步行898米(16分钟)\n终\n广州市天河区金穗幼儿园",
+        "boarding_stop_as_displayed": "临江大道",
+        "alighting_stop_as_displayed": "猎德",
+        "preferred_walk_meters_from_displayed_legs": 1102
+      }
+    },
+    {
+      "origin_id": "D1",
+      "destination_id": "K6",
+      "walking_meters": 1500,
+      "walking_seconds": 1200,
+      "walking_steps": [
+        "向北步行21米右转",
+        "沿海文路向北步行111米右转",
+        "沿平月路向东步行1054米右转",
+        "向东北步行32米左转",
+        "向东北步行91米右转",
+        "向东步行57米左转",
+        "沿平江路向北步行105米左转",
+        "向西步行29米到达目的地"
+      ],
+      "named_roads": [
+        "海文路",
+        "平月路",
+        "平江路"
+      ],
+      "transit_status": "Amap options returned",
+      "transit_options": [
+        {
+          "seconds": 1555,
+          "walk_meters": 929,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "138路"
+              ],
+              "board": "临江大道",
+              "alight": "马场路南",
+              "entrance": null,
+              "exit": null,
+              "alternatives": [
+                [
+                  "138路(华成路总站--电子五所社区)",
+                  "临江大道",
+                  "马场路南",
+                  1221,
+                  676
+                ]
+              ]
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        },
+        {
+          "seconds": 1595,
+          "walk_meters": 600,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "777路"
+              ],
+              "board": "临江大道",
+              "alight": "花城大道站",
+              "entrance": null,
+              "exit": null,
+              "alternatives": [
+                [
+                  "777路(珠江新城总站--珠江新城总站)",
+                  "临江大道",
+                  "花城大道站",
+                  1663,
+                  1019
+                ]
+              ]
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        },
+        {
+          "seconds": 1727,
+          "walk_meters": 1410,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "地铁5号线"
+              ],
+              "board": "猎德",
+              "alight": "潭村",
+              "entrance": "B口",
+              "exit": "B口",
+              "alternatives": [
+                [
+                  "地铁5号线(滘口--黄埔新港)",
+                  "猎德",
+                  "潭村",
+                  1420,
+                  270
+                ]
+              ]
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        }
+      ],
+      "walking_url": "https://uri.amap.com/navigation?from=113.336127,23.113409&to=113.347319,23.116220&mode=walk&src=liede-fieldwork",
+      "transit_url": "https://uri.amap.com/navigation?from=113.336127,23.113409&to=113.347319,23.116220&mode=bus&src=liede-fieldwork",
+      "query_date_local": "2026-11-12",
+      "source_round": 2,
+      "source": "Amap integrated route planner",
+      "transit_school_hour_status": "Untimed model estimate",
+      "crossing_field_verified": false,
+      "walking_audit": {
+        "step_meters_sum": 1500,
+        "map_total_matches_steps_with_rounding": true,
+        "potential_detour_flag": false,
+        "flag_basis": "Screening only. Network/direct-distance ratio >= 1.5 and excess >= 100 m. No inference of passability.",
+        "same_direction_recheck": {
+          "d": "D1",
+          "s": "K6",
+          "mode": "walk",
+          "meters": 1500,
+          "seconds": 1200,
+          "steps": [
+            "向北步行21米右转",
+            "沿海文路向北步行111米右转",
+            "沿平月路向东步行1054米右转",
+            "向东北步行32米左转",
+            "向东北步行91米右转",
+            "向东步行57米左转",
+            "沿平江路向北步行105米左转",
+            "向西步行29米到达目的地"
+          ]
+        },
+        "reverse_direction_recheck": {
+          "d": "K6",
+          "s": "D1",
+          "mode": "walk",
+          "meters": 1499,
+          "seconds": 1199,
+          "steps": [
+            "向东步行29米右转",
+            "沿平江路向南步行105米右转",
+            "向西步行57米左转",
+            "向西南步行91米右转",
+            "向西南步行32米左转",
+            "沿平月路向西步行1065米左转",
+            "沿海文路向南步行81米右转",
+            "向西步行18米左转",
+            "向南步行21米到达目的地"
+          ]
+        }
+      },
+      "amap_pc_morning_transit": {
+        "origin_id": "D1",
+        "destination_id": "K6",
+        "url": "https://ditu.amap.com/ssr/dir?fname=%E7%8C%8E%E5%BE%B7%E8%8A%B1%E5%9B%AD&flat=23.113409&flon=113.336127&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E9%87%91%E7%A9%97%E5%B9%BC%E5%84%BF%E5%9B%AD%E8%8A%B1%E5%9F%8E%E5%9B%AD%E5%8C%BA&dlat=23.11622&dlon=113.347319&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "model_date": "2026-11-12",
+        "departure": "07:20",
+        "observed_route": false,
+        "returned_url": "https://ditu.amap.com/ssr/dir?fname=%E7%8C%8E%E5%BE%B7%E8%8A%B1%E5%9B%AD&flat=23.113409&flon=113.336127&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E9%87%91%E7%A9%97%E5%B9%BC%E5%84%BF%E5%9B%AD%E8%8A%B1%E5%9F%8E%E5%9B%AD%E5%8C%BA&dlat=23.11622&dlon=113.347319&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "options": [
+          {
+            "summary": "26分钟\n步行 600米\n步行少\n5\n777路\n5\n3站\n•\n2元\n•\n2.3公里\n详情",
+            "time_minutes": 26,
+            "lines": [
+              "777路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0,
+            "fare_source_type": "Amap public planner fare displayed"
+          },
+          {
+            "summary": "29分钟\n步行 1.4公里\n无堵车风险\n18\n5号线\n7\n1站\n•\n2元\n•\n2.8公里",
+            "time_minutes": 29,
+            "lines": [
+              "5号线"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          },
+          {
+            "summary": "26分钟\n步行 929米\n5\n138路\n10\n2站\n•\n2元\n•\n2.1公里",
+            "time_minutes": 26,
+            "lines": [
+              "138路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          },
+          {
+            "summary": "32分钟\n步行 1.1公里\n5\n293路\n12\n2站\n•\n2元\n•\n2.6公里",
+            "time_minutes": 32,
+            "lines": [
+              "293路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          },
+          {
+            "summary": "30分钟\n步行 1.2公里\n始发站上车\n15\n499路\n5\n2站\n•\n2元\n•\n1.8公里",
+            "time_minutes": 30,
+            "lines": [
+              "499路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          }
+        ],
+        "preferred_index": 0,
+        "status": "itinerary_returned",
+        "estimated_arrival": "07:46",
+        "estimated_arrival_in_requested_window": true,
+        "preferred_details": "26分钟\n步行 600米\n步行少\n5\n777路\n5\n3站\n•\n2元\n•\n2.3公里\n起\n猎德花园\n步行275米(5分钟)\n临江大道\n777路\n珠江新城总站方向\n3站 (17分钟)\n首站发车约15分钟/趟\n临江大道东\n马场路南\n花城大道站\n步行325米(5分钟)\n终\n广州市天河区金穗幼儿园花城园区",
+        "boarding_stop_as_displayed": "临江大道",
+        "alighting_stop_as_displayed": "花城大道站",
+        "preferred_walk_meters_from_displayed_legs": 600
+      }
+    },
+    {
+      "origin_id": "D1",
+      "destination_id": "S1",
+      "walking_meters": 443,
+      "walking_seconds": 354,
+      "walking_steps": [
+        "向北步行21米右转",
+        "向东步行18米左转",
+        "沿海文路向北步行208米右转",
+        "沿海定街向东步行139米左转",
+        "向北步行22米左转",
+        "向西步行35米到达目的地"
+      ],
+      "walking_url": "https://uri.amap.com/navigation?from=113.336127,23.113409&to=113.337457,23.115805&mode=walk&src=liede-fieldwork",
+      "transit_url": "https://uri.amap.com/navigation?from=113.336127,23.113409&to=113.337457,23.115805&mode=bus&src=liede-fieldwork",
+      "transit_status": "Amap returned no itinerary",
+      "transit_options": [],
+      "named_roads": [
+        "海文路",
+        "海定街"
+      ],
+      "query_date_local": "2026-11-12",
+      "source_round": 1,
+      "source": "Amap integrated route planner",
+      "transit_school_hour_status": "Untimed model estimate",
+      "crossing_field_verified": false,
+      "walking_audit": {
+        "step_meters_sum": 443,
+        "map_total_matches_steps_with_rounding": true,
+        "potential_detour_flag": false,
+        "flag_basis": "Screening only. Network/direct-distance ratio >= 1.5 and excess >= 100 m. No inference of passability.",
+        "same_direction_recheck": {
+          "d": "D1",
+          "s": "S1",
+          "mode": "walk",
+          "meters": 443,
+          "seconds": 354,
+          "steps": [
+            "向北步行21米右转",
+            "向东步行18米左转",
+            "沿海文路向北步行208米右转",
+            "沿海定街向东步行139米左转",
+            "向北步行22米左转",
+            "向西步行35米到达目的地"
+          ]
+        }
+      },
+      "amap_pc_morning_transit": {
+        "origin_id": "D1",
+        "destination_id": "S1",
+        "url": "https://ditu.amap.com/ssr/dir?fname=%E7%8C%8E%E5%BE%B7%E8%8A%B1%E5%9B%AD&flat=23.113409&flon=113.336127&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E4%B8%AD%E5%AD%A6%E7%8C%8E%E5%BE%B7%E5%AE%9E%E9%AA%8C%E5%AD%A6%E6%A0%A1%E5%B0%8F%E5%AD%A6%E9%83%A8&dlat=23.115805&dlon=113.337457&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "model_date": "2026-11-12",
+        "departure": "07:20",
+        "observed_route": false,
+        "returned_url": "https://ditu.amap.com/ssr/dir?fname=%E7%8C%8E%E5%BE%B7%E8%8A%B1%E5%9B%AD&flat=23.113409&flon=113.336127&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E4%B8%AD%E5%AD%A6%E7%8C%8E%E5%BE%B7%E5%AE%9E%E9%AA%8C%E5%AD%A6%E6%A0%A1%E5%B0%8F%E5%AD%A6%E9%83%A8&dlat=23.115805&dlon=113.337457&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "status": "no_itinerary_returned",
+        "message": "高德地图 — 在线地图查询与路线规划服务\n\n暂无公交路线方案\n广州\n晴\n18/27℃\n2 公里\n反馈\n路况\n测距\n地铁\n分享\n图层\n3D\n全屏"
+      }
+    },
+    {
+      "origin_id": "D1",
+      "destination_id": "S2",
+      "walking_meters": 950,
+      "walking_seconds": 760,
+      "walking_steps": [
+        "向北步行21米右转",
+        "沿海文路向北步行111米右转",
+        "沿海月路向东步行442米左转",
+        "沿海风路向北步行115米右转",
+        "步行212米左转",
+        "向北步行49米到达目的地"
+      ],
+      "walking_url": "https://uri.amap.com/navigation?from=113.336127,23.113409&to=113.342561,23.115197&mode=walk&src=liede-fieldwork",
+      "transit_url": "https://uri.amap.com/navigation?from=113.336127,23.113409&to=113.342561,23.115197&mode=bus&src=liede-fieldwork",
+      "transit_status": "Amap options returned",
+      "transit_options": [
+        {
+          "seconds": 1524,
+          "walk_meters": 587,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "777路",
+                "138路"
+              ],
+              "board": "临江大道",
+              "alight": "马场路南",
+              "entrance": null,
+              "exit": null
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        },
+        {
+          "seconds": 1553,
+          "walk_meters": 759,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "40路"
+              ],
+              "board": "珠江公园南门",
+              "alight": "马场路南",
+              "entrance": null,
+              "exit": null
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        }
+      ],
+      "named_roads": [
+        "海文路",
+        "海月路",
+        "海风路"
+      ],
+      "query_date_local": "2026-11-12",
+      "source_round": 1,
+      "source": "Amap integrated route planner",
+      "transit_school_hour_status": "Untimed model estimate",
+      "crossing_field_verified": false,
+      "walking_audit": {
+        "step_meters_sum": 950,
+        "map_total_matches_steps_with_rounding": true,
+        "potential_detour_flag": false,
+        "flag_basis": "Screening only. Network/direct-distance ratio >= 1.5 and excess >= 100 m. No inference of passability."
+      },
+      "amap_pc_morning_transit": {
+        "origin_id": "D1",
+        "destination_id": "S2",
+        "url": "https://ditu.amap.com/ssr/dir?fname=%E7%8C%8E%E5%BE%B7%E8%8A%B1%E5%9B%AD&flat=23.113409&flon=113.336127&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E4%BD%93%E8%82%B2%E4%B8%9C%E8%B7%AF%E5%B0%8F%E5%AD%A6%E6%B5%B7%E6%98%8E%E5%AD%A6%E6%A0%A1&dlat=23.115197&dlon=113.342561&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "model_date": "2026-11-12",
+        "departure": "07:20",
+        "observed_route": false,
+        "returned_url": "https://ditu.amap.com/ssr/dir?fname=%E7%8C%8E%E5%BE%B7%E8%8A%B1%E5%9B%AD&flat=23.113409&flon=113.336127&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E4%BD%93%E8%82%B2%E4%B8%9C%E8%B7%AF%E5%B0%8F%E5%AD%A6%E6%B5%B7%E6%98%8E%E5%AD%A6%E6%A0%A1&dlat=23.115197&dlon=113.342561&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "options": [
+          {
+            "summary": "21分钟\n步行 587米\n最快\n5\n138路\n6\n2站\n•\n2元\n•\n1.8公里\n详情",
+            "time_minutes": 21,
+            "lines": [
+              "138路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0,
+            "fare_source_type": "Amap public planner fare displayed"
+          },
+          {
+            "summary": "26分钟\n步行 759米\n11\n40路\n2\n2站\n•\n2元\n•\n1.6公里",
+            "time_minutes": 26,
+            "lines": [
+              "40路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          }
+        ],
+        "preferred_index": 0,
+        "status": "itinerary_returned",
+        "estimated_arrival": "07:41",
+        "estimated_arrival_in_requested_window": true,
+        "preferred_details": "21分钟\n步行 587米\n最快\n5\n138路\n6\n2站\n•\n2元\n•\n1.8公里\n起\n猎德花园\n步行275米(5分钟)\n临江大道\n138路\n电子五所社区方向\n2站 (11分钟)\n首站发车约10分钟/趟\n临江大道东\n马场路南\n步行312米(6分钟)\n终\n广州市天河区体育东路小学海明学校",
+        "boarding_stop_as_displayed": "临江大道",
+        "alighting_stop_as_displayed": "马场路南",
+        "preferred_walk_meters_from_displayed_legs": 587
+      }
+    },
+    {
+      "origin_id": "D1",
+      "destination_id": "S3",
+      "walking_meters": 1330,
+      "walking_seconds": 1064,
+      "walking_steps": [
+        "向北步行21米左转",
+        "向西步行71米向右前方行走",
+        "向北步行66米左转",
+        "沿海月路向西步行167米右转",
+        "沿猎德大道辅路向北步行373米向右前方行走",
+        "沿花城大道步行29米左转",
+        "向西北步行54米左转",
+        "沿花城大道步行40米向右前方行走",
+        "沿花城大道向北步行81米向左前方行走",
+        "沿猎德大道辅路向北步行96米左转",
+        "向西步行221米左转",
+        "向南步行10米右转",
+        "向西南步行74米左转",
+        "向东步行27米到达目的地"
+      ],
+      "walking_url": "https://uri.amap.com/navigation?from=113.336127,23.113409&to=113.331236,23.119408&mode=walk&src=liede-fieldwork",
+      "transit_url": "https://uri.amap.com/navigation?from=113.336127,23.113409&to=113.331236,23.119408&mode=bus&src=liede-fieldwork",
+      "transit_status": "Amap options returned",
+      "transit_options": [
+        {
+          "seconds": 1536,
+          "walk_meters": 609,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "777路",
+                "669路"
+              ],
+              "board": "临江大道",
+              "alight": "猎德",
+              "entrance": null,
+              "exit": null
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        },
+        {
+          "seconds": 1937,
+          "walk_meters": 1235,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "138路"
+              ],
+              "board": "临江大道",
+              "alight": "临江大道中",
+              "entrance": null,
+              "exit": null
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        },
+        {
+          "seconds": 1966,
+          "walk_meters": 803,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "293路"
+              ],
+              "board": "临江大道",
+              "alight": "冼村路中",
+              "entrance": null,
+              "exit": null
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        }
+      ],
+      "named_roads": [
+        "海月路",
+        "猎德大道辅路",
+        "花城大道"
+      ],
+      "query_date_local": "2026-11-12",
+      "source_round": 1,
+      "source": "Amap integrated route planner",
+      "transit_school_hour_status": "Untimed model estimate",
+      "crossing_field_verified": false,
+      "walking_audit": {
+        "step_meters_sum": 1330,
+        "map_total_matches_steps_with_rounding": true,
+        "potential_detour_flag": true,
+        "flag_basis": "Screening only. Network/direct-distance ratio >= 1.5 and excess >= 100 m. No inference of passability."
+      },
+      "transit_recheck": {
+        "d": "D1",
+        "s": "S3",
+        "mode": "transit",
+        "first_two": [
+          {
+            "seconds": 1525,
+            "walk_meters": 609,
+            "transfers": 0,
+            "legs": [
+              {
+                "services": [
+                  "777路",
+                  "669路"
+                ],
+                "board": "临江大道",
+                "alight": "猎德",
+                "entrance": null,
+                "exit": null
+              }
+            ]
+          },
+          {
+            "seconds": 1868,
+            "walk_meters": 1235,
+            "transfers": 0,
+            "legs": [
+              {
+                "services": [
+                  "138路"
+                ],
+                "board": "临江大道",
+                "alight": "临江大道中",
+                "entrance": null,
+                "exit": null
+              }
+            ]
+          }
+        ]
+      },
+      "bus_stop_alias_audit": {
+        "operator_old_name": "猎德站",
+        "operator_new_name": "花城大道（兴国路口）站",
+        "scope": "Only eastbound road bus stop on Huacheng Avenue. Amap legs omit directional stop IDs, so retain provider label.",
+        "phased_from": "2026-11-07",
+        "source": "https://jtj.gz.gov.cn/zwgg/ywgg/ggjt/gjxldzgg/content/post_11079212.html"
+      },
+      "amap_pc_morning_transit": {
+        "origin_id": "D1",
+        "destination_id": "S3",
+        "url": "https://ditu.amap.com/ssr/dir?fname=%E7%8C%8E%E5%BE%B7%E8%8A%B1%E5%9B%AD&flat=23.113409&flon=113.336127&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E4%BD%93%E8%82%B2%E4%B8%9C%E8%B7%AF%E5%B0%8F%E5%AD%A6%E5%85%B4%E5%9B%BD%E5%AD%A6%E6%A0%A1&dlat=23.119408&dlon=113.331236&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "model_date": "2026-11-12",
+        "departure": "07:20",
+        "observed_route": false,
+        "returned_url": "https://ditu.amap.com/ssr/dir?fname=%E7%8C%8E%E5%BE%B7%E8%8A%B1%E5%9B%AD&flat=23.113409&flon=113.336127&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E4%BD%93%E8%82%B2%E4%B8%9C%E8%B7%AF%E5%B0%8F%E5%AD%A6%E5%85%B4%E5%9B%BD%E5%AD%A6%E6%A0%A1&dlat=23.119408&dlon=113.331236&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "options": [
+          {
+            "summary": "23分钟\n步行 609米\n最快\n4\n777路\n7\n1站\n•\n2元\n•\n1.7公里\n详情",
+            "time_minutes": 23,
+            "lines": [
+              "777路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0,
+            "fare_source_type": "Amap public planner fare displayed"
+          },
+          {
+            "summary": "31分钟\n步行 803米\n4\n293路\n11\n3站\n•\n2元\n•\n2.5公里",
+            "time_minutes": 31,
+            "lines": [
+              "293路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          },
+          {
+            "summary": "30分钟\n步行 1.2公里\n4\n138路\n18\n1站\n•\n2元\n•\n1.9公里",
+            "time_minutes": 30,
+            "lines": [
+              "138路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          }
+        ],
+        "preferred_index": 0,
+        "status": "itinerary_returned",
+        "estimated_arrival": "07:43",
+        "estimated_arrival_in_requested_window": true,
+        "preferred_details": "23分钟\n步行 609米\n最快\n4\n777路\n7\n1站\n•\n2元\n•\n1.7公里\n起\n猎德花园\n步行204米(4分钟)\n临江大道\n777路\n珠江新城总站方向\n1站 (12分钟)\n首站发车约15分钟/趟\n猎德\n步行405米(7分钟)\n终\n广州市天河区体育东路小学兴国学校",
+        "boarding_stop_as_displayed": "临江大道",
+        "alighting_stop_as_displayed": "猎德",
+        "preferred_walk_meters_from_displayed_legs": 609
+      }
+    },
+    {
+      "origin_id": "D1",
+      "destination_id": "S4",
+      "walking_meters": 1406,
+      "walking_seconds": 1125,
+      "walking_steps": [
+        "向北步行21米右转",
+        "沿海文路向北步行373米右转",
+        "沿平月路向东步行867米左转",
+        "沿宏御东路向北步行53米向左后方行走",
+        "向西南步行92米到达目的地"
+      ],
+      "walking_url": "https://uri.amap.com/navigation?from=113.336127,23.113409&to=113.344261,23.116251&mode=walk&src=liede-fieldwork",
+      "transit_url": "https://uri.amap.com/navigation?from=113.336127,23.113409&to=113.344261,23.116251&mode=bus&src=liede-fieldwork",
+      "transit_status": "Amap options returned",
+      "transit_options": [
+        {
+          "seconds": 1333,
+          "walk_meters": 670,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "138路"
+              ],
+              "board": "临江大道",
+              "alight": "马场路南",
+              "entrance": null,
+              "exit": null
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        },
+        {
+          "seconds": 1549,
+          "walk_meters": 513,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "777路"
+              ],
+              "board": "临江大道",
+              "alight": "花城大道站",
+              "entrance": null,
+              "exit": null
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        },
+        {
+          "seconds": 1673,
+          "walk_meters": 1210,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "886路"
+              ],
+              "board": "珠江公园南门",
+              "alight": "珠江新城总站",
+              "entrance": null,
+              "exit": null
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        }
+      ],
+      "named_roads": [
+        "海文路",
+        "平月路",
+        "宏御东路"
+      ],
+      "query_date_local": "2026-11-12",
+      "source_round": 1,
+      "source": "Amap integrated route planner",
+      "transit_school_hour_status": "Untimed model estimate",
+      "crossing_field_verified": false,
+      "walking_audit": {
+        "step_meters_sum": 1406,
+        "map_total_matches_steps_with_rounding": true,
+        "potential_detour_flag": true,
+        "flag_basis": "Screening only. Network/direct-distance ratio >= 1.5 and excess >= 100 m. No inference of passability."
+      },
+      "amap_pc_morning_transit": {
+        "origin_id": "D1",
+        "destination_id": "S4",
+        "url": "https://ditu.amap.com/ssr/dir?fname=%E7%8C%8E%E5%BE%B7%E8%8A%B1%E5%9B%AD&flat=23.113409&flon=113.336127&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%8D%97%E5%9B%BD%E5%AD%A6%E6%A0%A1%E5%B0%8F%E5%AD%A6%E9%83%A8&dlat=23.116251&dlon=113.344261&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "model_date": "2026-11-12",
+        "departure": "07:20",
+        "observed_route": false,
+        "returned_url": "https://ditu.amap.com/ssr/dir?fname=%E7%8C%8E%E5%BE%B7%E8%8A%B1%E5%9B%AD&flat=23.113409&flon=113.336127&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%8D%97%E5%9B%BD%E5%AD%A6%E6%A0%A1%E5%B0%8F%E5%AD%A6%E9%83%A8&dlat=23.116251&dlon=113.344261&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "options": [
+          {
+            "summary": "25分钟\n步行 513米\n步行少\n5\n777路\n4\n3站\n•\n2元\n•\n2.2公里\n详情",
+            "time_minutes": 25,
+            "lines": [
+              "777路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0,
+            "fare_source_type": "Amap public planner fare displayed"
+          },
+          {
+            "summary": "22分钟\n步行 670米\n5\n138路\n7\n2站\n•\n2元\n•\n1.9公里",
+            "time_minutes": 22,
+            "lines": [
+              "138路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          },
+          {
+            "summary": "30分钟\n步行 1.4公里\n无堵车风险\n18\n5号线\n8\n1站\n•\n2元\n•\n2.8公里",
+            "time_minutes": 30,
+            "lines": [
+              "5号线"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          },
+          {
+            "summary": "28分钟\n步行 1.2公里\n11\n886路\n9\n1站\n•\n2元\n•\n1.8公里",
+            "time_minutes": 28,
+            "lines": [
+              "886路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          },
+          {
+            "summary": "29分钟\n步行 1.1公里\n始发站上车\n15\n499路\n4\n2站\n•\n2元\n•\n1.7公里",
+            "time_minutes": 29,
+            "lines": [
+              "499路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          }
+        ],
+        "preferred_index": 0,
+        "status": "itinerary_returned",
+        "estimated_arrival": "07:45",
+        "estimated_arrival_in_requested_window": true,
+        "preferred_details": "25分钟\n步行 513米\n步行少\n5\n777路\n4\n3站\n•\n2元\n•\n2.2公里\n起\n猎德花园\n步行275米(5分钟)\n临江大道\n777路\n珠江新城总站方向\n3站 (17分钟)\n首站发车约15分钟/趟\n临江大道东\n马场路南\n花城大道站\n步行238米(4分钟)\n终\n广州市南国学校小学部",
+        "boarding_stop_as_displayed": "临江大道",
+        "alighting_stop_as_displayed": "花城大道站",
+        "preferred_walk_meters_from_displayed_legs": 513
+      }
+    },
+    {
+      "origin_id": "D2",
+      "destination_id": "K1",
+      "walking_meters": 1361,
+      "walking_seconds": 1089,
+      "walking_steps": [
+        "向北步行9米右转",
+        "向东步行76米右转",
+        "沿猎德大道向南步行99米向左前方行走",
+        "沿猎德大道辅路向南步行199米向右前方行走",
+        "沿花城大道步行42米左转",
+        "沿花城大道向东步行79米右转",
+        "沿猎德大道辅路步行24米向左前方行走",
+        "向南步行59米向左前方行走",
+        "沿猎德大道辅路向南步行373米左转",
+        "沿海月路向东步行342米左转",
+        "向北步行59米到达目的地"
+      ],
+      "walking_url": "https://uri.amap.com/navigation?from=113.332723,23.121608&to=113.337456,23.114648&mode=walk&src=liede-fieldwork",
+      "transit_url": "https://uri.amap.com/navigation?from=113.332723,23.121608&to=113.337456,23.114648&mode=bus&src=liede-fieldwork",
+      "transit_status": "Amap options returned",
+      "transit_options": [
+        {
+          "seconds": 1868,
+          "walk_meters": 1176,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "194路"
+              ],
+              "board": "兴盛路口",
+              "alight": "猎德",
+              "entrance": null,
+              "exit": null
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        },
+        {
+          "seconds": 1948,
+          "walk_meters": 469,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "138路"
+              ],
+              "board": "兴盛路口",
+              "alight": "临江大道",
+              "entrance": null,
+              "exit": null
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        },
+        {
+          "seconds": 2294,
+          "walk_meters": 847,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "499路"
+              ],
+              "board": "兴盛路口站",
+              "alight": "珠江新城总站",
+              "entrance": null,
+              "exit": null
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        }
+      ],
+      "named_roads": [
+        "猎德大道",
+        "猎德大道辅路",
+        "花城大道",
+        "海月路"
+      ],
+      "query_date_local": "2026-11-12",
+      "source_round": 1,
+      "source": "Amap integrated route planner",
+      "transit_school_hour_status": "Untimed model estimate",
+      "crossing_field_verified": false,
+      "walking_audit": {
+        "step_meters_sum": 1361,
+        "map_total_matches_steps_with_rounding": true,
+        "potential_detour_flag": false,
+        "flag_basis": "Screening only. Network/direct-distance ratio >= 1.5 and excess >= 100 m. No inference of passability."
+      },
+      "bus_stop_alias_audit": {
+        "operator_old_name": "猎德站",
+        "operator_new_name": "花城大道（兴国路口）站",
+        "scope": "Only eastbound road bus stop on Huacheng Avenue. Amap legs omit directional stop IDs, so retain provider label.",
+        "phased_from": "2026-11-07",
+        "source": "https://jtj.gz.gov.cn/zwgg/ywgg/ggjt/gjxldzgg/content/post_11079212.html"
+      },
+      "amap_pc_morning_transit": {
+        "origin_id": "D2",
+        "destination_id": "K1",
+        "url": "https://ditu.amap.com/ssr/dir?fname=%E4%B8%AD%E6%B5%B7%E7%92%9F%E6%99%96%E5%8D%8E%E5%BA%AD&flat=23.121608&flon=113.332723&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E7%8F%A0%E6%B1%9F%E6%96%B0%E5%9F%8E%E7%8C%8E%E5%BE%B7%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.114648&dlon=113.337456&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "model_date": "2026-11-12",
+        "departure": "07:20",
+        "observed_route": false,
+        "returned_url": "https://ditu.amap.com/ssr/dir?fname=%E4%B8%AD%E6%B5%B7%E7%92%9F%E6%99%96%E5%8D%8E%E5%BA%AD&flat=23.121608&flon=113.332723&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E7%8F%A0%E6%B1%9F%E6%96%B0%E5%9F%8E%E7%8C%8E%E5%BE%B7%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.114648&dlon=113.337456&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "options": [
+          {
+            "summary": "31分钟\n步行 469米\n步行少\n3\n138路\n6\n6站\n•\n2元\n•\n4.7公里\n详情",
+            "time_minutes": 31,
+            "lines": [
+              "138路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0,
+            "fare_source_type": "Amap public planner fare displayed"
+          },
+          {
+            "summary": "29分钟\n步行 1.2公里\n3\n194路\n17\n1站\n•\n2元\n•\n1.6公里",
+            "time_minutes": 29,
+            "lines": [
+              "194路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          },
+          {
+            "summary": "40分钟\n步行 847米\n3\n499路\n12\n8站\n•\n2元\n•\n4.3公里",
+            "time_minutes": 40,
+            "lines": [
+              "499路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          },
+          {
+            "summary": "36分钟\n步行 1.3公里\n15\n777路\n8\n2站\n•\n2元\n•\n3.4公里",
+            "time_minutes": 36,
+            "lines": [
+              "777路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          }
+        ],
+        "preferred_index": 0,
+        "status": "itinerary_returned",
+        "estimated_arrival": "07:51",
+        "estimated_arrival_in_requested_window": true,
+        "preferred_details": "31分钟\n步行 469米\n步行少\n3\n138路\n6\n6站\n•\n2元\n•\n4.7公里\n起\n中海璟晖华庭\n步行135米(3分钟)\n兴盛路口\n138路\n华成路总站方向\n6站 (24分钟)\n首站发车约10分钟/趟\n石牌村2\n红线女中心\n马场路中\n马场路南\n临江大道东\n临江大道\n步行334米(6分钟)\n终\n广州市天河区珠江新城猎德幼儿园",
+        "boarding_stop_as_displayed": "兴盛路口",
+        "alighting_stop_as_displayed": "临江大道",
+        "preferred_walk_meters_from_displayed_legs": 469
+      }
+    },
+    {
+      "origin_id": "D2",
+      "destination_id": "K2",
+      "walking_meters": 269,
+      "walking_seconds": 215,
+      "walking_steps": [
+        "向西北步行173米左转",
+        "向南步行96米到达目的地"
+      ],
+      "walking_url": "https://uri.amap.com/navigation?from=113.332723,23.121608&to=113.332259,23.121804&mode=walk&src=liede-fieldwork",
+      "transit_url": "https://uri.amap.com/navigation?from=113.332723,23.121608&to=113.332259,23.121804&mode=bus&src=liede-fieldwork",
+      "transit_status": "Amap returned no itinerary",
+      "transit_options": [],
+      "named_roads": [],
+      "query_date_local": "2026-11-12",
+      "source_round": 1,
+      "source": "Amap integrated route planner",
+      "transit_school_hour_status": "Untimed model estimate",
+      "crossing_field_verified": false,
+      "walking_audit": {
+        "step_meters_sum": 269,
+        "map_total_matches_steps_with_rounding": true,
+        "potential_detour_flag": true,
+        "flag_basis": "Screening only. Network/direct-distance ratio >= 1.5 and excess >= 100 m. No inference of passability.",
+        "same_direction_recheck": {
+          "d": "D2",
+          "s": "K2",
+          "mode": "walk",
+          "meters": 269,
+          "seconds": 215,
+          "steps": [
+            "向西北步行173米左转",
+            "向南步行96米到达目的地"
+          ]
+        },
+        "reverse_direction_recheck": {
+          "d": "K2",
+          "s": "D2",
+          "mode": "walk",
+          "meters": 269,
+          "seconds": 215,
+          "steps": [
+            "向北步行96米右转",
+            "沿金穗路辅路步行7米右转",
+            "向东南步行166米到达目的地"
+          ]
+        }
+      },
+      "amap_pc_morning_transit": {
+        "origin_id": "D2",
+        "destination_id": "K2",
+        "url": "https://ditu.amap.com/ssr/dir?fname=%E4%B8%AD%E6%B5%B7%E7%92%9F%E6%99%96%E5%8D%8E%E5%BA%AD&flat=23.121608&flon=113.332723&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E4%B8%87%E9%94%A6%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.121804&dlon=113.332259&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "model_date": "2026-11-12",
+        "departure": "07:20",
+        "observed_route": false,
+        "returned_url": "https://ditu.amap.com/ssr/dir?fname=%E4%B8%AD%E6%B5%B7%E7%92%9F%E6%99%96%E5%8D%8E%E5%BA%AD&flat=23.121608&flon=113.332723&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E4%B8%87%E9%94%A6%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.121804&dlon=113.332259&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "status": "no_itinerary_returned",
+        "message": "高德地图 — 在线地图查询与路线规划服务\n\n暂无公交路线方案\n广州\n晴\n18/27℃\n2 公里\n反馈\n路况\n测距\n地铁\n分享\n图层\n3D\n全屏"
+      }
+    },
+    {
+      "origin_id": "D2",
+      "destination_id": "K3",
+      "walking_meters": 567,
+      "walking_seconds": 454,
+      "walking_steps": [
+        "向西北步行166米左转",
+        "沿金穗路辅路步行281米左转",
+        "沿兴盛直街向南步行58米右转",
+        "向西步行41米左转",
+        "向南步行21米到达目的地"
+      ],
+      "named_roads": [
+        "金穗路辅路",
+        "兴盛直街"
+      ],
+      "transit_status": "Amap returned no itinerary",
+      "transit_options": [],
+      "walking_url": "https://uri.amap.com/navigation?from=113.332723,23.121608&to=113.329152,23.122236&mode=walk&src=liede-fieldwork",
+      "transit_url": "https://uri.amap.com/navigation?from=113.332723,23.121608&to=113.329152,23.122236&mode=bus&src=liede-fieldwork",
+      "query_date_local": "2026-11-12",
+      "source_round": 2,
+      "source": "Amap integrated route planner",
+      "transit_school_hour_status": "Untimed model estimate",
+      "crossing_field_verified": false,
+      "walking_audit": {
+        "step_meters_sum": 567,
+        "map_total_matches_steps_with_rounding": true,
+        "potential_detour_flag": true,
+        "flag_basis": "Screening only. Network/direct-distance ratio >= 1.5 and excess >= 100 m. No inference of passability."
+      },
+      "amap_pc_morning_transit": {
+        "origin_id": "D2",
+        "destination_id": "K3",
+        "url": "https://ditu.amap.com/ssr/dir?fname=%E4%B8%AD%E6%B5%B7%E7%92%9F%E6%99%96%E5%8D%8E%E5%BA%AD&flat=23.121608&flon=113.332723&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E4%BD%90%E6%B2%BB%E4%BA%9A%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.122236&dlon=113.329152&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "model_date": "2026-11-12",
+        "departure": "07:20",
+        "observed_route": false,
+        "returned_url": "https://ditu.amap.com/ssr/dir?fname=%E4%B8%AD%E6%B5%B7%E7%92%9F%E6%99%96%E5%8D%8E%E5%BA%AD&flat=23.121608&flon=113.332723&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E4%BD%90%E6%B2%BB%E4%BA%9A%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.122236&dlon=113.329152&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "status": "no_itinerary_returned",
+        "message": "高德地图 — 在线地图查询与路线规划服务\n\n暂无公交路线方案\n广州\n晴\n18/27℃\n2 公里\n反馈\n路况\n测距\n地铁\n分享\n图层\n3D\n全屏"
+      }
+    },
+    {
+      "origin_id": "D2",
+      "destination_id": "K4",
+      "walking_meters": 1660,
+      "walking_seconds": 1328,
+      "walking_steps": [
+        "向北步行9米右转",
+        "向东步行76米右转",
+        "沿猎德大道向南步行99米向左前方行走",
+        "沿猎德大道辅路向南步行199米向右前方行走",
+        "沿花城大道步行42米左转",
+        "沿花城大道向东步行79米向左前方行走",
+        "沿猎德大道辅路向东步行47米左转",
+        "沿花城大道向东步行514米右转",
+        "沿花城大道向东步行194米右转",
+        "沿海风路向南步行184米向左前方行走",
+        "向东步行141米右转",
+        "向南步行76米到达目的地"
+      ],
+      "named_roads": [
+        "猎德大道",
+        "猎德大道辅路",
+        "花城大道",
+        "海风路"
+      ],
+      "transit_status": "Amap options returned",
+      "transit_options": [
+        {
+          "seconds": 1614,
+          "walk_meters": 359,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "138路",
+                "499路"
+              ],
+              "board": "兴盛路口",
+              "alight": "马场路南",
+              "entrance": null,
+              "exit": null,
+              "alternatives": [
+                [
+                  "138路(东莞庄总站--华成路总站)",
+                  "兴盛路口",
+                  "马场路南",
+                  3292,
+                  1272
+                ],
+                [
+                  "499路(珠江新城总站--珠江新城总站)",
+                  "兴盛路口",
+                  "马场路南",
+                  2939,
+                  1339
+                ]
+              ]
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        },
+        {
+          "seconds": 1686,
+          "walk_meters": 1294,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "地铁5号线"
+              ],
+              "board": "猎德",
+              "alight": "潭村",
+              "entrance": "C口",
+              "exit": "A口",
+              "alternatives": [
+                [
+                  "地铁5号线(滘口--黄埔新港)",
+                  "猎德",
+                  "潭村",
+                  1420,
+                  270
+                ]
+              ]
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        },
+        {
+          "seconds": 1790,
+          "walk_meters": 1203,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "886路"
+              ],
+              "board": "珠江公园南门",
+              "alight": "珠江新城总站",
+              "entrance": null,
+              "exit": null,
+              "alternatives": [
+                [
+                  "886路(南悦花苑总站--珠江新城总站)",
+                  "珠江公园南门",
+                  "珠江新城总站",
+                  611,
+                  597
+                ]
+              ]
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        }
+      ],
+      "walking_url": "https://uri.amap.com/navigation?from=113.332723,23.121608&to=113.341996,23.115182&mode=walk&src=liede-fieldwork",
+      "transit_url": "https://uri.amap.com/navigation?from=113.332723,23.121608&to=113.341996,23.115182&mode=bus&src=liede-fieldwork",
+      "query_date_local": "2026-11-12",
+      "source_round": 2,
+      "source": "Amap integrated route planner",
+      "transit_school_hour_status": "Untimed model estimate",
+      "crossing_field_verified": false,
+      "walking_audit": {
+        "step_meters_sum": 1660,
+        "map_total_matches_steps_with_rounding": true,
+        "potential_detour_flag": false,
+        "flag_basis": "Screening only. Network/direct-distance ratio >= 1.5 and excess >= 100 m. No inference of passability."
+      },
+      "amap_pc_morning_transit": {
+        "origin_id": "D2",
+        "destination_id": "K4",
+        "url": "https://ditu.amap.com/ssr/dir?fname=%E4%B8%AD%E6%B5%B7%E7%92%9F%E6%99%96%E5%8D%8E%E5%BA%AD&flat=23.121608&flon=113.332723&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E5%8A%9B%E8%BF%85%E4%B8%8A%E7%AD%91%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.115182&dlon=113.341996&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "model_date": "2026-11-12",
+        "departure": "07:20",
+        "observed_route": false,
+        "returned_url": "https://ditu.amap.com/ssr/dir?fname=%E4%B8%AD%E6%B5%B7%E7%92%9F%E6%99%96%E5%8D%8E%E5%BA%AD&flat=23.121608&flon=113.332723&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E5%8A%9B%E8%BF%85%E4%B8%8A%E7%AD%91%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.115182&dlon=113.341996&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "options": [
+          {
+            "summary": "29分钟\n步行 1.3公里\n无堵车风险\n12\n5号线\n13\n1站\n•\n2元\n•\n2.7公里\n详情",
+            "time_minutes": 29,
+            "lines": [
+              "5号线"
+            ],
+            "fare_cny": 2,
+            "transfers": 0,
+            "fare_source_type": "Amap display corroborated by Guangzhou Metro published adult single-trip tariff"
+          },
+          {
+            "summary": "25分钟\n步行 359米\n最快\n3\n138路\n4\n4站\n•\n2元\n•\n3.7公里",
+            "time_minutes": 25,
+            "lines": [
+              "138路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          },
+          {
+            "summary": "29分钟\n步行 1.2公里\n16\n886路\n5\n1站\n•\n2元\n•\n1.8公里",
+            "time_minutes": 29,
+            "lines": [
+              "886路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          },
+          {
+            "summary": "32分钟\n步行 1.1公里\n16\n40路\n4\n2站\n•\n2元\n•\n2公里",
+            "time_minutes": 32,
+            "lines": [
+              "40路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          }
+        ],
+        "preferred_index": 0,
+        "status": "itinerary_returned",
+        "estimated_arrival": "07:49",
+        "estimated_arrival_in_requested_window": true,
+        "preferred_details": "29分钟\n步行 1.3公里\n无堵车风险\n12\n5号线\n13\n1站\n•\n2元\n•\n2.7公里\n起\n中海璟晖华庭\n步行629米(12分钟)\n猎德 (C口)\n5号线\n黄埔新港方向\n1站 (5分钟)\n上车站\n首 06:08\n末 23:59\n首站发车约7分钟/趟\n潭村 (A口)\n步行667米(13分钟)\n终\n广州市天河区力迅上筑幼儿园",
+        "boarding_stop_as_displayed": "猎德 (C口)",
+        "alighting_stop_as_displayed": "潭村 (A口)",
+        "preferred_walk_meters_from_displayed_legs": 1296
+      }
+    },
+    {
+      "origin_id": "D2",
+      "destination_id": "K5",
+      "walking_meters": 640,
+      "walking_seconds": 512,
+      "walking_steps": [
+        "向西北步行166米右转",
+        "沿金穗路辅路向东步行105米左转",
+        "向北步行82米向左前方行走",
+        "向东南步行173米左转",
+        "沿金穗路辅路向东步行13米左转",
+        "沿海御直街向北步行101米到达目的地"
+      ],
+      "named_roads": [
+        "金穗路辅路",
+        "海御直街"
+      ],
+      "transit_status": "Amap returned no itinerary",
+      "transit_options": [],
+      "walking_url": "https://uri.amap.com/navigation?from=113.332723,23.121608&to=113.334724,23.123746&mode=walk&src=liede-fieldwork",
+      "transit_url": "https://uri.amap.com/navigation?from=113.332723,23.121608&to=113.334724,23.123746&mode=bus&src=liede-fieldwork",
+      "query_date_local": "2026-11-12",
+      "source_round": 2,
+      "source": "Amap integrated route planner",
+      "transit_school_hour_status": "Untimed model estimate",
+      "crossing_field_verified": false,
+      "walking_audit": {
+        "step_meters_sum": 640,
+        "map_total_matches_steps_with_rounding": true,
+        "potential_detour_flag": true,
+        "flag_basis": "Screening only. Network/direct-distance ratio >= 1.5 and excess >= 100 m. No inference of passability."
+      },
+      "amap_pc_morning_transit": {
+        "origin_id": "D2",
+        "destination_id": "K5",
+        "url": "https://ditu.amap.com/ssr/dir?fname=%E4%B8%AD%E6%B5%B7%E7%92%9F%E6%99%96%E5%8D%8E%E5%BA%AD&flat=23.121608&flon=113.332723&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E9%87%91%E7%A9%97%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.123746&dlon=113.334724&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "model_date": "2026-11-12",
+        "departure": "07:20",
+        "observed_route": false,
+        "returned_url": "https://ditu.amap.com/ssr/dir?fname=%E4%B8%AD%E6%B5%B7%E7%92%9F%E6%99%96%E5%8D%8E%E5%BA%AD&flat=23.121608&flon=113.332723&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E9%87%91%E7%A9%97%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.123746&dlon=113.334724&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "status": "no_itinerary_returned",
+        "message": "高德地图 — 在线地图查询与路线规划服务\n\n暂无公交路线方案\n2 公里\n反馈\n路况\n测距\n地铁\n分享\n图层\n3D\n全屏"
+      }
+    },
+    {
+      "origin_id": "D2",
+      "destination_id": "K6",
+      "walking_meters": 2138,
+      "walking_seconds": 1710,
+      "walking_steps": [
+        "向北步行9米右转",
+        "向东步行76米右转",
+        "沿猎德大道向南步行99米向左前方行走",
+        "沿猎德大道辅路向南步行199米向右前方行走",
+        "沿花城大道步行42米左转",
+        "沿花城大道向东步行79米向左前方行走",
+        "沿猎德大道辅路向东步行47米左转",
+        "沿花城大道向东步行885米左转",
+        "向东步行202米右转",
+        "沿花城大道向东步行351米向右前方行走",
+        "沿平江路步行51米右转",
+        "沿平江路向南步行69米右转",
+        "向西步行29米到达目的地"
+      ],
+      "named_roads": [
+        "猎德大道",
+        "猎德大道辅路",
+        "花城大道",
+        "平江路"
+      ],
+      "transit_status": "Amap options returned",
+      "transit_options": [
+        {
+          "seconds": 1379,
+          "walk_meters": 1020,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "地铁5号线"
+              ],
+              "board": "猎德",
+              "alight": "潭村",
+              "entrance": "C口",
+              "exit": "B口",
+              "alternatives": [
+                [
+                  "地铁5号线(滘口--黄埔新港)",
+                  "猎德",
+                  "潭村",
+                  1420,
+                  270
+                ]
+              ]
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        },
+        {
+          "seconds": 1756,
+          "walk_meters": 681,
+          "transfers": 1,
+          "legs": [
+            {
+              "services": [
+                "194路"
+              ],
+              "board": "兴盛路口",
+              "alight": "猎德",
+              "entrance": null,
+              "exit": null,
+              "alternatives": [
+                [
+                  "194路(华景新城(翰景路)总站--宝岗大道总站)",
+                  "兴盛路口",
+                  "猎德",
+                  420,
+                  705
+                ]
+              ]
+            },
+            {
+              "services": [
+                "地铁5号线"
+              ],
+              "board": "猎德",
+              "alight": "潭村",
+              "entrance": "D口",
+              "exit": "B口",
+              "alternatives": [
+                [
+                  "地铁5号线(滘口--黄埔新港)",
+                  "猎德",
+                  "潭村",
+                  1420,
+                  270
+                ]
+              ]
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        },
+        {
+          "seconds": 2003,
+          "walk_meters": 789,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "138路",
+                "499路"
+              ],
+              "board": "兴盛路口",
+              "alight": "马场路南",
+              "entrance": null,
+              "exit": null,
+              "alternatives": [
+                [
+                  "138路(东莞庄总站--华成路总站)",
+                  "兴盛路口",
+                  "马场路南",
+                  3292,
+                  1269
+                ],
+                [
+                  "499路(珠江新城总站--珠江新城总站)",
+                  "兴盛路口",
+                  "马场路南",
+                  2939,
+                  1349
+                ]
+              ]
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        }
+      ],
+      "walking_url": "https://uri.amap.com/navigation?from=113.332723,23.121608&to=113.347319,23.116220&mode=walk&src=liede-fieldwork",
+      "transit_url": "https://uri.amap.com/navigation?from=113.332723,23.121608&to=113.347319,23.116220&mode=bus&src=liede-fieldwork",
+      "query_date_local": "2026-11-12",
+      "source_round": 2,
+      "source": "Amap integrated route planner",
+      "transit_school_hour_status": "Untimed model estimate",
+      "crossing_field_verified": false,
+      "walking_audit": {
+        "step_meters_sum": 2138,
+        "map_total_matches_steps_with_rounding": true,
+        "potential_detour_flag": false,
+        "flag_basis": "Screening only. Network/direct-distance ratio >= 1.5 and excess >= 100 m. No inference of passability."
+      },
+      "bus_stop_alias_audit": {
+        "operator_old_name": "猎德站",
+        "operator_new_name": "花城大道（兴国路口）站",
+        "scope": "Only eastbound road bus stop on Huacheng Avenue. Amap legs omit directional stop IDs, so retain provider label.",
+        "phased_from": "2026-11-07",
+        "source": "https://jtj.gz.gov.cn/zwgg/ywgg/ggjt/gjxldzgg/content/post_11079212.html"
+      },
+      "amap_pc_morning_transit": {
+        "origin_id": "D2",
+        "destination_id": "K6",
+        "url": "https://ditu.amap.com/ssr/dir?fname=%E4%B8%AD%E6%B5%B7%E7%92%9F%E6%99%96%E5%8D%8E%E5%BA%AD&flat=23.121608&flon=113.332723&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E9%87%91%E7%A9%97%E5%B9%BC%E5%84%BF%E5%9B%AD%E8%8A%B1%E5%9F%8E%E5%9B%AD%E5%8C%BA&dlat=23.11622&dlon=113.347319&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "model_date": "2026-11-12",
+        "departure": "07:20",
+        "observed_route": false,
+        "returned_url": "https://ditu.amap.com/ssr/dir?fname=%E4%B8%AD%E6%B5%B7%E7%92%9F%E6%99%96%E5%8D%8E%E5%BA%AD&flat=23.121608&flon=113.332723&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E9%87%91%E7%A9%97%E5%B9%BC%E5%84%BF%E5%9B%AD%E8%8A%B1%E5%9F%8E%E5%9B%AD%E5%8C%BA&dlat=23.11622&dlon=113.347319&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "options": [
+          {
+            "summary": "23分钟\n步行 1公里\n最快\n12\n5号线\n7\n1站\n•\n2元\n•\n2.4公里\n详情",
+            "time_minutes": 23,
+            "lines": [
+              "5号线"
+            ],
+            "fare_cny": 2,
+            "transfers": 0,
+            "fare_source_type": "Amap display corroborated by Guangzhou Metro published adult single-trip tariff"
+          },
+          {
+            "summary": "32分钟\n步行 789米\n3\n138路\n10\n4站\n•\n2元\n•\n4.1公里",
+            "time_minutes": 32,
+            "lines": [
+              "138路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          },
+          {
+            "summary": "27分钟\n步行 681米\n3\n194路\n5号线\n7\n2站\n•\n4元\n•\n2.5公里",
+            "time_minutes": 27,
+            "lines": [
+              "194路",
+              "5号线"
+            ],
+            "fare_cny": 4,
+            "transfers": 1
+          },
+          {
+            "summary": "34分钟\n步行 433米\n步行少\n3\n517路\n545路\n6\n6站\n•\n4元\n•\n4.2公里",
+            "time_minutes": 34,
+            "lines": [
+              "517路",
+              "545路"
+            ],
+            "fare_cny": 4,
+            "transfers": 1
+          }
+        ],
+        "preferred_index": 0,
+        "status": "itinerary_returned",
+        "estimated_arrival": "07:43",
+        "estimated_arrival_in_requested_window": true,
+        "preferred_details": "23分钟\n步行 1公里\n最快\n12\n5号线\n7\n1站\n•\n2元\n•\n2.4公里\n起\n中海璟晖华庭\n步行629米(12分钟)\n猎德 (C口)\n5号线\n黄埔新港方向\n1站 (5分钟)\n上车站\n首 06:08\n末 23:59\n首站发车约7分钟/趟\n潭村 (B口)\n步行393米(7分钟)\n终\n广州市天河区金穗幼儿园花城园区",
+        "boarding_stop_as_displayed": "猎德 (C口)",
+        "alighting_stop_as_displayed": "潭村 (B口)",
+        "preferred_walk_meters_from_displayed_legs": 1022,
+        "initial_pc_result_status": "not_obtained"
+      }
+    },
+    {
+      "origin_id": "D2",
+      "destination_id": "S1",
+      "walking_meters": 1354,
+      "walking_seconds": 1083,
+      "walking_steps": [
+        "向北步行9米右转",
+        "向东步行76米右转",
+        "沿猎德大道向南步行99米向左前方行走",
+        "沿猎德大道辅路向南步行199米向右前方行走",
+        "沿花城大道步行42米左转",
+        "沿花城大道向东步行79米右转",
+        "沿猎德大道辅路步行24米向左前方行走",
+        "沿花城大道向东步行61米右转",
+        "沿花城大道向东步行74米右转",
+        "沿海明路向南步行149米向左前方行走",
+        "沿海明路向东步行321米右转",
+        "向南步行12米左转",
+        "向西南步行209米到达目的地"
+      ],
+      "walking_url": "https://uri.amap.com/navigation?from=113.332723,23.121608&to=113.337457,23.115805&mode=walk&src=liede-fieldwork",
+      "transit_url": "https://uri.amap.com/navigation?from=113.332723,23.121608&to=113.337457,23.115805&mode=bus&src=liede-fieldwork",
+      "transit_status": "Amap options returned",
+      "transit_options": [
+        {
+          "seconds": 1878,
+          "walk_meters": 1205,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "194路"
+              ],
+              "board": "兴盛路口",
+              "alight": "猎德",
+              "entrance": null,
+              "exit": null
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        },
+        {
+          "seconds": 2151,
+          "walk_meters": 681,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "138路"
+              ],
+              "board": "兴盛路口",
+              "alight": "临江大道",
+              "entrance": null,
+              "exit": null
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        },
+        {
+          "seconds": 2181,
+          "walk_meters": 728,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "499路"
+              ],
+              "board": "兴盛路口站",
+              "alight": "珠江新城总站",
+              "entrance": null,
+              "exit": null
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        }
+      ],
+      "named_roads": [
+        "猎德大道",
+        "猎德大道辅路",
+        "花城大道",
+        "海明路"
+      ],
+      "query_date_local": "2026-11-12",
+      "source_round": 1,
+      "source": "Amap integrated route planner",
+      "transit_school_hour_status": "Untimed model estimate",
+      "crossing_field_verified": false,
+      "walking_audit": {
+        "step_meters_sum": 1354,
+        "map_total_matches_steps_with_rounding": true,
+        "potential_detour_flag": true,
+        "flag_basis": "Screening only. Network/direct-distance ratio >= 1.5 and excess >= 100 m. No inference of passability."
+      },
+      "bus_stop_alias_audit": {
+        "operator_old_name": "猎德站",
+        "operator_new_name": "花城大道（兴国路口）站",
+        "scope": "Only eastbound road bus stop on Huacheng Avenue. Amap legs omit directional stop IDs, so retain provider label.",
+        "phased_from": "2026-11-07",
+        "source": "https://jtj.gz.gov.cn/zwgg/ywgg/ggjt/gjxldzgg/content/post_11079212.html"
+      },
+      "amap_pc_morning_transit": {
+        "origin_id": "D2",
+        "destination_id": "S1",
+        "url": "https://ditu.amap.com/ssr/dir?fname=%E4%B8%AD%E6%B5%B7%E7%92%9F%E6%99%96%E5%8D%8E%E5%BA%AD&flat=23.121608&flon=113.332723&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E4%B8%AD%E5%AD%A6%E7%8C%8E%E5%BE%B7%E5%AE%9E%E9%AA%8C%E5%AD%A6%E6%A0%A1%E5%B0%8F%E5%AD%A6%E9%83%A8&dlat=23.115805&dlon=113.337457&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "model_date": "2026-11-12",
+        "departure": "07:20",
+        "observed_route": false,
+        "returned_url": "https://ditu.amap.com/ssr/dir?fname=%E4%B8%AD%E6%B5%B7%E7%92%9F%E6%99%96%E5%8D%8E%E5%BA%AD&flat=23.121608&flon=113.332723&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E4%B8%AD%E5%AD%A6%E7%8C%8E%E5%BE%B7%E5%AE%9E%E9%AA%8C%E5%AD%A6%E6%A0%A1%E5%B0%8F%E5%AD%A6%E9%83%A8&dlat=23.115805&dlon=113.337457&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "options": [
+          {
+            "summary": "35分钟\n步行 681米\n3\n138路\n9\n6站\n•\n2元\n•\n4.9公里\n详情",
+            "time_minutes": 35,
+            "lines": [
+              "138路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0,
+            "fare_source_type": "Amap public planner fare displayed"
+          },
+          {
+            "summary": "38分钟\n步行 728米\n3\n499路\n10\n8站\n•\n2元\n•\n4.2公里",
+            "time_minutes": 38,
+            "lines": [
+              "499路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          },
+          {
+            "summary": "29分钟\n步行 1.2公里\n最快\n3\n194路\n18\n1站\n•\n2元\n•\n1.6公里",
+            "time_minutes": 29,
+            "lines": [
+              "194路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          },
+          {
+            "summary": "36分钟\n步行 899米\n7\n583路\n886路\n8\n5站\n•\n5元\n•\n3.3公里",
+            "time_minutes": 36,
+            "lines": [
+              "583路",
+              "886路"
+            ],
+            "fare_cny": 5,
+            "transfers": 1
+          },
+          {
+            "summary": "38分钟\n步行 899米\n7\n20路\n901A路\n8\n4站\n•\n4元\n•\n3.3公里",
+            "time_minutes": 38,
+            "lines": [
+              "20路",
+              "901A路"
+            ],
+            "fare_cny": 4,
+            "transfers": 1
+          }
+        ],
+        "preferred_index": 0,
+        "status": "itinerary_returned",
+        "estimated_arrival": "07:55",
+        "estimated_arrival_in_requested_window": true,
+        "preferred_details": "35分钟\n步行 681米\n3\n138路\n9\n6站\n•\n2元\n•\n4.9公里\n起\n中海璟晖华庭\n步行135米(3分钟)\n兴盛路口\n138路\n华成路总站方向\n6站 (24分钟)\n首站发车约10分钟/趟\n石牌村2\n红线女中心\n马场路中\n马场路南\n临江大道东\n临江大道\n步行546米(9分钟)\n终\n广州市天河中学猎德实验学校小学部",
+        "boarding_stop_as_displayed": "兴盛路口",
+        "alighting_stop_as_displayed": "临江大道",
+        "preferred_walk_meters_from_displayed_legs": 681,
+        "initial_pc_result_status": "not_obtained"
+      }
+    },
+    {
+      "origin_id": "D2",
+      "destination_id": "S2",
+      "walking_meters": 1722,
+      "walking_seconds": 1378,
+      "walking_steps": [
+        "向北步行9米右转",
+        "向东步行76米右转",
+        "沿猎德大道向南步行99米向左前方行走",
+        "沿猎德大道辅路向南步行199米向右前方行走",
+        "沿花城大道步行42米左转",
+        "沿花城大道向东步行79米向左前方行走",
+        "沿猎德大道辅路向东步行47米左转",
+        "沿花城大道向东步行514米右转",
+        "沿花城大道向东步行194米右转",
+        "沿海风路向南步行184米向左前方行走",
+        "向东步行141米右转",
+        "向南步行27米左转",
+        "向东南步行111米到达目的地"
+      ],
+      "walking_url": "https://uri.amap.com/navigation?from=113.332723,23.121608&to=113.342561,23.115197&mode=walk&src=liede-fieldwork",
+      "transit_url": "https://uri.amap.com/navigation?from=113.332723,23.121608&to=113.342561,23.115197&mode=bus&src=liede-fieldwork",
+      "transit_status": "Amap options returned",
+      "transit_options": [
+        {
+          "seconds": 1503,
+          "walk_meters": 253,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "138路",
+                "499路"
+              ],
+              "board": "兴盛路口",
+              "alight": "马场路南",
+              "entrance": null,
+              "exit": null
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        },
+        {
+          "seconds": 1717,
+          "walk_meters": 1308,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "地铁5号线"
+              ],
+              "board": "猎德",
+              "alight": "潭村",
+              "entrance": "C口",
+              "exit": "A口"
+            }
+          ],
+          "fare_cny": 2,
+          "fare_basis": "Standard adult single trip from published metro fare rule"
+        },
+        {
+          "seconds": 1825,
+          "walk_meters": 1027,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "40路"
+              ],
+              "board": "珠江公园南门",
+              "alight": "马场路南",
+              "entrance": null,
+              "exit": null
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        }
+      ],
+      "named_roads": [
+        "猎德大道",
+        "猎德大道辅路",
+        "花城大道",
+        "海风路"
+      ],
+      "query_date_local": "2026-11-12",
+      "source_round": 1,
+      "source": "Amap integrated route planner",
+      "transit_school_hour_status": "Untimed model estimate",
+      "crossing_field_verified": false,
+      "walking_audit": {
+        "step_meters_sum": 1722,
+        "map_total_matches_steps_with_rounding": true,
+        "potential_detour_flag": false,
+        "flag_basis": "Screening only. Network/direct-distance ratio >= 1.5 and excess >= 100 m. No inference of passability."
+      },
+      "amap_pc_morning_transit": {
+        "origin_id": "D2",
+        "destination_id": "S2",
+        "url": "https://ditu.amap.com/ssr/dir?fname=%E4%B8%AD%E6%B5%B7%E7%92%9F%E6%99%96%E5%8D%8E%E5%BA%AD&flat=23.121608&flon=113.332723&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E4%BD%93%E8%82%B2%E4%B8%9C%E8%B7%AF%E5%B0%8F%E5%AD%A6%E6%B5%B7%E6%98%8E%E5%AD%A6%E6%A0%A1&dlat=23.115197&dlon=113.342561&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "model_date": "2026-11-12",
+        "departure": "07:20",
+        "observed_route": false,
+        "returned_url": "https://ditu.amap.com/ssr/dir?fname=%E4%B8%AD%E6%B5%B7%E7%92%9F%E6%99%96%E5%8D%8E%E5%BA%AD&flat=23.121608&flon=113.332723&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E4%BD%93%E8%82%B2%E4%B8%9C%E8%B7%AF%E5%B0%8F%E5%AD%A6%E6%B5%B7%E6%98%8E%E5%AD%A6%E6%A0%A1&dlat=23.115197&dlon=113.342561&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "options": [
+          {
+            "summary": "24分钟\n步行 253米\n最快\n3\n138路\n2\n4站\n•\n2元\n•\n3.5公里\n详情",
+            "time_minutes": 24,
+            "lines": [
+              "138路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0,
+            "fare_source_type": "Amap public planner fare displayed"
+          },
+          {
+            "summary": "29分钟\n步行 1.3公里\n无堵车风险\n12\n5号线\n13\n1站\n•\n2元\n•\n2.7公里",
+            "time_minutes": 29,
+            "lines": [
+              "5号线"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          },
+          {
+            "summary": "31分钟\n步行 1公里\n16\n40路\n2\n2站\n•\n2元\n•\n1.9公里",
+            "time_minutes": 31,
+            "lines": [
+              "40路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          }
+        ],
+        "preferred_index": 0,
+        "status": "itinerary_returned",
+        "estimated_arrival": "07:44",
+        "estimated_arrival_in_requested_window": true,
+        "preferred_details": "24分钟\n步行 253米\n最快\n3\n138路\n2\n4站\n•\n2元\n•\n3.5公里\n起\n中海璟晖华庭\n步行135米(3分钟)\n兴盛路口\n138路\n华成路总站方向\n4站 (20分钟)\n首站发车约10分钟/趟\n石牌村2\n红线女中心\n马场路中\n马场路南\n步行118米(2分钟)\n终\n广州市天河区体育东路小学海明学校",
+        "boarding_stop_as_displayed": "兴盛路口",
+        "alighting_stop_as_displayed": "马场路南",
+        "preferred_walk_meters_from_displayed_legs": 253,
+        "initial_pc_result_status": "not_obtained"
+      }
+    },
+    {
+      "origin_id": "D2",
+      "destination_id": "S3",
+      "walking_meters": 756,
+      "walking_seconds": 605,
+      "walking_steps": [
+        "向西北步行166米左转",
+        "沿金穗路辅路步行124米左转",
+        "沿兴国路向西南步行28米向左前方行走",
+        "沿兴国路向南步行279米左转",
+        "向东步行48米右转",
+        "向南步行10米右转",
+        "向西南步行74米左转",
+        "向东步行27米到达目的地"
+      ],
+      "walking_url": "https://uri.amap.com/navigation?from=113.332723,23.121608&to=113.331236,23.119408&mode=walk&src=liede-fieldwork",
+      "transit_url": "https://uri.amap.com/navigation?from=113.332723,23.121608&to=113.331236,23.119408&mode=bus&src=liede-fieldwork",
+      "transit_status": "Amap returned no itinerary",
+      "transit_options": [],
+      "named_roads": [
+        "金穗路辅路",
+        "兴国路"
+      ],
+      "query_date_local": "2026-11-12",
+      "source_round": 1,
+      "source": "Amap integrated route planner",
+      "transit_school_hour_status": "Untimed model estimate",
+      "crossing_field_verified": false,
+      "walking_audit": {
+        "step_meters_sum": 756,
+        "map_total_matches_steps_with_rounding": true,
+        "potential_detour_flag": true,
+        "flag_basis": "Screening only. Network/direct-distance ratio >= 1.5 and excess >= 100 m. No inference of passability.",
+        "same_direction_recheck": {
+          "d": "D2",
+          "s": "S3",
+          "mode": "walk",
+          "meters": 756,
+          "seconds": 605,
+          "steps": [
+            "向西北步行166米左转",
+            "沿金穗路辅路步行124米左转",
+            "沿兴国路向西南步行28米向左前方行走",
+            "沿兴国路向南步行279米左转",
+            "向东步行48米右转",
+            "向南步行10米右转",
+            "向西南步行74米左转",
+            "向东步行27米到达目的地"
+          ]
+        }
+      },
+      "amap_pc_morning_transit": {
+        "origin_id": "D2",
+        "destination_id": "S3",
+        "url": "https://ditu.amap.com/ssr/dir?fname=%E4%B8%AD%E6%B5%B7%E7%92%9F%E6%99%96%E5%8D%8E%E5%BA%AD&flat=23.121608&flon=113.332723&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E4%BD%93%E8%82%B2%E4%B8%9C%E8%B7%AF%E5%B0%8F%E5%AD%A6%E5%85%B4%E5%9B%BD%E5%AD%A6%E6%A0%A1&dlat=23.119408&dlon=113.331236&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "model_date": "2026-11-12",
+        "departure": "07:20",
+        "observed_route": false,
+        "returned_url": "https://ditu.amap.com/ssr/dir?fname=%E4%B8%AD%E6%B5%B7%E7%92%9F%E6%99%96%E5%8D%8E%E5%BA%AD&flat=23.121608&flon=113.332723&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E4%BD%93%E8%82%B2%E4%B8%9C%E8%B7%AF%E5%B0%8F%E5%AD%A6%E5%85%B4%E5%9B%BD%E5%AD%A6%E6%A0%A1&dlat=23.119408&dlon=113.331236&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "status": "no_itinerary_returned",
+        "message": "高德地图 — 在线地图查询与路线规划服务\n\n暂无公交路线方案\n广州\n晴\n18/27℃\n2 公里\n反馈\n路况\n测距\n地铁\n分享\n图层\n3D\n全屏"
+      }
+    },
+    {
+      "origin_id": "D2",
+      "destination_id": "S4",
+      "walking_meters": 1986,
+      "walking_seconds": 1589,
+      "walking_steps": [
+        "向北步行9米右转",
+        "向东步行76米右转",
+        "沿猎德大道向南步行99米向左前方行走",
+        "沿猎德大道辅路向南步行199米向右前方行走",
+        "沿花城大道步行42米左转",
+        "沿花城大道向东步行79米右转",
+        "沿猎德大道辅路步行24米向左前方行走",
+        "沿花城大道向东步行61米右转",
+        "沿花城大道向东步行74米右转",
+        "沿海明路向南步行149米向左前方行走",
+        "沿平月路向东步行1029米左转",
+        "沿宏御东路向北步行53米向左后方行走",
+        "向西南步行92米到达目的地"
+      ],
+      "walking_url": "https://uri.amap.com/navigation?from=113.332723,23.121608&to=113.344261,23.116251&mode=walk&src=liede-fieldwork",
+      "transit_url": "https://uri.amap.com/navigation?from=113.332723,23.121608&to=113.344261,23.116251&mode=bus&src=liede-fieldwork",
+      "transit_status": "Amap options returned",
+      "transit_options": [
+        {
+          "seconds": 1412,
+          "walk_meters": 979,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "地铁5号线"
+              ],
+              "board": "猎德",
+              "alight": "潭村",
+              "entrance": "C口",
+              "exit": "A口"
+            }
+          ],
+          "fare_cny": 2,
+          "fare_basis": "Standard adult single trip from published metro fare rule"
+        },
+        {
+          "seconds": 1790,
+          "walk_meters": 640,
+          "transfers": 1,
+          "legs": [
+            {
+              "services": [
+                "194路"
+              ],
+              "board": "兴盛路口",
+              "alight": "猎德",
+              "entrance": null,
+              "exit": null
+            },
+            {
+              "services": [
+                "地铁5号线"
+              ],
+              "board": "猎德",
+              "alight": "潭村",
+              "entrance": "D口",
+              "exit": "A口"
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        },
+        {
+          "seconds": 1877,
+          "walk_meters": 530,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "499路",
+                "138路"
+              ],
+              "board": "兴盛路口站",
+              "alight": "马场路南",
+              "entrance": null,
+              "exit": null
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        }
+      ],
+      "named_roads": [
+        "猎德大道",
+        "猎德大道辅路",
+        "花城大道",
+        "海明路",
+        "平月路",
+        "宏御东路"
+      ],
+      "query_date_local": "2026-11-12",
+      "source_round": 1,
+      "source": "Amap integrated route planner",
+      "transit_school_hour_status": "Untimed model estimate",
+      "crossing_field_verified": false,
+      "walking_audit": {
+        "step_meters_sum": 1986,
+        "map_total_matches_steps_with_rounding": true,
+        "potential_detour_flag": true,
+        "flag_basis": "Screening only. Network/direct-distance ratio >= 1.5 and excess >= 100 m. No inference of passability."
+      },
+      "bus_stop_alias_audit": {
+        "operator_old_name": "猎德站",
+        "operator_new_name": "花城大道（兴国路口）站",
+        "scope": "Only eastbound road bus stop on Huacheng Avenue. Amap legs omit directional stop IDs, so retain provider label.",
+        "phased_from": "2026-11-07",
+        "source": "https://jtj.gz.gov.cn/zwgg/ywgg/ggjt/gjxldzgg/content/post_11079212.html"
+      },
+      "amap_pc_morning_transit": {
+        "origin_id": "D2",
+        "destination_id": "S4",
+        "url": "https://ditu.amap.com/ssr/dir?fname=%E4%B8%AD%E6%B5%B7%E7%92%9F%E6%99%96%E5%8D%8E%E5%BA%AD&flat=23.121608&flon=113.332723&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%8D%97%E5%9B%BD%E5%AD%A6%E6%A0%A1%E5%B0%8F%E5%AD%A6%E9%83%A8&dlat=23.116251&dlon=113.344261&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "model_date": "2026-11-12",
+        "departure": "07:20",
+        "observed_route": false,
+        "returned_url": "https://ditu.amap.com/ssr/dir?fname=%E4%B8%AD%E6%B5%B7%E7%92%9F%E6%99%96%E5%8D%8E%E5%BA%AD&flat=23.121608&flon=113.332723&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%8D%97%E5%9B%BD%E5%AD%A6%E6%A0%A1%E5%B0%8F%E5%AD%A6%E9%83%A8&dlat=23.116251&dlon=113.344261&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "options": [
+          {
+            "summary": "24分钟\n步行 979米\n最快\n12\n5号线\n8\n1站\n•\n2元\n•\n2.4公里\n详情",
+            "time_minutes": 24,
+            "lines": [
+              "5号线"
+            ],
+            "fare_cny": 2,
+            "transfers": 0,
+            "fare_source_type": "Amap display corroborated by Guangzhou Metro published adult single-trip tariff"
+          },
+          {
+            "summary": "28分钟\n步行 530米\n步行少\n3\n138路\n7\n4站\n•\n2元\n•\n3.8公里",
+            "time_minutes": 28,
+            "lines": [
+              "138路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          },
+          {
+            "summary": "28分钟\n步行 640米\n3\n194路\n5号线\n8\n2站\n•\n4元\n•\n2.5公里",
+            "time_minutes": 28,
+            "lines": [
+              "194路",
+              "5号线"
+            ],
+            "fare_cny": 4,
+            "transfers": 1
+          },
+          {
+            "summary": "33分钟\n步行 1.5公里\n16\n886路\n9\n1站\n•\n2元\n•\n2.1公里",
+            "time_minutes": 33,
+            "lines": [
+              "886路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          }
+        ],
+        "preferred_index": 0,
+        "status": "itinerary_returned",
+        "estimated_arrival": "07:44",
+        "estimated_arrival_in_requested_window": true,
+        "preferred_details": "24分钟\n步行 979米\n最快\n12\n5号线\n8\n1站\n•\n2元\n•\n2.4公里\n起\n中海璟晖华庭\n步行629米(12分钟)\n猎德 (C口)\n5号线\n黄埔新港方向\n1站 (5分钟)\n上车站\n首 06:08\n末 23:59\n首站发车约7分钟/趟\n潭村 (A口)\n步行352米(8分钟)\n终\n广州市南国学校小学部",
+        "boarding_stop_as_displayed": "猎德 (C口)",
+        "alighting_stop_as_displayed": "潭村 (A口)",
+        "preferred_walk_meters_from_displayed_legs": 981
+      }
+    },
+    {
+      "origin_id": "D3",
+      "destination_id": "K1",
+      "walking_meters": 916,
+      "walking_seconds": 733,
+      "walking_steps": [
+        "向南步行133米右转",
+        "沿海月路向西步行724米右转",
+        "向北步行59米到达目的地"
+      ],
+      "walking_url": "https://uri.amap.com/navigation?from=113.344585,23.114459&to=113.337456,23.114648&mode=walk&src=liede-fieldwork",
+      "transit_url": "https://uri.amap.com/navigation?from=113.344585,23.114459&to=113.337456,23.114648&mode=bus&src=liede-fieldwork",
+      "transit_status": "Amap options returned",
+      "transit_options": [
+        {
+          "seconds": 1330,
+          "walk_meters": 715,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "138路",
+                "777路",
+                "669路"
+              ],
+              "board": "马场路南",
+              "alight": "临江大道",
+              "entrance": null,
+              "exit": null
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        },
+        {
+          "seconds": 1656,
+          "walk_meters": 855,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "293路"
+              ],
+              "board": "临江大道东",
+              "alight": "临江大道",
+              "entrance": null,
+              "exit": null
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        },
+        {
+          "seconds": 1827,
+          "walk_meters": 875,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "44路"
+              ],
+              "board": "临江大道东",
+              "alight": "临江大道(猎德牌坊)",
+              "entrance": null,
+              "exit": null
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        }
+      ],
+      "named_roads": [
+        "海月路"
+      ],
+      "query_date_local": "2026-11-12",
+      "source_round": 1,
+      "source": "Amap integrated route planner",
+      "transit_school_hour_status": "Untimed model estimate",
+      "crossing_field_verified": false,
+      "walking_audit": {
+        "step_meters_sum": 916,
+        "map_total_matches_steps_with_rounding": true,
+        "potential_detour_flag": false,
+        "flag_basis": "Screening only. Network/direct-distance ratio >= 1.5 and excess >= 100 m. No inference of passability."
+      },
+      "amap_pc_morning_transit": {
+        "origin_id": "D3",
+        "destination_id": "K1",
+        "url": "https://ditu.amap.com/ssr/dir?fname=%E5%8D%97%E5%9B%BD%E8%8A%B1%E5%9B%AD&flat=23.114459&flon=113.344585&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E7%8F%A0%E6%B1%9F%E6%96%B0%E5%9F%8E%E7%8C%8E%E5%BE%B7%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.114648&dlon=113.337456&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "model_date": "2026-11-12",
+        "departure": "07:20",
+        "observed_route": false,
+        "returned_url": "https://ditu.amap.com/ssr/dir?fname=%E5%8D%97%E5%9B%BD%E8%8A%B1%E5%9B%AD&flat=23.114459&flon=113.344585&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E7%8F%A0%E6%B1%9F%E6%96%B0%E5%9F%8E%E7%8C%8E%E5%BE%B7%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.114648&dlon=113.337456&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "options": [
+          {
+            "summary": "22分钟\n步行 715米\n最快\n6\n138路\n6\n2站\n•\n2元\n•\n1.7公里\n详情",
+            "time_minutes": 22,
+            "lines": [
+              "138路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0,
+            "fare_source_type": "Amap public planner fare displayed"
+          },
+          {
+            "summary": "26分钟\n步行 855米\n9\n293路\n6\n1站\n•\n2元\n•\n1.3公里",
+            "time_minutes": 26,
+            "lines": [
+              "293路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          },
+          {
+            "summary": "31分钟\n步行 875米\n9\n44路\n6\n1站\n•\n3元\n•\n1.3公里",
+            "time_minutes": 31,
+            "lines": [
+              "44路"
+            ],
+            "fare_cny": 3,
+            "transfers": 0
+          }
+        ],
+        "preferred_index": 0,
+        "status": "itinerary_returned",
+        "estimated_arrival": "07:42",
+        "estimated_arrival_in_requested_window": true,
+        "preferred_details": "22分钟\n步行 715米\n最快\n6\n138路\n6\n2站\n•\n2元\n•\n1.7公里\n起\n南国花园\n步行381米(6分钟)\n马场路南\n138路\n华成路总站方向\n2站 (11分钟)\n首站发车约10分钟/趟\n临江大道东\n临江大道\n步行334米(6分钟)\n终\n广州市天河区珠江新城猎德幼儿园",
+        "boarding_stop_as_displayed": "马场路南",
+        "alighting_stop_as_displayed": "临江大道",
+        "preferred_walk_meters_from_displayed_legs": 715
+      }
+    },
+    {
+      "origin_id": "D3",
+      "destination_id": "K2",
+      "walking_meters": 2204,
+      "walking_seconds": 1763,
+      "walking_steps": [
+        "向北步行21米右转",
+        "向北步行155米左转",
+        "沿平月路向西步行1133米左转",
+        "沿花城大道向西步行74米向左前方行走",
+        "沿花城大道步行31米右转",
+        "向西北步行54米左转",
+        "沿花城大道步行40米向右前方行走",
+        "沿花城大道向北步行81米向左前方行走",
+        "沿猎德大道向北步行376米左转",
+        "沿金穗路辅路向西步行143米左转",
+        "向南步行96米到达目的地"
+      ],
+      "walking_url": "https://uri.amap.com/navigation?from=113.344585,23.114459&to=113.332259,23.121804&mode=walk&src=liede-fieldwork",
+      "transit_url": "https://uri.amap.com/navigation?from=113.344585,23.114459&to=113.332259,23.121804&mode=bus&src=liede-fieldwork",
+      "transit_status": "Amap options returned",
+      "transit_options": [
+        {
+          "seconds": 1764,
+          "walk_meters": 1246,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "地铁5号线"
+              ],
+              "board": "潭村",
+              "alight": "猎德",
+              "entrance": "A口",
+              "exit": "D口"
+            }
+          ],
+          "fare_cny": 2,
+          "fare_basis": "Standard adult single trip from published metro fare rule"
+        },
+        {
+          "seconds": 1821,
+          "walk_meters": 776,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "40路"
+              ],
+              "board": "马场路南",
+              "alight": "猎德",
+              "entrance": null,
+              "exit": null
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        },
+        {
+          "seconds": 2012,
+          "walk_meters": 1180,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "886路"
+              ],
+              "board": "珠江新城总站",
+              "alight": "猎德",
+              "entrance": null,
+              "exit": null
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        }
+      ],
+      "named_roads": [
+        "平月路",
+        "花城大道",
+        "猎德大道",
+        "金穗路辅路"
+      ],
+      "query_date_local": "2026-11-12",
+      "source_round": 1,
+      "source": "Amap integrated route planner",
+      "transit_school_hour_status": "Untimed model estimate",
+      "crossing_field_verified": false,
+      "walking_audit": {
+        "step_meters_sum": 2204,
+        "map_total_matches_steps_with_rounding": true,
+        "potential_detour_flag": false,
+        "flag_basis": "Screening only. Network/direct-distance ratio >= 1.5 and excess >= 100 m. No inference of passability."
+      },
+      "bus_stop_alias_audit": {
+        "operator_old_name": "猎德站",
+        "operator_new_name": "花城大道（兴国路口）站",
+        "scope": "Only eastbound road bus stop on Huacheng Avenue. Amap legs omit directional stop IDs, so retain provider label.",
+        "phased_from": "2026-11-07",
+        "source": "https://jtj.gz.gov.cn/zwgg/ywgg/ggjt/gjxldzgg/content/post_11079212.html"
+      },
+      "amap_pc_morning_transit": {
+        "origin_id": "D3",
+        "destination_id": "K2",
+        "url": "https://ditu.amap.com/ssr/dir?fname=%E5%8D%97%E5%9B%BD%E8%8A%B1%E5%9B%AD&flat=23.114459&flon=113.344585&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E4%B8%87%E9%94%A6%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.121804&dlon=113.332259&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "model_date": "2026-11-12",
+        "departure": "07:20",
+        "observed_route": false,
+        "returned_url": "https://ditu.amap.com/ssr/dir?fname=%E5%8D%97%E5%9B%BD%E8%8A%B1%E5%9B%AD&flat=23.114459&flon=113.344585&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E4%B8%87%E9%94%A6%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.121804&dlon=113.332259&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "options": [
+          {
+            "summary": "30分钟\n步行 1.2公里\n无堵车风险\n10\n5号线\n13\n1站\n•\n2元\n•\n2.7公里\n详情",
+            "time_minutes": 30,
+            "lines": [
+              "5号线"
+            ],
+            "fare_cny": 2,
+            "transfers": 0,
+            "fare_source_type": "Amap display corroborated by Guangzhou Metro published adult single-trip tariff"
+          },
+          {
+            "summary": "30分钟\n步行 776米\n3\n40路\n11\n3站\n•\n2元\n•\n2.2公里",
+            "time_minutes": 30,
+            "lines": [
+              "40路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          },
+          {
+            "summary": "29分钟\n步行 1.3公里\n11\n901A路\n11\n3站\n•\n2元\n•\n2.5公里",
+            "time_minutes": 29,
+            "lines": [
+              "901A路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          },
+          {
+            "summary": "33分钟\n步行 424米\n3\n40路\n20路\n5\n5站\n•\n4元\n•\n2.9公里",
+            "time_minutes": 33,
+            "lines": [
+              "40路",
+              "20路"
+            ],
+            "fare_cny": 4,
+            "transfers": 1
+          },
+          {
+            "summary": "31分钟\n步行 468米\n3\n138路\n583路\n6\n5站\n•\n5元\n•\n3.2公里",
+            "time_minutes": 31,
+            "lines": [
+              "138路",
+              "583路"
+            ],
+            "fare_cny": 5,
+            "transfers": 1
+          }
+        ],
+        "preferred_index": 0,
+        "status": "itinerary_returned",
+        "estimated_arrival": "07:50",
+        "estimated_arrival_in_requested_window": true,
+        "preferred_details": "30分钟\n步行 1.2公里\n无堵车风险\n10\n5号线\n13\n1站\n•\n2元\n•\n2.7公里\n起\n南国花园\n步行534米(10分钟)\n潭村 (A口)\n5号线\n滘口方向\n1站 (7分钟)\n上车站\n首 06:14\n末 23:15\n首站发车约7分钟/趟\n猎德 (D口)\n步行714米(13分钟)\n终\n广州市天河区万锦幼儿园",
+        "boarding_stop_as_displayed": "潭村 (A口)",
+        "alighting_stop_as_displayed": "猎德 (D口)",
+        "preferred_walk_meters_from_displayed_legs": 1248
+      }
+    },
+    {
+      "origin_id": "D3",
+      "destination_id": "K3",
+      "walking_meters": 2385,
+      "walking_seconds": 1908,
+      "walking_steps": [
+        "向北步行21米右转",
+        "向北步行155米左转",
+        "沿平月路向西步行1133米左转",
+        "沿花城大道向西步行74米向左前方行走",
+        "沿花城大道步行31米右转",
+        "向西北步行54米左转",
+        "沿花城大道步行40米向右前方行走",
+        "沿花城大道向北步行81米向左前方行走",
+        "沿猎德大道辅路向北步行154米左转",
+        "沿兴盛路向西步行410米右转",
+        "沿兴盛直街向北步行170米左转",
+        "向西步行41米左转",
+        "向南步行21米到达目的地"
+      ],
+      "named_roads": [
+        "平月路",
+        "花城大道",
+        "猎德大道辅路",
+        "兴盛路",
+        "兴盛直街"
+      ],
+      "transit_status": "Amap options returned",
+      "transit_options": [
+        {
+          "seconds": 1823,
+          "walk_meters": 1316,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "地铁5号线"
+              ],
+              "board": "潭村",
+              "alight": "猎德",
+              "entrance": "A口",
+              "exit": "D口",
+              "alternatives": [
+                [
+                  "地铁5号线(黄埔新港--滘口)",
+                  "潭村",
+                  "猎德",
+                  1420,
+                  390
+                ]
+              ]
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        },
+        {
+          "seconds": 1849,
+          "walk_meters": 846,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "40路"
+              ],
+              "board": "马场路南",
+              "alight": "猎德",
+              "entrance": null,
+              "exit": null,
+              "alternatives": [
+                [
+                  "40路(广医附属中医院总站--东山(署前路)总站)",
+                  "马场路南",
+                  "猎德",
+                  1465,
+                  1004
+                ]
+              ]
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        },
+        {
+          "seconds": 1918,
+          "walk_meters": 988,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "886路"
+              ],
+              "board": "珠江新城总站",
+              "alight": "冼村路中",
+              "entrance": null,
+              "exit": null,
+              "alternatives": [
+                [
+                  "886路(珠江新城总站--南悦花苑总站)",
+                  "珠江新城总站",
+                  "冼村路中",
+                  2140,
+                  981
+                ]
+              ]
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        }
+      ],
+      "walking_url": "https://uri.amap.com/navigation?from=113.344585,23.114459&to=113.329152,23.122236&mode=walk&src=liede-fieldwork",
+      "transit_url": "https://uri.amap.com/navigation?from=113.344585,23.114459&to=113.329152,23.122236&mode=bus&src=liede-fieldwork",
+      "query_date_local": "2026-11-12",
+      "source_round": 2,
+      "source": "Amap integrated route planner",
+      "transit_school_hour_status": "Untimed model estimate",
+      "crossing_field_verified": false,
+      "walking_audit": {
+        "step_meters_sum": 2385,
+        "map_total_matches_steps_with_rounding": true,
+        "potential_detour_flag": false,
+        "flag_basis": "Screening only. Network/direct-distance ratio >= 1.5 and excess >= 100 m. No inference of passability."
+      },
+      "bus_stop_alias_audit": {
+        "operator_old_name": "猎德站",
+        "operator_new_name": "花城大道（兴国路口）站",
+        "scope": "Only eastbound road bus stop on Huacheng Avenue. Amap legs omit directional stop IDs, so retain provider label.",
+        "phased_from": "2026-11-07",
+        "source": "https://jtj.gz.gov.cn/zwgg/ywgg/ggjt/gjxldzgg/content/post_11079212.html"
+      },
+      "amap_pc_morning_transit": {
+        "origin_id": "D3",
+        "destination_id": "K3",
+        "url": "https://ditu.amap.com/ssr/dir?fname=%E5%8D%97%E5%9B%BD%E8%8A%B1%E5%9B%AD&flat=23.114459&flon=113.344585&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E4%BD%90%E6%B2%BB%E4%BA%9A%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.122236&dlon=113.329152&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "model_date": "2026-11-12",
+        "departure": "07:20",
+        "observed_route": false,
+        "returned_url": "https://ditu.amap.com/ssr/dir?fname=%E5%8D%97%E5%9B%BD%E8%8A%B1%E5%9B%AD&flat=23.114459&flon=113.344585&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E4%BD%90%E6%B2%BB%E4%BA%9A%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.122236&dlon=113.329152&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "options": [
+          {
+            "summary": "31分钟\n步行 1.3公里\n无堵车风险\n10\n5号线\n14\n1站\n•\n2元\n•\n2.7公里\n详情",
+            "time_minutes": 31,
+            "lines": [
+              "5号线"
+            ],
+            "fare_cny": 2,
+            "transfers": 0,
+            "fare_source_type": "Amap display corroborated by Guangzhou Metro published adult single-trip tariff"
+          },
+          {
+            "summary": "31分钟\n步行 846米\n3\n40路\n12\n3站\n•\n2元\n•\n2.3公里",
+            "time_minutes": 31,
+            "lines": [
+              "40路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          },
+          {
+            "summary": "30分钟\n步行 988米\n始发站上车\n9\n886路\n8\n4站\n•\n2元\n•\n3.1公里",
+            "time_minutes": 30,
+            "lines": [
+              "886路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          },
+          {
+            "summary": "32分钟\n步行 370米\n步行少\n3\n40路\n20路\n4\n5站\n•\n4元\n•\n2.9公里",
+            "time_minutes": 32,
+            "lines": [
+              "40路",
+              "20路"
+            ],
+            "fare_cny": 4,
+            "transfers": 1
+          },
+          {
+            "summary": "30分钟\n步行 1.3公里\n11\n901A路\n12\n3站\n•\n2元\n•\n2.6公里",
+            "time_minutes": 30,
+            "lines": [
+              "901A路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          }
+        ],
+        "preferred_index": 0,
+        "status": "itinerary_returned",
+        "estimated_arrival": "07:51",
+        "estimated_arrival_in_requested_window": true,
+        "preferred_details": "31分钟\n步行 1.3公里\n无堵车风险\n10\n5号线\n14\n1站\n•\n2元\n•\n2.7公里\n起\n南国花园\n步行534米(10分钟)\n潭村 (A口)\n5号线\n滘口方向\n1站 (7分钟)\n上车站\n首 06:14\n末 23:15\n首站发车约7分钟/趟\n猎德 (D口)\n步行784米(14分钟)\n终\n广州市天河区佐治亚幼儿园",
+        "boarding_stop_as_displayed": "潭村 (A口)",
+        "alighting_stop_as_displayed": "猎德 (D口)",
+        "preferred_walk_meters_from_displayed_legs": 1318
+      }
+    },
+    {
+      "origin_id": "D3",
+      "destination_id": "K4",
+      "walking_meters": 485,
+      "walking_seconds": 388,
+      "walking_steps": [
+        "向北步行21米右转",
+        "向北步行155米左转",
+        "沿平月路向西步行126米向左前方行走",
+        "向西步行107米左转",
+        "向南步行76米到达目的地"
+      ],
+      "named_roads": [
+        "平月路"
+      ],
+      "transit_status": "Amap returned no itinerary",
+      "transit_options": [],
+      "walking_url": "https://uri.amap.com/navigation?from=113.344585,23.114459&to=113.341996,23.115182&mode=walk&src=liede-fieldwork",
+      "transit_url": "https://uri.amap.com/navigation?from=113.344585,23.114459&to=113.341996,23.115182&mode=bus&src=liede-fieldwork",
+      "query_date_local": "2026-11-12",
+      "source_round": 2,
+      "source": "Amap integrated route planner",
+      "transit_school_hour_status": "Untimed model estimate",
+      "crossing_field_verified": false,
+      "walking_audit": {
+        "step_meters_sum": 485,
+        "map_total_matches_steps_with_rounding": true,
+        "potential_detour_flag": true,
+        "flag_basis": "Screening only. Network/direct-distance ratio >= 1.5 and excess >= 100 m. No inference of passability."
+      },
+      "amap_pc_morning_transit": {
+        "origin_id": "D3",
+        "destination_id": "K4",
+        "url": "https://ditu.amap.com/ssr/dir?fname=%E5%8D%97%E5%9B%BD%E8%8A%B1%E5%9B%AD&flat=23.114459&flon=113.344585&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E5%8A%9B%E8%BF%85%E4%B8%8A%E7%AD%91%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.115182&dlon=113.341996&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "model_date": "2026-11-12",
+        "departure": "07:20",
+        "observed_route": false,
+        "returned_url": "https://ditu.amap.com/ssr/dir?fname=%E5%8D%97%E5%9B%BD%E8%8A%B1%E5%9B%AD&flat=23.114459&flon=113.344585&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E5%8A%9B%E8%BF%85%E4%B8%8A%E7%AD%91%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.115182&dlon=113.341996&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "status": "no_itinerary_returned",
+        "message": "高德地图 — 在线地图查询与路线规划服务\n\n暂无公交路线方案\n广州\n晴\n18/27℃\n2 公里\n反馈\n路况\n测距\n地铁\n分享\n图层\n3D\n全屏"
+      }
+    },
+    {
+      "origin_id": "D3",
+      "destination_id": "K5",
+      "walking_meters": 1997,
+      "walking_seconds": 1598,
+      "walking_steps": [
+        "向北步行21米右转",
+        "向北步行155米左转",
+        "沿平月路向西步行126米右转",
+        "沿马场路向北步行114米左转",
+        "向北步行139米左转",
+        "沿马场路向北步行377米向左前方行走",
+        "沿马场路步行60米向左前方行走",
+        "沿金穗路向西步行198米右转",
+        "沿金穗路向西步行315米向右前方行走",
+        "沿海乐路向西北步行28米左转",
+        "沿海乐路向西步行44米向右前方行走",
+        "沿金穗路辅路向西步行319米右转",
+        "沿海御直街向北步行101米到达目的地"
+      ],
+      "named_roads": [
+        "平月路",
+        "马场路",
+        "金穗路",
+        "海乐路",
+        "金穗路辅路",
+        "海御直街"
+      ],
+      "transit_status": "Amap options returned",
+      "transit_options": [
+        {
+          "seconds": 1795,
+          "walk_meters": 981,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "40路"
+              ],
+              "board": "马场路南",
+              "alight": "珠江公园南门",
+              "entrance": null,
+              "exit": null,
+              "alternatives": [
+                [
+                  "40路(广医附属中医院总站--东山(署前路)总站)",
+                  "马场路南",
+                  "珠江公园南门",
+                  1089,
+                  861
+                ]
+              ]
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        },
+        {
+          "seconds": 1891,
+          "walk_meters": 796,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "499路"
+              ],
+              "board": "马场路中",
+              "alight": "海安路西站",
+              "entrance": null,
+              "exit": null,
+              "alternatives": [
+                [
+                  "499路(珠江新城总站--珠江新城总站)",
+                  "马场路中",
+                  "海安路西站",
+                  1468,
+                  1027
+                ]
+              ]
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        },
+        {
+          "seconds": 1893,
+          "walk_meters": 353,
+          "transfers": 1,
+          "legs": [
+            {
+              "services": [
+                "138路"
+              ],
+              "board": "马场路南",
+              "alight": "马场路中",
+              "entrance": null,
+              "exit": null,
+              "alternatives": [
+                [
+                  "138路(华成路总站--电子五所社区)",
+                  "马场路南",
+                  "马场路中",
+                  420,
+                  522
+                ]
+              ]
+            },
+            {
+              "services": [
+                "499路"
+              ],
+              "board": "马场路中",
+              "alight": "海安路西站",
+              "entrance": null,
+              "exit": null,
+              "alternatives": [
+                [
+                  "499路(珠江新城总站--珠江新城总站)",
+                  "马场路中",
+                  "海安路西站",
+                  1468,
+                  1027
+                ]
+              ]
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        }
+      ],
+      "walking_url": "https://uri.amap.com/navigation?from=113.344585,23.114459&to=113.334724,23.123746&mode=walk&src=liede-fieldwork",
+      "transit_url": "https://uri.amap.com/navigation?from=113.344585,23.114459&to=113.334724,23.123746&mode=bus&src=liede-fieldwork",
+      "query_date_local": "2026-11-12",
+      "source_round": 2,
+      "source": "Amap integrated route planner",
+      "transit_school_hour_status": "Untimed model estimate",
+      "crossing_field_verified": false,
+      "walking_audit": {
+        "step_meters_sum": 1997,
+        "map_total_matches_steps_with_rounding": true,
+        "potential_detour_flag": false,
+        "flag_basis": "Screening only. Network/direct-distance ratio >= 1.5 and excess >= 100 m. No inference of passability."
+      },
+      "amap_pc_morning_transit": {
+        "origin_id": "D3",
+        "destination_id": "K5",
+        "url": "https://ditu.amap.com/ssr/dir?fname=%E5%8D%97%E5%9B%BD%E8%8A%B1%E5%9B%AD&flat=23.114459&flon=113.344585&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E9%87%91%E7%A9%97%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.123746&dlon=113.334724&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "model_date": "2026-11-12",
+        "departure": "07:20",
+        "observed_route": false,
+        "returned_url": "https://ditu.amap.com/ssr/dir?fname=%E5%8D%97%E5%9B%BD%E8%8A%B1%E5%9B%AD&flat=23.114459&flon=113.344585&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E9%87%91%E7%A9%97%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.123746&dlon=113.334724&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "options": [
+          {
+            "summary": "30分钟\n步行 981米\n3\n40路\n13\n2站\n•\n2元\n•\n2.1公里\n详情",
+            "time_minutes": 30,
+            "lines": [
+              "40路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0,
+            "fare_source_type": "Amap public planner fare displayed"
+          },
+          {
+            "summary": "35分钟\n步行 1.5公里\n无堵车风险\n10\n5号线\n19\n1站\n•\n2元\n•\n3公里",
+            "time_minutes": 35,
+            "lines": [
+              "5号线"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          },
+          {
+            "summary": "31分钟\n步行 926米\n3\n138路\n13\n4站\n•\n2元\n•\n3.4公里",
+            "time_minutes": 31,
+            "lines": [
+              "138路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          },
+          {
+            "summary": "33分钟\n步行 796米\n12\n499路\n4\n3站\n•\n2元\n•\n2.3公里",
+            "time_minutes": 33,
+            "lines": [
+              "499路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          },
+          {
+            "summary": "32分钟\n步行 353米\n步行少\n3\n138路\n499路\n4\n4站\n•\n4元\n•\n2.2公里",
+            "time_minutes": 32,
+            "lines": [
+              "138路",
+              "499路"
+            ],
+            "fare_cny": 4,
+            "transfers": 1
+          }
+        ],
+        "preferred_index": 0,
+        "status": "itinerary_returned",
+        "estimated_arrival": "07:50",
+        "estimated_arrival_in_requested_window": true,
+        "preferred_details": "30分钟\n步行 981米\n3\n40路\n13\n2站\n•\n2元\n•\n2.1公里\n起\n南国花园\n步行151米(3分钟)\n马场路南\n40路\n东山(署前路方向\n2站 (15分钟)\n首 06:00\n末 22:30\n首站发车约20分钟/趟\n花城大道东\n珠江公园南门\n步行830米(13分钟)\n终\n广州市天河区金穗幼儿园",
+        "boarding_stop_as_displayed": "马场路南",
+        "alighting_stop_as_displayed": "珠江公园南门",
+        "preferred_walk_meters_from_displayed_legs": 981
+      }
+    },
+    {
+      "origin_id": "D3",
+      "destination_id": "K6",
+      "walking_meters": 642,
+      "walking_seconds": 514,
+      "walking_steps": [
+        "向北步行21米右转",
+        "向北步行155米右转",
+        "沿平月路向东南步行163米左转",
+        "沿平苑街向东步行25米向右前方行走",
+        "沿平苑街向东步行144米左转",
+        "沿平江路向北步行105米左转",
+        "向西步行29米到达目的地"
+      ],
+      "named_roads": [
+        "平月路",
+        "平苑街",
+        "平江路"
+      ],
+      "transit_status": "Amap returned no itinerary",
+      "transit_options": [],
+      "walking_url": "https://uri.amap.com/navigation?from=113.344585,23.114459&to=113.347319,23.116220&mode=walk&src=liede-fieldwork",
+      "transit_url": "https://uri.amap.com/navigation?from=113.344585,23.114459&to=113.347319,23.116220&mode=bus&src=liede-fieldwork",
+      "query_date_local": "2026-11-12",
+      "source_round": 2,
+      "source": "Amap integrated route planner",
+      "transit_school_hour_status": "Untimed model estimate",
+      "crossing_field_verified": false,
+      "walking_audit": {
+        "step_meters_sum": 642,
+        "map_total_matches_steps_with_rounding": true,
+        "potential_detour_flag": true,
+        "flag_basis": "Screening only. Network/direct-distance ratio >= 1.5 and excess >= 100 m. No inference of passability."
+      },
+      "amap_pc_morning_transit": {
+        "origin_id": "D3",
+        "destination_id": "K6",
+        "url": "https://ditu.amap.com/ssr/dir?fname=%E5%8D%97%E5%9B%BD%E8%8A%B1%E5%9B%AD&flat=23.114459&flon=113.344585&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E9%87%91%E7%A9%97%E5%B9%BC%E5%84%BF%E5%9B%AD%E8%8A%B1%E5%9F%8E%E5%9B%AD%E5%8C%BA&dlat=23.11622&dlon=113.347319&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "model_date": "2026-11-12",
+        "departure": "07:20",
+        "observed_route": false,
+        "returned_url": "https://ditu.amap.com/ssr/dir?fname=%E5%8D%97%E5%9B%BD%E8%8A%B1%E5%9B%AD&flat=23.114459&flon=113.344585&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E9%87%91%E7%A9%97%E5%B9%BC%E5%84%BF%E5%9B%AD%E8%8A%B1%E5%9F%8E%E5%9B%AD%E5%8C%BA&dlat=23.11622&dlon=113.347319&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "status": "no_itinerary_returned",
+        "message": "高德地图 — 在线地图查询与路线规划服务\n\n暂无公交路线方案\n2 公里\n反馈\n路况\n测距\n地铁\n分享\n图层\n3D\n全屏"
+      }
+    },
+    {
+      "origin_id": "D3",
+      "destination_id": "S1",
+      "walking_meters": 1060,
+      "walking_seconds": 848,
+      "walking_steps": [
+        "向北步行21米右转",
+        "向北步行155米左转",
+        "沿平月路向西步行663米左转",
+        "向南步行12米左转",
+        "向西南步行209米到达目的地"
+      ],
+      "walking_url": "https://uri.amap.com/navigation?from=113.344585,23.114459&to=113.337457,23.115805&mode=walk&src=liede-fieldwork",
+      "transit_url": "https://uri.amap.com/navigation?from=113.344585,23.114459&to=113.337457,23.115805&mode=bus&src=liede-fieldwork",
+      "transit_status": "Amap options returned",
+      "transit_options": [
+        {
+          "seconds": 1318,
+          "walk_meters": 936,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "545路",
+                "499路"
+              ],
+              "board": "马场路南",
+              "alight": "珠江新城总站",
+              "entrance": null,
+              "exit": null
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        },
+        {
+          "seconds": 1527,
+          "walk_meters": 927,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "138路",
+                "777路",
+                "669路"
+              ],
+              "board": "马场路南",
+              "alight": "临江大道",
+              "entrance": null,
+              "exit": null
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        },
+        {
+          "seconds": 1668,
+          "walk_meters": 989,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "40路"
+              ],
+              "board": "马场路南",
+              "alight": "花城大道东",
+              "entrance": null,
+              "exit": null
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        }
+      ],
+      "named_roads": [
+        "平月路"
+      ],
+      "query_date_local": "2026-11-12",
+      "source_round": 1,
+      "source": "Amap integrated route planner",
+      "transit_school_hour_status": "Untimed model estimate",
+      "crossing_field_verified": false,
+      "walking_audit": {
+        "step_meters_sum": 1060,
+        "map_total_matches_steps_with_rounding": true,
+        "potential_detour_flag": false,
+        "flag_basis": "Screening only. Network/direct-distance ratio >= 1.5 and excess >= 100 m. No inference of passability."
+      },
+      "amap_pc_morning_transit": {
+        "origin_id": "D3",
+        "destination_id": "S1",
+        "url": "https://ditu.amap.com/ssr/dir?fname=%E5%8D%97%E5%9B%BD%E8%8A%B1%E5%9B%AD&flat=23.114459&flon=113.344585&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E4%B8%AD%E5%AD%A6%E7%8C%8E%E5%BE%B7%E5%AE%9E%E9%AA%8C%E5%AD%A6%E6%A0%A1%E5%B0%8F%E5%AD%A6%E9%83%A8&dlat=23.115805&dlon=113.337457&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "model_date": "2026-11-12",
+        "departure": "07:20",
+        "observed_route": false,
+        "returned_url": "https://ditu.amap.com/ssr/dir?fname=%E5%8D%97%E5%9B%BD%E8%8A%B1%E5%9B%AD&flat=23.114459&flon=113.344585&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E4%B8%AD%E5%AD%A6%E7%8C%8E%E5%BE%B7%E5%AE%9E%E9%AA%8C%E5%AD%A6%E6%A0%A1%E5%B0%8F%E5%AD%A6%E9%83%A8&dlat=23.115805&dlon=113.337457&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "options": [
+          {
+            "summary": "25分钟\n步行 927米\n6\n138路\n9\n2站\n•\n2元\n•\n1.9公里\n详情",
+            "time_minutes": 25,
+            "lines": [
+              "138路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0,
+            "fare_source_type": "Amap public planner fare displayed"
+          },
+          {
+            "summary": "22分钟\n步行 936米\n6\n545路\n9\n1站\n•\n2元\n•\n1.4公里",
+            "time_minutes": 22,
+            "lines": [
+              "545路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          },
+          {
+            "summary": "28分钟\n步行 989米\n3\n40路\n13\n1站\n•\n2元\n•\n1.4公里",
+            "time_minutes": 28,
+            "lines": [
+              "40路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          }
+        ],
+        "preferred_index": 0,
+        "status": "itinerary_returned",
+        "estimated_arrival": "07:45",
+        "estimated_arrival_in_requested_window": true,
+        "preferred_details": "25分钟\n步行 927米\n6\n138路\n9\n2站\n•\n2元\n•\n1.9公里\n起\n南国花园\n步行381米(6分钟)\n马场路南\n138路\n华成路总站方向\n2站 (11分钟)\n首站发车约10分钟/趟\n临江大道东\n临江大道\n步行546米(9分钟)\n终\n广州市天河中学猎德实验学校小学部",
+        "boarding_stop_as_displayed": "马场路南",
+        "alighting_stop_as_displayed": "临江大道",
+        "preferred_walk_meters_from_displayed_legs": 927,
+        "initial_pc_result_status": "not_obtained"
+      }
+    },
+    {
+      "origin_id": "D3",
+      "destination_id": "S2",
+      "walking_meters": 487,
+      "walking_seconds": 390,
+      "walking_steps": [
+        "向南步行133米右转",
+        "沿平月路向西步行123米右转",
+        "沿马场路向北步行145米左转",
+        "向西步行37米右转",
+        "向北步行49米到达目的地"
+      ],
+      "walking_url": "https://uri.amap.com/navigation?from=113.344585,23.114459&to=113.342561,23.115197&mode=walk&src=liede-fieldwork",
+      "transit_url": "https://uri.amap.com/navigation?from=113.344585,23.114459&to=113.342561,23.115197&mode=bus&src=liede-fieldwork",
+      "transit_status": "Amap returned no itinerary",
+      "transit_options": [],
+      "named_roads": [
+        "平月路",
+        "马场路"
+      ],
+      "query_date_local": "2026-11-12",
+      "source_round": 1,
+      "source": "Amap integrated route planner",
+      "transit_school_hour_status": "Untimed model estimate",
+      "crossing_field_verified": false,
+      "walking_audit": {
+        "step_meters_sum": 487,
+        "map_total_matches_steps_with_rounding": true,
+        "potential_detour_flag": true,
+        "flag_basis": "Screening only. Network/direct-distance ratio >= 1.5 and excess >= 100 m. No inference of passability."
+      },
+      "amap_pc_morning_transit": {
+        "origin_id": "D3",
+        "destination_id": "S2",
+        "url": "https://ditu.amap.com/ssr/dir?fname=%E5%8D%97%E5%9B%BD%E8%8A%B1%E5%9B%AD&flat=23.114459&flon=113.344585&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E4%BD%93%E8%82%B2%E4%B8%9C%E8%B7%AF%E5%B0%8F%E5%AD%A6%E6%B5%B7%E6%98%8E%E5%AD%A6%E6%A0%A1&dlat=23.115197&dlon=113.342561&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "model_date": "2026-11-12",
+        "departure": "07:20",
+        "observed_route": false,
+        "returned_url": "https://ditu.amap.com/ssr/dir?fname=%E5%8D%97%E5%9B%BD%E8%8A%B1%E5%9B%AD&flat=23.114459&flon=113.344585&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E4%BD%93%E8%82%B2%E4%B8%9C%E8%B7%AF%E5%B0%8F%E5%AD%A6%E6%B5%B7%E6%98%8E%E5%AD%A6%E6%A0%A1&dlat=23.115197&dlon=113.342561&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "status": "no_itinerary_returned",
+        "message": "高德地图 — 在线地图查询与路线规划服务\n\n暂无公交路线方案\n广州\n晴\n18/27℃\n2 公里\n反馈\n路况\n测距\n地铁\n分享\n图层\n3D\n全屏"
+      }
+    },
+    {
+      "origin_id": "D3",
+      "destination_id": "S3",
+      "walking_meters": 2017,
+      "walking_seconds": 1614,
+      "walking_steps": [
+        "向北步行21米右转",
+        "向北步行155米左转",
+        "沿平月路向西步行1133米左转",
+        "沿花城大道向西步行74米向左前方行走",
+        "沿花城大道步行31米右转",
+        "向西北步行54米左转",
+        "沿花城大道步行40米向右前方行走",
+        "沿花城大道向北步行81米向左前方行走",
+        "沿猎德大道辅路向北步行96米左转",
+        "向西步行221米左转",
+        "向南步行10米右转",
+        "向西南步行74米左转",
+        "向东步行27米到达目的地"
+      ],
+      "walking_url": "https://uri.amap.com/navigation?from=113.344585,23.114459&to=113.331236,23.119408&mode=walk&src=liede-fieldwork",
+      "transit_url": "https://uri.amap.com/navigation?from=113.344585,23.114459&to=113.331236,23.119408&mode=bus&src=liede-fieldwork",
+      "transit_status": "Amap options returned",
+      "transit_options": [
+        {
+          "seconds": 1554,
+          "walk_meters": 1026,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "地铁5号线"
+              ],
+              "board": "潭村",
+              "alight": "猎德",
+              "entrance": "A口",
+              "exit": "D口"
+            }
+          ],
+          "fare_cny": 2,
+          "fare_basis": "Standard adult single trip from published metro fare rule"
+        },
+        {
+          "seconds": 1611,
+          "walk_meters": 556,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "40路"
+              ],
+              "board": "马场路南",
+              "alight": "猎德",
+              "entrance": null,
+              "exit": null
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        },
+        {
+          "seconds": 1802,
+          "walk_meters": 960,
+          "transfers": 0,
+          "legs": [
+            {
+              "services": [
+                "886路"
+              ],
+              "board": "珠江新城总站",
+              "alight": "猎德",
+              "entrance": null,
+              "exit": null
+            }
+          ],
+          "fare_cny": null,
+          "fare_basis": null
+        }
+      ],
+      "named_roads": [
+        "平月路",
+        "花城大道",
+        "猎德大道辅路"
+      ],
+      "query_date_local": "2026-11-12",
+      "source_round": 1,
+      "source": "Amap integrated route planner",
+      "transit_school_hour_status": "Untimed model estimate",
+      "crossing_field_verified": false,
+      "walking_audit": {
+        "step_meters_sum": 2017,
+        "map_total_matches_steps_with_rounding": true,
+        "potential_detour_flag": false,
+        "flag_basis": "Screening only. Network/direct-distance ratio >= 1.5 and excess >= 100 m. No inference of passability."
+      },
+      "transit_recheck": {
+        "d": "D3",
+        "s": "S3",
+        "mode": "transit",
+        "first_two": [
+          {
+            "seconds": 1554,
+            "walk_meters": 1026,
+            "transfers": 0,
+            "legs": [
+              {
+                "services": [
+                  "地铁5号线"
+                ],
+                "board": "潭村",
+                "alight": "猎德",
+                "entrance": "A口",
+                "exit": "D口"
+              }
+            ]
+          },
+          {
+            "seconds": 1575,
+            "walk_meters": 556,
+            "transfers": 0,
+            "legs": [
+              {
+                "services": [
+                  "40路"
+                ],
+                "board": "马场路南",
+                "alight": "猎德",
+                "entrance": null,
+                "exit": null
+              }
+            ]
+          }
+        ]
+      },
+      "bus_stop_alias_audit": {
+        "operator_old_name": "猎德站",
+        "operator_new_name": "花城大道（兴国路口）站",
+        "scope": "Only eastbound road bus stop on Huacheng Avenue. Amap legs omit directional stop IDs, so retain provider label.",
+        "phased_from": "2026-11-07",
+        "source": "https://jtj.gz.gov.cn/zwgg/ywgg/ggjt/gjxldzgg/content/post_11079212.html"
+      },
+      "amap_pc_morning_transit": {
+        "origin_id": "D3",
+        "destination_id": "S3",
+        "url": "https://ditu.amap.com/ssr/dir?fname=%E5%8D%97%E5%9B%BD%E8%8A%B1%E5%9B%AD&flat=23.114459&flon=113.344585&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E4%BD%93%E8%82%B2%E4%B8%9C%E8%B7%AF%E5%B0%8F%E5%AD%A6%E5%85%B4%E5%9B%BD%E5%AD%A6%E6%A0%A1&dlat=23.119408&dlon=113.331236&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "model_date": "2026-11-12",
+        "departure": "07:20",
+        "observed_route": false,
+        "returned_url": "https://ditu.amap.com/ssr/dir?fname=%E5%8D%97%E5%9B%BD%E8%8A%B1%E5%9B%AD&flat=23.114459&flon=113.344585&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E4%BD%93%E8%82%B2%E4%B8%9C%E8%B7%AF%E5%B0%8F%E5%AD%A6%E5%85%B4%E5%9B%BD%E5%AD%A6%E6%A0%A1&dlat=23.119408&dlon=113.331236&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "options": [
+          {
+            "summary": "26分钟\n步行 1公里\n无堵车风险\n10\n5号线\n10\n1站\n•\n2元\n•\n2.4公里\n详情",
+            "time_minutes": 26,
+            "lines": [
+              "5号线"
+            ],
+            "fare_cny": 2,
+            "transfers": 0,
+            "fare_source_type": "Amap display corroborated by Guangzhou Metro published adult single-trip tariff"
+          },
+          {
+            "summary": "26分钟\n步行 556米\n步行少\n3\n40路\n7\n3站\n•\n2元\n•\n2公里",
+            "time_minutes": 26,
+            "lines": [
+              "40路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          },
+          {
+            "summary": "25分钟\n步行 1公里\n11\n901A路\n7\n3站\n•\n2元\n•\n2.3公里",
+            "time_minutes": 25,
+            "lines": [
+              "901A路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          },
+          {
+            "summary": "28分钟\n步行 960米\n始发站上车\n9\n886路\n7\n3站\n•\n2元\n•\n2.6公里",
+            "time_minutes": 28,
+            "lines": [
+              "886路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          },
+          {
+            "summary": "29分钟\n步行 786米\n6\n777路\n7\n3站\n•\n2元\n•\n2.9公里",
+            "time_minutes": 29,
+            "lines": [
+              "777路"
+            ],
+            "fare_cny": 2,
+            "transfers": 0
+          }
+        ],
+        "preferred_index": 0,
+        "status": "itinerary_returned",
+        "estimated_arrival": "07:46",
+        "estimated_arrival_in_requested_window": true,
+        "preferred_details": "26分钟\n步行 1公里\n无堵车风险\n10\n5号线\n10\n1站\n•\n2元\n•\n2.4公里\n起\n南国花园\n步行534米(10分钟)\n潭村 (A口)\n5号线\n滘口方向\n1站 (7分钟)\n上车站\n首 06:14\n末 23:15\n首站发车约7分钟/趟\n猎德 (D口)\n步行494米(10分钟)\n终\n广州市天河区体育东路小学兴国学校",
+        "boarding_stop_as_displayed": "潭村 (A口)",
+        "alighting_stop_as_displayed": "猎德 (D口)",
+        "preferred_walk_meters_from_displayed_legs": 1028
+      }
+    },
+    {
+      "origin_id": "D3",
+      "destination_id": "S4",
+      "walking_meters": 207,
+      "walking_seconds": 166,
+      "walking_steps": [
+        "向北步行21米右转",
+        "向北步行168米左转",
+        "向西步行18米到达目的地"
+      ],
+      "walking_url": "https://uri.amap.com/navigation?from=113.344585,23.114459&to=113.344261,23.116251&mode=walk&src=liede-fieldwork",
+      "transit_url": "https://uri.amap.com/navigation?from=113.344585,23.114459&to=113.344261,23.116251&mode=bus&src=liede-fieldwork",
+      "transit_status": "Amap returned no itinerary",
+      "transit_options": [],
+      "named_roads": [],
+      "query_date_local": "2026-11-12",
+      "source_round": 1,
+      "source": "Amap integrated route planner",
+      "transit_school_hour_status": "Untimed model estimate",
+      "crossing_field_verified": false,
+      "walking_audit": {
+        "step_meters_sum": 207,
+        "map_total_matches_steps_with_rounding": true,
+        "potential_detour_flag": false,
+        "flag_basis": "Screening only. Network/direct-distance ratio >= 1.5 and excess >= 100 m. No inference of passability.",
+        "same_direction_recheck": {
+          "d": "D3",
+          "s": "S4",
+          "mode": "walk",
+          "meters": 207,
+          "seconds": 166,
+          "steps": [
+            "向北步行21米右转",
+            "向北步行168米左转",
+            "向西步行18米到达目的地"
+          ]
+        },
+        "reverse_direction_recheck": {
+          "d": "S4",
+          "s": "D3",
+          "mode": "walk",
+          "meters": 207,
+          "seconds": 166,
+          "steps": [
+            "向东步行18米右转",
+            "向南步行168米左转",
+            "向南步行21米到达目的地"
+          ]
+        }
+      },
+      "amap_pc_morning_transit": {
+        "origin_id": "D3",
+        "destination_id": "S4",
+        "url": "https://ditu.amap.com/ssr/dir?fname=%E5%8D%97%E5%9B%BD%E8%8A%B1%E5%9B%AD&flat=23.114459&flon=113.344585&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%8D%97%E5%9B%BD%E5%AD%A6%E6%A0%A1%E5%B0%8F%E5%AD%A6%E9%83%A8&dlat=23.116251&dlon=113.344261&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "model_date": "2026-11-12",
+        "departure": "07:20",
+        "observed_route": false,
+        "returned_url": "https://ditu.amap.com/ssr/dir?fname=%E5%8D%97%E5%9B%BD%E8%8A%B1%E5%9B%AD&flat=23.114459&flon=113.344585&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%8D%97%E5%9B%BD%E5%AD%A6%E6%A0%A1%E5%B0%8F%E5%AD%A6%E9%83%A8&dlat=23.116251&dlon=113.344261&type=1&policy=0&dateTime=2026-11-12%7C07-20",
+        "status": "no_itinerary_returned",
+        "message": "高德地图 — 在线地图查询与路线规划服务\n\n暂无公交路线方案\n广州\n晴\n18/27℃\n2 公里\n反馈\n路况\n测距\n地铁\n分享\n图层\n3D\n全屏"
+      }
+    }
+  ],
+  "primary_catchment_examples": [
+    {
+      "origin_id": "D1",
+      "destination_id": "S1",
+      "attachment_5_row": 56,
+      "scope": "Former Liede village and the Liede residential area are listed. Match the exact building address and verify household eligibility."
+    },
+    {
+      "origin_id": "D2",
+      "destination_id": "S3",
+      "attachment_5_row": 18,
+      "scope": "中海璟晖华庭 is named. Household eligibility requires a separate check."
+    },
+    {
+      "origin_id": "D3",
+      "destination_id": "S4",
+      "attachment_5_row": 55,
+      "scope": "南国花园 is named within the stated boundary. Household eligibility requires a separate check."
+    }
+  ],
+  "kindergarten_plan_example": {
+    "destination_id": "K1",
+    "listing_row": 52,
+    "places_in_published_allocation_plan": 135,
+    "places_for_eligible_owner_children": 85,
+    "remaining_random_allocation_places": 50,
+    "source": "https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10815546.html"
+  },
+  "round": 2,
+  "first_round_provenance": {
+    "relative_path": "../round-1/liede-transport-accessibility-2026.json",
+    "sha256": "9b0a5e6cceefe9684ca8fbc881d442cd5a91e01a66a8ae6e378dec99e4b65d99",
+    "reused_route_count": 18,
+    "integrity": "All original route fields are retained. Round 2 rechecks are separately logged."
+  },
+  "kindergarten_admissions_plan_examples": {
+    "K1": {
+      "row": 52,
+      "places_in_plan": 135,
+      "owner_children": 85,
+      "remaining_random_allocation": 50
+    },
+    "K5": {
+      "row": 53,
+      "places_in_plan": 45,
+      "owner_children": 0,
+      "remaining_random_allocation": 45
+    },
+    "K6": {
+      "row": 54,
+      "places_in_plan": 68,
+      "owner_children": 23,
+      "remaining_random_allocation": 45
+    }
+  },
+  "round_2_quality_summary": {
+    "point_checks": 13,
+    "point_coordinates_changed": 0,
+    "old_routes_reused": 18,
+    "new_kindergarten_routes": 12,
+    "old_walking_pairs_requeried": 4,
+    "old_transit_pairs_requeried": 3,
+    "manual_route_passability_observations": 0,
+    "candidate_gate_source_urls": {
+      "D3_north_gate_neighbor": "https://ditu.amap.com/place/B0FFFFKK9O",
+      "S4_south_gate_neighbor": "https://ditu.amap.com/place/B0FFK71MCV"
+    },
+    "timed_pc_results": {
+      "itinerary_returned": 20,
+      "no_itinerary_returned": 10
+    },
+    "kindergarten_timed_pc_results": 12,
+    "kindergarten_timed_pc_no_itinerary": 6,
+    "timed_model_weekday": "2026-11-12 Thursday",
+    "timed_model_departure": "07:20 Asia/Shanghai"
+  },
+  "indicators": [
+    {
+      "origin_id": "D1",
+      "nearest_kindergarten": "K1",
+      "nearest_public_kindergarten": "K1",
+      "matched_primary": "S1",
+      "nearest_sampled_primary": "S1",
+      "thresholds": [
+        {
+          "max_walking_minutes": 10,
+          "campuses_in_sample": 1,
+          "public_campuses_in_sample": 1,
+          "campuses_with_verified_small_or_middle_class_monthly_fee": 0,
+          "public_campuses_with_conditional_final_year_tuition_waiver": 1
+        },
+        {
+          "max_walking_minutes": 15,
+          "campuses_in_sample": 2,
+          "public_campuses_in_sample": 1,
+          "campuses_with_verified_small_or_middle_class_monthly_fee": 0,
+          "public_campuses_with_conditional_final_year_tuition_waiver": 1
+        },
+        {
+          "max_walking_minutes": 20,
+          "campuses_in_sample": 4,
+          "public_campuses_in_sample": 3,
+          "campuses_with_verified_small_or_middle_class_monthly_fee": 0,
+          "public_campuses_with_conditional_final_year_tuition_waiver": 3
+        }
+      ]
+    },
+    {
+      "origin_id": "D2",
+      "nearest_kindergarten": "K2",
+      "nearest_public_kindergarten": "K5",
+      "matched_primary": "S3",
+      "nearest_sampled_primary": "S3",
+      "thresholds": [
+        {
+          "max_walking_minutes": 10,
+          "campuses_in_sample": 3,
+          "public_campuses_in_sample": 1,
+          "campuses_with_verified_small_or_middle_class_monthly_fee": 0,
+          "public_campuses_with_conditional_final_year_tuition_waiver": 1
+        },
+        {
+          "max_walking_minutes": 15,
+          "campuses_in_sample": 3,
+          "public_campuses_in_sample": 1,
+          "campuses_with_verified_small_or_middle_class_monthly_fee": 0,
+          "public_campuses_with_conditional_final_year_tuition_waiver": 1
+        },
+        {
+          "max_walking_minutes": 20,
+          "campuses_in_sample": 4,
+          "public_campuses_in_sample": 2,
+          "campuses_with_verified_small_or_middle_class_monthly_fee": 0,
+          "public_campuses_with_conditional_final_year_tuition_waiver": 2
+        }
+      ]
+    },
+    {
+      "origin_id": "D3",
+      "nearest_kindergarten": "K4",
+      "nearest_public_kindergarten": "K6",
+      "matched_primary": "S4",
+      "nearest_sampled_primary": "S4",
+      "thresholds": [
+        {
+          "max_walking_minutes": 10,
+          "campuses_in_sample": 2,
+          "public_campuses_in_sample": 1,
+          "campuses_with_verified_small_or_middle_class_monthly_fee": 0,
+          "public_campuses_with_conditional_final_year_tuition_waiver": 1
+        },
+        {
+          "max_walking_minutes": 15,
+          "campuses_in_sample": 3,
+          "public_campuses_in_sample": 2,
+          "campuses_with_verified_small_or_middle_class_monthly_fee": 0,
+          "public_campuses_with_conditional_final_year_tuition_waiver": 2
+        },
+        {
+          "max_walking_minutes": 20,
+          "campuses_in_sample": 3,
+          "public_campuses_in_sample": 2,
+          "campuses_with_verified_small_or_middle_class_monthly_fee": 0,
+          "public_campuses_with_conditional_final_year_tuition_waiver": 2
+        }
+      ]
+    }
+  ]
+}
