@@ -9,6 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "round-2" / "liede-accessibility-round-2.json"
 OUT = ROOT / "data" / "round-3"
 FIGURE = ROOT / "figures" / "figure-4-admission-channels-walking-time.png"
+POSTER_FIGURE = ROOT / "figures" / "poster-admission-channels-walking-time.png"
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument("--round2", type=Path, default=DATA)
 parser.add_argument("--no-figure", action="store_true")
@@ -166,32 +167,47 @@ if not args.no_figure:
     import matplotlib.pyplot as plt
     from matplotlib.lines import Line2D
     plt.rcParams.update({"font.family": "DejaVu Sans", "text.color":"#16344A"})
-    fig,ax=plt.subplots(figsize=(11.8,5.9))
-    fig.patch.set_facecolor("#F7F9FA")
-    ax.set_facecolor("#F7F9FA")
-    fig.text(.046,.91,"Admission channels change which walks matter",fontsize=24,weight="bold")
-    fig.text(.047,.849,"Grade 1 in Tianhe, 2026  /  Amap walking estimates from three residential points",fontsize=11,color="#445C6A")
-    markers = [("o","#06766D","Address-linked school"),("s","#8A4F78","Migrant-points example: Xian Cun Primary"),("D","#A34F19","HK/Macao points: Nanguo Primary")]
-    for i,(d, school) in enumerate(matches.items()):
-        y=2-i
-        schools=[school,"S5","S4"]
-        times=[route(d,k)["walking_seconds"]/60 for k in schools]
-        ax.hlines(y,min(times),max(times),color="#C7D3D9",lw=2,zorder=1)
-        for offset,value,(marker,color,_) in zip((.19,0,-.19),times,markers):
-            ax.scatter(value,y+offset,color=color,marker=marker,s=90,zorder=3)
-            ax.annotate(f"{value:.1f}",(value,y+offset),xytext=(8,0),textcoords="offset points",va="center",fontsize=10,color=color,weight="bold")
-    ax.set(yticks=[2,1,0],yticklabels=list(homes.values()),xlim=(0,32.5),ylim=(-.55,2.55),xlabel="One-way walking time (minutes)")
-    ax.set_xticks(range(0,31,5))
-    ax.tick_params(axis="both", length=0, pad=8, labelsize=11, colors="#16344A")
-    for spine in ax.spines.values(): spine.set_visible(False)
-    ax.grid(axis="x", color="#DCE5E8")
-    ax.legend(handles=[Line2D([0],[0],color=color,marker=marker,linestyle="",label=label,markersize=8) for marker,color,label in markers],
-              loc="upper left",bbox_to_anchor=(0,1.17),frameon=False,ncol=3,fontsize=9.2,handletextpad=.35,columnspacing=1.2)
-    fig.subplots_adjust(left=.227,right=.965,top=.724,bottom=.235)
-    fig.text(.048,.087,"Xian Cun is one listed option. All routes use map points. Actual assignments and enrolment are unobserved.",fontsize=10,color="#445C6A")
-    fig.text(.048,.051,"Sources: Amap, 12 Nov 2026; Tianhe District Education Bureau, 2026 admissions rules and points intake plans.",fontsize=9.2,color="#445C6A")
-    fig.savefig(FIGURE, dpi=300)
-    plt.close(fig)
+    def plot_admission_walks(destination, title, comparison_schools, markers, offsets, note):
+        fig,ax=plt.subplots(figsize=(11.8,5.9))
+        fig.patch.set_facecolor("#F7F9FA")
+        ax.set_facecolor("#F7F9FA")
+        fig.text(.046,.91,title,fontsize=24,weight="bold")
+        fig.text(.047,.849,"Grade 1 in Tianhe, 2026  /  Amap walking estimates from three residential points",fontsize=11,color="#445C6A")
+        for i,(d, school) in enumerate(matches.items()):
+            y=2-i
+            schools = [school, *comparison_schools]
+            times=[route(d,k)["walking_seconds"]/60 for k in schools]
+            ax.hlines(y,min(times),max(times),color="#C7D3D9",lw=2,zorder=1)
+            for offset,value,(marker,color,_) in zip(offsets, times, markers):
+                ax.scatter(value,y+offset,color=color,marker=marker,s=90,zorder=3)
+                ax.annotate(f"{value:.1f}",(value,y+offset),xytext=(8,0),textcoords="offset points",va="center",fontsize=10,color=color,weight="bold")
+        ax.set(yticks=[2,1,0],yticklabels=list(homes.values()),xlim=(0,32.5),ylim=(-.55,2.55),xlabel="One-way walking time (minutes)")
+        ax.set_xticks(range(0,31,5))
+        ax.tick_params(axis="both", length=0, pad=8, labelsize=11, colors="#16344A")
+        for spine in ax.spines.values(): spine.set_visible(False)
+        ax.grid(axis="x", color="#DCE5E8")
+        ax.legend(handles=[Line2D([0],[0],color=color,marker=marker,linestyle="",label=label,markersize=8) for marker,color,label in markers],
+                  loc="upper left",bbox_to_anchor=(0,1.17),frameon=False,ncol=len(markers),fontsize=9.2,handletextpad=.35,columnspacing=1.2)
+        fig.subplots_adjust(left=.227,right=.965,top=.724,bottom=.235)
+        fig.text(.048,.087,note,fontsize=10,color="#445C6A")
+        fig.text(.048,.051,"Sources: Amap, 12 Nov 2026; Tianhe District Education Bureau, 2026 admissions rules and points intake plans.",fontsize=9.2,color="#445C6A")
+        fig.savefig(destination, dpi=300)
+        plt.close(fig)
+
+    address_linked = ("o", "#06766D", "Address-linked school")
+    migrant_points = ("s", "#8A4F78", "Migrant-points example: Xian Cun Primary")
+    hk_macao = ("D", "#A34F19", "HK/Macao points: Nanguo Primary")
+    plot_admission_walks(
+        FIGURE, "Admission channels change which walks matter", ("S5", "S4"),
+        (address_linked, migrant_points, hk_macao), (.19, 0, -.19),
+        "Xian Cun is one listed option. All routes use map points. Actual assignments and enrolment are unobserved.",
+    )
+    plot_admission_walks(
+        POSTER_FIGURE, "School walking times by admission channel", ("S5",),
+        (address_linked, migrant_points), (.12, -.12),
+        "Xian Cun is one listed option. Actual school assignments and commutes were unobserved.",
+    )
+
 print("original_routes",len(original),"new_raw",len(audit),"new_pass_length_check",len(new),"max_amap_speed_error_seconds",max_error)
 for row in thresholds:
     if row["coverage"]=="original_6" and row["category"]=="public_kindergartens" and row["scenario"] in {"amap_baseline","slower_1.00","combined_stress"}:
