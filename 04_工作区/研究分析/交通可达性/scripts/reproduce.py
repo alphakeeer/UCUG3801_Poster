@@ -5,8 +5,10 @@ import json
 import math
 from pathlib import Path
 
-OUT = Path(__file__).resolve().parent
-DATA = OUT.parent / "data" / "round-2" / "liede-accessibility-round-2.json"
+ROOT = Path(__file__).resolve().parents[1]
+DATA = ROOT / "data" / "round-2" / "liede-accessibility-round-2.json"
+OUT = ROOT / "data" / "round-3"
+FIGURE = ROOT / "figures" / "figure-4-admission-channels-walking-time.png"
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument("--round2", type=Path, default=DATA)
 parser.add_argument("--no-figure", action="store_true")
@@ -188,7 +190,7 @@ if not args.no_figure:
     fig.subplots_adjust(left=.227,right=.965,top=.724,bottom=.235)
     fig.text(.048,.087,"Xian Cun is one listed option. All routes use map points. Actual assignments and enrolment are unobserved.",fontsize=10,color="#445C6A")
     fig.text(.048,.051,"Sources: Amap, 12 Nov 2026; Tianhe District Education Bureau, 2026 admissions rules and points intake plans.",fontsize=9.2,color="#445C6A")
-    fig.savefig(OUT/"admission-channels-walking-time.png",dpi=300)
+    fig.savefig(FIGURE, dpi=300)
     plt.close(fig)
 print("original_routes",len(original),"new_raw",len(audit),"new_pass_length_check",len(new),"max_amap_speed_error_seconds",max_error)
 for row in thresholds:

@@ -2,4 +2,4 @@
 data/round-1/liede-transport-accessibility-2026.json -text whitespace=cr-at-eol
 
 # Keep generated CSV files reproducible across checkouts.
-round-3/*.csv -text whitespace=cr-at-eol
+data/round-3/*.csv -text whitespace=cr-at-eol

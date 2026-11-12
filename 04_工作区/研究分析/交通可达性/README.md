@@ -1,41 +1,32 @@
 # 猎德教育资源交通可达性调查
 
-UCUG3801 · Social Inequality and Social Mobility · 两轮综合 · 2026 年 11 月 12 日
+UCUG3801 · Social Inequality and Social Mobility · 三轮综合 · 2026 年 11 月 12 日
 
-本报告比较猎德花园、中海璟晖华庭和南国花园三个住宅样本到附近小学及幼儿园的路线，并用招生地段、办园类型与收费政策解释可步行到达的设施如何转化为家庭可使用的教育选择。三个样本均可在 9 分钟内步行到至少一个公办样本园区，交通差异主要随目的地改变。本研究的证据范围是地图规划与官方资料。
+**研究问题**　猎德及珠江新城周边的小学和幼儿园分布，如何与招生资格、收费和家庭住房条件相互作用，影响不同家庭获得教育资源的机会？
 
-## 第三轮深化研究
+**结论。** 三处住宅的 2026 年地段对应小学都是各自原四所样本小学中步行最近的一所，估计用时 2.8–10.1 分钟。地段符合条件的家庭在这些地址具有就近优势。普通来穗人员随迁子女公办小学积分计划另列十所学校，和原四所样本小学没有交集。以名单上的冼村小学为例，三个地址的单程步行估计分别比地段对应小学长约 17.7、1.7、25.7 分钟。幼儿园也有类似的资格差别，同一地址到同一园的步行距离固定，业主优先和一般派位则有各自的条件。现有证据显示招生渠道可以改变哪些路线与家庭有关。要判断这些差异是否形成实际的机会不平等，还需联结家庭的申请、录取、实付费用和接送记录。
 
-第三轮沿用原有 30 条路线，新增 9 条针对性查询，用于比较招生渠道、接送负担及步行阈值。[深化报告及英文 Poster 分析](round-3/research-report.md)包含证据范围、数据修订与待补的现场记录。
+- [小学、幼儿园与住宅样本](#样本与路线数据)
+- [小学地段与招生渠道](#小学地段与招生渠道)
+- [幼儿园就近派位与收费](#幼儿园就近派位与收费)
+- [同一住址下的家庭申请情境](#同一住址下的家庭申请情境)
+- [实际接送与家庭时间成本](#实际接送与家庭时间成本)
+- [社会学解释与现场补证](#社会学解释与现场补证)
+- [海报内容与图表](#海报内容与图表) · [数据来源与复现](#数据来源与复现)
 
-- [招生渠道与步行时间图](round-3/admission-channels-walking-time.png)
-- [家庭情境](round-3/household-scenarios.csv) · [步行阈值](round-3/threshold-sensitivity.csv) · [累计接送负担](round-3/commute-burden-scenarios.csv)
-- [补充路线核查](round-3/supplementary-route-audit.csv) · [高德原始返回](round-3/supplementary-amap.json) · [积分入学学位计划摘录](round-3/primary-migrant-points-plan-2026.csv) · [复现脚本](round-3/reproduce.py)
+## 样本与路线数据
 
-## 主要发现
+选取猎德花园、中海璟晖华庭、南国花园，用于比较一个回迁住宅和两个处于不同位置的商品住宅。 [猎德花园回迁资料](https://renda.thnet.gov.cn/renda/liede/202009/22499b2d8da646d4b1900f789a84b0db.shtml) · [中海住宅开发规划](https://ghzyj.gz.gov.cn/ywpd/cxgh/ghxkgsgb/phgbnew/ghyshgzls/content/post_7699927.html)
 
-1. **三个样本点附近都有步行可达的幼儿园。** 到六处样本中最近园区的估计用时为 **3.6–6.5 分钟**，到最近公办园区为 **3.6–8.6 分钟**。但跨片区到同一所园可能远得多。例如，中海璟晖华庭到万锦幼儿园是 **269 米／3.6 分钟**，南国花园到同一园是 **2,204 米／29.4 分钟**。
-2. **三个住宅的地段对应小学均是各自四所样本小学中最近的一所。** 猎德花园到猎德实验小学部为 **5.9 分钟**，中海璟晖华庭到兴国小学为 **10.1 分钟**，南国花园到南国学校小学部为 **2.8 分钟**。三者的地址对应关系有 2026 年招生地段依据，家庭资格仍需核验。[天河区招生文件，附件 5 第 18、55、56 行](https://www.thnet.gov.cn/attachment/8/8016/8016210/10791180.pdf)
-3. **住宅性质无法给出统一的交通排序。** 回迁住宅猎德花园离猎德幼儿园最近，两处商品住宅分别离万锦和力迅上筑幼儿园最近。只看公办园，猎德花园的最近路线较短，两个商品住宅样本约为 8.5–8.6 分钟。把目的地固定在东侧的海明小学，南国花园反而有最短路线。
-4. **步行范围内的供给数量不等于可负担、可申请的学位。** 10 分钟内分别有 **1、3、2 个样本园区**，每个住宅点均有 **1 个公办样本园区**。六处园区均未取得可核验的 2026 年园区级小班或中班具体收费公示。教育部门办园的小班派位和业主子女优先条件会进一步改变可申请的选项。[2026 年公办园派位计划](https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10815546.html) · [2026 年幼儿园招生方案](https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10777181.html)
+每个小区使用一个高德地点标记作为出发点。园校终点也是地点标记，实际接送门仍待现场核对。步行米数为高德路网长度，时长为平台估算。区级招生文件提供地址地段、申请条件及计划学位。家庭实际就读、收入和接送方式尚未调查。 [高德路线规划说明](https://lbs.amap.com/api/webservice/guide/api/direction)
 
-## 研究范围和证据口径
-
-| 轮次 | 研究范围 | 路线查询 |
+| 轮次 | 调查工作 | 数据覆盖 |
 |---|---|---|
-| 第一轮 | 3 个住宅点、4 所小学、6 个幼儿园园区。对 4 所小学和其中 2 所幼儿园算路。 | 12 条小学路线、6 条幼儿园路线，保留未设出发时间的公共交通估算。 |
-| 第二轮 | 复查 13 个地点编号与坐标，核对招生地段、园区类别、收费依据与公交站更名。 | 新增 12 条幼儿园路线，补齐 30 条路线。以周四 07:20 出发复查全部组合的公交。 |
+| 第一轮 | 定位 3 处住宅、4 所小学和 6 个幼儿园园区。 | 18 条路线，含 12 条小学和 6 条幼儿园路线。 |
+| 第二轮 | 补齐六园区，复核 13 个点位及招生地段，以 07:20 出发统一查询早间公交。 | 30 条完整基准组合。30 条中有 20 条返回可读公交方案。 |
+| 第三轮 | 核查积分、港澳专项、小班派位及补查园区，测试步速和出入口变化。 | 补查 9 条步行路线。8 条通过长度检查，其中 2 条地址匹配旧名的路线暂定，1 条长度异常的路线排除出统计。 |
 
-两轮的点位和路线均保存在数据集中。[第一轮原始 JSON](data/round-1/liede-transport-accessibility-2026.json) 按原文件字节归档。[第二轮完整 JSON](data/round-2/liede-accessibility-round-2.json) 保留第一轮的路线字段，并为每条路线增列早间公交结果。地图起终点是住宅与园校的地点标记（POI）。步行米数是高德路网长度，分钟是高德估计的单程时间。10、15、20 分钟阈值用原始秒数计算，包含恰好等于阈值的路线。地图只展示样本点，不划定行政边界、服务区或招生边界。[高德路线规划说明](https://lbs.amap.com/api/webservice/guide/api/direction)
-
-- **官方文件**提供园校分类、地址或招生地段、学位计划、公交站改名范围和票务规则。
-- **高德估算**提供地图点位、步行线路及时间、公交线路与规划时间。公交网页显示的票价单列为平台报价。
-- **现场证据缺口**包括实际使用的住宅行人门、园校接送门、过街等待、临时封闭、早间等车及车上拥挤。本报告不把任一线路标为已实测。
-
-## 样本地点
-
-13 个点位沿用第一轮高德编号，坐标复查一致。地址差异及行人出入口的核查状态见下文。
-样本选取用于空间比较，课程最终社区比较对象仍由小组按教学要求确定。
+[三轮路线附表](appendix/route-tables.md)收录基准组合和九条补查记录，并链接高德路径、早间公交和质控资料。以下表格中的 D、S、K 编号与原始数据一致。初始地图覆盖三个住宅、四所小学和六个园区，扩展范围另含 S5、K7、K8。
 
 | 编号 | 地点 | 类型 | 地址 |
 |---|---|---|---|
@@ -46,123 +37,204 @@ UCUG3801 · Social Inequality and Social Mobility · 两轮综合 · 2026 年 11
 | S2 | [广州市天河区体育东路小学海明学校](https://ditu.amap.com/place/B0FFFRHN58) | 公办小学 | 上筑街2号 |
 | S3 | [广州市天河区体育东路小学兴国学校](https://ditu.amap.com/place/B00140TZ2K) | 公办小学 | 兴国路26号 |
 | S4 | [广州市南国学校小学部](https://ditu.amap.com/place/B00141IKVW) | 公办九年一贯制学校小学部 | 平月路200号 |
+| S5 | [广州市天河区冼村小学](https://www.amap.com/place/B00140UFA6) | 公办小学 | 珠江新城海安路5号 |
 | K1 | [广州市天河区珠江新城猎德幼儿园](https://ditu.amap.com/place/B0FFF3USY7) | 教育部门办幼儿园 | 海月路33号 |
 | K2 | [广州市天河区万锦幼儿园](https://ditu.amap.com/place/B0FFGY5J2S) | 普惠性民办幼儿园 | 猎德大道31号之六 |
 | K3 | [广州市天河区佐治亚幼儿园](https://ditu.amap.com/place/B0FFG8FWWZ) | 普惠性民办幼儿园 | 金穗路68号 |
 | K4 | [广州市天河区力迅上筑幼儿园](https://ditu.amap.com/place/B00140UR2W) | 普惠性民办幼儿园 | 上筑街1号 |
 | K5 | [广州市天河区金穗幼儿园](https://ditu.amap.com/place/B0FFF3V19U) | 教育部门办幼儿园 | 金穗路73号 |
 | K6 | [广州市天河区金穗幼儿园花城园区](https://ditu.amap.com/place/B0FFL64EY3) | 教育部门办幼儿园 | 平江路9号 |
+| K7 | [天河第二实验幼儿园珠江新城园区](https://www.amap.com/place/B00141TQB7) | 教育部门办幼儿园，高德仍用旧名 | 南国一街9号 |
+| K8 | [萃禾幼儿园兴盛园区](https://www.amap.com/place/B0FFIDA5WN) | 教育部门办幼儿园 | 兴盛路6号之四 |
 
-## 交通数据与海报材料
+## 小学地段与招生渠道
 
-- [Figure 1 · Educational accessibility in Liede](figures/figure-1-educational-accessibility-map.png)
-- [Figure 2 · Walking access to kindergartens](figures/figure-2-kindergarten-walking-access.png)
-- [Figure 3 · Walking access to catchment primary schools](figures/figure-3-primary-school-walking-access.png)
-- [第二轮 JSON 数据与线路复查记录](data/round-2/liede-accessibility-round-2.json)
+### 三个住宅到样本小学
 
-### Table 1 · Complete residential-to-kindergarten routes
+单元格为单程步行 **米／分钟**。粗体为 2026 年地段表支持的地址对应，也是各行四所原样本小学中的最短路线。猎德花园须核对具体门牌，南国花园须落在附件列出的边界内。S5 冼村小学作为积分志愿例加入同一张表。 [天河区 2026 年招生细则附件 5，第 18、55、56 行](https://www.thnet.gov.cn/attachment/8/8016/8016210/10791180.pdf) · [积分计划](https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10872346.html) · [逐条路线](appendix/route-tables.md)
 
-**查询与模式。** 步行查询日期为 2026 年 11 月 12 日。公交用高德网页版模拟同日（周四）07:20 出发。30 条住宅—园校组合中，20 条返回可读公交方案，10 条显示无方案，0 条未获取。18 条幼儿园组合中有 12 条返回方案。表列高德推荐列表中第一条可读乘车方案，预计到达由出发时刻加页面显示时长计算。表中路口和道路为现场核查位置。票价按网页单次规划显示值记录。[高德网页规划帮助](https://www.amap.com/ssr/doc/route-plan)
+| 住宅 | S1 猎德实验小学部 | S2 海明小学 | S3 兴国小学 | S4 南国学校小学部 | S5 冼村小学 |
+|---|---:|---:|---:|---:|---:|
+| 猎德花园 | **443／5.9** | 950／12.7 | 1,330／17.7 | 1,406／18.8 | 1,766／23.6 |
+| 中海璟晖华庭 | 1,354／18.1 | 1,722／23.0 | **756／10.1** | 1,986／26.5 | 881／11.8 |
+| 南国花园 | 1,060／14.1 | 487／6.5 | 2,017／26.9 | **207／2.8** | 2,132／28.4 |
 
-| Residence | Kindergarten | Walk m / min | Transit · boarding → alighting | Transit min / ETA | Fare | Transfers | Road junctions to check | Amap · 12 Nov 2026 |
-|---|---|---:|---|---:|---:|---:|---|---|
-| Liede Garden | K1 Liede | 273 / 3.6 | 未返回方案 | — | — | — | 海文路—海月路 | [Walk](https://uri.amap.com/navigation?from=113.336127,23.113409&to=113.337456,23.114648&mode=walk&src=liede-fieldwork) · [Transit](https://ditu.amap.com/ssr/dir?fname=%E7%8C%8E%E5%BE%B7%E8%8A%B1%E5%9B%AD&flat=23.113409&flon=113.336127&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E7%8F%A0%E6%B1%9F%E6%96%B0%E5%9F%8E%E7%8C%8E%E5%BE%B7%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.114648&dlon=113.337456&type=1&policy=0&dateTime=2026-11-12%7C07-20) |
-| Liede Garden | K2 Wanjin | 1,517 / 20.2 | 777路 · 临江大道 → 猎德 | 26 / 07:46 | ¥2 | 0 | 猎德大道—花城大道，金穗路辅路 | [Walk](https://uri.amap.com/navigation?from=113.336127,23.113409&to=113.332259,23.121804&mode=walk&src=liede-fieldwork) · [Transit](https://ditu.amap.com/ssr/dir?fname=%E7%8C%8E%E5%BE%B7%E8%8A%B1%E5%9B%AD&flat=23.113409&flon=113.336127&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E4%B8%87%E9%94%A6%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.121804&dlon=113.332259&type=1&policy=0&dateTime=2026-11-12%7C07-20) |
-| Liede Garden | K3 Zuozhiya | 1,698 / 22.6 | 293路 · 临江大道 → 冼村路中 | 28 / 07:48 | ¥2 | 0 | 猎德大道—花城大道，兴盛路—兴盛直街 | [Walk](https://uri.amap.com/navigation?from=113.336127,23.113409&to=113.329152,23.122236&mode=walk&src=liede-fieldwork) · [Transit](https://ditu.amap.com/ssr/dir?fname=%E7%8C%8E%E5%BE%B7%E8%8A%B1%E5%9B%AD&flat=23.113409&flon=113.336127&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E4%BD%90%E6%B2%BB%E4%BA%9A%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.122236&dlon=113.329152&type=1&policy=0&dateTime=2026-11-12%7C07-20) |
-| Liede Garden | K4 Lixun Shangzhu | 884 / 11.8 | 138路 · 临江大道 → 马场路南 | 20 / 07:40 | ¥2 | 0 | 海文路—海月路，海风路—海风横街 | [Walk](https://uri.amap.com/navigation?from=113.336127,23.113409&to=113.341996,23.115182&mode=walk&src=liede-fieldwork) · [Transit](https://ditu.amap.com/ssr/dir?fname=%E7%8C%8E%E5%BE%B7%E8%8A%B1%E5%9B%AD&flat=23.113409&flon=113.336127&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E5%8A%9B%E8%BF%85%E4%B8%8A%E7%AD%91%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.115182&dlon=113.341996&type=1&policy=0&dateTime=2026-11-12%7C07-20) |
-| Liede Garden | K5 Jinsui | 1,467 / 19.6 | 777路 · 临江大道 → 猎德 | 31 / 07:51 | ¥2 | 0 | 猎德大道—花城大道，金穗路辅路—海御直街 | [Walk](https://uri.amap.com/navigation?from=113.336127,23.113409&to=113.334724,23.123746&mode=walk&src=liede-fieldwork) · [Transit](https://ditu.amap.com/ssr/dir?fname=%E7%8C%8E%E5%BE%B7%E8%8A%B1%E5%9B%AD&flat=23.113409&flon=113.336127&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E9%87%91%E7%A9%97%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.123746&dlon=113.334724&type=1&policy=0&dateTime=2026-11-12%7C07-20) |
-| Liede Garden | K6 Jinsui · Huacheng | 1,500 / 20.0 | 777路 · 临江大道 → 花城大道站 | 26 / 07:46 | ¥2 | 0 | 海文路—平月路，平江路 | [Walk](https://uri.amap.com/navigation?from=113.336127,23.113409&to=113.347319,23.116220&mode=walk&src=liede-fieldwork) · [Transit](https://ditu.amap.com/ssr/dir?fname=%E7%8C%8E%E5%BE%B7%E8%8A%B1%E5%9B%AD&flat=23.113409&flon=113.336127&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E9%87%91%E7%A9%97%E5%B9%BC%E5%84%BF%E5%9B%AD%E8%8A%B1%E5%9F%8E%E5%9B%AD%E5%8C%BA&dlat=23.11622&dlon=113.347319&type=1&policy=0&dateTime=2026-11-12%7C07-20) |
-| Zhonghai Jinghui Huating | K1 Liede | 1,361 / 18.1 | 138路 · 兴盛路口 → 临江大道 | 31 / 07:51 | ¥2 | 0 | 猎德大道辅路—花城大道，海月路 | [Walk](https://uri.amap.com/navigation?from=113.332723,23.121608&to=113.337456,23.114648&mode=walk&src=liede-fieldwork) · [Transit](https://ditu.amap.com/ssr/dir?fname=%E4%B8%AD%E6%B5%B7%E7%92%9F%E6%99%96%E5%8D%8E%E5%BA%AD&flat=23.121608&flon=113.332723&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E7%8F%A0%E6%B1%9F%E6%96%B0%E5%9F%8E%E7%8C%8E%E5%BE%B7%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.114648&dlon=113.337456&type=1&policy=0&dateTime=2026-11-12%7C07-20) |
-| Zhonghai Jinghui Huating | K2 Wanjin | 269 / 3.6 | 未返回方案 | — | — | — | 内部路段，反向经金穗路辅路 | [Walk](https://uri.amap.com/navigation?from=113.332723,23.121608&to=113.332259,23.121804&mode=walk&src=liede-fieldwork) · [Transit](https://ditu.amap.com/ssr/dir?fname=%E4%B8%AD%E6%B5%B7%E7%92%9F%E6%99%96%E5%8D%8E%E5%BA%AD&flat=23.121608&flon=113.332723&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E4%B8%87%E9%94%A6%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.121804&dlon=113.332259&type=1&policy=0&dateTime=2026-11-12%7C07-20) |
-| Zhonghai Jinghui Huating | K3 Zuozhiya | 567 / 7.6 | 未返回方案 | — | — | — | 金穗路辅路，兴盛直街 | [Walk](https://uri.amap.com/navigation?from=113.332723,23.121608&to=113.329152,23.122236&mode=walk&src=liede-fieldwork) · [Transit](https://ditu.amap.com/ssr/dir?fname=%E4%B8%AD%E6%B5%B7%E7%92%9F%E6%99%96%E5%8D%8E%E5%BA%AD&flat=23.121608&flon=113.332723&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E4%BD%90%E6%B2%BB%E4%BA%9A%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.122236&dlon=113.329152&type=1&policy=0&dateTime=2026-11-12%7C07-20) |
-| Zhonghai Jinghui Huating | K4 Lixun Shangzhu | 1,660 / 22.1 | Metro L5 · 猎德 (C口) → 潭村 (A口) | 29 / 07:49 | ¥2 | 0 | 猎德大道—花城大道，海风路 | [Walk](https://uri.amap.com/navigation?from=113.332723,23.121608&to=113.341996,23.115182&mode=walk&src=liede-fieldwork) · [Transit](https://ditu.amap.com/ssr/dir?fname=%E4%B8%AD%E6%B5%B7%E7%92%9F%E6%99%96%E5%8D%8E%E5%BA%AD&flat=23.121608&flon=113.332723&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E5%8A%9B%E8%BF%85%E4%B8%8A%E7%AD%91%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.115182&dlon=113.341996&type=1&policy=0&dateTime=2026-11-12%7C07-20) |
-| Zhonghai Jinghui Huating | K5 Jinsui | 640 / 8.5 | 未返回方案 | — | — | — | 金穗路辅路—海御直街 | [Walk](https://uri.amap.com/navigation?from=113.332723,23.121608&to=113.334724,23.123746&mode=walk&src=liede-fieldwork) · [Transit](https://ditu.amap.com/ssr/dir?fname=%E4%B8%AD%E6%B5%B7%E7%92%9F%E6%99%96%E5%8D%8E%E5%BA%AD&flat=23.121608&flon=113.332723&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E9%87%91%E7%A9%97%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.123746&dlon=113.334724&type=1&policy=0&dateTime=2026-11-12%7C07-20) |
-| Zhonghai Jinghui Huating | K6 Jinsui · Huacheng | 2,138 / 28.5 | Metro L5 · 猎德 (C口) → 潭村 (B口) | 23 / 07:43 | ¥2 | 0 | 猎德大道—花城大道，平江路 | [Walk](https://uri.amap.com/navigation?from=113.332723,23.121608&to=113.347319,23.116220&mode=walk&src=liede-fieldwork) · [Transit](https://ditu.amap.com/ssr/dir?fname=%E4%B8%AD%E6%B5%B7%E7%92%9F%E6%99%96%E5%8D%8E%E5%BA%AD&flat=23.121608&flon=113.332723&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E9%87%91%E7%A9%97%E5%B9%BC%E5%84%BF%E5%9B%AD%E8%8A%B1%E5%9F%8E%E5%9B%AD%E5%8C%BA&dlat=23.11622&dlon=113.347319&type=1&policy=0&dateTime=2026-11-12%7C07-20) |
-| Nanguo Garden | K1 Liede | 916 / 12.2 | 138路 · 马场路南 → 临江大道 | 22 / 07:42 | ¥2 | 0 | 海月路 | [Walk](https://uri.amap.com/navigation?from=113.344585,23.114459&to=113.337456,23.114648&mode=walk&src=liede-fieldwork) · [Transit](https://ditu.amap.com/ssr/dir?fname=%E5%8D%97%E5%9B%BD%E8%8A%B1%E5%9B%AD&flat=23.114459&flon=113.344585&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E7%8F%A0%E6%B1%9F%E6%96%B0%E5%9F%8E%E7%8C%8E%E5%BE%B7%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.114648&dlon=113.337456&type=1&policy=0&dateTime=2026-11-12%7C07-20) |
-| Nanguo Garden | K2 Wanjin | 2,204 / 29.4 | Metro L5 · 潭村 (A口) → 猎德 (D口) | 30 / 07:50 | ¥2 | 0 | 花城大道—猎德大道，金穗路辅路 | [Walk](https://uri.amap.com/navigation?from=113.344585,23.114459&to=113.332259,23.121804&mode=walk&src=liede-fieldwork) · [Transit](https://ditu.amap.com/ssr/dir?fname=%E5%8D%97%E5%9B%BD%E8%8A%B1%E5%9B%AD&flat=23.114459&flon=113.344585&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E4%B8%87%E9%94%A6%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.121804&dlon=113.332259&type=1&policy=0&dateTime=2026-11-12%7C07-20) |
-| Nanguo Garden | K3 Zuozhiya | 2,385 / 31.8 | Metro L5 · 潭村 (A口) → 猎德 (D口) | 31 / 07:51 | ¥2 | 0 | 花城大道—猎德大道辅路，兴盛路—兴盛直街 | [Walk](https://uri.amap.com/navigation?from=113.344585,23.114459&to=113.329152,23.122236&mode=walk&src=liede-fieldwork) · [Transit](https://ditu.amap.com/ssr/dir?fname=%E5%8D%97%E5%9B%BD%E8%8A%B1%E5%9B%AD&flat=23.114459&flon=113.344585&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E4%BD%90%E6%B2%BB%E4%BA%9A%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.122236&dlon=113.329152&type=1&policy=0&dateTime=2026-11-12%7C07-20) |
-| Nanguo Garden | K4 Lixun Shangzhu | 485 / 6.5 | 未返回方案 | — | — | — | 平月路，另有未命名段 | [Walk](https://uri.amap.com/navigation?from=113.344585,23.114459&to=113.341996,23.115182&mode=walk&src=liede-fieldwork) · [Transit](https://ditu.amap.com/ssr/dir?fname=%E5%8D%97%E5%9B%BD%E8%8A%B1%E5%9B%AD&flat=23.114459&flon=113.344585&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E5%8A%9B%E8%BF%85%E4%B8%8A%E7%AD%91%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.115182&dlon=113.341996&type=1&policy=0&dateTime=2026-11-12%7C07-20) |
-| Nanguo Garden | K5 Jinsui | 1,997 / 26.6 | 40路 · 马场路南 → 珠江公园南门 | 30 / 07:50 | ¥2 | 0 | 平月路—马场路，金穗路—海乐路 | [Walk](https://uri.amap.com/navigation?from=113.344585,23.114459&to=113.334724,23.123746&mode=walk&src=liede-fieldwork) · [Transit](https://ditu.amap.com/ssr/dir?fname=%E5%8D%97%E5%9B%BD%E8%8A%B1%E5%9B%AD&flat=23.114459&flon=113.344585&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E9%87%91%E7%A9%97%E5%B9%BC%E5%84%BF%E5%9B%AD&dlat=23.123746&dlon=113.334724&type=1&policy=0&dateTime=2026-11-12%7C07-20) |
-| Nanguo Garden | K6 Jinsui · Huacheng | 642 / 8.6 | 未返回方案 | — | — | — | 平月路—平苑街，平江路 | [Walk](https://uri.amap.com/navigation?from=113.344585,23.114459&to=113.347319,23.116220&mode=walk&src=liede-fieldwork) · [Transit](https://ditu.amap.com/ssr/dir?fname=%E5%8D%97%E5%9B%BD%E8%8A%B1%E5%9B%AD&flat=23.114459&flon=113.344585&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E9%87%91%E7%A9%97%E5%B9%BC%E5%84%BF%E5%9B%AD%E8%8A%B1%E5%9F%8E%E5%9B%AD%E5%8C%BA&dlat=23.11622&dlon=113.347319&type=1&policy=0&dateTime=2026-11-12%7C07-20) |
+住宅各自到地段对应小学的时间相差最多约 7.3 分钟。固定目的地时差异会放大，例如三个住宅到南国学校小学部为 207–1,986 米。南国花园到海明小学也只有约 6.5 分钟，2026 年地段表列出的对应仍是南国学校小学部。
 
-「未返回方案」表示网页返回空方案，「未获取」表示本轮未取得可读结果。点开链接可复查同一对坐标及出发时间，动态规划可能发生变化。原有及新增的未限定时段公交方案、网页备选方案和逐段记录均见 JSON。
+### 2026 年小一政策
 
-例如，猎德花园至兴国小学的第一轮公交估算为约 25.6 分钟，第二轮早间网页方案为 23 分钟。这两组结果来自不同查询设置，均保留在对应记录中，适合核对方案和估算差异。
+- **普通公办地段与统筹。** 区细则将天河户籍、户籍与监护人完全房产住址一致且学位未被占用的适龄儿童归入地段生。符合条件的穗籍承租人子女走统筹路径。认定租住地需要在广州无自有产权住房、以该处为唯一居住地，并持有合规租赁登记备案。2026 年非天河户籍的穗籍无房租户，若申请在天河入读公办小学，备案审核须早于 **2025 年 9 月 1 日**，租期至少到入学两年后。政策性照顾个案也由区统筹，地段学校可作为受理点。猎德花园须核对具体门牌及产权材料。拆迁安置协议可作实际居住证明，能否按地段生安排仍要看对应条件。[天河区 2026 义务教育细则，第三、五节及附件 5](https://www.thnet.gov.cn/attachment/8/8016/8016210/10791180.pdf) · [广州市 2026 版指导意见](https://jyj.gz.gov.cn/gkmlpt/content/10/10782/post_10782116.html)
+- **兴国小学的容量限定。** 上一份 2025 细则对 **2026 年**发布兴国小学学位预警。对 **2021 年 8 月 31 日之后**取得地段房产的相关家庭，如生源超过招生计划，文件预警按产权登记先后安排，超出部分区域统筹。2026 细则中相似段落是给 **2027 年**的预警。两年不能混用。附件 5 仍把中海璟晖华庭列在兴国小学地段，本轮未找到 2026 年该校实际触发超额或发生统筹的结果。原图的 10.1 分钟应读作地址对应路线。[2025 细则中的 2026 预警](https://www.thnet.gov.cn/attachment/7/7806/7806425/10240576.pdf) · [2026 细则附件 5 第 18 行](https://www.thnet.gov.cn/attachment/8/8016/8016210/10791180.pdf)
+- **来穗人员随迁子女积分。** 2026 指引列小一 **563** 个计划，含公办 **315** 个和政府补贴民办 **248** 个。下载并读取官方附件 1 后，确认公办名单为 **10 所**，315 个名额加总一致。猎德实验小学部、海明小学、兴国小学和南国学校小学部均未列入该渠道的公办名单。珠江新城海安路 5 号的**冼村小学列 5 个**。资格审核、公示、志愿和积分排名决定能否获学位。另有按该渠道录取、注册且在指定民办小学就读者的 **5,000 元／生／学年**补助，实际缴费仍取决于校方收费及补贴抵扣。没有将学校级计划解释为某小区或某家庭的录取率。[2026 积分学位申请指引](https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10872346.html) · [官方公办小一计划 XLS](https://www.thnet.gov.cn/attachment/8/8040/8040292/10872346.xls) · [核查后的 10 所学校 CSV](data/round-3/primary-migrant-points-plan-2026.csv)
+- **港澳居民随迁子女或符合条件的持证适龄儿童。** 这是单列渠道。经公示无异议且完成志愿流程者，2026 年小一按积分竞争南国学校小学部 **45 个**名额。该校因此既是南国花园的普通地段对应校，也是另一招生渠道指定的目的地。家离学校近本身无法说明哪条渠道适用。[2026 港澳居民随迁子女学位指引](https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10833283.html)
 
-### 最近幼儿园和最近公办园区
+### 同一住址在不同招生渠道下的步行时间
 
-最近按步行路网距离排序，仅在六个园区内比较。公办采用天河区教育局 2026 年「教育部门办幼儿园」名单，含猎德幼儿园、金穗幼儿园及其花城园区。万锦、佐治亚、力迅上筑为 2026 年名录列出的普惠性民办园。[教育部门办园名单](https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10815546.html) · [民办园名单](https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10815624.html)
+| 住宅 | 地址对应校步行 | 来穗积分例：冼村小学 | 相比地址对应 | 港澳渠道：南国学校小学部 | 相比地址对应 |
+|---|---:|---:|---:|---:|---:|
+| 猎德花园 | 5.9 分 | 23.6 分 | +17.65 分 | 18.8 分 | +12.85 分 |
+| 中海璟晖华庭 | 10.1 分 | 11.8 分 | +1.67 分 | 26.5 分 | +16.40 分 |
+| 南国花园 | 2.8 分 | 28.4 分 | +25.67 分 | 2.8 分 | 0.00 分 |
 
-| 住宅样本 | 最近样本园区 | 米 / 分钟 | 最近公办样本园区 | 米 / 分钟 |
-|---|---|---:|---|---:|
-| 猎德花园 | 珠江新城猎德幼儿园 | 273 / 3.6 | 珠江新城猎德幼儿园 | 273 / 3.6 |
-| 中海璟晖华庭 | 万锦幼儿园 | 269 / 3.6 | 金穗幼儿园 | 640 / 8.5 |
-| 南国花园 | 力迅上筑幼儿园 | 485 / 6.5 | 金穗幼儿园花城园区 | 642 / 8.6 |
+差值先以秒相减再换算，故显示值相减可能有舍入差。南国花园的零差来自两个渠道指向同一地图点。冼村小学只代表一个确认可填的公办志愿，未对另外 9 所公办或补贴民办校算路。未识别家庭真实分配，因而不报告「积分家庭平均额外时间」。原 07:20 网页给出猎德花园和中海到南国学校的乘车方案，分别约 25、24 分钟，各显示 ¥2。其余新增目的地未查交通费。步行模型的直接票价为零，家长时间与机构费用另计。[Amap 原始查询与新增路线](data/round-3/supplementary-amap.json) · [可用于海报的对照图](figures/figure-4-admission-channels-walking-time.png)
 
-### 10、15、20 分钟内的园区与费用证据
+## 幼儿园就近、派位与收费
 
-广州市政府定价规定全日制公办规范园保教费 **823 元／生／月**，示范园 **995 元／生／月**。本轮未取得六处样本的当年园区收费公示或可用于确认具体标准的完整等级资料，无法核实每园小中班实收费、伙食费和总费用。普惠性民办园按协议和指导标准收费，具体实收仍需公示。另可按市教育局政策确认公办园在读且符合学前一年减免条件的幼儿保教费为 **0 元**，伙食及其他费用另计。民办园参照同类公办园减免，超过减免标准的部分可能仍需缴纳。[广州幼儿园收费通知](https://fgw.gz.gov.cn/gkmlpt/content/9/9577/post_9577385.html) · [广州市学前一年保教费减免说明](https://jyj.gz.gov.cn/gk/zfxxgkml/bmwj/qtwj/content/post_10516322.html)
+### 最近园区及扩展核查
 
-| 住宅样本 | 全部样本园区（≤10 / 15 / 20 分钟） | 公办园区（同左阈值） | 小中班当年园区级收费金额已核实 | 符合学前一年政策时保教费为 0 的公办园区 |
+下表沿用原六园区作为可复现的基准，以路网距离选最近园。公办按 2026 年区教育局的教育部门办园名单，金穗本园和花城园区按不同地址分别计数。万锦、佐治亚、力迅上筑列为普惠性民办。 [公办园派位表](https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10815546.html) · [民办园名录](https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10815624.html)
+
+| 住宅 | 原六园中最近园区 | 原六园中最近公办园区 | 补查 K7 天河第二实验幼儿园珠江新城园区 | 补查 K8 萃禾兴盛园区 |
+|---|---|---|---|---|
+| 猎德花园 | 猎德幼儿园 273 米／3.6 分 | 猎德幼儿园 273 米／3.6 分 | 1,053 米／14.0 分，暂定 | 1,573 米／21.0 分 |
+| 中海璟晖华庭 | 万锦幼儿园 269 米／3.6 分 | 金穗幼儿园 640 米／8.5 分 | 1,990 米／26.5 分，暂定 | 854 米／11.4 分 |
+| 南国花园 | 力迅上筑幼儿园 485 米／6.5 分 | 金穗花城园区 642 米／8.6 分 | 待复核，路线排除出统计 | 2,260 米／30.1 分 |
+
+到同一所园的差异可远大于最近园的差异。中海到万锦为 3.6 分钟，南国花园到同一园为 29.4 分钟。在原六园区内，把园型限定为公办后，中海和南国花园到最近选项分别多走约 5.0、2.1 分钟。补查的 K8 名称和门牌匹配。K7 的高德地点仍标「南国实验幼儿园」，前两条路线按地址匹配暂列。南国花园到 K7 的原始返回为 18 米，低于端点约 51.6 米的直线距离，可能存在点位吸附，因此只保留作质控。南国花园真正最近的公办园仍待核查。 [六园基准路线及补查表](appendix/route-tables.md) · [补查原始响应](data/round-3/supplementary-amap.json) · [质控表](data/round-3/supplementary-route-audit.csv)
+
+### 2026 年小班派位
+
+教育部门办幼儿园的社会派位适用于 2026 年秋小班适龄（**2022-09-01 至 2023-08-31 出生**）且有天河户籍或符合规定政策性照顾条件的非穗籍幼儿。符合网上报名条件时可选 **1 所**教育部门办幼儿园参加派位。配套园区另有针对本区户籍、对应小区合格业主子女的优先登记，含一户一学位等条件。天河户籍租户可以走一般随机派位，不能仅凭租住地址进入业主优先类别。区级名单对普惠性民办园的分类不能确定某家幼儿是否符合园方具体报名条件。普通来穗积分小学资格也不能套用到幼儿园。[2026 年幼儿园招生方案，第二至四节](https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10777181.html) · [民办幼儿园 2026 名录](https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10815624.html)
+
+| 教育部门办园区 | 官方表序号 | 社会电脑派位计划 | 其中业主子女 | 剩余随机 |
 |---|---:|---:|---:|---:|
-| 猎德花园 | 1 / 2 / 4 | 1 / 1 / 3 | 0 / 0 / 0 | 1 / 1 / 3 |
-| 中海璟晖华庭 | 3 / 3 / 4 | 1 / 1 / 2 | 0 / 0 / 0 | 1 / 1 / 2 |
-| 南国花园 | 2 / 3 / 3 | 1 / 2 / 2 | 0 / 0 / 0 | 1 / 2 / 2 |
+| K1 珠江新城猎德幼儿园 | 52 | 135 | 85 | 50 |
+| K5 金穗幼儿园本园 | 53 | 45 | 0 | 45 |
+| K6 金穗幼儿园花城园区 | 54 | 68 | 23 | 45 |
+| K7 天河第二实验幼儿园珠江新城园区 | 36 | 68 | 24 | 44 |
+| K8 萃禾幼儿园兴盛园区 | 31 | 45 | 31 | 14 |
 
-小中班栏的 0 表示未核实到收费金额。条件性免保教费栏统计已经入园并适用政策时的园区数，无法据此判断全部家庭可负担或可获得的学位。
+以上为 2026 年小班计划表的三列数据，适用小区边界和产权审核还要看对应园招生公告。比如，在同一猎德花园地址模拟天河户籍业主家庭与天河户籍租住家庭，两者去 K1 的地图路线同为 3.6 分钟。若该地址确属配套范围、业主符合优先条件，家庭的申请路径会不同。若两者最终都获录取，例中没有步行差。若租户未派中而改选其他园，额外时间须按实际替代园计算。计划表没有报名人数、家庭选择或录取结果，不能从 85 和 50 计算任何个人概率。[2026 教育部门办园派位计划，第 31、36、52–54 行](https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10815546.html)
 
-### Table 2 · Walking access to sampled primary schools
+### 收费与可负担性
 
-单元格为单程步行 **米 / 分钟**，粗体为 2026 年招生地段支持的住宅—小学地址对应。每个粗体单元格也是该行最短的样本路线。[天河区 2026 年招生工作细则，附件 5](https://www.thnet.gov.cn/attachment/8/8016/8016210/10791180.pdf)
+广州市政府定价规定全日制公办规范园保教费 **823 元／生／月**，示范园 **995 元／生／月**。原六处样本园区均缺可核实的当年园区收费公示或可用于确认具体标准的完整等级资料，无法核实每园小中班实收费、伙食费和总费用。普惠性民办园按协议和指导标准收费，具体实收仍需公示。另可按市教育局政策确认公办园在读且符合学前一年减免条件的幼儿保教费为 **0 元**，伙食及其他费用另计。民办园参照同类公办园减免，超过减免标准的部分可能仍需缴纳。[广州幼儿园收费通知](https://fgw.gz.gov.cn/gkmlpt/content/9/9577/post_9577385.html) · [广州市学前一年保教费减免说明](https://jyj.gz.gov.cn/gk/zfxxgkml/bmwj/qtwj/content/post_10516322.html)
 
-| Residence | S1 Liede Experimental | S2 Haiming Primary | S3 Xingguo Primary | S4 Nanguo School |
+上面的减免适用学前一年。小班分析仍需要核对各园区当年的费用与家庭预算。积分小学的 5,000 元补助适用符合录取及就读条件的指定民办小学。 [2026 积分学位补助条款](https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10872346.html)
+
+### 10、15、20 分钟覆盖与步速敏感性
+
+原 30 条高德步行时间与「路网长度 ÷ 1.25 米／秒」的最大差仅 **0.4 秒**，几乎完全由固定换算速度重现。这个发现限定了前两轮「10 分钟可达」的含义。用原路网距离分别测试 **1.25、1.00、0.80 米／秒**，另单独测试入口距离变动 **−100、+100、+200 米**，及 1.00 米／秒、+100 米、+90 秒等候的组合情境。公式为 **max(0, 路网米数 + 入口差) ÷ 步速 + 等候秒数**。阈值按未舍入秒数判断，包含恰好 10、15、20 分钟。步速和等待量只用于检验敏感性，未估计儿童步速、雨天影响或校门位置。
+
+| 住宅 | 原六园区：全部 10／15／20 分钟 | 原六园区：公办，地图估计 | 原六园区：公办，1.00 米／秒 | 原六园区：公办，组合情境 |
 |---|---:|---:|---:|---:|
-| Liede Garden | **443 / 5.9** [↗](https://uri.amap.com/navigation?from=113.336127,23.113409&to=113.337457,23.115805&mode=walk&src=liede-fieldwork) | 950 / 12.7 [↗](https://uri.amap.com/navigation?from=113.336127,23.113409&to=113.342561,23.115197&mode=walk&src=liede-fieldwork) | 1,330 / 17.7 [↗](https://uri.amap.com/navigation?from=113.336127,23.113409&to=113.331236,23.119408&mode=walk&src=liede-fieldwork) | 1,406 / 18.8 [↗](https://uri.amap.com/navigation?from=113.336127,23.113409&to=113.344261,23.116251&mode=walk&src=liede-fieldwork) |
-| Zhonghai Jinghui Huating | 1,354 / 18.1 [↗](https://uri.amap.com/navigation?from=113.332723,23.121608&to=113.337457,23.115805&mode=walk&src=liede-fieldwork) | 1,722 / 23.0 [↗](https://uri.amap.com/navigation?from=113.332723,23.121608&to=113.342561,23.115197&mode=walk&src=liede-fieldwork) | **756 / 10.1** [↗](https://uri.amap.com/navigation?from=113.332723,23.121608&to=113.331236,23.119408&mode=walk&src=liede-fieldwork) | 1,986 / 26.5 [↗](https://uri.amap.com/navigation?from=113.332723,23.121608&to=113.344261,23.116251&mode=walk&src=liede-fieldwork) |
-| Nanguo Garden | 1,060 / 14.1 [↗](https://uri.amap.com/navigation?from=113.344585,23.114459&to=113.337457,23.115805&mode=walk&src=liede-fieldwork) | 487 / 6.5 [↗](https://uri.amap.com/navigation?from=113.344585,23.114459&to=113.342561,23.115197&mode=walk&src=liede-fieldwork) | 2,017 / 26.9 [↗](https://uri.amap.com/navigation?from=113.344585,23.114459&to=113.331236,23.119408&mode=walk&src=liede-fieldwork) | **207 / 2.8** [↗](https://uri.amap.com/navigation?from=113.344585,23.114459&to=113.344261,23.116251&mode=walk&src=liede-fieldwork) |
+| 猎德花园 | 1／2／4 | 1／1／3 | 1／1／1 | 1／1／1 |
+| 中海璟晖华庭 | 3／3／4 | 1／1／2 | 0／1／1 | 0／1／1 |
+| 南国花园 | 2／3／3 | 1／2／2 | 0／1／2 | 0／1／2 |
 
-| 住宅样本 | 地址层面对应小学 | 招生地段依据 | 早间公交复查 |
+- 以原样本看，**10 分钟一处公办园**从地图基准的 **3／3 个住宅**变成 1.00 米／秒的 **1／3 个住宅**。同一情境下，三个住宅仍各有一处公办园在 15 分钟内。0.80 米／秒时，中海和南国花园最近原样本公办园约 **13.3、13.4 分钟**。这显示 10 分钟界线较敏感。
+- **门的位置有意义。** 猎德花园到金穗花城园区原为 **1,500 米／20 分钟**，再加 100 米即约 **21.3 分钟**。统一加量不会改变近远排序。若不同路线的实际入口各偏移 ±100 米，点位距离相差不到 200 米的路线可能换位。例如中海的兴国小学和补查的冼村小学相差 **125 米**。这是排名敏感性，两个学校的申请渠道仍不同。
+- **园区覆盖比小幅测量精度更重要。** 加入 K8 后，中海 15 分钟公办园数从 **1 变 2**。暂纳入与地址匹配的 D1→K7 后，猎德花园的同一指标也从 **1 变 2**。D3→K7 尚未计入，南国花园最近公办园仍需复核。图 2 的原数字可作六园区基准。
+- **“最近可申请”只在可以识别选项时计算。** 地段路径能用地址匹配校。来穗积分仅算列名志愿例，统筹目的地留空。比较「最近任一园」与「最近公办园」只反映限定园型后的选项变化。原样本中海、南国花园分别多约 **5.0、2.1 分钟**，其中南国花园的 2.1 分钟差受 K7 漏收影响。[完整阈值表与口径](data/round-3/threshold-sensitivity.csv)
+
+## 同一住址下的家庭申请情境
+
+四个状态分别记录。**Geographically reachable** 表示有路线估算。**Eligible to apply** 表示满足对应申请条件或有经核实的渠道。**Affordable** 需要家庭预算、补贴与实际费用。**Actually admitted** 需要获录取并确认学位，若研究实际入读还应另核注册。以下家庭是政策情境，所有情境的家庭层面可负担性和录取结果均未知。
+
+| 情境 | 小一的可申请性 | 小班的可申请性 | 能确认的交通含义 |
 |---|---|---|---|
-| 猎德花园 | 猎德实验学校小学部 | 第 56 行列出原猎德村范围及猎德小区，需以具体门牌核对。 | 未返回方案。[高德](https://ditu.amap.com/ssr/dir?fname=%E7%8C%8E%E5%BE%B7%E8%8A%B1%E5%9B%AD&flat=23.113409&flon=113.336127&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E4%B8%AD%E5%AD%A6%E7%8C%8E%E5%BE%B7%E5%AE%9E%E9%AA%8C%E5%AD%A6%E6%A0%A1%E5%B0%8F%E5%AD%A6%E9%83%A8&dlat=23.115805&dlon=113.337457&type=1&policy=0&dateTime=2026-11-12%7C07-20) |
-| 中海璟晖华庭 | 兴国小学 | 第 18 行点名中海璟晖华庭。 | 未返回方案。[高德](https://ditu.amap.com/ssr/dir?fname=%E4%B8%AD%E6%B5%B7%E7%92%9F%E6%99%96%E5%8D%8E%E5%BA%AD&flat=23.121608&flon=113.332723&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%A4%A9%E6%B2%B3%E5%8C%BA%E4%BD%93%E8%82%B2%E4%B8%9C%E8%B7%AF%E5%B0%8F%E5%AD%A6%E5%85%B4%E5%9B%BD%E5%AD%A6%E6%A0%A1&dlat=23.119408&dlon=113.331236&type=1&policy=0&dateTime=2026-11-12%7C07-20) |
-| 南国花园 | 南国学校小学部 | 第 55 行列出指定边界内的南国花园。 | 未返回方案。[高德](https://ditu.amap.com/ssr/dir?fname=%E5%8D%97%E5%9B%BD%E8%8A%B1%E5%9B%AD&flat=23.114459&flon=113.344585&dname=%E5%B9%BF%E5%B7%9E%E5%B8%82%E5%8D%97%E5%9B%BD%E5%AD%A6%E6%A0%A1%E5%B0%8F%E5%AD%A6%E9%83%A8&dlat=23.116251&dlon=113.344261&type=1&policy=0&dateTime=2026-11-12%7C07-20) |
+| 天河户籍、完全房产与户籍匹配、学位未占用 | 可走地段路径。猎德实验小学部、兴国小学、南国学校小学部依次为三地址对应。材料和容量须核。 | 适龄可走教育部门办园一般派位。仅当具体配套园与该住宅对应、产权等符合条件时有业主优先。 | 地址对应校步行 5.9／10.1／2.8 分钟。对应校亦是原四所中最近的一所。 |
+| 穗籍合格租户，广州无房，天河租赁处为唯一住址 | 备案满足规定后可走统筹。非天河户籍适用前述审核日与租期，区最终安排学校。 | 如有天河户籍可参加一般派位。若仅有广州其他区户籍、无相关政策性条件，未见该一般派位渠道。民办园可按园规则申请。 | 受理地点的路线可以算。统筹目的地未知，额外通学距离和费用留空。 |
+| 非穗籍且符合市政策性照顾 | 按清单审核，区按实际居住地统筹。 | 适龄且满足清单条件者可参加教育部门办园一般派位，须审核。 | 小一学校未知。小班可对比拟填报的园路线，获派位的园仍未知。 |
+| 非穗籍且取得来穗人员随迁子女积分志愿资格 | 公示通过后按 2026 名单、积分和志愿申请。原四所均不在该渠道公办名单。冼村小学是同片区一个列名例。 | 小学积分资格本身不满足小班公办园一般派位条件。另核户籍或适用的政策性照顾。 | 可以算去冼村小学的路线差。学校实际分配与民办净费用未见。 |
+| 符合港澳居民随迁子女或持证适龄儿童专门条件 | 经该渠道资格、公示和积分排序，南国学校小学部列 45 个小一名额。 | 小一的港澳渠道不能直接推到幼儿园，须另核小班规定。 | 南国学校对应三住址为 18.8／26.5／2.8 分钟。 |
+| 非穗籍且无已识别的公办申请渠道 | 申请符合条件的民办小学，适用区招生对象、居住证明和校方计划。原四校均为公办。 | 可查民办园实际报名、优先、收费及补录条件。 | 现有四所小学无法推出该情境实际目的地、时间或费用。 |
 
-地段表确定地址层面的报名对应，最终资格由申请类别、户籍或政策性条件、住房材料和实际审核决定。三条对口路线的步行里程与时间均复查一致。其余 9 条小学路线的早间公交结果及未限定时段备选方案见 JSON。
+[小一招生细则](https://www.thnet.gov.cn/attachment/8/8016/8016210/10791180.pdf) · [来穗积分计划](https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10872346.html) · [港澳渠道](https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10833283.html) · [小班规则](https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10777181.html) · [按三个地址展开的比较表](data/round-3/household-scenarios.csv)
 
-## 路线与资料可靠性核查
+## 实际接送与家庭时间成本
 
-**地址与点位。** 13 个高德 POI 编号复查所得坐标均与第一轮一致，这说明位置记录可复现。4 所小学的办学阶段和 6 处幼儿园的园区地址按区教育局文件核对。猎德实验学校是九年一贯制，使用高德全校点，分类标签显示中学。南国学校按高德小学部点位取平月路 200 号，教育局学校总表登记的是全校平月路 202 号。地图检索有小学部南门旁商户线索，未据此认定早上实际使用的门。金穗幼儿园本园与花城园区为同一园名下两个地址，按两个可到达园区计数。[小学名录](https://www.thnet.gov.cn/zwgk/ggqsydwxxgkzl/jyly/xx/content/post_8724023.html) · [九年一贯制学校名录](https://www.thnet.gov.cn/zwgk/ggqsydwxxgkzl/jyly/jnygzxx/content/post_8724037.html) · [南国学校小学部高德点](https://ditu.amap.com/place/B00141IKVW) · [小学部南门旁商户线索](https://ditu.amap.com/place/B0FFK71MCV) · [公办园名录与园区地址](https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10815546.html) · [民办园名录](https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10815624.html)
+### 出入口、过街与上学时段
 
-**出入口。** 猎德花园使用海文路 7 号住宅点，路径接入海文路附近支路。中海璟晖华庭使用猎德大道 31 号住宅点，搜索中也有停车出入口，不能用作已核实人行门。南国花园使用平月路住宅点，北门旁商户提供可核查线索。小学和幼儿园均以园校点位为终点。校址与图钉相符仍需现场确认开放出入口。[猎德花园地址与回迁性质](https://renda.thnet.gov.cn/renda/liede/202009/22499b2d8da646d4b1900f789a84b0db.shtml) · [中海住宅开发规划](https://ghzyj.gz.gov.cn/ywpd/cxgh/ghxkgsgb/phgbnew/ghyshgzls/content/post_7699927.html) · [南国花园北门旁商户线索](https://ditu.amap.com/place/B0FFFFKK9O)
+| 核查对象 | 找到的证据 | 仍需在现场核实 |
+|---|---|---|
+| 猎德花园 → 猎德实验学校小学部、猎德幼儿园 | 高德住宅点接入海文路。交通运输局临时泊位规划清单第 323 项以猎德实验学校门口标示海定街路段，和路线经过的海定街一致。K1 官方地址为海月路 33 号。 | 哪些住宅门允许早间步行、海定街校门是否用于小学部晨间接送、园门和园内交接位置。 |
+| 中海 → 兴国小学、万锦、金穗本园 | 原路线经金穗路辅路、兴国路等。地图能定位住宅与停车场、管理处，后两者无法独立证实常用人行门。万锦原正反向均 269 米，仍有是否可由小区内部通行的问题。 | 社区内捷径是否向家长开放，正门、侧门与楼栋至门用时。 |
+| 南国花园 → 南国学校小学部、海明小学、金穗花城园区、新增 K7 | 小学部地图地址平月路 200 号。南门线索来自周边商户。海明方向原步行步骤经过马场路，去花城园区的路线涉及平江路。K7 与住宅地图点近，短路径存在技术异常。 | 逐个核实南国花园常用人行门、小学校门、K6/K7 接送门及马场路跨路方式。 |
+| 花城大道沿线与大型路口 | 区人大公开报道记录 2013 年花城大道珠江公园人行通道开通，说明早期道路绕行曾受过街设施影响。底图的猎德站、潭村站附近分别有地下步行通道与楼梯图元。广州地铁无障碍指引可用于选取实测出入口。 | 现时通道是否对非乘客开放、是否须进闸、早高峰能否推童车、出口梯级及无障碍绕行。原高德路段指引可定位花城大道—猎德大道、海风路、平江路一带，未能识别每次使用的信号灯或实测等待。 |
 
-**绕行及通行条件。** 30 条路线的步行分段距离加总与高德路线总长相符（允许米级舍入）。进一步筛查路网长度明显高于图钉间距离的路线，结果用于选取核查对象，所有可达性指标仍使用路网距离。三条地段对应小学路线复算一致。中海 → 万锦正反向均为 269 米，应检查小区内部是否有可合法通行的人行捷径。猎德花园 → 金穗本园正反向均为 1,467 米，去花城园区正向 1,500 米、反向 1,499 米。经过花城大道与猎德大道、海风路或平江路的路线可用于核查过街条件。金穗花城园区的正向路线恰好 **20 分钟**，入口或等待时间变动即可改变其阈值归类。[中海至万锦步行规划](https://uri.amap.com/navigation?from=113.332723,23.121608&to=113.332259,23.121804&mode=walk&src=liede-fieldwork)
+[道路临时泊位规划清单](https://jtj.gz.gov.cn/hdjlpt/yjzj/api/attachments/view/6005587e3b5bbe9b27fae9504e30a649) · [珠江公园人行通道历史记录](https://renda.thnet.gov.cn/renda/liede/201310/bf28bae51cf849a8b2a6d4af0a233301.shtml) · [底图图元：猎德站附近](https://www.openstreetmap.org/way/1002939690) · [底图图元：潭村站附近](https://www.openstreetmap.org/way/1002939682) · [广州地铁无障碍乘车指引](https://www.gz.gov.cn/attachment/7/7792/7792275/10648239.pdf)
 
-**公交时效和站名。** 市交通运输局 2026 年 10 月 30 日公告列明，**花城大道上的东行**公交猎德站列入改名计划，新名为花城大道（兴国路口）站，11 月 7 日起分批实施。第一轮将部分高德返回的「猎德」直接关联到该东行站，第二轮保留地图原名并限定官方改名范围。高德记录缺少可用于逐条对照的站台编号，环线方向应以实际站牌为准。另查到官方 777 路环线调整记录，涉及潭村方向的路段和站点。2026 年 11 月的网页规划结果可用于当前线路核对，到站时刻和班次可靠性仍需观测。部分地铁方案使用潭村 A 或 B 口，广州地铁无障碍指引将潭村 D 口列为地面至站厅的无障碍出入口，选用该入口可能改变步行部分。[广州地铁无障碍乘车指引](https://www.gz.gov.cn/attachment/7/7792/7792275/10648239.pdf)[2026 年公交更名公告，第 44 行](https://jtj.gz.gov.cn/zwgg/ywgg/ggjt/gjxldzgg/content/post_11079212.html) · [777 路调整公告](https://jtj.gz.gov.cn/zwgg/ywgg/ggjt/gjxldzgg/content/post_10396011.html) · [线路调整公告目录](https://jtj.gz.gov.cn/zwgg/ywgg/ggjt/gjxldzgg/)
+**时段、步速与雨天。** 本轮未取得各样本小学及园区可核实的 2026 接送时段通知。市教育局公开规则提供小学上午上课不早于 08:20 的背景，08:20 无法用作各校开门时间。07:20 是公交模型的统一出发时间。Li 等在中国小学周边对 579 名行人的过街观察区分独行成人、成人与儿童同行、儿童独行。过街速度与等待行为受同行和道路环境影响，研究没有提供可直接转用到猎德整段通学路线的儿童步速。猎德雨天与早高峰的排队、过街、拥挤及绕行需要重复计时。广州市防汛规则还表明，特定时段生效的暴雨红色预警可触发停课，这类日子应单独记录。普通雨天也可能改变路线或出行方式，目前没有猎德本地的延误估计。[广州小学作息规则](https://jyj.gz.gov.cn/gk/zfxxgkml/bmwj/qtwj/content/post_7742083.html) · [Li 等的校周过街观察](https://www.sciencedirect.com/science/article/pii/S1877042813021782) · [广州气象灾害防御规定](https://sfj.gz.gov.cn/xxgk/xxgkml/bmwj/zcfg/content/post_6491051.html)
 
-## 社会学解释
+**地图点位复核。** 猎德花园的高德起点在海文路 7 号，中海璟晖华庭使用猎德大道 31 号住宅点，南国花园使用平月路住宅点。南国花园北门旁商户可作为走访线索。 [地图线索](https://ditu.amap.com/place/B0FFFFKK9O)
 
-**Q1 · 小学和幼儿园的差异有多大？** 就各住宅样本到地段对应小学而言，最大与最小相差 549 米、约 7.3 分钟，三个地点都有相对短的步行路线。固定比较同一所小学，差异会放大。例如，到南国学校小学部的样本路线从 207 米到 1,986 米。最近公办幼儿园的差距约 5 分钟，到同一远端幼儿园的差距则可能超过 20 分钟。海报宜同时报告最近选项和同一目的地的差异。
+13 个基准高德 POI 编号复查所得坐标均与第一轮一致，这说明位置记录可复现。4 所小学的办学阶段和 6 处幼儿园的园区地址按区教育局文件核对。猎德实验学校是九年一贯制，使用高德全校点，分类标签显示中学。南国学校按高德小学部点位取平月路 200 号，教育局学校总表登记的是全校平月路 202 号。地图检索有小学部南门旁商户线索，未据此认定早上实际使用的门。金穗幼儿园本园与花城园区为同一园名下两个地址，按两个可到达园区计数。[小学名录](https://www.thnet.gov.cn/zwgk/ggqsydwxxgkzl/jyly/xx/content/post_8724023.html) · [九年一贯制学校名录](https://www.thnet.gov.cn/zwgk/ggqsydwxxgkzl/jyly/jnygzxx/content/post_8724037.html) · [南国学校小学部高德点](https://ditu.amap.com/place/B00141IKVW) · [小学部南门旁商户线索](https://ditu.amap.com/place/B0FFK71MCV) · [公办园名录与园区地址](https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10815546.html) · [民办园名录](https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10815624.html)
 
-**Q2 · 回迁和商品住宅是否表现一致？** 排序随园校位置变化。猎德花园在西南侧的猎德园校附近，中海在西北侧的万锦和兴国小学附近，南国花园靠近东侧的南国学校和力迅上筑。这体现了样本的**空间不平等（spatial inequality）**，即设施分布与住宅位置使同一目的地具有不同出行成本。样本只有一个回迁住宅点和两个商品住宅点，不能把排序推广到两类住房居民。
+### 公共交通与步行的取舍
 
-**Q3 · 最近与有资格申请的学校之间有什么差异？** 三个样本的最近小学与地址对应小学在本研究中重合。南国花园至海明小学也只有 6.5 分钟，但南国花园列在南国学校的地段，不能把两所学校都计为该地址的地段对口选择。幼儿园按办园类型比较时，中海从最近任一园到最近公办园多约 **5.0 分钟**，南国花园多约 **2.1 分钟**。这是选项范围变化后的路网差异。资格和录取仍取决于当年招生办法、家庭条件与学位。区教育局 2026 年小班计划列明，猎德幼儿园公开派位计划 135 个，其中业主子女类别 85 个，剩余随机派位 50 个。**教育可达性（educational accessibility）**还涉及家庭能否申请、负担及持续使用这个学位。[义务教育招生工作细则](https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10791180.html) · [幼儿园招生方案](https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10777181.html) · [幼儿园派位计划](https://www.thnet.gov.cn/gzjg/qzf/qjyj/zsks/content/post_10815546.html)
+高德网页版以 2026 年 11 月 12 日（周四）07:20 统一出发。30 条基准路线有 20 条返回可读方案，其中幼儿园路线有 12 条。中海到海明小学乘 138 路的模型步行部分约 253 米、全程 24 分钟，直接走约 1,722 米、23 分钟。中海到金穗花城园区乘地铁全程估计 23 分钟，比直接走少约 5.5 分钟，仍需走约 1 公里。路线选择可能在少走路、少花时间和支付票价之间取舍。附表列出网页显示的公交费用，家庭实际支出还取决于同行人数和乘车优惠。 [三轮路线附表](appendix/route-tables.md) · [广州地铁票务规则](https://www.gz.gov.cn/attachment/7/7792/7792262/10198954.pdf) · [广州市公交基础票价政策](https://fgw.gz.gov.cn/gkmlpt/content/9/9824/post_9824407.html)
 
-**Q4 · 哪些因素增加接送负担？** **交通负担（transportation burden）**包括步行与等车时间、过街、票价、换乘及接送时段的可预测性。07:20 早间模型下，中海到海明小学乘 138 路的步行部分为 253 米，总程 24 分钟，纯步行 1,722 米、约 23 分钟。中海到金穗花城园区则可乘地铁，模型总程 23 分钟，比纯步行约少 5.5 分钟，但仍需步行约 1 公里。对需要陪幼儿步行的家庭，少走路和省时间是不同收益。单次相差数分钟也可能累积，但每个家庭的往返次数、换人接送、返家或继续上班的路线均未测量。地铁 5 号线猎德—潭村按短程成人单程标准为 ¥2。公交表列平台显示的费用，家庭实际支出还受乘员、优惠与实乘线路影响。[广州地铁票务规则](https://www.gz.gov.cn/attachment/7/7792/7792262/10198954.pdf) · [广州市公交基础票价政策](https://fgw.gz.gov.cn/gkmlpt/content/9/9824/post_9824407.html)
+**公交时效和站名。** 市交通运输局 2026 年 10 月 30 日公告列明，**花城大道上的东行**公交猎德站列入改名计划，新名为花城大道（兴国路口）站，11 月 7 日起分批实施。第一轮将部分高德返回的「猎德」直接关联到该东行站，第二轮保留地图原名并限定官方改名范围。高德记录缺少可用于逐条对照的站台编号，环线方向应以实际站牌为准。另查到官方 777 路环线调整记录，涉及潭村方向的路段和站点。2026 年 11 月的网页规划结果可用于当前线路核对，到站时刻和班次可靠性仍需观测。部分地铁方案使用潭村 A 或 B 口，广州地铁无障碍指引将潭村 D 口列为地面至站厅的无障碍出入口，选用该入口可能改变步行部分。[广州地铁无障碍乘车指引](https://www.gz.gov.cn/attachment/7/7792/7792275/10648239.pdf) · [2026 年公交更名公告，第 44 行](https://jtj.gz.gov.cn/zwgg/ywgg/ggjt/gjxldzgg/content/post_11079212.html) · [777 路调整公告](https://jtj.gz.gov.cn/zwgg/ywgg/ggjt/gjxldzgg/content/post_10396011.html) · [线路调整公告目录](https://jtj.gz.gov.cn/zwgg/ywgg/ggjt/gjxldzgg/)
 
-**Q5 · 能否据此判断存在社会不平等？** 数据支持三个样本点到指定园校存在地理可达性差异，也支持三个样本都能较快走到至少一处公办园和各自地址对应小学。要判断这种差异是否系统性集中于资源较少或申请渠道受限的家庭，需要把实际接送负担与住房、家庭预算、招生资格及使用的学位联系起来。最小补证是同一上学时段重复走访不同楼栋和校门，并记录不同租住或自住、不同申请路径家庭的匿名接送和费用信息。[Geurs 与 van Wee 对可达性的空间、时段及个人约束框架](https://research.utwente.nl/en/publications/accessibility-evaluation-of-land-use-and-transport-strategies-rev/)
+### 每周接送负担情境
 
-## 局限与现场补证
+假设 5 个上学日，每天送、接各一段亲子同行，并用相同路线与时间近似往返。以原高德单程分钟数 t 为基准，**两段同行**每周是 10t。若家长送完返回住所、下午从住所出发去接，**四段**每周是 20t。若亲子段按 1.00 米／秒、成人独行按 1.25 米／秒，用 10 ×（距离 ÷ 1.00 + 距离 ÷ 1.25）换算成分钟。三种方式均为情境，未加入校门等待或候车变化。
 
-1. **取样范围。** 三个住宅各用一个起点，六处幼儿园是上一轮选定园区，十处教育点不是全量名录。阈值数量是样本计数，不能外推至整个猎德。可用不同楼栋和至少两个常用人行门检查结论是否随起点变动。
-2. **门与过街。** 高德估计无法反映儿童步速、路口信号、楼栋到小区门时间及临时封闭。建议在平日 07:30–08:00 实走三条对口小学路线，以及中海至万锦、猎德花园至金穗花城园区的关键路线，记录出入口、过街点、信号等候与实际到达时间。
-3. **公交模型。** 网页规划使用指定的出发时间，以展示的分钟数推算到达时间。没有实测候车、拥挤、运行波动或无障碍绕行。公交费用按显示值记录，现场可用站牌、票价牌或运营方公告核验。
-4. **资格与费用。** 地址对应与派位计划是制度信息。园区小中班实际保教费、伙食费、申请资格、申请成功与否及家庭实际接送安排仍需当年收费公示、匿名家长访谈或小组现场记录。访谈应区分自住与租住、不同申请渠道，并避免收集可识别儿童的信息。
+| 路线 | 单程地图估计 | 每周两段同行 | 每周四段，均用地图时间 | 每周四段，同行较慢 |
+|---|---:|---:|---:|---:|
+| 猎德花园 → 地段小学 | 5.9 分 | 59 分 | 118 分 | 133 分 |
+| 中海 → 地段小学 | 10.1 分 | 101 分 | 202 分 | 227 分 |
+| 南国花园 → 地段小学 | 2.8 分 | 28 分 | 55 分 | 62 分 |
 
-## Poster Summary
+若同样每天走两段同行、每周 5 天，选择冼村小学这个积分计划例，相对地段路线每周分别多约 **177、17、257 分钟**。这只说明例示目的地的差异可以重复累积。若每次成人乘车按模拟价 ¥2、全程一票且两方向同价，两段为 **¥20／周**、四段为 **¥40／周**。儿童票、优惠、接驳和替代交通均另计。若接送后直接去工作地，应测算「住所→学校→工作地」减「住所→工作地」，下午另算反向链条。工作的地点和排班未记录，无法套用回家模型。相同额外分钟数是否更难承受，还取决于弹性上班、交接窗口和是否可与他人分担。[累计负担情境表](data/round-3/commute-burden-scenarios.csv) · [广州地铁票务规则](https://www.gz.gov.cn/attachment/7/7792/7792262/10198954.pdf)
 
-We assessed transport access from three residential developments in Liede and nearby Zhujiang New Town to four public primary schools and six kindergarten campuses. Amap pedestrian routes put the nearest sampled kindergarten at 3.6–6.5 minutes on foot and the nearest public kindergarten at 3.6–8.6 minutes. Estimated walks to the public primary schools listed for the sampled addresses in Tianhe’s 2026 catchment plan took 2.8–10.1 minutes. Each was also the closest of the four sampled primary schools to its corresponding origin. Relative proximity varied by destination across resettlement and market housing. Admissions and fee rules can change which nearby places a family can use, while escort time and travel costs can affect whether that option is sustainable. Gate observations, current fee notices and household travel records are needed to assess how these burdens are distributed.
+## 社会学解释与现场补证
 
+### 住房样本与比较范围
 
-## 地图来源
+三个样本是有目的的空间比较，覆盖一个回迁住宅和两个不同位置的商品住宅。街道预算绩效材料报告猎德村 37 栋复建房并列出 **4,042 套出租屋**，足以说明回迁建筑内有租赁居住，未提供本研究住宅点的总户数、当前租住占比或收入分布。商品住宅的居住者也需要区分业主与租户。广州住建部门的 2025 租金参考价来自当年市场成交，可作片区住房成本背景，无法代替样本家庭实付租金或收入。本轮保留三个起点，优先在同一小区和相近楼栋比较业主与租户。若小组希望补一个不同住房供给的地点，街道材料记录渔民新村兼有安置和保障性住房，可作候选，先确认课程比较范围和该处的具体租住、产权条件后再决定是否纳入。三个点没有租赁家庭分母，无法支持阶层差异或住房类型的独立因果效应。[猎德街道预算项目绩效资料](https://www.thnet.gov.cn/attachment/8/8014/8014640/10787191.pdf) · [2025 年广州租金参考价及适用说明](https://zfcj.gz.gov.cn/zwgk/zsdwxxgkzl/gzsfwjyjgzx/zjckj/content/post_10744919.html)
 
-底图为 OpenStreetMap 道路、水系与绿地。高德地点标记经近似坐标转换后叠加在同一底图上。距离比例尺只用于读图。[OpenStreetMap © contributors · ODbL](https://www.openstreetmap.org/copyright) · [坐标转换方法参考](https://github.com/wandergis/coordTransform_py)
+### 从空间差异到教育机会
+
+- **Verified facts｜政策与可核实记录。** 同一地段存在不同的报名路径。普通地段、租赁统筹、来穗积分和港澳专项各自适用不同条件。街道材料也确认回迁楼存在出租住房。到同一校的地理距离可以在家庭身份改变时保持固定。
+- **Data-derived findings｜可复算的结果。** 原样本中近距离地段小学是一个正面发现，提示制度可以支持就近。积分名单的校名差异、小班业主优先规则和有差别的路线成本，支持「空间接近不足以判定机会相同」。南国花园的两个不同渠道可以指向同一校，显示制度差异也可能没有通学距离差。
+- **Sociological interpretation｜机制解释。** 空间不平等体现在同一学校离三个起点的距离不同。制度门槛则体现在产权、租赁备案、户籍或积分如何改变家庭的可申请集合。经济资本可能通过获取住房或支付保教费、交通费来影响该集合。若家庭能把这些资源持续转为较易获得或维持的教育机会，才构成可检验的社会再生产机制。
+- **Plausible but unverified｜待检验。** 工时不灵活的家长可能更难吸收等待，雨天可能改变接送方式，缴费可能让一部分家庭放弃近处学位。现有资料缺学校间实际入学构成、申请者分母与长期轨迹，不能判断学校隔离，也无法比较不同阶层的录取或就读机会。
+
+### 下一步优先核查
+
+1. **同地址家庭联结。** 同一住宅内访谈若干不同申请路径的家长，按匿名编号记录住房关系、户籍或渠道类别、申请过哪些学校、录取和实际就读校、放弃原因、净缴费用、接送方式。优先同小区业主与租户，可尽量固定空间条件。记录费用区间和工时弹性类别即可。避免收集姓名、证件号、完整门牌及可识别儿童资料。
+2. **短路线现场对照。** 先核南国花园→K7 两端人行入口，再走三条小学地段路线和中海→万锦。另选一条花城大道跨路路线，比较同一时段的平面过街和可通行的地下路线。最小记录为住宅门、实际接送门、学校门口公告的到校时段、纯走路、等灯、站台候车、校门排队、天气。一个普通上学日做早晚重复，另选适宜的普通降雨日复测。遇停课预警单列。与成人单独计时分开记录同行步速，避免把等待计入纯步速。
+3. **补证费用与实际安排。** 向小组成员收集 2026 当年园区收费公示或经匿名处理的收据，分别记录保教、伙食、托管与减免；如有合适样本，补匿名学位去向及学校实际作息。只有把这些与第一步按家庭或情境联结，才能分析交通差异何时转化为教育机会差异。
+
+## 海报内容与图表
+
+### 四条建议保留的发现
+
+| 海报发现 | 证据与写法 |
+|---|---|
+| **就近仍是三个地址的一个优势。** | 三所地段对应小学在原四校中分别最近，地图估计 2.8–10.1 分钟。注明地段条件和地图端点。 |
+| **招生渠道改变应当比较的目的地。** | 原四校未列入该年普通来穗公办积分名单。冼村小学有 5 个计划学位，同住址到这所志愿校的路线比对应校多约 1.7–25.7 分钟。用「一个志愿例」限定；港澳渠道单列。 |
+| **幼儿园的邻近性与申请路径可以分离。** | 同一住址到同一园的路线不变，K1 公布的 85 个业主子女名额与 50 个剩余随机派位名额对应不同路径。费用及实际派位仍未知。 |
+| **10 分钟内的公办覆盖对假设敏感。** | 原六园区，地图时间下 3／3，1.00 米／秒情境下 1／3。另在官方表查到两个遗漏园区，报告园区数量时标明采样范围。 |
+
+A1 建议保留原 [Figure 1 样本地图](figures/figure-1-educational-accessibility-map.png)，图注明是初始样本。主分析图用新增 [Admission channels change which walks matter](figures/figure-4-admission-channels-walking-time.png)，它已经包含原 Figure 3 的三个地段时间。原 [Figure 2](figures/figure-2-kindergarten-walking-access.png) 可放附录或缩小展示，并注明 *among the original six campuses* 及南国花园附近新增园仍待核实。空间允许时，用小表呈现 10 分钟阈值对比即可。
+
+### Transportation Accessibility Analysis
+
+We compared three residential locations in and around Liede using Amap walking routes and Tianhe’s 2026 admission documents. Each address-linked primary school was the closest of the four original primary-school sites, with estimated walks of 2.8 to 10.1 minutes. This shows that proximity and catchment assignment align for eligible households at these addresses. The ordinary migrant-points public primary plan listed none of those four schools. Xian Cun Primary, one listed option with five places, took an estimated 11.8 to 28.4 minutes to reach from the three origins. Compared with each address-linked school, the difference was 1.7 to 25.7 minutes. These contrasts compare possible destinations under distinct admission channels. At Liede Kindergarten, the published small-class plan recorded 85 places in the owner-child category and 50 for the remaining random allocation. For the original kindergarten sample, three origins had a public campus within ten minutes at Amap’s estimated pace, compared with one at an illustrative speed of 1.0 metres per second. Together, these results show how eligibility and walking conditions shape the choices visible on a map. Actual gate use, fees paid, school assignments and family travel patterns remain unobserved.
+
+### Methodological Limitations
+
+- Three purposively selected residential points and an incomplete school and kindergarten inventory.
+- Amap point-to-point estimates. Gate access, signal waits, weather effects and escort speeds were unmeasured.
+- Published catchments and intake plans identify application channels and planned places. Assignments, enrolment and admission rates were unobserved.
+- No household-level net fees, budgets or escort schedules. Weekly costs and slower walking speeds are illustrative scenarios.
+
+四张图统一放在 [figures](figures/)。原地图和原幼儿园步行图沿用六园区基准。 [原地段小学步行图](figures/figure-3-primary-school-walking-access.png)可用于只比较地址对应校的版面。底图来源为 OpenStreetMap 道路、水系与绿地，高德地点标记经近似坐标转换叠加。 [OpenStreetMap © contributors · ODbL](https://www.openstreetmap.org/copyright) · [坐标转换方法参考](https://github.com/wandergis/coordTransform_py)
+
+## 数据来源与复现
+
+| 资料 | 内容 |
+|---|---|
+| [第一轮原始 JSON](data/round-1/liede-transport-accessibility-2026.json) | 第一轮 18 条路线和点位，按原文件字节归档。 |
+| [第二轮完整 JSON](data/round-2/liede-accessibility-round-2.json) | 30 条基准路线、地点元数据与逐段路线。保留第一轮路线字段，增列 07:20 早间公交规划。 |
+| [第三轮高德原始响应](data/round-3/supplementary-amap.json) · [质控表](data/round-3/supplementary-route-audit.csv) | 9 条补查步行路线及原始返回，含已排除的路线。 |
+| [来穗公办积分学位计划](data/round-3/primary-migrant-points-plan-2026.csv) | 官方 XLS 的 Sheet1 第 4–13 行，第 14 行合计 315。下载件 SHA-256 为 3069a6d2be6dcebc8b64872265f448a7eb0de8bc92faa38749a932430c9b9807。 [官方 XLS](https://www.thnet.gov.cn/attachment/8/8040/8040292/10872346.xls) |
+| [家庭情境](data/round-3/household-scenarios.csv) · [步行阈值](data/round-3/threshold-sensitivity.csv) · [累计负担](data/round-3/commute-burden-scenarios.csv) | 政策情境与派生估算。缺值保留空白，0 用于已定义的零差或计数。 |
+| [三轮路线附表](appendix/route-tables.md) · [复现脚本](scripts/reproduce.py) | 单条路线链接、公交和复算入口。 |
+
+在本目录运行 python scripts/reproduce.py 可用第二轮 JSON 和第三轮原始响应生成四张派生 CSV 及图 4。只复算 CSV 时加 --no-figure。制图需要 matplotlib，第二轮 JSON 可通过 --round2 指定。第一轮原始 JSON 的 SHA-256 与第二轮记录一致。
+
+三轮报告的历史版本可在 Git 查看。 [两轮综合稿](https://github.com/alphakeeer/UCUG3801_Poster/blob/215557adfca45ca7f42a05e24df81240fa714892/04_工作区/研究分析/交通可达性/README.md) · [第三轮深化稿](https://github.com/alphakeeer/UCUG3801_Poster/blob/0aad50cbbf616e4bf0e8b09b06e993f58ce1d5f1/04_工作区/研究分析/交通可达性/round-3/research-report.md)
