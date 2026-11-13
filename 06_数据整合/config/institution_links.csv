@@ -1,0 +1,3 @@
+source_record_id,institution_id,match_status,match_basis
+E004-053,INS-KG-JINSUI,documented_operator_group,官方同园名与交通报告明确两个园区；统计为园区并保留原记录
+E004-054,INS-KG-JINSUI,documented_operator_group,官方同园名与交通报告明确两个园区；不合并物理园区

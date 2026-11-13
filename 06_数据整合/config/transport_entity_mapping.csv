@@ -1,0 +1,17 @@
+namespace,source_record_id,entity_type,entity_id,candidate_entity_id,match_status,confidence,match_basis,note
+transport,D1,residence,RES001,,matched,medium,开发项目名称与仓库住房研究一致,仅关联住宅项目；海文路POI不是五区定位点且不替代实际门牌
+transport,D2,residence,RES015,,matched,medium,正式名称一致；交通及住房研究分别记录猎德大道31和33号,保留门牌差异和独立位置点；不确认同一入口
+transport,D3,residence,RES018,,matched,high,交通原件独立记录南国花园,住房价格样本无此住宅；不得用尚东宏御代填
+transport,S1,campus,CAP-P01,,matched,high,官方名称和海清路海定街地址相符,全校POI不等于小学接送门
+transport,S2,campus,CAP-P03,,matched,high,官方名称和上筑街2号相符,OSM旧名位置另列暂定
+transport,S3,campus,CAP-P06,,matched,high,官方名称和兴国路26号相符,容量预警按适用年度核对
+transport,S4,campus,CAP-P02,,matched,medium,小学部名称与南国学校原件相符,小学部200号与全校202号分别保留；不是入口确认
+transport,S5,campus,CAP-P07,,matched,high,冼村小学名称与海安路5号相符,一个积分志愿例；不是实际录取
+transport,K1,campus,CAP-E004-052,,matched,high,正式名称与海月路33号相符,配套住宅清单未取得
+transport,K2,campus,CAP-E006-080,,matched,high,正式名称与猎德大道31号之六相符,园门未实测
+transport,K3,campus,CAP-E006-087,,matched,high,正式名称与金穗路68号相符,园门未实测
+transport,K4,campus,CAP-E006-074,,matched,high,正式名称与上筑街一号相符,园门未实测
+transport,K5,campus,CAP-E004-053,,matched,high,正式园名与金穗路73号相符,与花城园区分开
+transport,K6,campus,CAP-E004-054,,matched,high,正式园区名与平江路9号相符,与本园分开
+transport,K7,campus,,CAP-E004-036,unresolved,low,南国一街9号一致但高德仍用南国实验幼儿园旧名,仅候选；不自动关联第二实验幼儿园
+transport,K8,campus,CAP-E004-031,,matched,high,萃禾兴盛园区名和兴盛路6号之四与6-4号对应,尚东君御雅苑幼儿园别名保留；园门未实测
