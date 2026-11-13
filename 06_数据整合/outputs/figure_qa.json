@@ -1,0 +1,34 @@
+{
+  "analytical_coordinates": "EPSG:4326",
+  "data_version": "110405fcb9b0f38308bd347e2e5670103778d3617d2f6855f4338f9052a8bb0d",
+  "display_projection": "EPSG:32649, local origin 113.332E/23.121N",
+  "figures": [
+    {
+      "backend": "matplotlib",
+      "causal_or_population_inference": false,
+      "figure": "figure_A_housing_education",
+      "formats": [
+        "png",
+        "svg",
+        "pdf"
+      ],
+      "source_data": "figure_source_data/",
+      "statistical_tests": "none; purposeful case sample",
+      "text_outside_canvas": []
+    },
+    {
+      "backend": "matplotlib",
+      "causal_or_population_inference": false,
+      "figure": "figure_B_admission_accessibility",
+      "formats": [
+        "png",
+        "svg",
+        "pdf"
+      ],
+      "source_data": "figure_source_data/",
+      "statistical_tests": "none; purposeful case sample",
+      "text_outside_canvas": []
+    }
+  ],
+  "visual_review": "V1 visual inspection is recorded in ../VERIFICATION.md; repeat visual review after evidence changes"
+}

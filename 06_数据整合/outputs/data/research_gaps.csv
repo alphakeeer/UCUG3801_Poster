@@ -1,0 +1,99 @@
+﻿id,code,priority,subject_id,status,finding,needed_evidence,source_ids
+GAP-0e166ed0f5d5,LEGACY_G17,P1,G17,open,2026招生列独立园区，2025最终年检未同名独立匹配,核许可证与体育东路幼儿园主体对应关系,"[""E006"",""E058-A001""]"
+GAP-0ec7bf58d6d8,CAMPUS_POSITION_MISSING,P0,CAP-E004-013,open,No accepted campus reference coordinate,Verify campus identity and location; preserve unresolved candidates,"[""E004""]"
+GAP-0f0f1d8511cf,LEGACY_G13,P1,G13,open,未采匿名家庭预算、申请及接送记录,自愿成年家长交流及真实路线审计,"[""E003"",""E002"",""E030""]"
+GAP-10d43df349fd,CAMPUS_POSITION_MISSING,P0,CAP-E006-073,open,No accepted campus reference coordinate,Verify campus identity and location; preserve unresolved candidates,"[""E006""]"
+GAP-117711bfec42,LEGACY_G14,P1,G14,open,缺学业增值、升学及职业纵向结果,教育机会和近期负担作为现阶段解释对象,"[""E002"",""E017""]"
+GAP-12117e589695,LEGACY_G05,P1,G05,open,一般业主优先已核，逐园配套住宅清单待核,取得园校公布名单及材料条件,"[""E003"",""E004""]"
+GAP-17411297df36,ACTUAL_FEE_MISSING,P0,CAP-E004-045,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E004""]"
+GAP-1af0d5fa2978,LEGACY_G06,P1,G06,open,网页2026-07-03，正文落款2025-07-03，附件为2025年度结论,核发文元数据或主管部门更正,"[""E058"",""E058-A001""]"
+GAP-1d371c55e8c9,ACTUAL_FEE_MISSING,P0,CAP-P04,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E026""]"
+GAP-1e6748d7e447,ACTUAL_FEE_MISSING,P0,CAP-P10,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E027""]"
+GAP-1f1bb70d70be,ACTUAL_FEE_MISSING,P0,CAP-E006-074,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E006""]"
+GAP-266291af23b0,RESIDENCE_POSITION_MISSING,P0,RES012,open,No accepted residence reference coordinate,Add a sourced coordinate with position role; do not use a nearby development,[]
+GAP-2e4ea502e364,RESIDENCE_POSITION_MISSING,P0,RES013,open,No accepted residence reference coordinate,Add a sourced coordinate with position role; do not use a nearby development,[]
+GAP-34f096476afc,CAMPUS_POSITION_MISSING,P0,CAP-E004-057,open,No accepted campus reference coordinate,Verify campus identity and location; preserve unresolved candidates,"[""E004""]"
+GAP-3596bc98cf87,ACTUAL_FEE_MISSING,P0,CAP-E004-031,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E004""]"
+GAP-3875c2290dd8,RESIDENCE_POSITION_MISSING,P0,RES004,open,No accepted residence reference coordinate,Add a sourced coordinate with position role; do not use a nearby development,[]
+GAP-394201a07f53,RESIDENCE_POSITION_MISSING,P0,RES014,open,No accepted residence reference coordinate,Add a sourced coordinate with position role; do not use a nearby development,[]
+GAP-39992628bd21,CAMPUS_POSITION_MISSING,P0,CAP-E004-042,open,No accepted campus reference coordinate,Verify campus identity and location; preserve unresolved candidates,"[""E004""]"
+GAP-3bc24a9c4b04,ACTUAL_FEE_MISSING,P0,CAP-E006-060,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E006""]"
+GAP-3c98c38d267b,CAMPUS_POSITION_MISSING,P0,CAP-P05,open,No accepted campus reference coordinate,Verify campus identity and location; preserve unresolved candidates,"[""E026""]"
+GAP-3dd2b4d690d1,RESIDENCE_POSITION_MISSING,P0,RES008,open,No accepted residence reference coordinate,Add a sourced coordinate with position role; do not use a nearby development,[]
+GAP-40301634c2c2,LEGACY_G03,P1,G03,open,30园区已列核验状态，缺当期原价和附加收费公示,采2026收费目录、年龄班及实际减免,"[""E006"",""E039"",""E010""]"
+GAP-4192f0590dd3,RESIDENCE_POSITION_MISSING,P0,RES007,open,No accepted residence reference coordinate,Add a sourced coordinate with position role; do not use a nearby development,[]
+GAP-4291ca573ccc,UNRESOLVED_ENTITY,P0,transport:K7,open,南国一街9号一致但高德仍用南国实验幼儿园旧名,仅候选；不自动关联第二实验幼儿园,[]
+GAP-47210b2175fb,SOURCE_COVERAGE,P1,commercial_housing_quotes,open,Many commercial quotations have repository extracts but no archived original response,GPT Work may supply sourced records; keep reported values and temporal definitions,[]
+GAP-49f01432a441,NO_OUTCOME_DATA,P1,all_household_scenarios,open,"No observed household allocation, budget or actual commute is present",Keep policy pathways and modeled burdens separate from outcomes,[]
+GAP-4ca5dc352f1a,CAMPUS_POSITION_MISSING,P0,CAP-E006-114,open,No accepted campus reference coordinate,Verify campus identity and location; preserve unresolved candidates,"[""E006""]"
+GAP-4cdabb5a1a95,LEGACY_G18,P1,G18,open,新昌及新蕾批复已取，实际可下浮且需扣补助,补当期缴费公示和减免核算,"[""E052"",""E054"",""E055"",""E030""]"
+GAP-4cf9a2595084,CAMPUS_POSITION_MISSING,P0,CAP-E006-095,open,No accepted campus reference coordinate,Verify campus identity and location; preserve unresolved candidates,"[""E006""]"
+GAP-4dbd0326017d,ACTUAL_FEE_MISSING,P0,CAP-E006-095,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E006""]"
+GAP-4fd02ce30bcb,ACTUAL_FEE_MISSING,P0,CAP-E004-052,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E004""]"
+GAP-506a80a510e6,RESIDENCE_POSITION_MISSING,P0,RES009,open,No accepted residence reference coordinate,Add a sourced coordinate with position role; do not use a nearby development,[]
+GAP-513e5e51361b,ACTUAL_FEE_MISSING,P0,CAP-P06,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E026""]"
+GAP-52579efd87a0,HOUSING_SAMPLE_MISSING,P0,RES018,open,Residence exists in transport research but not the frozen housing sample,Add comparable housing evidence or retain missing values,[]
+GAP-56642058d0df,ACTUAL_FEE_MISSING,P0,CAP-E004-013,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E004""]"
+GAP-573733c2710f,LEGACY_G16,P1,G16,open,2024指标附件已归档，2026市级核定细则待独立核查,补2026市区申请指引及指标变更记录,"[""E049"",""E049-A001"",""E030""]"
+GAP-6375dc33ca17,LEGACY_G12,P2,G12,retired_scope_erratum,当前以猎德与利民为候选，课程指定社区仍待确认,No two-community requirement; obsolete task retained only for audit,"[""E018"",""E024""]"
+GAP-67fb7d9bfc0d,CAMPUS_POSITION_MISSING,P0,CAP-E006-059,open,No accepted campus reference coordinate,Verify campus identity and location; preserve unresolved candidates,"[""E006""]"
+GAP-6b2258cadeac,ACTUAL_FEE_MISSING,P0,CAP-E006-061,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E006""]"
+GAP-6cde7140fdb6,LEGACY_G01,P1,G01,open,地图为2022公开预览，未取得现行权威矢量界线及校门坐标,补可靠矢量或带来源的研究描绘、统一坐标及实地校门,"[""E018"",""E041"",""E043""]"
+GAP-6e1b3596cec1,CAMPUS_POSITION_MISSING,P0,CAP-E005-032,open,No accepted campus reference coordinate,Verify campus identity and location; preserve unresolved candidates,"[""E005""]"
+GAP-7632f38f35b5,LEGACY_G10,P1,G10,open,员村及北侧学校含可能超2公里者,地理编码后按固定范围筛选,"[""E026"",""E027"",""E028""]"
+GAP-7cac4ec4529e,CAMPUS_POSITION_MISSING,P0,CAP-E004-036,open,No accepted campus reference coordinate,Verify campus identity and location; preserve unresolved candidates,"[""E004""]"
+GAP-7d39a74533ba,ACTUAL_FEE_MISSING,P0,CAP-P11,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E026""]"
+GAP-7f063bae8802,CAMPUS_POSITION_MISSING,P0,CAP-E006-060,open,No accepted campus reference coordinate,Verify campus identity and location; preserve unresolved candidates,"[""E006""]"
+GAP-8230e624e0c3,ACTUAL_FEE_MISSING,P0,CAP-P12,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E027""]"
+GAP-8844530daa3b,ACTUAL_FEE_MISSING,P0,CAP-E006-059,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E006""]"
+GAP-8a4a781ae094,ACTUAL_FEE_MISSING,P0,CAP-P08,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E026""]"
+GAP-8e9795712380,ACTUAL_FEE_MISSING,P0,CAP-E005-015,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E005""]"
+GAP-8f44304b6522,ACTUAL_FEE_MISSING,P0,CAP-E006-087,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E006""]"
+GAP-97026b5423e2,RESIDENCE_POSITION_MISSING,P0,RES006,open,No accepted residence reference coordinate,Add a sourced coordinate with position role; do not use a nearby development,[]
+GAP-9b223b989b7f,ACTUAL_FEE_MISSING,P0,CAP-E006-073,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E006""]"
+GAP-9b58a5ae085c,CAMPUS_POSITION_MISSING,P0,CAP-E006-108,open,No accepted campus reference coordinate,Verify campus identity and location; preserve unresolved candidates,"[""E006""]"
+GAP-9c78043c2b00,RESIDENCE_POSITION_MISSING,P0,RES010,open,No accepted residence reference coordinate,Add a sourced coordinate with position role; do not use a nearby development,[]
+GAP-9e87927646c1,CAMPUS_POSITION_MISSING,P0,CAP-E005-015,open,No accepted campus reference coordinate,Verify campus identity and location; preserve unresolved candidates,"[""E005""]"
+GAP-9ee8df2bc963,RESIDENCE_POSITION_MISSING,P0,RES002,open,No accepted residence reference coordinate,Add a sourced coordinate with position role; do not use a nearby development,[]
+GAP-a8cdfe3d3ff5,ACTUAL_FEE_MISSING,P0,CAP-P13,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E026""]"
+GAP-afdf50c2518b,ACTUAL_FEE_MISSING,P0,CAP-P02,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E027""]"
+GAP-aff2710378bc,RESIDENCE_POSITION_MISSING,P0,RES016,open,No accepted residence reference coordinate,Add a sourced coordinate with position role; do not use a nearby development,[]
+GAP-b0d16a361182,ACTUAL_FEE_MISSING,P0,CAP-E006-105,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E006""]"
+GAP-b584f43941ba,CAMPUS_POSITION_MISSING,P0,CAP-E004-043,open,No accepted campus reference coordinate,Verify campus identity and location; preserve unresolved candidates,"[""E004""]"
+GAP-b65de0e688a1,LEGACY_G02,P1,G02,open,计划数据完整，缺校级匿名报名数和最终就读汇总,取得校级汇总，按对象及计划包含关系核算,"[""E004"",""E030""]"
+GAP-b837bba0298e,CAMPUS_POSITION_MISSING,P0,CAP-E006-025,open,No accepted campus reference coordinate,Verify campus identity and location; preserve unresolved candidates,"[""E006""]"
+GAP-b8b2a2cf3718,LEGACY_G09,P1,G09,open,2022表中一项为冼村街道/德街道,补最新正式校区地址及归属,"[""E026""]"
+GAP-b93738db0768,ACTUAL_FEE_MISSING,P0,CAP-E004-043,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E004""]"
+GAP-bacf4dfb32e2,ACTUAL_FEE_MISSING,P0,CAP-E006-079,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E006""]"
+GAP-bb22fb256ce3,HOUSING_HASH_LINE_ENDINGS,P1,housing_csv,open,"Historical report hash matches CRLF representation, while the checkout uses LF",Retain both byte hashes; current input manifest pins checkout bytes; do not rewrite original,[]
+GAP-bd1ea269771a,LEGACY_G11,P2,G11,archive_available_multipart,图集117947103字节，超过100MiB常见远端单文件阈值,远端提交前安排Git LFS或无损分卷，校验原始哈希,"[""E016-A001""]"
+GAP-becc969747ee,ACTUAL_FEE_MISSING,P0,CAP-P05,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E026""]"
+GAP-c1b029dc60d3,ACTUAL_FEE_MISSING,P0,CAP-P03,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E026""]"
+GAP-c4ffb2ba7935,ACTUAL_FEE_MISSING,P0,CAP-E006-108,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E006""]"
+GAP-cda5ae010175,ACTUAL_FEE_MISSING,P0,CAP-E004-042,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E004""]"
+GAP-ce870353ed52,ACTUAL_FEE_MISSING,P0,CAP-E006-078,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E006""]"
+GAP-d00863ea9bf7,ACTUAL_FEE_MISSING,P0,CAP-E004-057,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E004""]"
+GAP-d0179901d7a0,LEGACY_G07,P1,G07,open,2024名录和初步年检有名，2025活动报道，2026登报清算，2026小班未同名检出,核许可证注销、承接主体及现场公告,"[""E053"",""E059-A001"",""E057"",""E056"",""E006""]"
+GAP-d289ccece959,CAMPUS_POSITION_MISSING,P0,CAP-E006-061,open,No accepted campus reference coordinate,Verify campus identity and location; preserve unresolved candidates,"[""E006""]"
+GAP-d5e0429f26a6,ACTUAL_FEE_MISSING,P0,CAP-E005-032,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E005""]"
+GAP-d8057a835065,CAMPUS_POSITION_MISSING,P0,CAP-E006-072,open,No accepted campus reference coordinate,Verify campus identity and location; preserve unresolved candidates,"[""E006""]"
+GAP-d9176c1489d6,ACTUAL_FEE_MISSING,P0,CAP-E006-072,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E006""]"
+GAP-d9d017a20301,CAMPUS_POSITION_MISSING,P0,CAP-E006-079,open,No accepted campus reference coordinate,Verify campus identity and location; preserve unresolved candidates,"[""E006""]"
+GAP-da670750c8eb,ACTUAL_FEE_MISSING,P0,CAP-E004-041,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E004""]"
+GAP-da6daf7994b6,LEGACY_G08,P1,G08,open,2026招生教民144010660001802，年检表原值1400010660001802,核许可证或教育行政许可,"[""E006"",""E058-A001""]"
+GAP-dc1652e11f84,ACTUAL_FEE_MISSING,P0,CAP-E004-053,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E004""]"
+GAP-e0be5e9abf18,CAMPUS_POSITION_MISSING,P0,CAP-E004-041,open,No accepted campus reference coordinate,Verify campus identity and location; preserve unresolved candidates,"[""E004""]"
+GAP-e0eee188739f,ACTUAL_FEE_MISSING,P0,CAP-E004-054,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E004""]"
+GAP-e2aa8f3581a1,LEGACY_G04,P1,G04,open,2026国企办3班，系统及社会名额分配未取得,补园所正式简章、社会人数及系统条件,"[""E005"",""E003""]"
+GAP-e3057bcdbfdf,RESIDENCE_POSITION_MISSING,P0,RES017,open,No accepted residence reference coordinate,Add a sourced coordinate with position role; do not use a nearby development,[]
+GAP-e911e2a7a195,RESIDENCE_POSITION_MISSING,P0,RES005,open,No accepted residence reference coordinate,Add a sourced coordinate with position role; do not use a nearby development,[]
+GAP-eaf97b2a8efe,ACTUAL_FEE_MISSING,P0,CAP-E004-036,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E004""]"
+GAP-ef9b3287f4bc,ACTUAL_FEE_MISSING,P0,CAP-E006-024,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E006""]"
+GAP-f0d16c27a4b1,ACTUAL_FEE_MISSING,P0,CAP-P09,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E026""]"
+GAP-f2cb31504380,ACTUAL_FEE_MISSING,P0,CAP-E006-114,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E006""]"
+GAP-f48735e8bee3,ACTUAL_FEE_MISSING,P0,CAP-E006-021,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E006""]"
+GAP-f5b3d14dd7f2,ACTUAL_FEE_MISSING,P0,CAP-E006-080,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E006""]"
+GAP-f9f5b3aa0694,ACTUAL_FEE_MISSING,P0,CAP-P07,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E026""]"
+GAP-fa577d6db38b,ACTUAL_FEE_MISSING,P0,CAP-P01,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E027""]"
+GAP-fbda23336208,CAMPUS_POSITION_MISSING,P0,CAP-E006-024,open,No accepted campus reference coordinate,Verify campus identity and location; preserve unresolved candidates,"[""E006""]"
+GAP-fd507657e721,ACTUAL_FEE_MISSING,P0,CAP-E006-025,open,Frozen campus status table has no 2026 published tuition/care amount,Obtain campus fee schedule and extra charges; imported evidence remains separately traceable,"[""E006""]"

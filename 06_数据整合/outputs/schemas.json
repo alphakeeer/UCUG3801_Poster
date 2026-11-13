@@ -1,0 +1,2493 @@
+{
+  "accessibility_comparisons": {
+    "fields": [
+      {
+        "name": "id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "residence_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "origin_legacy_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "campus_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "channel",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "rule_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "route_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "baseline_route_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "walk_minutes",
+        "nullable": false,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "baseline_minutes",
+        "nullable": false,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "additional_minutes",
+        "nullable": false,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "policy_year",
+        "nullable": false,
+        "value_types": [
+          "int"
+        ]
+      },
+      {
+        "name": "eligibility",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "actual_admission",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "actual_commute",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "analytical_eligible",
+        "nullable": false,
+        "value_types": [
+          "bool"
+        ]
+      },
+      {
+        "name": "source_ids",
+        "nullable": false,
+        "value_types": [
+          "list"
+        ]
+      },
+      {
+        "name": "interpretation_boundary",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      }
+    ],
+    "primary_key": "id",
+    "row_count": 9
+  },
+  "admission_evidence": {
+    "fields": [
+      {
+        "name": "id",
+        "nullable": false,
+        "value_types": []
+      },
+      {
+        "name": "subject_id",
+        "nullable": false,
+        "value_types": []
+      },
+      {
+        "name": "subject_type",
+        "nullable": false,
+        "value_types": []
+      },
+      {
+        "name": "stage",
+        "nullable": false,
+        "value_types": []
+      },
+      {
+        "name": "reference_period",
+        "nullable": false,
+        "value_types": []
+      },
+      {
+        "name": "claim",
+        "nullable": false,
+        "value_types": []
+      },
+      {
+        "name": "source_id",
+        "nullable": false,
+        "value_types": []
+      },
+      {
+        "name": "source_locator",
+        "nullable": false,
+        "value_types": []
+      },
+      {
+        "name": "verification_status",
+        "nullable": false,
+        "value_types": []
+      },
+      {
+        "name": "note",
+        "nullable": false,
+        "value_types": []
+      }
+    ],
+    "primary_key": "id",
+    "row_count": 0
+  },
+  "admission_plans": {
+    "fields": [
+      {
+        "name": "id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "subject_type",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "subject_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "stage",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "intake_grade",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "policy_year",
+        "nullable": false,
+        "value_types": [
+          "int"
+        ]
+      },
+      {
+        "name": "metric",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "value",
+        "nullable": false,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "unit",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "plan_category",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "source_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "source_locator",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "source_path",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "note",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      }
+    ],
+    "primary_key": "id",
+    "row_count": 73
+  },
+  "admission_rules": {
+    "fields": [
+      {
+        "name": "id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "legacy_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "stage",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "intake_grade",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "policy_year",
+        "nullable": false,
+        "value_types": [
+          "int"
+        ]
+      },
+      {
+        "name": "eligibility_text",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "pathway",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "original_scope",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "source_ids",
+        "nullable": false,
+        "value_types": [
+          "list"
+        ]
+      },
+      {
+        "name": "source_locator",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "verification_status",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "actual_admission",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "interpretation_boundary",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      }
+    ],
+    "primary_key": "id",
+    "row_count": 9
+  },
+  "campus_admission_rules": {
+    "fields": [
+      {
+        "name": "id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "campus_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "rule_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "applicability",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "policy_year",
+        "nullable": false,
+        "value_types": [
+          "int"
+        ]
+      },
+      {
+        "name": "note",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      }
+    ],
+    "primary_key": "id",
+    "row_count": 47
+  },
+  "district_primary_points_plan": {
+    "fields": [
+      {
+        "name": "id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "school_name",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "value",
+        "nullable": false,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "unit",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "policy_year",
+        "nullable": false,
+        "value_types": [
+          "int"
+        ]
+      },
+      {
+        "name": "source_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "source_locator",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "note",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      }
+    ],
+    "primary_key": "id",
+    "row_count": 10
+  },
+  "education_campuses": {
+    "fields": [
+      {
+        "name": "id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "institution_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "legacy_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "name",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "campus_name",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "stage",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "ownership",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "organizer_raw",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "inclusive_status",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "address",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "address_year",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "admission_year",
+        "nullable": false,
+        "value_types": [
+          "int"
+        ]
+      },
+      {
+        "name": "spatial_status",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "preferred_position_id",
+        "nullable": true,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "source_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "source_locator",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "verification_status",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "note",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      }
+    ],
+    "primary_key": "id",
+    "row_count": 43
+  },
+  "education_fees": {
+    "fields": [
+      {
+        "name": "id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "stage",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "campus_id",
+        "nullable": true,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "metric",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "value",
+        "nullable": true,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "unit",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "value_status",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "amount_relation",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "evidence_type",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "reference_period",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "evidence_year",
+        "nullable": false,
+        "value_types": [
+          "int"
+        ]
+      },
+      {
+        "name": "applicability",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "target_raw",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "source_ids",
+        "nullable": false,
+        "value_types": [
+          "list"
+        ]
+      },
+      {
+        "name": "source_path",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "source_locator",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "verification_status",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "actual_charge",
+        "nullable": false,
+        "value_types": [
+          "bool"
+        ]
+      },
+      {
+        "name": "note",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      }
+    ],
+    "primary_key": "id",
+    "row_count": 62
+  },
+  "entity_crosswalk": {
+    "fields": [
+      {
+        "name": "id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "namespace",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "source_record_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "entity_type",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "entity_id",
+        "nullable": true,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "candidate_entity_id",
+        "nullable": true,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "match_status",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "confidence",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "match_basis",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "note",
+        "nullable": true,
+        "value_types": [
+          "str"
+        ]
+      }
+    ],
+    "primary_key": "id",
+    "row_count": 76
+  },
+  "escort_scenarios": {
+    "fields": [
+      {
+        "name": "id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "origin_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "destination_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "one_way_amap_walk_minutes",
+        "nullable": false,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "days",
+        "nullable": false,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "escort_legs_per_day",
+        "nullable": false,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "weekly_minutes_two_escort_legs_amap",
+        "nullable": false,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "weekly_minutes_four_legs_amap",
+        "nullable": false,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "weekly_minutes_four_legs_mixed_1mps_escort_1_25mps_solo",
+        "nullable": false,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "amap_0720_one_way_transit_minutes",
+        "nullable": true,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "amap_0720_one_adult_boarding_cny",
+        "nullable": true,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "scenario_weekly_fare_10_adult_boardings",
+        "nullable": true,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "scenario_weekly_fare_20_adult_boardings",
+        "nullable": true,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "evidence_type",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "source_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      }
+    ],
+    "primary_key": "id",
+    "row_count": 12
+  },
+  "evidence_matrix": {
+    "fields": [
+      {
+        "name": "id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "finding",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "supporting_data",
+        "nullable": false,
+        "value_types": [
+          "list"
+        ]
+      },
+      {
+        "name": "source_ids",
+        "nullable": false,
+        "value_types": [
+          "list"
+        ]
+      },
+      {
+        "name": "evidence_kind",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "interpretation_boundary",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "limitation",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      }
+    ],
+    "primary_key": "id",
+    "row_count": 8
+  },
+  "fee_applicability": {
+    "fields": [
+      {
+        "name": "id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "campus_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "fee_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "status",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "note",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      }
+    ],
+    "primary_key": "id",
+    "row_count": 24
+  },
+  "household_scenarios": {
+    "fields": [
+      {
+        "name": "id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "residence_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "origin_legacy_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "stage",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "profile",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "campus_id",
+        "nullable": true,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "destination_legacy_id",
+        "nullable": true,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "conditions",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "eligibility_status",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "actual_admission",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "affordability",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "walk_minutes",
+        "nullable": true,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "source_ids",
+        "nullable": false,
+        "value_types": [
+          "list"
+        ]
+      },
+      {
+        "name": "source_locator",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "evidence_type",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "note",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      }
+    ],
+    "primary_key": "id",
+    "row_count": 30
+  },
+  "housing_education_links": {
+    "fields": [
+      {
+        "name": "id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "residence_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "campus_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "institution_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "stage",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "ownership",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "route_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "walk_minutes",
+        "nullable": false,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "distance_m",
+        "nullable": false,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "sale_reference_cny_m2",
+        "nullable": true,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "sale_status",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "sale_observation_ids",
+        "nullable": false,
+        "value_types": [
+          "list"
+        ]
+      },
+      {
+        "name": "rent_cny_month",
+        "nullable": true,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "rent_cny_m2_month",
+        "nullable": true,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "rule_ids",
+        "nullable": false,
+        "value_types": [
+          "list"
+        ]
+      },
+      {
+        "name": "fee_ids",
+        "nullable": false,
+        "value_types": [
+          "list"
+        ]
+      },
+      {
+        "name": "eligibility",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "actual_admission",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "note",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      }
+    ],
+    "primary_key": "id",
+    "row_count": 36
+  },
+  "housing_observations": {
+    "fields": [
+      {
+        "name": "id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "residence_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "metric",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "value",
+        "nullable": false,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "unit",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "reference_period",
+        "nullable": true,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "observed_on",
+        "nullable": true,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "area_m2",
+        "nullable": true,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "total_ask_cny",
+        "nullable": true,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "evidence_type",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "verification_status",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "comparable_sale",
+        "nullable": false,
+        "value_types": [
+          "bool"
+        ]
+      },
+      {
+        "name": "source_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "source_path",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "source_locator",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "conflict_status",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "note",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      }
+    ],
+    "primary_key": "id",
+    "row_count": 58
+  },
+  "import_quarantine": {
+    "fields": [
+      {
+        "name": "id",
+        "nullable": false,
+        "value_types": []
+      },
+      {
+        "name": "fact_id",
+        "nullable": false,
+        "value_types": []
+      },
+      {
+        "name": "input_file",
+        "nullable": false,
+        "value_types": []
+      },
+      {
+        "name": "input_row",
+        "nullable": false,
+        "value_types": []
+      },
+      {
+        "name": "reason",
+        "nullable": false,
+        "value_types": []
+      },
+      {
+        "name": "original_record",
+        "nullable": false,
+        "value_types": []
+      }
+    ],
+    "primary_key": "id",
+    "row_count": 0
+  },
+  "institutions": {
+    "fields": [
+      {
+        "name": "id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "name",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "linkage_status",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "basis",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      }
+    ],
+    "primary_key": "id",
+    "row_count": 41
+  },
+  "positions": {
+    "fields": [
+      {
+        "name": "id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "entity_id",
+        "nullable": true,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "candidate_entity_id",
+        "nullable": true,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "position_role",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "original_longitude",
+        "nullable": false,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "original_latitude",
+        "nullable": false,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "original_crs",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "longitude",
+        "nullable": false,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "latitude",
+        "nullable": false,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "crs",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "transform",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "verification_status",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "source_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "source_locator",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "note",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "gate_verified",
+        "nullable": false,
+        "value_types": [
+          "bool"
+        ]
+      }
+    ],
+    "primary_key": "id",
+    "row_count": 39
+  },
+  "research_gaps": {
+    "fields": [
+      {
+        "name": "id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "code",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "priority",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "subject_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "status",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "finding",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "needed_evidence",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "source_ids",
+        "nullable": false,
+        "value_types": [
+          "list"
+        ]
+      }
+    ],
+    "primary_key": "id",
+    "row_count": 98
+  },
+  "residence_cost_summary": {
+    "fields": [
+      {
+        "name": "id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "residence_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "name",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "english_name",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "preferred_position_id",
+        "nullable": true,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "sale_reference_cny_m2",
+        "nullable": true,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "sale_status",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "sale_observation_ids",
+        "nullable": false,
+        "value_types": [
+          "list"
+        ]
+      },
+      {
+        "name": "rent_cny_month",
+        "nullable": true,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "rent_status",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "rent_observation_ids",
+        "nullable": false,
+        "value_types": [
+          "list"
+        ]
+      },
+      {
+        "name": "rent_cny_m2_month",
+        "nullable": true,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "unit_rent_status",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "unit_rent_observation_ids",
+        "nullable": false,
+        "value_types": [
+          "list"
+        ]
+      },
+      {
+        "name": "note",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      }
+    ],
+    "primary_key": "id",
+    "row_count": 18
+  },
+  "residences": {
+    "fields": [
+      {
+        "name": "id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "name",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "english_name",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "source_name",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "address",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "housing_description",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "construction_year_raw",
+        "nullable": true,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "research_group",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "has_housing_sample",
+        "nullable": false,
+        "value_types": [
+          "bool"
+        ]
+      },
+      {
+        "name": "preferred_position_id",
+        "nullable": true,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "housing_evidence_status",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "note",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      }
+    ],
+    "primary_key": "id",
+    "row_count": 18
+  },
+  "source_registry": {
+    "fields": [
+      {
+        "name": "id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "canonical_source_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "title",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "url",
+        "nullable": true,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "document_date",
+        "nullable": true,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "publication_date",
+        "nullable": true,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "retrieved_at",
+        "nullable": true,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "local_file",
+        "nullable": true,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "reference_path",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "sha256",
+        "nullable": true,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "availability",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "source_kind",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "provenance_status",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "note",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      }
+    ],
+    "primary_key": "id",
+    "row_count": 223
+  },
+  "transport_routes": {
+    "fields": [
+      {
+        "name": "id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "residence_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "campus_id",
+        "nullable": true,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "candidate_campus_id",
+        "nullable": true,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "origin_legacy_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "destination_legacy_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "origin_position_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "destination_position_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "route_date",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "mode",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "distance_m",
+        "nullable": false,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "duration_s",
+        "nullable": false,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "model_speed_mps",
+        "nullable": false,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "length_check_passed",
+        "nullable": false,
+        "value_types": [
+          "bool"
+        ]
+      },
+      {
+        "name": "quality",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "analytical_eligible",
+        "nullable": false,
+        "value_types": [
+          "bool"
+        ]
+      },
+      {
+        "name": "exclusion_reason",
+        "nullable": true,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "endpoint_chord_m",
+        "nullable": true,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "actual_trip_observed",
+        "nullable": false,
+        "value_types": [
+          "bool"
+        ]
+      },
+      {
+        "name": "gate_verified",
+        "nullable": false,
+        "value_types": [
+          "bool"
+        ]
+      },
+      {
+        "name": "source_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "source_path",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "source_locator",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "route_url",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "morning_transit_minutes",
+        "nullable": true,
+        "value_types": [
+          "int"
+        ]
+      },
+      {
+        "name": "morning_adult_fare_cny",
+        "nullable": true,
+        "value_types": [
+          "int"
+        ]
+      },
+      {
+        "name": "transit_model_departure",
+        "nullable": true,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "note",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      }
+    ],
+    "primary_key": "id",
+    "row_count": 39
+  },
+  "verified_facts": {
+    "fields": [
+      {
+        "name": "id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "fact_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "subject_type",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "subject_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "predicate",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "value",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "unit",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "reference_period",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "stage",
+        "nullable": true,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "source_id",
+        "nullable": true,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "source_url",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "source_title",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "source_locator",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "evidence_type",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "verification_status",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "verified_on",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "verified_by",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "notes",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "input_file",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "input_sha256",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "input_row",
+        "nullable": false,
+        "value_types": [
+          "int"
+        ]
+      },
+      {
+        "name": "resolved_source_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "integration_status",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "local_verification",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "duplicate_copies_ignored",
+        "nullable": false,
+        "value_types": [
+          "int"
+        ]
+      }
+    ],
+    "primary_key": "id",
+    "row_count": 1
+  },
+  "walking_sensitivity": {
+    "fields": [
+      {
+        "name": "id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "origin_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "coverage",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "category",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "scenario",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "speed_mps",
+        "nullable": true,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "added_distance_m",
+        "nullable": false,
+        "value_types": [
+          "int"
+        ]
+      },
+      {
+        "name": "added_delay_s",
+        "nullable": false,
+        "value_types": [
+          "int"
+        ]
+      },
+      {
+        "name": "threshold_min",
+        "nullable": false,
+        "value_types": [
+          "int"
+        ]
+      },
+      {
+        "name": "sample_count",
+        "nullable": false,
+        "value_types": [
+          "int"
+        ]
+      },
+      {
+        "name": "reachable_ids",
+        "nullable": false,
+        "value_types": [
+          "list"
+        ]
+      },
+      {
+        "name": "closest_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "closest_minutes",
+        "nullable": false,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "evidence_type",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "source_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "source_ids",
+        "nullable": false,
+        "value_types": [
+          "list"
+        ]
+      }
+    ],
+    "primary_key": "id",
+    "row_count": 648
+  }
+}

@@ -1,0 +1,3 @@
+﻿id,entity_id,candidate_entity_id,position_role,original_longitude,original_latitude,original_crs,longitude,latitude,crs,transform,verification_status,source_id,source_locator,note,gate_verified
+POS-OSM-P03,,CAP-P03,campus_centroid,113.33709078140959,23.11780028609079,WGS84,113.33709078140959,23.11780028609079,EPSG:4326,identity,provisional_alias,URL-f6f3984c519c,P03,地图旧名为东校区，校区别名与实际入口待进一步核验,false
+POS-AMAP-K7,,CAP-E004-036,transport_destination_poi,113.344192,23.114168,GCJ-02,113.33874103,23.11673861,EPSG:4326,gcj_iterative_inverse_v1,provisional_alias,URL-1bbf2b33e979,K7,仅候选；不自动关联第二实验幼儿园; 南国一街9号(潭村地铁站A口步行370米),false
