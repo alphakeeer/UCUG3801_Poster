@@ -203,6 +203,28 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(len(ctx.tables["import_quarantine"]),2)
         self.assertTrue(all(r["reason"]=="conflicting_duplicate_fact_id" for r in ctx.tables["import_quarantine"]))
 
+    def test_conflicting_feed_rebuilds_without_duplicate_gap_ids(self):
+        with tempfile.TemporaryDirectory(prefix="liede-conflict-e2e-") as directory:
+            folder = Path(directory)
+            inbox = folder/"inbox"
+            inbox.mkdir()
+            with (inbox/"facts.csv").open("w",encoding="utf-8-sig",newline="") as handle:
+                writer = csv.DictWriter(handle,fieldnames=FACT_FIELDS)
+                writer.writeheader()
+                writer.writerows([self.fact(),self.fact(value="9999")])
+            ctx,report,_ = build(ROOT,MODULE,folder/"output",inbox,False)
+            self.assertTrue(report["passed"])
+            self.assertEqual(len(ctx.tables["import_quarantine"]),2)
+            gaps = [g for g in ctx.gaps if g["code"]=="IMPORT_REVIEW"]
+            self.assertEqual(len(gaps),1)
+            self.assertEqual(gaps[0]["occurrences"],2)
+
+    def test_quarantine_ids_do_not_depend_on_checkout_path(self):
+        a,b = self.context(),self.context()
+        self.feed(a,[self.fact(subject_id="unresolved")])
+        self.feed(b,[self.fact(subject_id="unresolved")])
+        self.assertEqual(a.tables["import_quarantine"][0]["id"],b.tables["import_quarantine"][0]["id"])
+
     def test_conflicting_price_is_not_averaged_or_overwritten(self):
         ctx = self.context()
         self.feed(ctx,[self.fact(subject_id="RES015",predicate="housing_reference_price_cny_m2",

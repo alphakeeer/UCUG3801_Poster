@@ -1,6 +1,6 @@
 # Table C - Cross-domain evidence matrix
 
-Data version: `110405fcb9b0f38308bd347e2e5670103778d3617d2f6855f4338f9052a8bb0d`.
+Data version: `a821cbd2717d338db09a87718909dccc1a4845a5e166fbdcff9418899b212fd9`.
 
 Each data reference uses `table:id` and resolves to a row in `data/<table>.csv`.
 
@@ -67,4 +67,3 @@ Each data reference uses `table:id` and resolves to a row in `data/<table>.csv`.
 - Sources: `LOCAL-1da7e56b7ed4`
 - Interpretation boundary: Archive retention does not imply analytical eligibility
 - Limitation: K7 legacy name and physical gates remain unresolved
-

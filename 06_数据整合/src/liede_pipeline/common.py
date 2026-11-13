@@ -79,9 +79,19 @@ class Context:
     def gap(self, code: str, priority: str, subject: str, finding: str,
             needed: str, sources: list[str] | None = None,
             status: str = "open") -> None:
-        self.gaps.append(dict(id=stable_id("GAP-", code, subject), code=code,
+        key = stable_id("GAP-", code, subject)
+        existing = next((r for r in self.gaps if r["id"]==key),None)
+        if existing:
+            existing["occurrences"] += 1
+            existing["source_ids"] = sorted(set(existing["source_ids"]+(sources or [])))
+            if finding not in existing["finding"]:
+                existing["finding"] += " | "+finding
+            if needed not in existing["needed_evidence"]:
+                existing["needed_evidence"] += " | "+needed
+            return
+        self.gaps.append(dict(id=key, code=code,
             priority=priority, subject_id=subject, status=status, finding=finding,
-            needed_evidence=needed, source_ids=sources or []))
+            needed_evidence=needed, source_ids=sources or [],occurrences=1))
 
 
 def write_json(path: Path, value: object) -> None:

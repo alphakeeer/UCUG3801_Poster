@@ -122,7 +122,7 @@ def _validate_fact(ctx,r,local):
 
 
 def _quarantine(ctx,r,path,n,reason):
-    ctx.table("import_quarantine").append(dict(id=stable_id("QUAR-",str(path),n,r),
+    ctx.table("import_quarantine").append(dict(id=stable_id("QUAR-",path.name,digest(path),n,r),
         fact_id=r.get("fact_id",""),input_file=path.name,input_row=n,
         reason=reason,original_record=r))
     ctx.gap("IMPORT_REVIEW","P0",r.get("fact_id",""),reason,"Resolve entity/source/unit or fact conflict; no automatic matching")

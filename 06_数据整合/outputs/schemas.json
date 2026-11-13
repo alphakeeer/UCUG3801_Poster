@@ -1679,6 +1679,13 @@
         "value_types": [
           "list"
         ]
+      },
+      {
+        "name": "occurrences",
+        "nullable": false,
+        "value_types": [
+          "int"
+        ]
       }
     ],
     "primary_key": "id",

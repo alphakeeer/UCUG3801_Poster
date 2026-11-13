@@ -2,11 +2,11 @@
 
 核验日期：2026-11-13。此记录仅对应下面的数据版本；后续补证、映射或绘图代码变化后，应重新执行检查并视觉核对。
 
-数据版本：`110405fcb9b0f38308bd347e2e5670103778d3617d2f6855f4338f9052a8bb0d`。
+数据版本：`a821cbd2717d338db09a87718909dccc1a4845a5e166fbdcff9418899b212fd9`。
 
 ## 自动及干净检出复现
 
-- 31项标准库unittest回归测试通过，包括完整补证重建、未知实体、重复事实冲突、坐标冲突、来源ID冲突、非法单位/数值、初中排除、共享计划去重、缺失/零值和原件保护。
+- 33项标准库unittest回归测试通过，包括完整补证重建、未知实体、重复事实冲突、坐标冲突、来源ID冲突、非法单位/数值、初中排除、共享计划去重、缺失/零值和原件保护。
 - 构建时367项输入、来源及关系检查通过；完整validate连同生成物哈希和版本检查共411项通过，失败数0。
 - 使用仅含已提交模块代码的独立干净detached worktree，先建立该工作区保护基线，再运行同一all和validate入口。
 - 与当前证据包比较，44个输出文件的SHA-256全部一致，包括25张CSV、JSON质量/版本/字段信息、Markdown交接文件、图件源数据及6份PNG/SVG/PDF。
@@ -28,10 +28,10 @@
 |---|---|
 | `figure_A_housing_education.pdf` | `1ebbd469af18625acbd0455a91f492d6e2f877e58d16b2c19d9ca9b68dfbaa8c` |
 | `figure_A_housing_education.png` | `d9f98bd4830bc92a15b1eaa570502f5c0c8c81c15efdbfb69963ef1f3e1a2fec` |
-| `figure_A_housing_education.svg` | `7463561a1a7eb486ba33f0416cd6918686e4abd2a96f90f345d83510e9938624` |
+| `figure_A_housing_education.svg` | `505d9b1fb95a9d3a1abce5ef029fca6722d5542ae224b74c8442ae0cfd836ed2` |
 | `figure_B_admission_accessibility.pdf` | `357ec2fc457a400e8a29cd538cc0409e6f7d19311671a34a6e1393b41711dd2d` |
 | `figure_B_admission_accessibility.png` | `e08f3bf4e8c2cfb431c2eda291379fff531935b546f39d8d497246b7a4634f13` |
-| `figure_B_admission_accessibility.svg` | `e0a279ac10e2dffcd5021c254be4127a44a7d5af6138432ede57e6936632a17b` |
+| `figure_B_admission_accessibility.svg` | `880e1d469ae79b2448984f4f46646196e442e7229ace8f4a9a831449fb9de69c` |
 
 ## 已知限制
 

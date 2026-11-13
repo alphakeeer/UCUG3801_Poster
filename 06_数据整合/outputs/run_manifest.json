@@ -1,8 +1,8 @@
 {
   "artifact_sha256": {
     "FIGURE_LEGENDS.md": "51176dd511fbb5de4341d95f59bdb19466c223d6b7933a48353d6c584cbfa5c9",
-    "HANDOFF.md": "6b69e6a74f90d7f9cc693806cd7352dee474f0480c7906f7e285e5fceb6fd918",
-    "QUALITY_SUMMARY.md": "8e16189c5b39b7d4f43449d615d0a2bbe4d9268ce3eb98479addab9475ce9a93",
+    "HANDOFF.md": "c31c0af2316239f81c76a10dbaaf56744ad2654bf06bf832a37996c175b69a44",
+    "QUALITY_SUMMARY.md": "d6ba3e2cded755ad83874c592b6b503a23494df9a82d953bbdee70b7ca1e02e5",
     "data/accessibility_comparisons.csv": "cb1a1b797a6ac0e3e9c44dc1d635081f790d71e3bfa6a2107db7bf503d5582f7",
     "data/admission_evidence.csv": "e20f240d96bd36abdeb5bda1074fe9414fd0648cd8f7828c9294c2af1445872c",
     "data/admission_plans.csv": "107b4b771bee5c9dade8aff7a4aa46a31f739013618e9534feb2b8266d68b973",
@@ -21,14 +21,14 @@
     "data/import_quarantine.csv": "013dc2b52b1250301f9a21c687770c6f49e4d8c4520c3877721a1f834e45a20f",
     "data/institutions.csv": "7b5679c757ccc7e2a81eb4bd527a9fb8a514527676970f00b0cc107800d91337",
     "data/positions.csv": "7fb3f169d679606bb89e0f0519e5e43caef4e7d52ecfaee5c5937a7e71b472a8",
-    "data/research_gaps.csv": "0adfb87fd910ae628eddb3fbb8e023b0901a9959f7425ba9ff6e2e333a9ed794",
+    "data/research_gaps.csv": "73ed2b5b386c51c7e752d98312809ffadf2b2efd722fb8d672f7bf657911745c",
     "data/residence_cost_summary.csv": "df929088ece0cb7e21c9f32ab5f5390bd1ddf9eb4b3554bb241646319051f09b",
     "data/residences.csv": "344122bc3bb04dfe3e84738f972b1fdfc81038db301baed3773015d98d71e485",
     "data/source_registry.csv": "b7103624cc14b74b000e73f435996f3e455e94aca5abfb961dd110e4bcaa3ac6",
     "data/transport_routes.csv": "e15abcff11db731906c7ba2954f3eee83198a4bd83f11ee39d59fc09985d31d8",
     "data/verified_facts.csv": "c4637d483bc3e854678bbbb57efdaad91709e0b73975cbf2ae68d05e3c2a0d6c",
     "data/walking_sensitivity.csv": "fa28d77b63747f9898519892a84898584d193acd97db60d62c61bee20cdaf53e",
-    "figure_qa.json": "772ad31c79a51b4cbb5f394a342b0451aec93675167d5d9938ccad32097a8e4d",
+    "figure_qa.json": "580e821854a18abef036fd4254004806fd6227896a9516e3a4780509d74adee9",
     "figure_source_data/figure_A_campuses.csv": "fdbff5b90d2f8081416e61c8f82e746e47be75660d00a45f5a58640c5fd16e26",
     "figure_source_data/figure_A_housing.csv": "8e179e71903c0680d20d8309f8bfaa071400fdca7f4046e1f1903288dff1e88c",
     "figure_source_data/figure_A_unresolved.csv": "fa1eed6f511fdd25d8a48c8286eeec34ec866fe5c112b6a912fb709abaf325b6",
@@ -36,19 +36,19 @@
     "figure_source_data/figure_B_housing_context.csv": "2b08ca565ac218560004613c43b05f898c73b9922d1ce9e16a6584e393bf2d56",
     "figures/figure_A_housing_education.pdf": "1ebbd469af18625acbd0455a91f492d6e2f877e58d16b2c19d9ca9b68dfbaa8c",
     "figures/figure_A_housing_education.png": "d9f98bd4830bc92a15b1eaa570502f5c0c8c81c15efdbfb69963ef1f3e1a2fec",
-    "figures/figure_A_housing_education.svg": "7463561a1a7eb486ba33f0416cd6918686e4abd2a96f90f345d83510e9938624",
+    "figures/figure_A_housing_education.svg": "505d9b1fb95a9d3a1abce5ef029fca6722d5542ae224b74c8442ae0cfd836ed2",
     "figures/figure_B_admission_accessibility.pdf": "357ec2fc457a400e8a29cd538cc0409e6f7d19311671a34a6e1393b41711dd2d",
     "figures/figure_B_admission_accessibility.png": "e08f3bf4e8c2cfb431c2eda291379fff531935b546f39d8d497246b7a4634f13",
-    "figures/figure_B_admission_accessibility.svg": "e0a279ac10e2dffcd5021c254be4127a44a7d5af6138432ede57e6936632a17b",
+    "figures/figure_B_admission_accessibility.svg": "880e1d469ae79b2448984f4f46646196e442e7229ace8f4a9a831449fb9de69c",
     "quality_report.json": "e0729a9846a1d76efda56328dbf8c85702efbd603befd4f9d20aa668d8576999",
-    "schemas.json": "53f5668b088cc5debc1afd759b08659c1a661e0b45b320e7de0cfa6ff300ca90",
-    "table_C_evidence_matrix.md": "5100471777cef3cd1b8a96a52efe8b3d10b9c5bc86fee54bc262302ec0ab7c56"
+    "schemas.json": "41f6200a2d485245e267693e2ad36179f72741843f77baef3eeff4e4f4945dfa",
+    "table_C_evidence_matrix.md": "1e23ebd29a2efdab9c190e8e8f58cb25f7c9bee3caf7d7005ddec5bdcb75b9ec"
   },
   "data_scope": [
     "primary",
     "kindergarten"
   ],
-  "data_version": "110405fcb9b0f38308bd347e2e5670103778d3617d2f6855f4338f9052a8bb0d",
+  "data_version": "a821cbd2717d338db09a87718909dccc1a4845a5e166fbdcff9418899b212fd9",
   "generated_files_semantics": "Deterministic snapshots; no current-time value is substituted for historical dates",
   "inputs": {
     "03_背景/原始资料/W5_Ren-2020_Urban-Villages.pdf": "31c84d5a7c09d7e98bf7dd5ed620b3b838d40c41a72cd3828d211b74131507e8",

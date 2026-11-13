@@ -101,6 +101,7 @@
 - `external_declared_verified`表示GPT Work输入声明已核实，本模块没有重新上网研究。其未提供本地原件时仍为 `reference_only`。
 - `supporting_data`中的 `table:id`可直接定位到输出CSV的主键；证据矩阵的每项引用都经外键检查。
 - `research_gaps.status`包括 `open`、`supplemented_requires_review`、`retired_scope_erratum`及 `archive_available_multipart`。历史G12已在新层退役，原缺口表不改动；历史G15初中分流不进入当前缺口任务。
+- `research_gaps.occurrences`记录同一问题被登记的次数，避免重复事实冲突产生重复主键；所有冲突原始行仍分别保留在待核表，不合并其数值或作事实裁决。
 
 ## 七、推荐连接顺序
 

@@ -75,7 +75,7 @@ def write_package(ctx, destination, version,report):
             "- Sources: "+", ".join("`"+s+"`" for s in r["source_ids"]),
             "- Interpretation boundary: "+r["interpretation_boundary"],
             "- Limitation: "+r["limitation"],""]
-    (destination/"table_C_evidence_matrix.md").write_text("\n".join(lines)+"\n")
+    (destination/"table_C_evidence_matrix.md").write_text("\n".join(lines).rstrip()+"\n")
     _handoff(ctx,destination,version,report)
 
 
