@@ -51,9 +51,9 @@
 - `ownership`为 `public`、`education_department`、`private`、`other_department`；`organizer_raw`保留原词。`inclusive_status`保留普惠原字段，未记载为 `not_recorded`，不转换成false。
 - `housing_description`是带证据限制的住房类型摘录，不是逐套不动产登记，也不是住户收入或阶层。
 - `confidence`为 `high` / `medium` / `low`的人工对应等级，**不是概率**。`matched`仅表示同一参考对象的关联可采用，不代表同一入口或每项属性均已核实。
-- `unresolved`的 `entity_id`为空，候选放在 `candidate_entity_id`；如K7旧名，不能使用候选ID偷偷加入综合分析。
+- `unresolved`的 `entity_id`为空，候选放在 `candidate_entity_id`；不能将候选偷偷纳入分析。K7本轮经WORK-G01同址、同POI证据门槛，人工映射改为matched；园门或配套范围仍未核实。
 - `institutions.linkage_status=documented_operator_group`表示仓库已有同一举办主体/园名多园区的记录，不代替法律主体登记；其他同名疑似关系保留各自对象。
-- `position_role`区分 `residential_phase_reference`、`development_reference`、`campus_centroid`、`campus_reference`、`transport_origin_poi`、`transport_destination_poi`、`verified_gate`。
+- `position_role`区分 `residential_phase_reference`、`development_reference`、`campus_centroid`、`campus_reference`、`transport_origin_poi`、`transport_destination_poi`、`management_office_poi`、`verified_gate`。管理处角色不替代路线起点。
 - `original_longitude`、`original_latitude`、`original_crs`保留原值。`longitude`、`latitude`统一为WGS84经纬度，`crs=EPSG:4326`，经度在前。`transform`指明identity或版本化GCJ迭代逆变换。
 - GCJ数值往返检查仅检验算法实现；不证明实地定位精度。图件使用EPSG:32649米制投影，未把展示XY回填为经纬度。
 - `gate_verified=false`为既有位置的默认状态。旧数据没有园校门实测。新增外部 `verified_gate`记录仍需保留其外部声明来源。
@@ -113,3 +113,29 @@
 6. 报告引用从 `evidence_matrix`开始，逐条追踪数据ID、来源ID及解释边界。
 
 上游来源与实体已被固定登记，下游不得按中文名称模糊连接、用候选位置覆盖正式对象、把同源副本当新增样本或将费用缺失填零。
+
+## 八、2026-11-13补证新增表及字段
+
+| 表/字段 | 含义与连接 |
+|---|---|
+| `work_evidence` | 一行一条原格式证据，45条；`id=WORK-原evidence_id`。不是45条全部已核实或45个独立来源 |
+| `work_evidence.subject_ids` | 明确关联的规范ID列表；规则、园区、住宅按类型分开，不按相似名称补全 |
+| `work_evidence.entity_resolution` | `explicit_reviewed_mapping`表示显式关联；`unresolved_institution`表示机构层对象未可靠对应，不下分园区 |
+| `work_evidence.verification_status` | 原核验标签原样保留，如官方确认、未核实、历史线索、政策推定、仅索引且版本冲突；不统一为verified |
+| `work_evidence.snapshot_source_ids` | 本地8份补证载体的来源ID；不代表引用网页完整原件均已归档 |
+| `work_evidence.integration_action` | 中文采用方式；`verification_boundary`说明未重新上网核验 |
+| `work_evidence.input_file/input_sha256/input_row` | 原路径、字节哈希及CSV行号；`checked_cst`核验日期与适用时期分开 |
+| `admission_conditions` | 7条明确条件；`rule_id`关联原招生类别，`household_category`为细分情境代码，不是真实家庭分类结果 |
+| `plan_corroboration` | 4园区交叉核对结果，`plan_ids`关联原总数、业主、剩余派位三条记录；不再追加计划 |
+| `work_evidence_id` | 新住房、路线、费用、细分规则和招生注释的原补证外键 |
+| `housing_education_links.admission_condition_ids` | 该园校规则对应的细分条件列表；是规则背景，不代表路线起点的家庭已符合条件 |
+| `housing_education_links.admission_evidence_ids` | 与该路线住宅、园区或规则明确关联的补证注释ID |
+| `transport_routes.sample_scope` | 本轮三条新增为 `targeted_supplement_20261113`；原39条另按2026-11-12日期识别。旧敏感性不自动扩展 |
+
+本轮新增南国花园住房观察5行：两条月租、各自的单位面积月租、一个出售挂牌单价，实际只有3个房源例证。不能把5行当作5套住宅。两条租盘不同日期、面积，汇总租金留空，状态为 `conflicting_or_multiple_periods`，不意味着两份广告互相矛盾。`comparable_sale=false`也用于本轮个案挂牌，表示不进入小区参考价展示，并非断言南国花园产权异常。
+
+新增费用 `conditional_care_fee` 为2026情境推定995元/月，`historical_care_fee`及 `historical_meal_fee`为2024转载995元/月和20元/日。三者的 `actual_charge` 均为false，不填2026实际收费。F05/F07机构层信息只在补证表保留，禁止指定K7园区金额。
+
+保留英文机器字段、状态代码和稳定ID，中文报告与图件负责解释，不对原始来源进行翻译改写。
+
+`residences.has_housing_sample`仅指最初冻结住房CSV是否收录，不随补证改写。南国花园本轮 `housing_evidence_status=supplemented_individual_listings_aggregate_missing` 表示已补个案挂牌、汇总仍缺，不能将原样本标志false误读为完全没有住房证据。

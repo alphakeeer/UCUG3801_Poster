@@ -30,6 +30,8 @@ class PipelineTests(unittest.TestCase):
             ctx.tables[name] = []
         for name in ["housing_observations","education_fees","positions"]:
             ctx.tables[name] = [r for r in ctx.tables[name] if not r["id"].startswith("FACT-")]
+        # 通用导入单元测试隔离本轮两条住房挂牌；原补证另有完整回归测试。
+        ctx.tables["housing_observations"] = [r for r in ctx.tables["housing_observations"] if not r["id"].startswith("WORK-H")]
         return ctx
 
     def feed(self,ctx,rows,second=None):
@@ -65,8 +67,8 @@ class PipelineTests(unittest.TestCase):
         self.assertTrue(report["passed"],[c for c in report["checks"] if not c["passed"]])
 
     def test_expected_grains(self):
-        expected = {"residences":18,"education_campuses":43,"transport_routes":39,
-                    "housing_education_links":36,"accessibility_comparisons":9}
+        expected = {"residences":18,"education_campuses":43,"transport_routes":42,
+                    "housing_education_links":41,"accessibility_comparisons":9,"work_evidence":45}
         for name,count in expected.items():
             self.assertEqual(len(self.original.tables[name]),count,name)
 
@@ -90,13 +92,14 @@ class PipelineTests(unittest.TestCase):
     def test_transport_only_residence_has_no_invented_housing_crosswalk(self):
         self.assertFalse(any(r["namespace"]=="housing_csv" and r["entity_id"]=="RES018" for r in self.original.tables["entity_crosswalk"]))
 
-    def test_unresolved_k7_never_joins(self):
+    def test_supported_k7_identity_does_not_rehabilitate_bad_route(self):
         x = next(r for r in self.original.tables["entity_crosswalk"] if r["namespace"]=="transport" and r["source_record_id"]=="K7")
-        self.assertEqual(x["entity_id"],"")
-        self.assertEqual(x["match_status"],"unresolved")
+        self.assertEqual(x["entity_id"],"CAP-E004-036")
+        self.assertEqual(x["match_status"],"matched")
+        self.assertIn("WORK-G01",x["match_basis"])
         routes = [r for r in self.original.tables["transport_routes"] if r["destination_legacy_id"]=="K7"]
         self.assertEqual(len(routes),3)
-        self.assertTrue(all(not r["analytical_eligible"] for r in routes))
+        self.assertEqual({r["origin_legacy_id"]:r["analytical_eligible"] for r in routes},{"D1":True,"D2":True,"D3":False})
 
     def test_invalid_length_retained_and_excluded(self):
         r = next(r for r in self.original.tables["transport_routes"] if r["id"]=="ROUTE-D3-K7-20261112-walk")
@@ -158,7 +161,8 @@ class PipelineTests(unittest.TestCase):
             ctx,report,_ = build(ROOT,MODULE,folder/"output",inbox,False)
             self.assertTrue(report["passed"])
             row = next(r for r in ctx.tables["residence_cost_summary"] if r["id"]=="RES018")
-            self.assertEqual(row["rent_cny_month"],12345)
+            self.assertIsNone(row["rent_cny_month"])  # 原两条挂牌和新事实并存，不自动选值。
+            self.assertTrue(any(r["id"]=="FACT-TEST-NANGUO-RENT" for r in ctx.tables["housing_observations"]))
             self.assertTrue(all(c["passed"] for c in validate_package(folder/"output")))
 
     def test_unknown_entity_is_not_fuzzy_matched(self):
@@ -298,6 +302,56 @@ class PipelineTests(unittest.TestCase):
             self.assertTrue(check_protected(root,module)["passed"])
             original.write_text("changed test fixture\n")
             self.assertFalse(check_protected(root,module)["passed"])
+
+    def test_work_labels_and_years_are_not_promoted(self):
+        rows = {r["id"]:r for r in self.original.tables["work_evidence"]}
+        self.assertEqual(rows["WORK-H01"]["verification_status"],"仅索引且版本冲突")
+        self.assertEqual(rows["WORK-F09"]["verification_status"],"政策推定")
+        self.assertEqual(rows["WORK-F10"]["applicable_year_or_period"],"2024")
+        self.assertEqual(rows["WORK-F07"]["subject_ids"],[])
+        self.assertEqual(rows["WORK-F05"]["entity_resolution"],"unresolved_institution")
+
+    def test_work_listings_do_not_invent_aggregate(self):
+        rows=[r for r in self.original.tables["housing_observations"] if r["residence_id"]=="RES018"]
+        self.assertEqual(len(rows),5)
+        self.assertEqual({r["value"] for r in rows if r["metric"]=="rent_cny_m2_month"},{69.07,72.5})
+        self.assertFalse(any(r["metric"]=="market_reference_sale_cny_m2" for r in rows))
+        summary=next(r for r in self.original.tables["residence_cost_summary"] if r["id"]=="RES018")
+        self.assertIsNone(summary["sale_reference_cny_m2"])
+        self.assertIsNone(summary["rent_cny_month"])
+
+    def test_work_fee_estimate_and_history_never_fill_actual(self):
+        rows=[r for r in self.original.tables["education_fees"] if r["id"].startswith("WORK-")]
+        self.assertEqual(len(rows),3)
+        self.assertTrue(all(not r["actual_charge"] for r in rows))
+        self.assertEqual({r["evidence_year"] for r in rows},{2024,2026})
+        self.assertTrue(all(r["value"] is None for r in self.original.tables["education_fees"] if r["id"].startswith("FEE-ACTUAL-E004-")))
+
+    def test_work_targeted_routes_preserve_original_sample(self):
+        rows=[r for r in self.original.tables["transport_routes"] if r["route_date"]=="2026-11-13"]
+        self.assertEqual(len(rows),3)
+        self.assertTrue(all(r["distance_m"]>=r["endpoint_chord_m"] for r in rows))
+        hb=next(r for r in rows if r["destination_legacy_id"]=="HB")
+        self.assertEqual((hb["distance_m"],hb["duration_s"]),(298,238))
+        self.assertEqual(len(self.original.tables["walking_sensitivity"]),648)
+        self.assertFalse(any("HB" in r["reachable_ids"] or "HW" in r["reachable_ids"] for r in self.original.tables["walking_sensitivity"]))
+
+    def test_work_positions_and_d2_address_roles_stay_separate(self):
+        positions={r["id"]:r for r in self.original.tables["positions"]}
+        a,b=positions["POS-AMAP-D2"],positions["POS-WORK-D2-MGMT"]
+        self.assertNotEqual(a["position_role"],b["position_role"])
+        self.assertNotEqual(a["longitude"],b["longitude"])
+        self.assertFalse(any(p["gate_verified"] for p in positions.values()))
+        for campus in ["CAP-E004-036","CAP-E005-032","CAP-E006-072"]:
+            self.assertTrue(next(r["preferred_position_id"] for r in self.original.tables["education_campuses"] if r["id"]==campus))
+
+    def test_work_lease_rules_and_plan_grains(self):
+        conditions={r["id"]:r for r in self.original.tables["admission_conditions"]}
+        self.assertIn("2025-09-01",conditions["COND-tenant_standard_lease"]["conditions"])
+        self.assertIn("2029-08-31",conditions["COND-tianhe_tenant_alternative"]["conditions"])
+        self.assertIn("统筹",conditions["COND-relocation_coordinated"]["interpretation_boundary"])
+        self.assertEqual(len(self.original.tables["plan_corroboration"]),4)
+        self.assertEqual(len(self.original.tables["admission_plans"]),73)
 
 
 if __name__=="__main__":

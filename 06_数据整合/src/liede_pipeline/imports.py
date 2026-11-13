@@ -125,7 +125,7 @@ def _quarantine(ctx,r,path,n,reason):
     ctx.table("import_quarantine").append(dict(id=stable_id("QUAR-",path.name,digest(path),n,r),
         fact_id=r.get("fact_id",""),input_file=path.name,input_row=n,
         reason=reason,original_record=r))
-    ctx.gap("IMPORT_REVIEW","P0",r.get("fact_id",""),reason,"Resolve entity/source/unit or fact conflict; no automatic matching")
+    ctx.gap("IMPORT_REVIEW","P0",r.get("fact_id",""),reason,"核对实体、来源、单位或事实冲突；不自动模糊匹配")
 
 
 def _apply(ctx,r,source,status):
@@ -141,7 +141,7 @@ def _apply(ctx,r,source,status):
                 area_m2=None,total_ask_cny=None,evidence_type=r["evidence_type"],verification_status=status,
                 comparable_sale=r["subject_id"] not in {"RES001","RES017"},source_id=source,
                 source_path="import:"+r["fact_id"],source_locator=r["source_locator"],conflict_status="no_adjudication",
-                note=r["notes"]+"; Imported evidence is appended; original observations remain"))
+                note=r["notes"]+"；导入证据仅追加，原观察继续保留"))
         else:
             ctx.table("education_fees").append(dict(id="FACT-"+r["fact_id"],stage=r["stage"],campus_id=r["subject_id"],
                 metric=metric,value=value,unit=unit,value_status="externally_reported_verified",amount_relation="stated",
@@ -150,7 +150,7 @@ def _apply(ctx,r,source,status):
                 applicability=r["notes"],target_raw="",source_ids=[source],source_path="import:"+r["fact_id"],
                 source_locator=r["source_locator"],verification_status=status,
                 actual_charge=predicate in {"tuition_cny_term","care_fee_cny_month","meal_fee_cny_month"} and r["evidence_type"] in {"published_fee_schedule","actual_receipt"},
-                note="Published schedule or reported charge; not automatically an observed household payment"))
+                note="公示收费或报告金额，不自动视为家庭实际缴费"))
     elif predicate=="coordinate_wgs84":
         value = json.loads(r["value"])
         lon,lat = number(value["longitude"]),number(value["latitude"])
@@ -167,12 +167,12 @@ def _apply(ctx,r,source,status):
         p["gate_verified"] = role=="verified_gate" and not conflict
         ctx.table("positions").append(p)
         if conflict:
-            ctx.gap("COORDINATE_CONFLICT","P0",r["subject_id"],"Same-role coordinate disagrees with existing evidence",
-                    "Review both positions; existing default retained",[source])
+            ctx.gap("COORDINATE_CONFLICT","P0",r["subject_id"],"同角色坐标与现有证据不一致",
+                    "同时核对两个位置，暂保留原默认点",[source])
     elif predicate=="admission_note":
         ctx.table("admission_evidence").append(dict(id="FACT-"+r["fact_id"],subject_id=r["subject_id"],
             subject_type=r["subject_type"],stage=r["stage"],reference_period=r["reference_period"],
             claim=r["value"],source_id=source,source_locator=r["source_locator"],verification_status=status,
-            note="Append-only evidence; eligibility logic requires explicit review before changing scenarios"))
+            note="追加文本证据；修改情境资格逻辑前须明确核对"))
     else:
         ctx.gap("EXTERNAL_GAP","P1",r["subject_id"],r["value"],r["notes"],[source])

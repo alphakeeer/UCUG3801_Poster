@@ -1,24 +1,26 @@
-# Data quality summary
+# 数据质量摘要
 
-Data version: `a821cbd2717d338db09a87718909dccc1a4845a5e166fbdcff9418899b212fd9`.
+数据版本：`93ed10bfdc2fc0ed24265ebc2ffbfc34ee76b66b124f262caa49b04928f7ff6f`。
 
-Automated checks: 367; failures: 0.
-Open gaps by priority: {'P0': 78, 'P1': 18}.
-All gap statuses: {'archive_available_multipart': 1, 'open': 96, 'retired_scope_erratum': 1}.
+自动检查：393项；失败：0项。
+开放缺口按优先级：{'P0': 81, 'P1': 18}。
 
-## Deliberately retained limitations
+## 保留的限制与核验结果
 
-- Unknown coordinates and fees remain missing; transformed coordinates are estimates, not surveyed gates.
-- Three K7 route records remain archived and excluded; no unresolved candidate becomes an accepted entity.
-- Historical G12 is retired after the teacher erratum; no two-community comparison is enforced.
-- Housing CSV historical hash difference is explained by LF/CRLF bytes; originals were not rewritten.
-- Source availability is separate from fact validity: reference-only and failed historical downloads remain visible.
-- The original traffic script reproduces its four derived CSVs byte-for-byte in a disposable directory.
-- Imported verified facts describe external declarations; review quarantine and original source availability.
+- 补证45条完整保留；未核实、历史、政策推定与当期事实分别记录。
+- K7物理园区关联已有依据；D3→K7的18米异常仍排除。确认别名不等于确认路线。
+- 原39条路线及新增3条分开；旧六园敏感性不混入新候选。
+- 南国花园两条整租和一条出售挂牌不是小区均价；索引参考价冲突不自动裁决。
+- 未知坐标、实际费用继续留空；转换位置不是实测接送门。
+- 历史G12因老师勘误退役，不要求两个社区比较；初中不进入分析。
+- 旧住房哈希差异由LF/CRLF字节解释，原文件未改写。
+- 来源归档完整性与事实正确性分开；外部网页没有原件时仍标为仅引用。
+- 既有交通脚本在临时目录复算，四张CSV与原结果逐字节相同。
+- 远端同步保留本地29项未提交工作；索引只增加远端入口。
 
-## Review files
+## 检查文件
 
-- `data/research_gaps.csv`: priority, entity, original evidence, needed information and task status.
-- `data/import_quarantine.csv`: retained original incoming rows and rejection reasons.
-- `quality_report.json`: every automated check and its result.
-- `run_manifest.json`: pinned inputs, code/data version and generated artifact hashes.
+- `data/research_gaps.csv`：优先级、原证据、所需补证及任务状态。
+- `data/work_evidence.csv`：45条补证的原核验标签、实体关联和采用边界。
+- `data/import_quarantine.csv`：通用导入待核行及原因。
+- `quality_report.json`：完整检查；`run_manifest.json`：输入、版本及输出哈希。

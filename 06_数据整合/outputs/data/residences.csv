@@ -1,19 +1,19 @@
 ﻿id,name,english_name,source_name,address,housing_description,construction_year_raw,research_group,has_housing_sample,preferred_position_id,housing_evidence_status,note
-RES001,猎德花园,Liede Garden (phase 5 reference),猎德花园（以五区公开点位代表）,猎德大道20号,回迁复建房；集体产权/独立产权状态须现场与登记部门复核,2009,核心复建组,true,POS-H-RES001,reported_platform_and_background,Development-level entity; no household income or verified unit title is inferred
-RES002,保利心语花园,Poly Xinyu,保利心语花园,金穗路70号,70年商品住宅（平台信息）,2008,站区中西组（含站北）,true,,reported_platform_and_background,Development-level entity; no household income or verified unit title is inferred
-RES003,中海花城湾,Zhonghai Huacheng Bay,中海花城湾,花城大道86号,70年商品住宅（平台信息）,2007,站区中西组（含站北）,true,POS-H-RES003,reported_platform_and_background,Development-level entity; no household income or verified unit title is inferred
-RES004,汇峰苑,Huifeng Court,汇峰苑,兴盛路8号,70年商品住宅（平台信息）,2008,站区中西组（含站北）,true,,reported_platform_and_background,Development-level entity; no household income or verified unit title is inferred
-RES005,凯旋新世界/广粤观邸,New World / Guangyue Guandi,凯旋新世界/广粤观邸,清风街（花城大道与海风路一带）,70年普通住宅；底商40年（平台信息）,,东侧扩展组（含东北）,true,,reported_platform_and_background,Development-level entity; no household income or verified unit title is inferred
-RES006,尚东君御,Shangdong Junyu,尚东君御,兴盛路与冼村路交界G3-1,70年商品住宅（平台信息）,2013,站区中西组（含站北）,true,,reported_platform_and_background,Development-level entity; no household income or verified unit title is inferred
-RES007,嘉裕公馆,Jiayu Mansion,嘉裕公馆,花城大道80号,70年普通住宅/大平层（平台信息）,2015,站区中西组（含站北）,true,,reported_platform_and_background,Development-level entity; no household income or verified unit title is inferred
-RES008,誉峰,Yufeng,誉峰,金穗路711号,70年商品住宅（平台信息）,2007,东侧扩展组（含东北）,true,,reported_platform_and_background,Development-level entity; no household income or verified unit title is inferred
-RES009,隽峰苑,Junfeng Court,隽峰苑,兴盛路10号,70年商品住宅（平台信息）,2008,站区中西组（含站北）,true,,reported_platform_and_background,Development-level entity; no household income or verified unit title is inferred
-RES010,领峰园,Lingfeng Court,领峰园,兴盛路7号,70年商品住宅（平台信息）,2008,站区中西组（含站北）,true,,reported_platform_and_background,Development-level entity; no household income or verified unit title is inferred
-RES011,利雅湾,Liyawan,利雅湾,兴民路160号,70年商品住宅（平台信息）,2004,站区中西组（含站北）,true,POS-H-RES011,reported_platform_and_background,Development-level entity; no household income or verified unit title is inferred
-RES012,珠江都荟,Zhujiang Duhui,珠江都荟,珠江新城西、近五羊邨站,商品住宅；具体产权年限待登记材料复核,2006,西侧外围单列,true,,reported_platform_and_background,Development-level entity; no household income or verified unit title is inferred
-RES013,尚东宏御,Shangdong Hongyu,尚东宏御,花城大道760号,70年商品住宅（平台信息）,2006,东侧扩展组（含东北）,true,,reported_platform_and_background,Development-level entity; no household income or verified unit title is inferred
-RES014,颐德公馆,Yide Mansion,颐德公馆,花城大道126—136号（双号）,70年商品住宅（平台信息）,2011,东侧扩展组（含东北）,true,,reported_platform_and_background,Development-level entity; no household income or verified unit title is inferred
-RES015,中海璟晖华庭,Zhonghai Jinghui Huating,中海璟晖华庭,猎德大道33号,商品住宅；产权年限页面未显示，须登记材料复核,2007,站区中西组（含站北）,true,POS-AMAP-D2,reported_platform_and_background,Development-level entity; no household income or verified unit title is inferred
-RES016,誉城苑,Yucheng Court,誉城苑,临江大道（海清路一带）,70年商品住宅（平台信息）,2001,东侧扩展组（含东北）,true,,reported_platform_and_background,Development-level entity; no household income or verified unit title is inferred
-RES017,天銮,Tianluan,天銮,临江大道59号之一至之七,商住楼；平台称50年产权、商业性质,2013,临江商住单列,true,,reported_platform_and_background,Development-level entity; no household income or verified unit title is inferred
-RES018,南国花园,Nanguo Garden,南国花园,珠江新城平月路,交通研究记录为商品住宅；非产权登记,,transport_only,false,POS-AMAP-D3,housing_sample_missing,Development-level entity; no household income or verified unit title is inferred
+RES001,猎德花园,Liede Garden (phase 5 reference),猎德花园（以五区公开点位代表）,猎德大道20号,回迁复建房；集体产权/独立产权状态须现场与登记部门复核,2009,核心复建组,true,POS-H-RES001,reported_platform_and_background,住宅开发项目层对象，不推定家庭收入或逐套权属
+RES002,保利心语花园,Poly Xinyu,保利心语花园,金穗路70号,70年商品住宅（平台信息）,2008,站区中西组（含站北）,true,,reported_platform_and_background,住宅开发项目层对象，不推定家庭收入或逐套权属
+RES003,中海花城湾,Zhonghai Huacheng Bay,中海花城湾,花城大道86号,70年商品住宅（平台信息）,2007,站区中西组（含站北）,true,POS-H-RES003,reported_platform_and_background,住宅开发项目层对象，不推定家庭收入或逐套权属
+RES004,汇峰苑,Huifeng Court,汇峰苑,兴盛路8号,70年商品住宅（平台信息）,2008,站区中西组（含站北）,true,,reported_platform_and_background,住宅开发项目层对象，不推定家庭收入或逐套权属
+RES005,凯旋新世界/广粤观邸,New World / Guangyue Guandi,凯旋新世界/广粤观邸,清风街（花城大道与海风路一带）,70年普通住宅；底商40年（平台信息）,,东侧扩展组（含东北）,true,,reported_platform_and_background,住宅开发项目层对象，不推定家庭收入或逐套权属
+RES006,尚东君御,Shangdong Junyu,尚东君御,兴盛路与冼村路交界G3-1,70年商品住宅（平台信息）,2013,站区中西组（含站北）,true,,reported_platform_and_background,住宅开发项目层对象，不推定家庭收入或逐套权属
+RES007,嘉裕公馆,Jiayu Mansion,嘉裕公馆,花城大道80号,70年普通住宅/大平层（平台信息）,2015,站区中西组（含站北）,true,,reported_platform_and_background,住宅开发项目层对象，不推定家庭收入或逐套权属
+RES008,誉峰,Yufeng,誉峰,金穗路711号,70年商品住宅（平台信息）,2007,东侧扩展组（含东北）,true,,reported_platform_and_background,住宅开发项目层对象，不推定家庭收入或逐套权属
+RES009,隽峰苑,Junfeng Court,隽峰苑,兴盛路10号,70年商品住宅（平台信息）,2008,站区中西组（含站北）,true,,reported_platform_and_background,住宅开发项目层对象，不推定家庭收入或逐套权属
+RES010,领峰园,Lingfeng Court,领峰园,兴盛路7号,70年商品住宅（平台信息）,2008,站区中西组（含站北）,true,,reported_platform_and_background,住宅开发项目层对象，不推定家庭收入或逐套权属
+RES011,利雅湾,Liyawan,利雅湾,兴民路160号,70年商品住宅（平台信息）,2004,站区中西组（含站北）,true,POS-H-RES011,reported_platform_and_background,住宅开发项目层对象，不推定家庭收入或逐套权属
+RES012,珠江都荟,Zhujiang Duhui,珠江都荟,珠江新城西、近五羊邨站,商品住宅；具体产权年限待登记材料复核,2006,西侧外围单列,true,,reported_platform_and_background,住宅开发项目层对象，不推定家庭收入或逐套权属
+RES013,尚东宏御,Shangdong Hongyu,尚东宏御,花城大道760号,70年商品住宅（平台信息）,2006,东侧扩展组（含东北）,true,,reported_platform_and_background,住宅开发项目层对象，不推定家庭收入或逐套权属
+RES014,颐德公馆,Yide Mansion,颐德公馆,花城大道126—136号（双号）,70年商品住宅（平台信息）,2011,东侧扩展组（含东北）,true,,reported_platform_and_background,住宅开发项目层对象，不推定家庭收入或逐套权属
+RES015,中海璟晖华庭,Zhonghai Jinghui Huating,中海璟晖华庭,猎德大道33号,商品住宅；产权年限页面未显示，须登记材料复核,2007,站区中西组（含站北）,true,POS-AMAP-D2,reported_platform_and_background,住宅开发项目层对象，不推定家庭收入或逐套权属
+RES016,誉城苑,Yucheng Court,誉城苑,临江大道（海清路一带）,70年商品住宅（平台信息）,2001,东侧扩展组（含东北）,true,,reported_platform_and_background,住宅开发项目层对象，不推定家庭收入或逐套权属
+RES017,天銮,Tianluan,天銮,临江大道59号之一至之七,商住楼；平台称50年产权、商业性质,2013,临江商住单列,true,,reported_platform_and_background,住宅开发项目层对象，不推定家庭收入或逐套权属
+RES018,南国花园,Nanguo Garden,南国花园,珠江新城平月路,交通研究记录为商品住宅；非产权登记,,transport_only,false,POS-AMAP-D3,supplemented_individual_listings_aggregate_missing,住宅开发项目层对象，不推定家庭收入或逐套权属；原冻结住房样本未收录，本轮补入两条整租与一条出售挂牌；汇总指标仍缺

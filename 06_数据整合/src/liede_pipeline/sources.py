@@ -72,7 +72,7 @@ class Sources:
             title=title, url=url, document_date=document_date, publication_date="",
             retrieved_at="", local_file="", reference_path=reference_path, sha256="",
             availability="reference_only", source_kind=kind,
-            provenance_status="reported_in_repository_or_import", note="Primary source not newly retrieved by this pipeline")
+            provenance_status="reported_in_repository_or_import", note="本流水线未重新获取外部原始来源")
         self.url_ids.setdefault(normalized, key)
         return key
 
@@ -82,7 +82,7 @@ class Sources:
         self.rows[key] = dict(id=key, canonical_source_id=key, title=title, url="",
             document_date="", publication_date="", retrieved_at="", local_file=relative_path,
             reference_path=relative_path, sha256=digest(p), availability="archived",
-            source_kind=kind, provenance_status="local_snapshot", note="A local research artifact; not automatically a primary external source")
+            source_kind=kind, provenance_status="local_snapshot", note="本地研究载体，不自动视为外部一手原件")
         return key
 
     def verify_archives(self) -> list[dict]:
@@ -102,7 +102,7 @@ class Sources:
                     valid &= hashlib.sha256(data).hexdigest() == part["sha256"]
                     full.update(data)
                 checks.append(dict(id="archive:"+row["id"],
-                    passed=bool(valid and full.hexdigest()==row["sha256"]), detail="Verified in memory; original not restored"))
+                    passed=bool(valid and full.hexdigest()==row["sha256"]), detail="内存中核验分卷，不还原或改写原文件"))
         return checks
 
     def export(self):

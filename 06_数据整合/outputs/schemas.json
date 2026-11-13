@@ -131,61 +131,178 @@
     "primary_key": "id",
     "row_count": 9
   },
+  "admission_conditions": {
+    "fields": [
+      {
+        "name": "id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "rule_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "stage",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "policy_year",
+        "nullable": false,
+        "value_types": [
+          "int"
+        ]
+      },
+      {
+        "name": "household_category",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "conditions",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "interpretation_boundary",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "actual_admission",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "source_ids",
+        "nullable": false,
+        "value_types": [
+          "list"
+        ]
+      },
+      {
+        "name": "source_locator",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "work_evidence_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      }
+    ],
+    "primary_key": "id",
+    "row_count": 7
+  },
   "admission_evidence": {
     "fields": [
       {
         "name": "id",
         "nullable": false,
-        "value_types": []
+        "value_types": [
+          "str"
+        ]
       },
       {
         "name": "subject_id",
         "nullable": false,
-        "value_types": []
+        "value_types": [
+          "str"
+        ]
       },
       {
         "name": "subject_type",
         "nullable": false,
-        "value_types": []
+        "value_types": [
+          "str"
+        ]
       },
       {
         "name": "stage",
         "nullable": false,
-        "value_types": []
+        "value_types": [
+          "str"
+        ]
       },
       {
         "name": "reference_period",
         "nullable": false,
-        "value_types": []
+        "value_types": [
+          "str"
+        ]
       },
       {
         "name": "claim",
         "nullable": false,
-        "value_types": []
+        "value_types": [
+          "str"
+        ]
       },
       {
         "name": "source_id",
         "nullable": false,
-        "value_types": []
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "source_ids",
+        "nullable": false,
+        "value_types": [
+          "list"
+        ]
       },
       {
         "name": "source_locator",
         "nullable": false,
-        "value_types": []
+        "value_types": [
+          "str"
+        ]
       },
       {
         "name": "verification_status",
         "nullable": false,
-        "value_types": []
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "work_evidence_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
       },
       {
         "name": "note",
         "nullable": false,
-        "value_types": []
+        "value_types": [
+          "str"
+        ]
       }
     ],
     "primary_key": "id",
-    "row_count": 0
+    "row_count": 23
   },
   "admission_plans": {
     "fields": [
@@ -664,7 +781,8 @@
         "name": "value",
         "nullable": true,
         "value_types": [
-          "float"
+          "float",
+          "int"
         ]
       },
       {
@@ -764,10 +882,17 @@
         "value_types": [
           "str"
         ]
+      },
+      {
+        "name": "work_evidence_id",
+        "nullable": true,
+        "value_types": [
+          "str"
+        ]
       }
     ],
     "primary_key": "id",
-    "row_count": 62
+    "row_count": 65
   },
   "entity_crosswalk": {
     "fields": [
@@ -801,7 +926,7 @@
       },
       {
         "name": "entity_id",
-        "nullable": true,
+        "nullable": false,
         "value_types": [
           "str"
         ]
@@ -840,10 +965,17 @@
         "value_types": [
           "str"
         ]
+      },
+      {
+        "name": "source_ids",
+        "nullable": true,
+        "value_types": [
+          "list"
+        ]
       }
     ],
     "primary_key": "id",
-    "row_count": 76
+    "row_count": 78
   },
   "escort_scenarios": {
     "fields": [
@@ -1009,7 +1141,7 @@
       }
     ],
     "primary_key": "id",
-    "row_count": 8
+    "row_count": 12
   },
   "fee_applicability": {
     "fields": [
@@ -1036,21 +1168,28 @@
       },
       {
         "name": "status",
-        "nullable": false,
+        "nullable": true,
         "value_types": [
           "str"
         ]
       },
       {
         "name": "note",
-        "nullable": false,
+        "nullable": true,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "applicability",
+        "nullable": true,
         "value_types": [
           "str"
         ]
       }
     ],
     "primary_key": "id",
-    "row_count": 24
+    "row_count": 27
   },
   "household_scenarios": {
     "fields": [
@@ -1278,6 +1417,20 @@
         ]
       },
       {
+        "name": "admission_condition_ids",
+        "nullable": false,
+        "value_types": [
+          "list"
+        ]
+      },
+      {
+        "name": "admission_evidence_ids",
+        "nullable": false,
+        "value_types": [
+          "list"
+        ]
+      },
+      {
         "name": "fee_ids",
         "nullable": false,
         "value_types": [
@@ -1307,7 +1460,7 @@
       }
     ],
     "primary_key": "id",
-    "row_count": 36
+    "row_count": 41
   },
   "housing_observations": {
     "fields": [
@@ -1336,7 +1489,8 @@
         "name": "value",
         "nullable": false,
         "value_types": [
-          "float"
+          "float",
+          "int"
         ]
       },
       {
@@ -1364,14 +1518,16 @@
         "name": "area_m2",
         "nullable": true,
         "value_types": [
-          "float"
+          "float",
+          "int"
         ]
       },
       {
         "name": "total_ask_cny",
         "nullable": true,
         "value_types": [
-          "float"
+          "float",
+          "int"
         ]
       },
       {
@@ -1429,10 +1585,17 @@
         "value_types": [
           "str"
         ]
+      },
+      {
+        "name": "work_evidence_id",
+        "nullable": true,
+        "value_types": [
+          "str"
+        ]
       }
     ],
     "primary_key": "id",
-    "row_count": 58
+    "row_count": 63
   },
   "import_quarantine": {
     "fields": [
@@ -1503,6 +1666,54 @@
     ],
     "primary_key": "id",
     "row_count": 41
+  },
+  "plan_corroboration": {
+    "fields": [
+      {
+        "name": "id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "campus_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "work_evidence_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "plan_ids",
+        "nullable": false,
+        "value_types": [
+          "list"
+        ]
+      },
+      {
+        "name": "source_ids",
+        "nullable": false,
+        "value_types": [
+          "list"
+        ]
+      },
+      {
+        "name": "result",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      }
+    ],
+    "primary_key": "id",
+    "row_count": 4
   },
   "positions": {
     "fields": [
@@ -1620,7 +1831,7 @@
       }
     ],
     "primary_key": "id",
-    "row_count": 39
+    "row_count": 42
   },
   "research_gaps": {
     "fields": [
@@ -1689,7 +1900,7 @@
       }
     ],
     "primary_key": "id",
-    "row_count": 98
+    "row_count": 102
   },
   "residence_cost_summary": {
     "fields": [
@@ -1994,7 +2205,7 @@
       }
     ],
     "primary_key": "id",
-    "row_count": 223
+    "row_count": 266
   },
   "transport_routes": {
     "fields": [
@@ -2014,7 +2225,7 @@
       },
       {
         "name": "campus_id",
-        "nullable": true,
+        "nullable": false,
         "value_types": [
           "str"
         ]
@@ -2193,10 +2404,24 @@
         "value_types": [
           "str"
         ]
+      },
+      {
+        "name": "work_evidence_id",
+        "nullable": true,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "sample_scope",
+        "nullable": true,
+        "value_types": [
+          "str"
+        ]
       }
     ],
     "primary_key": "id",
-    "row_count": 39
+    "row_count": 42
   },
   "verified_facts": {
     "fields": [
@@ -2496,5 +2721,172 @@
     ],
     "primary_key": "id",
     "row_count": 648
+  },
+  "work_evidence": {
+    "fields": [
+      {
+        "name": "id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "original_evidence_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "evidence_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "topic",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "object_name",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "fact_field",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "value_or_rule",
+        "nullable": true,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "unit",
+        "nullable": true,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "applicable_year_or_period",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "source_urls",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "source_locator",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "verification_status",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "notes",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "checked_cst",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "subject_ids",
+        "nullable": false,
+        "value_types": [
+          "list"
+        ]
+      },
+      {
+        "name": "entity_resolution",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "source_ids",
+        "nullable": false,
+        "value_types": [
+          "list"
+        ]
+      },
+      {
+        "name": "snapshot_source_ids",
+        "nullable": false,
+        "value_types": [
+          "list"
+        ]
+      },
+      {
+        "name": "input_file",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "input_sha256",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "input_row",
+        "nullable": false,
+        "value_types": [
+          "int"
+        ]
+      },
+      {
+        "name": "integration_action",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "verification_boundary",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      }
+    ],
+    "primary_key": "id",
+    "row_count": 45
   }
 }

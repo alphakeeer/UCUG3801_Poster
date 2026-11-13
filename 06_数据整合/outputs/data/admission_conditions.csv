@@ -1,0 +1,8 @@
+﻿id,rule_id,stage,policy_year,household_category,conditions,interpretation_boundary,actual_admission,source_ids,source_locator,work_evidence_id
+COND-affiliated_owner,RULE-K1-2026,kindergarten,2026,affiliated_owner,本区户籍、对应住宅及产权和学位占用材料均符合规定,配套业主优先路径；具体覆盖楼栋未核,unobserved,"[""E003""]",第三节（一）、第四节（二）1,WORK-A02
+COND-general_lottery,RULE-K1-2026,kindergarten,2026,general_lottery,2022-09-01至2023-08-31出生；天河户籍或符合政策性照顾的非穗籍；网上选一园,可报名一般派位；未保证录取,unobserved,"[""E003""]",第二节、第四节（二）2、（四）1,WORK-A01
+COND-owner_over_capacity,RULE-K1-2026,kindergarten,2026,owner_over_capacity,合格业主超过总计划时在业主类别内派位或摇珠,90%为社会派位招生比例，非个人概率,unobserved,"[""E003""]",第三节（一）,WORK-A03
+COND-relocation_coordinated,RULE-P1-2026,primary,2026,relocation_coordinated,拆迁办安置、区内实际居住、广州户籍，核拆迁协议,地段生安排后优先考虑地段校，属于统筹,unobserved,"[""E002""]",附件9 一（三）2（3）；PDF第50至51页,WORK-A11
+COND-special_owner_sequence,RULE-K1-2026,kindergarten,2026,special_owner_sequence,普通完全住宅房产业主优先；祖辈、同父母兄弟姐妹及合格不完全产权等余位后考虑,不能把特殊情形等同于普通业主第一顺序,unobserved,"[""E003"",""URL-326f635076e3""]",官方附件内电脑派位招生工作指引第5、6问,WORK-A14
+COND-tenant_standard_lease,RULE-P1-2026,primary,2026,tenant_standard_lease,穗籍、广州无房、唯一住址；备案审核早于2025-09-01且租期至少到2028-08-31,符合条件走统筹；去向未观察,unobserved,"[""E002""]",附件9 一（二）及一（三）3（7）；PDF第50、52页,WORK-A12
+COND-tianhe_tenant_alternative,RULE-P1-2026,primary,2026,tianhe_tenant_alternative,天河户籍可用审核早于2026-05-11且租期至少到2029-08-31的备案，其他条件照核,替代期限仅适用相应天河户籍类别；与幼儿园一般派位无关,unobserved,"[""E002""]",附件9 一（二）及一（三）3（7）；PDF第50、52页,WORK-A12

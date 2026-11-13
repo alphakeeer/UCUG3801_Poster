@@ -1,26 +1,28 @@
-# Integrated research figure contract
+# 综合研究图件的论证与导出约定
 
-Backend: Python / matplotlib exclusively; UTM zone 49N (EPSG:32649) is used only for a local metric display of WGS84 points. This is a course evidence package, not a journal submission specification.
+全部绘制、预览和导出沿用Python/matplotlib。分析坐标为WGS84；UTM 49N（EPSG:32649）仅用于局部米制展示。本包服务课程证据交接。
 
-## Figure A - Housing × education
+## 图 A：住房与园校分布
 
-- Claim: archived housing cost references and educational facilities can be juxtaposed for the mapped subset; coverage and comparability remain incomplete.
-- Evidence: a main OSM-reference map of residences and campuses, with subordinate housing metric / missingness information. Campus stage and ownership use separate encodings.
-- Archetype: asymmetric mixed-modality figure, with the map as the hero panel.
-- Housing price, rent, policy rent and unverified rights remain distinct. No interpolation, regional price surface, income classification, density or causal effect is estimated.
-- The Liede phase-5 reference and transport-origin point remain different positions. Unresolved candidates use separate marks and never inherit a confirmed entity link.
+- 核心结论：住房成本参照与园校可在已定位子集上叠加；数据覆盖和住房可比性仍有限。
+- 证据链：OSM参照底图叠加住宅与园校，侧栏解释样本覆盖、住房指标及缺失；形状区分学段，颜色区分办学类别。
+- 构图：地图为主，信息侧栏为辅。
+- 参考价、挂牌价、租金、政策租金及未核权属产品分开，不插值、不划收入阶层、不估学校质量或因果效应。
+- 五区参照与交通起点保留不同角色。K7通过同址同POI支持关联；华文与海滨为原候选补定位。转换坐标不能证明校门准确。
 
-## Figure B - Housing × admission × accessibility
+## 图 B：住房、招生与可达性
 
-- Claim: at the same sampled residential origin, different conditional or listed channels refer to different modeled walks.
-- Evidence: nine residence/channel comparisons from the original route model; district allocation for renters and actual admission remain unknown.
-- Archetype: quantitative comparison grid, three origins sharing a minutes axis.
-- Xian Cun is one listed migrant-points choice. No nearest-eligible-school, assignment, probability, household average or actual commute claim is made.
+- 核心结论：同一住宅起点的不同条件性渠道，对应不同学校及模型步行时间。
+- 证据链：九条住宅/渠道比较，住房只作背景。新增细分规则补充制度解释，未将旧情境改成真实家庭。
+- 构图：三个起点共享分钟轴，用数值和形状区分渠道。
+- 冼村小学只作一个积分志愿例；不推定最近可申请校、分配结果、概率或真实接送。合格租户统筹去向未知。
+- 三条新增幼儿园路线另表分析，不混入九条小学比较或原六园敏感性分母。
 
-## Export and review
+## 导出与检查
 
-- Intended use: standalone review and insertion by the poster/report team; no existing poster is changed.
-- Formats: editable SVG and PDF, 300-dpi PNG preview, source CSV and explanatory legends. Fixed SVG hash salt and absent PDF timestamps support repeatability.
-- Layout: approximately 300 mm wide for A and 280 mm for B; ordinary text at least 9 pt. White background; restrained blue/green/amber palette; marker shapes retain meaning in grayscale.
-- Statistics: purposeful case sample, no hypothesis tests, confidence intervals, error bars or p-values. Sample/coverage counts derive from current output tables, not hardcoded completeness assumptions.
-- QA: inspect Python-produced PNGs and text extents, verify sources and labels, check exported SVG text and PDF structure. Numerical coordinate round-trip checks do not establish geographic field accuracy.
+- 团队插入海报或报告时同时保留中文图注；不直接修改既有海报。
+- 交付可编辑SVG与PDF、300dpi PNG、源数据CSV和中文图注。SVG固定版本哈希，PDF去除时间戳。
+- 图A宽约300毫米，图B约280毫米；普通文字至少9磅。字体为文泉驿正黑TrueType，版本哈希见 `config/figure_font.json`；其他系统使用相同字节字体并设置 `LIEDE_FONTS_DIR`。
+- 白底，蓝/绿/棕等克制配色，形状辅助辨认；低值蓝色与缺失白色分开。
+- 目的性案例样本，无总体检验、误差条或置信区间。数量由当前规范数据生成，不能写成普查覆盖率。
+- 打开PNG检查重叠、截断和中文缺字；程序检查文字越界，核对SVG/PDF文本、字体、来源、样本和时间。坐标数值往返检查不代表实地精度。

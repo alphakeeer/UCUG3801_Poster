@@ -1,34 +1,44 @@
 {
   "analytical_coordinates": "EPSG:4326",
-  "data_version": "a821cbd2717d338db09a87718909dccc1a4845a5e166fbdcff9418899b212fd9",
-  "display_projection": "EPSG:32649, local origin 113.332E/23.121N",
+  "data_version": "93ed10bfdc2fc0ed24265ebc2ffbfc34ee76b66b124f262caa49b04928f7ff6f",
+  "display_projection": "EPSG:32649，本地原点113.332E/23.121N",
   "figures": [
     {
       "backend": "matplotlib",
       "causal_or_population_inference": false,
       "figure": "figure_A_housing_education",
+      "font_family": "WenQuanYi Zen Hei",
+      "font_sha256": {
+        "wqy-zenhei.ttc": "79c18ebe7b811951e8311bad7103ebeae8c337ed9988ea69e8a78a66cfe029b9"
+      },
       "formats": [
         "png",
         "svg",
         "pdf"
       ],
+      "missing_glyphs": [],
       "source_data": "figure_source_data/",
-      "statistical_tests": "none; purposeful case sample",
+      "statistical_tests": "不适用；目的性案例样本",
       "text_outside_canvas": []
     },
     {
       "backend": "matplotlib",
       "causal_or_population_inference": false,
       "figure": "figure_B_admission_accessibility",
+      "font_family": "WenQuanYi Zen Hei",
+      "font_sha256": {
+        "wqy-zenhei.ttc": "79c18ebe7b811951e8311bad7103ebeae8c337ed9988ea69e8a78a66cfe029b9"
+      },
       "formats": [
         "png",
         "svg",
         "pdf"
       ],
+      "missing_glyphs": [],
       "source_data": "figure_source_data/",
-      "statistical_tests": "none; purposeful case sample",
+      "statistical_tests": "不适用；目的性案例样本",
       "text_outside_canvas": []
     }
   ],
-  "visual_review": "V1 visual inspection is recorded in ../VERIFICATION.md; repeat visual review after evidence changes"
+  "visual_review": "视觉核对记录见../VERIFICATION.md；证据或绘图变化后重新检查"
 }

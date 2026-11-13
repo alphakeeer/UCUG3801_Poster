@@ -28,7 +28,7 @@ def reproduce_legacy(root: Path) -> tuple[dict, list[dict]]:
             output = work/"data/round-3"/name
             original = base/"data/round-3"/name
             checks.append(dict(id="legacy_reproduction:"+name,passed=digest(output)==digest(original),
-                               detail="Disposable copy; legacy files not written"))
+                               detail="在临时副本复算，未写入旧文件"))
             outputs[name] = read_csv(output)
         return outputs,checks
 
@@ -40,10 +40,10 @@ def build_transport(ctx: Context):
     suppath = TRANSPORT/"data/round-3/supplementary-amap.json"
     base = json.loads((ctx.root/basepath).read_text())
     supplement = json.loads((ctx.root/suppath).read_text())
-    base_source = ctx.source_manager.archive_local(str(basepath),"Amap transport round 2 compilation","route_snapshot")
-    sup_source = ctx.source_manager.archive_local(str(suppath),"Amap supplemental response","route_response")
+    base_source = ctx.source_manager.archive_local(str(basepath),"高德交通第二轮汇编","route_snapshot")
+    sup_source = ctx.source_manager.archive_local(str(suppath),"高德补充返回快照","route_response")
     r1 = ctx.root/TRANSPORT/"data/round-1/liede-transport-accessibility-2026.json"
-    ctx.legacy_checks.append(dict(id="round1_provenance",passed=digest(r1)==base["first_round_provenance"]["sha256"],detail="Round 1 is a subset, not an additional route sample"))
+    ctx.legacy_checks.append(dict(id="round1_provenance",passed=digest(r1)==base["first_round_provenance"]["sha256"],detail="第一轮为后续路线子集，不追加为新样本"))
     for r in base["routes"]:
         _route(ctx,r["origin_id"],r["destination_id"],r["walking_meters"],r["walking_seconds"],
             "amap_estimate_gate_unverified",base_source,str(basepath),r.get("walking_url",""),
@@ -69,15 +69,15 @@ def build_transport(ctx: Context):
         origin = ctx.transport_mapping[r["origin_id"]]["entity_id"]
         target = r["school_for_policy_comparison"]
         dest = ctx.transport_mapping[target]["entity_id"] if target else ""
-        source = ctx.source_manager.reference(r["source_url"],"Admission policy supporting scenario",
+        source = ctx.source_manager.reference(r["source_url"],"情境对应的招生政策",
             str(TRANSPORT/"scripts/reproduce.py"),"policy_reference")
         ctx.table("household_scenarios").append(dict(id=stable_id("SCEN-",r["origin_id"],r["profile"],stage),
             residence_id=origin,origin_legacy_id=r["origin_id"],stage=stage,profile=r["profile"],
             campus_id=dest,destination_legacy_id=target,conditions=r["conditions"],
             eligibility_status=r["eligibility_status"],actual_admission="unobserved",
             affordability="unknown",walk_minutes=number(r["comparison_route_walk_minutes"]),
-            source_ids=[source],source_locator="Legacy scenario model",
-            evidence_type="constructed_household_scenario",note="No real household was observed"))
+            source_ids=[source],source_locator="原有规则情境模型",
+            evidence_type="constructed_household_scenario",note="未观察真实家庭"))
     _comparisons(ctx)
 
 
@@ -101,7 +101,7 @@ def _route(ctx, origin, destination, meters, seconds, quality, source, path, url
         source_id=source,source_path=path,source_locator=origin+"→"+destination,route_url=url,
         morning_transit_minutes=t,morning_adult_fare_cny=fare,
         transit_model_departure="2026-11-12 07:20 Asia/Shanghai" if transit else "",
-        note="POI-to-POI model estimate; no route polyline or verified school gate; an absent transit result is not proof of no service"))
+        note="POI间模型估算；无已核校门或完整路线线形；公交未返回方案不等于无服务"))
 
 
 def _comparisons(ctx):
@@ -119,4 +119,4 @@ def _comparisons(ctx):
                 policy_year=2026,eligibility="conditional_pathway_only",actual_admission="unobserved",
                 actual_commute="unobserved",analytical_eligible=r["analytical_eligible"],
                 source_ids=[r["source_id"],"E002"]+(["E030","E030-A001"] if rule=="P3" else ["E031"] if rule=="P4" else []),
-                interpretation_boundary="Xian Cun is one listed option, not the nearest eligible option or an allocation; address-linked eligibility requires full household checks"))
+                interpretation_boundary="冼村小学仅为名单内志愿例，不代表最近可申请校或实际分配；地址关联仍须核全套家庭材料"))

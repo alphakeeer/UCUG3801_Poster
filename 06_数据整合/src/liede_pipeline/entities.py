@@ -64,7 +64,7 @@ def build_entities(ctx: Context):
             research_group=grouped.get(r["source_name"],{}).get("区域分析组","transport_only"),
             has_housing_sample=bool(raw), preferred_position_id="",
             housing_evidence_status="reported_platform_and_background" if raw else "housing_sample_missing",
-            note="Development-level entity; no household income or verified unit title is inferred"))
+            note="住宅开发项目层对象，不推定家庭收入或逐套权属"))
         if raw:
             add_crosswalk(ctx,"housing_csv",r["source_name"],"residence",r["id"],
                 "冻结住房记录逐条登记；住宅项目对应不等于相同入口")
@@ -83,7 +83,7 @@ def build_entities(ctx: Context):
         institution = link.get("institution_id") or "INS-"+r.get("institution_id",legacy)
         institutions.setdefault(institution,dict(id=institution,
             name=r["name"], linkage_status=link.get("match_status","official_institution_id" if stage=="primary" else "campus_specific_reference"),
-            basis=link.get("match_basis","Official institution ID" if stage=="primary" else "No unverified same-name institution merging")))
+            basis=link.get("match_basis","官方机构ID" if stage=="primary" else "不合并尚未证实同一机构的同名对象")))
         owner = r.get("organizer",r.get("ownership",""))
         ownership = "private" if owner=="民办" else "education_department" if owner=="教育部门办" else "public" if owner=="公办" else "other_department"
         source_id = r.get("source_id",r.get("address_source_id"))
@@ -96,7 +96,7 @@ def build_entities(ctx: Context):
             preferred_position_id="",source_id=source_id,
             source_locator=r.get("admission_locator") or f"HTML row {r.get('html_row')}",
             verification_status="official_listing_campus_record",
-            note="Candidate sample, not a complete geographic census; stage and intake grade are distinct"))
+            note="候选样本而非全域普查；学段与入学年级分开"))
         add_crosswalk(ctx,"education_csv",legacy,"campus",entity,"官方园校记录及学段独立保留")
     ctx.tables["institutions"] = list(institutions.values())
     ctx.education_raw = kg+primary
@@ -133,7 +133,7 @@ def _housing_observations(ctx, rows, homes):
                 comparable_sale=entity not in {"RES001","RES017"},
                 source_id=source,source_path=path,source_locator=f"CSV row {n}; {field}",
                 conflict_status="unresolved_ownership_or_product" if entity in {"RES001","RES017"} and "sale" in metric else "no_adjudication",
-                note=r["质量说明"]+"; query date is not the transaction/reference period"))
+                note=r["质量说明"]+"；查询日不等于成交日或参考时期"))
     workbook = HOUSING/"猎德住房价格数据_2026-11-11.xlsx"
     for n,row in enumerate(workbook_sheet(ctx.root/workbook,"Transactions")[2:],3):
         name,kind,date,total,area,value,layout,platform,url,note = row[:10]
@@ -146,7 +146,7 @@ def _housing_observations(ctx, rows, homes):
             evidence_type="platform_reported_transaction",verification_status="reported_repository_extract",
             comparable_sale=False,source_id=source,source_path=str(workbook),source_locator=f"Transactions row {n}",
             conflict_status="requires_source_verification" if entity=="RES005" else "no_adjudication",
-            note=f"{note}; platform report, not government transaction registration; {layout}; total {total}万元"))
+            note=f"{note}；平台转述，非政府交易登记；{layout}; total {total}万元"))
 
 
 def _positions(ctx):
@@ -160,7 +160,7 @@ def _positions(ctx):
         ctx.table("positions").append(position("POS-H-"+entity,entity,
             "residential_phase_reference" if entity=="RES001" else "development_reference",
             float(r["经度WGS84"]),float(r["纬度WGS84"]),"WGS84",source,"housing CSV WGS84 fields",
-            "repository_osm_reference", "Phase 5 only; not the transport origin" if entity=="RES001" else "Development reference, not a gate"))
+            "repository_osm_reference", "仅五区参照，不是交通路线起点" if entity=="RES001" else "住宅项目参照点，非实际入口"))
     valid = {r["legacy_id"] for r in ctx.table("education_campuses")}
     for r in ctx.csv(EDUCATION/"地图/学校点位_WGS84.csv"):
         if r["record_id"] not in valid or not r["longitude"]:

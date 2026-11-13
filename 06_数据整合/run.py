@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Offline entrypoint; writes only the independent integration module outputs."""
+"""离线数据整合入口，仅写入独立整合模块的派生输出。"""
 
 import argparse
 import json
@@ -32,15 +32,15 @@ def main():
     if args.command=="protect":
         target = MODULE/".state/protected_files.json"
         if target.exists():
-            raise ValueError("Protected baseline already exists; it will not be overwritten")
+            raise ValueError("保护基线已存在，不覆盖原基线")
         write_json(target,protected_snapshot(ROOT,MODULE))
-        print("Saved local-only protection baseline; no existing research file changed")
+        print("已保存仅本机使用的保护基线，未改动既有研究文件")
     elif args.command=="import-csv":
         read_feed(args.csv)
         target = MODULE/"inbox"/("facts-"+digest(args.csv)+".csv")
         if not target.exists():
             shutil.copyfile(args.csv,target)
-        print(f"Preserved {target.relative_to(MODULE)}; run all to append accepted facts and quarantine unresolved rows")
+        print(f"已保留{target.relative_to(MODULE)}；运行all追加可采用事实并保留未确认行")
     elif args.command=="validate":
         ctx = assemble(ROOT,MODULE)
         report = validate(ctx)
@@ -48,7 +48,7 @@ def main():
         if (output/"run_manifest.json").exists():
             emitted = validate_package(output)
             manifest = json.loads((output/"run_manifest.json").read_text())
-            emitted.append(dict(id="output:current_data_version",passed=manifest["data_version"]==version_hash(ROOT,MODULE,MODULE/"inbox"),detail="Rebuild after changing code, mapping or inbox evidence"))
+            emitted.append(dict(id="output:current_data_version",passed=manifest["data_version"]==version_hash(ROOT,MODULE,MODULE/"inbox"),detail="代码、映射或补证变化后需重新构建"))
             report["checks"] += emitted
             report["check_count"] = len(report["checks"])
             report["failure_count"] = sum(not r["passed"] for r in report["checks"])

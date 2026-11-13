@@ -1,0 +1,20 @@
+{
+  "previous_head": "e28387033d9bf61ae51c8ec530c08d67a0543600",
+  "remote_commit": "a3dc7c6e7abaa98447cdf02b07487c65f335788c",
+  "merge_commit": "e22ea77a7f98c894b12a8e6f689d5b303a7f97e5",
+  "changed_paths": [
+    "04_工作区/研究分析/定向证据补全/2026-11-13/amap-targeted-checks.json",
+    "04_工作区/研究分析/定向证据补全/2026-11-13/follow-up-search.md",
+    "04_工作区/研究分析/定向证据补全/2026-11-13/housing-listing-observation.json",
+    "04_工作区/研究分析/定向证据补全/2026-11-13/kindergarten-2026-verification.md",
+    "04_工作区/研究分析/定向证据补全/2026-11-13/new-evidence-report.md",
+    "04_工作区/研究分析/定向证据补全/2026-11-13/recommended-updates.md",
+    "04_工作区/研究分析/定向证据补全/2026-11-13/unresolved-gaps.md",
+    "04_工作区/研究分析/定向证据补全/2026-11-13/verified-facts.csv",
+    "项目索引.md"
+  ],
+  "protected_index_previous_sha256": "e54ddb95b6032e391e0b02100a98189881c95a2f83cd40c69c0a2a8c0c904deb",
+  "protected_index_updated_sha256": "1bfae5195abd476c644fbfa06a1dd3f1969c91dfa87dcdb9faca279bc0deaa08",
+  "preserved_uncommitted_files": 29,
+  "strategy": "临时 worktree 合并已 fetch 的远端提交；索引仅增加远端单行，其余未提交文件字节不变。"
+}

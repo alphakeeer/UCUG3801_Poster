@@ -1,6 +1,6 @@
-# UCUG3801 Research Data Integration
+# UCUG3801 研究数据整合
 
-独立、离线、可追溯的数据整合层。仅分析幼儿园与小学，保留旧原件、报告、地图及 Poster 的既有路径。
+独立、离线、可追溯的数据整合层。仅分析幼儿园与小学，保留旧原件、报告、地图及海报的既有路径。已整合远端 `a3dc7c6` 的45条GPT Work补证；中文报告从[研究交接](outputs/HANDOFF.md)及[补证整合报告](outputs/补证整合报告.md)开始阅读。
 
 ## 运行
 
@@ -9,6 +9,8 @@
 ```bash
 uv venv 06_数据整合/.venv --python python3.13
 uv pip install --python 06_数据整合/.venv/bin/python -r 06_数据整合/requirements.txt
+# 中文图件需要文泉驿正黑TrueType字体，版本见config/figure_font.json。
+# 默认字体目录/usr/share/fonts/truetype/wqy，可用LIEDE_FONTS_DIR指定。
 # 首次运行可记录所有现有工作文件；已存在的保护基线不会被覆盖。
 06_数据整合/.venv/bin/python 06_数据整合/run.py protect
 06_数据整合/.venv/bin/python 06_数据整合/run.py all
@@ -37,7 +39,7 @@ uv pip install --python 06_数据整合/.venv/bin/python -r 06_数据整合/requ
 
 - 住宅是开发项目层对象，位置点另外保存角色。猎德花园五区点与交通海文路POI分别保留。
 - 园区/校区不合并。机构总计划只保存一次，班数与人数及派位组成项分别保存。
-- K7旧名关联保持 unresolved，三条相关路线不进入综合分析。
+- K7旧名已由官方同址及同一高德POI支持关联；D1/D2相关路线可连接，D3→K7的18米异常继续排除。配套范围和接送门仍未知。
 - 原始GCJ-02与WGS84坐标同时保留，分析坐标为EPSG:4326；转换不能证明校门准确。
 - 住房报价是仓库冻结摘录，不代表实时成交，也不是家庭收入。缺失不补零，不按相近小区代填。
 - 补证按事实追加，不覆盖原表或自动替代冲突值；独立来源是否已归档另行标记。
@@ -45,8 +47,8 @@ uv pip install --python 06_数据整合/.venv/bin/python -r 06_数据整合/requ
 ## 交付入口
 
 - [研究交接与证据包](outputs/HANDOFF.md)：给理论组、报告组和海报组的最短阅读入口。
-- [Figure A：住房与园校分布](outputs/figures/figure_A_housing_education.png) · [Figure B：住房、招生与可达性](outputs/figures/figure_B_admission_accessibility.png)。同目录另有可编辑SVG和PDF。
-- [Table C：跨领域证据矩阵](outputs/table_C_evidence_matrix.md)及[CSV版](outputs/data/evidence_matrix.csv)。
+- [图 A：住房与园校分布](outputs/figures/figure_A_housing_education.png) · [图 B：住房、招生与可达性](outputs/figures/figure_B_admission_accessibility.png)。同目录另有可编辑SVG和PDF。
+- [表 C：跨领域证据矩阵](outputs/table_C_evidence_matrix.md)及[CSV版](outputs/data/evidence_matrix.csv)。
 - [字段字典与关联口径](DATA_DICTIONARY.md) · [GPT Work导入接口](IMPORT_VERIFIED_FACTS.md) · [图件论证与导出约定](FIGURE_CONTRACT.md)。
 - [数据质量摘要](outputs/QUALITY_SUMMARY.md) · [完整自动检查](outputs/quality_report.json) · [缺失及冲突](outputs/data/research_gaps.csv)。
 - [复现与图件核验记录](VERIFICATION.md)。
@@ -64,4 +66,6 @@ uv pip install --python 06_数据整合/.venv/bin/python -r 06_数据整合/requ
 
 每次构建的 `run_manifest.json`记录代码/配置/输入生成的 `data_version`及派生文件SHA-256。修改代码或导入事实后需要重建；`validate`也会发现过期或被手工改动的输出。保护基线已有时无需再次运行 `protect`。
 
-`inbox/`初版没有外部补证。已有材料中的誉城苑政策租金作为带原报告出处和限制的本地注释保存，明确标为仓库报告转述，未重新联网核验。图件和证据包不能被解释为已完成家庭实证或全地区资源普查。
+本轮原格式补证保留在远端原路径，由 `src/liede_pipeline/work_evidence.py`显式适配，完整输出至 `work_evidence.csv`，不伪装成通用模板的 `verified`记录。新增内容包括K7别名对应、两园补定位、三条定向路线、南国花园五条数值观察及七条细分招生条件。历史收费与政策推定不进入实际收费。`inbox/`继续接收后续标准格式补证。
+
+已有材料中的誉城苑政策租金作为带原报告出处和限制的本地注释保存，明确标为仓库报告转述，未重新联网核验。字段名、ID和枚举代码保留稳定英文接口，面向团队的报告、图注和图中文字使用中文。图件和证据包不代表家庭实证或全地区普查。

@@ -1,48 +1,48 @@
 ﻿id,campus_id,rule_id,applicability,policy_year,note
-CR-13c6a5715727,CAP-P10,RULE-P1-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-1d2946f634ae,CAP-E004-036,RULE-K1-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-1eb1ee9f812f,CAP-E004-053,RULE-K1-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-1f6e4a6b93cf,CAP-E006-079,RULE-K3-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-1f84a1e39220,CAP-E006-060,RULE-K3-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-2f88c086b3a5,CAP-E004-045,RULE-K1-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-31f42e49400b,CAP-E006-078,RULE-K3-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-336aaf97efbc,CAP-P13,RULE-P5-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-33727516d665,CAP-E004-043,RULE-K1-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-340cacabb412,CAP-E006-105,RULE-K3-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-36cd858f63ef,CAP-E004-013,RULE-K1-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-37f300d6843b,CAP-E006-061,RULE-K3-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-38418d85a269,CAP-P03,RULE-P1-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-40a099951775,CAP-E006-080,RULE-K3-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-40d551bb5c01,CAP-P13,RULE-P3-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-47a4774bb8c7,CAP-E006-021,RULE-K3-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-4c3c2e8e0f6f,CAP-E006-087,RULE-K3-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-4f8c98d79338,CAP-P01,RULE-P1-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-536fa1247b71,CAP-E004-031,RULE-K1-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-576b23771915,CAP-E006-114,RULE-K3-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-5b4a840c2456,CAP-E005-015,RULE-K2-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-64ce5c9636e0,CAP-P05,RULE-P1-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-6efd246f3025,CAP-P11,RULE-P1-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-708ad1b7784a,CAP-P07,RULE-P3-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-70bead865e0d,CAP-P02,RULE-P4-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-782eb2e8857e,CAP-P02,RULE-P1-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-788ff102c37a,CAP-E006-072,RULE-K3-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-7eae51ac80a9,CAP-E004-041,RULE-K1-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-808dae964e60,CAP-E006-074,RULE-K3-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-857854540f7c,CAP-P12,RULE-P5-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-940f630893d5,CAP-P09,RULE-P1-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-9ce05c20fafb,CAP-E006-024,RULE-K3-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-a1ae84d50f26,CAP-E006-073,RULE-K3-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-a25208f25f1f,CAP-P06,RULE-P1-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-a5b92f498eb6,CAP-E004-042,RULE-K1-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-a86817bf5ac0,CAP-E004-054,RULE-K1-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-a9ca955fa3b3,CAP-E006-108,RULE-K3-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-af81b5bcadbe,CAP-P04,RULE-P1-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-b8c209accd20,CAP-E006-059,RULE-K3-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-d247f5584609,CAP-P12,RULE-P3-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-d681be96cf25,CAP-E004-057,RULE-K1-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-e18817b5085c,CAP-E006-095,RULE-K3-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-e47bbef14d6a,CAP-P07,RULE-P1-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-e72fe14de0c0,CAP-P08,RULE-P1-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-e933e6203e56,CAP-E006-025,RULE-K3-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-f6bc2b7079cd,CAP-E004-052,RULE-K1-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
-CR-fd33ae40e65a,CAP-E005-032,RULE-K2-2026,conditional_general_or_listed_channel,2026,A linkage to a rule is not an eligibility or admission decision
+CR-13c6a5715727,CAP-P10,RULE-P1-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-1d2946f634ae,CAP-E004-036,RULE-K1-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-1eb1ee9f812f,CAP-E004-053,RULE-K1-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-1f6e4a6b93cf,CAP-E006-079,RULE-K3-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-1f84a1e39220,CAP-E006-060,RULE-K3-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-2f88c086b3a5,CAP-E004-045,RULE-K1-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-31f42e49400b,CAP-E006-078,RULE-K3-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-336aaf97efbc,CAP-P13,RULE-P5-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-33727516d665,CAP-E004-043,RULE-K1-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-340cacabb412,CAP-E006-105,RULE-K3-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-36cd858f63ef,CAP-E004-013,RULE-K1-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-37f300d6843b,CAP-E006-061,RULE-K3-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-38418d85a269,CAP-P03,RULE-P1-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-40a099951775,CAP-E006-080,RULE-K3-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-40d551bb5c01,CAP-P13,RULE-P3-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-47a4774bb8c7,CAP-E006-021,RULE-K3-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-4c3c2e8e0f6f,CAP-E006-087,RULE-K3-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-4f8c98d79338,CAP-P01,RULE-P1-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-536fa1247b71,CAP-E004-031,RULE-K1-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-576b23771915,CAP-E006-114,RULE-K3-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-5b4a840c2456,CAP-E005-015,RULE-K2-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-64ce5c9636e0,CAP-P05,RULE-P1-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-6efd246f3025,CAP-P11,RULE-P1-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-708ad1b7784a,CAP-P07,RULE-P3-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-70bead865e0d,CAP-P02,RULE-P4-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-782eb2e8857e,CAP-P02,RULE-P1-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-788ff102c37a,CAP-E006-072,RULE-K3-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-7eae51ac80a9,CAP-E004-041,RULE-K1-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-808dae964e60,CAP-E006-074,RULE-K3-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-857854540f7c,CAP-P12,RULE-P5-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-940f630893d5,CAP-P09,RULE-P1-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-9ce05c20fafb,CAP-E006-024,RULE-K3-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-a1ae84d50f26,CAP-E006-073,RULE-K3-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-a25208f25f1f,CAP-P06,RULE-P1-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-a5b92f498eb6,CAP-E004-042,RULE-K1-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-a86817bf5ac0,CAP-E004-054,RULE-K1-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-a9ca955fa3b3,CAP-E006-108,RULE-K3-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-af81b5bcadbe,CAP-P04,RULE-P1-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-b8c209accd20,CAP-E006-059,RULE-K3-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-d247f5584609,CAP-P12,RULE-P3-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-d681be96cf25,CAP-E004-057,RULE-K1-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-e18817b5085c,CAP-E006-095,RULE-K3-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-e47bbef14d6a,CAP-P07,RULE-P1-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-e72fe14de0c0,CAP-P08,RULE-P1-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-e933e6203e56,CAP-E006-025,RULE-K3-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-f6bc2b7079cd,CAP-E004-052,RULE-K1-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取
+CR-fd33ae40e65a,CAP-E005-032,RULE-K2-2026,conditional_general_or_listed_channel,2026,关联规则不等于认定资格或实际录取

@@ -1,5 +1,5 @@
 {
-  "check_count": 367,
+  "check_count": 393,
   "checks": [
     {
       "detail": "03_背景/原始资料/W5_Ren-2020_Urban-Villages.pdf",
@@ -877,7 +877,47 @@
       "passed": true
     },
     {
-      "detail": "All pre-existing files unchanged",
+      "detail": "04_工作区/研究分析/定向证据补全/2026-11-13/amap-targeted-checks.json",
+      "id": "input:04_工作区/研究分析/定向证据补全/2026-11-13/amap-targeted-checks.json",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/定向证据补全/2026-11-13/follow-up-search.md",
+      "id": "input:04_工作区/研究分析/定向证据补全/2026-11-13/follow-up-search.md",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/定向证据补全/2026-11-13/housing-listing-observation.json",
+      "id": "input:04_工作区/研究分析/定向证据补全/2026-11-13/housing-listing-observation.json",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/定向证据补全/2026-11-13/kindergarten-2026-verification.md",
+      "id": "input:04_工作区/研究分析/定向证据补全/2026-11-13/kindergarten-2026-verification.md",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/定向证据补全/2026-11-13/new-evidence-report.md",
+      "id": "input:04_工作区/研究分析/定向证据补全/2026-11-13/new-evidence-report.md",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/定向证据补全/2026-11-13/recommended-updates.md",
+      "id": "input:04_工作区/研究分析/定向证据补全/2026-11-13/recommended-updates.md",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/定向证据补全/2026-11-13/unresolved-gaps.md",
+      "id": "input:04_工作区/研究分析/定向证据补全/2026-11-13/unresolved-gaps.md",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/定向证据补全/2026-11-13/verified-facts.csv",
+      "id": "input:04_工作区/研究分析/定向证据补全/2026-11-13/verified-facts.csv",
+      "passed": true
+    },
+    {
+      "detail": "保护基线中的既有文件字节未变",
       "id": "protected_working_files",
       "passed": true
     },
@@ -962,7 +1002,7 @@
       "passed": true
     },
     {
-      "detail": "Verified in memory; original not restored",
+      "detail": "内存中核验分卷，不还原或改写原文件",
       "id": "archive:E016-A001",
       "passed": true
     },
@@ -1277,8 +1317,48 @@
       "passed": true
     },
     {
+      "detail": "04_工作区/研究分析/定向证据补全/2026-11-13/verified-facts.csv",
+      "id": "archive:LOCAL-27bae90341ee",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/定向证据补全/2026-11-13/new-evidence-report.md",
+      "id": "archive:LOCAL-4a2f4f77def4",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/定向证据补全/2026-11-13/unresolved-gaps.md",
+      "id": "archive:LOCAL-4bd19a617351",
+      "passed": true
+    },
+    {
       "detail": "04_工作区/研究分析/交通可达性/data/round-2/liede-accessibility-round-2.json",
       "id": "archive:LOCAL-51ccb10d4f8e",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/定向证据补全/2026-11-13/kindergarten-2026-verification.md",
+      "id": "archive:LOCAL-65d7083a6a5b",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/定向证据补全/2026-11-13/amap-targeted-checks.json",
+      "id": "archive:LOCAL-71cb8a5ba334",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/定向证据补全/2026-11-13/housing-listing-observation.json",
+      "id": "archive:LOCAL-adef1ae4e19f",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/定向证据补全/2026-11-13/follow-up-search.md",
+      "id": "archive:LOCAL-ce4da538b95d",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/定向证据补全/2026-11-13/recommended-updates.md",
+      "id": "archive:LOCAL-ff3f0023f814",
       "passed": true
     },
     {
@@ -1587,28 +1667,33 @@
       "passed": true
     },
     {
-      "detail": "Disposable copy; legacy files not written",
+      "detail": "在临时副本复算，未写入旧文件",
       "id": "legacy_reproduction:supplementary-route-audit.csv",
       "passed": true
     },
     {
-      "detail": "Disposable copy; legacy files not written",
+      "detail": "在临时副本复算，未写入旧文件",
       "id": "legacy_reproduction:threshold-sensitivity.csv",
       "passed": true
     },
     {
-      "detail": "Disposable copy; legacy files not written",
+      "detail": "在临时副本复算，未写入旧文件",
       "id": "legacy_reproduction:household-scenarios.csv",
       "passed": true
     },
     {
-      "detail": "Disposable copy; legacy files not written",
+      "detail": "在临时副本复算，未写入旧文件",
       "id": "legacy_reproduction:commute-burden-scenarios.csv",
       "passed": true
     },
     {
-      "detail": "Round 1 is a subset, not an additional route sample",
+      "detail": "第一轮为后续路线子集，不追加为新样本",
       "id": "round1_provenance",
+      "passed": true
+    },
+    {
+      "detail": "45 records",
+      "id": "unique_id:work_evidence",
       "passed": true
     },
     {
@@ -1617,12 +1702,12 @@
       "passed": true
     },
     {
-      "detail": "76 records",
+      "detail": "78 records",
       "id": "unique_id:entity_crosswalk",
       "passed": true
     },
     {
-      "detail": "58 records",
+      "detail": "63 records",
       "id": "unique_id:housing_observations",
       "passed": true
     },
@@ -1637,7 +1722,7 @@
       "passed": true
     },
     {
-      "detail": "39 records",
+      "detail": "42 records",
       "id": "unique_id:positions",
       "passed": true
     },
@@ -1662,17 +1747,17 @@
       "passed": true
     },
     {
-      "detail": "62 records",
+      "detail": "65 records",
       "id": "unique_id:education_fees",
       "passed": true
     },
     {
-      "detail": "24 records",
+      "detail": "27 records",
       "id": "unique_id:fee_applicability",
       "passed": true
     },
     {
-      "detail": "39 records",
+      "detail": "42 records",
       "id": "unique_id:transport_routes",
       "passed": true
     },
@@ -1697,6 +1782,21 @@
       "passed": true
     },
     {
+      "detail": "23 records",
+      "id": "unique_id:admission_evidence",
+      "passed": true
+    },
+    {
+      "detail": "7 records",
+      "id": "unique_id:admission_conditions",
+      "passed": true
+    },
+    {
+      "detail": "4 records",
+      "id": "unique_id:plan_corroboration",
+      "passed": true
+    },
+    {
       "detail": "1 records",
       "id": "unique_id:verified_facts",
       "passed": true
@@ -1707,22 +1807,22 @@
       "passed": true
     },
     {
-      "detail": "36 records",
+      "detail": "41 records",
       "id": "unique_id:housing_education_links",
       "passed": true
     },
     {
-      "detail": "8 records",
+      "detail": "12 records",
       "id": "unique_id:evidence_matrix",
       "passed": true
     },
     {
-      "detail": "98 records",
+      "detail": "102 records",
       "id": "unique_id:research_gaps",
       "passed": true
     },
     {
-      "detail": "223 records",
+      "detail": "266 records",
       "id": "unique_id:source_registry",
       "passed": true
     },
@@ -1732,32 +1832,27 @@
       "passed": true
     },
     {
-      "detail": "0 records",
-      "id": "unique_id:admission_evidence",
-      "passed": true
-    },
-    {
-      "detail": "Namespace + original ID + entity type must be unique",
+      "detail": "命名空间、原对象ID与实体类型的组合须唯一",
       "id": "crosswalk_single_target",
       "passed": true
     },
     {
-      "detail": "Unresolved rows have no accepted target",
+      "detail": "未确认对应不得填写已接受对象ID",
       "id": "crosswalk_no_forced_match",
       "passed": true
     },
     {
-      "detail": "Scope applies to analytical stage columns; original source text can describe broader policies",
+      "detail": "分析学段只含幼儿园和小学；住宅类文本注释可不指定学段，原政策文本可能覆盖更多学段",
       "id": "primary_kindergarten_only",
       "passed": true
     },
     {
-      "detail": "Normalized entity, position, rule, plan and route references resolve",
+      "detail": "规范实体、位置、规则、计划和路线引用可解析",
       "id": "relational_foreign_keys",
       "passed": true
     },
     {
-      "detail": "WGS84 longitude/latitude; no display XY substituted",
+      "detail": "统一WGS84经纬度，不用展示XY替代",
       "id": "normalized_crs",
       "passed": true
     },
@@ -1770,78 +1865,113 @@
       "passed": true
     },
     {
-      "detail": "Candidate and accepted links remain distinct",
+      "detail": "候选对应与已接受对应分开",
       "id": "position_entity_references",
       "passed": true
     },
     {
-      "detail": "Preferred position is associated with the same entity",
+      "detail": "默认位置须关联同一实体",
       "id": "preferred_positions",
       "passed": true
     },
     {
-      "detail": "30 baseline + 9 supplementary records; first-round 18 are not appended",
+      "detail": "原30+9条与11月13日定向补查分开；第一轮18条不再追加",
       "id": "routes_no_round1_double_count",
       "passed": true
     },
     {
-      "detail": "Known invalid route stays in archive but not analysis",
+      "detail": "完整保留45条补证及原核验标签，不整批提升可信度",
+      "id": "work_evidence_complete",
+      "passed": true
+    },
+    {
+      "detail": "补证显式实体对应可解析；机构级未确认不下分园区",
+      "id": "work_subjects_resolve",
+      "passed": true
+    },
+    {
+      "detail": "本轮南国花园挂牌与冲突索引不转为小区参考价；未来可靠新证据仍可经通用接口追加",
+      "id": "work_no_reference_price_invention",
+      "passed": true
+    },
+    {
+      "detail": "本轮没有取得2026逐园收费单，历史或推定不进入实际收费",
+      "id": "work_estimated_fee_not_actual",
+      "passed": true
+    },
+    {
+      "detail": "定向新增三条POI路线；与原六园敏感性样本分开",
+      "id": "work_targeted_routes",
+      "passed": true
+    },
+    {
+      "detail": "补证交叉核对指向既有计划，不追加或重复求和",
+      "id": "work_plan_traceability",
+      "passed": true
+    },
+    {
+      "detail": "每条补证的本地载体来源均已登记",
+      "id": "work_snapshot_traceability",
+      "passed": true
+    },
+    {
+      "detail": "已知异常路线保留归档，禁止进入分析",
       "id": "excluded_subchord_route",
       "passed": true
     },
     {
-      "detail": "Unresolved destination routes cannot enter analysis",
+      "detail": "目的地未确认的路线不得进入分析",
       "id": "route_entity_integrity",
       "passed": true
     },
     {
-      "detail": "All current results are pathways or modeled trips",
+      "detail": "当前结果为制度路径或模型路线",
       "id": "no_observed_admission_invention",
       "passed": true
     },
     {
-      "detail": "Missing observations stay null; policy zeros remain valid",
+      "detail": "缺失保留空值，政策零值另行保留",
       "id": "missing_fee_not_zero",
       "passed": true
     },
     {
-      "detail": "Statutory zero is not erased by missing-value handling",
+      "detail": "法定零学费不被缺失值处理抹去",
       "id": "legal_zero_retained",
       "passed": true
     },
     {
-      "detail": "One seven-class plan, not two seven-class campus plans",
+      "detail": "机构7班总计划只记一次，不在两个校区各记7班",
       "id": "institution_plan_not_duplicated",
       "passed": true
     },
     {
-      "detail": "Class counts, person counts and lottery components are separate",
+      "detail": "班数、人数和派位组成项分别保存",
       "id": "plan_subject_grain",
       "passed": true
     },
     {
-      "detail": "One district plan, not summed with geographic totals",
+      "detail": "区级计划只计一次，不与地理样本合计",
       "id": "district_primary_points_total",
       "passed": true
     },
     {
-      "detail": "Overlapping source representations agree and are not appended",
+      "detail": "重叠来源记录一致，不重复追加",
       "id": "overlapping_points_plan_consistent",
       "passed": true
     },
     {
-      "detail": "All analytical source references resolve",
+      "detail": "所有分析来源引用可解析",
       "id": "source_foreign_keys",
       "passed": true
     },
     {
-      "detail": "Every supporting row is available",
+      "detail": "每项支持数据都能定位到输出行",
       "id": "evidence_row_traceability",
       "passed": true
     }
   ],
   "failure_count": 0,
-  "known_research_gaps": 98,
+  "known_research_gaps": 102,
   "passed": true,
   "quarantine_count": 0
 }
