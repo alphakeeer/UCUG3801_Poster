@@ -1,5 +1,7 @@
 # UCUG3801 研究数据整合
 
+**最终交接入口：[四条核心发现简报](outputs/FINAL_EVIDENCE_BRIEF.md) · [审查响应](outputs/REVIEW_RESPONSE.md)。**
+
 独立、离线、可追溯的数据整合层。仅分析幼儿园与小学，保留旧原件、报告、地图及海报的既有路径。已整合远端 `a3dc7c6` 的45条GPT Work补证；中文报告从[研究交接](outputs/HANDOFF.md)及[补证整合报告](outputs/补证整合报告.md)开始阅读。
 
 ## 运行
@@ -47,7 +49,7 @@ uv pip install --python 06_数据整合/.venv/bin/python -r 06_数据整合/requ
 ## 交付入口
 
 - [研究交接与证据包](outputs/HANDOFF.md)：给理论组、报告组和海报组的最短阅读入口。
-- [图 A：住房与园校分布](outputs/figures/figure_A_housing_education.png) · [图 B：住房、招生与可达性](outputs/figures/figure_B_admission_accessibility.png)。同目录另有可编辑SVG和PDF。
+- [图 A：样本定位附图](outputs/figures/figure_A_housing_education.png) · [图 B：双系列路线主图](outputs/figures/figure_B_admission_accessibility.png)。同目录另有可编辑SVG和PDF。
 - [表 C：跨领域证据矩阵](outputs/table_C_evidence_matrix.md)及[CSV版](outputs/data/evidence_matrix.csv)。
 - [字段字典与关联口径](DATA_DICTIONARY.md) · [GPT Work导入接口](IMPORT_VERIFIED_FACTS.md) · [图件论证与导出约定](FIGURE_CONTRACT.md)。
 - [数据质量摘要](outputs/QUALITY_SUMMARY.md) · [完整自动检查](outputs/quality_report.json) · [缺失及冲突](outputs/data/research_gaps.csv)。
@@ -68,4 +70,13 @@ uv pip install --python 06_数据整合/.venv/bin/python -r 06_数据整合/requ
 
 本轮原格式补证保留在远端原路径，由 `src/liede_pipeline/work_evidence.py`显式适配，完整输出至 `work_evidence.csv`，不伪装成通用模板的 `verified`记录。新增内容包括K7别名对应、两园补定位、三条定向路线、南国花园五条数值观察及七条细分招生条件。历史收费与政策推定不进入实际收费。`inbox/`继续接收后续标准格式补证。
 
-已有材料中的誉城苑政策租金作为带原报告出处和限制的本地注释保存，明确标为仓库报告转述，未重新联网核验。字段名、ID和枚举代码保留稳定英文接口，面向团队的报告、图注和图中文字使用中文。图件和证据包不代表家庭实证或全地区普查。
+已有材料中的誉城苑政策租金作为带原报告出处和限制的本地注释保存，明确标为仓库报告转述，未重新联网核验。字段名、ID和枚举代码保留稳定英文接口，面向团队的报告和图注使用中文；按独立审查建议，主路线图使用英文双系列、不展示住房成本，定位附图使用中文。图件和证据包不代表家庭实证或全地区普查。
+
+
+## 最终交接与字段迁移
+
+- 联表41行改为证据索引：旧rule_ids、admission_condition_ids、fee_ids分别改为reference_rule_ids、reference_condition_ids、reference_fee_evidence_ids；住房单值移回观察表，不能计数“可申请/可负担校园”。
+- 新增admission_channel_contexts，按住宅×园区×渠道×家庭条件列背景。金穗本园业主计划0和一般派位分开；所有个人资格均未知。
+- 费用按政策、批复、公示、历史、推定、实缴等分层，挂接状态非空，家庭总净额不补零。
+- 路线42条分39普通POI、2条K7旧名匹配补充、1条异常排除。图B只取六条双系列路线，港澳三行另列。
+- 最终数据版本见outputs/run_manifest.json；最终Git合并记录见RELEASE_RECORD.md。原始材料、其他组员报告和海报不改动，旧版5101aa7可由Git读取。

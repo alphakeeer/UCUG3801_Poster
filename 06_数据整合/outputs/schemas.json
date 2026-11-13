@@ -131,6 +131,146 @@
     "primary_key": "id",
     "row_count": 9
   },
+  "admission_channel_contexts": {
+    "fields": [
+      {
+        "name": "id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "residence_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "campus_id",
+        "nullable": true,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "route_id",
+        "nullable": true,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "stage",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "policy_year",
+        "nullable": false,
+        "value_types": [
+          "int"
+        ]
+      },
+      {
+        "name": "channel",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "household_category",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "rule_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "applicability_status",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "requirements",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "rule_reference_condition_ids",
+        "nullable": true,
+        "value_types": [
+          "list"
+        ]
+      },
+      {
+        "name": "published_owner_children_places",
+        "nullable": true,
+        "value_types": [
+          "float"
+        ]
+      },
+      {
+        "name": "plan_ids",
+        "nullable": true,
+        "value_types": [
+          "list"
+        ]
+      },
+      {
+        "name": "affiliated_address_verified",
+        "nullable": true,
+        "value_types": []
+      },
+      {
+        "name": "household_documents_verified",
+        "nullable": true,
+        "value_types": []
+      },
+      {
+        "name": "individual_eligibility_verified",
+        "nullable": true,
+        "value_types": []
+      },
+      {
+        "name": "actual_admission",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "can_count_eligible_campuses",
+        "nullable": false,
+        "value_types": [
+          "bool"
+        ]
+      },
+      {
+        "name": "source_ids",
+        "nullable": false,
+        "value_types": [
+          "list"
+        ]
+      }
+    ],
+    "primary_key": "id",
+    "row_count": 91
+  },
   "admission_conditions": {
     "fields": [
       {
@@ -500,6 +640,13 @@
         "value_types": [
           "str"
         ]
+      },
+      {
+        "name": "association_role",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
       }
     ],
     "primary_key": "id",
@@ -552,6 +699,85 @@
     ],
     "primary_key": "id",
     "row_count": 47
+  },
+  "capacity_notices": {
+    "fields": [
+      {
+        "name": "id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "campus_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "document_year",
+        "nullable": false,
+        "value_types": [
+          "int"
+        ]
+      },
+      {
+        "name": "target_intake_year",
+        "nullable": false,
+        "value_types": [
+          "int"
+        ]
+      },
+      {
+        "name": "trigger",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "actual_over_capacity_observed",
+        "nullable": true,
+        "value_types": []
+      },
+      {
+        "name": "actual_reassignment_observed",
+        "nullable": true,
+        "value_types": []
+      },
+      {
+        "name": "source_id",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "source_locator",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "verification_status",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "note",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      }
+    ],
+    "primary_key": "id",
+    "row_count": 2
   },
   "district_primary_points_plan": {
     "fields": [
@@ -884,6 +1110,32 @@
         ]
       },
       {
+        "name": "evidence_layer",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "household_total_net_cost_cny",
+        "nullable": true,
+        "value_types": []
+      },
+      {
+        "name": "household_total_net_cost_observed",
+        "nullable": false,
+        "value_types": [
+          "bool"
+        ]
+      },
+      {
+        "name": "usable_for_affordability_count",
+        "nullable": false,
+        "value_types": [
+          "bool"
+        ]
+      },
+      {
         "name": "work_evidence_id",
         "nullable": true,
         "value_types": [
@@ -1168,16 +1420,37 @@
       },
       {
         "name": "status",
-        "nullable": true,
+        "nullable": false,
         "value_types": [
           "str"
         ]
       },
       {
         "name": "note",
-        "nullable": true,
+        "nullable": false,
         "value_types": [
           "str"
+        ]
+      },
+      {
+        "name": "evidence_layer",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "association_role",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "usable_for_affordability_count",
+        "nullable": false,
+        "value_types": [
+          "bool"
         ]
       },
       {
@@ -1304,6 +1577,30 @@
         "value_types": [
           "str"
         ]
+      },
+      {
+        "name": "individual_eligibility_verified",
+        "nullable": true,
+        "value_types": []
+      },
+      {
+        "name": "warning_target_intake_year",
+        "nullable": true,
+        "value_types": [
+          "int"
+        ]
+      },
+      {
+        "name": "warning_document_year",
+        "nullable": true,
+        "value_types": [
+          "int"
+        ]
+      },
+      {
+        "name": "actual_over_capacity_observed",
+        "nullable": true,
+        "value_types": []
       }
     ],
     "primary_key": "id",
@@ -1375,66 +1672,59 @@
         ]
       },
       {
-        "name": "sale_reference_cny_m2",
-        "nullable": true,
+        "name": "housing_observation_ids",
+        "nullable": false,
         "value_types": [
-          "float"
+          "list"
         ]
       },
       {
-        "name": "sale_status",
+        "name": "reference_rule_ids",
+        "nullable": false,
+        "value_types": [
+          "list"
+        ]
+      },
+      {
+        "name": "reference_condition_ids",
+        "nullable": false,
+        "value_types": [
+          "list"
+        ]
+      },
+      {
+        "name": "reference_admission_evidence_ids",
+        "nullable": false,
+        "value_types": [
+          "list"
+        ]
+      },
+      {
+        "name": "reference_fee_evidence_ids",
+        "nullable": false,
+        "value_types": [
+          "list"
+        ]
+      },
+      {
+        "name": "channel_context_ids",
+        "nullable": false,
+        "value_types": [
+          "list"
+        ]
+      },
+      {
+        "name": "route_analysis_role",
         "nullable": false,
         "value_types": [
           "str"
         ]
       },
       {
-        "name": "sale_observation_ids",
+        "name": "association_role",
         "nullable": false,
         "value_types": [
-          "list"
-        ]
-      },
-      {
-        "name": "rent_cny_month",
-        "nullable": true,
-        "value_types": [
-          "float"
-        ]
-      },
-      {
-        "name": "rent_cny_m2_month",
-        "nullable": true,
-        "value_types": [
-          "float"
-        ]
-      },
-      {
-        "name": "rule_ids",
-        "nullable": false,
-        "value_types": [
-          "list"
-        ]
-      },
-      {
-        "name": "admission_condition_ids",
-        "nullable": false,
-        "value_types": [
-          "list"
-        ]
-      },
-      {
-        "name": "admission_evidence_ids",
-        "nullable": false,
-        "value_types": [
-          "list"
-        ]
-      },
-      {
-        "name": "fee_ids",
-        "nullable": false,
-        "value_types": [
-          "list"
+          "str"
         ]
       },
       {
@@ -1449,6 +1739,25 @@
         "nullable": false,
         "value_types": [
           "str"
+        ]
+      },
+      {
+        "name": "household_total_net_cost_cny",
+        "nullable": true,
+        "value_types": []
+      },
+      {
+        "name": "can_count_eligible_campuses",
+        "nullable": false,
+        "value_types": [
+          "bool"
+        ]
+      },
+      {
+        "name": "can_count_affordable_campuses",
+        "nullable": false,
+        "value_types": [
+          "bool"
         ]
       },
       {
@@ -2003,6 +2312,13 @@
         ]
       },
       {
+        "name": "housing_cost_comparable_across_residences",
+        "nullable": false,
+        "value_types": [
+          "bool"
+        ]
+      },
+      {
         "name": "note",
         "nullable": false,
         "value_types": [
@@ -2205,7 +2521,7 @@
       }
     ],
     "primary_key": "id",
-    "row_count": 266
+    "row_count": 267
   },
   "transport_routes": {
     "fields": [
@@ -2330,7 +2646,7 @@
       },
       {
         "name": "endpoint_chord_m",
-        "nullable": true,
+        "nullable": false,
         "value_types": [
           "float"
         ]
@@ -2400,6 +2716,20 @@
       },
       {
         "name": "note",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "review_quality",
+        "nullable": false,
+        "value_types": [
+          "str"
+        ]
+      },
+      {
+        "name": "analysis_role",
         "nullable": false,
         "value_types": [
           "str"

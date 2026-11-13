@@ -53,6 +53,16 @@ def validate(ctx: Context) -> dict:
     invalid_links = [(name,r["id"],field,r[field]) for name,rows in tables.items() for r in rows
                      for field,allowed in foreign_keys.items() if r.get(field) and r[field] not in allowed]
     check("relational_foreign_keys",not invalid_links,invalid_links or "规范实体、位置、规则、计划和路线引用可解析")
+    list_keys={"reference_rule_ids":{r["id"] for r in tables["admission_rules"]},
+        "reference_condition_ids":{r["id"] for r in tables["admission_conditions"]},
+        "rule_reference_condition_ids":{r["id"] for r in tables["admission_conditions"]},
+        "reference_fee_evidence_ids":{r["id"] for r in tables["education_fees"]},
+        "reference_admission_evidence_ids":{r["id"] for r in tables["admission_evidence"]},
+        "channel_context_ids":{r["id"] for r in tables["admission_channel_contexts"]},
+        "housing_observation_ids":{r["id"] for r in tables["housing_observations"]}}
+    invalid_reference_lists=[(name,r["id"],field,item) for name,rows in tables.items() for r in rows
+        for field,allowed in list_keys.items() for item in r.get(field,[]) if item not in allowed]
+    check("reference_list_foreign_keys",not invalid_reference_lists,invalid_reference_lists or "通用参考、住房观察和渠道背景列表引用均可解析")
     check("normalized_crs",all(p["crs"]=="EPSG:4326" and 112<p["longitude"]<115 and 22<p["latitude"]<25 for p in positions.values()),"统一WGS84经纬度，不用展示XY替代")
     errors = []
     for p in positions.values():
@@ -75,6 +85,17 @@ def validate(ctx: Context) -> dict:
     check("work_snapshot_traceability",all(s in ctx.source_manager.rows for r in tables.get("work_evidence",[]) for s in r["snapshot_source_ids"]),"每条补证的本地载体来源均已登记")
     check("excluded_subchord_route",all(not r["analytical_eligible"] for r in routes if r["origin_legacy_id"]=="D3" and r["destination_legacy_id"]=="K7"),"已知异常路线保留归档，禁止进入分析")
     check("route_entity_integrity",all(not r["analytical_eligible"] or (r["campus_id"] in campuses and r["length_check_passed"]) for r in routes),"目的地未确认的路线不得进入分析")
+    check("route_quality_strata",Counter(r["review_quality"] for r in routes)=={
+        "ordinary_poi_estimate_gate_unverified":39,"legacy_name_address_matched_poi_gate_unverified":2,"excluded_subchord_distance":1},"42条按39普通、2旧名匹配补充、1异常排除分组")
+    check("route_chord_integrity",all(not r["analytical_eligible"] or r["distance_m"]+0.01>=r["endpoint_chord_m"] for r in routes),"所有可用路线均不短于WGS84端点直距")
+    links=tables["housing_education_links"]
+    check("reference_links_do_not_decide_eligibility",all(r["association_role"]=="evidence_lookup_only" and not r["can_count_eligible_campuses"] and not r["can_count_affordable_campuses"] and r["household_total_net_cost_cny"] is None and not ({"fee_ids","rule_ids","admission_condition_ids"}&set(r)) for r in links),"相关参考资料不自动判断资格、负担或生成计数")
+    contexts=tables["admission_channel_contexts"]
+    check("channel_contexts_are_not_households",all(r["individual_eligibility_verified"] is None and not r["can_count_eligible_campuses"] for r in contexts),"渠道背景行不是个人资格或家庭样本")
+    check("K5_zero_owner_plan",all(r["applicability_status"]=="not_available_in_published_2026_plan" and r["published_owner_children_places"]==0 for r in contexts if r["campus_id"]=="CAP-E004-053" and r["channel"]=="affiliated_owner_priority"),"金穗本园业主计划0不套一般业主优先；一般派位另列")
+    check("fee_reference_status_complete",all(r.get("status") and r["association_role"]=="fee_evidence_reference_only" and not r["usable_for_affordability_count"] for r in tables["fee_applicability"]),"历史和推定挂接状态不得留空，均不代表家庭费用适用")
+    check("fee_layers_and_unknown_net_cost",all(r.get("evidence_layer") and r["household_total_net_cost_cny"] is None for r in tables["education_fees"]),"费用按证据层级保存，未知家庭净额不填0")
+    check("capacity_warning_years",{(r["document_year"],r["target_intake_year"]) for r in tables["capacity_notices"]}=={(2025,2026),(2026,2027)} and all(r["actual_over_capacity_observed"] is None for r in tables["capacity_notices"]),"预警年份与实际触发分开")
     check("no_observed_admission_invention",all(r["actual_admission"]=="unobserved" for name in ["household_scenarios","accessibility_comparisons","housing_education_links"] for r in tables[name]),"当前结果为制度路径或模型路线")
     check("missing_fee_not_zero",all(r["value"] is None for r in tables["education_fees"] if r["value_status"] in {"unknown","not_collected"}),"缺失保留空值，政策零值另行保留")
     check("legal_zero_retained",any(r["id"]=="FEE-F06" and r["value"]==0 for r in tables["education_fees"]),"法定零学费不被缺失值处理抹去")

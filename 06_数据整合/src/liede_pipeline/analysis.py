@@ -21,7 +21,7 @@ def build_analysis(ctx: Context):
             elif candidates:
                 row = candidates[0]
                 excluded = metric=="market_reference_sale_cny_m2" and not row["comparable_sale"]
-                metrics[metric] = (None if excluded else row["value"],"not_comparable" if excluded else "reported_reference",[r["id"] for r in candidates])
+                metrics[metric] = (None if excluded else row["value"],"not_comparable" if excluded else row["evidence_type"],[r["id"] for r in candidates])
             else:
                 metrics[metric] = (None,"missing",[])
         sale,rent,unit_rent = (metrics[k] for k in ["market_reference_sale_cny_m2","rent_cny_month","rent_cny_m2_month"])
@@ -31,6 +31,7 @@ def build_analysis(ctx: Context):
             sale_status=sale[1],sale_observation_ids=sale[2],rent_cny_month=rent[0],rent_status=rent[1],
             rent_observation_ids=rent[2],rent_cny_m2_month=unit_rent[0],unit_rent_status=unit_rent[1],
             unit_rent_observation_ids=unit_rent[2],
+            housing_cost_comparable_across_residences=False,
             note="目的性样本；房价不等于家庭收入；平台月租汇总缺少逐套面积分母"))
     costs = {r["residence_id"]:r for r in ctx.table("residence_cost_summary")}
     campuses = {r["id"]:r for r in ctx.table("education_campuses")}
@@ -44,15 +45,16 @@ def build_analysis(ctx: Context):
             residence_id=route["residence_id"],campus_id=campus["id"],institution_id=campus["institution_id"],
             stage=campus["stage"],ownership=campus["ownership"],route_id=route["id"],
             walk_minutes=route["duration_s"]/60,distance_m=route["distance_m"],
-            sale_reference_cny_m2=cost["sale_reference_cny_m2"],sale_status=cost["sale_status"],
-            sale_observation_ids=cost["sale_observation_ids"],rent_cny_month=cost["rent_cny_month"],
-            rent_cny_m2_month=cost["rent_cny_m2_month"],
-            rule_ids=rule_ids,
-            admission_condition_ids=[r["id"] for r in ctx.table("admission_conditions") if r["rule_id"] in rule_ids],
-            admission_evidence_ids=[r["id"] for r in ctx.table("admission_evidence") if r["subject_id"] in [campus["id"],route["residence_id"],*rule_ids]],
-            fee_ids=[r["fee_id"] for r in ctx.table("fee_applicability") if r["campus_id"]==campus["id"]],
-            eligibility="not_determined_by_distance",actual_admission="unobserved",
-            note="路线使用独立POI端点，不使用住房图默认点；不是家庭观察"))
+            housing_observation_ids=[r["id"] for r in observations if r["residence_id"]==route["residence_id"]],
+            reference_rule_ids=rule_ids,
+            reference_condition_ids=[r["id"] for r in ctx.table("admission_conditions") if r["rule_id"] in rule_ids],
+            reference_admission_evidence_ids=[r["id"] for r in ctx.table("admission_evidence") if r["subject_id"] in [campus["id"],route["residence_id"],*rule_ids]],
+            reference_fee_evidence_ids=[r["fee_id"] for r in ctx.table("fee_applicability") if r["campus_id"]==campus["id"]],
+            channel_context_ids=[r["id"] for r in ctx.table("admission_channel_contexts") if r["route_id"]==route["id"]],
+            route_analysis_role=route["analysis_role"],association_role="evidence_lookup_only",
+            eligibility="not_assessed",actual_admission="unobserved",household_total_net_cost_cny=None,
+            can_count_eligible_campuses=False,can_count_affordable_campuses=False,
+            note="仅索引相关证据；通用条件、费用挂接不代表适用；住宅×园区×渠道另查admission_channel_contexts；住房指标回原观察表选样"))
     _gaps(ctx)
     _evidence(ctx)
 
@@ -141,7 +143,7 @@ def _evidence(ctx):
         [plan["source_id"]],"未将机构总计划下分到具体校区",
         "没有取得校区分配量","aggregation_boundary")
     invalid = [r for r in ctx.table("transport_routes") if not r["analytical_eligible"]]
-    add("F08",f"{len(invalid)}条原路线因长度异常或身份未确认排除出综合分析，原记录保留",
+    add("F08",f"{len(invalid)}条D3→K7原路线因18米短于端点约51.6米直距而排除，原记录保留",
         [citation("transport_routes",r["id"]) for r in invalid],
         [r["source_id"] for r in invalid],"保存原件不等于允许进入分析",
         "K7身份已由WORK-G01支持关联；D3→K7的18米异常和实际接送门仍未解决","quality_control")

@@ -353,6 +353,60 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(len(self.original.tables["plan_corroboration"]),4)
         self.assertEqual(len(self.original.tables["admission_plans"]),73)
 
+    def test_reference_links_do_not_decide_eligibility(self):
+        rows=self.original.tables["housing_education_links"]
+        self.assertTrue(all(r["association_role"]=="evidence_lookup_only" for r in rows))
+        self.assertFalse(any(r["can_count_eligible_campuses"] or r["can_count_affordable_campuses"] for r in rows))
+        self.assertTrue(all(r["household_total_net_cost_cny"] is None for r in rows))
+        self.assertTrue(all(not ({"fee_ids","rule_ids","admission_condition_ids"}&set(r)) for r in rows))
+        ctx=self.context();ctx.tables["housing_education_links"][0]["can_count_eligible_campuses"]=True
+        self.assertFalse(next(r["passed"] for r in validate(ctx)["checks"] if r["id"]=="reference_links_do_not_decide_eligibility"))
+
+    def test_K5_zero_owner_plan(self):
+        rows=[r for r in self.original.tables["admission_channel_contexts"] if r["campus_id"]=="CAP-E004-053"]
+        self.assertEqual(len(rows),6)
+        owner=[r for r in rows if r["channel"]=="affiliated_owner_priority"]
+        general=[r for r in rows if r["channel"]=="general_lottery"]
+        self.assertTrue(all(r["applicability_status"]=="not_available_in_published_2026_plan" and r["published_owner_children_places"]==0 for r in owner))
+        self.assertTrue(all(r["applicability_status"]=="conditional_pathway_reference" for r in general))
+        self.assertTrue(all(r["rule_reference_condition_ids"]==["COND-general_lottery"] for r in general))
+
+    def test_fee_layers_never_imply_affordability(self):
+        rows={r["id"]:r for r in self.original.tables["education_fees"]}
+        self.assertEqual(rows["WORK-F09-conditional_care_fee"]["evidence_layer"],"conditional_estimate")
+        self.assertEqual(rows["WORK-F10-historical_care_fee"]["evidence_layer"],"historical_quote")
+        self.assertEqual(rows["FEE-F19"]["evidence_layer"],"approved_school_standard")
+        self.assertEqual(rows["FEE-F04"]["evidence_layer"],"policy_standard")
+        links=self.original.tables["fee_applicability"]
+        self.assertTrue(all(r["status"] and not r["usable_for_affordability_count"] for r in links))
+        ctx=self.context();ctx.tables["fee_applicability"][0]["status"]=""
+        self.assertFalse(next(r["passed"] for r in validate(ctx)["checks"] if r["id"]=="fee_reference_status_complete"))
+
+    def test_route_quality_strata(self):
+        from collections import Counter
+        rows=self.original.tables["transport_routes"]
+        self.assertEqual(Counter(r["analysis_role"] for r in rows),{"ordinary_poi_estimate":39,"supplemental_with_label":2,"excluded":1})
+        self.assertTrue(all(r["distance_m"]>=r["endpoint_chord_m"] for r in rows if r["analytical_eligible"]))
+        excluded=next(r for r in rows if r["analysis_role"]=="excluded")
+        self.assertEqual((excluded["origin_legacy_id"],excluded["destination_legacy_id"]),("D3","K7"))
+
+    def test_warning_years_and_unobserved_outcomes(self):
+        rows=self.original.tables["capacity_notices"]
+        self.assertEqual({(r["document_year"],r["target_intake_year"]) for r in rows},{(2025,2026),(2026,2027)})
+        self.assertTrue(all(r["actual_over_capacity_observed"] is None for r in rows))
+        s=next(r for r in self.original.tables["household_scenarios"] if r["origin_legacy_id"]=="D2" and r["profile"]=="Tianhe_hukou_matching_full_home")
+        self.assertEqual(s["warning_document_year"],2025)
+        self.assertIn("未观察2026实际超额",s["conditions"])
+
+    def test_HK_primary_allocation_not_junior_preferences(self):
+        rows=[r for r in self.original.tables["household_scenarios"] if r["profile"]=="Eligible_HK_Macao_points"]
+        for r in rows:
+            self.assertIn("45",r["conditions"]);self.assertIn("排名",r["conditions"])
+            self.assertNotIn("志愿",r["conditions"]);self.assertNotIn("135",r["conditions"]);self.assertNotIn("初中",r["conditions"])
+            self.assertEqual(r["actual_admission"],"unobserved")
+        contexts=[r for r in self.original.tables["admission_channel_contexts"] if r["channel"]=="district_coordination"]
+        self.assertTrue(all(not r["campus_id"] and not r["route_id"] for r in contexts))
+
 
 if __name__=="__main__":
     unittest.main()

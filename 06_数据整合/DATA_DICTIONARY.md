@@ -20,12 +20,12 @@
 | `district_primary_points_plan` | 官方区级小学积分计划中的一所学校 | `source_id`、原表行号 | 10所、315人；不扩充地理校区样本 |
 | `education_fees` | 一条政策基准、批复、历史值或当期采集状态 | 可有 `campus_id`，另有 `source_ids` | 不同费用项目、年龄、周期和证据类型不混合 |
 | `fee_applicability` | 一项费用政策与园校的条件性对应 | `campus_id`、`fee_id` | 不计算家庭净缴费用 |
-| `transport_routes` | 一个住宅POI到园校POI的某日单程步行模型记录 | 住宅、园校、原始位置、来源 | 39条保留记录；仅36条可用于综合连接 |
+| `transport_routes` | 一个住宅POI到园校POI的某日单程步行模型记录 | 住宅、园校、原始位置、来源 | 42条保留、41条可关联；39普通POI、2条旧名匹配补充、1异常排除 |
 | `household_scenarios` | 一组构造家庭条件及可能申请路径 | 住宅、园校（可空）、来源 | 30种情境，非30户观察 |
 | `walking_sensitivity` | 起点×样本集合×类别×步速情境×阈值 | 原交通ID、来源 | 648条模型组合，非648次测量 |
 | `escort_scenarios` | 一条示例路线下的接送段数及费用情境 | 原交通ID、来源 | 12条构造情境 |
 | `residence_cost_summary` | 一个住宅的可展示成本引用及缺失/冲突状态 | 住房观察ID、默认位置 | 冲突或多期值不平均、不取“最新” |
-| `housing_education_links` | 一条合格路线与住宅成本、园校及规则的连接 | `route_id`、住宅、园校、规则和费用ID列表 | 36条；不是独立家庭样本，也不是额外的房价样本 |
+| `housing_education_links` | 一条可关联路线对应的证据索引 | `route_id`、住宅、园校、reference_*及渠道背景ID | 41条；不能据此判断可申请或可负担园校数 |
 | `accessibility_comparisons` | 一处住宅与一种示例申请渠道的路线比较 | 路线、基准路线、规则 | 9条；同一路线可对应不同渠道，不重复增加路线数 |
 | `source_registry` | 一个已登记来源载体或仓库引用 | `canonical_source_id` | 载体数不是独立政策/研究数量 |
 | `evidence_matrix` | 一个主要发现的证据链 | `supporting_data`为 `table:id`列表 | Finding → Data → Sources → Boundary → Limitation |
@@ -109,7 +109,7 @@
 2. 用 `transport_routes.residence_id/campus_id`建立案例路线关系，先筛 `analytical_eligible=true`。
 3. 通过 `campus_admission_rules`与 `fee_applicability`连接规则和费用，保留一对多关系。
 4. 住房数值从 `housing_observations`按指标与时间选择；快速展示可使用已保留冲突状态的 `residence_cost_summary`。
-5. 如需已连接的一行一条路线视图，使用 `housing_education_links`，不要把规则/费用展开后对距离或房价再求和。
+5. 如需已连接的一行一条路线的证据索引，使用 `housing_education_links`，先按reference_only理解；实际渠道背景另读admission_channel_contexts，不展开引用后求和或统计资格。
 6. 报告引用从 `evidence_matrix`开始，逐条追踪数据ID、来源ID及解释边界。
 
 上游来源与实体已被固定登记，下游不得按中文名称模糊连接、用候选位置覆盖正式对象、把同源副本当新增样本或将费用缺失填零。
@@ -128,8 +128,8 @@
 | `admission_conditions` | 7条明确条件；`rule_id`关联原招生类别，`household_category`为细分情境代码，不是真实家庭分类结果 |
 | `plan_corroboration` | 4园区交叉核对结果，`plan_ids`关联原总数、业主、剩余派位三条记录；不再追加计划 |
 | `work_evidence_id` | 新住房、路线、费用、细分规则和招生注释的原补证外键 |
-| `housing_education_links.admission_condition_ids` | 该园校规则对应的细分条件列表；是规则背景，不代表路线起点的家庭已符合条件 |
-| `housing_education_links.admission_evidence_ids` | 与该路线住宅、园区或规则明确关联的补证注释ID |
+| `housing_education_links.reference_condition_ids` | 该园校规则对应的细分条件列表；是规则背景，不代表路线起点的家庭已符合条件 |
+| `housing_education_links.reference_admission_evidence_ids` | 与该路线住宅、园区或规则明确关联的补证注释ID |
 | `transport_routes.sample_scope` | 本轮三条新增为 `targeted_supplement_20261113`；原39条另按2026-11-12日期识别。旧敏感性不自动扩展 |
 
 本轮新增南国花园住房观察5行：两条月租、各自的单位面积月租、一个出售挂牌单价，实际只有3个房源例证。不能把5行当作5套住宅。两条租盘不同日期、面积，汇总租金留空，状态为 `conflicting_or_multiple_periods`，不意味着两份广告互相矛盾。`comparable_sale=false`也用于本轮个案挂牌，表示不进入小区参考价展示，并非断言南国花园产权异常。
@@ -139,3 +139,33 @@
 保留英文机器字段、状态代码和稳定ID，中文报告与图件负责解释，不对原始来源进行翻译改写。
 
 `residences.has_housing_sample`仅指最初冻结住房CSV是否收录，不随补证改写。南国花园本轮 `housing_evidence_status=supplemented_individual_listings_aggregate_missing` 表示已补个案挂牌、汇总仍缺，不能将原样本标志false误读为完全没有住房证据。
+
+
+## 九、最终审查后的语义修正（版本1.2）
+
+本节取代旧版联表字段解释；原数据与旧版输出可由Git追溯。
+
+|表/字段|最终含义|
+|---|---|
+|`admission_channel_contexts`|一行一住宅×园区×渠道×家庭条件背景。含未知统筹去向的6行，园区和路线ID均空；不是家庭观察或可申请计数|
+|`applicability_status`|条件性路径参考、当年计划未提供、覆盖与材料未核等明确状态；不合并成二元“可申请”|
+|`published_owner_children_places`|该园区当年业主名额原值；0为已知计划0，不代表一般派位不可申请|
+|`individual_eligibility_verified`|全部未知；无真实家庭材料，不填true|
+|`can_count_eligible_campuses`|false：禁止把情境/引用行计为该家庭可申请校园|
+|`reference_rule_ids/reference_condition_ids`|通用政策参考，不判定住宅在某园配套范围内|
+|`reference_fee_evidence_ids`|仅索引费用资料，不表示该家庭适用、应缴或已缴|
+|`channel_context_ids`|连接住宅×园区×渠道的背景记录，仍须核家庭材料|
+|`housing_observation_ids`|住房观察ID列表，不再把单套月租或平台汇总直接放入路线联表单值列|
+|`household_total_net_cost_cny`|未知家庭总净支出，全部null；政策零学费不等于该总额0|
+|`education_fees.evidence_layer`|policy_standard政策、approved_school_standard逐校批复、current_published_charge当期公示、historical_quote历史、conditional_estimate推定、household_payment实缴、conditional_subsidy条件补助、collection_status采集状态|
+|`fee_applicability.status`|对应费用证据层级加_reference_only，全部非空；历史与推定限制不再只写在旁注|
+|`usable_for_affordability_count`|false：费用政策与批复不能生成家庭可负担校园计数|
+|`capacity_notices`|一行一来源年份和目标入学年份：2025→2026、2026→2027；实际超额与改派未知|
+|`review_quality/analysis_role`|39条ordinary_poi_estimate，2条supplemental_with_label，1条excluded；保留原quality，独立记录最终审查状态|
+|`endpoint_chord_m`|由两个WGS84端点重算的近似几何直距，仅用于长度异常核查，不是通行路径|
+
+K5金穗本园一般派位与业主优先分行；业主栏状态not_available_in_published_2026_plan、名额0，不把通用业主条件当成本住宅可用优先。K7两条其他起点路线保留旧名地址匹配标签；D3→K7无有效距离。
+
+住房成本摘要不再统一标为reported_reference，而保留platform_reference、listing_example、platform_rent_aggregate等证据类型。不同指标、时期与面积仍不能直接排序；主图不使用这些数值。
+
+最终图B为6行双系列主图（6条独立路线），另有3行港澳补充；完整9行涉及8条独立路线。图A按住宅5/18、幼儿园14/30、小学12/13标示覆盖，不绘价格色阶。所有研究交接以FINAL_EVIDENCE_BRIEF.md及最终图注为准。

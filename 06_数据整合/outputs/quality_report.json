@@ -1,5 +1,5 @@
 {
-  "check_count": 393,
+  "check_count": 404,
   "checks": [
     {
       "detail": "03_背景/原始资料/W5_Ren-2020_Urban-Villages.pdf",
@@ -1802,6 +1802,16 @@
       "passed": true
     },
     {
+      "detail": "2 records",
+      "id": "unique_id:capacity_notices",
+      "passed": true
+    },
+    {
+      "detail": "91 records",
+      "id": "unique_id:admission_channel_contexts",
+      "passed": true
+    },
+    {
       "detail": "18 records",
       "id": "unique_id:residence_cost_summary",
       "passed": true
@@ -1822,7 +1832,7 @@
       "passed": true
     },
     {
-      "detail": "266 records",
+      "detail": "267 records",
       "id": "unique_id:source_registry",
       "passed": true
     },
@@ -1849,6 +1859,11 @@
     {
       "detail": "规范实体、位置、规则、计划和路线引用可解析",
       "id": "relational_foreign_keys",
+      "passed": true
+    },
+    {
+      "detail": "通用参考、住房观察和渠道背景列表引用均可解析",
+      "id": "reference_list_foreign_keys",
       "passed": true
     },
     {
@@ -1922,6 +1937,46 @@
     {
       "detail": "目的地未确认的路线不得进入分析",
       "id": "route_entity_integrity",
+      "passed": true
+    },
+    {
+      "detail": "42条按39普通、2旧名匹配补充、1异常排除分组",
+      "id": "route_quality_strata",
+      "passed": true
+    },
+    {
+      "detail": "所有可用路线均不短于WGS84端点直距",
+      "id": "route_chord_integrity",
+      "passed": true
+    },
+    {
+      "detail": "相关参考资料不自动判断资格、负担或生成计数",
+      "id": "reference_links_do_not_decide_eligibility",
+      "passed": true
+    },
+    {
+      "detail": "渠道背景行不是个人资格或家庭样本",
+      "id": "channel_contexts_are_not_households",
+      "passed": true
+    },
+    {
+      "detail": "金穗本园业主计划0不套一般业主优先；一般派位另列",
+      "id": "K5_zero_owner_plan",
+      "passed": true
+    },
+    {
+      "detail": "历史和推定挂接状态不得留空，均不代表家庭费用适用",
+      "id": "fee_reference_status_complete",
+      "passed": true
+    },
+    {
+      "detail": "费用按证据层级保存，未知家庭净额不填0",
+      "id": "fee_layers_and_unknown_net_cost",
+      "passed": true
+    },
+    {
+      "detail": "预警年份与实际触发分开",
+      "id": "capacity_warning_years",
       "passed": true
     },
     {
