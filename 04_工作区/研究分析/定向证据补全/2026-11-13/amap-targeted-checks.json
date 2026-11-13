@@ -1,0 +1,306 @@
+{
+  "checked_cst": "2026-11-13",
+  "coordinate_system": "GCJ-02",
+  "source": "Amap POI and walking route planning",
+  "scope": "Map point estimates; actual gates and field routes were not verified.",
+  "poi_searches": [
+    {
+      "keywords": "天河第二实验幼儿园珠江新城园区",
+      "city": "广州市",
+      "first_result": {
+        "id": "B00141TQB7",
+        "name": "广州市天河区南国实验幼儿园",
+        "address": "南国一街9号(潭村地铁站A口步行370米)",
+        "typecode": "141204"
+      }
+    },
+    {
+      "keywords": "南国实验幼儿园",
+      "city": "广州市",
+      "first_result": {
+        "id": "B00141TQB7",
+        "name": "广州市天河区南国实验幼儿园",
+        "address": "南国一街9号(潭村地铁站A口步行370米)",
+        "typecode": "141204"
+      }
+    },
+    {
+      "keywords": "华文幼儿园",
+      "city": "广州市",
+      "first_result": {
+        "id": "B0L1RZAVY5",
+        "name": "广州市天河区珠江新城华文幼儿园",
+        "address": "猎德街道利民社区兴民路227号(猎德地铁站B口步行230米)",
+        "typecode": "141204"
+      }
+    },
+    {
+      "keywords": "珠江新城海滨幼儿园",
+      "city": "广州市",
+      "first_result": {
+        "id": "B00140UF9F",
+        "name": "海滨幼儿园(海月路)",
+        "address": "海月路413号",
+        "typecode": "141204"
+      }
+    }
+  ],
+  "poi_details": {
+    "k7": {
+      "id": "B00141TQB7",
+      "name": "广州市天河区南国实验幼儿园",
+      "address": "南国一街9号(潭村地铁站A口步行370米)",
+      "location": "113.344192,23.114168"
+    },
+    "huawen": {
+      "id": "B0L1RZAVY5",
+      "name": "广州市天河区珠江新城华文幼儿园",
+      "address": "猎德街道利民社区兴民路227号(猎德地铁站B口步行230米)",
+      "location": "113.332959,23.116852"
+    },
+    "haibin": {
+      "id": "B00140UF9F",
+      "name": "海滨幼儿园(海月路)",
+      "address": "海月路413号",
+      "location": "113.342831,23.113565"
+    },
+    "d1": {
+      "id": "B0FFFQLHZ6",
+      "name": "猎德花园",
+      "address": "珠江新城海文路7号",
+      "location": "113.336127,23.113409"
+    },
+    "d2": {
+      "id": "B00140TYWA",
+      "name": "中海·璟晖华庭",
+      "address": "猎德大道31号(猎德地铁站C口步行460米)",
+      "location": "113.332723,23.121608"
+    },
+    "d2mgmt": {
+      "id": "B0FFGC12LP",
+      "name": "中海璟晖华庭管理处",
+      "address": "珠江新城猎德大道33号(猎德地铁站C口步行430米)",
+      "location": "113.333095,23.121574"
+    },
+    "d3": {
+      "id": "B00140UF9T",
+      "name": "南国花园",
+      "address": "珠江新城平月路(潭村地铁站A口步行190米)",
+      "location": "113.344585,23.114459"
+    },
+    "liedeshengfu": {
+      "id": "B00140VB3A",
+      "name": "猎德晟府",
+      "address": "猎德大道20号",
+      "location": "113.336074,23.114413"
+    },
+    "liedewuguangchang": {
+      "id": "B0H3THH3JQ",
+      "name": "猎德股份合作经济联社",
+      "address": "海月路猎德村复建房-5区",
+      "location": "113.335231,23.115319"
+    },
+    "liedewu": {
+      "id": "B0JB31CFDT",
+      "name": "猎德复建房5区鹤鸣楼",
+      "address": "海文路25号",
+      "location": "113.335243,23.114587"
+    }
+  },
+  "walking_routes": {
+    "D1-HW": {
+      "origin": "113.336127,23.113409",
+      "destination": "113.332959,23.116852",
+      "amap": {
+        "route": {
+          "origin": "113.336127,23.113409",
+          "destination": "113.332959,23.116852",
+          "paths": [
+            {
+              "distance": 857,
+              "duration": 686,
+              "steps": [
+                {
+                  "instruction": "向北步行21米右转",
+                  "road": "",
+                  "distance": 21,
+                  "orientation": "北",
+                  "duration": 17
+                },
+                {
+                  "instruction": "向东步行18米右转",
+                  "road": "",
+                  "distance": 18,
+                  "orientation": "东",
+                  "duration": 14
+                },
+                {
+                  "instruction": "沿海文路向南步行83米右转",
+                  "road": "海文路",
+                  "distance": 83,
+                  "orientation": "南",
+                  "duration": 66
+                },
+                {
+                  "instruction": "沿临江大道向西步行217米向右前方行走",
+                  "road": "临江大道",
+                  "distance": 217,
+                  "orientation": "西",
+                  "duration": 174
+                },
+                {
+                  "instruction": "沿猎德大道辅路步行25米向左前方行走",
+                  "road": "猎德大道辅路",
+                  "distance": 25,
+                  "orientation": "",
+                  "duration": 20
+                },
+                {
+                  "instruction": "向西北步行84米向左前方行走",
+                  "road": "",
+                  "distance": 84,
+                  "orientation": "西北",
+                  "duration": 67
+                },
+                {
+                  "instruction": "沿猎德大道向北步行274米",
+                  "road": "猎德大道",
+                  "distance": 274,
+                  "orientation": "北",
+                  "duration": 219
+                },
+                {
+                  "instruction": "沿猎德大道辅路步行66米向左前方行走",
+                  "road": "猎德大道辅路",
+                  "distance": 66,
+                  "orientation": "",
+                  "duration": 53
+                },
+                {
+                  "instruction": "沿兴民路向西步行69米到达目的地",
+                  "road": "兴民路",
+                  "distance": 69,
+                  "orientation": "西",
+                  "duration": 55
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "D2-HW": {
+      "origin": "113.332723,23.121608",
+      "destination": "113.332959,23.116852",
+      "amap": {
+        "route": {
+          "origin": "113.332723,23.121608",
+          "destination": "113.332959,23.116852",
+          "paths": [
+            {
+              "distance": 732,
+              "duration": 586,
+              "steps": [
+                {
+                  "instruction": "向北步行9米右转",
+                  "road": "",
+                  "distance": 9,
+                  "orientation": "北",
+                  "duration": 7
+                },
+                {
+                  "instruction": "向东步行76米右转",
+                  "road": "",
+                  "distance": 76,
+                  "orientation": "东",
+                  "duration": 61
+                },
+                {
+                  "instruction": "沿猎德大道向南步行99米向左前方行走",
+                  "road": "猎德大道",
+                  "distance": 99,
+                  "orientation": "南",
+                  "duration": 79
+                },
+                {
+                  "instruction": "沿猎德大道辅路向南步行199米向右前方行走",
+                  "road": "猎德大道辅路",
+                  "distance": 199,
+                  "orientation": "南",
+                  "duration": 159
+                },
+                {
+                  "instruction": "沿花城大道步行42米左转",
+                  "road": "花城大道",
+                  "distance": 42,
+                  "orientation": "",
+                  "duration": 34
+                },
+                {
+                  "instruction": "向东南步行63米向右前方行走",
+                  "road": "",
+                  "distance": 63,
+                  "orientation": "东南",
+                  "duration": 50
+                },
+                {
+                  "instruction": "沿猎德大道辅路向南步行68米向右前方行走",
+                  "road": "猎德大道辅路",
+                  "distance": 68,
+                  "orientation": "南",
+                  "duration": 54
+                },
+                {
+                  "instruction": "沿猎德大道辅路向南步行105米向右前方行走",
+                  "road": "猎德大道辅路",
+                  "distance": 105,
+                  "orientation": "南",
+                  "duration": 84
+                },
+                {
+                  "instruction": "沿兴民路向西步行71米到达目的地",
+                  "road": "兴民路",
+                  "distance": 71,
+                  "orientation": "西",
+                  "duration": 57
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "D3-HB": {
+      "origin": "113.344585,23.114459",
+      "destination": "113.342831,23.113565",
+      "amap": {
+        "route": {
+          "origin": "113.344585,23.114459",
+          "destination": "113.342831,23.113565",
+          "paths": [
+            {
+              "distance": 298,
+              "duration": 238,
+              "steps": [
+                {
+                  "instruction": "向南步行133米右转",
+                  "road": "",
+                  "distance": 133,
+                  "orientation": "南",
+                  "duration": 106
+                },
+                {
+                  "instruction": "沿海月路向西步行165米到达目的地",
+                  "road": "海月路",
+                  "distance": 165,
+                  "orientation": "西",
+                  "duration": 132
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}
