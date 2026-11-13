@@ -1,0 +1,40 @@
+{
+  "bounds_order": [
+    "west",
+    "south",
+    "east",
+    "north"
+  ],
+  "bounds_wgs84": {
+    "full": [
+      113.308,
+      23.108,
+      113.37,
+      23.1355
+    ],
+    "poster": [
+      113.308,
+      23.108,
+      113.3485,
+      23.1355
+    ]
+  },
+  "comparison_crs": "EPSG:32649",
+  "reference_price_bands_wan_cny_m2": [
+    0,
+    8,
+    10,
+    12,
+    14,
+    20
+  ],
+  "buffer_radii_m": [
+    300,
+    500,
+    800
+  ],
+  "study_unit": "project POI and official campus POI",
+  "upstream_commit": "5101aa7ca61e0d2ddeff85a8209d9cf126a33508",
+  "price_checked": "2026-11-13",
+  "osm_snapshot_date": "2026-11-12"
+}

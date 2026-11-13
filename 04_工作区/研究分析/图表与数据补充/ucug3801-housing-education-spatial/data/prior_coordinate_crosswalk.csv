@@ -1,0 +1,7 @@
+﻿entity_id,purpose,old_position_id,old_role,old_raw_longitude,old_raw_latitude,old_raw_crs,old_longitude_wgs84,old_latitude_wgs84,old_source_url,new_position_id,delta_m
+RES001,previous_repository_point_retained,POS-H-RES001,residential_phase_reference,113.33004,23.11808,WGS84,113.33004,23.11808,https://mapcarta.com/W616267312,HES-AMAP-RES001,241.2
+RES003,previous_repository_point_retained,POS-H-RES003,development_reference,113.32671,23.12019,WGS84,113.32671,23.12019,https://mapcarta.com/W515737466,HES-AMAP-RES003,60.6
+RES005,phase_poi_not_used_for_development_price,HES-AMAP-RES005-PHASE,phase_poi,113.338857,23.115512,GCJ-02,113.33341669,23.11809208,"https://uri.amap.com/marker?position=113.338857,23.115512&name=B00140UFAM",HES-AMAP-RES005,13.9
+RES011,previous_repository_point_retained,POS-H-RES011,development_reference,113.32368,23.11888,WGS84,113.32368,23.11888,https://mapcarta.com/W206602237,HES-AMAP-RES011,18.5
+RES015,previous_repository_point_retained,POS-AMAP-D2,transport_origin_poi,113.332723,23.121608,GCJ-02,113.32729484,23.12419727,https://ditu.amap.com/place/B00140TYWA,HES-AMAP-RES015,0.0
+RES018,previous_repository_point_retained,POS-AMAP-D3,transport_origin_poi,113.344585,23.114459,GCJ-02,113.33913323,23.11702876,https://ditu.amap.com/place/B00140UF9T,HES-AMAP-RES018,0.0

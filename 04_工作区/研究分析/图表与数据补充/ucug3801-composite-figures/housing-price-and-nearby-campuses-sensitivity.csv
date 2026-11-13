@@ -1,0 +1,7 @@
+﻿period,radius_m,below_100000_n,below_100000_median,at_least_100000_n,at_least_100000_median
+all_reference_months,300,7,4,9,3
+all_reference_months,500,7,7,9,6
+all_reference_months,800,7,11,9,11
+2026-09,300,4,4.0,5,4
+2026-09,500,4,7.5,5,7
+2026-09,800,4,11.0,5,12
