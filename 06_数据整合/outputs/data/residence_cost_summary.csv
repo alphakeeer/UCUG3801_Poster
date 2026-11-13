@@ -1,0 +1,19 @@
+﻿id,residence_id,name,english_name,preferred_position_id,sale_reference_cny_m2,sale_status,sale_observation_ids,rent_cny_month,rent_status,rent_observation_ids,rent_cny_m2_month,unit_rent_status,unit_rent_observation_ids,housing_cost_comparable_across_residences,note
+RES001,RES001,猎德花园,Liede Garden (phase 5 reference),POS-H-RES001,,not_comparable,"[""HOBS-2def3c1883ec""]",5300.0,listing_example,"[""HOBS-eeab5115a9ff""]",67.95,listing_example,"[""HOBS-1d6106f8fc71""]",false,目的性样本；房价不等于家庭收入；平台月租汇总缺少逐套面积分母
+RES002,RES002,保利心语花园,Poly Xinyu,,92115.0,platform_reference,"[""HOBS-dcac28b49138""]",,missing,[],,missing,[],false,目的性样本；房价不等于家庭收入；平台月租汇总缺少逐套面积分母
+RES003,RES003,中海花城湾,Zhonghai Huacheng Bay,POS-H-RES003,130034.0,platform_reference,"[""HOBS-85b8e7bede0e""]",8000.0,listing_example,"[""HOBS-0cadd49eb7a1""]",93.02,listing_example,"[""HOBS-9a4d8042d153""]",false,目的性样本；房价不等于家庭收入；平台月租汇总缺少逐套面积分母
+RES004,RES004,汇峰苑,Huifeng Court,,92574.0,platform_reference,"[""HOBS-29d6578a6964""]",23800.0,listing_example,"[""HOBS-a9491ddfb226""]",176.36,listing_example,"[""HOBS-a0d25e6376cd""]",false,目的性样本；房价不等于家庭收入；平台月租汇总缺少逐套面积分母
+RES005,RES005,凯旋新世界/广粤观邸,New World / Guangyue Guandi,,151268.0,platform_reference,"[""HOBS-cd832a9c5974""]",,missing,[],,missing,[],false,目的性样本；房价不等于家庭收入；平台月租汇总缺少逐套面积分母
+RES006,RES006,尚东君御,Shangdong Junyu,,100810.0,platform_reference,"[""HOBS-ecfbf87b2fb4""]",23000.0,listing_example,"[""HOBS-fba8564428d1""]",255.56,listing_example,"[""HOBS-fcad63c4c632""]",false,目的性样本；房价不等于家庭收入；平台月租汇总缺少逐套面积分母
+RES007,RES007,嘉裕公馆,Jiayu Mansion,,139796.0,platform_reference,"[""HOBS-9be4724ca9e5""]",17800.0,platform_rent_aggregate,"[""HOBS-7773cba3c8e3""]",,missing,[],false,目的性样本；房价不等于家庭收入；平台月租汇总缺少逐套面积分母
+RES008,RES008,誉峰,Yufeng,,123788.0,platform_reference,"[""HOBS-6d104f65c862""]",26000.0,listing_example,"[""HOBS-1a4ab3abdbf0""]",150.29,listing_example,"[""HOBS-de03e083f0df""]",false,目的性样本；房价不等于家庭收入；平台月租汇总缺少逐套面积分母
+RES009,RES009,隽峰苑,Junfeng Court,,88402.0,platform_reference,"[""HOBS-e30fc83cc054""]",8500.0,platform_rent_aggregate,"[""HOBS-251e4be96185""]",,missing,[],false,目的性样本；房价不等于家庭收入；平台月租汇总缺少逐套面积分母
+RES010,RES010,领峰园,Lingfeng Court,,75876.0,platform_reference,"[""HOBS-e014598e28dc""]",13000.0,listing_example,"[""HOBS-bc798f88857a""]",108.33,listing_example,"[""HOBS-6fbf8cb8165c""]",false,目的性样本；房价不等于家庭收入；平台月租汇总缺少逐套面积分母
+RES011,RES011,利雅湾,Liyawan,POS-H-RES011,104708.0,platform_reference,"[""HOBS-15f50f7b88f4""]",,missing,[],,missing,[],false,目的性样本；房价不等于家庭收入；平台月租汇总缺少逐套面积分母
+RES012,RES012,珠江都荟,Zhujiang Duhui,,97610.0,platform_reference,"[""HOBS-8529f64461c8""]",,missing,[],,missing,[],false,目的性样本；房价不等于家庭收入；平台月租汇总缺少逐套面积分母
+RES013,RES013,尚东宏御,Shangdong Hongyu,,102134.0,platform_reference,"[""HOBS-348f0ab917c9""]",,missing,[],,missing,[],false,目的性样本；房价不等于家庭收入；平台月租汇总缺少逐套面积分母
+RES014,RES014,颐德公馆,Yide Mansion,,173681.0,platform_reference,"[""HOBS-c7e8cf1b7bf8""]",45000.0,listing_example,"[""HOBS-00c9f78be21e""]",222.77,listing_example,"[""HOBS-8881eae2ca58""]",false,目的性样本；房价不等于家庭收入；平台月租汇总缺少逐套面积分母
+RES015,RES015,中海璟晖华庭,Zhonghai Jinghui Huating,POS-AMAP-D2,102011.0,platform_reference,"[""HOBS-7067f04f050f""]",12250.0,platform_rent_aggregate,"[""HOBS-1f0deb1c3d6f""]",,missing,[],false,目的性样本；房价不等于家庭收入；平台月租汇总缺少逐套面积分母
+RES016,RES016,誉城苑,Yucheng Court,,54455.0,platform_reference,"[""HOBS-8a90fc849a56""]",,missing,[],,missing,[],false,目的性样本；房价不等于家庭收入；平台月租汇总缺少逐套面积分母
+RES017,RES017,天銮,Tianluan,,,not_comparable,"[""HOBS-30c29fef2436""]",52500.0,listing_example,"[""HOBS-094b5d46078c""]",198.11,listing_example,"[""HOBS-ba06e3f8c936""]",false,目的性样本；房价不等于家庭收入；平台月租汇总缺少逐套面积分母
+RES018,RES018,南国花园,Nanguo Garden,POS-AMAP-D3,,missing,[],,conflicting_or_multiple_periods,"[""WORK-H02-rent_cny_month"",""WORK-H03-rent_cny_month""]",,conflicting_or_multiple_periods,"[""WORK-H02-rent_cny_m2_month"",""WORK-H03-rent_cny_m2_month""]",false,目的性样本；房价不等于家庭收入；平台月租汇总缺少逐套面积分母

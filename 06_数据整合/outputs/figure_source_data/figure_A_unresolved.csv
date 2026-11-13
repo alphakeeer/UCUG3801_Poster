@@ -1,0 +1,2 @@
+﻿id,entity_id,candidate_entity_id,position_role,original_longitude,original_latitude,original_crs,longitude,latitude,crs,transform,verification_status,source_id,source_locator,note,gate_verified
+POS-OSM-P03,,CAP-P03,campus_centroid,113.33709078140959,23.11780028609079,WGS84,113.33709078140959,23.11780028609079,EPSG:4326,identity,provisional_alias,URL-f6f3984c519c,P03,地图旧名为东校区，校区别名与实际入口待进一步核验,false

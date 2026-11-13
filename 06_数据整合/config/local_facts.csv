@@ -1,0 +1,2 @@
+﻿fact_id,subject_type,subject_id,predicate,value,unit,reference_period,stage,source_id,source_url,source_title,source_locator,evidence_type,verification_status,verified_on,verified_by,notes
+LOCAL-YUCHENG-RENT-2026,residence,RES016,policy_rent_cny_m2_month,50,cny_per_m2_month,2026-08-13,,,https://www.thnet.gov.cn/thqzdlyxxgkzl/zfbz/bzxzffphtcxx/content/post_10965824.html,天河区人才公寓申请公告（住房补充报告已引用）,猎德区域房价分析补充报告第5节；原公告本地未归档,official_notice_reported_in_repository,reported_repository,2026-11-12,existing_housing_report,仅誉城苑该批10套；不含物业费；仅合资格申请人；不代表全小区市场租金；未独立复核原件

@@ -1,0 +1,2032 @@
+{
+  "check_count": 404,
+  "checks": [
+    {
+      "detail": "03_背景/原始资料/W5_Ren-2020_Urban-Villages.pdf",
+      "id": "input:03_背景/原始资料/W5_Ren-2020_Urban-Villages.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/原始资料/网络资料/Wong-2024_State-Community-Regeneration.pdf",
+      "id": "input:03_背景/原始资料/网络资料/Wong-2024_State-Community-Regeneration.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/原始资料/网络资料/Yuan-2019_Institutional-Arrangements.pdf",
+      "id": "input:03_背景/原始资料/网络资料/Yuan-2019_Institutional-Arrangements.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/原始资料/网络资料/猎德街道_2025部门预算.pdf",
+      "id": "input:03_背景/原始资料/网络资料/猎德街道_2025部门预算.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/下载清单.json",
+      "id": "input:03_背景/教育专题/下载清单.json",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E001_2026天河区义务教育招生细则通知.html",
+      "id": "input:03_背景/教育专题/原始文件/E001_2026天河区义务教育招生细则通知.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E002_2026义务教育细则与全套附件.pdf",
+      "id": "input:03_背景/教育专题/原始文件/E002_2026义务教育细则与全套附件.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E003_2026幼儿园招生工作方案.html",
+      "id": "input:03_背景/教育专题/原始文件/E003_2026幼儿园招生工作方案.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E004_2026教育部门办幼儿园招生计划.html",
+      "id": "input:03_背景/教育专题/原始文件/E004_2026教育部门办幼儿园招生计划.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E005_2026其他部门办幼儿园信息表.html",
+      "id": "input:03_背景/教育专题/原始文件/E005_2026其他部门办幼儿园信息表.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E006_2026民办幼儿园信息表.html",
+      "id": "input:03_背景/教育专题/原始文件/E006_2026民办幼儿园信息表.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E007_来穗积分入学实施办法解读2024.html",
+      "id": "input:03_背景/教育专题/原始文件/E007_来穗积分入学实施办法解读2024.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E008_2026积分入学录取通知规则页.html",
+      "id": "input:03_背景/教育专题/原始文件/E008_2026积分入学录取通知规则页.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E009_广州免费学前教育政策问答.html",
+      "id": "input:03_背景/教育专题/原始文件/E009_广州免费学前教育政策问答.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E010_完善幼儿园收费政策国家通知.html",
+      "id": "input:03_背景/教育专题/原始文件/E010_完善幼儿园收费政策国家通知.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E011_中华人民共和国义务教育法.html",
+      "id": "input:03_背景/教育专题/原始文件/E011_中华人民共和国义务教育法.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E012_广州市标准地图平台.html",
+      "id": "input:03_背景/教育专题/原始文件/E012_广州市标准地图平台.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E013_天地图广州主页.html",
+      "id": "input:03_背景/教育专题/原始文件/E013_天地图广州主页.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E014_广州地理信息服务平台官方介绍.html",
+      "id": "input:03_背景/教育专题/原始文件/E014_广州地理信息服务平台官方介绍.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E015_广州市行政区划图2024.pdf",
+      "id": "input:03_背景/教育专题/原始文件/E015_广州市行政区划图2024.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E016-A001_分卷/atlas.pdf.001",
+      "id": "input:03_背景/教育专题/原始文件/E016-A001_分卷/atlas.pdf.001",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E016-A001_分卷/atlas.pdf.002",
+      "id": "input:03_背景/教育专题/原始文件/E016-A001_分卷/atlas.pdf.002",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E016-A001_分卷/atlas.pdf.003",
+      "id": "input:03_背景/教育专题/原始文件/E016-A001_分卷/atlas.pdf.003",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E016-A001_分卷/manifest.json",
+      "id": "input:03_背景/教育专题/原始文件/E016-A001_分卷/manifest.json",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E016_天河国土空间总体规划2021至2035.html",
+      "id": "input:03_背景/教育专题/原始文件/E016_天河国土空间总体规划2021至2035.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E017-A015_8.2026年广州市天河中学部门预算.pdf.pdf",
+      "id": "input:03_背景/教育专题/原始文件/E017-A015_8.2026年广州市天河中学部门预算.pdf.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E017-A069_35.2026年广州市南国学校部门预算.pdf.pdf",
+      "id": "input:03_背景/教育专题/原始文件/E017-A069_35.2026年广州市南国学校部门预算.pdf.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E017-A095_48.2026年广州市天河中学猎德实验学校部门预算.pdf.pdf",
+      "id": "input:03_背景/教育专题/原始文件/E017-A095_48.2026年广州市天河中学猎德实验学校部门预算.pdf.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E017-A143_72.2026年广州市天河第二实验幼儿园部门预算.pdf.pdf",
+      "id": "input:03_背景/教育专题/原始文件/E017-A143_72.2026年广州市天河第二实验幼儿园部门预算.pdf.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E017-A151_76.2026年广州市天河外国语学校部门预算.pdf.pdf",
+      "id": "input:03_背景/教育专题/原始文件/E017-A151_76.2026年广州市天河外国语学校部门预算.pdf.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E017-A203_102.2026年广州市天河区金穗幼儿园部门预算.pdf.pdf",
+      "id": "input:03_背景/教育专题/原始文件/E017-A203_102.2026年广州市天河区金穗幼儿园部门预算.pdf.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E017-A207_104.2026年广州市天河区萃禾幼儿园部门预算.pdf.pdf",
+      "id": "input:03_背景/教育专题/原始文件/E017-A207_104.2026年广州市天河区萃禾幼儿园部门预算.pdf.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E017-A219_110.2026年广州市天河区体育东路小学兴国学校部门预算.pdf.pdf",
+      "id": "input:03_背景/教育专题/原始文件/E017-A219_110.2026年广州市天河区体育东路小学兴国学校部门预算.pdf.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E017-A221_111.2026年广州市天河区体育东路小学海明学校部门预算.pdf.pdf",
+      "id": "input:03_背景/教育专题/原始文件/E017-A221_111.2026年广州市天河区体育东路小学海明学校部门预算.pdf.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E017-A233_117.2026年广州市天河第一小学部门预算.pdf.pdf",
+      "id": "input:03_背景/教育专题/原始文件/E017-A233_117.2026年广州市天河第一小学部门预算.pdf.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E017-A249_125.2026年广州市天河区童时光幼儿园部门预算.pdf.pdf",
+      "id": "input:03_背景/教育专题/原始文件/E017-A249_125.2026年广州市天河区童时光幼儿园部门预算.pdf.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E017_2026教育系统部门预算目录.html",
+      "id": "input:03_背景/教育专题/原始文件/E017_2026教育系统部门预算目录.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E020_2026猎德幼儿园预算.pdf",
+      "id": "input:03_背景/教育专题/原始文件/E020_2026猎德幼儿园预算.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E021_2024猎德幼儿园决算.pdf",
+      "id": "input:03_背景/教育专题/原始文件/E021_2024猎德幼儿园决算.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E022_2020民办幼儿园历史收费名录.html",
+      "id": "input:03_背景/教育专题/原始文件/E022_2020民办幼儿园历史收费名录.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E023_2026猎德街面积口径报道.html",
+      "id": "input:03_背景/教育专题/原始文件/E023_2026猎德街面积口径报道.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E024_猎德西部首个公办园华文幼儿园开学.html",
+      "id": "input:03_背景/教育专题/原始文件/E024_猎德西部首个公办园华文幼儿园开学.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E025_天河区幼儿园基本情况2022.html",
+      "id": "input:03_背景/教育专题/原始文件/E025_天河区幼儿园基本情况2022.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E026_天河区小学基本情况2022.html",
+      "id": "input:03_背景/教育专题/原始文件/E026_天河区小学基本情况2022.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E027_天河区九年一贯制学校基本情况2022.html",
+      "id": "input:03_背景/教育专题/原始文件/E027_天河区九年一贯制学校基本情况2022.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E028_天河区完全中学基本情况2022.html",
+      "id": "input:03_背景/教育专题/原始文件/E028_天河区完全中学基本情况2022.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E029_天河区初级中学基本情况2022.html",
+      "id": "input:03_背景/教育专题/原始文件/E029_天河区初级中学基本情况2022.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E030-A001_附件1_2026年公办小学积分入学招生计划表.xls",
+      "id": "input:03_背景/教育专题/原始文件/E030-A001_附件1_2026年公办小学积分入学招生计划表.xls",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E030-A002_附件2_2026年天河区公办初中积分入学招生计划.xls",
+      "id": "input:03_背景/教育专题/原始文件/E030-A002_附件2_2026年天河区公办初中积分入学招生计划.xls",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E030-A003_附件3_2026年天河区民办中小学积分入学招生计划.xlsx",
+      "id": "input:03_背景/教育专题/原始文件/E030-A003_附件3_2026年天河区民办中小学积分入学招生计划.xlsx",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E030_2026积分入学学位申请指引.html",
+      "id": "input:03_背景/教育专题/原始文件/E030_2026积分入学学位申请指引.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E031_2026港澳居民学位申请指引.html",
+      "id": "input:03_背景/教育专题/原始文件/E031_2026港澳居民学位申请指引.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E032_2026规范公办小学转学通知.html",
+      "id": "input:03_背景/教育专题/原始文件/E032_2026规范公办小学转学通知.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E033_2026幼儿园特教班招生计划.html",
+      "id": "input:03_背景/教育专题/原始文件/E033_2026幼儿园特教班招生计划.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E034_广州公办幼儿园收费2024政策解读.html",
+      "id": "input:03_背景/教育专题/原始文件/E034_广州公办幼儿园收费2024政策解读.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E035_猎德幼儿园教育局课程介绍2021.html",
+      "id": "input:03_背景/教育专题/原始文件/E035_猎德幼儿园教育局课程介绍2021.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E036_2025其他部门办幼儿园信息表.html",
+      "id": "input:03_背景/教育专题/原始文件/E036_2025其他部门办幼儿园信息表.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E037_天河招生考试目录页.html",
+      "id": "input:03_背景/教育专题/原始文件/E037_天河招生考试目录页.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E038_广州中小学教育收费规范2020.html",
+      "id": "input:03_背景/教育专题/原始文件/E038_广州中小学教育收费规范2020.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E039_广州2024幼儿园收费正式通知.html",
+      "id": "input:03_背景/教育专题/原始文件/E039_广州2024幼儿园收费正式通知.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E040_广州2026幼儿园招生通知修订.html",
+      "id": "input:03_背景/教育专题/原始文件/E040_广州2026幼儿园招生通知修订.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E041_猎德街年鉴范围和历史设施.pdf",
+      "id": "input:03_背景/教育专题/原始文件/E041_猎德街年鉴范围和历史设施.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E043_2022猎德街道标准地图公开预览.jpg",
+      "id": "input:03_背景/教育专题/原始文件/E043_2022猎德街道标准地图公开预览.jpg",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E044_2022冼村街道地图公开预览.jpg",
+      "id": "input:03_背景/教育专题/原始文件/E044_2022冼村街道地图公开预览.jpg",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E045_2022员村街道地图公开预览.jpg",
+      "id": "input:03_背景/教育专题/原始文件/E045_2022员村街道地图公开预览.jpg",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E046_2022天河南街道地图公开预览.jpg",
+      "id": "input:03_背景/教育专题/原始文件/E046_2022天河南街道地图公开预览.jpg",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E047_学前教育法.html",
+      "id": "input:03_背景/教育专题/原始文件/E047_学前教育法.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E048_国务院免费学前教育意见.html",
+      "id": "input:03_背景/教育专题/原始文件/E048_国务院免费学前教育意见.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E049-A001_天河2024来穗积分入学指标及分值体系表.xls",
+      "id": "input:03_背景/教育专题/原始文件/E049-A001_天河2024来穗积分入学指标及分值体系表.xls",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E049_天河2024来穗积分入学实施办法正式原文.html",
+      "id": "input:03_背景/教育专题/原始文件/E049_天河2024来穗积分入学实施办法正式原文.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E050_广州2025公办中小学收费管理通知.html",
+      "id": "input:03_背景/教育专题/原始文件/E050_广州2025公办中小学收费管理通知.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E051_广州2024课后服务收费通知.html",
+      "id": "input:03_背景/教育专题/原始文件/E051_广州2024课后服务收费通知.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E052_新蕾学校小学收费批复2025公布.html",
+      "id": "input:03_背景/教育专题/原始文件/E052_新蕾学校小学收费批复2025公布.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E053_2024天河民办幼儿园历史名录.pdf",
+      "id": "input:03_背景/教育专题/原始文件/E053_2024天河民办幼儿园历史名录.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E054_新昌学校小学初中收费批复2024.html",
+      "id": "input:03_背景/教育专题/原始文件/E054_新昌学校小学初中收费批复2024.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E055_广州2024民办义务教育收费管理通知.html",
+      "id": "input:03_背景/教育专题/原始文件/E055_广州2024民办义务教育收费管理通知.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E056_2026铭初幼儿园公司清算公告报纸原页.pdf",
+      "id": "input:03_背景/教育专题/原始文件/E056_2026铭初幼儿园公司清算公告报纸原页.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E057_2025猎德街联合铭初幼儿园生态研学报道.html",
+      "id": "input:03_背景/教育专题/原始文件/E057_2025猎德街联合铭初幼儿园生态研学报道.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E058-A001_天河区民办学校_含民办中小学_幼儿园_培训机构_2025年度年检结论.xlsx",
+      "id": "input:03_背景/教育专题/原始文件/E058-A001_天河区民办学校_含民办中小学_幼儿园_培训机构_2025年度年检结论.xlsx",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E058_天河2025年度民办学校年检最终结论2026发布.html",
+      "id": "input:03_背景/教育专题/原始文件/E058_天河2025年度民办学校年检最终结论2026发布.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E059-A001_附件1_天河区民办中小学_民办幼儿园2024年度年检初步结论.xlsx",
+      "id": "input:03_背景/教育专题/原始文件/E059-A001_附件1_天河区民办中小学_民办幼儿园2024年度年检初步结论.xlsx",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E059_天河2024年度民办中小学幼儿园年检初步结论.html",
+      "id": "input:03_背景/教育专题/原始文件/E059_天河2024年度民办中小学幼儿园年检初步结论.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/地图/2022广州街镇标准地图公开目录.json",
+      "id": "input:03_背景/教育专题/地图/2022广州街镇标准地图公开目录.json",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/地图/OSM_猎德周边_20261112.json",
+      "id": "input:03_背景/教育专题/地图/OSM_猎德周边_20261112.json",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/地图/学校点位_WGS84.csv",
+      "id": "input:03_背景/教育专题/地图/学校点位_WGS84.csv",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/数据/2026天河幼儿园完整名录.csv",
+      "id": "input:03_背景/教育专题/数据/2026天河幼儿园完整名录.csv",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/数据/2026积分学位分学校分学段.csv",
+      "id": "input:03_背景/教育专题/数据/2026积分学位分学校分学段.csv",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/数据/2026积分学位原表逐行.csv",
+      "id": "input:03_背景/教育专题/数据/2026积分学位原表逐行.csv",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/数据/官方名录原表逐行.csv",
+      "id": "input:03_背景/教育专题/数据/官方名录原表逐行.csv",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/数据/小学初中对口与派位关系.csv",
+      "id": "input:03_背景/教育专题/数据/小学初中对口与派位关系.csv",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/数据/小学初中校区学段.csv",
+      "id": "input:03_背景/教育专题/数据/小学初中校区学段.csv",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/数据/招生渠道与家庭类别.csv",
+      "id": "input:03_背景/教育专题/数据/招生渠道与家庭类别.csv",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/数据/收费政策与历史价格.csv",
+      "id": "input:03_背景/教育专题/数据/收费政策与历史价格.csv",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/数据/民办学校幼儿园年检原表逐行.csv",
+      "id": "input:03_背景/教育专题/数据/民办学校幼儿园年检原表逐行.csv",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/数据/猎德及周边幼儿园候选.csv",
+      "id": "input:03_背景/教育专题/数据/猎德及周边幼儿园候选.csv",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/数据/研究点位招生计划.csv",
+      "id": "input:03_背景/教育专题/数据/研究点位招生计划.csv",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/数据/积分指标原表逐行.csv",
+      "id": "input:03_背景/教育专题/数据/积分指标原表逐行.csv",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/数据/缺口冲突与排除.csv",
+      "id": "input:03_背景/教育专题/数据/缺口冲突与排除.csv",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/数据/逐校收费核验状态.csv",
+      "id": "input:03_背景/教育专题/数据/逐校收费核验状态.csv",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/下载清单.json",
+      "id": "input:03_背景/资料库/下载清单.json",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S01_天河区2008年政府工作报告.html",
+      "id": "input:03_背景/资料库/原始文件/S01_天河区2008年政府工作报告.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S02_猎德村整体改造酒店建设规划许可.html",
+      "id": "input:03_背景/资料库/原始文件/S02_猎德村整体改造酒店建设规划许可.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S03_天河年鉴猎德街2011年记录.pdf",
+      "id": "input:03_背景/资料库/原始文件/S03_天河年鉴猎德街2011年记录.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S04_档案馆猎德村变迁图文.html",
+      "id": "input:03_背景/资料库/原始文件/S04_档案馆猎德村变迁图文.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S05_广州市城中村改造条例.html",
+      "id": "input:03_背景/资料库/原始文件/S05_广州市城中村改造条例.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S07_中华人民共和国农村集体经济组织法.html",
+      "id": "input:03_背景/资料库/原始文件/S07_中华人民共和国农村集体经济组织法.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S08_广州市公共租赁住房管理办法2024.html",
+      "id": "input:03_背景/资料库/原始文件/S08_广州市公共租赁住房管理办法2024.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S09_公共租赁住房管理办法2024正式PDF.pdf",
+      "id": "input:03_背景/资料库/原始文件/S09_公共租赁住房管理办法2024正式PDF.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S10_来穗务工人员公租房期满审查及续租方案.pdf",
+      "id": "input:03_背景/资料库/原始文件/S10_来穗务工人员公租房期满审查及续租方案.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S13_潘卓林等2020猎德村民市民化研究.html",
+      "id": "input:03_背景/资料库/原始文件/S13_潘卓林等2020猎德村民市民化研究.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S14_潘卓林等2020论文PDF平台版.pdf",
+      "id": "input:03_背景/资料库/原始文件/S14_潘卓林等2020论文PDF平台版.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S16_Wu等2013城中村发展与拆除研究.pdf",
+      "id": "input:03_背景/资料库/原始文件/S16_Wu等2013城中村发展与拆除研究.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S18_猎德街道本级2026部门预算.pdf",
+      "id": "input:03_背景/资料库/原始文件/S18_猎德街道本级2026部门预算.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S19_猎德街综合事务中心2026预算.pdf",
+      "id": "input:03_背景/资料库/原始文件/S19_猎德街综合事务中心2026预算.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S20_猎德街道2024年度部门决算.pdf",
+      "id": "input:03_背景/资料库/原始文件/S20_猎德街道2024年度部门决算.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S21_猎德人家建设经费项目绩效评价.pdf",
+      "id": "input:03_背景/资料库/原始文件/S21_猎德人家建设经费项目绩效评价.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S22_猎德街道2024整体支出绩效自评.pdf",
+      "id": "input:03_背景/资料库/原始文件/S22_猎德街道2024整体支出绩效自评.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S23_天河公共文化设施目录2026检索版.html",
+      "id": "input:03_背景/资料库/原始文件/S23_天河公共文化设施目录2026检索版.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S24_天河公共文化设施目录2025版本.html",
+      "id": "input:03_背景/资料库/原始文件/S24_天河公共文化设施目录2025版本.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S25_广州市文化馆情况一览表.html",
+      "id": "input:03_背景/资料库/原始文件/S25_广州市文化馆情况一览表.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S26_中华人民共和国公共文化服务保障法.html",
+      "id": "input:03_背景/资料库/原始文件/S26_中华人民共和国公共文化服务保障法.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S27_广州文化馆站室服务规范2020已失效.html",
+      "id": "input:03_背景/资料库/原始文件/S27_广州文化馆站室服务规范2020已失效.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S28_广州文化馆站室服务规范历史附件.pdf",
+      "id": "input:03_背景/资料库/原始文件/S28_广州文化馆站室服务规范历史附件.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S29-A01_附件1.公共文化设施非学科类培训政府指导价收费标准.doc.doc",
+      "id": "input:03_背景/资料库/原始文件/S29-A01_附件1.公共文化设施非学科类培训政府指导价收费标准.doc.doc",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S29-A02_附件2.公共文化设施开放及临时活动政府指导价收费标准.doc.doc",
+      "id": "input:03_背景/资料库/原始文件/S29-A02_附件2.公共文化设施开放及临时活动政府指导价收费标准.doc.doc",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S29_广州市公共文化设施收费管理办法2025.html",
+      "id": "input:03_背景/资料库/原始文件/S29_广州市公共文化设施收费管理办法2025.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S30_公共文化收费管理办法政府公报PDF.pdf",
+      "id": "input:03_背景/资料库/原始文件/S30_公共文化收费管理办法政府公报PDF.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S31_广州社会力量参与公共文化设施运营办法.html",
+      "id": "input:03_背景/资料库/原始文件/S31_广州社会力量参与公共文化设施运营办法.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S32_广州公共文化服务2021至2025修订标准.html",
+      "id": "input:03_背景/资料库/原始文件/S32_广州公共文化服务2021至2025修订标准.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S33_好驿天河服务中心项目建议书审批前公示.html",
+      "id": "input:03_背景/资料库/原始文件/S33_好驿天河服务中心项目建议书审批前公示.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S34_猎德人家揭牌运营报道2020.html",
+      "id": "input:03_背景/资料库/原始文件/S34_猎德人家揭牌运营报道2020.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S35_不出猎德体验国际化生活.html",
+      "id": "input:03_背景/资料库/原始文件/S35_不出猎德体验国际化生活.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S36_猎德社区志愿服务及范围介绍.html",
+      "id": "input:03_背景/资料库/原始文件/S36_猎德社区志愿服务及范围介绍.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S37_猎德街2023至2024社工服务评估.pdf",
+      "id": "input:03_背景/资料库/原始文件/S37_猎德街2023至2024社工服务评估.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S38_猎德国际街区官方介绍.html",
+      "id": "input:03_背景/资料库/原始文件/S38_猎德国际街区官方介绍.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S39_广州市社科院猎德调研记录.html",
+      "id": "input:03_背景/资料库/原始文件/S39_广州市社科院猎德调研记录.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S40_猎德涌生态治理官方介绍.html",
+      "id": "input:03_背景/资料库/原始文件/S40_猎德涌生态治理官方介绍.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S42_Geurs可及性分析机构库章节.pdf",
+      "id": "input:03_背景/资料库/原始文件/S42_Geurs可及性分析机构库章节.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S43_PBL可及性测度研究书目页.html",
+      "id": "input:03_背景/资料库/原始文件/S43_PBL可及性测度研究书目页.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S44_PBL2001可及性测度研究全文.pdf",
+      "id": "input:03_背景/资料库/原始文件/S44_PBL2001可及性测度研究全文.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S45_广州公共文化设施管理办法2019.html",
+      "id": "input:03_背景/资料库/原始文件/S45_广州公共文化设施管理办法2019.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S46_公共租赁住房保障申请审查细则2025.html",
+      "id": "input:03_背景/资料库/原始文件/S46_公共租赁住房保障申请审查细则2025.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S47_广州人大城中村条例法规库现行状态.html",
+      "id": "input:03_背景/资料库/原始文件/S47_广州人大城中村条例法规库现行状态.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S48_城中村改造条例天河转载正式PDF.pdf",
+      "id": "input:03_背景/资料库/原始文件/S48_城中村改造条例天河转载正式PDF.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S50_猎德拆迁补偿初步方案2007现场报道.html",
+      "id": "input:03_背景/资料库/原始文件/S50_猎德拆迁补偿初步方案2007现场报道.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S51_猎德商铺租户2007搬迁诉求报道.html",
+      "id": "input:03_背景/资料库/原始文件/S51_猎德商铺租户2007搬迁诉求报道.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S52_天河年鉴猎德改造诉讼2007记录.pdf",
+      "id": "input:03_背景/资料库/原始文件/S52_天河年鉴猎德改造诉讼2007记录.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S56_Twente可及性章节书目信息.html",
+      "id": "input:03_背景/资料库/原始文件/S56_Twente可及性章节书目信息.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S57_Kwan1999大学机构库书目与摘要.html",
+      "id": "input:03_背景/资料库/原始文件/S57_Kwan1999大学机构库书目与摘要.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/补充选题资料/T01.html",
+      "id": "input:03_背景/资料库/补充选题资料/T01.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/补充选题资料/T02.html",
+      "id": "input:03_背景/资料库/补充选题资料/T02.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/补充选题资料/T03.html",
+      "id": "input:03_背景/资料库/补充选题资料/T03.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/补充选题资料/T04.html",
+      "id": "input:03_背景/资料库/补充选题资料/T04.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/补充选题资料/T05.html",
+      "id": "input:03_背景/资料库/补充选题资料/T05.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/补充选题资料/T06.html",
+      "id": "input:03_背景/资料库/补充选题资料/T06.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/补充选题资料/T07.html",
+      "id": "input:03_背景/资料库/补充选题资料/T07.html",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/补充选题资料/T08.pdf",
+      "id": "input:03_背景/资料库/补充选题资料/T08.pdf",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/补充选题资料/补充来源清单.json",
+      "id": "input:03_背景/资料库/补充选题资料/补充来源清单.json",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/交通可达性/data/round-1/liede-transport-accessibility-2026.json",
+      "id": "input:04_工作区/研究分析/交通可达性/data/round-1/liede-transport-accessibility-2026.json",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/交通可达性/data/round-2/liede-accessibility-round-2.json",
+      "id": "input:04_工作区/研究分析/交通可达性/data/round-2/liede-accessibility-round-2.json",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/交通可达性/data/round-3/commute-burden-scenarios.csv",
+      "id": "input:04_工作区/研究分析/交通可达性/data/round-3/commute-burden-scenarios.csv",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/交通可达性/data/round-3/household-scenarios.csv",
+      "id": "input:04_工作区/研究分析/交通可达性/data/round-3/household-scenarios.csv",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/交通可达性/data/round-3/primary-migrant-points-plan-2026.csv",
+      "id": "input:04_工作区/研究分析/交通可达性/data/round-3/primary-migrant-points-plan-2026.csv",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/交通可达性/data/round-3/supplementary-amap.json",
+      "id": "input:04_工作区/研究分析/交通可达性/data/round-3/supplementary-amap.json",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/交通可达性/data/round-3/supplementary-route-audit.csv",
+      "id": "input:04_工作区/研究分析/交通可达性/data/round-3/supplementary-route-audit.csv",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/交通可达性/data/round-3/threshold-sensitivity.csv",
+      "id": "input:04_工作区/研究分析/交通可达性/data/round-3/threshold-sensitivity.csv",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/交通可达性/scripts/reproduce.py",
+      "id": "input:04_工作区/研究分析/交通可达性/scripts/reproduce.py",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/房价分布/README.md",
+      "id": "input:04_工作区/研究分析/房价分布/README.md",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/房价分布/可复用研究Prompt_猎德住房调查.md",
+      "id": "input:04_工作区/研究分析/房价分布/可复用研究Prompt_猎德住房调查.md",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/房价分布/猎德住房价格数据_2026-11-11.csv",
+      "id": "input:04_工作区/研究分析/房价分布/猎德住房价格数据_2026-11-11.csv",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/房价分布/猎德住房价格数据_2026-11-11.xlsx",
+      "id": "input:04_工作区/研究分析/房价分布/猎德住房价格数据_2026-11-11.xlsx",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/房价分布/猎德住房空间分布调查报告_2026-11-11.md",
+      "id": "input:04_工作区/研究分析/房价分布/猎德住房空间分布调查报告_2026-11-11.md",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/房价分布/猎德区域分析_统计汇总.csv",
+      "id": "input:04_工作区/研究分析/房价分布/猎德区域分析_统计汇总.csv",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/房价分布/猎德区域分析_逐小区分组.csv",
+      "id": "input:04_工作区/研究分析/房价分布/猎德区域分析_逐小区分组.csv",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/房价分布/猎德区域房价分析补充报告_2026-11-12.md",
+      "id": "input:04_工作区/研究分析/房价分布/猎德区域房价分析补充报告_2026-11-12.md",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/定向证据补全/2026-11-13/amap-targeted-checks.json",
+      "id": "input:04_工作区/研究分析/定向证据补全/2026-11-13/amap-targeted-checks.json",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/定向证据补全/2026-11-13/follow-up-search.md",
+      "id": "input:04_工作区/研究分析/定向证据补全/2026-11-13/follow-up-search.md",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/定向证据补全/2026-11-13/housing-listing-observation.json",
+      "id": "input:04_工作区/研究分析/定向证据补全/2026-11-13/housing-listing-observation.json",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/定向证据补全/2026-11-13/kindergarten-2026-verification.md",
+      "id": "input:04_工作区/研究分析/定向证据补全/2026-11-13/kindergarten-2026-verification.md",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/定向证据补全/2026-11-13/new-evidence-report.md",
+      "id": "input:04_工作区/研究分析/定向证据补全/2026-11-13/new-evidence-report.md",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/定向证据补全/2026-11-13/recommended-updates.md",
+      "id": "input:04_工作区/研究分析/定向证据补全/2026-11-13/recommended-updates.md",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/定向证据补全/2026-11-13/unresolved-gaps.md",
+      "id": "input:04_工作区/研究分析/定向证据补全/2026-11-13/unresolved-gaps.md",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/定向证据补全/2026-11-13/verified-facts.csv",
+      "id": "input:04_工作区/研究分析/定向证据补全/2026-11-13/verified-facts.csv",
+      "passed": true
+    },
+    {
+      "detail": "保护基线中的既有文件字节未变",
+      "id": "protected_working_files",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E001_2026天河区义务教育招生细则通知.html",
+      "id": "archive:E001",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E002_2026义务教育细则与全套附件.pdf",
+      "id": "archive:E002",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E003_2026幼儿园招生工作方案.html",
+      "id": "archive:E003",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E004_2026教育部门办幼儿园招生计划.html",
+      "id": "archive:E004",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E005_2026其他部门办幼儿园信息表.html",
+      "id": "archive:E005",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E006_2026民办幼儿园信息表.html",
+      "id": "archive:E006",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E007_来穗积分入学实施办法解读2024.html",
+      "id": "archive:E007",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E008_2026积分入学录取通知规则页.html",
+      "id": "archive:E008",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E009_广州免费学前教育政策问答.html",
+      "id": "archive:E009",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E010_完善幼儿园收费政策国家通知.html",
+      "id": "archive:E010",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E011_中华人民共和国义务教育法.html",
+      "id": "archive:E011",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E012_广州市标准地图平台.html",
+      "id": "archive:E012",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E013_天地图广州主页.html",
+      "id": "archive:E013",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E014_广州地理信息服务平台官方介绍.html",
+      "id": "archive:E014",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E015_广州市行政区划图2024.pdf",
+      "id": "archive:E015",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E016_天河国土空间总体规划2021至2035.html",
+      "id": "archive:E016",
+      "passed": true
+    },
+    {
+      "detail": "内存中核验分卷，不还原或改写原文件",
+      "id": "archive:E016-A001",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E017_2026教育系统部门预算目录.html",
+      "id": "archive:E017",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E017-A015_8.2026年广州市天河中学部门预算.pdf.pdf",
+      "id": "archive:E017-A015",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E017-A069_35.2026年广州市南国学校部门预算.pdf.pdf",
+      "id": "archive:E017-A069",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E017-A095_48.2026年广州市天河中学猎德实验学校部门预算.pdf.pdf",
+      "id": "archive:E017-A095",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E017-A143_72.2026年广州市天河第二实验幼儿园部门预算.pdf.pdf",
+      "id": "archive:E017-A143",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E017-A151_76.2026年广州市天河外国语学校部门预算.pdf.pdf",
+      "id": "archive:E017-A151",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E017-A203_102.2026年广州市天河区金穗幼儿园部门预算.pdf.pdf",
+      "id": "archive:E017-A203",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E017-A207_104.2026年广州市天河区萃禾幼儿园部门预算.pdf.pdf",
+      "id": "archive:E017-A207",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E017-A219_110.2026年广州市天河区体育东路小学兴国学校部门预算.pdf.pdf",
+      "id": "archive:E017-A219",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E017-A221_111.2026年广州市天河区体育东路小学海明学校部门预算.pdf.pdf",
+      "id": "archive:E017-A221",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E017-A233_117.2026年广州市天河第一小学部门预算.pdf.pdf",
+      "id": "archive:E017-A233",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E017-A249_125.2026年广州市天河区童时光幼儿园部门预算.pdf.pdf",
+      "id": "archive:E017-A249",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S36_猎德社区志愿服务及范围介绍.html",
+      "id": "archive:E018",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S38_猎德国际街区官方介绍.html",
+      "id": "archive:E019",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E020_2026猎德幼儿园预算.pdf",
+      "id": "archive:E020",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E021_2024猎德幼儿园决算.pdf",
+      "id": "archive:E021",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E022_2020民办幼儿园历史收费名录.html",
+      "id": "archive:E022",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E023_2026猎德街面积口径报道.html",
+      "id": "archive:E023",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E024_猎德西部首个公办园华文幼儿园开学.html",
+      "id": "archive:E024",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E025_天河区幼儿园基本情况2022.html",
+      "id": "archive:E025",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E026_天河区小学基本情况2022.html",
+      "id": "archive:E026",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E027_天河区九年一贯制学校基本情况2022.html",
+      "id": "archive:E027",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E028_天河区完全中学基本情况2022.html",
+      "id": "archive:E028",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E029_天河区初级中学基本情况2022.html",
+      "id": "archive:E029",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E030_2026积分入学学位申请指引.html",
+      "id": "archive:E030",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E030-A001_附件1_2026年公办小学积分入学招生计划表.xls",
+      "id": "archive:E030-A001",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E030-A002_附件2_2026年天河区公办初中积分入学招生计划.xls",
+      "id": "archive:E030-A002",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E030-A003_附件3_2026年天河区民办中小学积分入学招生计划.xlsx",
+      "id": "archive:E030-A003",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E031_2026港澳居民学位申请指引.html",
+      "id": "archive:E031",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E032_2026规范公办小学转学通知.html",
+      "id": "archive:E032",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E033_2026幼儿园特教班招生计划.html",
+      "id": "archive:E033",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E034_广州公办幼儿园收费2024政策解读.html",
+      "id": "archive:E034",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E035_猎德幼儿园教育局课程介绍2021.html",
+      "id": "archive:E035",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E036_2025其他部门办幼儿园信息表.html",
+      "id": "archive:E036",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E037_天河招生考试目录页.html",
+      "id": "archive:E037",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E038_广州中小学教育收费规范2020.html",
+      "id": "archive:E038",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E039_广州2024幼儿园收费正式通知.html",
+      "id": "archive:E039",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E040_广州2026幼儿园招生通知修订.html",
+      "id": "archive:E040",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E041_猎德街年鉴范围和历史设施.pdf",
+      "id": "archive:E041",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/地图/2022广州街镇标准地图公开目录.json",
+      "id": "archive:E042",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E043_2022猎德街道标准地图公开预览.jpg",
+      "id": "archive:E043",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E044_2022冼村街道地图公开预览.jpg",
+      "id": "archive:E044",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E045_2022员村街道地图公开预览.jpg",
+      "id": "archive:E045",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E046_2022天河南街道地图公开预览.jpg",
+      "id": "archive:E046",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E047_学前教育法.html",
+      "id": "archive:E047",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E048_国务院免费学前教育意见.html",
+      "id": "archive:E048",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E049_天河2024来穗积分入学实施办法正式原文.html",
+      "id": "archive:E049",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E049-A001_天河2024来穗积分入学指标及分值体系表.xls",
+      "id": "archive:E049-A001",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E050_广州2025公办中小学收费管理通知.html",
+      "id": "archive:E050",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E051_广州2024课后服务收费通知.html",
+      "id": "archive:E051",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E052_新蕾学校小学收费批复2025公布.html",
+      "id": "archive:E052",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E053_2024天河民办幼儿园历史名录.pdf",
+      "id": "archive:E053",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E054_新昌学校小学初中收费批复2024.html",
+      "id": "archive:E054",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E055_广州2024民办义务教育收费管理通知.html",
+      "id": "archive:E055",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E056_2026铭初幼儿园公司清算公告报纸原页.pdf",
+      "id": "archive:E056",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E057_2025猎德街联合铭初幼儿园生态研学报道.html",
+      "id": "archive:E057",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E058_天河2025年度民办学校年检最终结论2026发布.html",
+      "id": "archive:E058",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E058-A001_天河区民办学校_含民办中小学_幼儿园_培训机构_2025年度年检结论.xlsx",
+      "id": "archive:E058-A001",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E059_天河2024年度民办中小学幼儿园年检初步结论.html",
+      "id": "archive:E059",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/原始文件/E059-A001_附件1_天河区民办中小学_民办幼儿园2024年度年检初步结论.xlsx",
+      "id": "archive:E059-A001",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/教育专题/数据/逐校收费核验状态.csv",
+      "id": "archive:LOCAL-1d95fd31067d",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/交通可达性/data/round-3/supplementary-amap.json",
+      "id": "archive:LOCAL-1da7e56b7ed4",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/定向证据补全/2026-11-13/verified-facts.csv",
+      "id": "archive:LOCAL-27bae90341ee",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/定向证据补全/2026-11-13/new-evidence-report.md",
+      "id": "archive:LOCAL-4a2f4f77def4",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/定向证据补全/2026-11-13/unresolved-gaps.md",
+      "id": "archive:LOCAL-4bd19a617351",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/交通可达性/data/round-2/liede-accessibility-round-2.json",
+      "id": "archive:LOCAL-51ccb10d4f8e",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/定向证据补全/2026-11-13/kindergarten-2026-verification.md",
+      "id": "archive:LOCAL-65d7083a6a5b",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/定向证据补全/2026-11-13/amap-targeted-checks.json",
+      "id": "archive:LOCAL-71cb8a5ba334",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/定向证据补全/2026-11-13/housing-listing-observation.json",
+      "id": "archive:LOCAL-adef1ae4e19f",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/定向证据补全/2026-11-13/follow-up-search.md",
+      "id": "archive:LOCAL-ce4da538b95d",
+      "passed": true
+    },
+    {
+      "detail": "04_工作区/研究分析/定向证据补全/2026-11-13/recommended-updates.md",
+      "id": "archive:LOCAL-ff3f0023f814",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S01_天河区2008年政府工作报告.html",
+      "id": "archive:S01",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S02_猎德村整体改造酒店建设规划许可.html",
+      "id": "archive:S02",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S03_天河年鉴猎德街2011年记录.pdf",
+      "id": "archive:S03",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S04_档案馆猎德村变迁图文.html",
+      "id": "archive:S04",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S05_广州市城中村改造条例.html",
+      "id": "archive:S05",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S07_中华人民共和国农村集体经济组织法.html",
+      "id": "archive:S07",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S08_广州市公共租赁住房管理办法2024.html",
+      "id": "archive:S08",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S09_公共租赁住房管理办法2024正式PDF.pdf",
+      "id": "archive:S09",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S10_来穗务工人员公租房期满审查及续租方案.pdf",
+      "id": "archive:S10",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/原始资料/网络资料/Yuan-2019_Institutional-Arrangements.pdf",
+      "id": "archive:S11",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/原始资料/网络资料/Wong-2024_State-Community-Regeneration.pdf",
+      "id": "archive:S12",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S13_潘卓林等2020猎德村民市民化研究.html",
+      "id": "archive:S13",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S14_潘卓林等2020论文PDF平台版.pdf",
+      "id": "archive:S14",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/原始资料/W5_Ren-2020_Urban-Villages.pdf",
+      "id": "archive:S15",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S16_Wu等2013城中村发展与拆除研究.pdf",
+      "id": "archive:S16",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/原始资料/网络资料/猎德街道_2025部门预算.pdf",
+      "id": "archive:S17",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S18_猎德街道本级2026部门预算.pdf",
+      "id": "archive:S18",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S19_猎德街综合事务中心2026预算.pdf",
+      "id": "archive:S19",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S20_猎德街道2024年度部门决算.pdf",
+      "id": "archive:S20",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S21_猎德人家建设经费项目绩效评价.pdf",
+      "id": "archive:S21",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S22_猎德街道2024整体支出绩效自评.pdf",
+      "id": "archive:S22",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S23_天河公共文化设施目录2026检索版.html",
+      "id": "archive:S23",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S24_天河公共文化设施目录2025版本.html",
+      "id": "archive:S24",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S25_广州市文化馆情况一览表.html",
+      "id": "archive:S25",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S26_中华人民共和国公共文化服务保障法.html",
+      "id": "archive:S26",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S27_广州文化馆站室服务规范2020已失效.html",
+      "id": "archive:S27",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S28_广州文化馆站室服务规范历史附件.pdf",
+      "id": "archive:S28",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S29_广州市公共文化设施收费管理办法2025.html",
+      "id": "archive:S29",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S29-A01_附件1.公共文化设施非学科类培训政府指导价收费标准.doc.doc",
+      "id": "archive:S29-A01",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S29-A02_附件2.公共文化设施开放及临时活动政府指导价收费标准.doc.doc",
+      "id": "archive:S29-A02",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S30_公共文化收费管理办法政府公报PDF.pdf",
+      "id": "archive:S30",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S31_广州社会力量参与公共文化设施运营办法.html",
+      "id": "archive:S31",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S32_广州公共文化服务2021至2025修订标准.html",
+      "id": "archive:S32",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S33_好驿天河服务中心项目建议书审批前公示.html",
+      "id": "archive:S33",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S34_猎德人家揭牌运营报道2020.html",
+      "id": "archive:S34",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S35_不出猎德体验国际化生活.html",
+      "id": "archive:S35",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S36_猎德社区志愿服务及范围介绍.html",
+      "id": "archive:S36",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S37_猎德街2023至2024社工服务评估.pdf",
+      "id": "archive:S37",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S38_猎德国际街区官方介绍.html",
+      "id": "archive:S38",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S39_广州市社科院猎德调研记录.html",
+      "id": "archive:S39",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S40_猎德涌生态治理官方介绍.html",
+      "id": "archive:S40",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S42_Geurs可及性分析机构库章节.pdf",
+      "id": "archive:S42",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S43_PBL可及性测度研究书目页.html",
+      "id": "archive:S43",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S44_PBL2001可及性测度研究全文.pdf",
+      "id": "archive:S44",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S45_广州公共文化设施管理办法2019.html",
+      "id": "archive:S45",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S46_公共租赁住房保障申请审查细则2025.html",
+      "id": "archive:S46",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S47_广州人大城中村条例法规库现行状态.html",
+      "id": "archive:S47",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S48_城中村改造条例天河转载正式PDF.pdf",
+      "id": "archive:S48",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S50_猎德拆迁补偿初步方案2007现场报道.html",
+      "id": "archive:S50",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S51_猎德商铺租户2007搬迁诉求报道.html",
+      "id": "archive:S51",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S52_天河年鉴猎德改造诉讼2007记录.pdf",
+      "id": "archive:S52",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S56_Twente可及性章节书目信息.html",
+      "id": "archive:S56",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/原始文件/S57_Kwan1999大学机构库书目与摘要.html",
+      "id": "archive:S57",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/补充选题资料/T01.html",
+      "id": "archive:T01",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/补充选题资料/T02.html",
+      "id": "archive:T02",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/补充选题资料/T03.html",
+      "id": "archive:T03",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/补充选题资料/T04.html",
+      "id": "archive:T04",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/补充选题资料/T05.html",
+      "id": "archive:T05",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/补充选题资料/T06.html",
+      "id": "archive:T06",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/补充选题资料/T07.html",
+      "id": "archive:T07",
+      "passed": true
+    },
+    {
+      "detail": "03_背景/资料库/补充选题资料/T08.pdf",
+      "id": "archive:T08",
+      "passed": true
+    },
+    {
+      "detail": "在临时副本复算，未写入旧文件",
+      "id": "legacy_reproduction:supplementary-route-audit.csv",
+      "passed": true
+    },
+    {
+      "detail": "在临时副本复算，未写入旧文件",
+      "id": "legacy_reproduction:threshold-sensitivity.csv",
+      "passed": true
+    },
+    {
+      "detail": "在临时副本复算，未写入旧文件",
+      "id": "legacy_reproduction:household-scenarios.csv",
+      "passed": true
+    },
+    {
+      "detail": "在临时副本复算，未写入旧文件",
+      "id": "legacy_reproduction:commute-burden-scenarios.csv",
+      "passed": true
+    },
+    {
+      "detail": "第一轮为后续路线子集，不追加为新样本",
+      "id": "round1_provenance",
+      "passed": true
+    },
+    {
+      "detail": "45 records",
+      "id": "unique_id:work_evidence",
+      "passed": true
+    },
+    {
+      "detail": "18 records",
+      "id": "unique_id:residences",
+      "passed": true
+    },
+    {
+      "detail": "78 records",
+      "id": "unique_id:entity_crosswalk",
+      "passed": true
+    },
+    {
+      "detail": "63 records",
+      "id": "unique_id:housing_observations",
+      "passed": true
+    },
+    {
+      "detail": "43 records",
+      "id": "unique_id:education_campuses",
+      "passed": true
+    },
+    {
+      "detail": "41 records",
+      "id": "unique_id:institutions",
+      "passed": true
+    },
+    {
+      "detail": "42 records",
+      "id": "unique_id:positions",
+      "passed": true
+    },
+    {
+      "detail": "9 records",
+      "id": "unique_id:admission_rules",
+      "passed": true
+    },
+    {
+      "detail": "47 records",
+      "id": "unique_id:campus_admission_rules",
+      "passed": true
+    },
+    {
+      "detail": "73 records",
+      "id": "unique_id:admission_plans",
+      "passed": true
+    },
+    {
+      "detail": "10 records",
+      "id": "unique_id:district_primary_points_plan",
+      "passed": true
+    },
+    {
+      "detail": "65 records",
+      "id": "unique_id:education_fees",
+      "passed": true
+    },
+    {
+      "detail": "27 records",
+      "id": "unique_id:fee_applicability",
+      "passed": true
+    },
+    {
+      "detail": "42 records",
+      "id": "unique_id:transport_routes",
+      "passed": true
+    },
+    {
+      "detail": "648 records",
+      "id": "unique_id:walking_sensitivity",
+      "passed": true
+    },
+    {
+      "detail": "12 records",
+      "id": "unique_id:escort_scenarios",
+      "passed": true
+    },
+    {
+      "detail": "30 records",
+      "id": "unique_id:household_scenarios",
+      "passed": true
+    },
+    {
+      "detail": "9 records",
+      "id": "unique_id:accessibility_comparisons",
+      "passed": true
+    },
+    {
+      "detail": "23 records",
+      "id": "unique_id:admission_evidence",
+      "passed": true
+    },
+    {
+      "detail": "7 records",
+      "id": "unique_id:admission_conditions",
+      "passed": true
+    },
+    {
+      "detail": "4 records",
+      "id": "unique_id:plan_corroboration",
+      "passed": true
+    },
+    {
+      "detail": "1 records",
+      "id": "unique_id:verified_facts",
+      "passed": true
+    },
+    {
+      "detail": "2 records",
+      "id": "unique_id:capacity_notices",
+      "passed": true
+    },
+    {
+      "detail": "91 records",
+      "id": "unique_id:admission_channel_contexts",
+      "passed": true
+    },
+    {
+      "detail": "18 records",
+      "id": "unique_id:residence_cost_summary",
+      "passed": true
+    },
+    {
+      "detail": "41 records",
+      "id": "unique_id:housing_education_links",
+      "passed": true
+    },
+    {
+      "detail": "12 records",
+      "id": "unique_id:evidence_matrix",
+      "passed": true
+    },
+    {
+      "detail": "102 records",
+      "id": "unique_id:research_gaps",
+      "passed": true
+    },
+    {
+      "detail": "267 records",
+      "id": "unique_id:source_registry",
+      "passed": true
+    },
+    {
+      "detail": "0 records",
+      "id": "unique_id:import_quarantine",
+      "passed": true
+    },
+    {
+      "detail": "命名空间、原对象ID与实体类型的组合须唯一",
+      "id": "crosswalk_single_target",
+      "passed": true
+    },
+    {
+      "detail": "未确认对应不得填写已接受对象ID",
+      "id": "crosswalk_no_forced_match",
+      "passed": true
+    },
+    {
+      "detail": "分析学段只含幼儿园和小学；住宅类文本注释可不指定学段，原政策文本可能覆盖更多学段",
+      "id": "primary_kindergarten_only",
+      "passed": true
+    },
+    {
+      "detail": "规范实体、位置、规则、计划和路线引用可解析",
+      "id": "relational_foreign_keys",
+      "passed": true
+    },
+    {
+      "detail": "通用参考、住房观察和渠道背景列表引用均可解析",
+      "id": "reference_list_foreign_keys",
+      "passed": true
+    },
+    {
+      "detail": "统一WGS84经纬度，不用展示XY替代",
+      "id": "normalized_crs",
+      "passed": true
+    },
+    {
+      "detail": {
+        "max_numerical_error_m": 0.0006921726585314827,
+        "not_a_field_accuracy_estimate": true
+      },
+      "id": "gcj_numeric_roundtrip",
+      "passed": true
+    },
+    {
+      "detail": "候选对应与已接受对应分开",
+      "id": "position_entity_references",
+      "passed": true
+    },
+    {
+      "detail": "默认位置须关联同一实体",
+      "id": "preferred_positions",
+      "passed": true
+    },
+    {
+      "detail": "原30+9条与11月13日定向补查分开；第一轮18条不再追加",
+      "id": "routes_no_round1_double_count",
+      "passed": true
+    },
+    {
+      "detail": "完整保留45条补证及原核验标签，不整批提升可信度",
+      "id": "work_evidence_complete",
+      "passed": true
+    },
+    {
+      "detail": "补证显式实体对应可解析；机构级未确认不下分园区",
+      "id": "work_subjects_resolve",
+      "passed": true
+    },
+    {
+      "detail": "本轮南国花园挂牌与冲突索引不转为小区参考价；未来可靠新证据仍可经通用接口追加",
+      "id": "work_no_reference_price_invention",
+      "passed": true
+    },
+    {
+      "detail": "本轮没有取得2026逐园收费单，历史或推定不进入实际收费",
+      "id": "work_estimated_fee_not_actual",
+      "passed": true
+    },
+    {
+      "detail": "定向新增三条POI路线；与原六园敏感性样本分开",
+      "id": "work_targeted_routes",
+      "passed": true
+    },
+    {
+      "detail": "补证交叉核对指向既有计划，不追加或重复求和",
+      "id": "work_plan_traceability",
+      "passed": true
+    },
+    {
+      "detail": "每条补证的本地载体来源均已登记",
+      "id": "work_snapshot_traceability",
+      "passed": true
+    },
+    {
+      "detail": "已知异常路线保留归档，禁止进入分析",
+      "id": "excluded_subchord_route",
+      "passed": true
+    },
+    {
+      "detail": "目的地未确认的路线不得进入分析",
+      "id": "route_entity_integrity",
+      "passed": true
+    },
+    {
+      "detail": "42条按39普通、2旧名匹配补充、1异常排除分组",
+      "id": "route_quality_strata",
+      "passed": true
+    },
+    {
+      "detail": "所有可用路线均不短于WGS84端点直距",
+      "id": "route_chord_integrity",
+      "passed": true
+    },
+    {
+      "detail": "相关参考资料不自动判断资格、负担或生成计数",
+      "id": "reference_links_do_not_decide_eligibility",
+      "passed": true
+    },
+    {
+      "detail": "渠道背景行不是个人资格或家庭样本",
+      "id": "channel_contexts_are_not_households",
+      "passed": true
+    },
+    {
+      "detail": "金穗本园业主计划0不套一般业主优先；一般派位另列",
+      "id": "K5_zero_owner_plan",
+      "passed": true
+    },
+    {
+      "detail": "历史和推定挂接状态不得留空，均不代表家庭费用适用",
+      "id": "fee_reference_status_complete",
+      "passed": true
+    },
+    {
+      "detail": "费用按证据层级保存，未知家庭净额不填0",
+      "id": "fee_layers_and_unknown_net_cost",
+      "passed": true
+    },
+    {
+      "detail": "预警年份与实际触发分开",
+      "id": "capacity_warning_years",
+      "passed": true
+    },
+    {
+      "detail": "当前结果为制度路径或模型路线",
+      "id": "no_observed_admission_invention",
+      "passed": true
+    },
+    {
+      "detail": "缺失保留空值，政策零值另行保留",
+      "id": "missing_fee_not_zero",
+      "passed": true
+    },
+    {
+      "detail": "法定零学费不被缺失值处理抹去",
+      "id": "legal_zero_retained",
+      "passed": true
+    },
+    {
+      "detail": "机构7班总计划只记一次，不在两个校区各记7班",
+      "id": "institution_plan_not_duplicated",
+      "passed": true
+    },
+    {
+      "detail": "班数、人数和派位组成项分别保存",
+      "id": "plan_subject_grain",
+      "passed": true
+    },
+    {
+      "detail": "区级计划只计一次，不与地理样本合计",
+      "id": "district_primary_points_total",
+      "passed": true
+    },
+    {
+      "detail": "重叠来源记录一致，不重复追加",
+      "id": "overlapping_points_plan_consistent",
+      "passed": true
+    },
+    {
+      "detail": "所有分析来源引用可解析",
+      "id": "source_foreign_keys",
+      "passed": true
+    },
+    {
+      "detail": "每项支持数据都能定位到输出行",
+      "id": "evidence_row_traceability",
+      "passed": true
+    }
+  ],
+  "failure_count": 0,
+  "known_research_gaps": 102,
+  "passed": true,
+  "quarantine_count": 0
+}

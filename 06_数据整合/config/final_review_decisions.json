@@ -1,0 +1,52 @@
+{
+  "reviewed_commit": "5101aa7ca61e0d2ddeff85a8209d9cf126a33508",
+  "review_source": "用户在会话提供的GPT Work Independent Research Review",
+  "scope": "小学与幼儿园，独立数据层收尾与交接",
+  "decisions": [
+    {
+      "issue": "通用规则被误读为住宅家庭资格",
+      "resolution": "联表重命名reference_*并仅作证据索引；住宅×园区×渠道另表，资格未知不计数",
+      "verification": "admission_channel_contexts；reference_links_do_not_decide_eligibility测试"
+    },
+    {
+      "issue": "金穗本园2026业主名额为0",
+      "resolution": "一般派位与业主渠道分开，业主渠道明确该年公布计划0，不赋予邻近住宅优先",
+      "verification": "K5_zero_owner_plan测试"
+    },
+    {
+      "issue": "历史或推定费用挂接状态为空",
+      "resolution": "费用增加evidence_layer；挂接状态全部显式标为reference_only，净额不填",
+      "verification": "fee_layers_never_imply_affordability测试"
+    },
+    {
+      "issue": "图B混用住房报价；图A定位偏样与价格色阶",
+      "resolution": "双系列英文路线主图，无住房数值；定位图无价格编码，按学段列分母；旧P03候选仅源表保留",
+      "verification": "FIGURE_LEGENDS；图件源数据与PNG/PDF核验"
+    },
+    {
+      "issue": "K7已关联但F08理由仍混含身份未确认",
+      "resolution": "F08改为长度异常；42条明确39普通、2旧名匹配补充、1异常排除",
+      "verification": "route_quality_strata测试"
+    },
+    {
+      "issue": "兴国容量预警年份混淆",
+      "resolution": "2025文件针对2026，2026文件针对2027；实际超额和改派未知",
+      "verification": "capacity_notices；warning_years_and_unobserved_outcomes测试"
+    },
+    {
+      "issue": "港澳小学安排被写成其他学段志愿逻辑",
+      "resolution": "只保留公示后积分顺序安排至南国小学部、45人封顶；个人结果未观察",
+      "verification": "HK_primary_allocation_not_junior_preferences测试"
+    },
+    {
+      "issue": "字典39/36旧数量与当前42/41不一致",
+      "resolution": "更新粒度、字段迁移、路线分组及主图6路线/补充3行/全部8独立路线",
+      "verification": "DATA_DICTIONARY；路线去重与外键检查"
+    },
+    {
+      "issue": "配套范围、核心园实价、实际门点与家庭结果缺失",
+      "resolution": "保留限定研究局限，不补值、不无限扩展采集",
+      "verification": "FINAL_EVIDENCE_BRIEF及research_gaps"
+    }
+  ]
+}

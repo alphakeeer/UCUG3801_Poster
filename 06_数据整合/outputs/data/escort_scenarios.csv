@@ -1,0 +1,13 @@
+﻿id,origin_id,destination_id,one_way_amap_walk_minutes,days,escort_legs_per_day,weekly_minutes_two_escort_legs_amap,weekly_minutes_four_legs_amap,weekly_minutes_four_legs_mixed_1mps_escort_1_25mps_solo,amap_0720_one_way_transit_minutes,amap_0720_one_adult_boarding_cny,scenario_weekly_fare_10_adult_boardings,scenario_weekly_fare_20_adult_boardings,evidence_type,source_id
+ESCORT-0731f93d6b87,D1,S1,5.9,5.0,2.0,59.0,118.0,132.9,,,,,constructed_scenario,LOCAL-51ccb10d4f8e
+ESCORT-150432dc832a,D2,S5,11.75,5.0,2.0,117.5,235.0,264.3,,,,,constructed_scenario,LOCAL-51ccb10d4f8e
+ESCORT-160695b065f6,D2,K6,28.5,5.0,2.0,285.0,570.0,641.4,23.0,2.0,20.0,40.0,constructed_scenario,LOCAL-51ccb10d4f8e
+ESCORT-170cd5cb34cc,D2,K5,8.533,5.0,2.0,85.333,170.667,192.0,,,,,constructed_scenario,LOCAL-51ccb10d4f8e
+ESCORT-25c999176837,D2,K2,3.583,5.0,2.0,35.833,71.667,80.7,,,,,constructed_scenario,LOCAL-51ccb10d4f8e
+ESCORT-63a98f47e516,D2,S2,22.967,5.0,2.0,229.667,459.333,516.6,24.0,2.0,20.0,40.0,constructed_scenario,LOCAL-51ccb10d4f8e
+ESCORT-65b4588e0891,D3,S4,2.767,5.0,2.0,27.667,55.333,62.1,,,,,constructed_scenario,LOCAL-51ccb10d4f8e
+ESCORT-7f1ce72724f3,D1,S4,18.75,5.0,2.0,187.5,375.0,421.8,25.0,2.0,20.0,40.0,constructed_scenario,LOCAL-51ccb10d4f8e
+ESCORT-914a9489306f,D1,S5,23.55,5.0,2.0,235.5,471.0,529.8,,,,,constructed_scenario,LOCAL-51ccb10d4f8e
+ESCORT-adde4beebe44,D2,S4,26.483,5.0,2.0,264.833,529.667,595.8,24.0,2.0,20.0,40.0,constructed_scenario,LOCAL-51ccb10d4f8e
+ESCORT-c2ac735aeaaf,D3,S5,28.433,5.0,2.0,284.333,568.667,639.6,,,,,constructed_scenario,LOCAL-51ccb10d4f8e
+ESCORT-e6ae1bc7fcdc,D2,S3,10.083,5.0,2.0,100.833,201.667,226.8,,,,,constructed_scenario,LOCAL-51ccb10d4f8e

@@ -1,0 +1,5 @@
+﻿id,campus_id,work_evidence_id,plan_ids,source_ids,result
+CHECK-WORK-A04,CAP-E004-052,WORK-A04,"[""PLAN-94a3c18296fc"",""PLAN-3cf4ae2c72f7"",""PLAN-23d41786880b""]","[""E004""]",与原三类计划一致，不追加计划数值
+CHECK-WORK-A05,CAP-E004-053,WORK-A05,"[""PLAN-fb2a349e23e7"",""PLAN-ee16462e739a"",""PLAN-22fd0032f7a7""]","[""E004""]",与原三类计划一致，不追加计划数值
+CHECK-WORK-A06,CAP-E004-054,WORK-A06,"[""PLAN-9cdb4d52ab3a"",""PLAN-d8bd181c1700"",""PLAN-e260d69f01c1""]","[""E004""]",与原三类计划一致，不追加计划数值
+CHECK-WORK-A07,CAP-E004-036,WORK-A07,"[""PLAN-04397a4c5482"",""PLAN-f8d98eb711c0"",""PLAN-46f61f93b7a4""]","[""E004""]",与原三类计划一致，不追加计划数值
