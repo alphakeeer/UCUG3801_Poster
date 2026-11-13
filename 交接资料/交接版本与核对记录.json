@@ -1,0 +1,181 @@
+{
+  "交接版本": "中文交接版-2026-11-13-v1",
+  "说明": "空间用新图包，政策、费用、路线用已审基线；不回写专题原件",
+  "导出程序sha256": "27ed7a5b352d9f319891f524c7ec066201f3ddd18036986c7d487204cb2ed619",
+  "工作表记录数": {
+    "资料清单": 501,
+    "使用说明": 13,
+    "住宅综合": 22,
+    "园校综合": 43,
+    "住房观察": 66,
+    "招生规则": 9,
+    "招生计划": 73,
+    "渠道条件": 91,
+    "同址案例": 4,
+    "收费证据": 65,
+    "小学路线比较": 9,
+    "步行路线": 42,
+    "附近园校": 66,
+    "直线距离": 211,
+    "证据索引": 15,
+    "研究缺口": 102,
+    "来源登记": 320,
+    "图表与版本": 18
+  },
+  "资料领域载体数": {
+    "现用交接成品": 17,
+    "园校、招生与收费": 182,
+    "作业与范围": 5,
+    "现场照片与检索线索": 9,
+    "历史背景与其他选题资料": 146,
+    "文献与课程概念": 4,
+    "研究方案与历史成品": 14,
+    "路线与接送情境": 16,
+    "现用空间数据与综合图": 32,
+    "后续补证与问题记录": 8,
+    "住房与价格": 15,
+    "整合证据与历史基线": 53
+  },
+  "输入": {
+    "04_工作区/研究分析/图表与数据补充/ucug3801-housing-education-spatial/data/housing_projects.csv": "05017c23cd63012c4c5d4cb32b1409092e42bc43069bf1d1af356f155d969689",
+    "04_工作区/研究分析/图表与数据补充/ucug3801-housing-education-spatial/data/campuses.csv": "97e5d10e67ab0e6c0677e8650b1796a97583be196c381a8b379b42c3c8955804",
+    "04_工作区/研究分析/图表与数据补充/ucug3801-housing-education-spatial/data/housing_price_observations.csv": "826d0f350065611556d13f2809ed96deb574db26951407cbfefd174ec56dc3d8",
+    "04_工作区/研究分析/图表与数据补充/ucug3801-housing-education-spatial/data/campus_proximity.csv": "de162f751de8b4c7bab4130c52ccb33732fd85fcd63e500b4ea60d3e01484f58",
+    "04_工作区/研究分析/图表与数据补充/ucug3801-housing-education-spatial/data/proximity_pairs_within_800m.csv": "abcf8e7ee9e094d8b022d0ee1bb42e5d7c2899fb32d42274f13478ce5c456a7c",
+    "06_数据整合/outputs/data/source_registry.csv": "619680a4d13c5426e9d8ef35ec329bddeca7859b21bf1e0ec36af8f2af4cfe07",
+    "06_数据整合/outputs/data/admission_rules.csv": "61e3101b5218a465f9b31a9674cbaac43374f1187eef8ad24745e17e2cc004b1",
+    "06_数据整合/outputs/data/admission_conditions.csv": "aa1d712867316f0af22de75d2ad81b93012b5b512193b1df667bffd4e9d56e4e",
+    "06_数据整合/outputs/data/admission_plans.csv": "1cddb5d6cca7d351f4334b2216df67b9795ed428846500c396bebf4dc0e023fa",
+    "06_数据整合/outputs/data/admission_channel_contexts.csv": "43de9209d786fd3b3b818e19271ff61817ec718093da2dfca10971a2d9311633",
+    "06_数据整合/outputs/data/education_fees.csv": "879538eb8db14b8ce618968b67c730245ce984619666f11792b3dbf6c8fc65a2",
+    "06_数据整合/outputs/data/transport_routes.csv": "e178db9d12aaf57ae92efd378f5c17d226a79ebd41f7959bcc1fe9c2029e4493",
+    "06_数据整合/outputs/data/evidence_matrix.csv": "f0e922f932754027d4235f5f4a7ec733a99610681e24534b74e415842f050a4e",
+    "06_数据整合/outputs/data/research_gaps.csv": "bd2252d58592c4ee589dadef7c7289fca0b43880a5f9bde190d93ab33adaed08",
+    "04_工作区/研究分析/图表与数据补充/ucug3801-composite-figures/same-address-admission-scenarios.csv": "5be9dc916c05dcb4bba3587cb7c7141dd9f0d043f16add01bba5f8a30d2b84af",
+    "03_背景/资料库/来源清单.json": "320bd1744a67ed37b1580d613f63b0e39ec0456235e031b674bd66ca4547d960",
+    "03_背景/资料库/补充选题资料/补充来源清单.json": "b2c1da2c43d11bafaea96bee00f2c2a8a6d55e2378e8e3ec97b943479f2f774f",
+    "03_背景/教育专题/来源清单.json": "2efd158d29dad2e91e7921eddead74b1fa8e01c5da01108b9a236b9121f49fd3"
+  },
+  "现用图": [
+    {
+      "原文件": "04_工作区/研究分析/图表与数据补充/ucug3801-housing-education-spatial/maps/housing-education-full.png",
+      "现用文件": "交接资料/图表/01_住房与园校分布_完整图.png",
+      "用途": "现用空间主图；替代旧图A",
+      "sha256": "181290b96e4c49d8bfd5732a2aa1b2e036365832a6a4085e09d2e33f123a8de0"
+    },
+    {
+      "原文件": "04_工作区/研究分析/图表与数据补充/ucug3801-housing-education-spatial/maps/housing-education-full.pdf",
+      "现用文件": "交接资料/图表/01_住房与园校分布_完整图.pdf",
+      "用途": "现用空间主图；替代旧图A",
+      "sha256": "85dfe4db64eb0e031b3c432b61661c34dcab5dec1c8d31bc4604734836471875"
+    },
+    {
+      "原文件": "04_工作区/研究分析/图表与数据补充/ucug3801-housing-education-spatial/maps/housing-education-full.svg",
+      "现用文件": "交接资料/图表/01_住房与园校分布_完整图.svg",
+      "用途": "现用空间主图；替代旧图A",
+      "sha256": "bae0fb462fa4c8db22c508c231766f31a1f0a2f0735b628ccd058067a62ac1b7"
+    },
+    {
+      "原文件": "04_工作区/研究分析/图表与数据补充/ucug3801-housing-education-spatial/maps/housing-education-poster.png",
+      "现用文件": "交接资料/图表/02_住房与园校分布_裁切图.png",
+      "用途": "同一分析的核心视图；供海报负责人选用",
+      "sha256": "c58feb0bb00303b48aeaaeab2f140452445e7d34f40e3852df7e1830bff5b3c3"
+    },
+    {
+      "原文件": "04_工作区/研究分析/图表与数据补充/ucug3801-housing-education-spatial/maps/housing-education-poster.pdf",
+      "现用文件": "交接资料/图表/02_住房与园校分布_裁切图.pdf",
+      "用途": "同一分析的核心视图；供海报负责人选用",
+      "sha256": "b5cb56088b46bc1c51b0e70089d164b9fe1364247e0dc7d97a78a0aff08be0ce"
+    },
+    {
+      "原文件": "04_工作区/研究分析/图表与数据补充/ucug3801-housing-education-spatial/maps/housing-education-poster.svg",
+      "现用文件": "交接资料/图表/02_住房与园校分布_裁切图.svg",
+      "用途": "同一分析的核心视图；供海报负责人选用",
+      "sha256": "227a6ba905055b32f2d778f996af1c68b647407fc96f1970a34faef2b3299dcb"
+    },
+    {
+      "原文件": "04_工作区/研究分析/图表与数据补充/ucug3801-composite-figures/same-address-admission-scenarios.png",
+      "现用文件": "交接资料/图表/03_同址四类家庭招生情境.png",
+      "用途": "现用南国花园情境图；与三住宅路线图互补",
+      "sha256": "d136c52e4743d862ad1fd4a26b815b74f7016bbcf78d7e4a36a6725b9dbc74be"
+    },
+    {
+      "原文件": "04_工作区/研究分析/图表与数据补充/ucug3801-composite-figures/same-address-admission-scenarios.svg",
+      "现用文件": "交接资料/图表/03_同址四类家庭招生情境.svg",
+      "用途": "现用南国花园情境图；与三住宅路线图互补",
+      "sha256": "c333a7c3550bb3494f8e34c86f7ab833d51667ff82ad8d5a9e316f7e5e0458d1"
+    },
+    {
+      "原文件": "04_工作区/研究分析/图表与数据补充/ucug3801-composite-figures/kindergarten-walks-and-places.png",
+      "现用文件": "交接资料/图表/04_幼儿园步行与招生名额.png",
+      "用途": "现用补充图；园区计划不能随住宅重复相加",
+      "sha256": "024ad44fe3fdc2ef7812139659e2efa560c8ff7f00346c0b0edfe97b60f58161"
+    },
+    {
+      "原文件": "04_工作区/研究分析/图表与数据补充/ucug3801-composite-figures/kindergarten-walks-and-places.svg",
+      "现用文件": "交接资料/图表/04_幼儿园步行与招生名额.svg",
+      "用途": "现用补充图；园区计划不能随住宅重复相加",
+      "sha256": "103dd7de9cfba488ba5b65dfa6df170e82bb836ed8492fa5c2771c90b6c17830"
+    },
+    {
+      "原文件": "04_工作区/研究分析/图表与数据补充/ucug3801-composite-figures/housing-price-and-nearby-campuses.png",
+      "现用文件": "交接资料/图表/05_参考价与附近候选园校.png",
+      "用途": "现用描述性比较；不解释家庭收入或因果",
+      "sha256": "d746551ffaa86663c89e74380eba93af5e251576f7b1469431fe626c9ca3f9d7"
+    },
+    {
+      "原文件": "04_工作区/研究分析/图表与数据补充/ucug3801-composite-figures/housing-price-and-nearby-campuses.svg",
+      "现用文件": "交接资料/图表/05_参考价与附近候选园校.svg",
+      "用途": "现用描述性比较；不解释家庭收入或因果",
+      "sha256": "c71a01fcdf416c8e451017d7ed948f8312a05407d3449a3c8f094e7af759bc8e"
+    },
+    {
+      "原文件": "06_数据整合/outputs/figures/figure_B_admission_accessibility.png",
+      "现用文件": "交接资料/图表/06_三住宅招生渠道与步行比较.png",
+      "用途": "沿用已审路线图；与同址四类家庭图互补",
+      "sha256": "cd5f5d460d5030896372500f0ce36f270705d18839045787ab5c65f413c58ce4"
+    },
+    {
+      "原文件": "06_数据整合/outputs/figures/figure_B_admission_accessibility.pdf",
+      "现用文件": "交接资料/图表/06_三住宅招生渠道与步行比较.pdf",
+      "用途": "沿用已审路线图；与同址四类家庭图互补",
+      "sha256": "bd07dc832c09b3abeb41e3d1eec3be8be551b0ecaa439a37b217e1ecdb02d653"
+    },
+    {
+      "原文件": "06_数据整合/outputs/figures/figure_B_admission_accessibility.svg",
+      "现用文件": "交接资料/图表/06_三住宅招生渠道与步行比较.svg",
+      "用途": "沿用已审路线图；与同址四类家庭图互补",
+      "sha256": "3a1be044302edd7f4846c45c56c982485dfe1c462c67ce6b37f6ae673c529fdf"
+    }
+  ],
+  "工作簿sha256": "2dc71b6631b2403eefa0dc81b369bffe513117500c25df9c2583a263d45a6eb9",
+  "校验": [
+    "22住宅编号唯一",
+    "43园校编号唯一，13小学与30幼儿园",
+    "现用园校只含小学与幼儿园",
+    "原18住宅编号全部沿用",
+    "原43园校编号逐项沿用",
+    "66住房观察编号唯一",
+    "原63住房观察均保留",
+    "原住房观察的对象、数值、单位和时期不被静默改写",
+    "16项目纳入同平台月参考价",
+    "珠江都荟挂牌均值更正及旧指标保留",
+    "22住宅及43园校使用WGS84制图坐标",
+    "73计划保持学段范围",
+    "金穗本园2026业主名额明确为0",
+    "天河第一小学7班机构计划仅一次",
+    "42原路线保留，41可作带标识分析",
+    "D3至K7异常路线继续排除",
+    "两条K7旧名路线标为补充",
+    "渠道情境不据以统计合格园校",
+    "工作簿首先展示完整资料清单",
+    "资料名称使用中文可读说明",
+    "工作簿主体对象数正确",
+    "租户未知路线保持空白，不填零",
+    "未知家庭净支出保持空白",
+    "南国花园两指定路线差值以原始秒数算为25.7分钟",
+    "工作簿不含意外公式",
+    "15份现用图逐字节等于原图",
+    "资料清单所有本地文件均存在"
+  ]
+}

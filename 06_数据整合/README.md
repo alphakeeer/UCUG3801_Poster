@@ -1,6 +1,8 @@
 # UCUG3801 研究数据整合
 
-**最终交接入口：[四条核心发现简报](outputs/FINAL_EVIDENCE_BRIEF.md) · [审查响应](outputs/REVIEW_RESPONSE.md)。**
+> **当前组员交接请看[中文图文手册](../README.md)和[中文综合工作簿](../交接资料/研究资料与综合数据.xlsx)。** 本目录保留上一轮已审技术基线；空间表的18住宅／26已定位园校覆盖已由新图包补齐。当前22住宅、43已定位园校和66住房观察在中文工作簿中与本目录的政策、费用、路线连接。旧图A和旧简报的定位覆盖段落已退役；其他制度与路线发现保留使用边界。
+>
+> 数据维护者参阅[交接导出维护说明](maintenance/维护说明.md)。下面的运行方法复现历史规范表，不会把新图包回写其中。
 
 独立、离线、可追溯的数据整合层。仅分析幼儿园与小学，保留旧原件、报告、地图及海报的既有路径。已整合远端 `a3dc7c6` 的45条GPT Work补证；中文报告从[研究交接](outputs/HANDOFF.md)及[补证整合报告](outputs/补证整合报告.md)开始阅读。
 
@@ -48,8 +50,8 @@ uv pip install --python 06_数据整合/.venv/bin/python -r 06_数据整合/requ
 
 ## 交付入口
 
-- [研究交接与证据包](outputs/HANDOFF.md)：给理论组、报告组和海报组的最短阅读入口。
-- [图 A：样本定位附图](outputs/figures/figure_A_housing_education.png) · [图 B：双系列路线主图](outputs/figures/figure_B_admission_accessibility.png)。同目录另有可编辑SVG和PDF。
+- [研究交接与证据包](outputs/HANDOFF.md)：上一轮历史交接；当前组员入口为仓库首页。
+- [旧图 A：已被新完整空间图替代的历史附图](outputs/figures/figure_A_housing_education.png) · [图 B：双系列路线主图](outputs/figures/figure_B_admission_accessibility.png)。同目录另有可编辑SVG和PDF。
 - [表 C：跨领域证据矩阵](outputs/table_C_evidence_matrix.md)及[CSV版](outputs/data/evidence_matrix.csv)。
 - [字段字典与关联口径](DATA_DICTIONARY.md) · [GPT Work导入接口](IMPORT_VERIFIED_FACTS.md) · [图件论证与导出约定](FIGURE_CONTRACT.md)。
 - [数据质量摘要](outputs/QUALITY_SUMMARY.md) · [完整自动检查](outputs/quality_report.json) · [缺失及冲突](outputs/data/research_gaps.csv)。
