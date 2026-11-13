@@ -1,6 +1,7 @@
 """Append-only, typed import boundary for GPT Work verified-fact CSVs."""
 
 import json
+from datetime import date
 from collections import defaultdict
 from pathlib import Path
 
@@ -32,7 +33,7 @@ def read_feed(path: Path) -> list[dict]:
         if missing:
             raise ValueError(f"{path.name}: missing columns {sorted(missing)}")
         rows = list(reader)
-        if any(None in row for row in rows):
+        if any(None in row or any(value is None for value in row.values()) for row in rows):
             raise ValueError(f"{path.name}: malformed CSV row (check JSON quoting)")
         return rows
 
@@ -66,7 +67,7 @@ def integrate_feeds(ctx: Context, inbox: Path):
             if r["source_url"]:
                 source = ctx.source_manager.reference(r["source_url"],r["source_title"],path.name,
                     "external_declared_verified" if not local else "repository_report_reference",
-                    r["reference_period"],source)
+                    requested_id=source)
             status = "reported_repository" if local else "external_declared_verified"
             _apply(ctx,r,source,status)
         except (ValueError,KeyError,TypeError,json.JSONDecodeError) as error:
@@ -88,6 +89,11 @@ def _validate_fact(ctx,r,local):
         return "verification_not_confirmed"
     if not local and not r["verified_on"]:
         return "missing_verification_date"
+    if not local:
+        try:
+            date.fromisoformat(r["verified_on"])
+        except ValueError:
+            return "invalid_verification_date"
     registry = {"residence":ctx.table("residences"),"campus":ctx.table("education_campuses"),
                 "institution":ctx.table("institutions"),"rule":ctx.table("admission_rules")}
     if r["subject_type"] not in registry or r["subject_id"] not in {x["id"] for x in registry[r["subject_type"]]}:
@@ -108,6 +114,10 @@ def _validate_fact(ctx,r,local):
         return "coordinate_subject_mismatch"
     if not r["source_url"] and r["source_id"] not in ctx.source_manager.rows:
         return "unresolved_source"
+    if r["source_id"] not in ctx.source_manager.rows and not r["source_title"].strip():
+        return "missing_source_title"
+    if r["predicate"]=="coordinate_wgs84" and r["unit"]!="degrees":
+        return "coordinate_unit_mismatch"
     return ""
 
 
@@ -135,10 +145,11 @@ def _apply(ctx,r,source,status):
         else:
             ctx.table("education_fees").append(dict(id="FACT-"+r["fact_id"],stage=r["stage"],campus_id=r["subject_id"],
                 metric=metric,value=value,unit=unit,value_status="externally_reported_verified",amount_relation="stated",
-                evidence_type=r["evidence_type"],reference_period=r["reference_period"],evidence_year=r["reference_period"][:4],
+                evidence_type=r["evidence_type"],reference_period=r["reference_period"],
+                evidence_year=int(r["reference_period"][:4]) if r["reference_period"][:4].isdigit() else None,
                 applicability=r["notes"],target_raw="",source_ids=[source],source_path="import:"+r["fact_id"],
                 source_locator=r["source_locator"],verification_status=status,
-                actual_charge=predicate in {"tuition_cny_term","care_fee_cny_month","meal_fee_cny_month"},
+                actual_charge=predicate in {"tuition_cny_term","care_fee_cny_month","meal_fee_cny_month"} and r["evidence_type"] in {"published_fee_schedule","actual_receipt"},
                 note="Published schedule or reported charge; not automatically an observed household payment"))
     elif predicate=="coordinate_wgs84":
         value = json.loads(r["value"])

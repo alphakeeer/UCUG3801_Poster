@@ -65,6 +65,17 @@ def build_policies(ctx: Context):
             school_name=r["school"],value=number(r["plan"]),unit="person",policy_year=2026,
             source_id=r["source_id"],source_locator="Sheet1 row "+r["source_row"],
             note="District channel list, not an extension of the geographic campus sample"))
+    private_names = {r["name"]:r for r in ctx.table("education_campuses") if r["ownership"]=="private" and r["stage"]=="primary"}
+    for r in ctx.csv(EDUCATION/"数据/2026积分学位分学校分学段.csv"):
+        if r["stage"]!="小学" or r["source_id"]!="E030-A003" or r["school"] not in private_names:
+            continue
+        campus = private_names[r["school"]]
+        ctx.table("admission_plans").append(dict(id=stable_id("PLAN-",r["source_id"],r["source_row"],"primary"),
+            subject_type="campus",subject_id=campus["id"],stage="primary",intake_grade="grade_1",policy_year=2026,
+            metric="maximum_channel_places",value=number(r["plan"]),unit="person",
+            plan_category="private_points_school_maximum",source_id=r["source_id"],
+            source_locator="Sheet3 row "+r["source_row"],source_path=str(EDUCATION/"数据/2026积分学位分学校分学段.csv"),
+            note="Subject to district private-primary total of 248; maximum is not allocated enrollment and maxima cannot be summed. Exact official name match only."))
     _fees(ctx, campus_by_legacy)
 
 

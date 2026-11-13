@@ -13,7 +13,7 @@ sys.path.insert(0,str(MODULE/"src"))
 
 from liede_pipeline.common import digest, write_json
 from liede_pipeline.imports import read_feed
-from liede_pipeline.pipeline import assemble, build
+from liede_pipeline.pipeline import assemble, build, validate_package, version_hash
 from liede_pipeline.validation import protected_snapshot, validate
 
 
@@ -44,6 +44,15 @@ def main():
     elif args.command=="validate":
         ctx = assemble(ROOT,MODULE)
         report = validate(ctx)
+        output = MODULE/"outputs"
+        if (output/"run_manifest.json").exists():
+            emitted = validate_package(output)
+            manifest = json.loads((output/"run_manifest.json").read_text())
+            emitted.append(dict(id="output:current_data_version",passed=manifest["data_version"]==version_hash(ROOT,MODULE,MODULE/"inbox"),detail="Rebuild after changing code, mapping or inbox evidence"))
+            report["checks"] += emitted
+            report["check_count"] = len(report["checks"])
+            report["failure_count"] = sum(not r["passed"] for r in report["checks"])
+            report["passed"] = report["failure_count"]==0
         print(json.dumps({k:v for k,v in report.items() if k!="checks"},ensure_ascii=False,indent=2))
         if not report["passed"]:
             raise RuntimeError(str([r for r in report["checks"] if not r["passed"]]))

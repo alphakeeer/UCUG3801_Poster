@@ -58,15 +58,16 @@ def build_entities(ctx: Context):
         raw = next((x for x in raw_homes if x["小区"]==r["source_name"]),{})
         ctx.table("residences").append(dict(id=r["id"], name=r["display_name"],
             english_name=r["english_name"], source_name=r["source_name"],
-            address=raw.get("地址","珠江新城平月路"),
+            address=raw.get("地址","珠江新城平月路" if r["id"]=="RES018" else ""),
             housing_description=raw.get("住房/产权类别（仅有证据时分类）","交通研究记录为商品住宅；非产权登记"),
             construction_year_raw=raw.get("建筑年代",""),
             research_group=grouped.get(r["source_name"],{}).get("区域分析组","transport_only"),
             has_housing_sample=bool(raw), preferred_position_id="",
             housing_evidence_status="reported_platform_and_background" if raw else "housing_sample_missing",
             note="Development-level entity; no household income or verified unit title is inferred"))
-        add_crosswalk(ctx,"housing_csv",r["source_name"],"residence",r["id"],
-            "冻结住房记录逐条登记" if raw else "交通研究独立住宅；住房表缺样本")
+        if raw:
+            add_crosswalk(ctx,"housing_csv",r["source_name"],"residence",r["id"],
+                "冻结住房记录逐条登记；住宅项目对应不等于相同入口")
     ctx.homes = homes
     _housing_observations(ctx, raw_homes, homes)
 
@@ -89,7 +90,7 @@ def build_entities(ctx: Context):
         ctx.table("education_campuses").append(dict(id=entity,institution_id=institution,
             legacy_id=legacy,name=r["name"],campus_name=r.get("campus",r["name"]),stage=stage,
             ownership=ownership,organizer_raw=owner,
-            inclusive_status=r.get("inclusive_raw") or "unknown_or_not_applicable",
+            inclusive_status=r.get("inclusive_raw") or "not_recorded",
             address=r["address"],address_year=r.get("address_year",r.get("year")),
             admission_year=2026,spatial_status=r["spatial_status"],
             preferred_position_id="",source_id=source_id,
@@ -123,7 +124,7 @@ def _housing_observations(ctx, rows, homes):
             value = number(r[field])
             if value is None:
                 continue
-            source = src.reference(r[urlfield] or r["来源URL"],r["小区"]+" housing evidence",path,"commercial_platform",period)
+            source = src.reference(r[urlfield] or r["来源URL"],r["小区"]+" housing evidence",path,"commercial_platform")
             ctx.table("housing_observations").append(dict(id=stable_id("HOBS-",entity,metric,path,n),
                 residence_id=entity,metric=metric,value=value,unit=unit,
                 reference_period=period,observed_on="2026-11-11",area_m2=number(r["租赁面积㎡"] if metric.startswith("rent") else r["挂牌面积㎡"] if metric=="sale_ask_cny_m2" else ""),
@@ -138,7 +139,7 @@ def _housing_observations(ctx, rows, homes):
         name,kind,date,total,area,value,layout,platform,url,note = row[:10]
         candidates = [r for r in homes.values() if r["display_name"]==name or (name=="凯旋新世界" and r["id"]=="RES005")]
         entity = candidates[0]["id"] if len(candidates)==1 else ""
-        source = src.reference(url,name+" reported transaction",str(workbook),"commercial_platform",date)
+        source = src.reference(url,name+" reported transaction",str(workbook),"commercial_platform")
         ctx.table("housing_observations").append(dict(id=stable_id("HOBS-",str(workbook),n),
             residence_id=entity,metric="platform_transaction_sale_cny_m2",value=number(value),unit="cny_per_m2",
             reference_period=date,observed_on="2026-11-11",area_m2=number(area),total_ask_cny=None,

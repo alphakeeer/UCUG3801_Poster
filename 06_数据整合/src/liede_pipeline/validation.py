@@ -41,6 +41,17 @@ def validate(ctx: Context) -> dict:
     check("primary_kindergarten_only",all(r["stage"] in {"primary","kindergarten"} for name in ["education_campuses","admission_rules","admission_plans","education_fees","household_scenarios"] for r in tables[name]),"Scope applies to analytical stage columns; original source text can describe broader policies")
     campuses = {r["id"] for r in tables["education_campuses"]}
     positions = {r["id"]:r for r in tables["positions"]}
+    foreign_keys = {"residence_id":{r["id"] for r in tables["residences"]},
+        "campus_id":campuses,"candidate_campus_id":campuses,
+        "institution_id":{r["id"] for r in tables["institutions"]},
+        "rule_id":{r["id"] for r in tables["admission_rules"]},
+        "fee_id":{r["id"] for r in tables["education_fees"]},
+        "route_id":{r["id"] for r in tables["transport_routes"]},
+        "baseline_route_id":{r["id"] for r in tables["transport_routes"]},
+        "preferred_position_id":set(positions),"origin_position_id":set(positions),"destination_position_id":set(positions)}
+    invalid_links = [(name,r["id"],field,r[field]) for name,rows in tables.items() for r in rows
+                     for field,allowed in foreign_keys.items() if r.get(field) and r[field] not in allowed]
+    check("relational_foreign_keys",not invalid_links,invalid_links or "Normalized entity, position, rule, plan and route references resolve")
     check("normalized_crs",all(p["crs"]=="EPSG:4326" and 112<p["longitude"]<115 and 22<p["latitude"]<25 for p in positions.values()),"WGS84 longitude/latitude; no display XY substituted")
     errors = []
     for p in positions.values():

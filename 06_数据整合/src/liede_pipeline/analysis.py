@@ -1,4 +1,3 @@
-from collections import defaultdict
 from pathlib import Path
 
 from .common import Context, citation, ids, stable_id
