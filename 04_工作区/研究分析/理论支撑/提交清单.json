@@ -1,12 +1,11 @@
 {
   "version": "2026-11-15",
   "base_commit": "0c0e50e0590981f8d02dcc8daa04b643e6941946",
-  "remote_published": false,
   "files": [
     {
       "path": "04_工作区/研究分析/理论支撑/12_Poster整合说明_理论支撑定稿.md",
-      "bytes": 11257,
-      "sha256": "667763e84d13fb39048ccf30ff4032fa62fb3af4c391465a1d2edacd3721043c"
+      "bytes": 18834,
+      "sha256": "af12a328cccfa85647dba1368424217711d50ebbbdd6211809d2a4b641f5b1f2"
     },
     {
       "path": "04_工作区/研究分析/理论支撑/13_Poster上版文案.md",
@@ -15,18 +14,13 @@
     },
     {
       "path": "04_工作区/研究分析/理论支撑/14_审校与引用说明.md",
-      "bytes": 10647,
-      "sha256": "1423ab4f90a08458a248b76dae98ed7921f835bbe477df8e0c4057ccde793712"
+      "bytes": 10599,
+      "sha256": "3a2cbc805de84004e7c2b7d708a907948d75c3daf80f7bad28fbb5be5f0eddf9"
     },
     {
       "path": "04_工作区/研究分析/理论支撑/README.md",
-      "bytes": 1275,
-      "sha256": "6c05e0dfc4fceb3f79e0cb045572d75636fdf361b8c506a36ece0f23cb054a27"
-    },
-    {
-      "path": "04_工作区/研究分析/理论支撑/原稿/12_Poster整合说明_小组修改原稿.md",
-      "bytes": 14010,
-      "sha256": "bffe338c1e9ee6cfc987ece85ab4b56aa0c2c95f58bc84ebc874095ec332c700"
+      "bytes": 1166,
+      "sha256": "7f1f23072b6562e3508ffc02a491c096db7c8c9918835f5e13b344cbbf8a4ecf"
     }
   ],
   "route_check": [
@@ -46,5 +40,7 @@
       "example_seconds": 1706
     }
   ],
-  "price_group_rows_checked": 12
+  "price_group_rows_checked": 12,
+  "publication_status_reference": "Git history is authoritative; this file records content checks.",
+  "update_note": "Added bilingual theory explanations; removed the original draft and its current-directory links."
 }
