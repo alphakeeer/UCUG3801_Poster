@@ -4,23 +4,23 @@
   "files": [
     {
       "path": "04_工作区/研究分析/理论支撑/12_Poster整合说明_理论支撑定稿.md",
-      "bytes": 18834,
-      "sha256": "af12a328cccfa85647dba1368424217711d50ebbbdd6211809d2a4b641f5b1f2"
+      "bytes": 25859,
+      "sha256": "88c4fb3ce92782a1b49d6989f516a872d9633ab77ae013449b4583a4b7ccacca"
     },
     {
       "path": "04_工作区/研究分析/理论支撑/13_Poster上版文案.md",
-      "bytes": 2276,
-      "sha256": "12b5284fd8c66a2fd057dd5e6d57c004f7f4af15ffc175757e3bbc4f7a710d62"
+      "bytes": 2247,
+      "sha256": "918fb6f4330d36754fe4ce874730d9b342f21d6cfa2d44b33e5465bd131a0daf"
     },
     {
       "path": "04_工作区/研究分析/理论支撑/14_审校与引用说明.md",
-      "bytes": 10599,
-      "sha256": "3a2cbc805de84004e7c2b7d708a907948d75c3daf80f7bad28fbb5be5f0eddf9"
+      "bytes": 11569,
+      "sha256": "59cb3350afea96a556828706ada0348e4c6523e9adccf365dd6d29d990343496"
     },
     {
       "path": "04_工作区/研究分析/理论支撑/README.md",
-      "bytes": 1166,
-      "sha256": "7f1f23072b6562e3508ffc02a491c096db7c8c9918835f5e13b344cbbf8a4ecf"
+      "bytes": 1796,
+      "sha256": "4c4abe6ca9d9a76d4c65a5c1970f24982781423b38c01b3f88ac7a799d6d9f16"
     }
   ],
   "route_check": [
@@ -42,5 +42,8 @@
   ],
   "price_group_rows_checked": 12,
   "publication_status_reference": "Git history is authoritative; this file records content checks.",
-  "update_note": "Added bilingual theory explanations; removed the original draft and its current-directory links."
+  "update_note": "Replace the approved main handoff with four evidence-linked bilingual perspectives; preserve findings and data; refresh supporting version notes. File 13 remains an earlier short draft.",
+  "revision": "2026-11-15-theory-findings-linkage",
+  "replaces_commit": "ba63779aba1fd2ba96852012d4bd057568e2772a",
+  "checksum_normalization": "UTF-8 without BOM; CRLF normalized to LF."
 }

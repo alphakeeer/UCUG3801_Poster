@@ -62,133 +62,159 @@
 
 ## 三、对应理论支撑（理论框架）
 
-> **英文补充说明 / Note on the English additions:** 以下英文为基于现有中文及已列文献的概念解释和研究应用归纳，不是原著逐字引文。理论、概念、研究主题与本组自建术语分别标注，避免误归作者。 The English passages are explanatory paraphrases and study-specific applications, not direct quotations.
+> **本次修订说明（2026-11-15）：** 保留前两部分的结论、两项发现及数据口径，只重写理论部分。以下保留四个有明确分工的社会学概念／研究视角；它们不是四个彼此独立、均已得到因果验证的理论模型。理论用于解释证据的社会学含义，发现本身仍须由数据与政策材料支持。英文均为解释性转述和本组应用，不是原著逐字引文。
 
+### 框架总览：四个视角分别解释哪一环
 
-### 1. 测量前提：发现一检验简单解释，不以理论替代统计证据
+|理论／研究视角|主要对应|直接衔接的证据|在本研究中承担的解释任务|
+|---|---|---|---|
+|Espeland与Stevens：共同度量|发现一；连接发现二|住宅参考价分组与附近候选园校计数；同址不同渠道|澄清“价格、附近设施数、申请资格”为何不能当成同一个机会指标；不解释或预测相关系数的方向|
+|Weber：社会封闭|发现二|同一地址的地段、统筹、积分、港澳单列条件性情境|识别不同申请渠道的进入边界，说明空间接近为何不能替代资格条件|
+|Scott：行政可读性|发现二|实际居住与户籍、产权、租赁备案等适用材料的核验|解释居住事实如何被转换为可审核的行政记录，区别“住在那里”与“能够按规则证明”|
+|Wu与Treiman／Wu：户籍制度性分层|发现二；连接核心结论|穗籍租户、来穗积分、港澳单列等不同身份与政策条件|把上述边界放回中国公共资源分配的制度背景，解释为何户籍或政策身份必须与住房条件共同考察|
 
-Espeland与Stevens（1998）提醒，采用共同指标比较对象，本身是一种社会过程；Geurs与van Wee（2023）则区分可达性的不同组成及测量方式。二者在此支持**指标反思**：附近园校数量、地理可达性、申请资格及实际就读是不同变量。
+**四者的关系：** 共同度量回答“我们测到的是什么”；社会封闭回答“哪些条件界定渠道入口”；行政可读性回答“这些条件如何被材料识别”；户籍制度性分层回答“中国的哪些制度身份参与了这种区分”。后三者互相补充，不是三个依次发生、已经证实的因果阶段。
 
-因此，发现一为后续制度分析提供问题：如果候选数量没有稳定对应参考价，应进一步考察渠道及资格。但它本身不是社会封闭的证明，也不是对价格因果通道的排除性识别。[R5、R6]
+### 1. 共同度量：发现一测到的是附近供给，不能据此直接替代教育机会
 
-**English terminology and explanation**
+**作者与术语：** Wendy Nelson Espeland and Mitchell L. Stevens — *Commensuration as a Social Process*（共同度量作为社会过程）。[R5]
+
+**理论命题。** 共同度量通过同一个指标比较不同对象。选用什么指标，会影响哪些差异进入比较、哪些差异被留在指标之外。本研究据此反思“教育机会”如何被操作化，而不是把设施计数当成不需解释的完整机会指标。
+
+**对应发现与证据。** 发现一比较16个项目的住宅参考价与300／500／800米内候选园校数。混合月份的低／高参考价组中位数为4／3、7／6、11／11；9月子样本为4／4、7.5／7、11／12。[D1] 这些结果支持的只是：在该样本和口径下，“较高参考价对应更多附近候选园校”没有稳定呈现。发现二进一步表明，同一个空间起点仍可对应不同的条件性申请渠道。[D2]
+
+**理论如何支撑发现。** 将校园统一计数，使不同住宅周边的设施数量能够比较，但这个数字没有包含学校质量、招生名额及某一家庭的申请资格。因此，发现一不能被改写成“贵房没有教育优势”；同样，也不能把“周边学校多”直接写成“家庭可获得的教育机会多”。共同度量视角支撑的是这种**指标与结论之间的边界**，而不是“价格与数量没有稳定关系”这一结果的成因。发现二恰好补上设施指标未包含的资格维度。
+
+**可直接使用的分析句：**
+
+> 附近候选园校数是空间供给指标，不等于家庭能够申请或最终进入的学校数。价格与候选数量的比较，必须与招生资格分析结合，才能进一步讨论教育机会。
+
+**解释限度。** 该视角不预测高低价格组的计数差，也不能凭现有结果断定存在测量偏误。可达性研究仅作为辅助：计数、直线距离和指定路线时间分别测量不同方面，不合并为一个“机会分数”，也不另算第五个社会学理论。[R6]
+
+**English author–concept–explanation–application**
 
 - **Authors:** Wendy Nelson Espeland and Mitchell L. Stevens.
 - **Concept:** *Commensuration as a Social Process*.
-- **Explanation:** Commensuration compares different entities using a common metric. In this study, counting nearby campuses is a measurement choice: campus counts should not be treated as equivalent to available places, school quality, household eligibility, or actual enrolment.
+- **Explanation:** Commensuration compares different entities through a common metric. A metric makes selected differences comparable while leaving other dimensions outside the comparison.
+- **Application to Finding 1:** Campus counts measure nearby candidate supply, not household eligibility, school quality, or actual enrolment. The perspective supports careful interpretation of the indicator; it does not explain why the observed price–count comparison changes across samples and radii.
 
-- **Authors:** Karst Geurs and Bert van Wee.
-- **Analytical perspective:** *Accessibility Perspectives and Measurement*.
-- **Explanation:** Accessibility has multiple components and can be measured in different ways. Straight-line proximity, route-based travel estimates, and institutionally permitted access capture different aspects of access. The last distinction is this study's application of the measurement perspective, not a separate theory attributed to these authors.
+### 2. 社会封闭：发现二的差异体现为申请渠道具有不同进入条件
 
-### 2. 韦伯：社会封闭——谁能通过哪些条件进入某一渠道
+**作者与术语：** Max Weber — *Social Closure*（社会封闭）。[R1]
 
-社会封闭视角关注参与如何受边界规则限制或附加条件。用于本研究，可分析哪些身份与证明材料影响某条招生路径的进入条件。**目前可以讨论资格边界，尚不能断言某类家长主动组织排斥或垄断学位。**
+**理论命题。** 社会关系的参与可以由规则限制，或以满足特定条件为前提。将这一概念用于招生，本组关注的是渠道的资格边界：哪些条件使申请人可以进入某项程序，哪些条件不能由住得近直接替代。
 
-课程第2讲第33—35页提供生活机会和多维分层背景；社会封闭的具体论述是此次引用原著的理论扩展，不能冒称课件已明确讲授。原著核查采用新译本“基本社会学概念”§10；1978版书目另列，不混用页码。[R1]
+**对应发现与证据。** 南国花园四种情境固定了住址，但地段路径仍须核验相应户籍、住房关系、实际居住及学位占用等；符合条件的穗籍私房租户适用相应统筹程序；来穗积分与港澳单列又有各自审核、排序或名额规则。[D2、P1—P3] 可见，四种情境不共享一套完全相同的渠道进入条件。
 
-**English terminology and explanation**
+**理论如何支撑发现。** 固定地址只能固定部分空间条件，不能固定规则要求的其他资格。社会封闭视角使我们把“同址不同渠道”解释为**规则划定的参与边界差异**，而非简单归结为离学校远近或房价高低。“住在学校附近”因此不足以推出“可以通过地段路径申请该校”。它不意味着四类人被划分为固定高低等级：不同路径可以指向同校，未满足某一路径也不等于自动转入另一条路径。
+
+**可直接使用的分析句：**
+
+> 同一地址的家庭可能面对不同的渠道进入条件。社会封闭视角揭示，招生中的空间接近只有与适用的户籍、住房及居住条件结合，才可能关联到某条申请路径。
+
+**解释限度。** 政策列明条件，足以分析制度边界，但不能据此认定某类家长主动排斥他人、垄断学位，或已产生违法歧视与实际录取差距。原著核查定位为“基本社会学概念”§10；不把新译本页码移写给1978版。[R1]
+
+**English author–concept–explanation–application**
 
 - **Author:** Max Weber.
 - **Concept:** *Social Closure*.
-- **Explanation:** A social relationship is closed insofar as participation is excluded, restricted, or made conditional by its rules. Applied here, the concept directs attention to the eligibility boundaries of admission channels. The observed rules do not establish that parents actively monopolize school places or intentionally exclude other families.
+- **Explanation:** Participation in a social relationship may be restricted or made conditional by rules.
+- **Application to Finding 2:** Holding the address constant does not hold eligibility constant. Catchment, coordinated, points-based, and Hong Kong/Macao-specific pathways have distinct conditions of entry. Social closure identifies these boundaries; it does not establish parental monopolization, intentional exclusion, or observed differences in admission outcomes.
 
-### 3. 蒂利：类别不平等——追问边界怎样与资源分配相连
+### 3. 行政可读性：发现二中的居住事实，需要通过适用材料被核验
 
-类别不平等视角用于追问：户籍、住房关系等分类，如何在组织程序中关联不同申请路径；若分类长期关联差异结果，又如何持续？
+**作者与术语：** James C. Scott — *Legibility / State Legibility*（可读性／国家可读性）；本研究应用于居住的行政识别。[R3]
 
-“机会囤积”需要更强证据，例如类别控制资源、他者进入受限、由此产生的收益及其延续。本组仅有规则、情境和地图估算，**不能认定机会囤积已发生，也不能把25.7分钟解释成已观测的类别收益或租金。** 此概念保留为后续研究问题。[R2]
+**理论命题。** 行政系统通过类别、记录和标准化描述识别复杂的社会情境。将这一视角用于居住核验，需要区分实际生活状况与行政程序中可被接收、核查的证明；两者有关联，却不能直接画等号。
 
-**English terminology and explanation**
+**对应发现与证据。** 在发现二中，地段情境核查户籍、住房与实际居住等条件；符合条件的穗籍私房租户还涉及无房、唯一居住地及适用期限内的租赁备案等。[D2、P1] 因此，“确实住在南国花园”不能单独完成所有材料要求。另一方面，产权或备案材料本身也不能取代政策要求的其他核验。
 
-- **Author:** Charles Tilly.
-- **Theoretical perspective:** *Categorical Inequality and Durable Inequality*.
-- **Explanation:** Socially organized categories can become connected to the allocation of resources and opportunities. This perspective asks how hukou status and housing relationships are used in admission procedures. Whether these distinctions produce persistent unequal outcomes remains unobserved in this study.
-- **Related mechanism:** *Opportunity Hoarding*.
-- **Explanation:** Opportunity hoarding concerns the control of valuable opportunities by a bounded group to the disadvantage of outsiders. Establishing it requires evidence of resource control, restricted access, and resulting advantages. A difference between two modelled walking routes is not sufficient evidence of opportunity hoarding or an observed rent.
+**理论如何支撑发现。** 社会封闭识别“有边界”，行政可读性则解释该边界在本研究材料中**如何通过证明与审核运作**：家庭的居住关系，要以当年路径认可的材料呈现，才能接受相应审核。这使核心结论中的“实际居住—可证明材料—规则识别—条件性渠道”形成具体、可查的分析链。即使空间起点相同，行政上被核验的住房关系和材料组合也可能不同。
 
-### 4. 斯科特：行政可读性——居住怎样成为可审核的材料
+**可直接使用的分析句：**
 
-可读性视角帮助理解行政程序如何通过可登记、可核验的材料识别居住。在本研究中，“实际住在附近”需要与“能按适用规则提供居住证明”区分。由此可组织“实际居住—材料核验—相应渠道”的分析链。
+> 居住在附近是生活事实，能否按相应规则证明居住则是行政审核问题。户籍、产权和租赁备案等材料，使住房关系进入招生程序；同址并不意味着材料与审核路径相同。
 
-这是对Scott视角的本地化应用，不是说行政机关“只能看到证件”或所有生活信息都会被忽略；规则中还可能有核查、协助和例外。书籍版本与本次可读范围见审校附表。[R3]
+**解释限度。** 这里解释的是文件化识别，不是认定申请人的材料都存在困难，也不是认为行政机关只看证件。核实居住、协助补正、替代材料和例外仍可能存在；材料准备成本、被拒原因及执行差异尚无真实家庭访谈支持。
 
-**English terminology and explanation**
+**English author–concept–explanation–application**
 
 - **Author:** James C. Scott.
-- **Concept:** *Legibility / State Legibility*; applied here to administrative recognition of residence.
-- **Explanation:** Administrative systems make complex social circumstances legible through categories, records, and standardized descriptions. This study applies that perspective to the distinction between living near a school and providing residence documents recognized by the applicable admission rules. Documentary verification is not assumed to exhaust all administrative knowledge, assistance, or exceptions.
+- **Concept:** *Legibility / State Legibility*.
+- **Explanation:** Administrative systems make complex social circumstances recognizable through categories, records, and standardized descriptions.
+- **Application to Finding 2:** Living at an address and documenting residence under the applicable rules are different matters. This study uses legibility to examine how hukou, property, and lease records enter eligibility verification. It does not assume that documents exhaust administrative knowledge or that documentary difficulties have been observed among actual households.
 
-### 5. 布迪厄：资本转换——资源如何在条件下关联机会
+### 4. 户籍制度性分层：发现二须同时考察制度身份与住房条件
 
-经济、社会和文化资本的转换具有条件与成本。应用到本研究，可提出：家庭资源如何影响住房及材料准备，并在具体规则下关联申请路径？
+**作者与术语：** Xiaogang Wu and Donald J. Treiman；Xiaogang Wu — *Hukou-based Institutional Stratification / Institutional Analysis of Social Stratification*（以户籍为基础的制度性分层／社会分层的制度分析）。这是对相关研究取向的概括，不称为两位作者共同命名的独立理论。[R7、R8]
 
-不能把“其他资本不直接替代某项必备条件”扩大成“资本绝不可能替代或转换”。房产和现金属经济资源，户籍、产权与备案证明是行政或法律材料，**不自动属于布迪厄意义上的制度化文化资本**。家庭实际资源与转换策略尚未测量。[R4]
+**理论命题。** 中国社会分层研究不能只考察市场资源，也需要考察户籍等制度安排如何参与资源与生活机会的分配。该研究取向提示：居住或参与城市市场，并不自动回答一个人适用何种公共资源申请规则。
 
-**English terminology and explanation**
+**对应发现与证据。** 四情境中，符合条件的穗籍私房租户、获准来穗积分申请人和通过港澳单列审核的申请人，须分别依据适用方案判断。[D2、P1—P3] 这些差异不能仅由该地址的房价解释；同样，也不能仅由“有房／无房”概括。港澳单列属于特定政策身份及方案，不能不加区分地归入城乡户籍二分。
 
-- **Author:** Pierre Bourdieu.
-- **Concepts:** *Forms of Capital; Capital Conversion / Convertibility*.
-- **Explanation:** Economic, cultural, and social capital can be converted under particular conditions and at particular costs. Here, this suggests examining how household resources may become connected to housing arrangements and educational opportunities through institutional rules. Hukou records, property documents, and lease filings are not automatically institutionalized cultural capital. Actual household conversion strategies have not been observed.
+**理论如何支撑发现。** 此视角将发现二放到**制度身份参与机会分配**的背景中：住在同一个小区，仍须分别核验户籍或政策身份与住房、居住条件的组合。它因此支持“购买能力或地理位置不能单独推出申请路径”的解释。地方政策是这一应用的直接证据，历史户籍研究提供理解方向；两者不能互相替代。
 
-### 6. 户籍研究作为中国制度背景
+**可直接使用的分析句：**
 
-Wu与Treiman、Wu，以及Wang、Solinger、Chan与Buckingham、Ruan等研究提供户籍、地方福利与住房关系的背景。可依据2026具体政策分别检视城乡历史、市籍、区籍和门牌等尺度，但这些不是每户必经的统一四级阶梯。
+> 住房的市场位置与家庭的制度身份共同构成申请背景。户籍制度性分层视角说明，住进同一区域并不自动消除资格差异；具体路径仍取决于当年政策如何识别身份、住房与实际居住。
 
-本轮核对的Ruan（2024）摘要支持正式产权、居住与城市福利联系的讨论；未取得全文支持修改稿中“广州积分制在三类住房之间划线”的全部细节，因此不将该具体主张用于本组2026结论。[R7—R12]
+**解释限度。** Wu与Treiman（2004）使用历史时期数据，不能直接证明2026年猎德四情境的结果。当前材料识别的是规则差异，尚不能估计户籍的独立效应，也不能把四类情境排成四个社会阶层，更不能据此证明代际再生产已经发生。[R7、R8]
 
-**English terminology and explanation**
-
-The labels below identify research perspectives and themes; they are not presented as independently named theories coined by each author.
+**English author–perspective–explanation–application**
 
 - **Authors:** Xiaogang Wu and Donald J. Treiman; Xiaogang Wu.
 - **Research perspective:** *Hukou-based Institutional Stratification / Institutional Analysis of Social Stratification*.
-- **Explanation:** Hukou arrangements participate in the distribution of resources and life chances. This study uses that perspective to examine the relationship between administrative status and admission channels, while distinguishing historical rural-urban research from the specific local rules applicable in 2026.
+- **Explanation:** Institutional arrangements, including hukou, participate in the distribution of resources and life chances. This label summarizes a research perspective rather than a separately named theory coined by these authors.
+- **Application to Finding 2:** Administrative or policy status must be examined together with housing and residence conditions. Historical hukou research provides context; the 2026 local policies establish the particular pathways. The study does not identify an independent hukou effect or treat Hong Kong/Macao policy status as equivalent to the historical rural–urban distinction.
 
-- **Author:** Fei-Ling Wang.
-- **Research theme:** *Division and Exclusion through the Hukou System*.
-- **Explanation:** Hukou can be examined as an organizational system that differentiates populations and access to resources. This provides background for studying eligibility categories; the present handoff does not claim a new full-text verification of the book or apply every historical finding directly to the Liede cases.
+### 四个视角如何共同支撑核心结论
 
-- **Author:** Dorothy J. Solinger.
-- **Research theme:** *Contested Urban Citizenship*.
-- **Explanation:** Participation in urban markets and residence in a city do not by themselves settle access to urban rights and benefits. The perspective motivates distinguishing physical residence from institutionally recognized access, without treating the present household scenarios as observed citizenship outcomes.
+**第一步：用发现一界定我们实际测量的空间背景。** 候选园校计数没有稳定随参考价升高而增加。共同度量视角提醒：这个计数仅是一个供给指标，不能被扩写成教育机会的全部内容；也不能据此宣称价格不重要。
 
-- **Authors:** Kam Wing Chan and Will Buckingham.
-- **Research theme:** *Decentralization of Hukou Policy / Localized Institutional Differentiation*.
-- **Explanation:** Their analysis challenges the interpretation of hukou reform as straightforward abolition and emphasizes the devolution of policy responsibility to local governments. It supports examining local rules rather than assuming a single uniform ladder of eligibility.
+**第二步：用发现二识别计数以外的制度维度。** 南国花园同址情境表明，规则中存在不同渠道条件。社会封闭将其概念化为参与边界；行政可读性解释这些边界如何涉及材料核验；户籍制度性分层把制度身份纳入中国公共资源分配的分析。
 
-- **Author:** Zhihang Ruan.
-- **Research perspective:** *The Dualist Land Regime, Hukou, and Unequal Urban Welfare Rights*.
-- **Explanation:** The article connects land institutions, formal property ownership, residence, and unequal welfare rights. Only its verified abstract-level claims are used here; it does not establish the specific 2026 admission status of the households in this study.
-
-### 7. 整合框架与上版结论
+**第三步：谨慎连接路径与潜在空间成本。** 南国花园到南国学校小学部和冼村小学的指定路线分别约2.8与28.4分钟，说明选取的目的地不同，地理便利性的判断会不同。[D3] 但积分情境中的冼村小学只是一个志愿例，统筹去向未知，港澳单列目的地还可能与地段校重合。因此只能提出“条件性路径所关联的目的地可能改变潜在通学成本”，不能认定某类家庭已经多走25.7分钟。
 
 ```mermaid
-flowchart LR
-    A[住宅与园校空间位置] --> S[附近候选供给／指定路线背景]
-    B[家庭资源与住房关系] -.转换机制待验证.-> C[适用居住与身份证明]
-    H[户籍或特定政策身份] --> C
-    C --> D[按当年规则审核资格组合]
-    D --> E[条件性的申请渠道]
-    S --> Q[比较空间背景与制度路径]
-    E --> Q
-    Q -.未观察.-> Y[实际录取与就读]
+flowchart TD
+    A[住宅参考价与空间位置] --> B[附近候选园校计数及指定路线背景]
+    B --> C[发现一：价格与候选数量的比较不稳定]
+    C --> M[共同度量：空间指标不等于完整教育机会]
+    H[户籍或特定政策身份] --> V[按适用规则核验身份与住房居住条件]
+    R[住房关系与实际居住及其证明] --> V
+    V --> E[发现二：同址可能对应不同条件性渠道]
+    E --> K[社会封闭：渠道进入边界]
+    V --> L[行政可读性：材料如何进入核验]
+    H --> I[制度性分层：身份参与资源申请规则]
+    M --> Q[空间背景与制度资格须分别考察并结合分析]
+    K --> Q
+    L --> Q
+    I --> Q
+    Q -. 尚未观察 .-> Y[实际录取与就读质量及长期教育结果]
 ```
 
-韦伯帮助识别进入边界，蒂利提出类别与分配后果的问题，斯科特解释材料识别环节，布迪厄提出资源转换问题。**“合取式资格”和上述翻译链为本研究的操作化表述，并非四位学者共同提出的现成模型。** 箭头表示分析关系，不是因果估计。
+图注：本组依据[D1—D3、P1—P3]及[R1、R3、R5、R7、R8]构建的分析关系图，2026-11-15。箭头用于组织变量和解释任务，不代表已识别的因果效应；四个视角并非共同提出过这一现成模型。“合取式资格”仍为本组的操作化术语。
 
-**可直接用于Poster的结论：**
+**整合后的理论分析段（可供交接使用）：**
 
-> 较高住宅参考价未稳定对应更多附近候选园校，同一住址下的家庭也可能因户籍、住房及居住材料不同而进入不同申请渠道。空间供给提供附近设施的背景，制度则通过材料审核和资格组合关联申请路径。社会封闭与行政可读性帮助解释这些边界，类别不平等与资本转换则提出进一步机制问题；实际录取、学校质量和长期结果仍待验证。
+> 两项发现共同说明，教育机会不能只用房价或学校距离来代替。共同度量视角帮助界定发现一：附近候选园校计数只是空间供给指标，不包含学校质量、家庭资格和实际录取。发现二进一步显示，在同一地址下，申请路径仍与户籍或政策身份、住房关系及有效居住材料的组合有关。社会封闭解释渠道的进入边界，行政可读性解释居住如何被材料核验，户籍制度性分层则把这些差异放回制度身份参与公共资源分配的背景。因此，现有研究支持“空间背景与制度资格应结合分析”，尚不能认定某类家庭已获得更好的学校或已实现代际优势。
 
-数据来源[D1—D4]、政策[P1—P3]、理论书目[R1—R12]及本次核验范围，统一见[审校与引用说明](14_审校与引用说明.md)。
+**大白话版：**
 
-**English terminology and explanation**
+> 我们先数了附近有多少学校，但“有学校”不等于“你家能申请”。就算住同一个小区，还得看适用什么招生规则、材料能不能满足要求。四个理论分别帮我们讲清楚：数学校能说明多少、申请入口有什么条件、居住怎么证明，以及为什么户口或政策身份也要一起看。现在还没查到真实家庭最后去了哪所学校，所以不能直接说谁已经占了优势。
 
-- **Framework authors:** The research team, drawing on Weber, Tilly, Scott, and Bourdieu.
-- **Study-specific analytical terms:** *Conjunctive Eligibility* and *Institutional Translation of Residence into Admission Pathways*.
-- **Explanation:** For a particular admission pathway, several requirements may need to be verified jointly, while the applicable rules can also contain alternative evidence, exceptions, and branches. The framework distinguishes spatial supply, recognized residence documents, conditional admission pathways, and actual enrolment. It is this study's synthesis, not an established model jointly proposed by the four authors, and its arrows do not represent identified causal effects.
+**Integrated explanation — English version**
 
-**Poster conclusion — English version**
+> The findings distinguish spatial supply from institutionally defined eligibility. Commensuration clarifies why nearby campus counts cannot stand for educational opportunity as a whole. At the same address, admission pathways may still differ with administrative or policy status, housing relationships, and accepted residence evidence. Social closure identifies entry boundaries; state legibility examines documentary recognition; hukou-based institutional stratification provides context for status-related allocation rules. Actual admission, school quality, and intergenerational outcomes remain unobserved.
 
-Higher housing reference prices did not consistently correspond to more nearby candidate campuses. Households at the same address may also be associated with different admission pathways depending on hukou or policy status and housing or residence documents. Social closure and state legibility help examine eligibility boundaries and documentary recognition; categorical inequality and capital conversion identify further questions about allocation and resources. Actual admission, school quality, and long-term outcomes remain unobserved.
+**课程与证据的衔接。** 课程第2讲的生活机会及第4讲的制度性分层讨论提供背景；不将以上四项都标称为课件明确讲授的独立理论。空间不平等（*spatial inequality*）可作为研究的问题意识，但本组未完成全域资源普查；社会再生产（*social reproduction*）只作为进一步追问，因为尚无跨代、长期或实际教育结果证据。课程定位及原始出处见[审校与引用说明](14_审校与引用说明.md)。
+
+**删减说明。** 蒂利的机会囤积与布迪厄的资本转换移出主框架：前者需要群体控制资源、限制他者及持续收益等证据；后者需要家庭资源、策略与转换过程等证据。现有资料未观察这些过程，保留为主要解释容易超出证据。其他户籍背景作者也不再逐一铺陈；原参考表[R2、R4、R9—R12]保留追溯用途，不表示本版仍以其支撑主要结论。
+
+**主要参考与核验范围。** 编号沿用[审校与引用说明](14_审校与引用说明.md)，避免与数据、政策引注脱节。本轮理论页面复核日期为2026-11-15；未新增价格、政策执行或家庭访谈数据。
+
+- [R5] Espeland, W. N., & Stevens, M. L. (1998). Commensuration as a social process. *Annual Review of Sociology, 24*, 313–343. [期刊书目与摘要](https://www.annualreviews.org/content/journals/10.1146/annurev.soc.24.1.313)。本版仅使用摘要支持的概念范围；指标应用为本组分析。
+- [R1] Weber, M. (1978). *Economy and Society*. University of California Press. [出版社再版书目](https://www.ucpress.edu/books/economy-and-society-2/paper)。概念文字沿用前轮2019新译本§10核验，不冒称本轮重读原著，也不跨版本补造页码。
+- [R3] Scott, J. C. (1998). *Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed*. Yale University Press. [出版社2020再版页](https://yalebooks.yale.edu/book/9780300246759/seeing-like-a-state/)。沿用前轮书目及预览核验；本轮复核出版社页，不声称已全文阅读。
+- [R7] Wu, X., & Treiman, D. J. (2004). The household registration system and social stratification in China: 1955–1996. *Demography, 41*(2), 363–384. [机构书目与摘要](https://researchportal.hkust.edu.hk/en/publications/the-household-registration-system-and-social-stratification-in-ch/)。历史研究，不作2026地方政策的替代证据。
+- [R8] Wu, X. (2019). Inequality and social stratification in postsocialist China. *Annual Review of Sociology, 45*, 363–382. [期刊书目与摘要](https://www.annualreviews.org/content/journals/10.1146/annurev-soc-073018-022516)。用于制度分析的研究背景，不声称已核全文的所有机制。
