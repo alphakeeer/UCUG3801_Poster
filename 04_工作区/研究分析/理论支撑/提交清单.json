@@ -1,0 +1,50 @@
+{
+  "version": "2026-11-15",
+  "base_commit": "0c0e50e0590981f8d02dcc8daa04b643e6941946",
+  "remote_published": false,
+  "files": [
+    {
+      "path": "04_工作区/研究分析/理论支撑/12_Poster整合说明_理论支撑定稿.md",
+      "bytes": 11257,
+      "sha256": "667763e84d13fb39048ccf30ff4032fa62fb3af4c391465a1d2edacd3721043c"
+    },
+    {
+      "path": "04_工作区/研究分析/理论支撑/13_Poster上版文案.md",
+      "bytes": 2276,
+      "sha256": "12b5284fd8c66a2fd057dd5e6d57c004f7f4af15ffc175757e3bbc4f7a710d62"
+    },
+    {
+      "path": "04_工作区/研究分析/理论支撑/14_审校与引用说明.md",
+      "bytes": 10647,
+      "sha256": "1423ab4f90a08458a248b76dae98ed7921f835bbe477df8e0c4057ccde793712"
+    },
+    {
+      "path": "04_工作区/研究分析/理论支撑/README.md",
+      "bytes": 1275,
+      "sha256": "6c05e0dfc4fceb3f79e0cb045572d75636fdf361b8c506a36ece0f23cb054a27"
+    },
+    {
+      "path": "04_工作区/研究分析/理论支撑/原稿/12_Poster整合说明_小组修改原稿.md",
+      "bytes": 14010,
+      "sha256": "bffe338c1e9ee6cfc987ece85ab4b56aa0c2c95f58bc84ebc874095ec332c700"
+    }
+  ],
+  "route_check": [
+    {
+      "origin": "D1",
+      "address_seconds": 354,
+      "example_seconds": 1413
+    },
+    {
+      "origin": "D2",
+      "address_seconds": 605,
+      "example_seconds": 705
+    },
+    {
+      "origin": "D3",
+      "address_seconds": 166,
+      "example_seconds": 1706
+    }
+  ],
+  "price_group_rows_checked": 12
+}
