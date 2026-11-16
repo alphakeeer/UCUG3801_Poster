@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1080" />
+<title>方案B 报刊特稿 · 住得近，就能读得上吗？</title>
+<link rel="stylesheet" href="../../shared/base.css" />
+<style>
+  :root {
+    --paper: #f3eee4; --ink: #1c1a17; --muted: #6a645a; --rule: #1c1a17; --hair: #cfc6b6; --red: #b3392b; --soft: #e8e0d1;
+    --ch-low: #c9bfae; --ch-high: #1c1a17; --ch-a: #1c1a17; --ch-b: #b3392b; --ch-ink: #1c1a17; --ch-muted: #7a7366; --ch-grid: #ddd4c4;
+    --pin: #b3392b;
+  }
+  .poster { background: var(--paper); color: var(--ink); font: 400 14.5px/1.62 "NSerif"; display: flex; flex-direction: column; }
+  .m { padding-left: 52px; padding-right: 52px; }
+  .kick { font: 700 13px/1 "NSans"; color: var(--red); letter-spacing: .12em; }
+  .kick i { font-style: normal; font-family: "Mono"; margin-right: 6px; }
+  .cap { font: 400 11.8px/1.5 "NSans"; color: var(--muted); margin-top: 5px; }
+  h2 { font: 900 28px/1.2 "NSerif"; margin: 4px 0 4px; letter-spacing: -.01em; }
+
+  .mast { display: flex; justify-content: space-between; align-items: center; height: 36px; border-bottom: 3px double var(--rule); font: 500 12.5px/1 "Mono"; letter-spacing: .08em; }
+  .mast b { font: 900 17px/1 "NSerif"; letter-spacing: .3em; }
+
+  .hero { position: relative; height: 250px; overflow: hidden; background: #111; }
+  .hero img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 42%; filter: grayscale(1) contrast(1.12) brightness(.82); }
+  .hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(20,18,15,.88) 0%, rgba(20,18,15,.55) 46%, rgba(20,18,15,0) 72%); }
+  .hero .t { position: absolute; left: 52px; bottom: 22px; z-index: 2; color: #fff; }
+  .hero h1 { font: 900 72px/1.06 "NSerif"; letter-spacing: -.02em; }
+  .hero h1 em { font-style: normal; color: #f2b8a8; }
+  .hero .k { font: 700 14px/1 "NSans"; letter-spacing: .14em; color: #f2b8a8; margin-bottom: 10px; }
+  .hero .ph { position: absolute; right: 20px; bottom: 12px; z-index: 2; font: 400 11px/1 "NSans"; color: rgba(255,255,255,.7); writing-mode: vertical-rl; }
+
+  .deck { display: grid; grid-template-columns: 1fr 330px; gap: 26px; padding-top: 9px; padding-bottom: 7px; border-bottom: 1px solid var(--rule); }
+  .deck .q { font: 700 18.5px/1.5 "NSerif"; }
+  .deck .q span { font: 700 13px/1 "NSans"; color: var(--red); letter-spacing: .1em; display: block; margin-bottom: 6px; }
+  .byline { font: 400 12.5px/1.65 "NSans"; color: var(--muted); border-left: 1px solid var(--hair); padding-left: 16px; }
+  .byline b { color: var(--ink); font-weight: 700; margin-right: 6px; }
+
+  .grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; column-gap: 0; }
+  .grid3 > * { padding: 0 20px; border-left: 1px solid var(--hair); }
+  .grid3 > :first-child { padding-left: 0; border-left: 0; }
+  .grid3 > :last-child { padding-right: 0; }
+  .r1 { padding-top: 10px; padding-bottom: 8px; border-bottom: 1px solid var(--rule); }
+  .bg p { margin-top: 5px; text-align: justify; font-size: 13.8px; line-height: 1.58; }
+  .bg p:nth-of-type(2)::first-letter { float: left; font: 900 54px/1 "NSerif"; color: var(--red); margin: 6px 8px 0 0; }
+  .lens { grid-column: span 2; }
+  .lens ol { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 22px; margin-top: 6px; }
+  .lens li { border-top: 2px solid var(--ink); padding-top: 6px; }
+  .lens li h3 { font: 900 19px/1.2 "NSerif"; display: flex; justify-content: space-between; align-items: baseline; }
+  .lens li h3 small { font: italic 400 12px/1 "NSerif"; color: var(--muted); }
+  .lens li .who { font: 400 11.5px/1.4 "NSans"; color: var(--muted); }
+  .lens li p { font-size: 13px; line-height: 1.45; margin-top: 1px; }
+  .lens li p.use { color: var(--red); font-weight: 700; }
+
+  .meth { display: grid; grid-template-columns: 120px repeat(5, 1fr); align-items: center; padding-top: 8px; padding-bottom: 8px; border-bottom: 1px solid var(--rule); font-family: "NSans"; }
+  .meth .kick { line-height: 1.3; }
+  .meth div b { font: 900 27px/1 "NSerif"; }
+  .meth div span { font-size: 13px; font-weight: 700; margin-left: 3px; }
+  .meth div p { font-size: 11.5px; color: var(--muted); line-height: 1.3; }
+  .methn { font: 400 12px/1.4 "NSans"; color: var(--muted); padding-top: 4px; }
+
+  .f1 { padding-top: 12px; display: grid; grid-template-columns: 384px 1fr; gap: 24px; }
+  .f1 .map-wrap { border: 1px solid var(--hair); filter: saturate(.85); }
+  .f1 .pin { --pinr: 10px; }
+  .f1 .pin b { width: 20px; height: 20px; font-size: 11px; border-width: 2px; }
+  .f1 .pin em { font-size: 11px; padding: 2px 4px; }
+  .f1 .map-legend { margin-top: 5px; font-size: 11px; gap: 3px 10px; }
+  .f1 .map-legend .ml-ramp i { width: 30px; }
+  .f1 .map-legend .ml-ramp span { min-width: 32px; font-size: 10px; }
+  .big { display: flex; align-items: baseline; gap: 14px; margin: 2px 0 2px; }
+  .big b { font: 900 54px/1 "NSerif"; }
+  .big b.r { color: var(--red); }
+  .big span { font: 400 13px/1.4 "NSans"; color: var(--muted); }
+  .pull { font: 700 16px/1.45 "NSerif"; border-top: 2px solid var(--ink); border-bottom: 1px solid var(--ink); padding: 5px 0; margin-top: 4px; }
+
+  .f2 { padding-top: 8px; border-top: 1px solid var(--rule); margin-top: 10px; }
+  .doors { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; margin-top: 4px; border-top: 2px solid var(--ink); border-bottom: 1px solid var(--ink); }
+  .door { padding: 6px 14px 6px; border-left: 1px solid var(--hair); }
+  .door:first-child { border-left: 0; padding-left: 0; }
+  .door .n { font: 500 11.5px/1 "Mono"; color: var(--red); }
+  .door h4 { font: 900 20px/1.15 "NSerif"; margin: 2px 0 1px; }
+  .door .who { font: 700 13px/1.35 "NSans"; }
+  .door .c { font: 400 11.5px/1.35 "NSans"; color: var(--muted); margin-top: 1px; min-height: 31px; }
+  .door .d { display: flex; justify-content: space-between; align-items: baseline; border-top: 1px dotted var(--hair); margin-top: 4px; padding-top: 3px; font: 400 12.5px/1.3 "NSans"; }
+  .door .d b { font: 900 26px/1 "NSerif"; }
+  .door .d b.r { color: var(--red); }
+  .door .d b small { font: 400 12px/1 "NSans"; margin-left: 2px; }
+  .f2b { display: grid; grid-template-columns: 1fr 330px; gap: 26px; margin-top: 4px; align-items: start; }
+  .f2b h3 { font: 900 18px/1.3 "NSerif"; }
+
+  .an { margin-top: 10px; border-top: 3px double var(--rule); padding-top: 10px; display: grid; grid-template-columns: 300px 1fr 1fr; gap: 0; }
+  .an > * { padding: 0 18px; border-left: 1px solid var(--hair); }
+  .an > :first-child { padding-left: 0; border-left: 0; }
+  .an > :last-child { padding-right: 0; }
+  .an blockquote { font: 900 21px/1.38 "NSerif"; margin-top: 4px; }
+
+  .an p { font-size: 13.3px; line-height: 1.55; }
+  .an p b { display: block; font: 700 14px/1.4 "NSans"; color: var(--red); margin: 0 0 2px; }
+  .chain { font: 400 11.5px/1.45 "NSans"; color: var(--muted); margin-top: 6px; }
+  .an .chain { font: 400 12px/1.6 "NSans"; color: var(--muted); margin-top: 6px; }
+  .an .chain b { display: inline; color: var(--ink); font: 700 12px/1.6 "NSans"; margin: 0; }
+
+  .end { margin-top: 10px; background: var(--ink); color: var(--paper); padding-top: 10px; padding-bottom: 6px; display: grid; grid-template-columns: 1fr 1fr; gap: 30px; flex: 1 0 auto; }
+  .end .kick { color: #f2b8a8; }
+  .end .lead { font: 900 28px/1.22 "NSerif"; margin: 4px 0 4px; }
+  .end p { font-size: 13.2px; line-height: 1.55; color: #e4ddd0; }
+  .end .nx { font: 400 13px/1.5 "NSans"; margin-top: 8px; border-top: 1px solid #4a463f; padding-top: 6px; }
+  .end .nx b { color: #f2b8a8; }
+  .end ol { counter-reset: l; margin-top: 6px; }
+  .end li { font: 400 12.5px/1.42 "NSans"; color: #e4ddd0; padding-left: 22px; position: relative; margin-bottom: 3px; }
+  .end li::before { counter-increment: l; content: counter(l); position: absolute; left: 0; font: 900 15px/1.25 "NSerif"; color: #f2b8a8; }
+  .end li b { color: #fff; }
+  .end .rf { font: 400 12.5px/1.5 "NSerif"; color: #cfc6b6; margin-top: 4px; }
+
+  .refs { padding-top: 7px; padding-bottom: 7px; background: var(--ink); color: #9d968a; border-top: 1px solid #4a463f; }
+  .refs ol { columns: 4; column-gap: 16px; font: 400 9.2px/1.32 "NSans"; counter-reset: r; }
+  .refs li { break-inside: avoid; padding-left: 18px; position: relative; margin-bottom: 2px; }
+  .refs li::before { counter-increment: r; content: "[" counter(r) "]"; position: absolute; left: 0; color: #f2b8a8; }
+  .refs .cr { display: flex; justify-content: space-between; font: 400 10px/1 "Mono"; margin-top: 4px; color: #7d776c; }
+</style>
+</head>
+<body>
+<article class="poster" id="poster"></article>
+<script src="../../shared/content.js"></script>
+<script src="../../shared/charts.js"></script>
+<script>
+const c = window.C, f1 = c.f1, f2 = c.f2;
+const nums = ["一", "二", "三", "四"];
+document.getElementById("poster").innerHTML = `
+<div class="mast m"><span>${c.course}</span><b>猎德田野特稿</b><span>LIEDE · 2026.11</span></div>
+<header class="hero">
+  <img src="../../assets/hero.jpg" alt="猎德村祠堂屋脊与珠江新城超高层" />
+  <div class="t"><p class="k">${c.subtitle}</p><h1>${c.titleLines[0]}<br /><em>${c.titleLines[1]}</em></h1></div>
+  <p class="ph">猎德村祠堂与珠江新城 · 本组摄 2026.11.07 · 照片不含可识别人物</p>
+</header>
+<section class="deck m">
+  <p class="q"><span>研究问题</span>${c.question}</p>
+  <div class="byline"><p><b>组员</b>${c.members}</p><p><b>实地</b>${c.fieldDate}</p><p><b>证据</b>${c.evidence.map(([k, v]) => `${k} ${v}`).join("　")}</p></div>
+</section>
+<section class="grid3 r1 m">
+  <div class="bg"><p class="kick"><i>01</i>社区背景</p>${c.background.map((p) => `<p>${cite(p)}</p>`).join("")}</div>
+  <div class="lens"><p class="kick"><i>02</i>四个透镜：理论如何读证据</p><ol>${c.concepts.map((k) => `<li><h3>${k.key}<small>${k.en}</small></h3><p class="who">${cite(k.who)} · 对应发现${k.finding === 1 ? "一" : "二"}</p><p>${k.def}</p><p class="use">${k.use}</p></li>`).join("")}</ol></div>
+</section>
+<section class="m" style="border-bottom:1px solid var(--rule);padding-bottom:6px">
+  <div class="meth" style="border:0;padding-bottom:0"><p class="kick"><i>03</i>方法<br />与证据</p>${c.methods.map((m) => `<div><b>${m.n}</b><span>${m.unit}</span><p>${cite(m.note)}</p></div>`).join("")}</div>
+  <p class="methn">${c.methodNote}</p>
+</section>
+<section class="f1 m">
+  <div><div class="map-wrap"><img src="../../assets/map.jpg" alt="住宅参考价与园校分布图" />${mapPins()}</div>${mapLegend()}</div>
+  <div><p class="kick"><i>04</i>${f1.tag}</p><h2>${f1.title}</h2>
+    <p style="font-size:13.5px;line-height:1.5;margin-bottom:2px">${f1.lead}</p>
+    ${priceChart({ width: 520, rowH: 34, left: 54, right: 12, fs: 13 })}
+    <p class="pull">${f1.takeaway}</p>
+    <p class="cap">${cite(f1.caption)} 地图编号 1–3 为发现二的路线起点；底图 © OpenStreetMap。</p></div>
+</section>
+<section class="f2 m">
+  <p class="kick"><i>05</i>${f2.tag}</p><h2>${f2.title}<span style="font:400 16px/1 'NSans';color:var(--muted);margin-left:12px">固定起点：南国花园</span></h2>
+  <div class="doors">${f2.scenarios.map((s, i) => `<div class="door"><p class="n">渠道${nums[i]}</p><h4>${s.path}</h4><p class="who">${s.who}</p><p class="c">${s.cond}</p><p class="d"><span>${s.dest}</span><b class="${s.ch === "c" ? "r" : ""}">${s.min}${s.min !== "—" ? "<small>分</small>" : ""}</b></p></div>`).join("")}</div>
+  <div class="f2b"><div><h3>${f2.routeTitle}</h3>${routeChart({ width: 620, rowH: 31, left: 110, right: 16, fs: 13 })}</div>
+    <div><p class="pull" style="margin-top:22px">${f2.routeTakeaway}</p><p class="cap">${cite(f2.caption)} ${f2.scenarioNote}</p></div></div>
+</section>
+<section class="an m">
+  <div><p class="kick"><i>06</i>社会学分析</p><blockquote>空间供给只是背景，制度识别关联着申请路径。</blockquote>
+    <p class="chain">${c.mechanism.map((m) => `<b>${m.k}</b>`).join(" → ")}<br />实际录取、学校质量与长期结果尚未观察。</p></div>
+  ${c.analysis.map(([h, p]) => `<p><b>${h}</b>${p}</p>`).join("")}
+</section>
+<section class="end m">
+  <div><p class="kick"><i>07</i>结论</p><p class="lead">${c.conclusion.lead.join("")}</p><p>${c.conclusion.body}</p><p class="nx"><b>后续问题　</b>${c.conclusion.next}</p></div>
+  <div><p class="kick"><i>08</i>局限与反身性</p><ol>${c.limits.map(([h, p]) => `<li><b>${h}：</b>${p}</li>`).join("")}</ol><p class="rf">${c.reflexivity}</p></div>
+</section>
+<footer class="refs m"><ol>${c.refs.map((r) => `<li>${r}</li>`).join("")}</ol></footer>`;
+ready();
+</script>
+</body>
+</html>

@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<title>地图方案</title>
+<link rel="stylesheet" href="../shared/base.css" />
+<style>
+  body { margin: 0; background: #e6e3dc; font-family: "NSans"; color: #1e2730; }
+  #poster { width: 1080px; height: auto; overflow: visible; background: transparent; }
+  .v { margin: 0 0 56px; }
+  .vh { padding: 22px 0 12px; }
+  .vh b { font: 700 26px/1.2 "NSans"; }
+  .vh span { display: block; font-size: 15px; color: #5e646b; margin-top: 4px; }
+  .block { position: relative; background: #fff; overflow: hidden; }
+  .chip { position: absolute; background: rgba(255,255,255,.94); border-radius: 6px; padding: 9px 13px; box-shadow: 0 1px 6px rgba(0,0,0,.12); font-size: 13px; line-height: 1.45; }
+  .chip h4 { margin: 0 0 3px; font-size: 17px; font-weight: 700; }
+  .chip .n { font: 500 13px "Mono"; }
+  .ramp { display: flex; margin-top: 6px; }
+  .ramp span { display: flex; flex-direction: column; align-items: center; font: 400 11px "Mono"; gap: 3px; }
+  .ramp i { display: block; width: 40px; height: 11px; }
+  .ramp span.cut i { box-shadow: inset 2px 0 0 #1e2730; }
+  .sym { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 12.5px; align-items: center; }
+  .sym span { display: inline-flex; align-items: center; gap: 5px; white-space: nowrap; }
+  .sym svg { display: block; }
+
+  /* M1 */
+  .m1 { display: grid; grid-template-columns: 712px 1fr; height: 780px; }
+  .m1 .side { padding: 22px 22px 18px 24px; display: flex; flex-direction: column; gap: 12px; border-left: 1px solid #e4e0d8; }
+  .m1 .side h3 { margin: 0; font-size: 19px; }
+  .m1 .side .sub { font-size: 12.5px; color: #6b7178; margin-top: 2px; }
+  .rank { display: flex; flex-direction: column; gap: 3px; }
+  .rank div { display: grid; grid-template-columns: 30px 1fr auto; align-items: center; gap: 8px; font-size: 14px; height: 23px; }
+  .rank i { width: 26px; height: 18px; border-radius: 9px; display: block; }
+  .rank em { font: 500 14px "Mono"; font-style: normal; }
+  .rank .cut { height: 16px; display: flex; align-items: center; gap: 8px; font-size: 11.5px; color: #8b2a1c; }
+  .rank .cut::before, .rank .cut::after { content: ""; flex: 1; border-top: 1.5px dashed #8b2a1c; }
+  .rank .tag { font-size: 11px; color: #13897a; border: 1px solid #13897a; border-radius: 3px; padding: 0 3px; margin-left: 4px; }
+
+  /* M2 */
+  .m2 { height: 1000px; background: #f5f4f0; }
+  .m2 .top { position: absolute; left: 0; top: 0; }
+  .m2 .bl, .m2 .br { position: absolute; top: 540px; }
+  .m2 .bl { left: 0; } .m2 .br { left: 546px; }
+
+  /* M3 */
+  .m3 { height: 820px; background: #13202e; color: #eef3f7; }
+  .m3 .chip { background: rgba(19,32,46,.9); color: #eef3f7; box-shadow: 0 0 0 1px #2c4258; }
+  .m3 table { border-collapse: collapse; font-size: 13px; margin-top: 6px; }
+  .m3 td { padding: 3px 8px 3px 0; }
+  .m3 td.n { font: 500 14px "Mono"; text-align: right; }
+
+  /* M1+ */
+  .mp { display: grid; grid-template-columns: 712px 1fr; height: 820px; background: #fff; }
+  .mp .side { padding: 22px 22px 16px 24px; display: flex; flex-direction: column; gap: 13px; border-left: 1px solid #e4e0d8; }
+  .mp h3 { margin: 0; font: 900 23px/1.25 "NSerif"; letter-spacing: -.01em; }
+  .mp .sub { font-size: 12.5px; color: #6b7178; margin-top: 4px; line-height: 1.5; }
+  .mp .lg-t { font-size: 12.5px; font-weight: 700; margin-bottom: 4px; }
+  .mp .sw { display: flex; }
+  .mp .sw span { display: flex; flex-direction: column; align-items: center; gap: 2px; font: 400 11px "Mono"; color: #4b5158; }
+  .mp .sw i { width: 46px; height: 14px; display: block; }
+  .mp .rank2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1px 14px; font-size: 12.5px; }
+  .mp .rank2 div { display: grid; grid-template-columns: 10px 1fr auto; gap: 6px; align-items: center; height: 19px; }
+  .mp .rank2 i { width: 10px; height: 10px; border-radius: 50%; display: block; }
+  .mp .rank2 em { font: 500 12px "Mono"; font-style: normal; color: #4b5158; }
+
+  .bars { display: flex; flex-direction: column; gap: 2px; font-size: 12.5px; }
+  .bars div { display: grid; grid-template-columns: 18px 104px 1fr 32px; align-items: center; gap: 6px; height: 17px; }
+  #m1d .side { gap: 10px; }
+  .bars small { color: #8a8f95; font-size: 10.5px; margin-left: 3px; }
+  .bars b { width: 17px; height: 17px; border-radius: 50%; display: grid; place-items: center; font: 500 10.5px "Mono"; color: #fff; }
+  .bars i { height: 10px; display: block; border-radius: 0 2px 2px 0; }
+  .bars em { font: 500 12px "Mono"; font-style: normal; text-align: right; color: #2c3339; }
+  .bars .cut { display: block; height: 10px; border-top: 1.5px dashed #8b2a1c; margin: 4px 0 0; position: relative; }
+  .bars .cut span { position: absolute; right: 0; top: -9px; background: #fff; padding-left: 6px; font-size: 11px; color: #8b2a1c; }
+
+  .tbl { display: flex; flex-direction: column; font-size: 13px; }
+  .tbl .r { display: grid; grid-template-columns: 19px 86px 74px 32px 1fr; align-items: center; gap: 6px; height: 25px; }
+  .tbl .h { font-size: 11.5px; color: #6b7178; height: 18px; border-bottom: 1px solid #e4e0d8; margin-bottom: 3px; }
+  .tbl .r b { width: 19px; height: 19px; border-radius: 50%; display: grid; place-items: center; font: 500 10.5px "Mono"; }
+  .tbl .r i { height: 9px; display: block; border-radius: 0 2px 2px 0; }
+  .tbl .r em { font: 500 12.5px "Mono"; font-style: normal; text-align: right; }
+  .tbl .pips { display: flex; gap: 2px; align-items: center; }
+  .tbl .pips u { width: 6px; height: 11px; border-radius: 1px; background: #e6e2da; display: block; }
+  .tbl .pips u.f { background: #2f7f72; }
+  .tbl .pips span { font: 500 12px "Mono"; margin-left: 5px; color: #2f7f72; }
+  .tbl .med { display: grid; grid-template-columns: 1fr auto; align-items: center; font-size: 11.5px; color: #8b2a1c; height: 24px; border-top: 1.5px dashed #8b2a1c; border-bottom: 1.5px dashed #8b2a1c; margin: 4px 0; padding: 0 2px; }
+  .tbl .med b { color: #2f7f72; font-weight: 700; }
+</style>
+</head>
+<body>
+<div id="poster">
+  <section class="v">
+    <div class="vh"><b>A3 第二版　按调研结论重做</b><span>底色减为 3 档；房价按分析口径只分两组两色；右侧榜单与散点图合并为“房价 × 园校数”对照表；地图上直接圈出两处证据。</span></div>
+    <div class="block mp" id="m1e"><div class="map"></div><div class="side"></div></div>
+  </section>
+  <section class="v">
+    <div class="vh"><b>A2　细杆标价</b><span>房价改成细杆：杆越高越贵，杆顶小圆点表示价格档，数字写在旁边。细杆几乎不占面积，学校图层压在最上面，不会被挡住；同时去掉小路和次要路名。</span></div>
+    <div class="block mp" id="m1c"><div class="map"></div><div class="side"></div></div>
+  </section>
+  <section class="v">
+    <div class="vh"><b>A3　编号小圆 + 房价榜</b><span>地图上只放带名次的小圆（1 = 最贵），颜色表示价格档；具体价格和楼盘名移到右侧条形榜。地图最干净，读者按编号对照。</span></div>
+    <div class="block mp" id="m1d"><div class="map"></div><div class="side"></div></div>
+  </section>
+  <section class="v">
+    <div class="vh"><b>M1+ A　园校可达面 + 房价圆（大小＝价格）</b><span>底色是“站在这一点，500 米内有几所小学和幼儿园”，颜色越深越多；圆越大越红，房价越高。看圆和底色是否同步变化，就能看出两者关系。</span></div>
+    <div class="block mp" id="m1a"><div class="map"></div><div class="side"></div></div>
+  </section>
+  <section class="v">
+    <div class="vh"><b>M1+ B　园校可达面 + 房价立柱（高度＝价格）</b><span>同一底色，房价改成从楼盘位置立起的柱子，柱高与价格成正比。稀疏的 16 个价格点变成一片“天际线”，高低对比更强。</span></div>
+    <div class="block mp" id="m1b"><div class="map"></div><div class="side"></div></div>
+  </section>
+  <section class="v">
+    <div class="vh"><b>M1　全要素地图 + 房价排行</b><span>一张图同时看到房价、小学、幼儿园；右侧按价格排好 16 个住宅的名字，并标出 10 万元分组线。适合放在海报“发现一”旁边。</span></div>
+    <div class="block m1" id="m1"><div id="m1map"></div><div class="side" id="m1side"></div></div>
+  </section>
+
+  <section class="v">
+    <div class="vh"><b>M2　分层三图</b><span>上面一张只看房价，并用两个 500 米圈对比最贵与最便宜的楼盘；下面两张分别只看小学和幼儿园。三张图同一范围，分布差异一眼可比。</span></div>
+    <div class="block m2" id="m2"></div>
+  </section>
+
+  <section class="v">
+    <div class="vh"><b>M3　深色路线图</b><span>把发现二搬上地图：三个住址到各自地段学校（实线）与同一积分志愿例冼村小学（虚线）的步行时间。房价、园校退为背景。</span></div>
+    <div class="block m3" id="m3"></div>
+  </section>
+</div>
+<script src="../shared/content.js"></script>
+<script src="../shared/mapdata.js"></script>
+<script src="../shared/map.js"></script>
+<script>
+  var M = window.MAPDATA, L = liedeMap, WARM = L.THEMES.light.price;
+  const H = Object.fromEntries(M.houses.map((h) => [h.id, h]));
+  const min = (s) => (s / 60).toFixed(1);
+  const inView = (v, p) => p.x >= v[0] && p.x <= v[2] && p.y >= v[1] && p.y <= v[3];
+  const visibleRange = (view, w, h) => { const sc = w / (view[2] - view[0]); const vh = h / sc, cy = (view[1] + view[3]) / 2; return [view[0], cy - vh / 2, view[2], cy + vh / 2]; };
+  const countIn = (v) => {
+    const s = M.schools.filter((p) => inView(v, p));
+    return { pri: s.filter((x) => x.kind === "primary"), kg: s.filter((x) => x.kind === "kg") };
+  };
+  const sw = {
+    pri: (pub = true) => `<svg width="16" height="16"><rect x="1" y="1" width="14" height="14" rx="2.5" fill="${pub ? "#1d3557" : "#fff"}" stroke="#1d3557" stroke-width="${pub ? 0 : 2}"/><text x="8" y="12" text-anchor="middle" font-size="10" font-weight="700" fill="${pub ? "#fff" : "#1d3557"}" font-family="NSans">小</text></svg>`,
+    kg: (pub = true) => `<svg width="12" height="12"><circle cx="6" cy="6" r="${pub ? 5 : 4.2}" fill="${pub ? "#13897a" : "#fff"}" stroke="#13897a" stroke-width="${pub ? 0 : 2}"/></svg>`,
+    na: () => `<svg width="16" height="16"><path d="M8,1L15,8L8,15L1,8Z" fill="#fff" stroke="#9aa0a6" stroke-width="2"/></svg>`,
+    ring: (c) => `<svg width="26" height="14"><circle cx="13" cy="7" r="6" fill="none" stroke="${c}" stroke-width="2" stroke-dasharray="4 3"/></svg>`,
+  };
+  const ramp = () => `<div class="ramp">${L.BANDS.map((b, i) => `<span class="${i === 2 ? "cut" : ""}"><i style="background:${WARM[i]}"></i>${b.label}</span>`).join("")}</div>`;
+  // 价格轴：每个住宅一个点，竖线为 10 万元分组线
+  const strip = (hs, W) => {
+    const x0 = 14, x1 = W - 10, lo = 5, hi = 18, X = (v) => x0 + ((v - lo) / (hi - lo)) * (x1 - x0);
+    const rows = []; const pos = hs.slice().sort((a, b) => a.price - b.price).map((h) => { let r = 0; while ((rows[r] ?? -99) > X(h.price) - 13.5) r++; rows[r] = X(h.price); return [h, r]; });
+    let s = `<svg width="${W}" height="106" font-family="Mono" font-size="11">`;
+    s += `<line x1="${x0}" x2="${x1}" y1="80" y2="80" stroke="#c9c4ba"/>`;
+    for (let v = 6; v <= 16; v += 2) s += `<line x1="${X(v)}" x2="${X(v)}" y1="80" y2="84" stroke="#9a958c"/><text x="${X(v)}" y="97" text-anchor="middle" fill="#6b7178">${v}</text>`;
+    s += `<line x1="${X(10)}" x2="${X(10)}" y1="16" y2="84" stroke="#8b2a1c" stroke-dasharray="3 3" stroke-width="1.5"/>`;
+    s += `<text x="${X(10) - 6}" y="12" text-anchor="end" font-family="NSans" font-size="11.5" fill="#5e646b">低于 10 万：7 个</text><text x="${X(10) + 6}" y="12" font-family="NSans" font-size="11.5" fill="#5e646b">≥10 万：9 个</text>`;
+    pos.forEach(([h, r]) => (s += `<circle cx="${X(h.price)}" cy="${71 - r * 13}" r="6.2" fill="${WARM[L.band(h.price)]}" stroke="#fff" stroke-width="1.5"/>`));
+    return s + `<text x="${x1}" y="97" text-anchor="end" font-family="NSans" font-size="11" fill="#6b7178">万元/㎡</text></svg>`;
+  };
+  const ROADS = [
+    ["黄埔大道", -560, -815, 3.5],
+    ["花城大道", 760, 214, 5.5],
+    ["金穗路", 760, -308, 2.7],
+    ["猎德大道", -84, -560, 90],
+    ["临江大道", 1080, 845, 7],
+    ["冼村路", -678, 420, -88.8],
+  ];
+  // 把手动道路标注转换为 map.js 可用的格式
+  const roadLbl = () => {
+    ROADS.forEach(([n, x, y, a]) => (M.labels["@" + n] = { x, y, a }));
+    return ROADS.map(([n]) => ["@" + n]);
+  };
+  // map.js 以 labels 名称为文字，这里用别名再改回去
+  const fixNames = (svg) => svg.replace(/>@([^<]+)</g, ">$1<");
+
+  // ---------- M1 ----------
+  {
+    const view = [-1060, -1300, 1310, 1180];
+    const svg = L({ id: "a", w: 712, h: 780, view, theme: "light", houses: "price", labelPrice: true, scale: 500,
+      roadLabels: roadLbl(),
+      areaLabels: [["珠　江", 300, 1030, "water"], ["珠江公园", 560, -80, "park"]],
+      schoolLabels: [["P07", 0, -14, "middle"], ["P01", -12, 18, "end"], ["P02", -14, 5, "end"], ["P06", -12, 5, "end"], ["P08", 12, 5]],
+      callouts: { R01: [-34, 46, "猎德花园\n回迁房 · 无可比价", "#5c6066"] },
+    });
+    document.getElementById("m1map").innerHTML = fixNames(svg);
+    const vr = visibleRange(view, 712, 780), c = countIn(vr);
+    const ranked = L.ranked();
+    let rows = "";
+    ranked.forEach((h, i) => {
+      if (i > 0 && ranked[i - 1].price >= 10 && h.price < 10) rows += `<div class="cut">10 万元/㎡ 分组线</div>`;
+      rows += `<div><i style="background:${WARM[L.band(h.price)]}"></i><span>${h.name}</span><em>${h.price.toFixed(2)}</em></div>`;
+    });
+    document.getElementById("m1side").innerHTML = `
+      <div><h3>房价参考 · 万元/㎡</h3><div class="sub">16 个有可比参考价的住宅（房天下，2026 年 8–11 月）</div></div>
+      <div class="rank">${rows}</div>
+      ${strip(ranked, 316)}
+      <div style="margin-top:auto;display:flex;flex-direction:column;gap:7px">
+        <div class="sym"><span>${sw.pri(true)}公办小学</span><span>${sw.pri(false)}民办小学</span></div>
+        <div class="sym"><span>${sw.kg(true)}公办幼儿园</span><span>${sw.kg(false)}民办幼儿园</span></div>
+        <div class="sym"><span>${sw.na()}无可比参考价（回迁房、商住楼等）</span></div>
+        <div style="font-size:12.5px;color:#5e646b;border-top:1px solid #e4e0d8;padding-top:7px">图中范围：小学 <b>${c.pri.length}</b> 所 · 幼儿园 <b>${c.kg.length}</b> 个园区（公办 ${c.kg.filter((k) => k.org === "public").length}）</div>
+      </div>`;
+  }
+
+  // ---------- M2 ----------
+  {
+    const top = [-1330, -580, 1570, 820];
+    const svgTop = L({ id: "b1", w: 1080, h: 528, view: top, theme: "mute", houses: "price", labelPrice: true, kg: false, primary: false, scale: 500, scaleAt: [24, 505], northAt: [1050, 36],
+      roadLabels: roadLbl(),
+      areaLabels: [["珠　江", 200, 1010, "water"], ["珠江公园", 560, -90, "park"]],
+      rings: [{ house: "R14", r: 500, color: "#8c2a1c", fill: "rgba(140,42,28,.05)" }, { house: "R16", r: 500, color: "#c58a1c", fill: "rgba(241,176,97,.08)" }],
+      callouts: { R14: [150, -92, "颐德公馆 17.37 万\n500 米内园校 6 个", "#8c2a1c"], R16: [150, 42, "誉城苑 5.45 万\n500 米内园校 7 个", "#9a6512"] },
+    });
+    const bot = [-1060, -1150, 1310, 1000];
+    const opt = { w: 534, h: 460, view: bot, theme: "mute", houses: "dot", k: 1.1, scale: 500, scaleAt: [16, 440], northAt: [500, 40], areaLabels: [["珠　江", 300, 1040, "water"]] };
+    const vr = visibleRange(bot, 534, 460), c = countIn(vr);
+    const pp = c.pri.filter((x) => x.org === "public").length, kp = c.kg.filter((x) => x.org === "public").length;
+    document.getElementById("m2").innerHTML = `
+      <div class="top">${fixNames(svgTop)}
+        <div class="chip" style="left:16px;top:16px;width:236px"><h4>① 房价分布</h4>高价与低价楼盘交错分布，没有形成“越贵越靠近学校”的格局。最贵与最便宜两盘相距约 290 米，500 米圈几乎重合。${ramp()}<div class="sym" style="margin-top:6px"><span>${sw.na()}无可比参考价</span></div></div>
+      </div>
+      <div class="bl">${L({ ...opt, id: "b2", kg: false, schoolLabels: [["P07", 0, -14, "middle"], ["P01", -12, 18, "end"], ["P02", 0, -14, "middle"], ["P06", -12, 5, "end"], ["P08", 12, 4], ["P09", 12, 4], ["P03", 0, 24, "middle"]] })}
+        <div class="chip" style="left:14px;top:14px"><h4>② 小学 <small style="font-size:12px;font-weight:400;color:#6b7178">图中范围</small></h4><div class="sym"><span>${sw.pri(true)}公办 <b class="n">${pp}</b></span><span>${sw.pri(false)}民办 <b class="n">${c.pri.length - pp}</b></span><span><svg width="10" height="10"><circle cx="5" cy="5" r="4" fill="#a6abb0"/></svg>住宅</span></div></div>
+      </div>
+      <div class="br">${L({ ...opt, id: "b3", primary: false })}
+        <div class="chip" style="left:14px;top:14px"><h4>③ 幼儿园 <small style="font-size:12px;font-weight:400;color:#6b7178">图中范围</small></h4><div class="sym"><span>${sw.kg(true)}公办 <b class="n">${kp}</b></span><span>${sw.kg(false)}民办 <b class="n">${c.kg.length - kp}</b></span><span><svg width="10" height="10"><circle cx="5" cy="5" r="4" fill="#a6abb0"/></svg>住宅</span></div></div>
+      </div>`;
+  }
+
+  // ---------- M3 ----------
+  {
+    const view = [-820, -820, 1420, 820];
+    const R = M.routes.sec;
+    const svg = L({ id: "c", w: 1080, h: 820, view, theme: "dark", houses: "price", labelPrice: false, k: 1.15, scale: 500, scaleAt: [26, 44], northAt: [300, 44], routes: true, routeA: "#3fd0b4", routeB: "#c49cff",
+      areaLabels: [["珠　江", 300, 960, "water"], ["珠江公园", 560, -60, "park"]],
+      schoolLabels: [["P07", 0, -16, "middle"], ["P01", -14, 20, "end"], ["P02", 14, -8, "start"], ["P06", -14, 5, "end"]],
+      badges: [["R01", "1", 20, -16, "#e2803f"], ["R15", "2", 22, -14, "#e2803f"], ["R18", "3", 22, -14, "#e2803f"]],
+      callouts: {
+        R01: [-70, 36, `猎德花园 地段 ${min(R.D1[0])} · 志愿例 ${min(R.D1[1])} 分`, "#ffd9b8", "end"],
+        R15: [-40, -62, `中海璟晖华庭 地段 ${min(R.D2[0])} · 志愿例 ${min(R.D2[1])} 分`, "#ffd9b8", "middle"],
+        R18: [-10, 64, `南国花园 地段 ${min(R.D3[0])} · 志愿例 ${min(R.D3[1])} 分`, "#ffd9b8", "middle"],
+      },
+    });
+    document.getElementById("m3").innerHTML = svg + `
+      <div class="chip" style="right:22px;top:20px;width:300px"><h4>同一志愿学校，远近排序反转</h4>
+        <div class="sym" style="margin:4px 0 2px"><span><svg width="34" height="10"><line x1="2" y1="5" x2="32" y2="5" stroke="#3fd0b4" stroke-width="4" stroke-linecap="round"/></svg>到条件性地段学校</span><span><svg width="34" height="10"><line x1="2" y1="5" x2="32" y2="5" stroke="#c49cff" stroke-width="2.6" stroke-dasharray="7 4"/></svg>到冼村小学（积分志愿例）</span></div>
+        <table>${[["①", "猎德花园", R.D1], ["②", "中海璟晖华庭", R.D2], ["③", "南国花园", R.D3]].map(([b, n, s]) => `<tr><td>${b} ${n}</td><td class="n" style="color:#3fd0b4">${min(s[0])}</td><td class="n" style="color:#c49cff">${min(s[1])}</td></tr>`).join("")}</table>
+        <div style="font-size:11.5px;color:#9fb2c3;margin-top:6px">单位：分钟，高德单程步行估算。连线只示意起终点，不是实际步行路径。</div></div>`;
+  }
+</script>
+<script>
+  {
+    const NICK = { P01: "猎德实验小学部", P02: "南国学校小学部", P03: "海明学校", P06: "兴国学校", P07: "冼村小学", P08: "第一实验小学", P09: "体育东路小学" };
+    M.schools.forEach((c) => NICK[c.id] && (c.name = NICK[c.id]));
+    const SURF = { r: 500, breaks: [3, 5, 7, 9], colors: ["#00000000", "#d9eee8", "#acd9cd", "#74bfae", "#3e9d8b"], edge: "#ffffffdd", edgeW: 2 };
+    const BLAB = ["0–2", "3–4", "5–6", "7–8", "≥9"];
+    const view = [-1060, -1330, 1310, 1210];
+    const ranked = L.ranked();
+    const scatter = (W, Hh) => {
+      const l = 30, r = 12, t = 14, b = 34, X = (v) => l + ((v - 5) / 13) * (W - l - r), Y = (n) => t + (1 - n / 10) * (Hh - t - b);
+      let g = `<svg width="${W}" height="${Hh}" font-family="Mono" font-size="11">`;
+      for (let n = 0; n <= 10; n += 2) g += `<line x1="${l}" x2="${W - r}" y1="${Y(n)}" y2="${Y(n)}" stroke="#ece9e3"/><text x="${l - 6}" y="${Y(n) + 4}" text-anchor="end" fill="#7a8087">${n}</text>`;
+      for (let v = 6; v <= 18; v += 2) g += `<text x="${X(v)}" y="${Hh - b + 15}" text-anchor="middle" fill="#7a8087">${v}</text>`;
+      g += `<line x1="${X(10)}" x2="${X(10)}" y1="${t - 6}" y2="${Hh - b}" stroke="#8b2a1c" stroke-dasharray="3 3" stroke-width="1.4"/>`;
+      g += `<line x1="${X(5.2)}" x2="${X(9.9)}" y1="${Y(7)}" y2="${Y(7)}" stroke="#1e2730" stroke-width="2.4"/><line x1="${X(10.1)}" x2="${X(17.8)}" y1="${Y(6)}" y2="${Y(6)}" stroke="#1e2730" stroke-width="2.4"/>`;
+      
+      ranked.forEach((h) => (g += `<circle cx="${X(h.price)}" cy="${Y(h.n500)}" r="6.3" fill="${WARM[L.band(h.price)]}" stroke="#fff" stroke-width="1.5" opacity=".95"/>`));
+      const tag = (id, dx, dy, an) => { const h = H[id]; g += `<text x="${X(h.price) + dx}" y="${Y(h.n500) + dy}" text-anchor="${an}" font-family="NSans" font-size="11" fill="#4b5158">${h.name}</text>`; };
+      tag("R14", -2, 19, "end"); tag("R16", 2, -11, "start"); tag("R22", 9, 4, "start");
+      g += `<text x="${W - r}" y="${Hh - 3}" text-anchor="end" font-family="NSans" font-size="11" fill="#6b7178">房价 · 万元/㎡ →</text>`;
+      g += `<text x="${l - 26}" y="${t - 4}" font-family="NSans" font-size="11" fill="#6b7178"></text>`;
+      return g + `</svg>`;
+    };
+    const side = (mode) => `
+      <div><h3>贵与不贵，身边学校一样多</h3><div class="sub">贵楼盘与便宜楼盘落在同样深浅的底色上：500 米内园校数中位数，低于 10 万元/㎡ 的 7 个，10 万以上的 6 个。</div></div>
+      <div><div class="lg-t">底色 · 500 米内园校数（小学＋幼儿园）</div><div class="sw">${SURF.colors.map((c, i) => `<span><i style="background:${i ? c : "#f4f2ed"};${i ? "" : "box-shadow:inset 0 0 0 1px #ddd8ce"}"></i>${BLAB[i]}</span>`).join("")}</div></div>
+      ${mode === "rank" ? "" : `<div><div class="lg-t">${mode === "spike" ? "立柱高度" : mode === "lolli" ? "细杆高度与圆点颜色" : "圆的大小与颜色"} · 房价（万元/㎡）</div>${ramp()}</div>`}
+      <div><div class="lg-t">每个楼盘：房价 × 500 米内园校数</div><div class="sym" style="font-size:11.5px;color:#4b5158;margin-bottom:2px"><span><svg width="26" height="8"><line x1="1" x2="25" y1="4" y2="4" stroke="#1e2730" stroke-width="2.4"/></svg>两组中位数：低于 10 万 7 个 · 10 万以上 6 个</span></div>${scatter(320, mode === "rank" ? 168 : 214)}</div>
+      <div class="rank2">${ranked.map((h) => `<div><i style="background:${WARM[L.band(h.price)]}"></i><span>${h.name}</span><em>${h.price.toFixed(1)}</em></div>`).join("")}</div>
+      <div style="margin-top:auto;display:flex;flex-direction:column;gap:6px">
+        <div class="sym"><span>${sw.pri(true)}公办小学</span><span>${sw.pri(false)}民办小学</span><span>${kgSw(true)}公办幼儿园</span><span>${kgSw(false)}民办幼儿园</span></div>
+        <div class="sym"><span>${sw.na()}无可比参考价（回迁房、商住楼等）</span></div>
+      </div>`;
+    const kgSw = (pub) => `<svg width="12" height="12"><circle cx="6" cy="6" r="${pub ? 5 : 4.2}" fill="${pub ? "#0f5f56" : "#fff"}" stroke="#0f5f56" stroke-width="${pub ? 0 : 2}"/></svg>`;
+    const base = { w: 712, h: 820, view, theme: "mute", surface: SURF, roadOpacity: 0.8, scale: 500, kgPub: "#0f5f56", kgPri: "#0f5f56", kgR: 5.4, priA: 18,
+      roadLabels: roadLbl(),
+      areaLabels: [["珠　江", 300, 1080, "water"], ["珠江公园", 560, -80, "park"]],
+      schoolLabels: [["P07", 0, -15, "middle"], ["P01", -14, 20, "end"], ["P02", -14, 5, "end"], ["P06", -14, 5, "end"], ["P08", 14, 5], ["P03", 14, 5], ["P09", 14, 5]] };
+    const A = L({ ...base, id: "pa", houses: "size", labelPrice: true, sizeMin: 11, sizeK: 1.0,
+      callouts: { R01: [-34, 46, "猎德花园\n回迁房 · 无可比价", "#5c6066"], R14: [52, -46, "颐德公馆 · 最贵", "#8c2a1c"], R16: [40, 66, "誉城苑 · 最便宜", "#9a6512"] } });
+    const B = L({ ...base, id: "pb", houses: "spike", labelPrice: true, spikeK: 6.2, spikeW: 12,
+      callouts: { R01: [-34, 46, "猎德花园\n回迁房 · 无可比价", "#5c6066"], R14: [-30, -128, "颐德公馆 · 最贵", "#8c2a1c", "end"], R16: [40, 66, "誉城苑 · 最便宜", "#9a6512"] } });
+    // ---- A2 / A3：降噪 + 学校压在房价上方 ----
+    const calm = { ...base, noMinor: true, schoolsOnTop: true, roadOpacity: 0.7, naR: 6,
+      roadLabels: [["@黄埔大道"], ["@花城大道"], ["@猎德大道"], ["@临江大道"]] };
+    const C2 = L({ ...calm, id: "pc", houses: "lolli", labelPrice: true, lolliK: 4.6, headR: 6.5 });
+    const rankOf = Object.fromEntries(ranked.map((h, i) => [h.id, i + 1]));
+    const C3 = L({ ...calm, id: "pd", houses: "rank", rankOf, rankR: 10 });
+    const bars = () => {
+      let out = "";
+      ranked.forEach((h, i) => {
+        if (i > 0 && ranked[i - 1].price >= 10 && h.price < 10) out += `<div class="cut"><span>10 万元/㎡</span></div>`;
+        const c = WARM[L.band(h.price)];
+        out += `<div><b style="background:${c};color:${L.band(h.price) >= 2 ? "#fff" : "#3a2a10"}">${i + 1}</b><span>${h.name}${h.id === "R22" ? "<small>图外西侧</small>" : ""}</span><i style="width:${(h.price / 17.4) * 100}%;background:${c}"></i><em>${h.price.toFixed(1)}</em></div>`;
+      });
+      return `<div class="bars">${out}</div>`;
+    };
+    const sideRank = () => side("rank").replace(/<div class="rank2">[\s\S]*?<\/div>\s*<div style="margin-top:auto/, `<div><div class="lg-t">房价榜 · 万元/㎡（编号与地图对应）</div>${bars()}</div>\n      <div style="margin-top:auto`);
+
+    // ---- A3 第二版 ----
+    {
+      const SURF3 = { r: 500, breaks: [4, 7], colors: ["#00000000", "#dcefe9", "#a8d6c9"], edge: "#ffffffcc", edgeW: 2 };
+      const GC = ["#ebb54a", "#b23f26"];
+      const WEST = ["R02", "R04", "R06", "R10", "R09", "R15", "R03", "R07", "R11"];
+      const halo = (t, x, y, o = {}) => `<text x="${x}" y="${y}" font-size="${o.size || 12.5}" font-weight="${o.w || 400}" fill="${o.fill || "#1e2730"}" text-anchor="${o.a || "start"}" stroke="#fff" stroke-width="4" paint-order="stroke" stroke-linejoin="round">${t}</text>`;
+      const under = ({ px, py, H }) => {
+        const xs = WEST.map((id) => px(H[id].x)), ys = WEST.map((id) => py(H[id].y)), pad = 20;
+        const x0 = Math.min(...xs) - pad, x1 = Math.max(...xs) + pad, y0 = Math.min(...ys) - pad, y1 = Math.max(...ys) + pad;
+        let g = `<rect x="${x0}" y="${y0}" width="${x1 - x0}" height="${y1 - y0}" rx="22" fill="rgba(255,255,255,.18)" stroke="#1e2730" stroke-width="1.4" stroke-dasharray="5 4" opacity=".75"/>`;
+        g += halo("西侧住宅群", x0 + 4, y0 - 24, { w: 700, size: 13.5 }) + halo("房价 7.6–14.0 万，500 米内园校都有 5–9 个", x0 + 4, y0 - 8, { size: 12 });
+        const a = H.R14, b = H.R16;
+        g += `<line x1="${px(a.x)}" y1="${py(a.y)}" x2="${px(b.x)}" y2="${py(b.y)}" stroke="#1e2730" stroke-width="1.6" stroke-dasharray="4 3"/>`;
+        const tx = px(a.x) + 46, ty = py(a.y) - 62;
+        g += `<polyline points="${px(a.x) + 8},${py(a.y) - 8} ${tx - 4},${ty + 30} ${tx - 4},${ty - 12}" fill="none" stroke="#1e2730" stroke-width="1.2"/>`;
+        g += halo("相距约 290 米的两个楼盘", tx, ty - 1, { w: 700, size: 13.5 }) + halo("① 17.4 万 vs ⑯ 5.5 万", tx, ty + 15, { size: 12 }) + halo("500 米内园校 6 vs 7", tx, ty + 30, { size: 12 });
+        return g;
+      };
+      const rankOf = Object.fromEntries(ranked.map((h, i) => [h.id, i + 1]));
+      const svg = L({ ...base, id: "pe", surface: SURF3, noMinor: true, schoolsOnTop: true, roadOpacity: 0.65, naR: 6,
+        roadLabels: [["@黄埔大道"], ["@猎德大道"], ["@临江大道"]],
+        areaLabels: [["珠　江", 300, 1080, "water"], ["珠江公园", 600, -260, "park"]],
+        houses: "rank", rankOf, rankR: 10, groupColors: GC, under });
+      const pips = (n) => `<span class="pips">${Array.from({ length: 9 }, (_, i) => `<u class="${i < n ? "f" : ""}"></u>`).join("")}<span>${n}</span></span>`;
+      let rows = `<div class="r h"><span></span><span>楼盘</span><span style="grid-column:span 2">房价（万元/㎡）</span><span>500 米内园校数</span></div>`;
+      ranked.forEach((h, i) => {
+        if (i > 0 && ranked[i - 1].price >= 10 && h.price < 10) rows += `<div class="med"><span>10 万元/㎡ 分组线</span><span>园校数中位数：上组 <b>6</b> · 下组 <b>7</b></span></div>`;
+        const hi = h.price >= 10;
+        rows += `<div class="r"><b style="background:${GC[hi ? 1 : 0]};color:${hi ? "#fff" : "#3a2a10"}">${i + 1}</b><span>${h.name}${h.id === "R22" ? '<small style="color:#8a8f95;font-size:10px"> 图外</small>' : ""}</span><i style="width:${(h.price / 17.4) * 100}%;background:${GC[hi ? 1 : 0]}"></i><em>${h.price.toFixed(1)}</em>${pips(h.n500)}</div>`;
+      });
+      const el = document.getElementById("m1e");
+      el.querySelector(".map").innerHTML = fixNames(svg);
+      el.querySelector(".side").innerHTML = `
+        <div><h3>贵与不贵，身边学校一样多</h3><div class="sub">房价从高到低排列，右边的园校数并不跟着变少。</div></div>
+        <div style="display:flex;gap:18px;align-items:flex-end">
+          <div><div class="lg-t">底色 · 500 米内园校数</div><div class="sw">${SURF3.colors.map((c, i) => `<span><i style="width:44px;background:${i ? c : "#f4f2ed"};${i ? "" : "box-shadow:inset 0 0 0 1px #ddd8ce"}"></i>${["0–3", "4–6", "≥7"][i]}</span>`).join("")}</div></div>
+          <div><div class="lg-t">房价分组</div><div class="sym" style="flex-direction:column;align-items:flex-start;gap:3px"><span><svg width="12" height="12"><circle cx="6" cy="6" r="6" fill="${GC[1]}"/></svg>≥10 万（9 个）</span><span><svg width="12" height="12"><circle cx="6" cy="6" r="6" fill="${GC[0]}"/></svg>低于 10 万（7 个）</span></div></div>
+        </div>
+        <div class="tbl">${rows}</div>
+        <div style="font-size:12px;color:#4b5158;line-height:1.55;background:#f4f2ed;border-radius:6px;padding:8px 10px">换成 300 米或 800 米，两组也相差不到 1 个。园校数中位数（≥10 万 vs 低于 10 万）：<br><b>300 米 3 vs 4　·　500 米 6 vs 7　·　800 米 11 vs 11</b></div>
+        <div style="margin-top:auto;display:flex;flex-direction:column;gap:6px">
+          <div class="sym"><span>${sw.pri(true)}公办小学</span><span>${sw.pri(false)}民办小学</span><span>${kgSw(true)}公办幼儿园</span><span>${kgSw(false)}民办幼儿园</span></div>
+          <div class="sym"><span>${sw.na()}无可比参考价</span><span style="color:#6b7178">圆内数字＝房价名次（1 最贵）</span></div>
+        </div>`;
+    }
+    for (const [id, svg, mode] of [["m1a", A, "size"], ["m1b", B, "spike"], ["m1c", C2, "lolli"], ["m1d", C3, "rank"]]) {
+      const el = document.getElementById(id);
+      el.querySelector(".map").innerHTML = fixNames(svg);
+      el.querySelector(".side").innerHTML = mode === "rank" ? sideRank() : side(mode);
+    }
+  }
+</script>
+<script>document.fonts.ready.then(() => (document.body.dataset.ready = 1));</script>
+</body>
+</html>

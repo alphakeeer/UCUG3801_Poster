@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<title>方案 F · 两个社区对照</title>
+<link rel="stylesheet" href="../../shared/base.css" />
+<style>
+  @page { size: 1080px 1920px; margin: 0; }
+  :root { --bg: #fbfaf7; --ink: #1b2433; --navy: #1d2b45; --muted: #667080; --line: #dfe2e6; --brick: #b23f26; --teal: #2f7f72; --gold: #ebb54a; --tint: #eef1f5;
+    --a3-row: 17.6px; --a3-fs: 12.2px; --a3-name: 86px; --a3-bar: 66px; }
+  html, body { margin: 0; background: #888; }
+  body { font-family: "NSans"; color: var(--ink); }
+  .poster { background: var(--bg); display: flex; flex-direction: column; }
+  .pad { padding-left: 40px; padding-right: 40px; }
+  p { margin: 0; }
+  .cite { font-size: .72em; color: var(--muted); vertical-align: .35em; margin-left: 1px; }
+  .sec { display: flex; align-items: center; gap: 8px; font: 700 15px/1 "NSans"; color: var(--navy); }
+  .sec i { font: 500 12px/22px "Mono"; font-style: normal; width: 22px; height: 22px; border-radius: 50%; background: var(--navy); color: #fff; text-align: center; }
+  .sec small { font-weight: 400; color: var(--muted); font-size: 12px; }
+  h2 { font: 700 22px/1.3 "NSans"; margin: 4px 0 0; color: var(--navy); letter-spacing: -.01em; }
+  h2 em { font-style: normal; color: var(--brick); }
+
+  /* 头部 */
+  .head { padding-top: 20px; padding-bottom: 12px; background: var(--navy); color: #fff; }
+  .meta { display: flex; justify-content: space-between; font-size: 13px; color: #c3cbd8; letter-spacing: .03em; }
+  .meta b { color: #fff; font-weight: 700; }
+  .head h1 { margin: 16px 0 0; font: 900 50px/1.15 "NSans"; letter-spacing: -.02em; }
+  .head h1 span { color: var(--gold); }
+  .head .sub { font: 500 20px/1.45 "NSans"; color: #dfe5ee; margin-top: 4px; }
+  .subrow { display: flex; justify-content: space-between; align-items: baseline; margin-top: 4px; }
+  .mem { font-size: 13px; color: #c3cbd8; letter-spacing: .06em; }
+  .rq { margin-top: 12px; display: grid; grid-template-columns: 84px 1fr; gap: 12px; align-items: baseline; border-top: 1px solid rgba(255,255,255,.25); padding-top: 12px; }
+  .rq span { font: 700 13px "NSans"; color: var(--gold); letter-spacing: .12em; }
+  .rq p { font-size: 16.5px; line-height: 1.45; }
+  .rq p b { color: var(--gold); font-weight: 500; }
+
+  /* 两个社区对照 */
+  .cmp { padding-top: 14px; padding-bottom: 12px; background: var(--tint); }
+  .cmp .grid { display: grid; grid-template-columns: 1fr 56px 1fr; margin-top: 8px; }
+  .side { background: #fff; border-radius: 6px; overflow: hidden; box-shadow: 0 1px 0 var(--line); }
+  .side figure { margin: 0; position: relative; }
+  .side img { width: 100%; height: 100px; object-fit: cover; display: block; }
+  .side figcaption { position: absolute; left: 0; right: 0; bottom: 0; padding: 14px 10px 5px; font-size: 10.5px; color: #fff; background: linear-gradient(0deg, rgba(0,0,0,.65), rgba(0,0,0,0)); }
+  .side .nm { padding: 7px 14px 2px; display: flex; align-items: baseline; gap: 10px; }
+  .side .nm b { font: 900 23px "NSans"; }
+  .side .nm span { font-size: 12.5px; color: var(--muted); }
+  .side.a .nm b { color: var(--brick); } .side.b .nm b { color: var(--teal); }
+  .side dl { margin: 0; padding: 0 14px 8px; display: grid; grid-template-columns: 70px 1fr; gap: 0; font-size: 12.3px; line-height: 1.4; }
+  .side dt { color: var(--muted); font-size: 11.5px; padding: 4px 0; border-top: 1px solid #edf0f3; }
+  .side dd { margin: 0; padding: 4px 0; border-top: 1px solid #edf0f3; }
+  .side dd .big { font: 500 19px/1 "Mono"; margin-right: 3px; }
+  .side dd.hl { color: var(--brick); font-weight: 700; }
+  .vs { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; color: var(--muted); font-size: 11px; text-align: center; }
+  .vs b { font: 900 22px "NSans"; color: var(--navy); }
+  .cmp .note { font-size: 10.5px; color: var(--muted); margin-top: 6px; }
+
+  /* 背景 概念 方法 */
+  .ctx { display: grid; grid-template-columns: 0.98fr 1.62fr 0.8fr; gap: 24px; padding-top: 12px; padding-bottom: 12px; border-bottom: 1px solid var(--line); }
+  .ctx p.t { font-size: 12.3px; line-height: 1.55; margin-top: 7px; }
+  .cc { margin-top: 7px; display: flex; flex-direction: column; gap: 4px; }
+  .cc div { background: var(--tint); border-radius: 4px; padding: 4px 8px; }
+  .cc b { font-size: 14px; color: var(--navy); }
+  .cc small { font-size: 10.5px; color: var(--muted); margin-left: 6px; }
+  .cc p { font-size: 11.3px; line-height: 1.38; }
+  .cc p em { font-style: normal; color: var(--brick); font-weight: 700; }
+  .mm { margin-top: 7px; display: flex; flex-direction: column; gap: 5px; }
+  .mm div { display: grid; grid-template-columns: 22px 1fr; gap: 8px; font-size: 11.6px; line-height: 1.42; }
+  .mm i { font: 700 12px/22px "Mono"; font-style: normal; width: 22px; height: 22px; border-radius: 4px; background: var(--brick); color: #fff; text-align: center; }
+  .mm b { display: block; font-size: 13px; }
+
+  /* 发现一 */
+  .f1 { padding-top: 12px; padding-bottom: 10px; }
+  .lead { font-size: 13px; line-height: 1.5; color: #3b4452; margin-top: 3px; }
+  .f1body { display: grid; grid-template-columns: 580px 1fr; gap: 20px; margin-top: 10px; }
+  .mapbox { position: relative; border-radius: 4px; overflow: hidden; box-shadow: 0 0 0 1px var(--line); }
+  .mapbox .a3-lg { position: absolute; left: 0; right: 0; bottom: 0; background: rgba(255,255,255,.92); padding: 5px 8px; gap: 2px 12px; font-size: 11px; }
+  .cap2 { font-size: 11px; color: var(--muted); line-height: 1.45; margin-top: 6px; }
+
+  /* 发现二 */
+  .f2 { padding-top: 12px; padding-bottom: 10px; border-top: 1px solid var(--line); }
+  .ch { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; margin-top: 8px; }
+  .ch > div { background: #fff; border: 1px solid var(--line); border-radius: 5px; padding: 6px 9px; display: flex; flex-direction: column; gap: 4px; }
+  .ch .who { font: 700 13.5px/1.3 "NSans"; color: var(--navy); }
+  .ch .doc { font-size: 11.5px; line-height: 1.45; color: #3b4452; flex: 1; }
+  .ch .doc::before { content: "材料　"; color: var(--muted); font-size: 10.5px; }
+  .ch .c { font: 700 13px "NSans"; color: var(--teal); border-top: 1px dashed var(--line); padding-top: 5px; }
+  .ch .c::before { content: "→ "; }
+  .ch > div.hl { border-color: var(--brick); background: #fbf1ee; }
+  .ch > div.hl .who { color: var(--brick); }
+  .f2 .note { font-size: 11px; color: var(--muted); margin-top: 6px; }
+
+  /* 分析 结论 */
+  .an { display: grid; grid-template-columns: 1fr 1fr 1fr 1.55fr; gap: 18px; padding-top: 12px; padding-bottom: 10px; background: var(--tint); }
+  .an h4 { font: 700 14px/1.3 "NSans"; margin: 5px 0 2px; color: var(--navy); }
+  .an p { font-size: 11.6px; line-height: 1.48; }
+  .concl { background: var(--brick); color: #fff; padding: 10px 14px; border-radius: 6px; }
+  .concl .sec { color: #fff; } .concl .sec i { background: #fff; color: var(--brick); }
+  .concl h4 { font: 900 15.5px/1.3 "NSans"; margin: 5px 0 3px; color: #fff; letter-spacing: -.01em; }
+  .concl p { font-size: 11.4px; line-height: 1.45; color: #fbe7e1; }
+  .concl p.nx { margin-top: 5px; color: #fff; font-weight: 700; }
+
+  /* 局限 参考 */
+  .ft { display: grid; grid-template-columns: 0.82fr 1.3fr; gap: 24px; padding-top: 10px; padding-bottom: 10px; flex: 1; }
+  .lim { display: grid; grid-template-columns: 1fr; gap: 2px 12px; margin-top: 5px; font-size: 11px; line-height: 1.42; }
+  .lim b { color: var(--brick); margin-right: 4px; }
+  .refl { font-size: 11px; line-height: 1.45; margin-top: 4px; color: #3b4452; }
+  .refl b { color: var(--brick); }
+  .refs { margin: 5px 0 0; padding-left: 18px; font-size: 9px; line-height: 1.3; color: #4a5260; columns: 2; column-gap: 22px; }
+  .refs li { break-inside: avoid; }
+  .credit { font-size: 9px; color: var(--muted); margin-top: 3px; }
+
+  .tl { display: flex; margin-top: 10px; position: relative; }
+  .tl::before { content: ""; position: absolute; left: 6px; right: 6px; top: 6px; border-top: 2px solid var(--tl, #1d2b45); }
+  .tl div { flex: 1; position: relative; padding-top: 18px; font-size: 11px; line-height: 1.35; padding-right: 6px; }
+  .tl div::before { content: ""; position: absolute; left: 0; top: 0; width: 10px; height: 10px; border-radius: 50%; background: var(--tl, #1d2b45); border: 2px solid var(--tlbg, var(--bg)); }
+  .tl b { display: block; font: 500 14px "Mono"; color: var(--tl, #1d2b45); }
+</style>
+</head>
+<body>
+<div class="poster" id="poster">
+  <header class="head pad">
+    <div class="meta"><span><b>UCUG3801</b>　社会不平等与社会流动　·　<span id="week"></span></span><span><span id="members"></span>　·　<span id="date"></span></span></div>
+    <h1 id="title"></h1>
+    <div class="sub" id="subtitle"></div>
+    <div class="rq"><span>研究问题</span><p id="question"></p></div>
+  </header>
+
+  <section class="cmp pad">
+    <div class="sec"><i>1</i>两个社区对比 <small>两处住宅直线相距约 870 米</small></div>
+    <h2><em>猎德村回迁区</em>与珠江新城商品房小区：住得都近，凭的东西不同</h2>
+    <div class="grid" id="cmpgrid"></div>
+    <p class="note" id="cmpnote"></p>
+  </section>
+
+  <section class="ctx pad">
+    <div><div class="sec"><i>2</i>社区背景</div><p class="t" id="bg"></p><div class="tl" id="tl"></div></div>
+    <div><div class="sec"><i>3</i>概念与课程联系</div><div class="cc" id="concepts"></div></div>
+    <div><div class="sec"><i>4</i>方法与证据</div><div class="mm" id="methods"></div></div>
+  </section>
+
+  <section class="f1 pad">
+    <div class="sec"><i>5</i>发现一</div>
+    <h2 id="f1t"></h2><p class="lead" id="f1l"></p>
+    <div class="f1body">
+      <div class="mapbox"><div id="map"></div><div id="lg"></div></div>
+      <div><div id="tbl"></div><p class="cap2" id="f1c"></p></div>
+    </div>
+  </section>
+
+  <section class="f2 pad">
+    <div class="sec"><i>6</i>发现二</div>
+    <h2 id="f2t"></h2>
+    <div class="ch" id="channels"></div>
+    <p class="note" id="f2n"></p>
+  </section>
+
+  <section class="an pad" id="an"></section>
+
+  <footer class="ft pad">
+    <div><div class="sec"><i>9</i>局限与反身性</div><div class="lim" id="lim"></div><p class="refl" id="refl"></p></div>
+    <div><div class="sec"><i>10</i>参考文献</div><ol class="refs" id="refs"></ol><p class="credit" id="credit"></p></div>
+  </footer>
+</div>
+<script src="../../shared/content2.js"></script>
+<script src="../../shared/mapdata.js"></script>
+<script src="../../shared/map.js"></script>
+<script src="../../shared/a3.js"></script>
+<script>
+  const K = window.K, $ = (id) => document.getElementById(id);
+  const cite = (s) => s.replace(/\[([\d–,\s]+)\]/g, '<sup class="cite">[$1]</sup>');
+  $("week").textContent = K.week;
+  $("date").textContent = K.fieldDate.replace("，猎德村—珠江新城南部", "");
+  $("title").innerHTML = K.title.join("").replace(K.titleHi, `<span>${K.titleHi}</span>`);
+  $("subtitle").textContent = K.subtitle;
+  $("question").innerHTML = K.question.replace("房价、户籍，还是住房身份", "<b>房价、户籍，还是住房身份</b>");
+  $("members").textContent = K.members;
+
+  const c = K.compare, A = c.a, B = c.b;
+  const side = (X, cls, img, cap, extra) => `<div class="side ${cls}">
+    <figure><img src="${img}"><figcaption>${cap}</figcaption></figure>
+    <div class="nm"><b>${X.name}</b><span>${X.type}</span></div>
+    <dl>
+      <dt>参考价</dt><dd>${X.price === "无同口径参考价" ? `<b>无同口径参考价</b>　<small style="color:#8a8f95">复建房逐套权属待核</small>${cite(" [8]")}` : `<span class="big">9.03</span>万元/㎡　<small style="color:#8a8f95">租 69–73 元/㎡/月</small>${cite(" [11]")}`}</dd>
+      <dt>500 米内园校</dt><dd><span class="big">${X.n500}</span>个</dd>
+      <dt>地段小学</dt><dd>${X.school}，步行 <b>${X.walk}</b> 分钟</dd>
+      <dt>幼儿园名额</dt><dd>${cite(X.kg)}</dd>
+      <dt>入学特点</dt><dd class="hl">${X.special}</dd>
+    </dl></div>`;
+  $("cmpgrid").innerHTML =
+    side(A, "a", "../../assets/hero.jpg", "猎德村宗祠与珠江新城超高层（本组摄，2026-11-07）") +
+    `<div class="vs"><b>对</b>直线<br>约 870 米</div>` +
+    side(B, "b", "../../assets/web/p01-nanguo.jpg", "南国学校小学部校门（网络图片，房天下学校页）");
+  $("cmpnote").textContent = c.note;
+
+  $("bg").innerHTML = cite(K.background);
+  $("tl").innerHTML = K.timeline.map(([y, t]) => `<div><b>${y}</b>${cite(t)}</div>`).join("");
+  $("concepts").innerHTML = K.concepts.map((x) => `<div><b>${x.key}</b><small>${x.who.replace(/\s*\[\d+\]/, "")} · ${x.week}</small><p>${x.def}<em>　猎德：</em>${x.use}</p></div>`).join("");
+  $("methods").innerHTML = K.methods.map((m) => `<div><i>${m.k}</i><span><b>${m.t}</b>${m.d}</span></div>`).join("");
+
+  $("f1t").textContent = K.f1.title;
+  $("f1l").innerHTML = cite(K.f1.lead);
+  $("map").innerHTML = a3.map({ id: "f", w: 580, h: 380, hideLabels: ["P07"], view: [-900, -560, 1250, 848], k: 0.82, scaleAt: [12, 18], northAt: [560, 36] });
+  $("lg").innerHTML = a3.legend();
+  $("tbl").innerHTML = a3.table();
+  $("f1c").innerHTML = cite(K.f1.caption);
+
+  $("f2t").textContent = K.f2.title;
+  $("f2n").dataset.x = 1;
+  $("channels").innerHTML = K.f2.rows.map((r, i) => `<div class="${i === 1 ? "hl" : ""}"><div class="who">${r.who}</div><div class="doc">${r.doc}</div><div class="c">${r.ch}</div></div>`).join("");
+  $("f2n").innerHTML = cite(K.f2.lead.replace("。", "；")) + K.f2.note;
+
+  $("an").innerHTML = K.analysis.map((a, i) => `<div><div class="sec">${["<i>7</i>分析 · 一", "<i style=\"visibility:hidden\">7</i>分析 · 二", "<i style=\"visibility:hidden\">7</i>社会流动"][i]}</div><h4>${a.h}</h4><p>${a.t}</p></div>`).join("") +
+    `<div class="concl"><div class="sec"><i>8</i>结论</div><h4>${K.conclusion.lead}</h4><p>${K.conclusion.body}</p><p class="nx">${K.conclusion.next}</p></div>`;
+  $("lim").innerHTML = K.limits.map(([k, v]) => `<div><b>${k}</b>${v}</div>`).join("");
+  $("refl").innerHTML = `<b>反身性　</b>${K.reflexivity}`;
+  $("refs").innerHTML = K.refs.map((r) => `<li>${r}</li>`).join("");
+  $("credit").textContent = K.credit;
+  document.fonts.ready.then(() => (document.body.dataset.ready = 1));
+</script>
+</body>
+</html>

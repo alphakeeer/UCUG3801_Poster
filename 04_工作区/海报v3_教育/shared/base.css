@@ -1,0 +1,36 @@
+/* 共享基础：字体、画布与地图组件。完整字体位于 ../海报v2/fonts-src（不入库），定稿后再做子集。 */
+@font-face { font-family: "NSerif"; font-weight: 400; src: url("../../海报v2/fonts-src/NotoSerifSC-Regular.otf"); }
+@font-face { font-family: "NSerif"; font-weight: 700; src: url("../../海报v2/fonts-src/NotoSerifSC-Bold.otf"); }
+@font-face { font-family: "NSerif"; font-weight: 900; src: url("../../海报v2/fonts-src/NotoSerifSC-Black.otf"); }
+@font-face { font-family: "NSans"; font-weight: 400; src: url("../../海报v2/fonts-src/NotoSansSC-Regular.otf"); }
+@font-face { font-family: "NSans"; font-weight: 500; src: url("../../海报v2/fonts-src/NotoSansSC-Medium.otf"); }
+@font-face { font-family: "NSans"; font-weight: 700; src: url("../../海报v2/fonts-src/NotoSansSC-Bold.otf"); }
+@font-face { font-family: "Mono"; font-weight: 400; src: url("../../海报v2/fonts-src/IBMPlexMono-Regular.ttf"); }
+@font-face { font-family: "Mono"; font-weight: 500; src: url("../../海报v2/fonts-src/IBMPlexMono-Medium.ttf"); }
+
+@page { size: 1080px 1920px; margin: 0; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: #888; }
+body { width: 1080px; }
+.poster > * { flex-shrink: 0; }
+.poster { width: 1080px; height: 1920px; overflow: hidden; position: relative; -webkit-font-smoothing: antialiased; text-rendering: geometricPrecision; }
+img { display: block; }
+ol, ul { list-style: none; }
+.mono { font-family: "Mono", "NSans", monospace; }
+sup.cite { font-size: .62em; vertical-align: .55em; line-height: 0; margin-left: 1px; opacity: .75; font-weight: 400; }
+
+/* 地图组件 */
+.map-wrap { position: relative; }
+.map-wrap img { width: 100%; height: auto; }
+.pin { position: absolute; transform: translate(calc(-1 * var(--pinr, 13px)), -50%); display: flex; align-items: center; gap: 5px; pointer-events: none; }
+.pin.l { transform: translate(calc(-100% + var(--pinr, 13px)), -50%); }
+.pin b { width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center; font: 700 14px/1 "NSans"; color: #fff; background: var(--pin, #d1452f); border: 2.5px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,.35); }
+.pin em { font: 700 13px/1 "NSans"; font-style: normal; color: var(--pin, #d1452f); background: rgba(255,255,255,.92); padding: 3px 5px; border-radius: 3px; white-space: nowrap; }
+.map-legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font: 400 12.5px/1.2 "NSans"; color: var(--ch-ink, #222); }
+.map-legend .ml-price, .map-legend .ml-sites { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 12px; }
+.map-legend .ml-t { font-weight: 700; }
+.map-legend .ml-ramp { display: flex; gap: 0; }
+.map-legend .ml-ramp span { display: flex; flex-direction: column; align-items: center; font-size: 11px; gap: 2px; }
+.map-legend .ml-ramp i { display: block; width: 34px; height: 9px; }
+.map-legend .ml-sites span { display: inline-flex; align-items: center; gap: 4px; }
+.chart text { font-family: "NSans"; }

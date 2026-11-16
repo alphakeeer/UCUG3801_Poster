@@ -1,0 +1,51 @@
+{
+  "retrieved": "2026-11-16",
+  "material_type": "网络来源照片",
+  "photos": [
+    {
+      "file": "P01_南国学校小学部_临街校门.jpg",
+      "name": "广州市南国学校小学部",
+      "id": "CAP-P02",
+      "source": "https://gz.esf.fang.com/school/9819/profile/",
+      "image": "https://imgs.soufunimg.com/news/2017_07/28/1501226018127.jpg",
+      "published": "页面未注明；原图URL含2017_07，不作为拍摄日期",
+      "use": "校门、围栏、临街入口与路边环境"
+    },
+    {
+      "file": "P02_体育东路小学兴国学校_校园.jpg",
+      "name": "体育东路小学兴国学校（原文图注标注）",
+      "id": "CAP-P06",
+      "source": "https://k.sina.com.cn/article_2131593523_7f0d8933020016rph.html",
+      "image": "https://k.sinaimg.cn/n/sinakd20220522s/200/w640h360/20220522/a464-4c8b06277e96d00802d8a7be565aeeab.jpg/w700d1q75cms.jpg?by=cms_fixed_width",
+      "published": "2022-05-22，羊城晚报金羊网稿件，新浪转载，文末注明学校供图",
+      "use": "校园庭院、教学楼与周边高层住宅关系"
+    },
+    {
+      "file": "P03_猎德幼儿园_入口标识.png",
+      "name": "广州市天河区珠江新城猎德幼儿园",
+      "id": "CAP-E004-052",
+      "source": "https://www.sohu.com/a/577157350_121124906",
+      "image": "https://p0.itc.cn/images01/20220816/8ef349eefd9b4081b4ffc4f3864951ed.png",
+      "published": "2022年报道；图片拍摄日期未注明",
+      "use": "园名、入口围墙与住宅邻接环境"
+    },
+    {
+      "file": "P04_华文幼儿园_园舍外观.png",
+      "name": "广州市天河区珠江新城华文幼儿园",
+      "id": "CAP-E005-032",
+      "source": "https://www.thnet.gov.cn/thdt/mtjj/content/post_10439168.html",
+      "image": "http://www.thnet.gov.cn/img/1/1492/1492693/10439168.png",
+      "published": "2025-09-10，天河区政府网站转载南方+，图片保留南方+水印",
+      "use": "现代园舍外观、紧凑城市用地与新建供给背景"
+    },
+    {
+      "file": "P05_猎德幼儿园_传统文化室内空间.jpg",
+      "name": "广州市天河区珠江新城猎德幼儿园",
+      "id": "CAP-E004-052",
+      "source": "https://jyj.gz.gov.cn/zt/dlsndjwl/content/post_7334980.html",
+      "image": "https://jyj.gz.gov.cn/img/0/415/415203/7334980.jpg",
+      "published": "2021-06-16，广州市教育局",
+      "use": "传统文化室内空间，供主题插图备选"
+    }
+  ]
+}

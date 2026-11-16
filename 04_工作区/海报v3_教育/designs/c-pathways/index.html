@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1080" />
+<title>方案C 一址四门 · 住得近，就能读得上吗？</title>
+<link rel="stylesheet" href="../../shared/base.css" />
+<style>
+  :root {
+    --bg: #faf7f2; --ink: #1d2733; --muted: #66707a; --line: #e2ddd4; --card: #fff;
+    --a: #1f7a6e; --b: #d49a22; --c: #7b4fa0; --d: #d0533c;
+    --ch-low: #b9c4cc; --ch-high: #1d2733; --ch-a: #1f7a6e; --ch-b: #7b4fa0; --ch-ink: #1d2733; --ch-muted: #7a838c; --ch-grid: #ebe6dd;
+    --pin: #d0533c;
+  }
+  .poster { background: var(--bg); color: var(--ink); font: 400 14.5px/1.6 "NSans"; display: flex; flex-direction: column; }
+  .p { padding-left: 48px; padding-right: 48px; }
+  .lab { display: inline-flex; align-items: center; gap: 8px; font: 700 13.5px/1 "NSans"; letter-spacing: .08em; color: var(--muted); }
+  .lab::before { content: ""; width: 22px; height: 4px; border-radius: 2px; background: linear-gradient(90deg, var(--a) 25%, var(--b) 25% 50%, var(--c) 50% 75%, var(--d) 75%); }
+  h2 { font: 900 30px/1.2 "NSans"; letter-spacing: -.01em; margin-top: 6px; }
+  h2 small { font: 400 16px/1 "NSans"; color: var(--muted); margin-left: 10px; letter-spacing: 0; }
+  .cap { font-size: 11.8px; line-height: 1.5; color: var(--muted); margin-top: 6px; }
+
+  header { padding-top: 24px; padding-bottom: 14px; position: relative; }
+  .top { display: flex; justify-content: space-between; font: 500 12.5px/1 "Mono"; color: var(--muted); letter-spacing: .06em; }
+  h1 { font: 900 66px/1.06 "NSans"; letter-spacing: -.02em; margin-top: 14px; }
+  h1 span { display: block; }
+  h1 .q { color: var(--d); }
+  .stripe { display: flex; height: 8px; margin-top: 12px; width: 360px; border-radius: 4px; overflow: hidden; }
+  .stripe i { flex: 1; } .stripe i:nth-child(1) { background: var(--a); } .stripe i:nth-child(2) { background: var(--b); } .stripe i:nth-child(3) { background: var(--c); } .stripe i:nth-child(4) { background: var(--d); }
+  .hd-side { position: absolute; right: 48px; top: 62px; width: 360px; font-size: 13px; line-height: 1.7; color: var(--muted); }
+  .hd-side .sub { font: 700 17px/1.45 "NSans"; color: var(--ink); margin-bottom: 10px; }
+  .hd-side b { color: var(--ink); margin-right: 6px; }
+  .rq { margin: 0 48px; background: var(--ink); color: #fff; border-radius: 10px; padding: 10px 20px; display: grid; grid-template-columns: 80px 1fr; gap: 14px; }
+  .rq .k { font: 700 13px/1.5 "NSans"; color: #ffd27a; letter-spacing: .08em; }
+  .rq .q { font: 700 17px/1.45 "NSans"; }
+  .rq .a { font-size: 14px; color: #cfd6dd; margin-top: 3px; }
+  .rq .a b { color: #ffd27a; }
+
+  .ctx { display: grid; grid-template-columns: 1fr 540px; gap: 26px; padding-top: 10px; }
+  .ctx p { font-size: 13.3px; line-height: 1.55; margin-top: 3px; }
+  .stats { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; margin-top: 8px; }
+  .stats div { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 6px 4px 5px; text-align: center; }
+  .stats b { display: block; font: 900 25px/1 "NSans"; }
+  .stats span { display: block; font: 700 12px/1.3 "NSans"; margin-top: 3px; }
+  .stats em { display: block; font-style: normal; font-size: 10.8px; line-height: 1.3; color: var(--muted); margin-top: 2px; }
+  .ctx .mn { font-size: 11.8px; line-height: 1.5; color: var(--muted); margin-top: 6px; }
+
+  .hero2 { padding-top: 12px; }
+  .dia { position: relative; height: 328px; margin-top: 4px; }
+  .dia svg { position: absolute; inset: 0; }
+  .house { position: absolute; left: 0; top: 116px; width: 196px; text-align: center; }
+  .house b { display: block; font: 900 24px/1.2 "NSans"; margin-top: 8px; }
+  .house span { font-size: 13px; color: var(--muted); }
+  .door { position: absolute; left: 408px; width: 576px; height: 76px; background: var(--card); border-radius: 10px; border: 1px solid var(--line); display: grid; grid-template-columns: 8px 1fr 150px 116px; align-items: center; overflow: hidden; }
+  .door .bar { height: 100%; }
+  .door .who { padding: 0 14px; }
+  .door .who .ch { font: 900 16.5px/1.2 "NSans"; }
+  .door .who .w { font: 700 13px/1.35 "NSans"; }
+  .door .who .c { font-size: 11.5px; line-height: 1.35; color: var(--muted); }
+  .door .dest { font: 700 13.5px/1.35 "NSans"; border-left: 1px dashed var(--line); padding-left: 12px; height: 60%; display: flex; align-items: center; }
+  .door .min { text-align: right; padding-right: 16px; font: 900 34px/1 "NSans"; }
+  .door .min small { font: 400 12px/1 "NSans"; color: var(--muted); margin-left: 2px; }
+  .same { position: absolute; right: -4px; font: 700 11.5px/1.3 "NSans"; color: var(--a); }
+
+  .row4 { display: grid; grid-template-columns: 1fr 380px; gap: 26px; padding-top: 12px; }
+  .f1in { display: grid; grid-template-columns: 268px 1fr; gap: 16px; margin-top: 8px; align-items: start; }
+  .f1in .map-wrap { border-radius: 8px; overflow: hidden; border: 1px solid var(--line); }
+  .f1in .pin { --pinr: 10px; }
+  .f1in .pin b { width: 20px; height: 20px; font-size: 11px; border-width: 2px; }
+  .f1in .pin em { font-size: 10.5px; padding: 2px 4px; }
+  .vs { display: grid; gap: 6px; }
+  .vs div { display: grid; grid-template-columns: 58px 1fr 22px 1fr; align-items: center; background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 4px 10px; }
+  .vs .r { font: 700 13px/1 "NSans"; color: var(--muted); }
+  .vs b { font: 900 27px/1 "NSans"; text-align: center; }
+  .vs b small { display: block; font: 400 10.5px/1.2 "NSans"; color: var(--muted); margin-top: 2px; }
+  .vs i { font-style: normal; text-align: center; color: var(--muted); font-size: 13px; }
+  .vs .hi { color: var(--ink); } .vs .lo { color: #8295a3; }
+  .take { font: 700 14px/1.45 "NSans"; margin-top: 6px; padding: 6px 12px; border-radius: 8px; background: #fff3dc; }
+  .take.p { background: #f1e9f6; }
+
+  .mech { padding-top: 10px; }
+  .flow { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin-top: 8px; }
+  .flow > div { position: relative; background: var(--ink); color: #fff; border-radius: 8px; padding: 6px 12px; }
+  .flow > div:not(:last-child)::after { content: ""; position: absolute; right: -10px; top: 50%; border: 6px solid transparent; border-left-color: var(--ink); transform: translate(4px, -50%); }
+  .flow b { font: 700 15px/1.3 "NSans"; display: block; }
+  .flow p { font-size: 11.8px; line-height: 1.35; color: #c3ccd5; }
+  .flow .dim { background: transparent; color: var(--muted); border: 1.5px dashed #b8b0a2; }
+  .flow .dim p { color: var(--d); font-weight: 700; }
+  .cons { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 10px; margin-top: 8px; }
+  .con { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 7px 10px; border-top: 4px solid var(--ink); }
+  .con h3 { font: 900 16px/1.2 "NSans"; display: flex; justify-content: space-between; align-items: baseline; }
+  .con h3 .en { font: 500 9.5px/1 "Mono"; color: var(--muted); }
+  .con .en { font: 500 10.5px/1.3 "Mono"; color: var(--muted); }
+  .con .who { font-size: 10.8px; color: var(--muted); line-height: 1.35; }
+  .con p { font-size: 12.3px; line-height: 1.42; margin-top: 2px; }
+  .con p.u { font-weight: 700; }
+  .an2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 8px; }
+  .an2 p { font-size: 13px; line-height: 1.5; }
+  .an2 b { margin-right: 6px; }
+
+  .close { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; padding-top: 10px; flex: 1 0 auto; padding-bottom: 8px; }
+  .cl { border-radius: 10px; padding: 10px 16px; }
+  .cl.c1 { background: var(--d); color: #fff; }
+  .cl.c1 .lead { font: 900 27px/1.2 "NSans"; margin: 4px 0 4px; }
+  .cl.c1 p { font-size: 13px; line-height: 1.5; }
+  .cl.c1 .nx { margin-top: 6px; background: rgba(0,0,0,.15); padding: 6px 9px; border-radius: 6px; font-size: 13px; }
+  .cl.c1 .lab { color: #ffe0d6; }
+  .cl.c2 { background: var(--card); border: 1px solid var(--line); }
+  .cl.c2 ol { margin-top: 4px; display: grid; gap: 2px; }
+  .cl.c2 li { font-size: 12.5px; line-height: 1.4; display: grid; grid-template-columns: 76px 1fr; gap: 6px; }
+  .cl.c2 li b { font-size: 12.5px; }
+  .cl.c2 .rf { font-size: 12.2px; line-height: 1.45; color: var(--muted); border-top: 1px dashed var(--line); margin-top: 6px; padding-top: 5px; }
+
+  footer { border-top: 1px solid var(--line); padding-top: 6px; padding-bottom: 6px; }
+  footer ol { columns: 4; column-gap: 16px; font-size: 9.2px; line-height: 1.32; color: var(--muted); counter-reset: r; }
+  footer li { break-inside: avoid; padding-left: 18px; position: relative; margin-bottom: 2px; }
+  footer li::before { counter-increment: r; content: "[" counter(r) "]"; position: absolute; left: 0; color: var(--d); }
+  footer .cr { display: flex; justify-content: space-between; font: 400 10px/1 "Mono"; color: #9aa1a8; margin-top: 4px; }
+</style>
+</head>
+<body>
+<article class="poster" id="poster"></article>
+<script src="../../shared/content.js"></script>
+<script src="../../shared/charts.js"></script>
+<script>
+const c = window.C, f1 = c.f1, f2 = c.f2;
+const col = { a: "var(--a)", b: "var(--b)", c: "var(--c)", d: "var(--d)" };
+const tops = [0, 84, 168, 252];
+
+// 一址四门：房子到四张渠道卡片的连线
+function diagram() {
+  const hx = 198, hy = 164;
+  let s = `<svg width="984" height="328" viewBox="0 0 984 328">`;
+  f2.scenarios.forEach((sc, i) => {
+    const ty = tops[i] + 38;
+    s += `<path d="M${hx} ${hy} C ${hx + 120} ${hy}, ${408 - 120} ${ty}, 408 ${ty}" fill="none" stroke="${col[sc.ch]}" stroke-width="5" stroke-linecap="round" ${sc.ch === "b" ? 'stroke-dasharray="2 10"' : ""}/>`;
+    s += `<circle cx="408" cy="${ty}" r="6" fill="${col[sc.ch]}"/>`;
+  });
+  // 房子图标
+  s += `<g transform="translate(58 14)"><path d="M40 0 80 34V96H0V34Z" fill="#1d2733"/><rect x="31" y="58" width="18" height="38" fill="#faf7f2"/><rect x="12" y="44" width="14" height="12" fill="#faf7f2"/><rect x="54" y="44" width="14" height="12" fill="#faf7f2"/></g>`;
+  s += `<circle cx="${hx}" cy="${hy}" r="9" fill="#1d2733"/>`;
+  return s + `</svg>`;
+}
+
+document.getElementById("poster").innerHTML = `
+<header class="p">
+  <div class="top"><span>${c.course}</span><span>LIEDE · GUANGZHOU · 2026</span></div>
+  <h1><span>${c.titleLines[0]}</span><span class="q">${c.titleLines[1]}</span></h1>
+  <div class="stripe"><i></i><i></i><i></i><i></i></div>
+  <div class="hd-side"><p class="sub">${c.subtitle}</p><p><b>组员</b>${c.members}</p><p><b>实地</b>${c.fieldDate}</p><p><b>证据</b>${c.evidence.map(([k, v]) => `${k} ${v}`).join(" · ")}</p></div>
+</header>
+<section class="rq"><div class="k">研究问题</div><div><p class="q">${c.question}</p><p class="a"><b>我们的回答　</b>${c.answer}</p></div></section>
+<section class="ctx p">
+  <div><span class="lab">01 社区背景</span>${c.background.map((p) => `<p>${cite(p)}</p>`).join("")}</div>
+  <div><span class="lab">03 方法与证据</span><div class="stats">${c.methods.map((m) => `<div><b>${m.n}</b><span>${m.unit}</span><em>${cite(m.note)}</em></div>`).join("")}</div><p class="mn">${c.methodNote}</p></div>
+</section>
+<section class="hero2 p">
+  <span class="lab">05 ${f2.tag}</span>
+  <h2>${f2.title}<small>固定住址，不等于固定资格</small></h2>
+  <div class="dia">${diagram()}
+    <div class="house" style="top:112px"><b>南国花园</b><span>同一个起点</span></div>
+    ${f2.scenarios.map((sc, i) => `<div class="door" style="top:${tops[i]}px"><i class="bar" style="background:${col[sc.ch]}"></i><div class="who"><p class="ch" style="color:${col[sc.ch]}">${sc.path}</p><p class="w">${sc.who}</p><p class="c">${sc.cond}</p></div><div class="dest">${sc.dest}</div><div class="min" style="color:${sc.min === "—" ? "var(--muted)" : col[sc.ch]}">${sc.min}${sc.min !== "—" ? "<small>分</small>" : ""}</div></div>`).join("")}
+  </div>
+  <p class="cap">图 2　${f2.scenarioNote} 地段与港澳单列两条渠道指向同一所学校。步行时间为高德单程估算 [12]。</p>
+</section>
+<section class="row4 p">
+  <div><span class="lab">04 ${f1.tag}</span><h2 style="font-size:25px">${f1.title}</h2>
+    <div class="f1in">
+      <div><div class="map-wrap"><img src="../../assets/map.jpg" alt="住宅参考价与园校分布图" />${mapPins()}</div><p class="cap" style="margin-top:3px">图 1　蓝点越深房价越高；■小学 ▲幼儿园 ◇无可比价。底图 © OpenStreetMap。</p></div>
+      <div><div class="vs">${f1.rows.map((r) => `<div><span class="r">${r.r} 米</span><b class="lo">${r.low}<small>低于 10 万</small></b><i>vs</i><b class="hi">${r.high}<small>≥10 万</small></b></div>`).join("")}</div>
+        <p class="cap" style="margin-top:4px">附近候选园校数中位数（n = 7 / 9）；仅 9 月时 800 米为 11 vs 12 [11]。</p></div>
+    </div>
+    <p class="take">${f1.takeaway}</p>
+  </div>
+  <div><span class="lab">05 ${f2.tag} · 续</span><h2 style="font-size:25px">${f2.routeTitle}</h2>
+    ${routeChart({ width: 380, rowH: 40, left: 100, right: 10, fs: 13 })}
+    <p class="take p">${f2.routeTakeaway}</p>
+    <p class="cap">● 条件性地段学校　■ 冼村小学（积分志愿例）。未核实校门与接送。</p>
+  </div>
+</section>
+<section class="mech p">
+  <span class="lab">02 概念 × 06 分析：四个视角各解释一环</span>
+  <div class="flow">${c.mechanism.map((m) => `<div class="${m.dim ? "dim" : ""}"><b>${m.k}</b><p>${m.dim ? "尚未观察：" : ""}${m.d}</p></div>`).join("")}</div>
+  <div class="cons">${c.concepts.map((k, i) => `<div class="con" style="border-top-color:${["var(--b)", "var(--a)", "var(--c)", "var(--d)"][i]}"><h3>${k.key}</h3><p class="who">${cite(k.who)} · 对应发现${k.finding === 1 ? "一" : "二"}</p><p>${k.def}</p><p class="u">→ ${k.use}</p></div>`).join("")}</div>
+  <div class="an2">${c.analysis.map(([h, p]) => `<p><b>${h}</b>${p}</p>`).join("")}</div>
+</section>
+<section class="close p">
+  <div class="cl c1"><span class="lab">07 结论</span><p class="lead">${c.conclusion.lead.join("")}</p><p>${c.conclusion.body}</p><p class="nx"><b>后续问题　</b>${c.conclusion.next}</p></div>
+  <div class="cl c2"><span class="lab">08 局限与反身性</span><ol>${c.limits.map(([h, p]) => `<li><b>${h}</b><span>${p}</span></li>`).join("")}</ol><p class="rf"><b>反身性　</b>${c.reflexivity}</p></div>
+</section>
+<footer class="p"><ol>${c.refs.map((r) => `<li>${r}</li>`).join("")}</ol></footer>`;
+ready();
+</script>
+</body>
+</html>

@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1080" />
+<title>方案D 地图叙事 · 住得近，就能读得上吗？</title>
+<link rel="stylesheet" href="../../shared/base.css" />
+<style>
+  :root {
+    --navy: #0f2236; --navy2: #183552; --ink: #18232e; --muted: #5f6b77; --line: #dfe4e8; --or: #e0712c; --sky: #8fd3e8;
+    --ch-low: #a9cdea; --ch-high: #16467f; --ch-a: #13756b; --ch-b: #e0712c; --ch-ink: #18232e; --ch-muted: #6b7783; --ch-grid: #e8ecef;
+    --pin: #e0712c;
+  }
+  .poster { background: #fff; color: var(--ink); font: 400 14px/1.55 "NSans"; display: flex; flex-direction: column; }
+  .p { padding-left: 44px; padding-right: 44px; }
+  .no { display: inline-grid; place-items: center; min-width: 26px; height: 26px; padding: 0 6px; border-radius: 13px; background: var(--or); color: #fff; font: 700 13px/1 "Mono"; margin-right: 8px; vertical-align: 2px; }
+  .lab { font: 700 15px/1.3 "NSans"; color: var(--navy); }
+  h2 { font: 900 22px/1.25 "NSans"; color: var(--navy); margin: 4px 0 4px; }
+  .cap { font-size: 11.5px; line-height: 1.45; color: var(--muted); margin-top: 4px; }
+
+  header { background: var(--navy); color: #fff; padding-top: 18px; padding-bottom: 12px; }
+  .top { display: flex; justify-content: space-between; font: 500 12px/1 "Mono"; color: #8aa4bb; letter-spacing: .08em; }
+  h1 { font: 900 62px/1.08 "NSans"; margin-top: 10px; letter-spacing: -.01em; }
+  h1 span { color: var(--sky); }
+  .sub { display: flex; justify-content: space-between; align-items: flex-end; margin-top: 0; gap: 20px; }
+  .sub p { font: 400 19px/1.4 "NSans"; color: #c8d6e2; }
+  .sub dl { font-size: 12.5px; color: #c8d6e2; line-height: 1.55; text-align: right; margin-top: -54px; }
+  .sub dl b { color: #fff; margin-left: 10px; }
+  .rq { background: var(--navy2); color: #fff; padding-top: 10px; padding-bottom: 10px; display: grid; grid-template-columns: 84px 1fr; gap: 12px; }
+  .rq .k { font: 700 13px/1.5 "NSans"; color: var(--or); }
+  .rq .q { font: 700 16.5px/1.5 "NSans"; }
+  .rq .a { font-size: 13.5px; color: #b9cad8; }
+  .rq .a b { color: var(--sky); }
+
+  .map { position: relative; height: 560px; overflow: hidden; background: #eef2f3; }
+  .map .inner { position: absolute; left: 0; top: -92px; width: 1080px; }
+  .map .inner img { width: 1080px; }
+  .map .pin { --pinr: 17px; }
+  .map .pin b { width: 34px; height: 34px; font-size: 17px; border-width: 3px; }
+  .map .pin em { font-size: 16px; padding: 4px 7px; }
+  .ov { position: absolute; background: rgba(255,255,255,.94); border-radius: 8px; box-shadow: 0 2px 10px rgba(15,34,54,.18); padding: 10px 14px; }
+  .ov.t { left: 24px; top: 16px; width: 420px; }
+  .ov.t .lab { font-size: 14px; }
+  .ov.t p { font-size: 13px; line-height: 1.55; margin-top: 2px; }
+  .ov.lg { left: 20px; bottom: 6px; padding: 6px 12px; }
+  .ov.lg .map-legend { font-size: 12px; flex-direction: column; gap: 3px; }
+  .ov.lg .ml-ramp i { width: 38px; }
+  .ov.lg .ml-ramp span { min-width: 40px; }
+  .scale { position: absolute; right: 30px; bottom: 14px; background: rgba(255,255,255,.85); padding: 4px 8px; border-radius: 4px; font: 500 12px/1 "Mono"; color: var(--ink); text-align: center; }
+  .scale i { display: block; width: 135px; height: 6px; background: linear-gradient(90deg, var(--ink) 50%, #fff 50%); border: 1px solid var(--ink); margin-top: 4px; }
+  .north { position: absolute; right: 18px; top: 0; padding: 12px 14px 8px; background: #f4f6f6; border-radius: 0 0 8px 8px; font: 700 15px/1 "NSans"; text-align: center; color: var(--ink); }
+  .north::before { content: ""; display: block; width: 0; height: 0; border: 8px solid transparent; border-bottom: 20px solid var(--ink); border-top: 0; margin: 0 auto 4px; }
+  .mapcap { position: absolute; right: 24px; bottom: 54px; width: 330px; font-size: 11.5px; line-height: 1.45; color: var(--muted); background: rgba(255,255,255,.88); padding: 6px 9px; border-radius: 6px; }
+
+  .ctx { display: grid; grid-template-columns: 1fr 1.15fr; gap: 24px; padding-top: 8px; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
+  .ctx p { font-size: 13px; line-height: 1.55; margin-top: 2px; }
+  .mrow { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; margin-top: 4px; }
+  .mrow div b { font: 900 22px/1 "NSans"; color: var(--navy); display: block; }
+  .mrow div span { font-size: 11.5px; font-weight: 700; display: block; line-height: 1.3; margin-top: 2px; }
+  .mrow div p { font-size: 10.5px; color: var(--muted); line-height: 1.3; margin: 0; }
+
+  .fs { display: grid; grid-template-columns: 420px 1fr; gap: 26px; padding-top: 8px; }
+  .take { font: 700 13.5px/1.45 "NSans"; color: var(--navy); border-left: 4px solid var(--or); background: #fff4ec; padding: 5px 10px; margin-top: 4px; }
+
+  .sc { display: grid; gap: 4px; margin-top: 6px; }
+  .sc > div { display: grid; grid-template-columns: 76px 1fr 128px 66px; align-items: center; gap: 8px; border-top: 0 !important; border-left: 4px solid var(--navy); padding: 4px 10px 4px 8px; }
+  .sc div { border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; border-top: 4px solid var(--navy); }
+  .sc > div > div { border: 0; padding: 0; }
+  .sc .pth { font: 900 15px/1.2 "NSans"; color: var(--navy); }
+  .sc .w { font: 700 12px/1.35 "NSans"; }
+  .sc .c { font-size: 11px; line-height: 1.35; color: var(--muted); }
+  .sc .d { font-size: 12px; font-weight: 700; line-height: 1.3; }
+  .sc .m { text-align: right; }
+  .sc .m b { font: 900 22px/1 "NSans"; color: var(--navy); }
+  .sc .m b.o { color: var(--or); }
+  .sc .m small { font-size: 11px; font-weight: 400; margin-left: 1px; }
+
+  .th { padding-top: 8px; border-top: 1px solid var(--line); margin-top: 6px; }
+  .cons { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 6px; }
+  .con { background: #f3f6f8; border-radius: 6px; padding: 7px 10px; }
+  .con h3 { font: 900 15px/1.2 "NSans"; color: var(--navy); }
+  .con .who { font-size: 10.5px; color: var(--muted); line-height: 1.3; }
+  .con p { font-size: 11.8px; line-height: 1.4; margin-top: 1px; }
+  .con p.u { color: var(--or); font-weight: 700; }
+  .flow { display: flex; align-items: center; gap: 5px; font-size: 12px; margin-top: 8px; flex-wrap: nowrap; }
+  .flow b { background: var(--navy); color: #fff; padding: 2px 8px; border-radius: 12px; font-weight: 700; white-space: nowrap; }
+  .flow b.dim { background: #fff; color: var(--muted); border: 1.5px dashed #aab4bd; }
+  .flow i { color: var(--or); font-style: normal; font-weight: 900; }
+  .an2 { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; margin-top: 6px; }
+  .an2 p { font-size: 12.5px; line-height: 1.5; }
+  .an2 p b { color: var(--navy); margin-right: 6px; }
+
+  .close { display: grid; grid-template-columns: 1fr 1fr; margin-top: 10px; flex: 1 0 auto; }
+  .concl { background: var(--navy); color: #fff; padding: 10px 22px 8px 44px; }
+  .concl .lab { color: var(--sky); }
+  .concl .lead { font: 900 26px/1.25 "NSans"; margin: 2px 0 4px; }
+  .concl p { font-size: 12.8px; line-height: 1.52; color: #d4e0ea; }
+  .concl .nx { margin-top: 6px; color: #fff; }
+  .concl .nx b { color: var(--or); }
+  .lim { background: #f3f6f8; padding: 10px 44px 8px 22px; }
+  .lim li { font-size: 12.3px; line-height: 1.42; margin-top: 2px; }
+  .lim li b { color: var(--navy); }
+  .lim .rf { font-size: 12px; line-height: 1.45; color: var(--muted); margin-top: 4px; }
+  .lim .rf b { color: var(--or); }
+
+  footer { background: var(--navy); color: #9fb3c5; padding-top: 7px; padding-bottom: 7px; }
+  footer ol { columns: 4; column-gap: 16px; font-size: 9px; line-height: 1.3; counter-reset: r; }
+  footer li { break-inside: avoid; padding-left: 18px; position: relative; margin-bottom: 2px; }
+  footer li::before { counter-increment: r; content: "[" counter(r) "]"; position: absolute; left: 0; color: var(--or); }
+</style>
+</head>
+<body>
+<article class="poster" id="poster"></article>
+<script src="../../shared/content.js"></script>
+<script src="../../shared/charts.js"></script>
+<script>
+const c = window.C, f1 = c.f1, f2 = c.f2;
+// 地图向上裁去 60px 后，重新计算标记位置
+const pins = c.pins.map((p) => `<span class="pin${p.left ? " l" : ""}" style="left:${p.x}%;top:${(p.y / 100) * 822}px">${p.left ? `<em>${p.name}</em>` : ""}<b>${p.id.slice(1)}</b>${p.left ? "" : `<em>${p.name}</em>`}</span>`).join("");
+document.getElementById("poster").innerHTML = `
+<header class="p">
+  <div class="top"><span>${c.course}</span><span>LIEDE · GUANGZHOU · 2026</span></div>
+  <h1>${c.titleLines[0]}<span>${c.titleLines[1]}</span></h1>
+  <div class="sub"><p>${c.subtitle}</p><dl><dd><b>组员</b> ${c.members}</dd><dd><b>实地</b> ${c.fieldDate}</dd><dd><b>证据</b> ${c.evidence.map(([k, v]) => `${k} ${v}`).join(" · ")}</dd></dl></div>
+</header>
+<section class="rq p"><div class="k">研究问题</div><div><p class="q">${c.question}</p><p class="a"><b>回答　</b>${c.answer}</p></div></section>
+<section class="map">
+  <div class="inner"><img src="../../assets/map.jpg" alt="猎德及周边住宅参考价与园校分布" />${pins}</div>
+  <div class="ov t"><p class="lab"><span class="no">地图</span>同一片区，三个起点</p><p>22 个住宅（蓝色越深，房天下 8—11 月参考价越高）与 43 个候选园校交错分布。①②③ 是发现二追踪路线的三个住宅：步行几分钟就有学校，但“能不能读”另有规则。位置为地图参照点，未核实校门；底图 © OpenStreetMap。</p></div>
+  <div class="ov lg">${mapLegend()}</div>
+  <div class="north">N</div>
+  <div class="scale">500 m<i></i></div>
+</section>
+<section class="ctx p">
+  <div><p class="lab"><span class="no">01</span>社区背景</p>${c.background.map((p) => `<p>${cite(p)}</p>`).join("")}</div>
+  <div><p class="lab"><span class="no">03</span>方法与证据</p><div class="mrow">${c.methods.map((m) => `<div><b>${m.n}</b><span>${m.unit}</span><p>${cite(m.note)}</p></div>`).join("")}</div><p style="font-size:11.5px;color:var(--muted);margin-top:4px">${c.methodNote}</p></div>
+</section>
+<section class="fs p">
+  <div><p class="lab"><span class="no">04</span>${f1.tag}</p><h2>${f1.title}</h2>
+    ${priceChart({ width: 420, rowH: 32, left: 54, right: 10, fs: 12.5 })}
+    <p class="take">${f1.takeaway}</p><p class="cap">${cite(f1.caption)}</p></div>
+  <div><p class="lab"><span class="no">05</span>${f2.tag}</p><h2>${f2.title}<span style="font:400 14px/1 'NSans';color:var(--muted);margin-left:8px">以③南国花园为起点</span></h2>
+    <div class="sc">${f2.scenarios.map((s) => `<div style="border-left-color:${s.ch === "c" ? "var(--or)" : s.ch === "b" ? "#9aa8b4" : "var(--navy)"}"><p class="pth">${s.path}</p><div><p class="w">${s.who}</p><p class="c">${s.cond}</p></div><p class="d">${s.dest}</p><p class="m"><b class="${s.ch === "c" ? "o" : ""}">${s.min}${s.min !== "—" ? "<small>分</small>" : ""}</b></p></div>`).join("")}</div>
+    <p class="cap">${f2.scenarioNote}</p></div>
+</section>
+<section class="fs p" style="grid-template-columns: 1fr 470px; padding-top: 4px">
+  <div><p class="lab" style="margin-top:6px">${f2.routeTitle}</p><p class="take" style="margin-top:4px">${f2.routeTakeaway}</p><p class="cap">${cite(f2.caption)}</p></div>
+  <div>${routeChart({ width: 470, rowH: 30, left: 100, right: 10, fs: 12.5 })}</div>
+</section>
+<section class="th p">
+  <div style="display:flex;justify-content:space-between;align-items:center"><p class="lab"><span class="no">02</span>概念框架　<span class="no">06</span>社会学分析</p><div class="flow" style="margin-top:0">${c.mechanism.map((m) => `<b class="${m.dim ? "dim" : ""}">${m.k}${m.dim ? "（未观察）" : ""}</b>`).join("<i>→</i>")}</div></div>
+  <div class="cons">${c.concepts.map((k) => `<div class="con"><h3>${k.key}</h3><p class="who">${cite(k.who)} · 对应发现${k.finding === 1 ? "一" : "二"}</p><p>${k.def}</p><p class="u">${k.use}</p></div>`).join("")}</div>
+  <div class="an2">${c.analysis.map(([h, p]) => `<p><b>${h}</b>${p}</p>`).join("")}</div>
+</section>
+<section class="close">
+  <div class="concl"><p class="lab"><span class="no">07</span>结论</p><p class="lead">${c.conclusion.lead.join("")}</p><p>${c.conclusion.body}</p><p class="nx"><b>后续问题　</b>${c.conclusion.next}</p></div>
+  <div class="lim"><p class="lab"><span class="no">08</span>局限与反身性</p><ol>${c.limits.map(([h, p], i) => `<li><b>${i + 1}　${h}：</b>${p}</li>`).join("")}</ol><p class="rf"><b>反身性　</b>${c.reflexivity}</p></div>
+</section>
+<footer class="p"><ol>${c.refs.map((r) => `<li>${r}</li>`).join("")}</ol></footer>`;
+ready();
+</script>
+</body>
+</html>
